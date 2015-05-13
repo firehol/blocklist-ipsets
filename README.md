@@ -29,7 +29,7 @@ I decided to upload these lists to a github repo because:
 
 3. Github also provides a unified version control. Using it we can have a history of what each list has done, which IPs or subnets were added and which were removed.
 
-4. I have spent a huge amount of time harvesting these lists, testing them and understanding how we can improve the security of public services. I have concluded that using such lists is a key component of internet security. These lists share knowledge between us, allowing us to learn from each other and effectively isolate fraudsters and attackers from our services.
+4. I have spent some time harvesting these lists, testing them and understanding how we can improve the security of public services. I have concluded that using such lists is a key component of internet security. These lists share key knowledge between us, allowing us to learn from each other and effectively isolate fraudsters and attackers from our services.
 
 ---
 
