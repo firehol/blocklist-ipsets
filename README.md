@@ -1,4 +1,12 @@
-# blocklist-ipsets
+### Contents
+
+- [About this repo][about-this-repo]
+- [Using these ipsets][using-these-ipsets]
+- [Dynamic List of ipsets included][list-of-ipsets-included]
+
+---
+
+# About this repo
 
 This repository includes a list of ipsets dynamically updated with
 firehol's (https://github.com/ktsaou/firehol) `update-ipsets.sh`
@@ -29,7 +37,7 @@ Please be very careful what you choose to use and how you use it. If you blackli
 
 ---
 
-# Using them in FireHOL
+## Using them in FireHOL
 
 ### Adding the ipsets in your firehol.conf
 TODO
@@ -39,7 +47,7 @@ TODO
 
 ---
 
-# Using them using plain iptables commands
+## Using them using plain iptables commands
 
 ### Creating the ipsets
 TODO
