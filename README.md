@@ -8,7 +8,7 @@ I decided to upload these lists to a github repo because:
 
 1. They are free to use. The intention of their creators is to help internet security.
 
-2. Github provides (via `git pull`) a unified way of updating all the list together. Pulling this repo regularly on your machines, you will update all the IP lists at once.
+2. Github provides (via `git pull`) a unified way of updating all the lists together. Pulling this repo regularly on your machines, you will update all the IP lists at once.
 
 3. Github provides version control. Using it we can have a history of what each list has done, which IPs or subnets were added and which were removed.
 
