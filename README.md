@@ -31,10 +31,11 @@ Please be very careful what you choose to use and how you use it. If you blackli
 
 # Using them in FireHOL
 
-### Adding them in your firehol.conf
+### Adding the ipsets in your firehol.conf
 TODO
 
-### Updating them while the firewall is running
+### Updating the ipsets while the firewall is running
+TODO
 
 ---
 
