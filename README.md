@@ -34,15 +34,20 @@ I decided to upload these lists to a github repo because:
 ---
 
 # Using these ipsets
-Please be very careful what you choose to use and how you use it. If you blacklist traffic using these lists you may end up blocking your users, your customers, even yourself (!) from accessing your services.
+Please be very careful what you choose to use and how you use it.
+If you blacklist traffic using these lists you may end up blocking
+your users, your customers, even yourself (!) from accessing your
+services.
 
 1. Goto to the site of each list and read how each list is maintained. You are going to trust these guys for doing their job right.
 
 2. Most sites have either a donation system or commercial lists of higher quality. Try to support them. 
 
-3. Apply any blacklist at the internet side of your firewall. Be very carefull. The `bogons` and `fullbogons` lists contain private, unroutable IPs that should not be routed on the internet. If you apply such a blocklist on your DMZ or LAN side, you will be blocked out of your firewall.
+3. I have included the TOR network in these lists (`danmetor`, `tor`, `tor_servers`). The TOR network is not necessarily bad and you should not block it if you want to allow your users be anonymous. I have included it because for certain cases, allowing an anonymity network might be a risky thing (such as eCommerce).
 
-4. Always have a whitelist too, containing the IP addresses or subnets you trust. Try to build the rules in such a way that if an IP is in the whitelist, it should not be blocked by these blocklists.
+4. Apply any blacklist at the internet side of your firewall. Be very carefull. The `bogons` and `fullbogons` lists contain private, unroutable IPs that should not be routed on the internet. If you apply such a blocklist on your DMZ or LAN side, you will be blocked out of your firewall.
+
+5. Always have a whitelist too, containing the IP addresses or subnets you trust. Try to build the rules in such a way that if an IP is in the whitelist, it should not be blocked by these blocklists.
 
 ---
 
@@ -74,7 +79,7 @@ bogons|ipv4|hash:net|13|Wed May 13 19:14:57 UTC 2015|[source](http://www.team-cy
 botnet|ipv4|hash:ip|509|Wed May 13 19:14:24 UTC 2015|[source](http://rules.emergingthreats.net/fwrules/emerging-PIX-CC.rules?r=11460)
 clean_mx_viruses|ipv4|hash:ip|29|Wed May 13 19:16:01 UTC 2015|[source](http://support.clean-mx.de/clean-mx/xmlviruses.php?sort=id%20desc&response=alive)
 compromised|ipv4|hash:ip|2666|Wed May 13 19:14:22 UTC 2015|[source](http://rules.emergingthreats.net/blockrules/compromised-ips.txt?r=29423)
-danmetor|ipv4|hash:ip|6458|Wed May 13 19:45:07 UTC 2015|[source](https://www.dan.me.uk/torlist/?r=5386)
+danmetor|ipv4|hash:ip|6445|Wed May 13 20:51:21 UTC 2015|[source](https://www.dan.me.uk/torlist/?r=19103)
 dshield|ipv4|hash:net|20|Wed May 13 19:14:28 UTC 2015|[source](http://rules.emergingthreats.net/fwrules/emerging-PIX-DSHIELD.rules?r=261)
 emerging_block|ipv4|hash:net|1284|Wed May 13 19:14:30 UTC 2015|[source](http://rules.emergingthreats.net/fwrules/emerging-Block-IPs.txt?r=28672)
 fullbogons|ipv4|hash:net|3641|Wed May 13 19:14:59 UTC 2015|[source](http://www.team-cymru.org/Services/Bogons/fullbogons-ipv4.txt?r=14737)
@@ -90,5 +95,5 @@ spamhaus_edrop|ipv4|hash:net|54|Wed May 13 19:14:35 UTC 2015|[source](http://www
 stop_forum_spam_1h|ipv4|hash:ip|6470|Wed May 13 20:36:05 UTC 2015|[source](http://www.stopforumspam.com/downloads/listed_ip_1.zip)
 stop_forum_spam_7d|ipv4|hash:ip|31559|Wed May 13 19:14:55 UTC 2015|[source](http://www.stopforumspam.com/downloads/listed_ip_7.zip)
 tor|ipv4|hash:ip|6320|Wed May 13 19:14:17 UTC 2015|[source](http://rules.emergingthreats.net/blockrules/emerging-tor.rules?r=24649)
-tor_servers|ipv4|hash:ip|6449|Wed May 13 19:14:20 UTC 2015|[source](https://torstatus.blutmagie.de/ip_list_all.php/Tor_ip_list_ALL.csv?r=3940)
+tor_servers|ipv4|hash:ip|6447|Wed May 13 20:51:25 UTC 2015|[source](https://torstatus.blutmagie.de/ip_list_all.php/Tor_ip_list_ALL.csv?r=10581)
 zeus|ipv4|hash:ip|258|Wed May 13 19:54:13 UTC 2015|[source](https://zeustracker.abuse.ch/blocklist.php?download=ipblocklist&r=29737)
