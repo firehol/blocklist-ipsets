@@ -74,7 +74,7 @@ TODO
 # List of ipsets included
 name|IP version|ipset type|entries|updated|source link|
 :--:|:--------:|:--------:|:-----:|:-----:|:---------:|
-blocklist_de|ipv4|hash:ip|37469|Wed May 13 21:07:33 UTC 2015|[source](http://lists.blocklist.de/lists/all.txt?r=5067)
+blocklist_de|ipv4|hash:ip|37433|Wed May 13 21:36:08 UTC 2015|[source](http://lists.blocklist.de/lists/all.txt?r=173)
 bogons|ipv4|hash:net|13|Wed May 13 19:14:57 UTC 2015|[source](http://www.team-cymru.org/Services/Bogons/bogon-bn-agg.txt?r=1780)
 botnet|ipv4|hash:ip|509|Wed May 13 19:14:24 UTC 2015|[source](http://rules.emergingthreats.net/fwrules/emerging-PIX-CC.rules?r=11460)
 clean_mx_viruses|ipv4|hash:ip|29|Wed May 13 19:16:01 UTC 2015|[source](http://support.clean-mx.de/clean-mx/xmlviruses.php?sort=id%20desc&response=alive)
@@ -89,10 +89,9 @@ malwaredomainlist|ipv4|hash:ip|1283|Wed May 13 19:15:52 UTC 2015|[source](http:/
 openbl|ipv4|hash:ip|9888|Wed May 13 21:11:11 UTC 2015|[source](http://www.openbl.org/lists/base.txt?r=18530)
 rosi_connect_proxies|ipv4|hash:ip|152|Wed May 13 19:15:50 UTC 2015|[source](http://tools.rosinstrument.com/proxy/plab100.xml?r=12878)
 rosi_web_proxies|ipv4|hash:ip|142|Wed May 13 19:15:32 UTC 2015|[source](http://tools.rosinstrument.com/proxy/l100.xml?r=30893)
-spamhaus|ipv4|hash:net|631|Wed May 13 19:14:26 UTC 2015|[source](http://rules.emergingthreats.net/fwrules/emerging-PIX-DROP.rules?r=3353)
 spamhaus_drop|ipv4|hash:net|634|Wed May 13 19:14:33 UTC 2015|[source](http://www.spamhaus.org/drop/drop.txt?r=17177)
 spamhaus_edrop|ipv4|hash:net|54|Wed May 13 19:14:35 UTC 2015|[source](http://www.spamhaus.org/drop/edrop.txt?r=19697)
-stop_forum_spam_1h|ipv4|hash:ip|6470|Wed May 13 20:36:05 UTC 2015|[source](http://www.stopforumspam.com/downloads/listed_ip_1.zip)
+stop_forum_spam_1h|ipv4|hash:ip|6524|Wed May 13 21:36:11 UTC 2015|[source](http://www.stopforumspam.com/downloads/listed_ip_1.zip)
 stop_forum_spam_7d|ipv4|hash:ip|31559|Wed May 13 19:14:55 UTC 2015|[source](http://www.stopforumspam.com/downloads/listed_ip_7.zip)
 tor|ipv4|hash:ip|6320|Wed May 13 19:14:17 UTC 2015|[source](http://rules.emergingthreats.net/blockrules/emerging-tor.rules?r=24649)
 tor_servers|ipv4|hash:ip|6447|Wed May 13 20:51:25 UTC 2015|[source](https://torstatus.blutmagie.de/ip_list_all.php/Tor_ip_list_ALL.csv?r=10581)
