@@ -1,7 +1,16 @@
 ### Contents
 
 - [About this repo](#about-this-repo)
+
 - [Using these ipsets](#using-these-ipsets)
+ - [Using them in FireHOL](#using-them-in-firehol)
+    * [Adding the ipsets in your firehol.conf](#adding-the-ipsets-in-your-fireholconf)
+    * [Updating the ipsets while the firewall is running](#updating-the-ipsets-while-the-firewall-is-running)
+    
+ - [Using them using plain iptables commands](#using-them-using-plain-iptables-commands)
+    * [Creating the ipsets](#creating-the-ipsets) 
+    * [Updating the ipsets while the firewall is running](#updating-the-ipsets-while-the-firewall-is-running)
+    
 - [Dynamic List of ipsets included](#list-of-ipsets-included)
 
 ---
