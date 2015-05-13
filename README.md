@@ -80,6 +80,7 @@ botnet|ipv4|hash:ip|509|Wed May 13 19:14:24 UTC 2015|[source](http://rules.emerg
 clean_mx_viruses|ipv4|hash:ip|29|Wed May 13 19:16:01 UTC 2015|[source](http://support.clean-mx.de/clean-mx/xmlviruses.php?sort=id%20desc&response=alive)
 compromised|ipv4|hash:ip|2666|Wed May 13 19:14:22 UTC 2015|[source](http://rules.emergingthreats.net/blockrules/compromised-ips.txt?r=29423)
 danmetor|ipv4|hash:ip|6445|Wed May 13 20:51:21 UTC 2015|[source](https://www.dan.me.uk/torlist/?r=19103)
+dshield|ipv4|hash:net|20|Wed May 13 21:08:18 UTC 2015|[source](http://rules.emergingthreats.net/fwrules/emerging-PIX-DSHIELD.rules?r=18361)
 emerging_block|ipv4|hash:net|1284|Wed May 13 19:14:30 UTC 2015|[source](http://rules.emergingthreats.net/fwrules/emerging-Block-IPs.txt?r=28672)
 fullbogons|ipv4|hash:net|3641|Wed May 13 19:14:59 UTC 2015|[source](http://www.team-cymru.org/Services/Bogons/fullbogons-ipv4.txt?r=14737)
 infiltrated|ipv4|hash:ip|10318|Wed May 13 19:14:45 UTC 2015|[source](http://www.infiltrated.net/blacklisted?r=4593)
