@@ -1,8 +1,8 @@
 ### Contents
 
-- [About this repo][about-this-repo]
-- [Using these ipsets][using-these-ipsets]
-- [Dynamic List of ipsets included][list-of-ipsets-included]
+- [About this repo](#about-this-repo)
+- [Using these ipsets](#using-these-ipsets)
+- [Dynamic List of ipsets included](#list-of-ipsets-included)
 
 ---
 
