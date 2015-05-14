@@ -74,12 +74,12 @@ TODO
 # List of ipsets included
 name|IP version|ipset type|entries|updated|source link|
 :--:|:--------:|:--------:|:-----:|:-----:|:---------:|
-blocklist_de|ipv4|hash:ip|37131|Thu May 14 02:09:08 UTC 2015|[source](http://lists.blocklist.de/lists/all.txt?r=23405)
+blocklist_de|ipv4|hash:ip|37029|Thu May 14 02:36:16 UTC 2015|[source](http://lists.blocklist.de/lists/all.txt?r=15548)
 bogons|ipv4|hash:net|13|Wed May 13 19:14:57 UTC 2015|[source](http://www.team-cymru.org/Services/Bogons/bogon-bn-agg.txt?r=1780)
 botnet|ipv4|hash:ip|509|Wed May 13 19:14:24 UTC 2015|[source](http://rules.emergingthreats.net/fwrules/emerging-PIX-CC.rules?r=11460)
 clean_mx_viruses|ipv4|hash:ip|29|Wed May 13 19:16:01 UTC 2015|[source](http://support.clean-mx.de/clean-mx/xmlviruses.php?sort=id%20desc&response=alive)
 compromised|ipv4|hash:ip|2671|Thu May 14 00:54:10 UTC 2015|[source](http://rules.emergingthreats.net/blockrules/compromised-ips.txt?r=5185)
-danmetor|ipv4|hash:ip|6299|Thu May 14 02:00:04 UTC 2015|[source](https://www.dan.me.uk/torlist/?r=27922)
+danmetor|ipv4|hash:ip|6302|Thu May 14 02:36:07 UTC 2015|[source](https://www.dan.me.uk/torlist/?r=3397)
 dshield|ipv4|hash:net|20|Wed May 13 21:08:18 UTC 2015|[source](http://rules.emergingthreats.net/fwrules/emerging-PIX-DSHIELD.rules?r=18361)
 emerging_block|ipv4|hash:net|1286|Thu May 14 00:54:12 UTC 2015|[source](http://rules.emergingthreats.net/fwrules/emerging-Block-IPs.txt?r=285)
 fullbogons|ipv4|hash:net|3641|Wed May 13 19:14:59 UTC 2015|[source](http://www.team-cymru.org/Services/Bogons/fullbogons-ipv4.txt?r=14737)
