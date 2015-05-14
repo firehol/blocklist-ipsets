@@ -74,7 +74,7 @@ TODO
 # List of ipsets included
 name|IP version|ipset type|entries|updated|source link|
 :--:|:--------:|:--------:|:-----:|:-----:|:---------:|
-blocklist_de|ipv4|hash:ip|35978|Thu May 14 07:36:09 UTC 2015|[source](http://lists.blocklist.de/lists/all.txt?r=14206)
+blocklist_de|ipv4|hash:ip|35873|Thu May 14 08:09:08 UTC 2015|[source](http://lists.blocklist.de/lists/all.txt?r=6462)
 bogons|ipv4|hash:net|13|Wed May 13 19:14:57 UTC 2015|[source](http://www.team-cymru.org/Services/Bogons/bogon-bn-agg.txt?r=1780)
 botnet|ipv4|hash:ip|509|Wed May 13 19:14:24 UTC 2015|[source](http://rules.emergingthreats.net/fwrules/emerging-PIX-CC.rules?r=11460)
 clean_mx_viruses|ipv4|hash:ip|48|Thu May 14 06:45:34 UTC 2015|[source](http://support.clean-mx.de/clean-mx/xmlviruses.php?sort=id%20desc&response=alive)
@@ -95,4 +95,4 @@ stop_forum_spam_1h|ipv4|hash:ip|6618|Thu May 14 07:45:10 UTC 2015|[source](http:
 stop_forum_spam_7d|ipv4|hash:ip|31559|Wed May 13 19:14:55 UTC 2015|[source](http://www.stopforumspam.com/downloads/listed_ip_7.zip)
 tor|ipv4|hash:ip|6320|Wed May 13 19:14:17 UTC 2015|[source](http://rules.emergingthreats.net/blockrules/emerging-tor.rules?r=24649)
 tor_servers|ipv4|hash:ip|6328|Thu May 14 06:36:08 UTC 2015|[source](https://torstatus.blutmagie.de/ip_list_all.php/Tor_ip_list_ALL.csv?r=10894)
-zeus|ipv4|hash:ip|263|Thu May 14 07:09:14 UTC 2015|[source](https://zeustracker.abuse.ch/blocklist.php?download=ipblocklist&r=32656)
+zeus|ipv4|hash:ip|262|Thu May 14 08:09:10 UTC 2015|[source](https://zeustracker.abuse.ch/blocklist.php?download=ipblocklist&r=23336)
