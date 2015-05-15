@@ -74,12 +74,12 @@ TODO
 # List of ipsets included
 name|IP version|ipset type|entries|updated|source link|
 :--:|:--------:|:--------:|:-----:|:-----:|:---------:|
-blocklist_de|ipv4|hash:ip|34373|Fri May 15 16:27:09 UTC 2015|[source](http://lists.blocklist.de/lists/all.txt?r=13573)
+blocklist_de|ipv4|hash:ip|34383|Fri May 15 16:54:15 UTC 2015|[source](http://lists.blocklist.de/lists/all.txt?r=14710)
 bogons|ipv4|hash:net|13|Wed May 13 19:14:57 UTC 2015|[source](http://www.team-cymru.org/Services/Bogons/bogon-bn-agg.txt?r=1780)
 botnet|ipv4|hash:ip|451|Fri May 15 10:54:08 UTC 2015|[source](http://rules.emergingthreats.net/fwrules/emerging-PIX-CC.rules?r=19286)
 clean_mx_viruses|ipv4|hash:ip|314|Fri May 15 07:00:43 UTC 2015|[source](http://support.clean-mx.de/clean-mx/xmlviruses.php?sort=id%20desc&response=alive)
 compromised|ipv4|hash:ip|2665|Fri May 15 00:36:06 UTC 2015|[source](http://rules.emergingthreats.net/blockrules/compromised-ips.txt?r=30721)
-danmetor|ipv4|hash:ip|6450|Fri May 15 15:45:08 UTC 2015|[source](https://www.dan.me.uk/torlist/?r=30795)
+danmetor|ipv4|hash:ip|6466|Fri May 15 16:54:06 UTC 2015|[source](https://www.dan.me.uk/torlist/?r=20138)
 dshield|ipv4|hash:net|20|Fri May 15 08:45:04 UTC 2015|[source](http://rules.emergingthreats.net/fwrules/emerging-PIX-DSHIELD.rules?r=31959)
 emerging_block|ipv4|hash:net|1286|Fri May 15 00:36:08 UTC 2015|[source](http://rules.emergingthreats.net/fwrules/emerging-Block-IPs.txt?r=29824)
 fullbogons|ipv4|hash:net|3624|Fri May 15 12:45:07 UTC 2015|[source](http://www.team-cymru.org/Services/Bogons/fullbogons-ipv4.txt?r=4188)
@@ -91,7 +91,7 @@ rosi_connect_proxies|ipv4|hash:ip|150|Fri May 15 11:01:24 UTC 2015|[source](http
 rosi_web_proxies|ipv4|hash:ip|141|Fri May 15 11:00:55 UTC 2015|[source](http://tools.rosinstrument.com/proxy/l100.xml?r=7040)
 spamhaus_drop|ipv4|hash:net|637|Fri May 15 12:27:07 UTC 2015|[source](http://www.spamhaus.org/drop/drop.txt?r=19040)
 spamhaus_edrop|ipv4|hash:net|53|Fri May 15 12:27:09 UTC 2015|[source](http://www.spamhaus.org/drop/edrop.txt?r=8493)
-stop_forum_spam_1h|ipv4|hash:ip|6538|Fri May 15 15:45:13 UTC 2015|[source](http://www.stopforumspam.com/downloads/listed_ip_1.zip)
+stop_forum_spam_1h|ipv4|hash:ip|6514|Fri May 15 16:54:19 UTC 2015|[source](http://www.stopforumspam.com/downloads/listed_ip_1.zip)
 stop_forum_spam_30d|ipv4|hash:ip|94504|Fri May 15 08:45:21 UTC 2015|[source](http://www.stopforumspam.com/downloads/listed_ip_30.zip)
 stop_forum_spam_7d|ipv4|hash:ip|30954|Thu May 14 18:18:07 UTC 2015|[source](http://www.stopforumspam.com/downloads/listed_ip_7.zip)
 tor|ipv4|hash:ip|6280|Fri May 15 10:54:06 UTC 2015|[source](http://rules.emergingthreats.net/blockrules/emerging-tor.rules?r=29059)
