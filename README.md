@@ -74,7 +74,7 @@ TODO
 # List of ipsets included
 name|IP version|ipset type|entries|updated|source link|
 :--:|:--------:|:--------:|:-----:|:-----:|:---------:|
-blocklist_de|ipv4|hash:ip|36175|Fri May 15 11:54:09 UTC 2015|[source](http://lists.blocklist.de/lists/all.txt?r=29719)
+blocklist_de|ipv4|hash:ip|36017|Fri May 15 12:27:19 UTC 2015|[source](http://lists.blocklist.de/lists/all.txt?r=13507)
 bogons|ipv4|hash:net|13|Wed May 13 19:14:57 UTC 2015|[source](http://www.team-cymru.org/Services/Bogons/bogon-bn-agg.txt?r=1780)
 botnet|ipv4|hash:ip|451|Fri May 15 10:54:08 UTC 2015|[source](http://rules.emergingthreats.net/fwrules/emerging-PIX-CC.rules?r=19286)
 clean_mx_viruses|ipv4|hash:ip|314|Fri May 15 07:00:43 UTC 2015|[source](http://support.clean-mx.de/clean-mx/xmlviruses.php?sort=id%20desc&response=alive)
@@ -89,8 +89,8 @@ malwaredomainlist|ipv4|hash:ip|1283|Wed May 13 19:15:52 UTC 2015|[source](http:/
 openbl|ipv4|hash:ip|9808|Fri May 15 12:00:04 UTC 2015|[source](http://www.openbl.org/lists/base.txt?r=22061)
 rosi_connect_proxies|ipv4|hash:ip|150|Fri May 15 11:01:24 UTC 2015|[source](http://tools.rosinstrument.com/proxy/plab100.xml?r=2482)
 rosi_web_proxies|ipv4|hash:ip|141|Fri May 15 11:00:55 UTC 2015|[source](http://tools.rosinstrument.com/proxy/l100.xml?r=7040)
-spamhaus_drop|ipv4|hash:net|634|Wed May 13 19:14:33 UTC 2015|[source](http://www.spamhaus.org/drop/drop.txt?r=17177)
-spamhaus_edrop|ipv4|hash:net|52|Thu May 14 12:45:12 UTC 2015|[source](http://www.spamhaus.org/drop/edrop.txt?r=24868)
+spamhaus_drop|ipv4|hash:net|637|Fri May 15 12:27:07 UTC 2015|[source](http://www.spamhaus.org/drop/drop.txt?r=19040)
+spamhaus_edrop|ipv4|hash:net|53|Fri May 15 12:27:09 UTC 2015|[source](http://www.spamhaus.org/drop/edrop.txt?r=8493)
 stop_forum_spam_1h|ipv4|hash:ip|6568|Fri May 15 12:18:09 UTC 2015|[source](http://www.stopforumspam.com/downloads/listed_ip_1.zip)
 stop_forum_spam_30d|ipv4|hash:ip|94504|Fri May 15 08:45:21 UTC 2015|[source](http://www.stopforumspam.com/downloads/listed_ip_30.zip)
 stop_forum_spam_7d|ipv4|hash:ip|30954|Thu May 14 18:18:07 UTC 2015|[source](http://www.stopforumspam.com/downloads/listed_ip_7.zip)
