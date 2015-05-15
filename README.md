@@ -77,7 +77,7 @@ name|IP version|ipset type|entries|updated|source link|
 blocklist_de|ipv4|hash:ip|36762|Fri May 15 06:54:08 UTC 2015|[source](http://lists.blocklist.de/lists/all.txt?r=3364)
 bogons|ipv4|hash:net|13|Wed May 13 19:14:57 UTC 2015|[source](http://www.team-cymru.org/Services/Bogons/bogon-bn-agg.txt?r=1780)
 botnet|ipv4|hash:ip|481|Thu May 14 11:09:12 UTC 2015|[source](http://rules.emergingthreats.net/fwrules/emerging-PIX-CC.rules?r=31981)
-clean_mx_viruses|ipv4|hash:ip|55|Thu May 14 18:54:44 UTC 2015|[source](http://support.clean-mx.de/clean-mx/xmlviruses.php?sort=id%20desc&response=alive)
+clean_mx_viruses|ipv4|hash:ip|314|Fri May 15 07:00:43 UTC 2015|[source](http://support.clean-mx.de/clean-mx/xmlviruses.php?sort=id%20desc&response=alive)
 compromised|ipv4|hash:ip|2665|Fri May 15 00:36:06 UTC 2015|[source](http://rules.emergingthreats.net/blockrules/compromised-ips.txt?r=30721)
 danmetor|ipv4|hash:ip|6387|Fri May 15 06:36:06 UTC 2015|[source](https://www.dan.me.uk/torlist/?r=27418)
 dshield|ipv4|hash:net|20|Thu May 14 09:00:06 UTC 2015|[source](http://rules.emergingthreats.net/fwrules/emerging-PIX-DSHIELD.rules?r=10894)
