@@ -79,7 +79,7 @@ bogons|ipv4|hash:net|13|Wed May 13 19:14:57 UTC 2015|[source](http://www.team-cy
 botnet|ipv4|hash:ip|481|Thu May 14 11:09:12 UTC 2015|[source](http://rules.emergingthreats.net/fwrules/emerging-PIX-CC.rules?r=31981)
 clean_mx_viruses|ipv4|hash:ip|55|Thu May 14 18:54:44 UTC 2015|[source](http://support.clean-mx.de/clean-mx/xmlviruses.php?sort=id%20desc&response=alive)
 compromised|ipv4|hash:ip|2665|Fri May 15 00:36:06 UTC 2015|[source](http://rules.emergingthreats.net/blockrules/compromised-ips.txt?r=30721)
-danmetor|ipv4|hash:ip|6304|Fri May 15 04:54:06 UTC 2015|[source](https://www.dan.me.uk/torlist/?r=18541)
+danmetor|ipv4|hash:ip|6336|Fri May 15 06:00:09 UTC 2015|[source](https://www.dan.me.uk/torlist/?r=25865)
 dshield|ipv4|hash:net|20|Thu May 14 09:00:06 UTC 2015|[source](http://rules.emergingthreats.net/fwrules/emerging-PIX-DSHIELD.rules?r=10894)
 emerging_block|ipv4|hash:net|1286|Fri May 15 00:36:08 UTC 2015|[source](http://rules.emergingthreats.net/fwrules/emerging-Block-IPs.txt?r=29824)
 fullbogons|ipv4|hash:net|3632|Thu May 14 12:54:20 UTC 2015|[source](http://www.team-cymru.org/Services/Bogons/fullbogons-ipv4.txt?r=11579)
