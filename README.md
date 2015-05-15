@@ -74,7 +74,7 @@ TODO
 # List of ipsets included
 name|IP version|ipset type|entries|updated|source link|
 :--:|:--------:|:--------:|:-----:|:-----:|:---------:|
-blocklist_de|ipv4|hash:ip|35776|Fri May 15 12:54:19 UTC 2015|[source](http://lists.blocklist.de/lists/all.txt?r=30197)
+blocklist_de|ipv4|hash:ip|35368|Fri May 15 13:27:15 UTC 2015|[source](http://lists.blocklist.de/lists/all.txt?r=28215)
 bogons|ipv4|hash:net|13|Wed May 13 19:14:57 UTC 2015|[source](http://www.team-cymru.org/Services/Bogons/bogon-bn-agg.txt?r=1780)
 botnet|ipv4|hash:ip|451|Fri May 15 10:54:08 UTC 2015|[source](http://rules.emergingthreats.net/fwrules/emerging-PIX-CC.rules?r=19286)
 clean_mx_viruses|ipv4|hash:ip|314|Fri May 15 07:00:43 UTC 2015|[source](http://support.clean-mx.de/clean-mx/xmlviruses.php?sort=id%20desc&response=alive)
@@ -91,9 +91,9 @@ rosi_connect_proxies|ipv4|hash:ip|150|Fri May 15 11:01:24 UTC 2015|[source](http
 rosi_web_proxies|ipv4|hash:ip|141|Fri May 15 11:00:55 UTC 2015|[source](http://tools.rosinstrument.com/proxy/l100.xml?r=7040)
 spamhaus_drop|ipv4|hash:net|637|Fri May 15 12:27:07 UTC 2015|[source](http://www.spamhaus.org/drop/drop.txt?r=19040)
 spamhaus_edrop|ipv4|hash:net|53|Fri May 15 12:27:09 UTC 2015|[source](http://www.spamhaus.org/drop/edrop.txt?r=8493)
-stop_forum_spam_1h|ipv4|hash:ip|6568|Fri May 15 12:18:09 UTC 2015|[source](http://www.stopforumspam.com/downloads/listed_ip_1.zip)
+stop_forum_spam_1h|ipv4|hash:ip|6553|Fri May 15 13:27:21 UTC 2015|[source](http://www.stopforumspam.com/downloads/listed_ip_1.zip)
 stop_forum_spam_30d|ipv4|hash:ip|94504|Fri May 15 08:45:21 UTC 2015|[source](http://www.stopforumspam.com/downloads/listed_ip_30.zip)
 stop_forum_spam_7d|ipv4|hash:ip|30954|Thu May 14 18:18:07 UTC 2015|[source](http://www.stopforumspam.com/downloads/listed_ip_7.zip)
 tor|ipv4|hash:ip|6280|Fri May 15 10:54:06 UTC 2015|[source](http://rules.emergingthreats.net/blockrules/emerging-tor.rules?r=29059)
-tor_servers|ipv4|hash:ip|6449|Fri May 15 12:54:12 UTC 2015|[source](https://torstatus.blutmagie.de/ip_list_all.php/Tor_ip_list_ALL.csv?r=13390)
-zeus|ipv4|hash:ip|260|Fri May 15 09:54:10 UTC 2015|[source](https://zeustracker.abuse.ch/blocklist.php?download=ipblocklist&r=12373)
+tor_servers|ipv4|hash:ip|6445|Fri May 15 13:27:08 UTC 2015|[source](https://torstatus.blutmagie.de/ip_list_all.php/Tor_ip_list_ALL.csv?r=30674)
+zeus|ipv4|hash:ip|261|Fri May 15 13:27:19 UTC 2015|[source](https://zeustracker.abuse.ch/blocklist.php?download=ipblocklist&r=6359)
