@@ -95,5 +95,5 @@ stop_forum_spam_1h|ipv4|hash:ip|6298|Fri May 15 22:27:05 UTC 2015|[source](http:
 stop_forum_spam_30d|ipv4|hash:ip|94504|Fri May 15 08:45:21 UTC 2015|[source](http://www.stopforumspam.com/downloads/listed_ip_30.zip)
 stop_forum_spam_7d|ipv4|hash:ip|30735|Fri May 15 18:27:16 UTC 2015|[source](http://www.stopforumspam.com/downloads/listed_ip_7.zip)
 tor|ipv4|hash:ip|6280|Fri May 15 10:54:06 UTC 2015|[source](http://rules.emergingthreats.net/blockrules/emerging-tor.rules?r=29059)
-tor_servers|ipv4|hash:ip|6456|Fri May 15 22:00:20 UTC 2015|[source](https://torstatus.blutmagie.de/ip_list_all.php/Tor_ip_list_ALL.csv?r=23334)
+tor_servers|ipv4|hash:ip|6421|Fri May 15 23:09:10 UTC 2015|[source](https://torstatus.blutmagie.de/ip_list_all.php/Tor_ip_list_ALL.csv?r=25013)
 zeus|ipv4|hash:ip|261|Fri May 15 20:27:10 UTC 2015|[source](https://zeustracker.abuse.ch/blocklist.php?download=ipblocklist&r=28196)
