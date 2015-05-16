@@ -19,7 +19,29 @@
 
 This repository includes a list of ipsets dynamically updated with
 firehol's (https://github.com/ktsaou/firehol) `update-ipsets.sh`
-script.
+script found [here](https://github.com/ktsaou/firehol/blob/master/contrib/update-ipsets.sh).
+
+This repo is self maintained. It it updated automatically from the script via a cron job.
+
+## Why do we need blocklists?
+
+As time passes and the internet matures in our life, cyber crime is becoming increasingly sophisticated.
+Although there many tools (detection of malware, viruses, intrusion detection and prevension systems, etc)
+to help us isolate the budguys, at the end of day they always manage to bypass all that.
+
+What is more interesting is that the fraudsters or attackers in many cases are not going to do a
+direct damage to you or your systems. They will use you and your systems to gain something else,
+possibly indirectly related to your business. The attacks cannot be identified easily. They are
+distributed and each of the IPs accessing your systems appears to be using your systems in a
+legitimate way. To get an idea, check for example the [XRumer](http://en.wikipedia.org/wiki/XRumer) software.
+
+The only solution is our shared knowledge, our shared experience in this fight.
+
+Hopefully, there are many teams out there that do their best to identify the attacks and pinpoint
+the attackers. These teams release blocklists. Blocklists of IPs (for use in firewalls), domains & URLs
+(for use in proxies), etc.
+
+What we are interested here is IPs.
 
 Using blocklists at the internet side of your firewall is a key component of internet security.
 These lists share key knowledge between us, allowing us to learn from each other and effectively
@@ -31,9 +53,11 @@ I decided to upload these lists to a github repo because:
  Keep in mind though that a few of these lists may have special licences attached. Before using them, please
  check their source site for any information regarding proper use.
 
-2. Github provides (via `git pull`) a unified way of updating all the lists together. Pulling this repo regularly on your machines, you will update all the IP lists at once.
+2. Github provides (via `git pull`) a unified way of updating all the lists together.
+ Pulling this repo regularly on your machines, you will update all the IP lists at once.
 
-3. Github also provides a unified version control. Using it we can have a history of what each list has done, which IPs or subnets were added and which were removed.
+3. Github also provides a unified version control. Using it we can have a history of what each list has done,
+ which IPs or subnets were added and which were removed.
 
 
 ---
@@ -59,10 +83,36 @@ services.
 ## Using them in FireHOL
 
 ### Adding the ipsets in your firehol.conf
-TODO
+
+I use something like this. Keep in mind that you have to have the `whitelist` ipset created before all these.
+iptables will log each match, together with the name of the ipset that matched the packet.
+
+```sh
+	# subnets
+        for x in fullbogons dshield spamhaus_drop spamhaus_edrop
+        do
+                ipset4 create  ${x} hash:net
+                ipset4 addfile ${x} ipsets/${x}.netset
+                blacklist4 full inface "${wan}" log "BLACKLIST ${x^^}" ipset:${x} except src ipset:whitelist
+        done
+
+	# individual IPs
+        for x in zeus feodo palevo autoshun openbl blocklist_de malc0de ciarmy \
+                malwaredomainlist snort_ipfilter stop_forum_spam_1h stop_forum_spam_7d \
+                bruteforceblocker rosi_connect_proxies rosi_web_proxies compromised
+        do
+                ipset4 create  ${x} hash:ip
+                ipset4 addfile ${x} ipsets/${x}.ipset
+                blacklist4 full inface "${wan}" log "BLACKLIST ${x^^}" ipset:${x} except src ipset:whitelist
+        done
+```
 
 ### Updating the ipsets while the firewall is running
-TODO
+
+Just use the `update-ipsets.sh` script from the firehol distribution. This script will update each ipset and call firehol to update the ipset while the firewall is running.
+
+Keep in mind that you have to use the `update-ipsets.sh` script before activating the firewall, so that the ipset exist on disk.
+
 
 ---
 
@@ -81,14 +131,14 @@ name|info|type|entries|freq|links|
 :--:|:--:|:--:|:-----:|:--:|:---:|
 alienvault_reputation|AlienVault.com IP reputation database|ipv4 hash:ip|199957|12 hours |[source](https://reputation.alienvault.com/reputation.generic?r=6740)
 autoshun|AutoShun.org IPs identified as hostile by correlating logs from distributed snort installations running the autoshun plugin|ipv4 hash:ip|825|4 hours |[source](http://www.autoshun.org/files/shunlist.csv?r=14353)
-blocklist_de|Blocklist.de IPs that have attacked their honeypots in the last 48 hours|ipv4 hash:ip|27904|30 mins |[source](http://lists.blocklist.de/lists/all.txt?r=11783)
+blocklist_de|Blocklist.de IPs that have attacked their honeypots in the last 48 hours|ipv4 hash:ip|27913|30 mins |[source](http://lists.blocklist.de/lists/all.txt?r=2384)
 bogons|Team-Cymru.org provided private and reserved addresses defined by RFC 1918, RFC 5735, and RFC 6598 and netblocks that have not been allocated to a regional internet registry|ipv4 hash:net|13|1 day |[source](http://www.team-cymru.org/Services/Bogons/bogon-bn-agg.txt?r=170)
 botnet|EmergingThreats.net botnet IPs (at the time of writing includes all abuse.ch trackers)|ipv4 hash:ip|477|12 hours |[source](http://rules.emergingthreats.net/fwrules/emerging-PIX-CC.rules?r=3356)
 bruteforceblocker|danger.rulez.sk IPs detected by bruteforceblocker (fail2ban alternative for SSH on OpenBSD)|ipv4 hash:ip|2693|3 hours |[source](http://danger.rulez.sk/projects/bruteforceblocker/blist.php?r=18480)
 ciarmy|CIArmy.com IPs with poor Rogue Packet score that have not yet been identified as malicious by the InfoSec community|ipv4 hash:ip|488|3 hours |[source](http://cinsscore.com/list/ci-badguys.txt?r=106)
 clean_mx_viruses|Clean-MX.de IPs with viruses|ipv4 hash:ip|170|12 hours |[source](http://support.clean-mx.de/clean-mx/xmlviruses.php?sort=id%20desc&response=alive)
 compromised|EmergingThreats.net distribution of IPs that have beed compromised (at the time of writing includes openbl and bruteforceblocker)|ipv4 hash:ip|2691|12 hours |[source](http://rules.emergingthreats.net/blockrules/compromised-ips.txt?r=1265)
-danmetor|dan.me.uk dynamic list of TOR exit points|ipv4 hash:ip|6486|30 mins |[source](https://www.dan.me.uk/torlist/?r=2226)
+danmetor|dan.me.uk dynamic list of TOR exit points|ipv4 hash:ip|6462|30 mins |[source](https://www.dan.me.uk/torlist/?r=5057)
 dshield|DShield.org top 20 attacking networks|ipv4 hash:net|20|4 hours |[source](http://feeds.dshield.org/block.txt?r=24842)
 emerging_block|EmergingThreats.net default blacklist (at the time of writing includes spamhaus DROP and dshield)|ipv4 hash:net|1302|12 hours |[source](http://rules.emergingthreats.net/fwrules/emerging-Block-IPs.txt?r=20669)
 feodo|Abuse.ch Feodo trojan includes IPs which are being used by Feodo (also known as Cridex or Bugat) which commits ebanking fraud|ipv4 hash:ip|34|30 mins |[source](https://feodotracker.abuse.ch/blocklist/?download=ipblocklist&r=30725)
