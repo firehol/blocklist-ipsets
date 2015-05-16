@@ -80,14 +80,14 @@ TODO
 name|IP version|ipset type|entries|updated|source link|
 :--:|:--------:|:--------:|:-----:|:-----:|:---------:|
 alienvault_reputation|ipv4|hash:ip|175552|Sat May 16 15:36:40 UTC 2015|[source](https://reputation.alienvault.com/reputation.generic?r=9153)
-blocklist_de|ipv4|hash:ip|22709|Sat May 16 16:27:18 UTC 2015|[source](http://lists.blocklist.de/lists/all.txt?r=10701)
+blocklist_de|ipv4|hash:ip|22734|Sat May 16 16:58:58 UTC 2015|[source](http://lists.blocklist.de/lists/all.txt?r=16865)
 bogons|ipv4|hash:net|13|Wed May 13 19:14:57 UTC 2015|[source](http://www.team-cymru.org/Services/Bogons/bogon-bn-agg.txt?r=1780)
 botnet|ipv4|hash:ip|395|Sat May 16 11:09:19 UTC 2015|[source](http://rules.emergingthreats.net/fwrules/emerging-PIX-CC.rules?r=27013)
 bruteforceblocker|ipv4|hash:ip|2074|Sat May 16 14:55:16 UTC 2015|[source](http://danger.rulez.sk/projects/bruteforceblocker/blist.php?r=16016)
 ciarmy|ipv4|hash:ip|409|Sat May 16 14:55:11 UTC 2015|[source](http://cinsscore.com/list/ci-badguys.txt?r=16323)
 clean_mx_viruses|ipv4|hash:ip|269|Sat May 16 07:45:39 UTC 2015|[source](http://support.clean-mx.de/clean-mx/xmlviruses.php?sort=id%20desc&response=alive)
 compromised|ipv4|hash:ip|2077|Sat May 16 12:36:08 UTC 2015|[source](http://rules.emergingthreats.net/blockrules/compromised-ips.txt?r=27475)
-danmetor|ipv4|hash:ip|5643|Sat May 16 15:54:08 UTC 2015|[source](https://www.dan.me.uk/torlist/?r=1773)
+danmetor|ipv4|hash:ip|5666|Sat May 16 16:58:49 UTC 2015|[source](https://www.dan.me.uk/torlist/?r=12132)
 dshield|ipv4|hash:net|20|Sat May 16 16:32:51 UTC 2015|[source](http://feeds.dshield.org/block.txt?r=12547)
 emerging_block|ipv4|hash:net|992|Sat May 16 12:36:13 UTC 2015|[source](http://rules.emergingthreats.net/fwrules/emerging-Block-IPs.txt?r=27115)
 fullbogons|ipv4|hash:net|3380|Sat May 16 12:54:11 UTC 2015|[source](http://www.team-cymru.org/Services/Bogons/fullbogons-ipv4.txt?r=26354)
