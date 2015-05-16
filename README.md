@@ -80,7 +80,7 @@ TODO
 name|info|type|entries|freq|links|
 :--:|:--:|:--:|:-----:|:--:|:---:|
 alienvault_reputation|AlienVault.com IP reputation database|ipv4 hash:ip|199957|12 hours |[source](https://reputation.alienvault.com/reputation.generic?r=6740)
-blocklist_de|Blocklist.de IPs that have attacked their honeypots in the last 48 hours|ipv4 hash:ip|27858|30 mins |[source](http://lists.blocklist.de/lists/all.txt?r=17713)
+blocklist_de|Blocklist.de IPs that have attacked their honeypots in the last 48 hours|ipv4 hash:ip|27871|30 mins |[source](http://lists.blocklist.de/lists/all.txt?r=7131)
 bogons|Team-Cymru.org provided private and reserved addresses defined by RFC 1918, RFC 5735, and RFC 6598 and netblocks that have not been allocated to a regional internet registry|ipv4 hash:net|13|1 day |[source](http://www.team-cymru.org/Services/Bogons/bogon-bn-agg.txt?r=170)
 botnet|EmergingThreats.net botnet IPs (at the time of writing includes all abuse.ch trackers)|ipv4 hash:ip|477|12 hours |[source](http://rules.emergingthreats.net/fwrules/emerging-PIX-CC.rules?r=3356)
 bruteforceblocker|danger.rulez.sk IPs detected by bruteforceblocker (fail2ban alternative for SSH on OpenBSD)|ipv4 hash:ip|2694|3 hours |[source](http://danger.rulez.sk/projects/bruteforceblocker/blist.php?r=4588)
@@ -109,7 +109,7 @@ openbl_30d|OpenBL.org last 30 days IPs|ipv4 hash:ip|5136|4 hours |[source](http:
 openbl_60d|OpenBL.org last 60 days IPs|ipv4 hash:ip|7711|4 hours |[source](http://www.openbl.org/lists/base_60days.txt.gz?r=10050)
 openbl_7d|OpenBL.org last 7 days IPs|ipv4 hash:ip|982|4 hours |[source](http://www.openbl.org/lists/base_7days.txt.gz?r=23013)
 openbl_90d|OpenBL.org last 90 days IPs|ipv4 hash:ip|9809|4 hours |[source](http://www.openbl.org/lists/base_90days.txt.gz?r=1898)
-palevo|Abuse.ch Palevo worm includes IPs which are being used as botnet C&C for the Palevo crimeware|ipv4 hash:ip|13|30 mins |[source](https://palevotracker.abuse.ch/blocklists.php?download=ipblocklist&r=967)
+palevo|Abuse.ch Palevo worm includes IPs which are being used as botnet C&C for the Palevo crimeware|ipv4 hash:ip|13|30 mins |[source](https://palevotracker.abuse.ch/blocklists.php?download=ipblocklist&r=29474)
 rosi_connect_proxies|rosinstrument.com open CONNECT proxies distributed via its RSS feed and aggregated for the last 7 days|ipv4 hash:ip|295|2 hours |[source](http://tools.rosinstrument.com/proxy/plab100.xml?r=13838)
 rosi_web_proxies|rosinstrument.com open HTTP proxies distributed via its RSS feed and aggregated for the last 7 days|ipv4 hash:ip|412|2 hours |[source](http://tools.rosinstrument.com/proxy/l100.xml?r=13258)
 snort_ipfilter|labs.snort.org supplied IP blacklist|ipv4 hash:ip|6844|12 hours |[source](http://labs.snort.org/feeds/ip-filter.blf?r=18475)
@@ -119,6 +119,6 @@ stop_forum_spam_1h|StopForumSpam.com last 24 hours IPs used by forum spammers|ip
 stop_forum_spam_30d|StopForumSpam.com last 30 days IPs used by forum spammers|ipv4 hash:ip|93853|1 day |[source](http://www.stopforumspam.com/downloads/listed_ip_30.zip)
 stop_forum_spam_7d|StopForumSpam.com last 7 days IPs used by forum spammers|ipv4 hash:ip|29670|1 day |[source](http://www.stopforumspam.com/downloads/listed_ip_7.zip)
 tor|EmergingThreats.net list of TOR network IPs|ipv4 hash:ip|6420|12 hours |[source](http://rules.emergingthreats.net/blockrules/emerging-tor.rules?r=32167)
-tor_servers|torstatus.blutmagie.de list of all TOR network servers|ipv4 hash:ip|6519|30 mins |[source](https://torstatus.blutmagie.de/ip_list_all.php/Tor_ip_list_ALL.csv?r=26601)
+tor_servers|torstatus.blutmagie.de list of all TOR network servers|ipv4 hash:ip|6506|30 mins |[source](https://torstatus.blutmagie.de/ip_list_all.php/Tor_ip_list_ALL.csv?r=17251)
 zeus|Abuse.ch Zeus Tracker default blocklist including hijacked sites and web hosting providers|ipv4 hash:ip|262|30 mins |[source](https://zeustracker.abuse.ch/blocklist.php?download=ipblocklist&r=16351)
 zeus_badips|Abuse.ch Zeus Tracker includes IPv4 addresses that are used by the ZeuS trojan|ipv4 hash:ip|228|30 mins |[source](https://zeustracker.abuse.ch/blocklist.php?download=badips&r=20505)
