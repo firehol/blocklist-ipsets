@@ -31,11 +31,13 @@ to help us isolate the budguys, at the end of day they always manage to bypass a
 
 What is more interesting is that the fraudsters or attackers in many cases are not going to do a
 direct damage to you or your systems. They will use you and your systems to gain something else,
-possibly indirectly related to your business. The attacks cannot be identified easily. They are
-distributed and each of the IPs accessing your systems appears to be using your systems in a
-legitimate way. To get an idea, check for example the [XRumer](http://en.wikipedia.org/wiki/XRumer) software.
+possibly not related or indirectly related to your business. Nowdays the attacks cannot be identified easily. They are
+distributed and come to our systems from a vast amount of IPs around the world.
 
-The only solution is our shared knowledge, our shared experience in this fight.
+To get an idea, check for example the [XRumer](http://en.wikipedia.org/wiki/XRumer) software.
+
+To increase our effectiveness we need to complement our security solutions with our 
+shared knowledge, our shared experience in this fight.
 
 Hopefully, there are many teams out there that do their best to identify the attacks and pinpoint
 the attackers. These teams release blocklists. Blocklists of IPs (for use in firewalls), domains & URLs
@@ -43,7 +45,7 @@ the attackers. These teams release blocklists. Blocklists of IPs (for use in fir
 
 What we are interested here is IPs.
 
-Using blocklists at the internet side of your firewall is a key component of internet security.
+Using IP blocklists at the internet side of your firewall is a key component of internet security.
 These lists share key knowledge between us, allowing us to learn from each other and effectively
 isolate fraudsters and attackers from our services.
 
