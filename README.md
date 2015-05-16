@@ -31,11 +31,13 @@ to help us isolate the budguys, at the end of day they always manage to bypass a
 
 What is more interesting is that the fraudsters or attackers in many cases are not going to do a
 direct damage to you or your systems. They will use you and your systems to gain something else,
-possibly indirectly related to your business. The attacks cannot be identified easily. They are
-distributed and each of the IPs accessing your systems appears to be using your systems in a
-legitimate way. To get an idea, check for example the [XRumer](http://en.wikipedia.org/wiki/XRumer) software.
+possibly not related or indirectly related to your business. Nowdays the attacks cannot be identified easily. They are
+distributed and come to our systems from a vast amount of IPs around the world.
 
-The only solution is our shared knowledge, our shared experience in this fight.
+To get an idea, check for example the [XRumer](http://en.wikipedia.org/wiki/XRumer) software.
+
+To increase our effectiveness we need to complement our security solutions with our 
+shared knowledge, our shared experience in this fight.
 
 Hopefully, there are many teams out there that do their best to identify the attacks and pinpoint
 the attackers. These teams release blocklists. Blocklists of IPs (for use in firewalls), domains & URLs
@@ -43,7 +45,7 @@ the attackers. These teams release blocklists. Blocklists of IPs (for use in fir
 
 What we are interested here is IPs.
 
-Using blocklists at the internet side of your firewall is a key component of internet security.
+Using IP blocklists at the internet side of your firewall is a key component of internet security.
 These lists share key knowledge between us, allowing us to learn from each other and effectively
 isolate fraudsters and attackers from our services.
 
@@ -142,14 +144,14 @@ name|info|type|entries|freq|links|
 :--:|:--:|:--:|:-----:|:--:|:---:|
 alienvault_reputation|AlienVault.com IP reputation database|ipv4 hash:ip|199957|12 hours |[source](https://reputation.alienvault.com/reputation.generic?r=6740)
 autoshun|AutoShun.org IPs identified as hostile by correlating logs from distributed snort installations running the autoshun plugin|ipv4 hash:ip|825|4 hours |[source](http://www.autoshun.org/files/shunlist.csv?r=14353)
-blocklist_de|Blocklist.de IPs that have attacked their honeypots in the last 48 hours|ipv4 hash:ip|27907|30 mins |[source](http://lists.blocklist.de/lists/all.txt?r=21327)
+blocklist_de|Blocklist.de IPs that have attacked their honeypots in the last 48 hours|ipv4 hash:ip|27885|30 mins |[source](http://lists.blocklist.de/lists/all.txt?r=11073)
 bogons|Team-Cymru.org provided private and reserved addresses defined by RFC 1918, RFC 5735, and RFC 6598 and netblocks that have not been allocated to a regional internet registry|ipv4 hash:net|13|1 day |[source](http://www.team-cymru.org/Services/Bogons/bogon-bn-agg.txt?r=170)
 botnet|EmergingThreats.net botnet IPs (at the time of writing includes all abuse.ch trackers)|ipv4 hash:ip|270|12 hours |[source](http://rules.emergingthreats.net/fwrules/emerging-PIX-CC.rules?r=19613)
 bruteforceblocker|danger.rulez.sk IPs detected by bruteforceblocker (fail2ban alternative for SSH on OpenBSD)|ipv4 hash:ip|2693|3 hours |[source](http://danger.rulez.sk/projects/bruteforceblocker/blist.php?r=18480)
 ciarmy|CIArmy.com IPs with poor Rogue Packet score that have not yet been identified as malicious by the InfoSec community|ipv4 hash:ip|488|3 hours |[source](http://cinsscore.com/list/ci-badguys.txt?r=106)
 clean_mx_viruses|Clean-MX.de IPs with viruses|ipv4 hash:ip|170|12 hours |[source](http://support.clean-mx.de/clean-mx/xmlviruses.php?sort=id%20desc&response=alive)
 compromised|EmergingThreats.net distribution of IPs that have beed compromised (at the time of writing includes openbl and bruteforceblocker)|ipv4 hash:ip|2691|12 hours |[source](http://rules.emergingthreats.net/blockrules/compromised-ips.txt?r=1265)
-danmetor|dan.me.uk dynamic list of TOR exit points|ipv4 hash:ip|6445|30 mins |[source](https://www.dan.me.uk/torlist/?r=23579)
+danmetor|dan.me.uk dynamic list of TOR exit points|ipv4 hash:ip|6420|30 mins |[source](https://www.dan.me.uk/torlist/?r=1782)
 dshield|DShield.org top 20 attacking networks|ipv4 hash:net|20|4 hours |[source](http://feeds.dshield.org/block.txt?r=24842)
 emerging_block|EmergingThreats.net default blacklist (at the time of writing includes spamhaus DROP and dshield)|ipv4 hash:net|1302|12 hours |[source](http://rules.emergingthreats.net/fwrules/emerging-Block-IPs.txt?r=20669)
 feodo|Abuse.ch Feodo trojan includes IPs which are being used by Feodo (also known as Cridex or Bugat) which commits ebanking fraud|ipv4 hash:ip|34|30 mins |[source](https://feodotracker.abuse.ch/blocklist/?download=ipblocklist&r=30725)
@@ -171,13 +173,13 @@ openbl_30d|OpenBL.org last 30 days IPs|ipv4 hash:ip|5195|4 hours |[source](http:
 openbl_60d|OpenBL.org last 60 days IPs|ipv4 hash:ip|7798|4 hours |[source](http://www.openbl.org/lists/base_60days.txt.gz?r=20207)
 openbl_7d|OpenBL.org last 7 days IPs|ipv4 hash:ip|1059|4 hours |[source](http://www.openbl.org/lists/base_7days.txt.gz?r=18565)
 openbl_90d|OpenBL.org last 90 days IPs|ipv4 hash:ip|9889|4 hours |[source](http://www.openbl.org/lists/base_90days.txt.gz?r=13966)
-palevo|Abuse.ch Palevo worm includes IPs which are being used as botnet C&C for the Palevo crimeware|ipv4 hash:ip|13|30 mins |[source](https://palevotracker.abuse.ch/blocklists.php?download=ipblocklist&r=26973)
+palevo|Abuse.ch Palevo worm includes IPs which are being used as botnet C&C for the Palevo crimeware|ipv4 hash:ip|12|30 mins |[source](https://palevotracker.abuse.ch/blocklists.php?download=ipblocklist&r=16882)
 rosi_connect_proxies|rosinstrument.com open CONNECT proxies distributed via its RSS feed and aggregated for the last 7 days|ipv4 hash:ip|345|2 hours |[source](http://tools.rosinstrument.com/proxy/plab100.xml?r=4728)
 rosi_web_proxies|rosinstrument.com open HTTP proxies distributed via its RSS feed and aggregated for the last 7 days|ipv4 hash:ip|494|2 hours |[source](http://tools.rosinstrument.com/proxy/l100.xml?r=21212)
 snort_ipfilter|labs.snort.org supplied IP blacklist|ipv4 hash:ip|6844|12 hours |[source](http://labs.snort.org/feeds/ip-filter.blf?r=18475)
 spamhaus_drop|Spamhaus.org DROP list (according to their site this list should be dropped at tier-1 ISPs globaly)|ipv4 hash:net|636|12 hours |[source](http://www.spamhaus.org/drop/drop.txt?r=24954)
 spamhaus_edrop|Spamhaus.org EDROP (should be used with DROP)|ipv4 hash:net|54|12 hours |[source](http://www.spamhaus.org/drop/edrop.txt?r=10164)
-stop_forum_spam_1h|StopForumSpam.com last 24 hours IPs used by forum spammers|ipv4 hash:ip|5686|1 hour |[source](http://www.stopforumspam.com/downloads/listed_ip_1.zip)
+stop_forum_spam_1h|StopForumSpam.com last 24 hours IPs used by forum spammers|ipv4 hash:ip|5659|1 hour |[source](http://www.stopforumspam.com/downloads/listed_ip_1.zip)
 stop_forum_spam_30d|StopForumSpam.com last 30 days IPs used by forum spammers|ipv4 hash:ip|93853|1 day |[source](http://www.stopforumspam.com/downloads/listed_ip_30.zip)
 stop_forum_spam_7d|StopForumSpam.com last 7 days IPs used by forum spammers|ipv4 hash:ip|29670|1 day |[source](http://www.stopforumspam.com/downloads/listed_ip_7.zip)
 tor|EmergingThreats.net list of TOR network IPs|ipv4 hash:ip|6350|12 hours |[source](http://rules.emergingthreats.net/blockrules/emerging-tor.rules?r=6765)
