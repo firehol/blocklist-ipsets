@@ -82,6 +82,7 @@ danmetor|ipv4|hash:ip|6372|Sat May 16 00:49:12 UTC 2015|[source](https://www.dan
 dshield|ipv4|hash:net|20|Fri May 15 08:45:04 UTC 2015|[source](http://rules.emergingthreats.net/fwrules/emerging-PIX-DSHIELD.rules?r=31959)
 emerging_block|ipv4|hash:net|1302|Sat May 16 00:28:07 UTC 2015|[source](http://rules.emergingthreats.net/fwrules/emerging-Block-IPs.txt?r=4225)
 fullbogons|ipv4|hash:net|3624|Fri May 15 12:45:07 UTC 2015|[source](http://www.team-cymru.org/Services/Bogons/fullbogons-ipv4.txt?r=4188)
+ib_bluetack_proxies|ipv4|hash:ip|673|Sat May 16 01:38:07 UTC 2015|[source](http://list.iblocklist.com/?list=xoebmbyexwuiogmbyprb&fileformat=p2p&archiveformat=gz)
 infiltrated|ipv4|hash:ip|10372|Fri May 15 20:18:39 UTC 2015|[source](http://www.infiltrated.net/blacklisted?r=15279)
 malc0de|ipv4|hash:ip|350|Fri May 15 12:45:04 UTC 2015|[source](http://malc0de.com/bl/IP_Blacklist.txt?r=1813)
 malwaredomainlist|ipv4|hash:ip|1283|Wed May 13 19:15:52 UTC 2015|[source](http://www.malwaredomainlist.com/hostslist/ip.txt?r=24222)
