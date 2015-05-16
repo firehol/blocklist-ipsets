@@ -110,7 +110,7 @@ rosi_web_proxies|ipv4|hash:ip|338|Sat May 16 16:11:15 UTC 2015|[source](http://t
 snort_ipfilter|ipv4|hash:ip|5708|Sat May 16 16:11:47 UTC 2015|[source](http://labs.snort.org/feeds/ip-filter.blf?r=17518)
 spamhaus_drop|ipv4|hash:net|445|Sat May 16 12:36:18 UTC 2015|[source](http://www.spamhaus.org/drop/drop.txt?r=32309)
 spamhaus_edrop|ipv4|hash:net|38|Sat May 16 12:36:23 UTC 2015|[source](http://www.spamhaus.org/drop/edrop.txt?r=23000)
-stop_forum_spam_1h|ipv4|hash:ip|4739|Sat May 16 17:36:38 UTC 2015|[source](http://www.stopforumspam.com/downloads/listed_ip_1.zip)
+stop_forum_spam_1h|StopForumSpam.com last 24 hours IPs used by forum spammers|ipv4 hash:ip|5746|Sat May 16 18:36:39 UTC 2015||[source](http://www.stopforumspam.com/downloads/listed_ip_1.zip)
 stop_forum_spam_30d|ipv4|hash:ip|74856|Sat May 16 08:54:14 UTC 2015|[source](http://www.stopforumspam.com/downloads/listed_ip_30.zip)
 stop_forum_spam_7d|StopForumSpam.com last 7 days IPs used by forum spammers|ipv4 hash:ip|29670|Sat May 16 18:35:29 UTC 2015||[source](http://www.stopforumspam.com/downloads/listed_ip_7.zip)
 tor|ipv4|hash:ip|5567|Sat May 16 11:09:14 UTC 2015|[source](http://rules.emergingthreats.net/blockrules/emerging-tor.rules?r=4848)
