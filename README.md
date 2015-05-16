@@ -29,7 +29,7 @@ I decided to upload these lists to a github repo because:
 
 1. They are freely available on the internet. The intention of their creators is to help internet security.
  Keep in mind though that a few of these lists may have special licences attached. Before using them, please
- their source for any information regarding proper use.
+ check their source site for any information regarding proper use.
 
 2. Github provides (via `git pull`) a unified way of updating all the lists together. Pulling this repo regularly on your machines, you will update all the IP lists at once.
 
@@ -76,15 +76,16 @@ TODO
 
 ---
 
+# List of ipsets included
 name|IP version|ipset type|entries|updated|source link|
 :--:|:--------:|:--------:|:-----:|:-----:|:---------:|
 alienvault_reputation|ipv4|hash:ip|172678|Sat May 16 03:28:25 UTC 2015|[source](https://reputation.alienvault.com/reputation.generic?r=27323)
-blocklist_de|ipv4|hash:ip|22700|Sat May 16 14:09:14 UTC 2015|[source](http://lists.blocklist.de/lists/all.txt?r=6773)
+blocklist_de|ipv4|hash:ip|22710|Sat May 16 14:45:28 UTC 2015|[source](http://lists.blocklist.de/lists/all.txt?r=18507)
 bogons|ipv4|hash:net|13|Wed May 13 19:14:57 UTC 2015|[source](http://www.team-cymru.org/Services/Bogons/bogon-bn-agg.txt?r=1780)
 botnet|ipv4|hash:ip|395|Sat May 16 11:09:19 UTC 2015|[source](http://rules.emergingthreats.net/fwrules/emerging-PIX-CC.rules?r=27013)
 clean_mx_viruses|ipv4|hash:ip|269|Sat May 16 07:45:39 UTC 2015|[source](http://support.clean-mx.de/clean-mx/xmlviruses.php?sort=id%20desc&response=alive)
 compromised|ipv4|hash:ip|2077|Sat May 16 12:36:08 UTC 2015|[source](http://rules.emergingthreats.net/blockrules/compromised-ips.txt?r=27475)
-danmetor|ipv4|hash:ip|5654|Sat May 16 13:36:08 UTC 2015|[source](https://www.dan.me.uk/torlist/?r=12043)
+danmetor|ipv4|hash:ip|5654|Sat May 16 14:45:09 UTC 2015|[source](https://www.dan.me.uk/torlist/?r=17981)
 dshield|ipv4|hash:net|19|Sat May 16 09:00:22 UTC 2015|[source](http://rules.emergingthreats.net/fwrules/emerging-PIX-DSHIELD.rules?r=23527)
 emerging_block|ipv4|hash:net|992|Sat May 16 12:36:13 UTC 2015|[source](http://rules.emergingthreats.net/fwrules/emerging-Block-IPs.txt?r=27115)
 fullbogons|ipv4|hash:net|3380|Sat May 16 12:54:11 UTC 2015|[source](http://www.team-cymru.org/Services/Bogons/fullbogons-ipv4.txt?r=26354)
@@ -108,5 +109,5 @@ stop_forum_spam_1h|ipv4|hash:ip|4894|Sat May 16 14:09:21 UTC 2015|[source](http:
 stop_forum_spam_30d|ipv4|hash:ip|74856|Sat May 16 08:54:14 UTC 2015|[source](http://www.stopforumspam.com/downloads/listed_ip_30.zip)
 stop_forum_spam_7d|ipv4|hash:ip|30735|Fri May 15 18:27:16 UTC 2015|[source](http://www.stopforumspam.com/downloads/listed_ip_7.zip)
 tor|ipv4|hash:ip|5567|Sat May 16 11:09:14 UTC 2015|[source](http://rules.emergingthreats.net/blockrules/emerging-tor.rules?r=4848)
-tor_servers|ipv4|hash:ip|5656|Sat May 16 13:00:17 UTC 2015|[source](https://torstatus.blutmagie.de/ip_list_all.php/Tor_ip_list_ALL.csv?r=265)
+tor_servers|ipv4|hash:ip|5656|Sat May 16 14:45:14 UTC 2015|[source](https://torstatus.blutmagie.de/ip_list_all.php/Tor_ip_list_ALL.csv?r=3355)
 zeus|ipv4|hash:ip|210|Sat May 16 11:18:21 UTC 2015|[source](https://zeustracker.abuse.ch/blocklist.php?download=ipblocklist&r=29716)
