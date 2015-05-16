@@ -74,12 +74,12 @@ TODO
 name|IP version|ipset type|entries|updated|source link|
 :--:|:--------:|:--------:|:-----:|:-----:|:---------:|
 alienvault_reputation|ipv4|hash:ip|172678|Sat May 16 03:28:25 UTC 2015|[source](https://reputation.alienvault.com/reputation.generic?r=27323)
-blocklist_de|ipv4|hash:ip|25942|Sat May 16 07:18:21 UTC 2015|[source](http://lists.blocklist.de/lists/all.txt?r=29166)
+blocklist_de|ipv4|hash:ip|25716|Sat May 16 07:54:26 UTC 2015|[source](http://lists.blocklist.de/lists/all.txt?r=19534)
 bogons|ipv4|hash:net|13|Wed May 13 19:14:57 UTC 2015|[source](http://www.team-cymru.org/Services/Bogons/bogon-bn-agg.txt?r=1780)
 botnet|ipv4|hash:ip|451|Fri May 15 10:54:08 UTC 2015|[source](http://rules.emergingthreats.net/fwrules/emerging-PIX-CC.rules?r=19286)
 clean_mx_viruses|ipv4|hash:ip|269|Sat May 16 07:45:39 UTC 2015|[source](http://support.clean-mx.de/clean-mx/xmlviruses.php?sort=id%20desc&response=alive)
 compromised|ipv4|hash:ip|2691|Sat May 16 00:28:03 UTC 2015|[source](http://rules.emergingthreats.net/blockrules/compromised-ips.txt?r=18408)
-danmetor|ipv4|hash:ip|5541|Sat May 16 06:45:10 UTC 2015|[source](https://www.dan.me.uk/torlist/?r=28457)
+danmetor|ipv4|hash:ip|5559|Sat May 16 07:54:11 UTC 2015|[source](https://www.dan.me.uk/torlist/?r=6472)
 dshield|ipv4|hash:net|20|Fri May 15 08:45:04 UTC 2015|[source](http://rules.emergingthreats.net/fwrules/emerging-PIX-DSHIELD.rules?r=31959)
 emerging_block|ipv4|hash:net|1302|Sat May 16 00:28:07 UTC 2015|[source](http://rules.emergingthreats.net/fwrules/emerging-Block-IPs.txt?r=4225)
 fullbogons|ipv4|hash:net|3624|Fri May 15 12:45:07 UTC 2015|[source](http://www.team-cymru.org/Services/Bogons/fullbogons-ipv4.txt?r=4188)
@@ -103,5 +103,5 @@ stop_forum_spam_1h|ipv4|hash:ip|5023|Sat May 16 07:18:27 UTC 2015|[source](http:
 stop_forum_spam_30d|ipv4|hash:ip|94504|Fri May 15 08:45:21 UTC 2015|[source](http://www.stopforumspam.com/downloads/listed_ip_30.zip)
 stop_forum_spam_7d|ipv4|hash:ip|30735|Fri May 15 18:27:16 UTC 2015|[source](http://www.stopforumspam.com/downloads/listed_ip_7.zip)
 tor|ipv4|hash:ip|6280|Fri May 15 10:54:06 UTC 2015|[source](http://rules.emergingthreats.net/blockrules/emerging-tor.rules?r=29059)
-tor_servers|ipv4|hash:ip|5527|Sat May 16 06:09:10 UTC 2015|[source](https://torstatus.blutmagie.de/ip_list_all.php/Tor_ip_list_ALL.csv?r=10218)
+tor_servers|ipv4|hash:ip|5543|Sat May 16 07:54:17 UTC 2015|[source](https://torstatus.blutmagie.de/ip_list_all.php/Tor_ip_list_ALL.csv?r=19069)
 zeus|ipv4|hash:ip|209|Sat May 16 05:00:28 UTC 2015|[source](https://zeustracker.abuse.ch/blocklist.php?download=ipblocklist&r=3955)
