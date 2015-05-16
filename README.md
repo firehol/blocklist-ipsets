@@ -80,12 +80,12 @@ TODO
 name|info|type|entries|freq|links|
 :--:|:--:|:--:|:-----:|:--:|:---:|
 alienvault_reputation|AlienVault.com IP reputation database|ipv4 hash:ip|199957|12 hours |[source](https://reputation.alienvault.com/reputation.generic?r=6740)
-blocklist_de|Blocklist.de IPs that have attacked their honeypots in the last 48 hours|ipv4 hash:ip|27871|30 mins |[source](http://lists.blocklist.de/lists/all.txt?r=7131)
+blocklist_de|Blocklist.de IPs that have attacked their honeypots in the last 48 hours|ipv4 hash:ip|27919|30 mins |[source](http://lists.blocklist.de/lists/all.txt?r=29400)
 bogons|Team-Cymru.org provided private and reserved addresses defined by RFC 1918, RFC 5735, and RFC 6598 and netblocks that have not been allocated to a regional internet registry|ipv4 hash:net|13|1 day |[source](http://www.team-cymru.org/Services/Bogons/bogon-bn-agg.txt?r=170)
 botnet|EmergingThreats.net botnet IPs (at the time of writing includes all abuse.ch trackers)|ipv4 hash:ip|477|12 hours |[source](http://rules.emergingthreats.net/fwrules/emerging-PIX-CC.rules?r=3356)
 bruteforceblocker|danger.rulez.sk IPs detected by bruteforceblocker (fail2ban alternative for SSH on OpenBSD)|ipv4 hash:ip|2694|3 hours |[source](http://danger.rulez.sk/projects/bruteforceblocker/blist.php?r=4588)
 ciarmy|CIArmy.com IPs with poor Rogue Packet score that have not yet been identified as malicious by the InfoSec community|ipv4 hash:ip|481|3 hours |[source](http://cinsscore.com/list/ci-badguys.txt?r=10333)
-clean_mx_viruses|Clean-MX.de IPs with viruses|ipv4 hash:ip|322|12 hours |[source](http://support.clean-mx.de/clean-mx/xmlviruses.php?sort=id%20desc&response=alive)
+clean_mx_viruses|Clean-MX.de IPs with viruses|ipv4 hash:ip|170|12 hours |[source](http://support.clean-mx.de/clean-mx/xmlviruses.php?sort=id%20desc&response=alive)
 compromised|EmergingThreats.net distribution of IPs that have beed compromised (at the time of writing includes openbl and bruteforceblocker)|ipv4 hash:ip|2691|12 hours |[source](http://rules.emergingthreats.net/blockrules/compromised-ips.txt?r=1265)
 danmetor|dan.me.uk dynamic list of TOR exit points|ipv4 hash:ip|6504|30 mins |[source](https://www.dan.me.uk/torlist/?r=24737)
 dshield|DShield.org top 20 attacking networks|ipv4 hash:net|20|4 hours |[source](http://feeds.dshield.org/block.txt?r=16306)
@@ -120,5 +120,5 @@ stop_forum_spam_30d|StopForumSpam.com last 30 days IPs used by forum spammers|ip
 stop_forum_spam_7d|StopForumSpam.com last 7 days IPs used by forum spammers|ipv4 hash:ip|29670|1 day |[source](http://www.stopforumspam.com/downloads/listed_ip_7.zip)
 tor|EmergingThreats.net list of TOR network IPs|ipv4 hash:ip|6420|12 hours |[source](http://rules.emergingthreats.net/blockrules/emerging-tor.rules?r=32167)
 tor_servers|torstatus.blutmagie.de list of all TOR network servers|ipv4 hash:ip|6506|30 mins |[source](https://torstatus.blutmagie.de/ip_list_all.php/Tor_ip_list_ALL.csv?r=17251)
-zeus|Abuse.ch Zeus Tracker default blocklist including hijacked sites and web hosting providers|ipv4 hash:ip|262|30 mins |[source](https://zeustracker.abuse.ch/blocklist.php?download=ipblocklist&r=16351)
+zeus|Abuse.ch Zeus Tracker default blocklist including hijacked sites and web hosting providers|ipv4 hash:ip|262|30 mins |[source](https://zeustracker.abuse.ch/blocklist.php?download=ipblocklist&r=25939)
 zeus_badips|Abuse.ch Zeus Tracker includes IPv4 addresses that are used by the ZeuS trojan|ipv4 hash:ip|228|30 mins |[source](https://zeustracker.abuse.ch/blocklist.php?download=badips&r=20505)
