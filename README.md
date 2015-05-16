@@ -100,7 +100,7 @@ rosi_web_proxies|ipv4|hash:ip|233|Sat May 16 07:00:27 UTC 2015|[source](http://t
 spamhaus_drop|ipv4|hash:net|636|Sat May 16 00:28:10 UTC 2015|[source](http://www.spamhaus.org/drop/drop.txt?r=14662)
 spamhaus_edrop|ipv4|hash:net|54|Sat May 16 00:28:13 UTC 2015|[source](http://www.spamhaus.org/drop/edrop.txt?r=23528)
 stop_forum_spam_1h|ipv4|hash:ip|5011|Sat May 16 08:27:29 UTC 2015|[source](http://www.stopforumspam.com/downloads/listed_ip_1.zip)
-stop_forum_spam_30d|ipv4|hash:ip|94504|Fri May 15 08:45:21 UTC 2015|[source](http://www.stopforumspam.com/downloads/listed_ip_30.zip)
+stop_forum_spam_30d|ipv4|hash:ip|74856|Sat May 16 08:54:14 UTC 2015|[source](http://www.stopforumspam.com/downloads/listed_ip_30.zip)
 stop_forum_spam_7d|ipv4|hash:ip|30735|Fri May 15 18:27:16 UTC 2015|[source](http://www.stopforumspam.com/downloads/listed_ip_7.zip)
 tor|ipv4|hash:ip|6280|Fri May 15 10:54:06 UTC 2015|[source](http://rules.emergingthreats.net/blockrules/emerging-tor.rules?r=29059)
 tor_servers|ipv4|hash:ip|5543|Sat May 16 07:54:17 UTC 2015|[source](https://torstatus.blutmagie.de/ip_list_all.php/Tor_ip_list_ALL.csv?r=19069)
