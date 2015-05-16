@@ -21,15 +21,20 @@ This repository includes a list of ipsets dynamically updated with
 firehol's (https://github.com/ktsaou/firehol) `update-ipsets.sh`
 script.
 
+Using blocklists at the internet side of your firewall is a key component of internet security.
+These lists share key knowledge between us, allowing us to learn from each other and effectively
+isolate fraudsters and attackers from our services.
+
 I decided to upload these lists to a github repo because:
 
-1. They are free to use. The intention of their creators is to help internet security.
+1. They are freely available on the internet. The intention of their creators is to help internet security.
+ Keep in mind though that a few of these lists may have special licences attached. Before using them, please
+ their source for any information regarding proper use.
 
 2. Github provides (via `git pull`) a unified way of updating all the lists together. Pulling this repo regularly on your machines, you will update all the IP lists at once.
 
 3. Github also provides a unified version control. Using it we can have a history of what each list has done, which IPs or subnets were added and which were removed.
 
-4. I have spent some time harvesting these lists, testing them and understanding how we can improve the security of public services. I have concluded that using such lists is a key component of internet security. These lists share key knowledge between us, allowing us to learn from each other and effectively isolate fraudsters and attackers from our services.
 
 ---
 
@@ -74,7 +79,7 @@ TODO
 name|IP version|ipset type|entries|updated|source link|
 :--:|:--------:|:--------:|:-----:|:-----:|:---------:|
 alienvault_reputation|ipv4|hash:ip|172678|Sat May 16 03:28:25 UTC 2015|[source](https://reputation.alienvault.com/reputation.generic?r=27323)
-blocklist_de|ipv4|hash:ip|22773|Sat May 16 13:36:18 UTC 2015|[source](http://lists.blocklist.de/lists/all.txt?r=31048)
+blocklist_de|ipv4|hash:ip|22700|Sat May 16 14:09:14 UTC 2015|[source](http://lists.blocklist.de/lists/all.txt?r=6773)
 bogons|ipv4|hash:net|13|Wed May 13 19:14:57 UTC 2015|[source](http://www.team-cymru.org/Services/Bogons/bogon-bn-agg.txt?r=1780)
 botnet|ipv4|hash:ip|395|Sat May 16 11:09:19 UTC 2015|[source](http://rules.emergingthreats.net/fwrules/emerging-PIX-CC.rules?r=27013)
 clean_mx_viruses|ipv4|hash:ip|269|Sat May 16 07:45:39 UTC 2015|[source](http://support.clean-mx.de/clean-mx/xmlviruses.php?sort=id%20desc&response=alive)
@@ -99,7 +104,7 @@ rosi_connect_proxies|ipv4|hash:ip|210|Sat May 16 13:18:43 UTC 2015|[source](http
 rosi_web_proxies|ipv4|hash:ip|316|Sat May 16 13:18:32 UTC 2015|[source](http://tools.rosinstrument.com/proxy/l100.xml?r=8649)
 spamhaus_drop|ipv4|hash:net|445|Sat May 16 12:36:18 UTC 2015|[source](http://www.spamhaus.org/drop/drop.txt?r=32309)
 spamhaus_edrop|ipv4|hash:net|38|Sat May 16 12:36:23 UTC 2015|[source](http://www.spamhaus.org/drop/edrop.txt?r=23000)
-stop_forum_spam_1h|ipv4|hash:ip|4800|Sat May 16 13:00:32 UTC 2015|[source](http://www.stopforumspam.com/downloads/listed_ip_1.zip)
+stop_forum_spam_1h|ipv4|hash:ip|4894|Sat May 16 14:09:21 UTC 2015|[source](http://www.stopforumspam.com/downloads/listed_ip_1.zip)
 stop_forum_spam_30d|ipv4|hash:ip|74856|Sat May 16 08:54:14 UTC 2015|[source](http://www.stopforumspam.com/downloads/listed_ip_30.zip)
 stop_forum_spam_7d|ipv4|hash:ip|30735|Fri May 15 18:27:16 UTC 2015|[source](http://www.stopforumspam.com/downloads/listed_ip_7.zip)
 tor|ipv4|hash:ip|5567|Sat May 16 11:09:14 UTC 2015|[source](http://rules.emergingthreats.net/blockrules/emerging-tor.rules?r=4848)
