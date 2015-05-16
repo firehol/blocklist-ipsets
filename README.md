@@ -80,7 +80,7 @@ TODO
 name|IP version|ipset type|entries|updated|source link|
 :--:|:--------:|:--------:|:-----:|:-----:|:---------:|
 alienvault_reputation|ipv4|hash:ip|175552|Sat May 16 15:36:40 UTC 2015|[source](https://reputation.alienvault.com/reputation.generic?r=9153)
-blocklist_de|ipv4|hash:ip|22677|Sat May 16 15:54:19 UTC 2015|[source](http://lists.blocklist.de/lists/all.txt?r=16274)
+blocklist_de|ipv4|hash:ip|22709|Sat May 16 16:27:18 UTC 2015|[source](http://lists.blocklist.de/lists/all.txt?r=10701)
 bogons|ipv4|hash:net|13|Wed May 13 19:14:57 UTC 2015|[source](http://www.team-cymru.org/Services/Bogons/bogon-bn-agg.txt?r=1780)
 botnet|ipv4|hash:ip|395|Sat May 16 11:09:19 UTC 2015|[source](http://rules.emergingthreats.net/fwrules/emerging-PIX-CC.rules?r=27013)
 bruteforceblocker|ipv4|hash:ip|2074|Sat May 16 14:55:16 UTC 2015|[source](http://danger.rulez.sk/projects/bruteforceblocker/blist.php?r=16016)
@@ -108,9 +108,9 @@ rosi_web_proxies|ipv4|hash:ip|338|Sat May 16 16:11:15 UTC 2015|[source](http://t
 snort_ipfilter|ipv4|hash:ip|5708|Sat May 16 16:11:47 UTC 2015|[source](http://labs.snort.org/feeds/ip-filter.blf?r=17518)
 spamhaus_drop|ipv4|hash:net|445|Sat May 16 12:36:18 UTC 2015|[source](http://www.spamhaus.org/drop/drop.txt?r=32309)
 spamhaus_edrop|ipv4|hash:net|38|Sat May 16 12:36:23 UTC 2015|[source](http://www.spamhaus.org/drop/edrop.txt?r=23000)
-stop_forum_spam_1h|ipv4|hash:ip|4788|Sat May 16 15:18:26 UTC 2015|[source](http://www.stopforumspam.com/downloads/listed_ip_1.zip)
+stop_forum_spam_1h|ipv4|hash:ip|4762|Sat May 16 16:27:24 UTC 2015|[source](http://www.stopforumspam.com/downloads/listed_ip_1.zip)
 stop_forum_spam_30d|ipv4|hash:ip|74856|Sat May 16 08:54:14 UTC 2015|[source](http://www.stopforumspam.com/downloads/listed_ip_30.zip)
 stop_forum_spam_7d|ipv4|hash:ip|30735|Fri May 15 18:27:16 UTC 2015|[source](http://www.stopforumspam.com/downloads/listed_ip_7.zip)
 tor|ipv4|hash:ip|5567|Sat May 16 11:09:14 UTC 2015|[source](http://rules.emergingthreats.net/blockrules/emerging-tor.rules?r=4848)
-tor_servers|ipv4|hash:ip|5657|Sat May 16 15:18:10 UTC 2015|[source](https://torstatus.blutmagie.de/ip_list_all.php/Tor_ip_list_ALL.csv?r=32401)
+tor_servers|ipv4|hash:ip|5646|Sat May 16 16:27:10 UTC 2015|[source](https://torstatus.blutmagie.de/ip_list_all.php/Tor_ip_list_ALL.csv?r=25613)
 zeus|ipv4|hash:ip|210|Sat May 16 11:18:21 UTC 2015|[source](https://zeustracker.abuse.ch/blocklist.php?download=ipblocklist&r=29716)
