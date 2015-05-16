@@ -88,12 +88,20 @@ I use something like this. Keep in mind that you have to have the `whitelist` ip
 iptables will log each match, together with the name of the ipset that matched the packet.
 
 ```sh
+	# our wan interface
+	wan="dsl0"
+	
+	# our whitelist
+	ipset4 create whitelist hash:net
+	ipset4 add whitelist A.B.C.D/E # A.B.C.D/E is whitelisted
+	
 	# subnets
         for x in fullbogons dshield spamhaus_drop spamhaus_edrop
         do
                 ipset4 create  ${x} hash:net
                 ipset4 addfile ${x} ipsets/${x}.netset
-                blacklist4 full inface "${wan}" log "BLACKLIST ${x^^}" ipset:${x} except src ipset:whitelist
+                blacklist4 full inface "${wan}" log "BLACKLIST ${x^^}" ipset:${x} \
+			except src ipset:whitelist
         done
 
 	# individual IPs
@@ -103,8 +111,11 @@ iptables will log each match, together with the name of the ipset that matched t
         do
                 ipset4 create  ${x} hash:ip
                 ipset4 addfile ${x} ipsets/${x}.ipset
-                blacklist4 full inface "${wan}" log "BLACKLIST ${x^^}" ipset:${x} except src ipset:whitelist
+                blacklist4 full inface "${wan}" log "BLACKLIST ${x^^}" ipset:${x} \
+			except src ipset:whitelist
         done
+
+	... rest of firehol.conf ...
 ```
 
 ### Updating the ipsets while the firewall is running
@@ -166,7 +177,7 @@ rosi_web_proxies|rosinstrument.com open HTTP proxies distributed via its RSS fee
 snort_ipfilter|labs.snort.org supplied IP blacklist|ipv4 hash:ip|6844|12 hours |[source](http://labs.snort.org/feeds/ip-filter.blf?r=18475)
 spamhaus_drop|Spamhaus.org DROP list (according to their site this list should be dropped at tier-1 ISPs globaly)|ipv4 hash:net|636|12 hours |[source](http://www.spamhaus.org/drop/drop.txt?r=24954)
 spamhaus_edrop|Spamhaus.org EDROP (should be used with DROP)|ipv4 hash:net|54|12 hours |[source](http://www.spamhaus.org/drop/edrop.txt?r=10164)
-stop_forum_spam_1h|StopForumSpam.com last 24 hours IPs used by forum spammers|ipv4 hash:ip|5747|1 hour |[source](http://www.stopforumspam.com/downloads/listed_ip_1.zip)
+stop_forum_spam_1h|StopForumSpam.com last 24 hours IPs used by forum spammers|ipv4 hash:ip|5656|1 hour |[source](http://www.stopforumspam.com/downloads/listed_ip_1.zip)
 stop_forum_spam_30d|StopForumSpam.com last 30 days IPs used by forum spammers|ipv4 hash:ip|93853|1 day |[source](http://www.stopforumspam.com/downloads/listed_ip_30.zip)
 stop_forum_spam_7d|StopForumSpam.com last 7 days IPs used by forum spammers|ipv4 hash:ip|29670|1 day |[source](http://www.stopforumspam.com/downloads/listed_ip_7.zip)
 tor|EmergingThreats.net list of TOR network IPs|ipv4 hash:ip|6420|12 hours |[source](http://rules.emergingthreats.net/blockrules/emerging-tor.rules?r=32167)
