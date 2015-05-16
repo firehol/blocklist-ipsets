@@ -77,8 +77,8 @@ TODO
 ---
 
 # List of ipsets included
-name|info|type|entries|updated|frequency|links|
-:--:|:--:|:--:|:-----:|:-----:|:-------:|:---:|
+name|info|type|entries|freq|links|
+:--:|:--:|:--:|:-----:|:--:|:---:|
 alienvault_reputation|AlienVault.com IP reputation database|ipv4 hash:ip|199957|Sat May 16 18:43:38 UTC 2015|12 hours |[source](https://reputation.alienvault.com/reputation.generic?r=8299)
 blocklist_de|Blocklist.de IPs that have attacked their honeypots in the last 48 hours|ipv4 hash:ip|27858|Sat May 16 18:41:20 UTC 2015|30 mins |[source](http://lists.blocklist.de/lists/all.txt?r=19130)
 bogons|Team-Cymru.org provided private and reserved addresses defined by RFC 1918, RFC 5735, and RFC 6598 and netblocks that have not been allocated to a regional internet registry|ipv4 hash:net|13|Sat May 16 18:42:12 UTC 2015|1 day |[source](http://www.team-cymru.org/Services/Bogons/bogon-bn-agg.txt?r=16867)
@@ -103,7 +103,7 @@ ib_bluetack_webexploit|iBlocklist.com free version of BlueTack.co.uk web server 
 infiltrated|infiltrated.net list (no more info available)|ipv4 hash:ip|10382|Sat May 16 18:41:40 UTC 2015|12 hours |[source](http://www.infiltrated.net/blacklisted?r=13504)
 malc0de|Malc0de.com malicious IPs of the last 30 days|ipv4 hash:ip|371|Sat May 16 18:41:43 UTC 2015|1 day |[source](http://malc0de.com/bl/IP_Blacklist.txt?r=20969)
 malwaredomainlist|malwaredomainlist.com list of active ip addresses|ipv4 hash:ip|1283|Sat May 16 18:43:14 UTC 2015|12 hours |[source](http://www.malwaredomainlist.com/hostslist/ip.txt?r=20415)
-openbl|ipv4|hash:ip|7224|Sat May 16 15:00:06 UTC 2015|[source](http://www.openbl.org/lists/base.txt?r=31786)
+openbl|OpenBL.org default blacklist (currently it is the same with 90 days)|ipv4 hash:ip|9809|4 hours |[source](http://www.openbl.org/lists/base.txt.gz?r=20010)
 palevo|Abuse.ch Palevo worm includes IPs which are being used as botnet C&C for the Palevo crimeware|ipv4 hash:ip|13|Sat May 16 18:41:31 UTC 2015|30 mins |[source](https://palevotracker.abuse.ch/blocklists.php?download=ipblocklist&r=9189)
 rosi_connect_proxies|rosinstrument.com open CONNECT proxies distributed via its RSS feed and aggregated for the last 7 days|ipv4 hash:ip|295|Sat May 16 18:43:10 UTC 2015|2 hours |[source](http://tools.rosinstrument.com/proxy/plab100.xml?r=9320)
 rosi_web_proxies|rosinstrument.com open HTTP proxies distributed via its RSS feed and aggregated for the last 7 days|ipv4 hash:ip|412|Sat May 16 18:42:55 UTC 2015|2 hours |[source](http://tools.rosinstrument.com/proxy/l100.xml?r=27810)
