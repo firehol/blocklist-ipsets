@@ -21,15 +21,20 @@ This repository includes a list of ipsets dynamically updated with
 firehol's (https://github.com/ktsaou/firehol) `update-ipsets.sh`
 script.
 
+Using blocklists at the internet side of your firewall is a key component of internet security.
+These lists share key knowledge between us, allowing us to learn from each other and effectively
+isolate fraudsters and attackers from our services.
+
 I decided to upload these lists to a github repo because:
 
-1. They are free to use. The intention of their creators is to help internet security.
+1. They are freely available on the internet. The intention of their creators is to help internet security.
+ Keep in mind though that a few of these lists may have special licences attached. Before using them, please
+ check their source site for any information regarding proper use.
 
 2. Github provides (via `git pull`) a unified way of updating all the lists together. Pulling this repo regularly on your machines, you will update all the IP lists at once.
 
 3. Github also provides a unified version control. Using it we can have a history of what each list has done, which IPs or subnets were added and which were removed.
 
-4. I have spent some time harvesting these lists, testing them and understanding how we can improve the security of public services. I have concluded that using such lists is a key component of internet security. These lists share key knowledge between us, allowing us to learn from each other and effectively isolate fraudsters and attackers from our services.
 
 ---
 
@@ -71,3 +76,4 @@ TODO
 
 ---
 
+# List of ipsets included
