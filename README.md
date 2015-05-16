@@ -96,34 +96,34 @@ iptables will log each match, together with the name of the ipset that matched t
 	ipset4 add whitelist A.B.C.D/E # A.B.C.D/E is whitelisted
 	
 	# subnets
-        for x in fullbogons dshield spamhaus_drop spamhaus_edrop
-        do
-                ipset4 create  ${x} hash:net
-                ipset4 addfile ${x} ipsets/${x}.netset
-                blacklist4 full inface "${wan}" log "BLACKLIST ${x^^}" ipset:${x} \
+	for x in fullbogons dshield spamhaus_drop spamhaus_edrop
+	do
+		ipset4 create  ${x} hash:net
+		ipset4 addfile ${x} ipsets/${x}.netset
+		blacklist4 full inface "${wan}" log "BLACKLIST ${x^^}" ipset:${x} \
 			except src ipset:whitelist
-        done
+	done
 
 	# individual IPs
-        for x in zeus feodo palevo autoshun openbl blocklist_de malc0de ciarmy \
-                malwaredomainlist snort_ipfilter stop_forum_spam_1h stop_forum_spam_7d \
-                bruteforceblocker rosi_connect_proxies rosi_web_proxies compromised
-        do
-                ipset4 create  ${x} hash:ip
-                ipset4 addfile ${x} ipsets/${x}.ipset
-                blacklist4 full inface "${wan}" log "BLACKLIST ${x^^}" ipset:${x} \
+	for x in zeus feodo palevo autoshun openbl blocklist_de malc0de ciarmy \
+		malwaredomainlist snort_ipfilter stop_forum_spam_1h stop_forum_spam_7d \
+		bruteforceblocker rosi_connect_proxies rosi_web_proxies compromised
+	do
+		ipset4 create  ${x} hash:ip
+		ipset4 addfile ${x} ipsets/${x}.ipset
+		blacklist4 full inface "${wan}" log "BLACKLIST ${x^^}" ipset:${x} \
 			except src ipset:whitelist
-        done
+	done
 
 	... rest of firehol.conf ...
 ```
 
 ### Updating the ipsets while the firewall is running
 
-Just use the `update-ipsets.sh` script from the firehol distribution. This script will update each ipset and call firehol to update the ipset while the firewall is running.
+Just use the `update-ipsets.sh` script from the firehol distribution.
+This script will update each ipset and call firehol to update the ipset while the firewall is running.
 
-Keep in mind that you have to use the `update-ipsets.sh` script before activating the firewall, so that the ipset exist on disk.
-
+Keep in mind that you have to use the `update-ipsets.sh` script before activating the firewall, so that the ipsets exist on disk.
 
 ---
 
@@ -142,7 +142,7 @@ name|info|type|entries|freq|links|
 :--:|:--:|:--:|:-----:|:--:|:---:|
 alienvault_reputation|AlienVault.com IP reputation database|ipv4 hash:ip|199957|12 hours |[source](https://reputation.alienvault.com/reputation.generic?r=6740)
 autoshun|AutoShun.org IPs identified as hostile by correlating logs from distributed snort installations running the autoshun plugin|ipv4 hash:ip|825|4 hours |[source](http://www.autoshun.org/files/shunlist.csv?r=14353)
-blocklist_de|Blocklist.de IPs that have attacked their honeypots in the last 48 hours|ipv4 hash:ip|27913|30 mins |[source](http://lists.blocklist.de/lists/all.txt?r=2384)
+blocklist_de|Blocklist.de IPs that have attacked their honeypots in the last 48 hours|ipv4 hash:ip|27941|30 mins |[source](http://lists.blocklist.de/lists/all.txt?r=5401)
 bogons|Team-Cymru.org provided private and reserved addresses defined by RFC 1918, RFC 5735, and RFC 6598 and netblocks that have not been allocated to a regional internet registry|ipv4 hash:net|13|1 day |[source](http://www.team-cymru.org/Services/Bogons/bogon-bn-agg.txt?r=170)
 botnet|EmergingThreats.net botnet IPs (at the time of writing includes all abuse.ch trackers)|ipv4 hash:ip|477|12 hours |[source](http://rules.emergingthreats.net/fwrules/emerging-PIX-CC.rules?r=3356)
 bruteforceblocker|danger.rulez.sk IPs detected by bruteforceblocker (fail2ban alternative for SSH on OpenBSD)|ipv4 hash:ip|2693|3 hours |[source](http://danger.rulez.sk/projects/bruteforceblocker/blist.php?r=18480)
@@ -171,7 +171,7 @@ openbl_30d|OpenBL.org last 30 days IPs|ipv4 hash:ip|5136|4 hours |[source](http:
 openbl_60d|OpenBL.org last 60 days IPs|ipv4 hash:ip|7711|4 hours |[source](http://www.openbl.org/lists/base_60days.txt.gz?r=10050)
 openbl_7d|OpenBL.org last 7 days IPs|ipv4 hash:ip|982|4 hours |[source](http://www.openbl.org/lists/base_7days.txt.gz?r=23013)
 openbl_90d|OpenBL.org last 90 days IPs|ipv4 hash:ip|9809|4 hours |[source](http://www.openbl.org/lists/base_90days.txt.gz?r=1898)
-palevo|Abuse.ch Palevo worm includes IPs which are being used as botnet C&C for the Palevo crimeware|ipv4 hash:ip|13|30 mins |[source](https://palevotracker.abuse.ch/blocklists.php?download=ipblocklist&r=29474)
+palevo|Abuse.ch Palevo worm includes IPs which are being used as botnet C&C for the Palevo crimeware|ipv4 hash:ip|13|30 mins |[source](https://palevotracker.abuse.ch/blocklists.php?download=ipblocklist&r=11015)
 rosi_connect_proxies|rosinstrument.com open CONNECT proxies distributed via its RSS feed and aggregated for the last 7 days|ipv4 hash:ip|295|2 hours |[source](http://tools.rosinstrument.com/proxy/plab100.xml?r=13838)
 rosi_web_proxies|rosinstrument.com open HTTP proxies distributed via its RSS feed and aggregated for the last 7 days|ipv4 hash:ip|412|2 hours |[source](http://tools.rosinstrument.com/proxy/l100.xml?r=13258)
 snort_ipfilter|labs.snort.org supplied IP blacklist|ipv4 hash:ip|6844|12 hours |[source](http://labs.snort.org/feeds/ip-filter.blf?r=18475)
