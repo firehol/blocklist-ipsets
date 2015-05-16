@@ -77,7 +77,7 @@ alienvault_reputation|ipv4|hash:ip|172678|Sat May 16 03:28:25 UTC 2015|[source](
 blocklist_de|ipv4|hash:ip|25942|Sat May 16 07:18:21 UTC 2015|[source](http://lists.blocklist.de/lists/all.txt?r=29166)
 bogons|ipv4|hash:net|13|Wed May 13 19:14:57 UTC 2015|[source](http://www.team-cymru.org/Services/Bogons/bogon-bn-agg.txt?r=1780)
 botnet|ipv4|hash:ip|451|Fri May 15 10:54:08 UTC 2015|[source](http://rules.emergingthreats.net/fwrules/emerging-PIX-CC.rules?r=19286)
-clean_mx_viruses|ipv4|hash:ip|347|Fri May 15 19:40:48 UTC 2015|[source](http://support.clean-mx.de/clean-mx/xmlviruses.php?sort=id%20desc&response=alive)
+clean_mx_viruses|ipv4|hash:ip|269|Sat May 16 07:45:39 UTC 2015|[source](http://support.clean-mx.de/clean-mx/xmlviruses.php?sort=id%20desc&response=alive)
 compromised|ipv4|hash:ip|2691|Sat May 16 00:28:03 UTC 2015|[source](http://rules.emergingthreats.net/blockrules/compromised-ips.txt?r=18408)
 danmetor|ipv4|hash:ip|5541|Sat May 16 06:45:10 UTC 2015|[source](https://www.dan.me.uk/torlist/?r=28457)
 dshield|ipv4|hash:net|20|Fri May 15 08:45:04 UTC 2015|[source](http://rules.emergingthreats.net/fwrules/emerging-PIX-DSHIELD.rules?r=31959)
