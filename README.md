@@ -73,7 +73,7 @@ TODO
 
 name|IP version|ipset type|entries|updated|source link|
 :--:|:--------:|:--------:|:-----:|:-----:|:---------:|
-blocklist_de|ipv4|hash:ip|33347|Sat May 16 00:27:10 UTC 2015|[source](http://lists.blocklist.de/lists/all.txt?r=5662)
+blocklist_de|ipv4|hash:ip|33243|Sat May 16 01:00:11 UTC 2015|[source](http://lists.blocklist.de/lists/all.txt?r=1749)
 bogons|ipv4|hash:net|13|Wed May 13 19:14:57 UTC 2015|[source](http://www.team-cymru.org/Services/Bogons/bogon-bn-agg.txt?r=1780)
 botnet|ipv4|hash:ip|451|Fri May 15 10:54:08 UTC 2015|[source](http://rules.emergingthreats.net/fwrules/emerging-PIX-CC.rules?r=19286)
 clean_mx_viruses|ipv4|hash:ip|347|Fri May 15 19:40:48 UTC 2015|[source](http://support.clean-mx.de/clean-mx/xmlviruses.php?sort=id%20desc&response=alive)
