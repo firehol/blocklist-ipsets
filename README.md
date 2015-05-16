@@ -80,6 +80,7 @@ TODO
 name|info|type|entries|freq|links|
 :--:|:--:|:--:|:-----:|:--:|:---:|
 alienvault_reputation|AlienVault.com IP reputation database|ipv4 hash:ip|199957|12 hours |[source](https://reputation.alienvault.com/reputation.generic?r=6740)
+autoshun|AutoShun.org IPs identified as hostile by correlating logs from distributed snort installations running the autoshun plugin|ipv4 hash:ip|825|4 hours |[source](http://www.autoshun.org/files/shunlist.csv?r=14353)
 blocklist_de|Blocklist.de IPs that have attacked their honeypots in the last 48 hours|ipv4 hash:ip|27919|30 mins |[source](http://lists.blocklist.de/lists/all.txt?r=29400)
 bogons|Team-Cymru.org provided private and reserved addresses defined by RFC 1918, RFC 5735, and RFC 6598 and netblocks that have not been allocated to a regional internet registry|ipv4 hash:net|13|1 day |[source](http://www.team-cymru.org/Services/Bogons/bogon-bn-agg.txt?r=170)
 botnet|EmergingThreats.net botnet IPs (at the time of writing includes all abuse.ch trackers)|ipv4 hash:ip|477|12 hours |[source](http://rules.emergingthreats.net/fwrules/emerging-PIX-CC.rules?r=3356)
