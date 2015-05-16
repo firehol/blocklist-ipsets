@@ -80,7 +80,7 @@ TODO
 name|IP version|ipset type|entries|updated|source link|
 :--:|:--------:|:--------:|:-----:|:-----:|:---------:|
 alienvault_reputation|ipv4|hash:ip|175552|Sat May 16 15:36:40 UTC 2015|[source](https://reputation.alienvault.com/reputation.generic?r=9153)
-blocklist_de|ipv4|hash:ip|22735|Sat May 16 17:36:23 UTC 2015|[source](http://lists.blocklist.de/lists/all.txt?r=24987)
+blocklist_de|ipv4|hash:ip|22783|Sat May 16 18:09:14 UTC 2015|[source](http://lists.blocklist.de/lists/all.txt?r=12529)
 bogons|ipv4|hash:net|13|Wed May 13 19:14:57 UTC 2015|[source](http://www.team-cymru.org/Services/Bogons/bogon-bn-agg.txt?r=1780)
 botnet|ipv4|hash:ip|395|Sat May 16 11:09:19 UTC 2015|[source](http://rules.emergingthreats.net/fwrules/emerging-PIX-CC.rules?r=27013)
 bruteforceblocker|ipv4|hash:ip|2075|Sat May 16 18:00:12 UTC 2015|[source](http://danger.rulez.sk/projects/bruteforceblocker/blist.php?r=12933)
