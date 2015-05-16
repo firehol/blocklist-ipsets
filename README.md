@@ -77,8 +77,8 @@ TODO
 ---
 
 # List of ipsets included
-name|IP version|ipset type|entries|updated|source link|
-:--:|:--------:|:--------:|:-----:|:-----:|:---------:|
+name|info|type|entries|updated|frequency|links|
+:--:|:--:|:--:|:-----:|:-----:|:-------:|:---:|
 alienvault_reputation|ipv4|hash:ip|175552|Sat May 16 15:36:40 UTC 2015|[source](https://reputation.alienvault.com/reputation.generic?r=9153)
 blocklist_de|ipv4|hash:ip|22783|Sat May 16 18:09:14 UTC 2015|[source](http://lists.blocklist.de/lists/all.txt?r=12529)
 bogons|ipv4|hash:net|13|Wed May 13 19:14:57 UTC 2015|[source](http://www.team-cymru.org/Services/Bogons/bogon-bn-agg.txt?r=1780)
@@ -98,7 +98,7 @@ ib_bluetack_level1|ipv4|hash:net|174228|Sat May 16 03:21:50 UTC 2015|[source](ht
 ib_bluetack_level2|ipv4|hash:net|58994|Sat May 16 03:25:57 UTC 2015|[source](http://list.iblocklist.com/?list=gyisgnzbhppbvsphucsw&fileformat=p2p&archiveformat=gz)
 ib_bluetack_level3|ipv4|hash:net|14248|Sat May 16 03:26:37 UTC 2015|[source](http://list.iblocklist.com/?list=uwnukjqktoggdknzrhgh&fileformat=p2p&archiveformat=gz)
 ib_bluetack_proxies|ipv4|hash:ip|521|Sat May 16 13:36:25 UTC 2015|[source](http://list.iblocklist.com/?list=xoebmbyexwuiogmbyprb&fileformat=p2p&archiveformat=gz)
-ib_bluetack_spyware|ipv4|hash:ip|2303|Sat May 16 13:45:07 UTC 2015|[source](http://list.iblocklist.com/?list=llvtlsjyoyiczbkjsxpf&fileformat=p2p&archiveformat=gz)
+ib_bluetack_spyware|iBlocklist.com free version of BlueTack.co.uk known malicious SPYWARE and ADWARE IP Address ranges|ipv4 hash:net|898|Sat May 16 18:26:34 UTC 2015||[source](http://list.iblocklist.com/?list=llvtlsjyoyiczbkjsxpf&fileformat=p2p&archiveformat=gz)
 ib_bluetack_webexploit|ipv4|hash:ip|1159|Sat May 16 13:54:21 UTC 2015|[source](http://list.iblocklist.com/?list=ghlzqtqxnzctvvajwwag&fileformat=p2p&archiveformat=gz)
 infiltrated|ipv4|hash:ip|7844|Sat May 16 08:27:24 UTC 2015|[source](http://www.infiltrated.net/blacklisted?r=27071)
 malc0de|ipv4|hash:ip|328|Sat May 16 12:54:06 UTC 2015|[source](http://malc0de.com/bl/IP_Blacklist.txt?r=10802)
