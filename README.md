@@ -86,6 +86,7 @@ ib_bluetack_badpeers|ipv4|hash:ip|48134|Sat May 16 01:46:17 UTC 2015|[source](ht
 ib_bluetack_hijacked|ipv4|hash:net|535|Sat May 16 01:47:46 UTC 2015|[source](http://list.iblocklist.com/?list=usrcshglbiilevmyfhse&fileformat=p2p&archiveformat=gz)
 ib_bluetack_proxies|ipv4|hash:ip|673|Sat May 16 01:38:07 UTC 2015|[source](http://list.iblocklist.com/?list=xoebmbyexwuiogmbyprb&fileformat=p2p&archiveformat=gz)
 ib_bluetack_spyware|ipv4|hash:ip|2820|Sat May 16 01:38:32 UTC 2015|[source](http://list.iblocklist.com/?list=llvtlsjyoyiczbkjsxpf&fileformat=p2p&archiveformat=gz)
+ib_bluetack_webexploit|ipv4|hash:ip|1460|Sat May 16 01:48:27 UTC 2015|[source](http://list.iblocklist.com/?list=ghlzqtqxnzctvvajwwag&fileformat=p2p&archiveformat=gz)
 infiltrated|ipv4|hash:ip|10372|Fri May 15 20:18:39 UTC 2015|[source](http://www.infiltrated.net/blacklisted?r=15279)
 malc0de|ipv4|hash:ip|350|Fri May 15 12:45:04 UTC 2015|[source](http://malc0de.com/bl/IP_Blacklist.txt?r=1813)
 malwaredomainlist|ipv4|hash:ip|1283|Wed May 13 19:15:52 UTC 2015|[source](http://www.malwaredomainlist.com/hostslist/ip.txt?r=24222)
