@@ -143,7 +143,7 @@ TODO
 name|info|type|entries|freq|links|
 :--:|:--:|:--:|:-----:|:--:|:---:|
 alienvault_reputation|AlienVault.com IP reputation database|ipv4 hash:ip|198567 unique IPs|12 hours |[src](https://reputation.alienvault.com/reputation.generic?r=23311)
-autoshun|AutoShun.org IPs identified as hostile by correlating logs from distributed snort installations running the autoshun plugin|ipv4 hash:ip|846 unique IPs|4 hours |[src](http://www.autoshun.org/files/shunlist.csv?r=32708)
+autoshun|AutoShun.org IPs identified as hostile by correlating logs from distributed snort installations running the autoshun plugin|ipv4 hash:ip|851 unique IPs|4 hours |[src](http://www.autoshun.org/files/shunlist.csv?r=21765)
 blocklist_de|Blocklist.de IPs that have attacked their honeypots in the last 48 hours|ipv4 hash:ip|25791 unique IPs|30 mins |[src](http://lists.blocklist.de/lists/all.txt?r=29075)
 bogons|Team-Cymru.org: private and reserved addresses defined by RFC 1918, RFC 5735, and RFC 6598 and netblocks that have not been allocated to a regional internet registry|ipv4 hash:net|13 entries, 592708608 unique IPs|1 day |[src](http://www.team-cymru.org/Services/Bogons/bogon-bn-agg.txt?r=32762)
 botnet|EmergingThreats.net botnet IPs (at the time of writing includes all abuse.ch trackers)|ipv4 hash:ip|270 unique IPs|12 hours |[src](http://rules.emergingthreats.net/fwrules/emerging-PIX-CC.rules?r=570)
@@ -164,7 +164,7 @@ ib_bluetack_level3|iBlocklist.com free version of BlueTack.co.uk Level 3 (for us
 ib_bluetack_proxies|iBlocklist.com free version of BlueTack.co.uk Open Proxies IPs (without TOR)|ipv4 hash:ip|673 unique IPs|12 hours |[src](http://list.iblocklist.com/?list=xoebmbyexwuiogmbyprb&fileformat=p2p&archiveformat=gz)
 ib_bluetack_spyware|iBlocklist.com free version of BlueTack.co.uk known malicious SPYWARE and ADWARE IP Address ranges|ipv4 hash:net|898 entries, 336971 unique IPs|12 hours |[src](http://list.iblocklist.com/?list=llvtlsjyoyiczbkjsxpf&fileformat=p2p&archiveformat=gz)
 ib_bluetack_webexploit|iBlocklist.com free version of BlueTack.co.uk web server hack and exploit attempts|ipv4 hash:ip|1460 unique IPs|12 hours |[src](http://list.iblocklist.com/?list=ghlzqtqxnzctvvajwwag&fileformat=p2p&archiveformat=gz)
-infiltrated|infiltrated.net list (no more info available)|ipv4 hash:ip|10392 unique IPs|12 hours |[src](http://www.infiltrated.net/blacklisted?r=20030)
+infiltrated|infiltrated.net list (no more info available)|ipv4 hash:ip|10397 unique IPs|12 hours |[src](http://www.infiltrated.net/blacklisted?r=28145)
 malc0de|Malc0de.com malicious IPs of the last 30 days|ipv4 hash:ip|371 unique IPs|1 day |[src](http://malc0de.com/bl/IP_Blacklist.txt?r=29210)
 malwaredomainlist|malwaredomainlist.com list of active ip addresses|ipv4 hash:ip|1283 unique IPs|12 hours |[src](http://www.malwaredomainlist.com/hostslist/ip.txt?r=1734)
 openbl|OpenBL.org default blacklist (currently it is the same with 90 days)|ipv4 hash:ip|9882 unique IPs|4 hours |[src](http://www.openbl.org/lists/base.txt.gz?r=6870)
@@ -179,7 +179,7 @@ rosi_web_proxies|rosinstrument.com open HTTP proxies distributed via its RSS fee
 snort_ipfilter|labs.snort.org supplied IP blacklist|ipv4 hash:ip|6542 unique IPs|12 hours |[src](http://labs.snort.org/feeds/ip-filter.blf?r=18870)
 spamhaus_drop|Spamhaus.org DROP list (according to their site this list should be dropped at tier-1 ISPs globaly)|ipv4 hash:net|636 entries, 18060288 unique IPs|12 hours |[src](http://www.spamhaus.org/drop/drop.txt?r=6726)
 spamhaus_edrop|Spamhaus.org EDROP (should be used with DROP)|ipv4 hash:net|54 entries, 419840 unique IPs|12 hours |[src](http://www.spamhaus.org/drop/edrop.txt?r=30498)
-stop_forum_spam_1h|StopForumSpam.com last 24 hours IPs used by forum spammers|ipv4 hash:ip|5578 unique IPs|1 hour |[src](http://www.stopforumspam.com/downloads/listed_ip_1.zip)
+stop_forum_spam_1h|StopForumSpam.com last 24 hours IPs used by forum spammers|ipv4 hash:ip|5553 unique IPs|1 hour |[src](http://www.stopforumspam.com/downloads/listed_ip_1.zip)
 stop_forum_spam_30d|StopForumSpam.com last 30 days IPs used by forum spammers|ipv4 hash:ip|93853 unique IPs|1 day |[src](http://www.stopforumspam.com/downloads/listed_ip_30.zip)
 stop_forum_spam_7d|StopForumSpam.com last 7 days IPs used by forum spammers|ipv4 hash:ip|29670 unique IPs|1 day |[src](http://www.stopforumspam.com/downloads/listed_ip_7.zip)
 tor|EmergingThreats.net list of TOR network IPs|ipv4 hash:ip|6350 unique IPs|12 hours |[src](http://rules.emergingthreats.net/blockrules/emerging-tor.rules?r=15772)
