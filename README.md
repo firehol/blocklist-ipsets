@@ -173,7 +173,7 @@ openbl_30d|OpenBL.org last 30 days IPs|ipv4 hash:ip|5079 unique IPs|4 hours |[sr
 openbl_60d|OpenBL.org last 60 days IPs|ipv4 hash:ip|7781 unique IPs|4 hours |[src](http://www.openbl.org/lists/base_60days.txt.gz?r=14682)
 openbl_7d|OpenBL.org last 7 days IPs|ipv4 hash:ip|1031 unique IPs|4 hours |[src](http://www.openbl.org/lists/base_7days.txt.gz?r=27241)
 openbl_90d|OpenBL.org last 90 days IPs|ipv4 hash:ip|9874 unique IPs|4 hours |[src](http://www.openbl.org/lists/base_90days.txt.gz?r=25093)
-palevo|Abuse.ch Palevo worm includes IPs which are being used as botnet C&C for the Palevo crimeware|ipv4 hash:ip|13 unique IPs|30 mins |[src](https://palevotracker.abuse.ch/blocklists.php?download=ipblocklist&r=5686)
+palevo|Abuse.ch Palevo worm includes IPs which are being used as botnet C&C for the Palevo crimeware|ipv4 hash:ip|13 unique IPs|30 mins |[src](https://palevotracker.abuse.ch/blocklists.php?download=ipblocklist&r=17386)
 rosi_connect_proxies|rosinstrument.com open CONNECT proxies distributed via its RSS feed and aggregated for the last 7 days|ipv4 hash:ip|426 unique IPs|2 hours |[src](http://tools.rosinstrument.com/proxy/plab100.xml?r=15703)
 rosi_web_proxies|rosinstrument.com open HTTP proxies distributed via its RSS feed and aggregated for the last 7 days|ipv4 hash:ip|617 unique IPs|2 hours |[src](http://tools.rosinstrument.com/proxy/l100.xml?r=2974)
 snort_ipfilter|labs.snort.org supplied IP blacklist|ipv4 hash:ip|6474 unique IPs|12 hours |[src](http://labs.snort.org/feeds/ip-filter.blf?r=22506)
