@@ -141,9 +141,9 @@ TODO
 
 # List of ipsets included
 
-The following list was automatically generated on Sun May 17 11:27:17 UTC 2015.
+The following list was automatically generated on Sun May 17 11:40:28 UTC 2015.
 
-The update frequency is the maximum allowed by internal configuration. A list will never be downloaded sooner than the update frequency stated. A list will also not be downloaded if it has not been modified on the server (as reported by HTTP `IF_MODIFIED_SINCE` method)
+The update frequency is the maximum allowed by internal configuration. A list will never be downloaded sooner than the update frequency stated. A list may also not be downloaded, after this frequency expired, if it has not been modified on the server (as reported by HTTP `IF_MODIFIED_SINCE` method).
 
 name|info|type|entries|update|
 :--:|:--:|:--:|:-----:|:----:|
@@ -156,7 +156,7 @@ bruteforceblocker|danger.rulez.sk IPs detected by bruteforceblocker (fail2ban al
 ciarmy|CIArmy.com IPs with poor Rogue Packet score that have not yet been identified as malicious by the InfoSec community|ipv4 hash:ip|432 unique IPs|updated every 3 hours  from [this link](http://cinsscore.com/list/ci-badguys.txt?r=503)
 clean_mx_viruses|Clean-MX.de IPs with viruses|ipv4 hash:ip|338 unique IPs|updated every 12 hours  from [this link](http://support.clean-mx.de/clean-mx/xmlviruses.php?sort=id%20desc&response=alive)
 compromised|EmergingThreats.net distribution of IPs that have beed compromised (at the time of writing includes openbl, bruteforceblocker and sidreporter)|ipv4 hash:ip|2698 unique IPs|updated every 12 hours  from [this link](http://rules.emergingthreats.net/blockrules/compromised-ips.txt?r=11392)
-danmetor|dan.me.uk dynamic list of TOR exit points|ipv4 hash:ip|6517 unique IPs|updated every 30 mins  from [this link](https://www.dan.me.uk/torlist/)
+danmetor|dan.me.uk dynamic list of TOR exit points|ipv4 hash:ip|6497 unique IPs|updated every 30 mins  from [this link](https://www.dan.me.uk/torlist/)
 dshield|DShield.org top 20 attacking networks|ipv4 hash:net|19 entries, 5120 unique IPs|updated every 4 hours  from [this link](http://feeds.dshield.org/block.txt?r=29461)
 emerging_block|EmergingThreats.net default blacklist (at the time of writing includes spamhaus DROP and dshield)|ipv4 hash:net|921 entries, 17934867 unique IPs|updated every 12 hours  from [this link](http://rules.emergingthreats.net/fwrules/emerging-Block-IPs.txt?r=8719)
 feodo|Abuse.ch Feodo trojan includes IPs which are being used by Feodo (also known as Cridex or Bugat) which commits ebanking fraud|ipv4 hash:ip|36 unique IPs|updated every 30 mins  from [this link](https://feodotracker.abuse.ch/blocklist/?download=ipblocklist&r=7278)
@@ -178,7 +178,7 @@ openbl_30d|OpenBL.org last 30 days IPs|ipv4 hash:ip|5079 unique IPs|updated ever
 openbl_60d|OpenBL.org last 60 days IPs|ipv4 hash:ip|7781 unique IPs|updated every 4 hours  from [this link](http://www.openbl.org/lists/base_60days.txt.gz?r=3147)
 openbl_7d|OpenBL.org last 7 days IPs|ipv4 hash:ip|1031 unique IPs|updated every 4 hours  from [this link](http://www.openbl.org/lists/base_7days.txt.gz?r=8101)
 openbl_90d|OpenBL.org last 90 days IPs|ipv4 hash:ip|9874 unique IPs|updated every 4 hours  from [this link](http://www.openbl.org/lists/base_90days.txt.gz?r=13452)
-palevo|Abuse.ch Palevo worm includes IPs which are being used as botnet C&C for the Palevo crimeware|ipv4 hash:ip|13 unique IPs|updated every 30 mins  from [this link](https://palevotracker.abuse.ch/blocklists.php?download=ipblocklist&r=13289)
+palevo|Abuse.ch Palevo worm includes IPs which are being used as botnet C&C for the Palevo crimeware|ipv4 hash:ip|12 unique IPs|updated every 30 mins  from [this link](https://palevotracker.abuse.ch/blocklists.php?download=ipblocklist)
 rosi_connect_proxies|rosinstrument.com open CONNECT proxies distributed via its RSS feed and aggregated for the last 7 days|ipv4 hash:ip|426 unique IPs|updated every 2 hours  from [this link](http://tools.rosinstrument.com/proxy/plab100.xml?r=27612)
 rosi_web_proxies|rosinstrument.com open HTTP proxies distributed via its RSS feed and aggregated for the last 7 days|ipv4 hash:ip|617 unique IPs|updated every 2 hours  from [this link](http://tools.rosinstrument.com/proxy/l100.xml?r=21824)
 snort_ipfilter|labs.snort.org supplied IP blacklist|ipv4 hash:ip|6474 unique IPs|updated every 12 hours  from [this link](http://labs.snort.org/feeds/ip-filter.blf?r=11412)
