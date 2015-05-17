@@ -142,7 +142,7 @@ TODO
 # List of ipsets included
 name|info|type|entries|freq|links|
 :--:|:--:|:--:|:-----:|:--:|:---:|
-alienvault_reputation|AlienVault.com IP reputation database|ipv4 hash:ip|199957 unique IPs|12 hours |[src](https://reputation.alienvault.com/reputation.generic?r=19295)
+alienvault_reputation|AlienVault.com IP reputation database|ipv4 hash:ip|198567 unique IPs|12 hours |[src](https://reputation.alienvault.com/reputation.generic?r=23311)
 autoshun|AutoShun.org IPs identified as hostile by correlating logs from distributed snort installations running the autoshun plugin|ipv4 hash:ip|834 unique IPs|4 hours |[src](http://www.autoshun.org/files/shunlist.csv?r=23241)
 blocklist_de|Blocklist.de IPs that have attacked their honeypots in the last 48 hours|ipv4 hash:ip|26668 unique IPs|30 mins |[src](http://lists.blocklist.de/lists/all.txt?r=10524)
 bogons|Team-Cymru.org: private and reserved addresses defined by RFC 1918, RFC 5735, and RFC 6598 and netblocks that have not been allocated to a regional internet registry|ipv4 hash:net|13 entries, 592708608 unique IPs|1 day |[src](http://www.team-cymru.org/Services/Bogons/bogon-bn-agg.txt?r=32762)
