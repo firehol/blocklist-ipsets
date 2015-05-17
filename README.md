@@ -149,7 +149,7 @@ bogons|Team-Cymru.org: private and reserved addresses defined by RFC 1918, RFC 5
 botnet|EmergingThreats.net botnet IPs (at the time of writing includes all abuse.ch trackers)|ipv4 hash:ip|270 unique IPs|12 hours |[src](http://rules.emergingthreats.net/fwrules/emerging-PIX-CC.rules?r=570)
 bruteforceblocker|danger.rulez.sk IPs detected by bruteforceblocker (fail2ban alternative for SSH on OpenBSD)|ipv4 hash:ip|2696 unique IPs|3 hours |[src](http://danger.rulez.sk/projects/bruteforceblocker/blist.php?r=6680)
 ciarmy|CIArmy.com IPs with poor Rogue Packet score that have not yet been identified as malicious by the InfoSec community|ipv4 hash:ip|429 unique IPs|3 hours |[src](http://cinsscore.com/list/ci-badguys.txt?r=2312)
-clean_mx_viruses|Clean-MX.de IPs with viruses|ipv4 hash:ip|170 unique IPs|12 hours |[src](http://support.clean-mx.de/clean-mx/xmlviruses.php?sort=id%20desc&response=alive)
+clean_mx_viruses|Clean-MX.de IPs with viruses|ipv4 hash:ip|338 unique IPs|12 hours |[src](http://support.clean-mx.de/clean-mx/xmlviruses.php?sort=id%20desc&response=alive)
 compromised|EmergingThreats.net distribution of IPs that have beed compromised (at the time of writing includes openbl, bruteforceblocker and sidreporter)|ipv4 hash:ip|2698 unique IPs|12 hours |[src](http://rules.emergingthreats.net/blockrules/compromised-ips.txt?r=1770)
 danmetor|dan.me.uk dynamic list of TOR exit points|ipv4 hash:ip|6424 unique IPs|30 mins |[src](https://www.dan.me.uk/torlist/?r=13101)
 dshield|DShield.org top 20 attacking networks|ipv4 hash:net|19 entries, 5120 unique IPs|4 hours |[src](http://feeds.dshield.org/block.txt?r=27023)
