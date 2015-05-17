@@ -152,7 +152,7 @@ ciarmy|CIArmy.com IPs with poor Rogue Packet score that have not yet been identi
 clean_mx_viruses|Clean-MX.de IPs with viruses|ipv4 hash:ip|170 unique IPs|12 hours |[src](http://support.clean-mx.de/clean-mx/xmlviruses.php?sort=id%20desc&response=alive)
 compromised|EmergingThreats.net distribution of IPs that have beed compromised (at the time of writing includes openbl, bruteforceblocker and sidreporter)|ipv4 hash:ip|2698 unique IPs|12 hours |[src](http://rules.emergingthreats.net/blockrules/compromised-ips.txt?r=1770)
 danmetor|dan.me.uk dynamic list of TOR exit points|ipv4 hash:ip|6352 unique IPs|30 mins |[src](https://www.dan.me.uk/torlist/?r=9985)
-dshield|DShield.org top 20 attacking networks|ipv4 hash:net|20 entries, 5120 unique IPs|4 hours |[src](http://feeds.dshield.org/block.txt?r=26278)
+dshield|DShield.org top 20 attacking networks|ipv4 hash:net|19 entries, 5120 unique IPs|4 hours |[src](http://feeds.dshield.org/block.txt?r=27023)
 emerging_block|EmergingThreats.net default blacklist (at the time of writing includes spamhaus DROP and dshield)|ipv4 hash:net|921 entries, 17934867 unique IPs|12 hours |[src](http://rules.emergingthreats.net/fwrules/emerging-Block-IPs.txt?r=25388)
 feodo|Abuse.ch Feodo trojan includes IPs which are being used by Feodo (also known as Cridex or Bugat) which commits ebanking fraud|ipv4 hash:ip|34 unique IPs|30 mins |[src](https://feodotracker.abuse.ch/blocklist/?download=ipblocklist&r=21630)
 fullbogons|Team-Cymru.org: IP space that has been allocated to an RIR, but not assigned by that RIR to an actual ISP or other end-user|ipv4 hash:net|3616 entries, 671231704 unique IPs|1 day |[src](http://www.team-cymru.org/Services/Bogons/fullbogons-ipv4.txt?r=11660)
