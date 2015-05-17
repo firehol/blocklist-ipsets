@@ -141,15 +141,15 @@ TODO
 
 # List of ipsets included
 
-The following list was automatically generated on Sun May 17 13:20:19 UTC 2015.
+The following list was automatically generated on Sun May 17 13:40:44 UTC 2015.
 
 The update frequency is the maximum allowed by internal configuration. A list will never be downloaded sooner than the update frequency stated. A list may also not be downloaded, after this frequency expired, if it has not been modified on the server (as reported by HTTP `IF_MODIFIED_SINCE` method).
 
 name|info|type|entries|update|
 :--:|:--:|:--:|:-----:|:----:|
 alienvault_reputation|AlienVault.com IP reputation database|ipv4 hash:ip|199869 unique IPs|updated every 12 hours  from [this link](https://reputation.alienvault.com/reputation.generic?r=10974)
-autoshun|AutoShun.org IPs identified as hostile by correlating logs from distributed snort installations running the autoshun plugin|ipv4 hash:ip|853 unique IPs|updated every 4 hours  from [this link](http://www.autoshun.org/files/shunlist.csv?r=18308)
-blocklist_de|Blocklist.de IPs that have attacked their honeypots in the last 48 hours|ipv4 hash:ip|25183 unique IPs|updated every 30 mins  from [this link](http://lists.blocklist.de/lists/all.txt)
+autoshun|AutoShun.org IPs identified as hostile by correlating logs from distributed snort installations running the autoshun plugin|ipv4 hash:ip|863 unique IPs|updated every 4 hours  from [this link](http://www.autoshun.org/files/shunlist.csv)
+blocklist_de|Blocklist.de IPs that have attacked their honeypots in the last 48 hours|ipv4 hash:ip|25063 unique IPs|updated every 30 mins  from [this link](http://lists.blocklist.de/lists/all.txt)
 bogons|Team-Cymru.org: private and reserved addresses defined by RFC 1918, RFC 5735, and RFC 6598 and netblocks that have not been allocated to a regional internet registry|ipv4 hash:net|13 entries, 592708608 unique IPs|updated every 1 day  from [this link](http://www.team-cymru.org/Services/Bogons/bogon-bn-agg.txt?r=12346)
 botnet|EmergingThreats.net botnet IPs (at the time of writing includes all abuse.ch trackers)|ipv4 hash:ip|270 unique IPs|updated every 12 hours  from [this link](http://rules.emergingthreats.net/fwrules/emerging-PIX-CC.rules?r=14293)
 bruteforceblocker|danger.rulez.sk IPs detected by bruteforceblocker (fail2ban alternative for SSH on OpenBSD)|ipv4 hash:ip|2695 unique IPs|updated every 3 hours  from [this link](http://danger.rulez.sk/projects/bruteforceblocker/blist.php)
@@ -188,6 +188,6 @@ stop_forum_spam_1h|StopForumSpam.com last 24 hours IPs used by forum spammers|ip
 stop_forum_spam_30d|StopForumSpam.com last 30 days IPs used by forum spammers|ipv4 hash:ip|92995 unique IPs|1 day |[src](http://www.stopforumspam.com/downloads/listed_ip_30.zip)
 stop_forum_spam_7d|StopForumSpam.com last 7 days IPs used by forum spammers|ipv4 hash:ip|27726 unique IPs|updated every 1 day  from [this link](http://www.stopforumspam.com/downloads/listed_ip_7.zip)
 tor|EmergingThreats.net list of TOR network IPs|ipv4 hash:ip|6350 unique IPs|updated every 12 hours  from [this link](http://rules.emergingthreats.net/blockrules/emerging-tor.rules?r=29231)
-tor_servers|torstatus.blutmagie.de list of all TOR network servers|ipv4 hash:ip|6498 unique IPs|updated every 30 mins  from [this link](https://torstatus.blutmagie.de/ip_list_all.php/Tor_ip_list_ALL.csv)
+tor_servers|torstatus.blutmagie.de list of all TOR network servers|ipv4 hash:ip|6495 unique IPs|updated every 30 mins  from [this link](https://torstatus.blutmagie.de/ip_list_all.php/Tor_ip_list_ALL.csv)
 zeus|Abuse.ch Zeus Tracker default blocklist including hijacked sites and web hosting providers|ipv4 hash:ip|263 unique IPs|updated every 30 mins  from [this link](https://zeustracker.abuse.ch/blocklist.php?download=ipblocklist)
 zeus_badips|Abuse.ch Zeus Tracker includes IPv4 addresses that are used by the ZeuS trojan|ipv4 hash:ip|229 unique IPs|updated every 30 mins  from [this link](https://zeustracker.abuse.ch/blocklist.php?download=badips)
