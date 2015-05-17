@@ -141,7 +141,7 @@ TODO
 
 # List of ipsets included
 
-The following list was automatically generated on Sun May 17 14:01:02 UTC 2015.
+The following list was automatically generated on Sun May 17 14:12:04 UTC 2015.
 
 The update frequency is the maximum allowed by internal configuration. A list will never be downloaded sooner than the update frequency stated. A list may also not be downloaded, after this frequency expired, if it has not been modified on the server (as reported by HTTP `IF_MODIFIED_SINCE` method).
 
