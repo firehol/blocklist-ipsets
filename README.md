@@ -144,7 +144,7 @@ name|info|type|entries|freq|links|
 :--:|:--:|:--:|:-----:|:--:|:---:|
 alienvault_reputation|AlienVault.com IP reputation database|ipv4 hash:ip|199957 unique IPs|12 hours |[src](https://reputation.alienvault.com/reputation.generic?r=19295)
 autoshun|AutoShun.org IPs identified as hostile by correlating logs from distributed snort installations running the autoshun plugin|ipv4 hash:ip|834 unique IPs|4 hours |[src](http://www.autoshun.org/files/shunlist.csv?r=23241)
-blocklist_de|Blocklist.de IPs that have attacked their honeypots in the last 48 hours|ipv4 hash:ip|27191 unique IPs|30 mins |[src](http://lists.blocklist.de/lists/all.txt?r=76)
+blocklist_de|Blocklist.de IPs that have attacked their honeypots in the last 48 hours|ipv4 hash:ip|26983 unique IPs|30 mins |[src](http://lists.blocklist.de/lists/all.txt?r=8635)
 bogons|Team-Cymru.org: private and reserved addresses defined by RFC 1918, RFC 5735, and RFC 6598 and netblocks that have not been allocated to a regional internet registry|ipv4 hash:net|13 entries, 592708608 unique IPs|1 day |[src](http://www.team-cymru.org/Services/Bogons/bogon-bn-agg.txt?r=32762)
 botnet|EmergingThreats.net botnet IPs (at the time of writing includes all abuse.ch trackers)|ipv4 hash:ip|270 unique IPs|12 hours |[src](http://rules.emergingthreats.net/fwrules/emerging-PIX-CC.rules?r=570)
 bruteforceblocker|danger.rulez.sk IPs detected by bruteforceblocker (fail2ban alternative for SSH on OpenBSD)|ipv4 hash:ip|2695 unique IPs|3 hours |[src](http://danger.rulez.sk/projects/bruteforceblocker/blist.php?r=31995)
@@ -183,6 +183,6 @@ stop_forum_spam_1h|StopForumSpam.com last 24 hours IPs used by forum spammers|ip
 stop_forum_spam_30d|StopForumSpam.com last 30 days IPs used by forum spammers|ipv4 hash:ip|93853 unique IPs|1 day |[src](http://www.stopforumspam.com/downloads/listed_ip_30.zip)
 stop_forum_spam_7d|StopForumSpam.com last 7 days IPs used by forum spammers|ipv4 hash:ip|29670 unique IPs|1 day |[src](http://www.stopforumspam.com/downloads/listed_ip_7.zip)
 tor|EmergingThreats.net list of TOR network IPs|ipv4 hash:ip|6350 unique IPs|12 hours |[src](http://rules.emergingthreats.net/blockrules/emerging-tor.rules?r=15772)
-tor_servers|torstatus.blutmagie.de list of all TOR network servers|ipv4 hash:ip|6423 unique IPs|30 mins |[src](https://torstatus.blutmagie.de/ip_list_all.php/Tor_ip_list_ALL.csv?r=25626)
+tor_servers|torstatus.blutmagie.de list of all TOR network servers|ipv4 hash:ip|6363 unique IPs|30 mins |[src](https://torstatus.blutmagie.de/ip_list_all.php/Tor_ip_list_ALL.csv?r=8782)
 zeus|Abuse.ch Zeus Tracker default blocklist including hijacked sites and web hosting providers|ipv4 hash:ip|263 unique IPs|30 mins |[src](https://zeustracker.abuse.ch/blocklist.php?download=ipblocklist&r=24442)
 zeus_badips|Abuse.ch Zeus Tracker includes IPv4 addresses that are used by the ZeuS trojan|ipv4 hash:ip|228 unique IPs|30 mins |[src](https://zeustracker.abuse.ch/blocklist.php?download=badips&r=12584)
