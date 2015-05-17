@@ -141,7 +141,7 @@ TODO
 
 # List of ipsets included
 
-The following list was automatically generated on Sun May 17 14:14:27 UTC 2015.
+The following list was automatically generated on Sun May 17 14:41:23 UTC 2015.
 
 The update frequency is the maximum allowed by internal configuration. A list will never be downloaded sooner than the update frequency stated. A list may also not be downloaded, after this frequency expired, if it has not been modified on the server (as reported by HTTP `IF_MODIFIED_SINCE` method).
 
@@ -149,7 +149,7 @@ name|info|type|entries|update|
 :--:|:--:|:--:|:-----:|:----:|
 alienvault_reputation|AlienVault.com IP reputation database|ipv4 hash:ip|199869 unique IPs|updated every 12 hours  from [this link](https://reputation.alienvault.com/reputation.generic?r=10974)
 autoshun|AutoShun.org IPs identified as hostile by correlating logs from distributed snort installations running the autoshun plugin|ipv4 hash:ip|863 unique IPs|updated every 4 hours  from [this link](http://www.autoshun.org/files/shunlist.csv)
-blocklist_de|Blocklist.de IPs that have attacked their honeypots in the last 48 hours|ipv4 hash:ip|24985 unique IPs|updated every 30 mins  from [this link](http://lists.blocklist.de/lists/all.txt)
+blocklist_de|Blocklist.de IPs that have attacked their honeypots in the last 48 hours|ipv4 hash:ip|24913 unique IPs|updated every 30 mins  from [this link](http://lists.blocklist.de/lists/all.txt)
 bogons|Team-Cymru.org: private and reserved addresses defined by RFC 1918, RFC 5735, and RFC 6598 and netblocks that have not been allocated to a regional internet registry|ipv4 hash:net|13 entries, 592708608 unique IPs|updated every 1 day  from [this link](http://www.team-cymru.org/Services/Bogons/bogon-bn-agg.txt?r=12346)
 botnet|EmergingThreats.net botnet IPs (at the time of writing includes all abuse.ch trackers)|ipv4 hash:ip|270 unique IPs|updated every 12 hours  from [this link](http://rules.emergingthreats.net/fwrules/emerging-PIX-CC.rules?r=14293)
 bruteforceblocker|danger.rulez.sk IPs detected by bruteforceblocker (fail2ban alternative for SSH on OpenBSD)|ipv4 hash:ip|2695 unique IPs|updated every 3 hours  from [this link](http://danger.rulez.sk/projects/bruteforceblocker/blist.php)
@@ -184,8 +184,8 @@ php_commenters|projecthoneypot.org comment spammers distributed via its RSS feed
 php_dictionary|projecthoneypot.org directory attackers distributed via its RSS feed and aggregated for the last 30 days|ipv4 hash:ip|50 unique IPs|updated every 2 hours  from [this link](http://www.projecthoneypot.org/list_of_ips.php?t=d&rss=1)
 php_harvesters|projecthoneypot.org harvesters distributed via its RSS feed and aggregated for the last 30 days|ipv4 hash:ip|50 unique IPs|updated every 2 hours  from [this link](http://www.projecthoneypot.org/list_of_ips.php?t=h&rss=1)
 php_spammers|projecthoneypot.org spam servers distributed via its RSS feed and aggregated for the last 30 days|ipv4 hash:ip|50 unique IPs|updated every 2 hours  from [this link](http://www.projecthoneypot.org/list_of_ips.php?t=s&rss=1)
-rosi_connect_proxies|rosinstrument.com open CONNECT proxies distributed via its RSS feed and aggregated for the last 7 days|ipv4 hash:ip|472 unique IPs|updated every 2 hours  from [this link](http://tools.rosinstrument.com/proxy/plab100.xml)
-rosi_web_proxies|rosinstrument.com open HTTP proxies distributed via its RSS feed and aggregated for the last 7 days|ipv4 hash:ip|711 unique IPs|updated every 2 hours  from [this link](http://tools.rosinstrument.com/proxy/l100.xml)
+rosi_connect_proxies|rosinstrument.com open CONNECT proxies distributed via its RSS feed and aggregated for the last 30 days|ipv4 hash:ip|505 unique IPs|updated every 2 hours  from [this link](http://tools.rosinstrument.com/proxy/plab100.xml)
+rosi_web_proxies|rosinstrument.com open HTTP proxies distributed via its RSS feed and aggregated for the last 30 days|ipv4 hash:ip|760 unique IPs|updated every 2 hours  from [this link](http://tools.rosinstrument.com/proxy/l100.xml)
 snort_ipfilter|labs.snort.org supplied IP blacklist|ipv4 hash:ip|6474 unique IPs|updated every 12 hours  from [this link](http://labs.snort.org/feeds/ip-filter.blf?r=11412)
 spamhaus_drop|Spamhaus.org DROP list (according to their site this list should be dropped at tier-1 ISPs globaly)|ipv4 hash:net|636 entries, 18060288 unique IPs|updated every 12 hours  from [this link](http://www.spamhaus.org/drop/drop.txt?r=4904)
 spamhaus_edrop|Spamhaus.org EDROP (should be used with DROP)|ipv4 hash:net|54 entries, 419840 unique IPs|updated every 12 hours  from [this link](http://www.spamhaus.org/drop/edrop.txt?r=23349)
