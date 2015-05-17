@@ -141,20 +141,20 @@ TODO
 
 # List of ipsets included
 
-The following list was automatically generated at Sun May 17 10:46:04 UTC 2015.
+The following list was automatically generated on Sun May 17 11:07:38 UTC 2015.
 
 name|info|type|entries|update|
 :--:|:--:|:--:|:-----:|:----:|
 alienvault_reputation|AlienVault.com IP reputation database|ipv4 hash:ip|199869 unique IPs|updated every 12 hours  from [this link](https://reputation.alienvault.com/reputation.generic?r=10974)
 autoshun|AutoShun.org IPs identified as hostile by correlating logs from distributed snort installations running the autoshun plugin|ipv4 hash:ip|853 unique IPs|updated every 4 hours  from [this link](http://www.autoshun.org/files/shunlist.csv?r=18308)
-blocklist_de|Blocklist.de IPs that have attacked their honeypots in the last 48 hours|ipv4 hash:ip|25510 unique IPs|updated every 30 mins  from [this link](http://lists.blocklist.de/lists/all.txt)
+blocklist_de|Blocklist.de IPs that have attacked their honeypots in the last 48 hours|ipv4 hash:ip|25457 unique IPs|updated every 30 mins  from [this link](http://lists.blocklist.de/lists/all.txt)
 bogons|Team-Cymru.org: private and reserved addresses defined by RFC 1918, RFC 5735, and RFC 6598 and netblocks that have not been allocated to a regional internet registry|ipv4 hash:net|13 entries, 592708608 unique IPs|updated every 1 day  from [this link](http://www.team-cymru.org/Services/Bogons/bogon-bn-agg.txt?r=12346)
 botnet|EmergingThreats.net botnet IPs (at the time of writing includes all abuse.ch trackers)|ipv4 hash:ip|270 unique IPs|updated every 12 hours  from [this link](http://rules.emergingthreats.net/fwrules/emerging-PIX-CC.rules?r=14293)
 bruteforceblocker|danger.rulez.sk IPs detected by bruteforceblocker (fail2ban alternative for SSH on OpenBSD)|ipv4 hash:ip|2693 unique IPs|updated every 3 hours  from [this link](http://danger.rulez.sk/projects/bruteforceblocker/blist.php?r=7557)
 ciarmy|CIArmy.com IPs with poor Rogue Packet score that have not yet been identified as malicious by the InfoSec community|ipv4 hash:ip|432 unique IPs|updated every 3 hours  from [this link](http://cinsscore.com/list/ci-badguys.txt?r=503)
 clean_mx_viruses|Clean-MX.de IPs with viruses|ipv4 hash:ip|338 unique IPs|updated every 12 hours  from [this link](http://support.clean-mx.de/clean-mx/xmlviruses.php?sort=id%20desc&response=alive)
 compromised|EmergingThreats.net distribution of IPs that have beed compromised (at the time of writing includes openbl, bruteforceblocker and sidreporter)|ipv4 hash:ip|2698 unique IPs|updated every 12 hours  from [this link](http://rules.emergingthreats.net/blockrules/compromised-ips.txt?r=11392)
-danmetor|dan.me.uk dynamic list of TOR exit points|ipv4 hash:ip|6473 unique IPs|updated every 30 mins  from [this link](https://www.dan.me.uk/torlist/?r=6560)
+danmetor|dan.me.uk dynamic list of TOR exit points|ipv4 hash:ip|6517 unique IPs|updated every 30 mins  from [this link](https://www.dan.me.uk/torlist/)
 dshield|DShield.org top 20 attacking networks|ipv4 hash:net|19 entries, 5120 unique IPs|updated every 4 hours  from [this link](http://feeds.dshield.org/block.txt?r=29461)
 emerging_block|EmergingThreats.net default blacklist (at the time of writing includes spamhaus DROP and dshield)|ipv4 hash:net|921 entries, 17934867 unique IPs|updated every 12 hours  from [this link](http://rules.emergingthreats.net/fwrules/emerging-Block-IPs.txt?r=8719)
 feodo|Abuse.ch Feodo trojan includes IPs which are being used by Feodo (also known as Cridex or Bugat) which commits ebanking fraud|ipv4 hash:ip|36 unique IPs|updated every 30 mins  from [this link](https://feodotracker.abuse.ch/blocklist/?download=ipblocklist&r=7278)
@@ -182,10 +182,10 @@ rosi_web_proxies|rosinstrument.com open HTTP proxies distributed via its RSS fee
 snort_ipfilter|labs.snort.org supplied IP blacklist|ipv4 hash:ip|6474 unique IPs|updated every 12 hours  from [this link](http://labs.snort.org/feeds/ip-filter.blf?r=11412)
 spamhaus_drop|Spamhaus.org DROP list (according to their site this list should be dropped at tier-1 ISPs globaly)|ipv4 hash:net|636 entries, 18060288 unique IPs|updated every 12 hours  from [this link](http://www.spamhaus.org/drop/drop.txt?r=4904)
 spamhaus_edrop|Spamhaus.org EDROP (should be used with DROP)|ipv4 hash:net|54 entries, 419840 unique IPs|updated every 12 hours  from [this link](http://www.spamhaus.org/drop/edrop.txt?r=23349)
-stop_forum_spam_1h|StopForumSpam.com last 24 hours IPs used by forum spammers|ipv4 hash:ip|5558 unique IPs|updated every 1 hour  from [this link](http://www.stopforumspam.com/downloads/listed_ip_1.zip)
+stop_forum_spam_1h|StopForumSpam.com last 24 hours IPs used by forum spammers|ipv4 hash:ip|5554 unique IPs|updated every 1 hour  from [this link](http://www.stopforumspam.com/downloads/listed_ip_1.zip)
 stop_forum_spam_30d|StopForumSpam.com last 30 days IPs used by forum spammers|ipv4 hash:ip|92995 unique IPs|1 day |[src](http://www.stopforumspam.com/downloads/listed_ip_30.zip)
 stop_forum_spam_7d|StopForumSpam.com last 7 days IPs used by forum spammers|ipv4 hash:ip|27726 unique IPs|updated every 1 day  from [this link](http://www.stopforumspam.com/downloads/listed_ip_7.zip)
 tor|EmergingThreats.net list of TOR network IPs|ipv4 hash:ip|6350 unique IPs|updated every 12 hours  from [this link](http://rules.emergingthreats.net/blockrules/emerging-tor.rules?r=29231)
-tor_servers|torstatus.blutmagie.de list of all TOR network servers|ipv4 hash:ip|6449 unique IPs|updated every 30 mins  from [this link](https://torstatus.blutmagie.de/ip_list_all.php/Tor_ip_list_ALL.csv?r=28054)
+tor_servers|torstatus.blutmagie.de list of all TOR network servers|ipv4 hash:ip|6518 unique IPs|updated every 30 mins  from [this link](https://torstatus.blutmagie.de/ip_list_all.php/Tor_ip_list_ALL.csv)
 zeus|Abuse.ch Zeus Tracker default blocklist including hijacked sites and web hosting providers|ipv4 hash:ip|263 unique IPs|updated every 30 mins  from [this link](https://zeustracker.abuse.ch/blocklist.php?download=ipblocklist)
 zeus_badips|Abuse.ch Zeus Tracker includes IPv4 addresses that are used by the ZeuS trojan|ipv4 hash:ip|228 unique IPs|updated every 30 mins  from [this link](https://zeustracker.abuse.ch/blocklist.php?download=badips&r=31135)
