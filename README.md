@@ -176,7 +176,7 @@ openbl_90d|OpenBL.org last 90 days IPs|ipv4 hash:ip|9884 unique IPs|4 hours |[sr
 palevo|Abuse.ch Palevo worm includes IPs which are being used as botnet C&C for the Palevo crimeware|ipv4 hash:ip|13 unique IPs|30 mins |[src](https://palevotracker.abuse.ch/blocklists.php?download=ipblocklist&r=32298)
 rosi_connect_proxies|rosinstrument.com open CONNECT proxies distributed via its RSS feed and aggregated for the last 7 days|ipv4 hash:ip|345 unique IPs|2 hours |[src](http://tools.rosinstrument.com/proxy/plab100.xml?r=24310)
 rosi_web_proxies|rosinstrument.com open HTTP proxies distributed via its RSS feed and aggregated for the last 7 days|ipv4 hash:ip|494 unique IPs|2 hours |[src](http://tools.rosinstrument.com/proxy/l100.xml?r=31400)
-snort_ipfilter|labs.snort.org supplied IP blacklist|ipv4 hash:ip|6844 unique IPs|12 hours |[src](http://labs.snort.org/feeds/ip-filter.blf?r=18199)
+snort_ipfilter|labs.snort.org supplied IP blacklist|ipv4 hash:ip|6542 unique IPs|12 hours |[src](http://labs.snort.org/feeds/ip-filter.blf?r=18870)
 spamhaus_drop|Spamhaus.org DROP list (according to their site this list should be dropped at tier-1 ISPs globaly)|ipv4 hash:net|636 entries, 18060288 unique IPs|12 hours |[src](http://www.spamhaus.org/drop/drop.txt?r=6726)
 spamhaus_edrop|Spamhaus.org EDROP (should be used with DROP)|ipv4 hash:net|54 entries, 419840 unique IPs|12 hours |[src](http://www.spamhaus.org/drop/edrop.txt?r=30498)
 stop_forum_spam_1h|StopForumSpam.com last 24 hours IPs used by forum spammers|ipv4 hash:ip|5584 unique IPs|1 hour |[src](http://www.stopforumspam.com/downloads/listed_ip_1.zip)
