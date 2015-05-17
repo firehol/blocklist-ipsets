@@ -179,7 +179,7 @@ rosi_web_proxies|rosinstrument.com open HTTP proxies distributed via its RSS fee
 snort_ipfilter|labs.snort.org supplied IP blacklist|ipv4 hash:ip|6542 unique IPs|12 hours |[src](http://labs.snort.org/feeds/ip-filter.blf?r=18870)
 spamhaus_drop|Spamhaus.org DROP list (according to their site this list should be dropped at tier-1 ISPs globaly)|ipv4 hash:net|636 entries, 18060288 unique IPs|12 hours |[src](http://www.spamhaus.org/drop/drop.txt?r=6726)
 spamhaus_edrop|Spamhaus.org EDROP (should be used with DROP)|ipv4 hash:net|54 entries, 419840 unique IPs|12 hours |[src](http://www.spamhaus.org/drop/edrop.txt?r=30498)
-stop_forum_spam_1h|StopForumSpam.com last 24 hours IPs used by forum spammers|ipv4 hash:ip|5584 unique IPs|1 hour |[src](http://www.stopforumspam.com/downloads/listed_ip_1.zip)
+stop_forum_spam_1h|StopForumSpam.com last 24 hours IPs used by forum spammers|ipv4 hash:ip|5561 unique IPs|1 hour |[src](http://www.stopforumspam.com/downloads/listed_ip_1.zip)
 stop_forum_spam_30d|StopForumSpam.com last 30 days IPs used by forum spammers|ipv4 hash:ip|93853 unique IPs|1 day |[src](http://www.stopforumspam.com/downloads/listed_ip_30.zip)
 stop_forum_spam_7d|StopForumSpam.com last 7 days IPs used by forum spammers|ipv4 hash:ip|29670 unique IPs|1 day |[src](http://www.stopforumspam.com/downloads/listed_ip_7.zip)
 tor|EmergingThreats.net list of TOR network IPs|ipv4 hash:ip|6350 unique IPs|12 hours |[src](http://rules.emergingthreats.net/blockrules/emerging-tor.rules?r=15772)
