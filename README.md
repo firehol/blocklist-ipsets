@@ -141,7 +141,7 @@ TODO
 
 # List of ipsets included
 
-The following list was automatically generated on Mon May 18 20:00:33 UTC 2015.
+The following list was automatically generated on Mon May 18 20:20:39 UTC 2015.
 
 The update frequency is the maximum allowed by internal configuration. A list will never be downloaded sooner than the update frequency stated. A list may also not be downloaded, after this frequency expired, if it has not been modified on the server (as reported by HTTP `IF_MODIFIED_SINCE` method).
 
@@ -178,7 +178,7 @@ openbl_30d|[OpenBL.org](http://www.openbl.org/) last 30 days IPs|ipv4 hash:ip|50
 openbl_60d|[OpenBL.org](http://www.openbl.org/) last 60 days IPs|ipv4 hash:ip|7819 unique IPs|updated every 4 hours  from [this link](http://www.openbl.org/lists/base_60days.txt.gz)
 openbl_7d|[OpenBL.org](http://www.openbl.org/) last 7 days IPs|ipv4 hash:ip|1085 unique IPs|updated every 4 hours  from [this link](http://www.openbl.org/lists/base_7days.txt.gz)
 openbl_90d|[OpenBL.org](http://www.openbl.org/) last 90 days IPs|ipv4 hash:ip|9868 unique IPs|updated every 4 hours  from [this link](http://www.openbl.org/lists/base_90days.txt.gz)
-palevo|[Abuse.ch Palevo tracker](https://palevotracker.abuse.ch) worm includes IPs which are being used as botnet C&C for the Palevo crimeware|ipv4 hash:ip|13 unique IPs|updated every 30 mins  from [this link](https://palevotracker.abuse.ch/blocklists.php?download=ipblocklist)
+palevo|[Abuse.ch Palevo tracker](https://palevotracker.abuse.ch) worm includes IPs which are being used as botnet C&C for the Palevo crimeware|ipv4 hash:ip|12 unique IPs|updated every 30 mins  from [this link](https://palevotracker.abuse.ch/blocklists.php?download=ipblocklist)
 php_bad|[projecthoneypot.org](http://www.projecthoneypot.org/) bad web hosts distributed via its RSS feed and aggregated for the last 30 days|ipv4 hash:ip|50 unique IPs|updated every 2 hours  from [this link](http://www.projecthoneypot.org/list_of_ips.php?t=b&rss=1)
 php_commenters|[projecthoneypot.org](http://www.projecthoneypot.org/) comment spammers distributed via its RSS feed and aggregated for the last 30 days|ipv4 hash:ip|50 unique IPs|updated every 2 hours  from [this link](http://www.projecthoneypot.org/list_of_ips.php?t=c&rss=1)
 php_dictionary|projecthoneypot.org directory attackers distributed via its RSS feed and aggregated for the last 30 days|ipv4 hash:ip|50 unique IPs|updated every 2 hours  from [this link](http://www.projecthoneypot.org/list_of_ips.php?t=d&rss=1)
@@ -189,10 +189,10 @@ rosi_web_proxies|[rosinstrument.com](http://www.rosinstrument.com) open HTTP pro
 snort_ipfilter|[labs.snort.org](https://labs.snort.org/) supplied IP blacklist|ipv4 hash:ip|6407 unique IPs|updated every 12 hours  from [this link](http://labs.snort.org/feeds/ip-filter.blf)
 spamhaus_drop|[Spamhaus.org](http://www.spamhaus.org) DROP list (according to their site this list should be dropped at tier-1 ISPs globaly)|ipv4 hash:net|638 subnets, 18097152 unique IPs|updated every 12 hours  from [this link](http://www.spamhaus.org/drop/drop.txt)
 spamhaus_edrop|[Spamhaus.org](http://www.spamhaus.org) EDROP (should be used with DROP)|ipv4 hash:net|54 subnets, 419840 unique IPs|updated every 12 hours  from [this link](http://www.spamhaus.org/drop/edrop.txt)
-stop_forum_spam_1h|[StopForumSpam.com](http://www.stopforumspam.com) last 24 hours IPs used by forum spammers|ipv4 hash:ip|6654 unique IPs|updated every 1 hour  from [this link](http://www.stopforumspam.com/downloads/listed_ip_1.zip)
+stop_forum_spam_1h|[StopForumSpam.com](http://www.stopforumspam.com) last 24 hours IPs used by forum spammers|ipv4 hash:ip|6677 unique IPs|updated every 1 hour  from [this link](http://www.stopforumspam.com/downloads/listed_ip_1.zip)
 stop_forum_spam_30d|[StopForumSpam.com](http://www.stopforumspam.com) last 30 days IPs used by forum spammers|ipv4 hash:ip|91984 unique IPs|updated every 1 day  from [this link](http://www.stopforumspam.com/downloads/listed_ip_30.zip)
 stop_forum_spam_7d|[StopForumSpam.com](http://www.stopforumspam.com) last 7 days IPs used by forum spammers|ipv4 hash:ip|27596 unique IPs|updated every 1 day  from [this link](http://www.stopforumspam.com/downloads/listed_ip_7.zip)
 tor|[EmergingThreats.net](http://www.emergingthreats.net/) [list](http://doc.emergingthreats.net/bin/view/Main/TorRules) of TOR network IPs|ipv4 hash:ip|6350 unique IPs|updated every 12 hours  from [this link](http://rules.emergingthreats.net/blockrules/emerging-tor.rules)
 tor_servers|[torstatus.blutmagie.de](https://torstatus.blutmagie.de) list of all TOR network servers|ipv4 hash:ip|6517 unique IPs|updated every 30 mins  from [this link](https://torstatus.blutmagie.de/ip_list_all.php/Tor_ip_list_ALL.csv)
 zeus|[Abuse.ch Zeus tracker](https://zeustracker.abuse.ch) default blocklist including hijacked sites and web hosting providers|ipv4 hash:ip|263 unique IPs|updated every 30 mins  from [this link](https://zeustracker.abuse.ch/blocklist.php?download=ipblocklist)
-zeus_badips|[Abuse.ch Zeus tracker](https://zeustracker.abuse.ch) includes IPv4 addresses that are used by the ZeuS trojan|ipv4 hash:ip|230 unique IPs|updated every 30 mins  from [this link](https://zeustracker.abuse.ch/blocklist.php?download=badips)
+zeus_badips|[Abuse.ch Zeus tracker](https://zeustracker.abuse.ch) includes IPv4 addresses that are used by the ZeuS trojan|ipv4 hash:ip|256 unique IPs|updated every 30 mins  from [this link](https://zeustracker.abuse.ch/blocklist.php?download=badips)
