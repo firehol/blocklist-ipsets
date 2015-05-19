@@ -141,7 +141,7 @@ TODO
 
 # List of ipsets included
 
-The following list was automatically generated on Tue May 19 19:00:40 UTC 2015.
+The following list was automatically generated on Tue May 19 19:20:31 UTC 2015.
 
 The update frequency is the maximum allowed by internal configuration. A list will never be downloaded sooner than the update frequency stated. A list may also not be downloaded, after this frequency expired, if it has not been modified on the server (as reported by HTTP `IF_MODIFIED_SINCE` method).
 
@@ -189,10 +189,10 @@ rosi_web_proxies|[rosinstrument.com](http://www.rosinstrument.com) open HTTP pro
 snort_ipfilter|[labs.snort.org](https://labs.snort.org/) supplied IP blacklist|ipv4 hash:ip|6787 unique IPs|updated every 12 hours  from [this link](http://labs.snort.org/feeds/ip-filter.blf)
 spamhaus_drop|[Spamhaus.org](http://www.spamhaus.org) DROP list (according to their site this list should be dropped at tier-1 ISPs globaly)|ipv4 hash:net|639 subnets, 18104832 unique IPs|updated every 12 hours  from [this link](http://www.spamhaus.org/drop/drop.txt)
 spamhaus_edrop|[Spamhaus.org](http://www.spamhaus.org) EDROP (should be used with DROP)|ipv4 hash:net|54 subnets, 419840 unique IPs|updated every 12 hours  from [this link](http://www.spamhaus.org/drop/edrop.txt)
-stop_forum_spam_1h|[StopForumSpam.com](http://www.stopforumspam.com) last 24 hours IPs used by forum spammers|ipv4 hash:ip|6749 unique IPs|updated every 1 hour  from [this link](http://www.stopforumspam.com/downloads/listed_ip_1.zip)
+stop_forum_spam_1h|[StopForumSpam.com](http://www.stopforumspam.com) last 24 hours IPs used by forum spammers|ipv4 hash:ip|6835 unique IPs|updated every 1 hour  from [this link](http://www.stopforumspam.com/downloads/listed_ip_1.zip)
 stop_forum_spam_30d|[StopForumSpam.com](http://www.stopforumspam.com) last 30 days IPs used by forum spammers|ipv4 hash:ip|92220 unique IPs|updated every 1 day  from [this link](http://www.stopforumspam.com/downloads/listed_ip_30.zip)
 stop_forum_spam_7d|[StopForumSpam.com](http://www.stopforumspam.com) last 7 days IPs used by forum spammers|ipv4 hash:ip|27376 unique IPs|updated every 1 day  from [this link](http://www.stopforumspam.com/downloads/listed_ip_7.zip)
 tor|[EmergingThreats.net](http://www.emergingthreats.net/) [list](http://doc.emergingthreats.net/bin/view/Main/TorRules) of TOR network IPs|ipv4 hash:ip|6470 unique IPs|updated every 12 hours  from [this link](http://rules.emergingthreats.net/blockrules/emerging-tor.rules)
 tor_servers|[torstatus.blutmagie.de](https://torstatus.blutmagie.de) list of all TOR network servers|ipv4 hash:ip|6517 unique IPs|updated every 30 mins  from [this link](https://torstatus.blutmagie.de/ip_list_all.php/Tor_ip_list_ALL.csv)
-zeus|[Abuse.ch Zeus tracker](https://zeustracker.abuse.ch) default blocklist including hijacked sites and web hosting providers|ipv4 hash:ip|262 unique IPs|updated every 30 mins  from [this link](https://zeustracker.abuse.ch/blocklist.php?download=ipblocklist)
+zeus|[Abuse.ch Zeus tracker](https://zeustracker.abuse.ch) default blocklist including hijacked sites and web hosting providers|ipv4 hash:ip|263 unique IPs|updated every 30 mins  from [this link](https://zeustracker.abuse.ch/blocklist.php?download=ipblocklist)
 zeus_badips|[Abuse.ch Zeus tracker](https://zeustracker.abuse.ch) includes IPv4 addresses that are used by the ZeuS trojan|ipv4 hash:ip|255 unique IPs|updated every 30 mins  from [this link](https://zeustracker.abuse.ch/blocklist.php?download=badips)
