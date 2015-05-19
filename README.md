@@ -141,7 +141,7 @@ TODO
 
 # List of ipsets included
 
-The following list was automatically generated on Tue May 19 23:00:43 UTC 2015.
+The following list was automatically generated on Tue May 19 23:21:09 UTC 2015.
 
 The update frequency is the maximum allowed by internal configuration. A list will never be downloaded sooner than the update frequency stated. A list may also not be downloaded, after this frequency expired, if it has not been modified on the server (as reported by HTTP `IF_MODIFIED_SINCE` method).
 
@@ -149,12 +149,12 @@ name|info|type|entries|update|
 :--:|:--:|:--:|:-----:|:----:|
 alienvault_reputation|[AlienVault.com](https://www.alienvault.com/) IP reputation database|ipv4 hash:ip|187769 unique IPs|updated every 12 hours  from [this link](https://reputation.alienvault.com/reputation.generic)
 autoshun|[AutoShun.org](http://autoshun.org/) IPs identified as hostile by correlating logs from distributed snort installations running the autoshun plugin|ipv4 hash:ip|865 unique IPs|updated every 4 hours  from [this link](http://www.autoshun.org/files/shunlist.csv)
-blocklist_de|[Blocklist.de](https://www.blocklist.de/) IPs that have been detected by fail2ban when they attacked their community servers in the last 48 hours|ipv4 hash:ip|29519 unique IPs|updated every 30 mins  from [this link](http://lists.blocklist.de/lists/all.txt)
+blocklist_de|[Blocklist.de](https://www.blocklist.de/) IPs that have been detected by fail2ban when they attacked their community servers in the last 48 hours|ipv4 hash:ip|29516 unique IPs|updated every 30 mins  from [this link](http://lists.blocklist.de/lists/all.txt)
 bogons|[Team-Cymru.org](http://www.team-cymru.org) private and reserved addresses defined by RFC 1918, RFC 5735, and RFC 6598 and netblocks that have not been allocated to a regional internet registry|ipv4 hash:net|13 subnets, 592708608 unique IPs|updated every 1 day  from [this link](http://www.team-cymru.org/Services/Bogons/bogon-bn-agg.txt)
 botnet|[EmergingThreats.net](http://www.emergingthreats.net/) botnet IPs (at the time of writing includes all abuse.ch trackers)|ipv4 hash:ip|507 unique IPs|updated every 12 hours  from [this link](http://rules.emergingthreats.net/fwrules/emerging-PIX-CC.rules)
 bruteforceblocker|[danger.rulez.sk](http://danger.rulez.sk/) IPs detected by [bruteforceblocker](http://danger.rulez.sk/index.php/bruteforceblocker/) (fail2ban alternative for SSH on OpenBSD)|ipv4 hash:ip|2586 unique IPs|updated every 3 hours  from [this link](http://danger.rulez.sk/projects/bruteforceblocker/blist.php)
 ciarmy|[CIArmy.com](http://ciarmy.com/) IPs with poor Rogue Packet score that have not yet been identified as malicious by the InfoSec community|ipv4 hash:ip|400 unique IPs|updated every 3 hours  from [this link](http://cinsscore.com/list/ci-badguys.txt)
-clean_mx_viruses|[Clean-MX.de](http://support.clean-mx.de/clean-mx/viruses.php) IPs with viruses|ipv4 hash:ip|83 unique IPs|updated every 12 hours  from [this link](http://support.clean-mx.de/clean-mx/xmlviruses.php?sort=id%20desc&response=alive)
+clean_mx_viruses|[Clean-MX.de](http://support.clean-mx.de/clean-mx/viruses.php) IPs with viruses|ipv4 hash:ip|542 unique IPs|updated every 12 hours  from [this link](http://support.clean-mx.de/clean-mx/xmlviruses.php?sort=id%20desc&response=alive)
 compromised|[EmergingThreats.net](http://www.emergingthreats.net/) distribution of IPs that have beed compromised (at the time of writing includes openbl, bruteforceblocker and sidreporter)|ipv4 hash:ip|2615 unique IPs|updated every 12 hours  from [this link](http://rules.emergingthreats.net/blockrules/compromised-ips.txt)
 danmetor|[dan.me.uk](https://www.dan.me.uk) dynamic list of TOR exit points|ipv4 hash:ip|6438 unique IPs|updated every 30 mins  from [this link](https://www.dan.me.uk/torlist/)
 dshield|[DShield.org](https://dshield.org/) top 20 attacking networks|ipv4 hash:net|19 subnets, 5120 unique IPs|updated every 4 hours  from [this link](http://feeds.dshield.org/block.txt)
@@ -190,7 +190,7 @@ snort_ipfilter|[labs.snort.org](https://labs.snort.org/) supplied IP blacklist|i
 spamhaus_drop|[Spamhaus.org](http://www.spamhaus.org) DROP list (according to their site this list should be dropped at tier-1 ISPs globaly)|ipv4 hash:net|639 subnets, 18104832 unique IPs|updated every 12 hours  from [this link](http://www.spamhaus.org/drop/drop.txt)
 spamhaus_edrop|[Spamhaus.org](http://www.spamhaus.org) EDROP (should be used with DROP)|ipv4 hash:net|54 subnets, 419840 unique IPs|updated every 12 hours  from [this link](http://www.spamhaus.org/drop/edrop.txt)
 sslbl|[Abuse.ch SSL Blacklist](https://sslbl.abuse.ch/) bad SSL traffic related to malware or botnet activities|ipv4 hash:ip|272 unique IPs|updated every 30 mins  from [this link](https://sslbl.abuse.ch/blacklist/sslipblacklist.csv)
-stop_forum_spam_1h|[StopForumSpam.com](http://www.stopforumspam.com) last 24 hours IPs used by forum spammers|ipv4 hash:ip|7123 unique IPs|updated every 1 hour  from [this link](http://www.stopforumspam.com/downloads/listed_ip_1.zip)
+stop_forum_spam_1h|[StopForumSpam.com](http://www.stopforumspam.com) last 24 hours IPs used by forum spammers|ipv4 hash:ip|7052 unique IPs|updated every 1 hour  from [this link](http://www.stopforumspam.com/downloads/listed_ip_1.zip)
 stop_forum_spam_30d|[StopForumSpam.com](http://www.stopforumspam.com) last 30 days IPs used by forum spammers|ipv4 hash:ip|92220 unique IPs|updated every 1 day  from [this link](http://www.stopforumspam.com/downloads/listed_ip_30.zip)
 stop_forum_spam_7d|[StopForumSpam.com](http://www.stopforumspam.com) last 7 days IPs used by forum spammers|ipv4 hash:ip|27376 unique IPs|updated every 1 day  from [this link](http://www.stopforumspam.com/downloads/listed_ip_7.zip)
 tor|[EmergingThreats.net](http://www.emergingthreats.net/) [list](http://doc.emergingthreats.net/bin/view/Main/TorRules) of TOR network IPs|ipv4 hash:ip|6470 unique IPs|updated every 12 hours  from [this link](http://rules.emergingthreats.net/blockrules/emerging-tor.rules)
