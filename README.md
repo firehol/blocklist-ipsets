@@ -141,7 +141,7 @@ TODO
 
 # List of ipsets included
 
-The following list was automatically generated on Wed May 20 20:13:09 UTC 2015.
+The following list was automatically generated on Wed May 20 20:20:23 UTC 2015.
 
 The update frequency is the maximum allowed by internal configuration. A list will never be downloaded sooner than the update frequency stated. A list may also not be downloaded, after this frequency expired, if it has not been modified on the server (as reported by HTTP `IF_MODIFIED_SINCE` method).
 
@@ -172,7 +172,7 @@ ib_bluetack_webexploit|[iBlocklist.com](https://www.iblocklist.com/) free versio
 infiltrated|[infiltrated.net](http://www.infiltrated.net) list (no more info available)|ipv4 hash:ip|10468 unique IPs|updated every 12 hours  from [this link](http://www.infiltrated.net/blacklisted)
 malc0de|[Malc0de.com](http://malc0de.com) malicious IPs of the last 30 days|ipv4 hash:ip|444 unique IPs|updated every 1 day  from [this link](http://malc0de.com/bl/IP_Blacklist.txt)
 malwaredomainlist|[malwaredomainlist.com](http://www.malwaredomainlist.com) list of active ip addresses|ipv4 hash:ip|1283 unique IPs|updated every 12 hours  from [this link](http://www.malwaredomainlist.com/hostslist/ip.txt)
-nixspam|[NiX Spam](http://www.heise.de/ix/NiX-Spam-DNSBL-and-blacklist-for-download-499637.html) about 40,000 IP addresses from about the last hour - automatically generated entries without distinguishing open proxies from relays, dialup gateways, and so on. All IPs are removed after 12 hours if there is no spam from there.|ipv4 hash:ip|31620 unique IPs|updated every 15 mins  from [this link](http://www.dnsbl.manitu.net/download/nixspam-ip.dump.gz)
+nixspam|[NiX Spam](http://www.heise.de/ix/NiX-Spam-DNSBL-and-blacklist-for-download-499637.html) about 40,000 IP addresses from about the last hour - automatically generated entries without distinguishing open proxies from relays, dialup gateways, and so on. All IPs are removed after 12 hours if there is no spam from there.|ipv4 hash:ip|31177 unique IPs|updated every 15 mins  from [this link](http://www.dnsbl.manitu.net/download/nixspam-ip.dump.gz)
 openbl|[OpenBL.org](http://www.openbl.org/) default blacklist (currently it is the same with 90 days)|ipv4 hash:ip|10059 unique IPs|updated every 4 hours  from [this link](http://www.openbl.org/lists/base.txt.gz)
 openbl_1d|[OpenBL.org](http://www.openbl.org/) last 24 hours IPs|ipv4 hash:ip|396 unique IPs|updated every 4 hours  from [this link](http://www.openbl.org/lists/base_1days.txt.gz)
 openbl_30d|[OpenBL.org](http://www.openbl.org/) last 30 days IPs|ipv4 hash:ip|5314 unique IPs|updated every 4 hours  from [this link](http://www.openbl.org/lists/base_30days.txt.gz)
