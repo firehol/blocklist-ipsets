@@ -141,7 +141,7 @@ TODO
 
 # List of ipsets included
 
-The following list was automatically generated on Wed May 20 20:07:17 UTC 2015.
+The following list was automatically generated on Wed May 20 20:13:09 UTC 2015.
 
 The update frequency is the maximum allowed by internal configuration. A list will never be downloaded sooner than the update frequency stated. A list may also not be downloaded, after this frequency expired, if it has not been modified on the server (as reported by HTTP `IF_MODIFIED_SINCE` method).
 
@@ -180,11 +180,11 @@ openbl_60d|[OpenBL.org](http://www.openbl.org/) last 60 days IPs|ipv4 hash:ip|79
 openbl_7d|[OpenBL.org](http://www.openbl.org/) last 7 days IPs|ipv4 hash:ip|1457 unique IPs|updated every 4 hours  from [this link](http://www.openbl.org/lists/base_7days.txt.gz)
 openbl_90d|[OpenBL.org](http://www.openbl.org/) last 90 days IPs|ipv4 hash:ip|10061 unique IPs|updated every 4 hours  from [this link](http://www.openbl.org/lists/base_90days.txt.gz)
 palevo|[Abuse.ch Palevo tracker](https://palevotracker.abuse.ch) worm includes IPs which are being used as botnet C&C for the Palevo crimeware|ipv4 hash:ip|13 unique IPs|updated every 30 mins  from [this link](https://palevotracker.abuse.ch/blocklists.php?download=ipblocklist)
-php_bad|[projecthoneypot.org](http://www.projecthoneypot.org/) bad web hosts distributed via its RSS feed and aggregated for the last 30 days|ipv4 hash:ip|50 unique IPs|updated every 2 hours  from [this link](http://www.projecthoneypot.org/list_of_ips.php?t=b&rss=1)
-php_commenters|[projecthoneypot.org](http://www.projecthoneypot.org/) comment spammers distributed via its RSS feed and aggregated for the last 30 days|ipv4 hash:ip|50 unique IPs|updated every 2 hours  from [this link](http://www.projecthoneypot.org/list_of_ips.php?t=c&rss=1)
-php_dictionary|projecthoneypot.org directory attackers distributed via its RSS feed and aggregated for the last 30 days|ipv4 hash:ip|50 unique IPs|updated every 2 hours  from [this link](http://www.projecthoneypot.org/list_of_ips.php?t=d&rss=1)
+php_bad|[projecthoneypot.org](http://www.projecthoneypot.org/) bad web hosts distributed via its RSS feed and aggregated for the last 30 days|ipv4 hash:ip|96 unique IPs|updated every 2 hours  from [this link](http://www.projecthoneypot.org/list_of_ips.php?t=b&rss=1)
+php_commenters|[projecthoneypot.org](http://www.projecthoneypot.org/) comment spammers distributed via its RSS feed and aggregated for the last 30 days|ipv4 hash:ip|96 unique IPs|updated every 2 hours  from [this link](http://www.projecthoneypot.org/list_of_ips.php?t=c&rss=1)
+php_dictionary|[projecthoneypot.org](http://www.projecthoneypot.org/) directory attackers distributed via its RSS feed and aggregated for the last 30 days|ipv4 hash:ip|98 unique IPs|updated every 2 hours  from [this link](http://www.projecthoneypot.org/list_of_ips.php?t=d&rss=1)
 php_harvesters|[projecthoneypot.org](http://www.projecthoneypot.org/) harvesters (IPs that surf the internet looking for email addresses) distributed via its RSS feed and aggregated for the last 30 days|ipv4 hash:ip|80 unique IPs|updated every 2 hours  from [this link](http://www.projecthoneypot.org/list_of_ips.php?t=h&rss=1)
-php_spammers|projecthoneypot.org spam servers distributed via its RSS feed and aggregated for the last 30 days|ipv4 hash:ip|50 unique IPs|updated every 2 hours  from [this link](http://www.projecthoneypot.org/list_of_ips.php?t=s&rss=1)
+php_spammers|[projecthoneypot.org](http://www.projecthoneypot.org/) spam servers (IPs used by spammers to send messages) distributed via its RSS feed and aggregated for the last 30 days|ipv4 hash:ip|98 unique IPs|updated every 2 hours  from [this link](http://www.projecthoneypot.org/list_of_ips.php?t=s&rss=1)
 rosi_connect_proxies|[rosinstrument.com](http://www.rosinstrument.com) open CONNECT proxies distributed via its RSS feed and aggregated for the last 30 days|ipv4 hash:ip|953 unique IPs|updated every 2 hours  from [this link](http://tools.rosinstrument.com/proxy/plab100.xml)
 rosi_web_proxies|[rosinstrument.com](http://www.rosinstrument.com) open HTTP proxies distributed via its RSS feed and aggregated for the last 30 days|ipv4 hash:ip|2003 unique IPs|updated every 2 hours  from [this link](http://tools.rosinstrument.com/proxy/l100.xml)
 snort_ipfilter|[labs.snort.org](https://labs.snort.org/) supplied IP blacklist|ipv4 hash:ip|8670 unique IPs|updated every 12 hours  from [this link](http://labs.snort.org/feeds/ip-filter.blf)
