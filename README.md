@@ -141,7 +141,7 @@ TODO
 
 # List of ipsets included
 
-The following list was automatically generated on Thu May 21 13:00:53 UTC 2015.
+The following list was automatically generated on Thu May 21 13:20:47 UTC 2015.
 
 The update frequency is the maximum allowed by internal configuration. A list will never be downloaded sooner than the update frequency stated. A list may also not be downloaded, after this frequency expired, if it has not been modified on the server (as reported by HTTP `IF_MODIFIED_SINCE` method).
 
@@ -169,10 +169,10 @@ ib_bluetack_level3|[iBlocklist.com](https://www.iblocklist.com/) free version of
 ib_bluetack_proxies|[iBlocklist.com](https://www.iblocklist.com/) free version of BlueTack.co.uk Open Proxies IPs (without TOR)|ipv4 hash:ip|673 unique IPs|updated every 12 hours  from [this link](http://list.iblocklist.com/?list=xoebmbyexwuiogmbyprb&fileformat=p2p&archiveformat=gz)
 ib_bluetack_spyware|[iBlocklist.com](https://www.iblocklist.com/) free version of BlueTack.co.uk known malicious SPYWARE and ADWARE IP Address ranges|ipv4 hash:net|898 subnets, 336971 unique IPs|updated every 12 hours  from [this link](http://list.iblocklist.com/?list=llvtlsjyoyiczbkjsxpf&fileformat=p2p&archiveformat=gz)
 ib_bluetack_webexploit|[iBlocklist.com](https://www.iblocklist.com/) free version of BlueTack.co.uk web server hack and exploit attempts|ipv4 hash:ip|1460 unique IPs|updated every 12 hours  from [this link](http://list.iblocklist.com/?list=ghlzqtqxnzctvvajwwag&fileformat=p2p&archiveformat=gz)
-infiltrated|[infiltrated.net](http://www.infiltrated.net) list (no more info available)|ipv4 hash:ip|10478 unique IPs|updated every 12 hours  from [this link](http://www.infiltrated.net/blacklisted)
-malc0de|[Malc0de.com](http://malc0de.com) malicious IPs of the last 30 days|ipv4 hash:ip|444 unique IPs|updated every 1 day  from [this link](http://malc0de.com/bl/IP_Blacklist.txt)
+infiltrated|[infiltrated.net](http://www.infiltrated.net) list (no more info available)|ipv4 hash:ip|10485 unique IPs|updated every 12 hours  from [this link](http://www.infiltrated.net/blacklisted)
+malc0de|[Malc0de.com](http://malc0de.com) malicious IPs of the last 30 days|ipv4 hash:ip|443 unique IPs|updated every 1 day  from [this link](http://malc0de.com/bl/IP_Blacklist.txt)
 malwaredomainlist|[malwaredomainlist.com](http://www.malwaredomainlist.com) list of active ip addresses|ipv4 hash:ip|1283 unique IPs|updated every 12 hours  from [this link](http://www.malwaredomainlist.com/hostslist/ip.txt)
-nixspam|[NiX Spam](http://www.heise.de/ix/NiX-Spam-DNSBL-and-blacklist-for-download-499637.html) about 40,000 IP addresses from about the last hour - automatically generated entries without distinguishing open proxies from relays, dialup gateways, and so on. All IPs are removed after 12 hours if there is no spam from there.|ipv4 hash:ip|31899 unique IPs|updated every 15 mins  from [this link](http://www.dnsbl.manitu.net/download/nixspam-ip.dump.gz)
+nixspam|[NiX Spam](http://www.heise.de/ix/NiX-Spam-DNSBL-and-blacklist-for-download-499637.html) about 40,000 IP addresses from about the last hour - automatically generated entries without distinguishing open proxies from relays, dialup gateways, and so on. All IPs are removed after 12 hours if there is no spam from there.|ipv4 hash:ip|31909 unique IPs|updated every 15 mins  from [this link](http://www.dnsbl.manitu.net/download/nixspam-ip.dump.gz)
 openbl|[OpenBL.org](http://www.openbl.org/) default blacklist (currently it is the same with 90 days)|ipv4 hash:ip|10053 unique IPs|updated every 4 hours  from [this link](http://www.openbl.org/lists/base.txt.gz)
 openbl_1d|[OpenBL.org](http://www.openbl.org/) last 24 hours IPs|ipv4 hash:ip|357 unique IPs|updated every 4 hours  from [this link](http://www.openbl.org/lists/base_1days.txt.gz)
 openbl_30d|[OpenBL.org](http://www.openbl.org/) last 30 days IPs|ipv4 hash:ip|5311 unique IPs|updated every 4 hours  from [this link](http://www.openbl.org/lists/base_30days.txt.gz)
@@ -191,7 +191,7 @@ snort_ipfilter|[labs.snort.org](https://labs.snort.org/) supplied IP blacklist|i
 spamhaus_drop|[Spamhaus.org](http://www.spamhaus.org) DROP list (according to their site this list should be dropped at tier-1 ISPs globaly)|ipv4 hash:net|640 subnets, 18113024 unique IPs|updated every 12 hours  from [this link](http://www.spamhaus.org/drop/drop.txt)
 spamhaus_edrop|[Spamhaus.org](http://www.spamhaus.org) EDROP (should be used with DROP)|ipv4 hash:net|54 subnets, 419840 unique IPs|updated every 12 hours  from [this link](http://www.spamhaus.org/drop/edrop.txt)
 sslbl|[Abuse.ch SSL Blacklist](https://sslbl.abuse.ch/) bad SSL traffic related to malware or botnet activities|ipv4 hash:ip|289 unique IPs|updated every 30 mins  from [this link](https://sslbl.abuse.ch/blacklist/sslipblacklist.csv)
-stop_forum_spam_1h|[StopForumSpam.com](http://www.stopforumspam.com) last 24 hours IPs used by forum spammers|ipv4 hash:ip|7250 unique IPs|updated every 1 hour  from [this link](http://www.stopforumspam.com/downloads/listed_ip_1.zip)
+stop_forum_spam_1h|[StopForumSpam.com](http://www.stopforumspam.com) last 24 hours IPs used by forum spammers|ipv4 hash:ip|7232 unique IPs|updated every 1 hour  from [this link](http://www.stopforumspam.com/downloads/listed_ip_1.zip)
 stop_forum_spam_30d|[StopForumSpam.com](http://www.stopforumspam.com) last 30 days IPs used by forum spammers|ipv4 hash:ip|92155 unique IPs|updated every 1 day  from [this link](http://www.stopforumspam.com/downloads/listed_ip_30.zip)
 stop_forum_spam_7d|[StopForumSpam.com](http://www.stopforumspam.com) last 7 days IPs used by forum spammers|ipv4 hash:ip|27682 unique IPs|updated every 1 day  from [this link](http://www.stopforumspam.com/downloads/listed_ip_7.zip)
 tor|[EmergingThreats.net](http://www.emergingthreats.net/) [list](http://doc.emergingthreats.net/bin/view/Main/TorRules) of TOR network IPs|ipv4 hash:ip|6480 unique IPs|updated every 12 hours  from [this link](http://rules.emergingthreats.net/blockrules/emerging-tor.rules)
