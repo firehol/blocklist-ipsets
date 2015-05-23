@@ -20,17 +20,12 @@
 # Western Sahara (EH), Tunisia (TN), Morocco (MA), Algeria 
 # (DZ), Angola (AO), Namibia (NA), Saint Helena (SH), Cape 
 # Verde (CV), South Sudan (SS),  -- [MaxMind 
-# GeoLite2](http://dev.maxmind.com/geoip/geoip2/geolite2/) 
-# databases are free IP geolocation databases comparable to, 
-# but less accurate than, MaxMind’s GeoIP2 databases. They 
-# include IPs per country, IPs per continent, IPs used by 
-# anonymous services (VPNs, Proxies, etc) and Satellite 
-# Providers.
+# GeoLite2](http://dev.maxmind.com/geoip/geoip2/geolite2/)
 #
 # Source URL: http://geolite.maxmind.com/download/geoip/database/GeoLite2-Country-CSV.zip
 #
 # Source File Date: Thu May  7 14:35:38 UTC 2015
-# This File Date  : Sat May 23 14:15:57 UTC 2015
+# This File Date  : Sat May 23 14:24:10 UTC 2015
 # Update Frequency: 7 days 
 # Agreegation     : none
 # Entries         : 1467 subnets, 76857554 unique IPs

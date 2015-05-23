@@ -18,17 +18,12 @@
 # (MX), Puerto Rico (PR), U.S. Virgin Islands (VI), Canada 
 # (CA), United States (US), Sint Maarten (SX), Curaçao (CW), 
 # Bonaire (BQ),  -- [MaxMind 
-# GeoLite2](http://dev.maxmind.com/geoip/geoip2/geolite2/) 
-# databases are free IP geolocation databases comparable to, 
-# but less accurate than, MaxMind’s GeoIP2 databases. They 
-# include IPs per country, IPs per continent, IPs used by 
-# anonymous services (VPNs, Proxies, etc) and Satellite 
-# Providers.
+# GeoLite2](http://dev.maxmind.com/geoip/geoip2/geolite2/)
 #
 # Source URL: http://geolite.maxmind.com/download/geoip/database/GeoLite2-Country-CSV.zip
 #
 # Source File Date: Thu May  7 14:35:38 UTC 2015
-# This File Date  : Sat May 23 14:16:06 UTC 2015
+# This File Date  : Sat May 23 14:24:18 UTC 2015
 # Update Frequency: 7 days 
 # Agreegation     : none
 # Entries         : 12624 subnets, 1725867549 unique IPs
