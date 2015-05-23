@@ -4,13 +4,13 @@
 # ipv4 hash:ip ipset
 #
 # [Abuse.ch SSL Blacklist](https://sslbl.abuse.ch/) bad SSL 
-# traffic related to malware or botnet activities - ** 
-# excellent list **
+# traffic related to malware or botnet activities - 
+# **excellent list**
 #
 # Source URL: https://sslbl.abuse.ch/blacklist/sslipblacklist.csv
 #
 # Source File Date: Sat May 23 15:00:07 UTC 2015
-# This File Date  : Sat May 23 15:02:22 UTC 2015
+# This File Date  : Sat May 23 15:16:00 UTC 2015
 # Update Frequency: 30 mins 
 # Aggregation     : none
 # Entries         : 309 unique IPs

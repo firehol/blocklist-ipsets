@@ -11,12 +11,12 @@
 # (Submission), 993 (IMAPS) and 995 (POP3S) for bruteforce 
 # login attacks as well as scans on ports 80 (HTTP) and 443 
 # (HTTPS) for vulnerable installations of phpMyAdmin and 
-# other web applications - ** excellent list **
+# other web applications - **excellent list**
 #
 # Source URL: http://www.openbl.org/lists/base.txt.gz
 #
 # Source File Date: Sat May 23 12:57:01 UTC 2015
-# This File Date  : Sat May 23 15:01:59 UTC 2015
+# This File Date  : Sat May 23 15:15:33 UTC 2015
 # Update Frequency: 4 hours 
 # Aggregation     : none
 # Entries         : 9990 unique IPs

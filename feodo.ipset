@@ -5,13 +5,13 @@
 #
 # [Abuse.ch Feodo tracker](https://feodotracker.abuse.ch) 
 # trojan includes IPs which are being used by Feodo (also 
-# known as Cridex or Bugat) which commits ebanking fraud - ** 
-# excellent list **
+# known as Cridex or Bugat) which commits ebanking fraud - 
+# **excellent list**
 #
 # Source URL: https://feodotracker.abuse.ch/blocklist/?download=ipblocklist
 #
-# Source File Date: Sat May 23 14:35:38 UTC 2015
-# This File Date  : Sat May 23 15:02:20 UTC 2015
+# Source File Date: Sat May 23 15:15:59 UTC 2015
+# This File Date  : Sat May 23 15:15:59 UTC 2015
 # Update Frequency: 30 mins 
 # Aggregation     : none
 # Entries         : 57 unique IPs

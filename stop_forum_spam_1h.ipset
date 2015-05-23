@@ -4,13 +4,12 @@
 # ipv4 hash:ip ipset
 #
 # [StopForumSpam.com](http://www.stopforumspam.com) IPs used 
-# by forum spammers in the last 24 hours - ** excellent list 
-# **
+# by forum spammers in the last 24 hours - **excellent list**
 #
 # Source URL: http://www.stopforumspam.com/downloads/listed_ip_1.zip
 #
 # Source File Date: Sat May 23 15:00:02 UTC 2015
-# This File Date  : Sat May 23 15:02:26 UTC 2015
+# This File Date  : Sat May 23 15:16:03 UTC 2015
 # Update Frequency: 1 hour 
 # Aggregation     : none
 # Entries         : 7169 unique IPs

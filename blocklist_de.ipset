@@ -4,13 +4,13 @@
 # ipv4 hash:ip ipset
 #
 # [Blocklist.de](https://www.blocklist.de/) IPs that have 
-# been detected by fail2ban in the last 48 hours - ** 
-# excellent list **
+# been detected by fail2ban in the last 48 hours - 
+# **excellent list**
 #
 # Source URL: http://lists.blocklist.de/lists/all.txt
 #
 # Source File Date: Sat May 23 14:56:02 UTC 2015
-# This File Date  : Sat May 23 15:02:17 UTC 2015
+# This File Date  : Sat May 23 15:15:52 UTC 2015
 # Update Frequency: 30 mins 
 # Aggregation     : none
 # Entries         : 26190 unique IPs

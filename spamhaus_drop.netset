@@ -5,12 +5,12 @@
 #
 # [Spamhaus.org](http://www.spamhaus.org) DROP list 
 # (according to their site this list should be dropped at 
-# tier-1 ISPs globaly) - ** excellent list **
+# tier-1 ISPs globaly) - **excellent list**
 #
 # Source URL: http://www.spamhaus.org/drop/drop.txt
 #
 # Source File Date: Fri May 22 16:08:26 UTC 2015
-# This File Date  : Sat May 23 15:02:10 UTC 2015
+# This File Date  : Sat May 23 15:15:48 UTC 2015
 # Update Frequency: 12 hours 
 # Aggregation     : none
 # Entries         : 640 subnets, 18051584 unique IPs
