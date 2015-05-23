@@ -3,24 +3,32 @@
 #
 # ipv4 hash:net ipset
 #
-# North America (NA), with countries: Barbados (BB)Saint 
-# Pierre and Miquelon (PM)Greenland (GL)Jamaica (JM)Dominican 
-# Republic (DO)Cuba (CU)Martinique (MQ)Bahamas (BS)Bermuda 
-# (BM)Anguilla (AI)Trinidad and Tobago (TT)Saint Kitts and 
-# Nevis (KN)Dominica (DM)Antigua and Barbuda (AG)Saint Lucia 
-# (LC)Turks and Caicos Islands (TC)Aruba (AW)British Virgin 
-# Islands (VG)Saint Vincent and the Grenadines (VC)Montserrat 
-# (MS)Saint Martin (MF)Saint-Barthélemy (BL)Guadeloupe 
-# (GP)Grenada (GD)Cayman Islands (KY)Belize (BZ)El Salvador 
-# (SV)Guatemala (GT)Honduras (HN)Nicaragua (NI)Costa Rica 
-# (CR)Panama (PA)Haiti (HT)Mexico (MX)Puerto Rico (PR)U.S. 
-# Virgin Islands (VI)Canada (CA)United States (US)Sint 
-# Maarten (SX)Curaçao (CW)Bonaire (BQ)
+# North America (NA), with countries: Barbados (BB), Saint 
+# Pierre and Miquelon (PM), Greenland (GL), Jamaica (JM), 
+# Dominican Republic (DO), Cuba (CU), Martinique (MQ), 
+# Bahamas (BS), Bermuda (BM), Anguilla (AI), Trinidad and 
+# Tobago (TT), Saint Kitts and Nevis (KN), Dominica (DM), 
+# Antigua and Barbuda (AG), Saint Lucia (LC), Turks and 
+# Caicos Islands (TC), Aruba (AW), British Virgin Islands 
+# (VG), Saint Vincent and the Grenadines (VC), Montserrat 
+# (MS), Saint Martin (MF), Saint-Barthélemy (BL), Guadeloupe 
+# (GP), Grenada (GD), Cayman Islands (KY), Belize (BZ), El 
+# Salvador (SV), Guatemala (GT), Honduras (HN), Nicaragua 
+# (NI), Costa Rica (CR), Panama (PA), Haiti (HT), Mexico 
+# (MX), Puerto Rico (PR), U.S. Virgin Islands (VI), Canada 
+# (CA), United States (US), Sint Maarten (SX), Curaçao (CW), 
+# Bonaire (BQ),  -- [MaxMind 
+# GeoLite2](http://dev.maxmind.com/geoip/geoip2/geolite2/) 
+# databases are free IP geolocation databases comparable to, 
+# but less accurate than, MaxMind’s GeoIP2 databases. They 
+# include IPs per country, IPs per continent, IPs used by 
+# anonymous services (VPNs, Proxies, etc) and Satellite 
+# Providers.
 #
 # Source URL: http://geolite.maxmind.com/download/geoip/database/GeoLite2-Country-CSV.zip
 #
 # Source File Date: Thu May  7 14:35:38 UTC 2015
-# This File Date  : Sat May 23 14:07:47 UTC 2015
+# This File Date  : Sat May 23 14:16:06 UTC 2015
 # Update Frequency: 7 days 
 # Agreegation     : none
 # Entries         : 12624 subnets, 1725867549 unique IPs

@@ -3,15 +3,22 @@
 #
 # ipv4 hash:net ipset
 #
-# South America (SA), with countries: Guyana (GY)French 
-# Guiana (GF)Suriname (SR)Paraguay (PY)Uruguay (UY)Brazil 
-# (BR)Falkland Islands (FK)Venezuela (VE)Ecuador (EC)Colombia 
-# (CO)Argentina (AR)Chile (CL)Bolivia (BO)Peru (PE)
+# South America (SA), with countries: Guyana (GY), French 
+# Guiana (GF), Suriname (SR), Paraguay (PY), Uruguay (UY), 
+# Brazil (BR), Falkland Islands (FK), Venezuela (VE), Ecuador 
+# (EC), Colombia (CO), Argentina (AR), Chile (CL), Bolivia 
+# (BO), Peru (PE),  -- [MaxMind 
+# GeoLite2](http://dev.maxmind.com/geoip/geoip2/geolite2/) 
+# databases are free IP geolocation databases comparable to, 
+# but less accurate than, MaxMind’s GeoIP2 databases. They 
+# include IPs per country, IPs per continent, IPs used by 
+# anonymous services (VPNs, Proxies, etc) and Satellite 
+# Providers.
 #
 # Source URL: http://geolite.maxmind.com/download/geoip/database/GeoLite2-Country-CSV.zip
 #
 # Source File Date: Thu May  7 14:35:38 UTC 2015
-# This File Date  : Sat May 23 14:07:49 UTC 2015
+# This File Date  : Sat May 23 14:16:08 UTC 2015
 # Update Frequency: 7 days 
 # Agreegation     : none
 # Entries         : 2287 subnets, 145712161 unique IPs
