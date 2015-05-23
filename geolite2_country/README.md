@@ -14,9 +14,9 @@ mentioning features of or use of this database:
 > This product includes GeoLite2 data created by MaxMind, available from [www.maxmind.com](http://www.maxmind.com).
 
 
-## Country Data
+## Country ipset
 
-MaxMind distinguishes between several types of country data. The country is the `country` where the IP
+MaxMind distinguishes between several types of country data. The `country` is the country where the IP
 address is located. The `registered_country` is the country in which the IP is registered.
 These two may differ in some cases.
 
@@ -26,6 +26,23 @@ This can be useful for managing content licensing, among other uses.
 
 **In the ipsets generated, an IP subnet is added to all `country`, `registered_country` and `represented_country`
 (of course only when these differ).**
+
+More information [here](http://dev.maxmind.com/geoip/geoip2/whats-new-in-geoip2/).
+
+
+## Continent ipsets
+
+MaxMind provides the continent each IP subnet is located. Using this information we created the `geolite2/continent_*.netset` ipsets.
+
+
+## Global providers
+
+MaxMind provides two flags for each IP subnet.
+
+- `A1` which stands for `is anonymous provider`
+- `A2` which stands for `is satellite provider`
+
+Using this information we created two additional ipsets: `geolite2/anonymous.netset` and `geolite2/satellite.netset`.
 
 
 ## Dynamic list of ipsets
