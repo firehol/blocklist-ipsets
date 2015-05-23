@@ -3,18 +3,26 @@
 #
 # ipv4 hash:net ipset
 #
-# [MaxMind 
-# GeoLite2](http://dev.maxmind.com/geoip/geoip2/geolite2/) 
-# databases are free IP geolocation databases comparable to, 
-# but less accurate than, MaxMind’s GeoIP2 databases. They 
-# include IPs per country, IPs per continent, IPs used by 
-# anonymous services (VPNs, Proxies, etc) and Satellite 
-# Providers.
+# Asia (AS), with countries: Yemen (YE)Iraq (IQ)Saudi Arabia 
+# (SA)Iran (IR)Syria (SY)Armenia (AM)Hashemite Kingdom of 
+# Jordan (JO)Lebanon (LB)Kuwait (KW)Oman (OM)Qatar 
+# (QA)Bahrain (BH)United Arab Emirates (AE)Israel (IL)Turkey 
+# (TR)Azerbaijan (AZ)Georgia (GE)Afghanistan (AF)Pakistan 
+# (PK)Bangladesh (BD)Turkmenistan (TM)Tajikistan (TJ)Sri 
+# Lanka (LK)Bhutan (BT)India (IN)Maldives (MV)British Indian 
+# Ocean Territory (IO)Nepal (NP)Myanmar [Burma] 
+# (MM)Uzbekistan (UZ)Kazakhstan (KZ)Kyrgyzstan (KG)Cocos 
+# [Keeling] Islands (CC)Vietnam (VN)Thailand (TH)Indonesia 
+# (ID)Laos (LA)Taiwan (TW)Philippines (PH)Malaysia (MY)China 
+# (CN)Hong Kong (HK)Brunei (BN)Macao (MO)Cambodia 
+# (KH)Republic of Korea (KR)Japan (JP)North Korea 
+# (KP)Singapore (SG)Mongolia (MN)Christmas Island 
+# (CX)Palestine (PS) ()
 #
 # Source URL: http://geolite.maxmind.com/download/geoip/database/GeoLite2-Country-CSV.zip
 #
 # Source File Date: Thu May  7 14:35:38 UTC 2015
-# This File Date  : Sat May 23 02:55:21 UTC 2015
+# This File Date  : Sat May 23 14:07:41 UTC 2015
 # Update Frequency: 7 days 
 # Agreegation     : none
 # Entries         : 13905 subnets, 867521871 unique IPs

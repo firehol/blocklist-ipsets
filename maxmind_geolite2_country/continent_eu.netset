@@ -3,18 +3,25 @@
 #
 # ipv4 hash:net ipset
 #
-# [MaxMind 
-# GeoLite2](http://dev.maxmind.com/geoip/geoip2/geolite2/) 
-# databases are free IP geolocation databases comparable to, 
-# but less accurate than, MaxMind’s GeoIP2 databases. They 
-# include IPs per country, IPs per continent, IPs used by 
-# anonymous services (VPNs, Proxies, etc) and Satellite 
-# Providers.
+# Europe (EU), with countries: Cyprus (CY)Greece (GR)Estonia 
+# (EE)Latvia (LV)Republic of Lithuania (LT)Svalbard and Jan 
+# Mayen (SJ)Republic of Moldova (MD)Belarus (BY)Finland 
+# (FI)Åland (AX)Ukraine (UA)Macedonia (MK)Hungary 
+# (HU)Bulgaria (BG)Albania (AL)Poland (PL)Romania (RO)Kosovo 
+# (XK)Russia (RU)Portugal (PT)Gibraltar (GI)Spain (ES)Malta 
+# (MT)Faroe Islands (FO)Denmark (DK)Iceland (IS)United 
+# Kingdom (GB)Switzerland (CH)Sweden (SE)Netherlands 
+# (NL)Austria (AT)Belgium (BE)Germany (DE)Luxembourg 
+# (LU)Ireland (IE)Monaco (MC)France (FR)Andorra 
+# (AD)Liechtenstein (LI)Jersey (JE)Isle of Man (IM)Guernsey 
+# (GG)Slovakia (SK)Czech Republic (CZ)Norway (NO)Vatican City 
+# (VA)San Marino (SM)Italy (IT)Slovenia (SI)Montenegro 
+# (ME)Croatia (HR)Bosnia and Herzegovina (BA) ()Serbia (RS)
 #
 # Source URL: http://geolite.maxmind.com/download/geoip/database/GeoLite2-Country-CSV.zip
 #
 # Source File Date: Thu May  7 14:35:38 UTC 2015
-# This File Date  : Sat May 23 02:55:25 UTC 2015
+# This File Date  : Sat May 23 14:07:45 UTC 2015
 # Update Frequency: 7 days 
 # Agreegation     : none
 # Entries         : 20554 subnets, 753646536 unique IPs

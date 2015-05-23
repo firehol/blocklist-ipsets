@@ -3,18 +3,20 @@
 #
 # ipv4 hash:net ipset
 #
-# [MaxMind 
-# GeoLite2](http://dev.maxmind.com/geoip/geoip2/geolite2/) 
-# databases are free IP geolocation databases comparable to, 
-# but less accurate than, MaxMind’s GeoIP2 databases. They 
-# include IPs per country, IPs per continent, IPs used by 
-# anonymous services (VPNs, Proxies, etc) and Satellite 
-# Providers.
+# Oceania (OC), with countries: Palau (PW)Cook Islands 
+# (CK)East Timor (TL)Australia (AU)Marshall Islands 
+# (MH)Federated States of Micronesia (FM)Papua New Guinea 
+# (PG)Solomon Islands (SB)Tuvalu (TV)Nauru (NR)Vanuatu 
+# (VU)New Caledonia (NC)Norfolk Island (NF)New Zealand 
+# (NZ)Fiji (FJ)French Polynesia (PF)Pitcairn Islands 
+# (PN)Kiribati (KI)Tokelau (TK)Tonga (TO)Wallis and Futuna 
+# (WF)Samoa (WS)Niue (NU)Northern Mariana Islands (MP)Guam 
+# (GU)U.S. Minor Outlying Islands (UM)American Samoa (AS)
 #
 # Source URL: http://geolite.maxmind.com/download/geoip/database/GeoLite2-Country-CSV.zip
 #
 # Source File Date: Thu May  7 14:35:38 UTC 2015
-# This File Date  : Sat May 23 02:55:29 UTC 2015
+# This File Date  : Sat May 23 14:07:48 UTC 2015
 # Update Frequency: 7 days 
 # Agreegation     : none
 # Entries         : 6152 subnets, 57195268 unique IPs
