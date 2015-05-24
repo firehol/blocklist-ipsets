@@ -141,64 +141,64 @@ TODO
 
 # List of ipsets included
 
-The following list was automatically generated on Sun May 24 21:50:55 UTC 2015.
+The following list was automatically generated on Sun May 24 22:26:29 UTC 2015.
 
 The update frequency is the maximum allowed by internal configuration. A list will never be downloaded sooner than the update frequency stated. A list may also not be downloaded, after this frequency expired, if it has not been modified on the server (as reported by HTTP `IF_MODIFIED_SINCE` method).
 
 name|info|type|entries|update|
 :--:|:--:|:--:|:-----:|:----:|
-alienvault_reputation|[AlienVault.com](https://www.alienvault.com/) IP reputation database (this list seems to include port scanning hosts and to be updated regularly, but we found no information about its retention policy)|ipv4 hash:ip|188000 unique IPs|updated every 6 hours  from [this link](https://reputation.alienvault.com/reputation.generic)
-autoshun|[AutoShun.org](http://autoshun.org/) IPs identified as hostile by correlating logs from distributed snort installations running the autoshun plugin|ipv4 hash:ip|51 unique IPs|updated every 4 hours  from [this link](http://www.autoshun.org/files/shunlist.csv)
-[blocklist_de](#blocklist_de)|[Blocklist.de](https://www.blocklist.de/) IPs that have been detected by fail2ban in the last 48 hours - **excellent list**|ipv4 hash:ip|26581 unique IPs|updated every 30 mins  from [this link](http://lists.blocklist.de/lists/all.txt)
-bogons|[Team-Cymru.org](http://www.team-cymru.org) private and reserved addresses defined by RFC 1918, RFC 5735, and RFC 6598 and netblocks that have not been allocated to a regional internet registry - **excellent list - use it only your internet interface**|ipv4 hash:net|13 subnets, 592708608 unique IPs|updated every 1 day  from [this link](http://www.team-cymru.org/Services/Bogons/bogon-bn-agg.txt)
-botnet|[EmergingThreats.net](http://www.emergingthreats.net/) botnet IPs (at the time of writing includes any abuse.ch trackers, which are available separately too - prefer to use the direct ipsets instead of this, they seem to lag a bit in updates)|ipv4 hash:ip|515 unique IPs|updated every 12 hours  from [this link](http://rules.emergingthreats.net/fwrules/emerging-PIX-CC.rules)
-bruteforceblocker|[danger.rulez.sk](http://danger.rulez.sk/) IPs detected by [bruteforceblocker](http://danger.rulez.sk/index.php/bruteforceblocker/) (fail2ban alternative for SSH on OpenBSD)|ipv4 hash:ip|2288 unique IPs|updated every 3 hours  from [this link](http://danger.rulez.sk/projects/bruteforceblocker/blist.php)
-ciarmy|[CIArmy.com](http://ciarmy.com/) IPs with poor Rogue Packet score that have not yet been identified as malicious by the community|ipv4 hash:ip|403 unique IPs|updated every 3 hours  from [this link](http://cinsscore.com/list/ci-badguys.txt)
-clean_mx_viruses|[Clean-MX.de](http://support.clean-mx.de/clean-mx/viruses.php) IPs with viruses|ipv4 hash:ip|318 unique IPs|updated every 12 hours  from [this link](http://support.clean-mx.de/clean-mx/xmlviruses.php?sort=id%20desc&response=alive)
-compromised|[EmergingThreats.net](http://www.emergingthreats.net/) distribution of IPs that have beed compromised (at the time of writing includes openbl, bruteforceblocker and sidreporter)|ipv4 hash:ip|2436 unique IPs|updated every 12 hours  from [this link](http://rules.emergingthreats.net/blockrules/compromised-ips.txt)
-danmetor|[dan.me.uk](https://www.dan.me.uk) dynamic list of TOR exit points|ipv4 hash:ip|6530 unique IPs|updated every 30 mins  from [this link](https://www.dan.me.uk/torlist/)
-dshield|[DShield.org](https://dshield.org/) top 20 attacking class C (/24) subnets over the last three days - **excellent list**|ipv4 hash:net|20 subnets, 5120 unique IPs|updated every 4 hours  from [this link](http://feeds.dshield.org/block.txt)
-emerging_block|[EmergingThreats.net](http://www.emergingthreats.net/) default blacklist (at the time of writing includes spamhaus DROP, dshield and abuse.ch trackers, which are available separately too - prefer to use the direct ipsets instead of this, they seem to lag a bit in updates)|ipv4 hash:net|965 subnets, 18065466 unique IPs|updated every 12 hours  from [this link](http://rules.emergingthreats.net/fwrules/emerging-Block-IPs.txt)
-feodo|[Abuse.ch Feodo tracker](https://feodotracker.abuse.ch) trojan includes IPs which are being used by Feodo (also known as Cridex or Bugat) which commits ebanking fraud - **excellent list**|ipv4 hash:ip|58 unique IPs|updated every 30 mins  from [this link](https://feodotracker.abuse.ch/blocklist/?download=ipblocklist)
-fullbogons|[Team-Cymru.org](http://www.team-cymru.org) IP space that has been allocated to an RIR, but not assigned by that RIR to an actual ISP or other end-user - **excellent list - use it only your internet interface**|ipv4 hash:net|3646 subnets, 670922200 unique IPs|updated every 1 day  from [this link](http://www.team-cymru.org/Services/Bogons/fullbogons-ipv4.txt)
+[alienvault_reputation](#alienvault_reputation)|[AlienVault.com](https://www.alienvault.com/) IP reputation database (this list seems to include port scanning hosts and to be updated regularly, but we found no information about its retention policy)|ipv4 hash:ip|188000 unique IPs|updated every 6 hours  from [this link](https://reputation.alienvault.com/reputation.generic)
+[autoshun](#autoshun)|[AutoShun.org](http://autoshun.org/) IPs identified as hostile by correlating logs from distributed snort installations running the autoshun plugin|ipv4 hash:ip|51 unique IPs|updated every 4 hours  from [this link](http://www.autoshun.org/files/shunlist.csv)
+[blocklist_de](#blocklist_de)|[Blocklist.de](https://www.blocklist.de/) IPs that have been detected by fail2ban in the last 48 hours - **excellent list**|ipv4 hash:ip|26592 unique IPs|updated every 30 mins  from [this link](http://lists.blocklist.de/lists/all.txt)
+[bogons](#bogons)|[Team-Cymru.org](http://www.team-cymru.org) private and reserved addresses defined by RFC 1918, RFC 5735, and RFC 6598 and netblocks that have not been allocated to a regional internet registry - **excellent list - use it only your internet interface**|ipv4 hash:net|13 subnets, 592708608 unique IPs|updated every 1 day  from [this link](http://www.team-cymru.org/Services/Bogons/bogon-bn-agg.txt)
+[botnet](#botnet)|[EmergingThreats.net](http://www.emergingthreats.net/) botnet IPs (at the time of writing includes any abuse.ch trackers, which are available separately too - prefer to use the direct ipsets instead of this, they seem to lag a bit in updates)|ipv4 hash:ip|515 unique IPs|updated every 12 hours  from [this link](http://rules.emergingthreats.net/fwrules/emerging-PIX-CC.rules)
+[bruteforceblocker](#bruteforceblocker)|[danger.rulez.sk](http://danger.rulez.sk/) IPs detected by [bruteforceblocker](http://danger.rulez.sk/index.php/bruteforceblocker/) (fail2ban alternative for SSH on OpenBSD)|ipv4 hash:ip|2288 unique IPs|updated every 3 hours  from [this link](http://danger.rulez.sk/projects/bruteforceblocker/blist.php)
+[ciarmy](#ciarmy)|[CIArmy.com](http://ciarmy.com/) IPs with poor Rogue Packet score that have not yet been identified as malicious by the community|ipv4 hash:ip|403 unique IPs|updated every 3 hours  from [this link](http://cinsscore.com/list/ci-badguys.txt)
+[clean_mx_viruses](#clean_mx_viruses)|[Clean-MX.de](http://support.clean-mx.de/clean-mx/viruses.php) IPs with viruses|ipv4 hash:ip|318 unique IPs|updated every 12 hours  from [this link](http://support.clean-mx.de/clean-mx/xmlviruses.php?sort=id%20desc&response=alive)
+[compromised](#compromised)|[EmergingThreats.net](http://www.emergingthreats.net/) distribution of IPs that have beed compromised (at the time of writing includes openbl, bruteforceblocker and sidreporter)|ipv4 hash:ip|2436 unique IPs|updated every 12 hours  from [this link](http://rules.emergingthreats.net/blockrules/compromised-ips.txt)
+[danmetor](#danmetor)|[dan.me.uk](https://www.dan.me.uk) dynamic list of TOR exit points|ipv4 hash:ip|6514 unique IPs|updated every 30 mins  from [this link](https://www.dan.me.uk/torlist/)
+[dshield](#dshield)|[DShield.org](https://dshield.org/) top 20 attacking class C (/24) subnets over the last three days - **excellent list**|ipv4 hash:net|20 subnets, 5120 unique IPs|updated every 4 hours  from [this link](http://feeds.dshield.org/block.txt)
+[emerging_block](#emerging_block)|[EmergingThreats.net](http://www.emergingthreats.net/) default blacklist (at the time of writing includes spamhaus DROP, dshield and abuse.ch trackers, which are available separately too - prefer to use the direct ipsets instead of this, they seem to lag a bit in updates)|ipv4 hash:net|965 subnets, 18065466 unique IPs|updated every 12 hours  from [this link](http://rules.emergingthreats.net/fwrules/emerging-Block-IPs.txt)
+[feodo](#feodo)|[Abuse.ch Feodo tracker](https://feodotracker.abuse.ch) trojan includes IPs which are being used by Feodo (also known as Cridex or Bugat) which commits ebanking fraud - **excellent list**|ipv4 hash:ip|58 unique IPs|updated every 30 mins  from [this link](https://feodotracker.abuse.ch/blocklist/?download=ipblocklist)
+[fullbogons](#fullbogons)|[Team-Cymru.org](http://www.team-cymru.org) IP space that has been allocated to an RIR, but not assigned by that RIR to an actual ISP or other end-user - **excellent list - use it only your internet interface**|ipv4 hash:net|3646 subnets, 670922200 unique IPs|updated every 1 day  from [this link](http://www.team-cymru.org/Services/Bogons/fullbogons-ipv4.txt)
 geolite2_country|[MaxMind GeoLite2](http://dev.maxmind.com/geoip/geoip2/geolite2/) databases are free IP geolocation databases comparable to, but less accurate than, MaxMind’s GeoIP2 databases. They include IPs per country, IPs per continent, IPs used by anonymous services (VPNs, Proxies, etc) and Satellite Providers.|ipv4 hash:net|All the world|updated every 7 days  from [this link](http://geolite.maxmind.com/download/geoip/database/GeoLite2-Country-CSV.zip)
-ib_bluetack_badpeers|[iBlocklist.com](https://www.iblocklist.com/) free version of [BlueTack.co.uk](http://www.bluetack.co.uk/) IPs that have been reported for bad deeds in p2p|ipv4 hash:ip|48134 unique IPs|updated every 12 hours  from [this link](http://list.iblocklist.com/?list=cwworuawihqvocglcoss&fileformat=p2p&archiveformat=gz)
-ib_bluetack_hijacked|[iBlocklist.com](https://www.iblocklist.com/) free version of [BlueTack.co.uk](http://www.bluetack.co.uk/) hijacked IP-Blocks Hijacked IP space are IP blocks that are being used without permission|ipv4 hash:net|535 subnets, 9177856 unique IPs|updated every 12 hours  from [this link](http://list.iblocklist.com/?list=usrcshglbiilevmyfhse&fileformat=p2p&archiveformat=gz)
-ib_bluetack_level1|[iBlocklist.com](https://www.iblocklist.com/) free version of [BlueTack.co.uk](http://www.bluetack.co.uk/) Level 1 (for use in p2p): Companies or organizations who are clearly involved with trying to stop filesharing (e.g. Baytsp, MediaDefender, Mediasentry a.o.). Companies which anti-p2p activity has been seen from. Companies that produce or have a strong financial interest in copyrighted material (e.g. music, movie, software industries a.o.). Government ranges or companies that have a strong financial interest in doing work for governments. Legal industry ranges. IPs or ranges of ISPs from which anti-p2p activity has been observed. Basically this list will block all kinds of internet connections that most people would rather not have during their internet travels.|ipv4 hash:net|215693 subnets, 765044590 unique IPs|updated every 12 hours  from [this link](http://list.iblocklist.com/?list=ydxerpxkpcfqjaybcssw&fileformat=p2p&archiveformat=gz)
-ib_bluetack_level2|[iBlocklist.com](https://www.iblocklist.com/) free version of BlueTack.co.uk Level 2 (for use in p2p). General corporate ranges. Ranges used by labs or researchers. Proxies.|ipv4 hash:net|75927 subnets, 348729520 unique IPs|updated every 12 hours  from [this link](http://list.iblocklist.com/?list=gyisgnzbhppbvsphucsw&fileformat=p2p&archiveformat=gz)
-ib_bluetack_level3|[iBlocklist.com](https://www.iblocklist.com/) free version of BlueTack.co.uk Level 3 (for use in p2p). Many portal-type websites. ISP ranges that may be dodgy for some reason. Ranges that belong to an individual, but which have not been determined to be used by a particular company. Ranges for things that are unusual in some way. The L3 list is aka the paranoid list.|ipv4 hash:net|18550 subnets, 139108857 unique IPs|updated every 12 hours  from [this link](http://list.iblocklist.com/?list=uwnukjqktoggdknzrhgh&fileformat=p2p&archiveformat=gz)
-ib_bluetack_proxies|[iBlocklist.com](https://www.iblocklist.com/) free version of [BlueTack.co.uk](http://www.bluetack.co.uk/) Open Proxies IPs list (without TOR)|ipv4 hash:ip|673 unique IPs|updated every 12 hours  from [this link](http://list.iblocklist.com/?list=xoebmbyexwuiogmbyprb&fileformat=p2p&archiveformat=gz)
-ib_bluetack_spyware|[iBlocklist.com](https://www.iblocklist.com/) free version of [BlueTack.co.uk](http://www.bluetack.co.uk/) known malicious SPYWARE and ADWARE IP Address ranges|ipv4 hash:net|898 subnets, 336971 unique IPs|updated every 12 hours  from [this link](http://list.iblocklist.com/?list=llvtlsjyoyiczbkjsxpf&fileformat=p2p&archiveformat=gz)
-ib_bluetack_webexploit|[iBlocklist.com](https://www.iblocklist.com/) free version of [BlueTack.co.uk](http://www.bluetack.co.uk/) web server hack and exploit attempts|ipv4 hash:ip|1460 unique IPs|updated every 12 hours  from [this link](http://list.iblocklist.com/?list=ghlzqtqxnzctvvajwwag&fileformat=p2p&archiveformat=gz)
+[ib_bluetack_badpeers](#ib_bluetack_badpeers)|[iBlocklist.com](https://www.iblocklist.com/) free version of [BlueTack.co.uk](http://www.bluetack.co.uk/) IPs that have been reported for bad deeds in p2p|ipv4 hash:ip|48134 unique IPs|updated every 12 hours  from [this link](http://list.iblocklist.com/?list=cwworuawihqvocglcoss&fileformat=p2p&archiveformat=gz)
+[ib_bluetack_hijacked](#ib_bluetack_hijacked)|[iBlocklist.com](https://www.iblocklist.com/) free version of [BlueTack.co.uk](http://www.bluetack.co.uk/) hijacked IP-Blocks Hijacked IP space are IP blocks that are being used without permission|ipv4 hash:net|535 subnets, 9177856 unique IPs|updated every 12 hours  from [this link](http://list.iblocklist.com/?list=usrcshglbiilevmyfhse&fileformat=p2p&archiveformat=gz)
+[ib_bluetack_level1](#ib_bluetack_level1)|[iBlocklist.com](https://www.iblocklist.com/) free version of [BlueTack.co.uk](http://www.bluetack.co.uk/) Level 1 (for use in p2p): Companies or organizations who are clearly involved with trying to stop filesharing (e.g. Baytsp, MediaDefender, Mediasentry a.o.). Companies which anti-p2p activity has been seen from. Companies that produce or have a strong financial interest in copyrighted material (e.g. music, movie, software industries a.o.). Government ranges or companies that have a strong financial interest in doing work for governments. Legal industry ranges. IPs or ranges of ISPs from which anti-p2p activity has been observed. Basically this list will block all kinds of internet connections that most people would rather not have during their internet travels.|ipv4 hash:net|215693 subnets, 765044590 unique IPs|updated every 12 hours  from [this link](http://list.iblocklist.com/?list=ydxerpxkpcfqjaybcssw&fileformat=p2p&archiveformat=gz)
+[ib_bluetack_level2](#ib_bluetack_level2)|[iBlocklist.com](https://www.iblocklist.com/) free version of BlueTack.co.uk Level 2 (for use in p2p). General corporate ranges. Ranges used by labs or researchers. Proxies.|ipv4 hash:net|75927 subnets, 348729520 unique IPs|updated every 12 hours  from [this link](http://list.iblocklist.com/?list=gyisgnzbhppbvsphucsw&fileformat=p2p&archiveformat=gz)
+[ib_bluetack_level3](#ib_bluetack_level3)|[iBlocklist.com](https://www.iblocklist.com/) free version of BlueTack.co.uk Level 3 (for use in p2p). Many portal-type websites. ISP ranges that may be dodgy for some reason. Ranges that belong to an individual, but which have not been determined to be used by a particular company. Ranges for things that are unusual in some way. The L3 list is aka the paranoid list.|ipv4 hash:net|18550 subnets, 139108857 unique IPs|updated every 12 hours  from [this link](http://list.iblocklist.com/?list=uwnukjqktoggdknzrhgh&fileformat=p2p&archiveformat=gz)
+[ib_bluetack_proxies](#ib_bluetack_proxies)|[iBlocklist.com](https://www.iblocklist.com/) free version of [BlueTack.co.uk](http://www.bluetack.co.uk/) Open Proxies IPs list (without TOR)|ipv4 hash:ip|673 unique IPs|updated every 12 hours  from [this link](http://list.iblocklist.com/?list=xoebmbyexwuiogmbyprb&fileformat=p2p&archiveformat=gz)
+[ib_bluetack_spyware](#ib_bluetack_spyware)|[iBlocklist.com](https://www.iblocklist.com/) free version of [BlueTack.co.uk](http://www.bluetack.co.uk/) known malicious SPYWARE and ADWARE IP Address ranges|ipv4 hash:net|898 subnets, 336971 unique IPs|updated every 12 hours  from [this link](http://list.iblocklist.com/?list=llvtlsjyoyiczbkjsxpf&fileformat=p2p&archiveformat=gz)
+[ib_bluetack_webexploit](#ib_bluetack_webexploit)|[iBlocklist.com](https://www.iblocklist.com/) free version of [BlueTack.co.uk](http://www.bluetack.co.uk/) web server hack and exploit attempts|ipv4 hash:ip|1460 unique IPs|updated every 12 hours  from [this link](http://list.iblocklist.com/?list=ghlzqtqxnzctvvajwwag&fileformat=p2p&archiveformat=gz)
 infiltrated|[infiltrated.net](http://www.infiltrated.net) (this list seems to be updated frequently, but we found no information about it)|ipv4 hash:ip|10520 unique IPs|updated every 12 hours  from [this link](http://www.infiltrated.net/blacklisted)
-malc0de|[Malc0de.com](http://malc0de.com) malicious IPs of the last 30 days|ipv4 hash:ip|426 unique IPs|updated every 1 day  from [this link](http://malc0de.com/bl/IP_Blacklist.txt)
-malwaredomainlist|[malwaredomainlist.com](http://www.malwaredomainlist.com) list of malware active ip addresses|ipv4 hash:ip|1283 unique IPs|updated every 12 hours  from [this link](http://www.malwaredomainlist.com/hostslist/ip.txt)
-[nixspam](#nixspam)|[NiX Spam](http://www.heise.de/ix/NiX-Spam-DNSBL-and-blacklist-for-download-499637.html) IP addresses that sent spam in the last hour - automatically generated entries without distinguishing open proxies from relays, dialup gateways, and so on. All IPs are removed after 12 hours if there is no spam from there.|ipv4 hash:ip|18188 unique IPs|updated every 15 mins  from [this link](http://www.dnsbl.manitu.net/download/nixspam-ip.dump.gz)
-openbl|[OpenBL.org](http://www.openbl.org/) default blacklist (currently it is the same with 90 days). OpenBL.org is detecting, logging and reporting various types of internet abuse. Currently they monitor ports 21 (FTP), 22 (SSH), 23 (TELNET), 25 (SMTP), 110 (POP3), 143 (IMAP), 587 (Submission), 993 (IMAPS) and 995 (POP3S) for bruteforce login attacks as well as scans on ports 80 (HTTP) and 443 (HTTPS) for vulnerable installations of phpMyAdmin and other web applications - **excellent list**|ipv4 hash:ip|9986 unique IPs|updated every 4 hours  from [this link](http://www.openbl.org/lists/base.txt.gz)
-openbl_1d|[OpenBL.org](http://www.openbl.org/) last 24 hours IPs.  OpenBL.org is detecting, logging and reporting various types of internet abuse. Currently they monitor ports 21 (FTP), 22 (SSH), 23 (TELNET), 25 (SMTP), 110 (POP3), 143 (IMAP), 587 (Submission), 993 (IMAPS) and 995 (POP3S) for bruteforce login attacks as well as scans on ports 80 (HTTP) and 443 (HTTPS) for vulnerable installations of phpMyAdmin and other web applications.|ipv4 hash:ip|357 unique IPs|updated every 4 hours  from [this link](http://www.openbl.org/lists/base_1days.txt.gz)
-openbl_30d|[OpenBL.org](http://www.openbl.org/) last 30 days IPs.  OpenBL.org is detecting, logging and reporting various types of internet abuse. Currently they monitor ports 21 (FTP), 22 (SSH), 23 (TELNET), 25 (SMTP), 110 (POP3), 143 (IMAP), 587 (Submission), 993 (IMAPS) and 995 (POP3S) for bruteforce login attacks as well as scans on ports 80 (HTTP) and 443 (HTTPS) for vulnerable installations of phpMyAdmin and other web applications.|ipv4 hash:ip|4722 unique IPs|updated every 4 hours  from [this link](http://www.openbl.org/lists/base_30days.txt.gz)
-openbl_60d|[OpenBL.org](http://www.openbl.org/) last 60 days IPs.  OpenBL.org is detecting, logging and reporting various types of internet abuse. Currently they monitor ports 21 (FTP), 22 (SSH), 23 (TELNET), 25 (SMTP), 110 (POP3), 143 (IMAP), 587 (Submission), 993 (IMAPS) and 995 (POP3S) for bruteforce login attacks as well as scans on ports 80 (HTTP) and 443 (HTTPS) for vulnerable installations of phpMyAdmin and other web applications.|ipv4 hash:ip|7904 unique IPs|updated every 4 hours  from [this link](http://www.openbl.org/lists/base_60days.txt.gz)
-openbl_7d|[OpenBL.org](http://www.openbl.org/) last 7 days IPs.  OpenBL.org is detecting, logging and reporting various types of internet abuse. Currently they monitor ports 21 (FTP), 22 (SSH), 23 (TELNET), 25 (SMTP), 110 (POP3), 143 (IMAP), 587 (Submission), 993 (IMAPS) and 995 (POP3S) for bruteforce login attacks as well as scans on ports 80 (HTTP) and 443 (HTTPS) for vulnerable installations of phpMyAdmin and other web applications.|ipv4 hash:ip|1427 unique IPs|updated every 4 hours  from [this link](http://www.openbl.org/lists/base_7days.txt.gz)
-openbl_90d|[OpenBL.org](http://www.openbl.org/) last 90 days IPs.  OpenBL.org is detecting, logging and reporting various types of internet abuse. Currently they monitor ports 21 (FTP), 22 (SSH), 23 (TELNET), 25 (SMTP), 110 (POP3), 143 (IMAP), 587 (Submission), 993 (IMAPS) and 995 (POP3S) for bruteforce login attacks as well as scans on ports 80 (HTTP) and 443 (HTTPS) for vulnerable installations of phpMyAdmin and other web applications.|ipv4 hash:ip|9986 unique IPs|updated every 4 hours  from [this link](http://www.openbl.org/lists/base_90days.txt.gz)
-palevo|[Abuse.ch Palevo tracker](https://palevotracker.abuse.ch) worm includes IPs which are being used as botnet C&C for the Palevo crimeware - **excellent list**|ipv4 hash:ip|13 unique IPs|updated every 30 mins  from [this link](https://palevotracker.abuse.ch/blocklists.php?download=ipblocklist)
-php_bad|[projecthoneypot.org](http://www.projecthoneypot.org/) bad web hosts (this list is composed using an RSS feed and aggregated for the last 30 days)|ipv4 hash:ip|201 unique IPs|updated every 1 hour  from [this link](http://www.projecthoneypot.org/list_of_ips.php?t=b&rss=1)
-php_commenters|[projecthoneypot.org](http://www.projecthoneypot.org/) comment spammers (this list is composed using an RSS feed and aggregated for the last 30 days)|ipv4 hash:ip|201 unique IPs|updated every 1 hour  from [this link](http://www.projecthoneypot.org/list_of_ips.php?t=c&rss=1)
-php_dictionary|[projecthoneypot.org](http://www.projecthoneypot.org/) directory attackers (this list is composed using an RSS feed and aggregated for the last 30 days)|ipv4 hash:ip|275 unique IPs|updated every 1 hour  from [this link](http://www.projecthoneypot.org/list_of_ips.php?t=d&rss=1)
-php_harvesters|[projecthoneypot.org](http://www.projecthoneypot.org/) harvesters (IPs that surf the internet looking for email addresses) (this list is composed using an RSS feed and aggregated for the last 30 days)|ipv4 hash:ip|178 unique IPs|updated every 1 hour  from [this link](http://www.projecthoneypot.org/list_of_ips.php?t=h&rss=1)
-php_spammers|[projecthoneypot.org](http://www.projecthoneypot.org/) spam servers (IPs used by spammers to send messages) (this list is composed using an RSS feed and aggregated for the last 30 days)|ipv4 hash:ip|261 unique IPs|updated every 1 hour  from [this link](http://www.projecthoneypot.org/list_of_ips.php?t=s&rss=1)
-rosi_connect_proxies|[rosinstrument.com](http://www.rosinstrument.com) open CONNECT proxies (this list is composed using an RSS feed and aggregated for the last 30 days)|ipv4 hash:ip|1348 unique IPs|updated every 1 hour  from [this link](http://tools.rosinstrument.com/proxy/plab100.xml)
-rosi_web_proxies|[rosinstrument.com](http://www.rosinstrument.com) open HTTP proxies (this list is composed using an RSS feed and aggregated for the last 30 days)|ipv4 hash:ip|3273 unique IPs|updated every 1 hour  from [this link](http://tools.rosinstrument.com/proxy/l100.xml)
-snort_ipfilter|[labs.snort.org](https://labs.snort.org/) supplied IP blacklist (this list seems to be updated frequently, but we found no information about it)|ipv4 hash:ip|6580 unique IPs|updated every 12 hours  from [this link](http://labs.snort.org/feeds/ip-filter.blf)
-spamhaus_drop|[Spamhaus.org](http://www.spamhaus.org) DROP list (according to their site this list should be dropped at tier-1 ISPs globaly) - **excellent list**|ipv4 hash:net|640 subnets, 18051584 unique IPs|updated every 12 hours  from [this link](http://www.spamhaus.org/drop/drop.txt)
-spamhaus_edrop|[Spamhaus.org](http://www.spamhaus.org) EDROP (extended matches that should be used with DROP) - **excellent list**|ipv4 hash:net|55 subnets, 421120 unique IPs|updated every 12 hours  from [this link](http://www.spamhaus.org/drop/edrop.txt)
-sslbl|[Abuse.ch SSL Blacklist](https://sslbl.abuse.ch/) bad SSL traffic related to malware or botnet activities - **excellent list**|ipv4 hash:ip|320 unique IPs|updated every 30 mins  from [this link](https://sslbl.abuse.ch/blacklist/sslipblacklist.csv)
-[stop_forum_spam_1h](#stop_forum_spam_1h)|[StopForumSpam.com](http://www.stopforumspam.com) IPs used by forum spammers in the last 24 hours - **excellent list**|ipv4 hash:ip|6821 unique IPs|updated every 1 hour  from [this link](http://www.stopforumspam.com/downloads/listed_ip_1.zip)
-stop_forum_spam_30d|[StopForumSpam.com](http://www.stopforumspam.com) IPs used by forum spammers (last 30 days)|ipv4 hash:ip|91499 unique IPs|updated every 1 day  from [this link](http://www.stopforumspam.com/downloads/listed_ip_30.zip)
-stop_forum_spam_7d|[StopForumSpam.com](http://www.stopforumspam.com) IPs used by forum spammers (last 7 days)|ipv4 hash:ip|28751 unique IPs|updated every 1 day  from [this link](http://www.stopforumspam.com/downloads/listed_ip_7.zip)
-tor|[EmergingThreats.net](http://www.emergingthreats.net/) [list](http://doc.emergingthreats.net/bin/view/Main/TorRules) of TOR network IPs|ipv4 hash:ip|6340 unique IPs|updated every 12 hours  from [this link](http://rules.emergingthreats.net/blockrules/emerging-tor.rules)
-tor_servers|[torstatus.blutmagie.de](https://torstatus.blutmagie.de) list of all TOR network servers|ipv4 hash:ip|6551 unique IPs|updated every 30 mins  from [this link](https://torstatus.blutmagie.de/ip_list_all.php/Tor_ip_list_ALL.csv)
-zeus|[Abuse.ch Zeus tracker](https://zeustracker.abuse.ch) default blocklist including hijacked sites and web hosting providers - **excellent list**|ipv4 hash:ip|262 unique IPs|updated every 30 mins  from [this link](https://zeustracker.abuse.ch/blocklist.php?download=ipblocklist)
-zeus_badips|[Abuse.ch Zeus tracker](https://zeustracker.abuse.ch) includes IPv4 addresses that are used by the ZeuS trojan|ipv4 hash:ip|228 unique IPs|updated every 30 mins  from [this link](https://zeustracker.abuse.ch/blocklist.php?download=badips)
+[malc0de](#malc0de)|[Malc0de.com](http://malc0de.com) malicious IPs of the last 30 days|ipv4 hash:ip|426 unique IPs|updated every 1 day  from [this link](http://malc0de.com/bl/IP_Blacklist.txt)
+[malwaredomainlist](#malwaredomainlist)|[malwaredomainlist.com](http://www.malwaredomainlist.com) list of malware active ip addresses|ipv4 hash:ip|1283 unique IPs|updated every 12 hours  from [this link](http://www.malwaredomainlist.com/hostslist/ip.txt)
+[nixspam](#nixspam)|[NiX Spam](http://www.heise.de/ix/NiX-Spam-DNSBL-and-blacklist-for-download-499637.html) IP addresses that sent spam in the last hour - automatically generated entries without distinguishing open proxies from relays, dialup gateways, and so on. All IPs are removed after 12 hours if there is no spam from there.|ipv4 hash:ip|18125 unique IPs|updated every 15 mins  from [this link](http://www.dnsbl.manitu.net/download/nixspam-ip.dump.gz)
+[openbl](#openbl)|[OpenBL.org](http://www.openbl.org/) default blacklist (currently it is the same with 90 days). OpenBL.org is detecting, logging and reporting various types of internet abuse. Currently they monitor ports 21 (FTP), 22 (SSH), 23 (TELNET), 25 (SMTP), 110 (POP3), 143 (IMAP), 587 (Submission), 993 (IMAPS) and 995 (POP3S) for bruteforce login attacks as well as scans on ports 80 (HTTP) and 443 (HTTPS) for vulnerable installations of phpMyAdmin and other web applications - **excellent list**|ipv4 hash:ip|9986 unique IPs|updated every 4 hours  from [this link](http://www.openbl.org/lists/base.txt.gz)
+[openbl_1d](#openbl_1d)|[OpenBL.org](http://www.openbl.org/) last 24 hours IPs.  OpenBL.org is detecting, logging and reporting various types of internet abuse. Currently they monitor ports 21 (FTP), 22 (SSH), 23 (TELNET), 25 (SMTP), 110 (POP3), 143 (IMAP), 587 (Submission), 993 (IMAPS) and 995 (POP3S) for bruteforce login attacks as well as scans on ports 80 (HTTP) and 443 (HTTPS) for vulnerable installations of phpMyAdmin and other web applications.|ipv4 hash:ip|357 unique IPs|updated every 4 hours  from [this link](http://www.openbl.org/lists/base_1days.txt.gz)
+[openbl_30d](#openbl_30d)|[OpenBL.org](http://www.openbl.org/) last 30 days IPs.  OpenBL.org is detecting, logging and reporting various types of internet abuse. Currently they monitor ports 21 (FTP), 22 (SSH), 23 (TELNET), 25 (SMTP), 110 (POP3), 143 (IMAP), 587 (Submission), 993 (IMAPS) and 995 (POP3S) for bruteforce login attacks as well as scans on ports 80 (HTTP) and 443 (HTTPS) for vulnerable installations of phpMyAdmin and other web applications.|ipv4 hash:ip|4722 unique IPs|updated every 4 hours  from [this link](http://www.openbl.org/lists/base_30days.txt.gz)
+[openbl_60d](#openbl_60d)|[OpenBL.org](http://www.openbl.org/) last 60 days IPs.  OpenBL.org is detecting, logging and reporting various types of internet abuse. Currently they monitor ports 21 (FTP), 22 (SSH), 23 (TELNET), 25 (SMTP), 110 (POP3), 143 (IMAP), 587 (Submission), 993 (IMAPS) and 995 (POP3S) for bruteforce login attacks as well as scans on ports 80 (HTTP) and 443 (HTTPS) for vulnerable installations of phpMyAdmin and other web applications.|ipv4 hash:ip|7904 unique IPs|updated every 4 hours  from [this link](http://www.openbl.org/lists/base_60days.txt.gz)
+[openbl_7d](#openbl_7d)|[OpenBL.org](http://www.openbl.org/) last 7 days IPs.  OpenBL.org is detecting, logging and reporting various types of internet abuse. Currently they monitor ports 21 (FTP), 22 (SSH), 23 (TELNET), 25 (SMTP), 110 (POP3), 143 (IMAP), 587 (Submission), 993 (IMAPS) and 995 (POP3S) for bruteforce login attacks as well as scans on ports 80 (HTTP) and 443 (HTTPS) for vulnerable installations of phpMyAdmin and other web applications.|ipv4 hash:ip|1427 unique IPs|updated every 4 hours  from [this link](http://www.openbl.org/lists/base_7days.txt.gz)
+[openbl_90d](#openbl_90d)|[OpenBL.org](http://www.openbl.org/) last 90 days IPs.  OpenBL.org is detecting, logging and reporting various types of internet abuse. Currently they monitor ports 21 (FTP), 22 (SSH), 23 (TELNET), 25 (SMTP), 110 (POP3), 143 (IMAP), 587 (Submission), 993 (IMAPS) and 995 (POP3S) for bruteforce login attacks as well as scans on ports 80 (HTTP) and 443 (HTTPS) for vulnerable installations of phpMyAdmin and other web applications.|ipv4 hash:ip|9986 unique IPs|updated every 4 hours  from [this link](http://www.openbl.org/lists/base_90days.txt.gz)
+[palevo](#palevo)|[Abuse.ch Palevo tracker](https://palevotracker.abuse.ch) worm includes IPs which are being used as botnet C&C for the Palevo crimeware - **excellent list**|ipv4 hash:ip|13 unique IPs|updated every 30 mins  from [this link](https://palevotracker.abuse.ch/blocklists.php?download=ipblocklist)
+[php_bad](#php_bad)|[projecthoneypot.org](http://www.projecthoneypot.org/) bad web hosts (this list is composed using an RSS feed and aggregated for the last 30 days)|ipv4 hash:ip|201 unique IPs|updated every 1 hour  from [this link](http://www.projecthoneypot.org/list_of_ips.php?t=b&rss=1)
+[php_commenters](#php_commenters)|[projecthoneypot.org](http://www.projecthoneypot.org/) comment spammers (this list is composed using an RSS feed and aggregated for the last 30 days)|ipv4 hash:ip|201 unique IPs|updated every 1 hour  from [this link](http://www.projecthoneypot.org/list_of_ips.php?t=c&rss=1)
+[php_dictionary](#php_dictionary)|[projecthoneypot.org](http://www.projecthoneypot.org/) directory attackers (this list is composed using an RSS feed and aggregated for the last 30 days)|ipv4 hash:ip|275 unique IPs|updated every 1 hour  from [this link](http://www.projecthoneypot.org/list_of_ips.php?t=d&rss=1)
+[php_harvesters](#php_harvesters)|[projecthoneypot.org](http://www.projecthoneypot.org/) harvesters (IPs that surf the internet looking for email addresses) (this list is composed using an RSS feed and aggregated for the last 30 days)|ipv4 hash:ip|178 unique IPs|updated every 1 hour  from [this link](http://www.projecthoneypot.org/list_of_ips.php?t=h&rss=1)
+[php_spammers](#php_spammers)|[projecthoneypot.org](http://www.projecthoneypot.org/) spam servers (IPs used by spammers to send messages) (this list is composed using an RSS feed and aggregated for the last 30 days)|ipv4 hash:ip|261 unique IPs|updated every 1 hour  from [this link](http://www.projecthoneypot.org/list_of_ips.php?t=s&rss=1)
+[rosi_connect_proxies](#rosi_connect_proxies)|[rosinstrument.com](http://www.rosinstrument.com) open CONNECT proxies (this list is composed using an RSS feed and aggregated for the last 30 days)|ipv4 hash:ip|1348 unique IPs|updated every 1 hour  from [this link](http://tools.rosinstrument.com/proxy/plab100.xml)
+[rosi_web_proxies](#rosi_web_proxies)|[rosinstrument.com](http://www.rosinstrument.com) open HTTP proxies (this list is composed using an RSS feed and aggregated for the last 30 days)|ipv4 hash:ip|3273 unique IPs|updated every 1 hour  from [this link](http://tools.rosinstrument.com/proxy/l100.xml)
+[snort_ipfilter](#snort_ipfilter)|[labs.snort.org](https://labs.snort.org/) supplied IP blacklist (this list seems to be updated frequently, but we found no information about it)|ipv4 hash:ip|6580 unique IPs|updated every 12 hours  from [this link](http://labs.snort.org/feeds/ip-filter.blf)
+[spamhaus_drop](#spamhaus_drop)|[Spamhaus.org](http://www.spamhaus.org) DROP list (according to their site this list should be dropped at tier-1 ISPs globaly) - **excellent list**|ipv4 hash:net|640 subnets, 18051584 unique IPs|updated every 12 hours  from [this link](http://www.spamhaus.org/drop/drop.txt)
+[spamhaus_edrop](#spamhaus_edrop)|[Spamhaus.org](http://www.spamhaus.org) EDROP (extended matches that should be used with DROP) - **excellent list**|ipv4 hash:net|55 subnets, 421120 unique IPs|updated every 12 hours  from [this link](http://www.spamhaus.org/drop/edrop.txt)
+[sslbl](#sslbl)|[Abuse.ch SSL Blacklist](https://sslbl.abuse.ch/) bad SSL traffic related to malware or botnet activities - **excellent list**|ipv4 hash:ip|320 unique IPs|updated every 30 mins  from [this link](https://sslbl.abuse.ch/blacklist/sslipblacklist.csv)
+[stop_forum_spam_1h](#stop_forum_spam_1h)|[StopForumSpam.com](http://www.stopforumspam.com) IPs used by forum spammers in the last 24 hours - **excellent list**|ipv4 hash:ip|6822 unique IPs|updated every 1 hour  from [this link](http://www.stopforumspam.com/downloads/listed_ip_1.zip)
+[stop_forum_spam_30d](#stop_forum_spam_30d)|[StopForumSpam.com](http://www.stopforumspam.com) IPs used by forum spammers (last 30 days)|ipv4 hash:ip|91499 unique IPs|updated every 1 day  from [this link](http://www.stopforumspam.com/downloads/listed_ip_30.zip)
+[stop_forum_spam_7d](#stop_forum_spam_7d)|[StopForumSpam.com](http://www.stopforumspam.com) IPs used by forum spammers (last 7 days)|ipv4 hash:ip|28751 unique IPs|updated every 1 day  from [this link](http://www.stopforumspam.com/downloads/listed_ip_7.zip)
+[tor](#tor)|[EmergingThreats.net](http://www.emergingthreats.net/) [list](http://doc.emergingthreats.net/bin/view/Main/TorRules) of TOR network IPs|ipv4 hash:ip|6340 unique IPs|updated every 12 hours  from [this link](http://rules.emergingthreats.net/blockrules/emerging-tor.rules)
+[tor_servers](#tor_servers)|[torstatus.blutmagie.de](https://torstatus.blutmagie.de) list of all TOR network servers|ipv4 hash:ip|6516 unique IPs|updated every 30 mins  from [this link](https://torstatus.blutmagie.de/ip_list_all.php/Tor_ip_list_ALL.csv)
+[zeus](#zeus)|[Abuse.ch Zeus tracker](https://zeustracker.abuse.ch) default blocklist including hijacked sites and web hosting providers - **excellent list**|ipv4 hash:ip|262 unique IPs|updated every 30 mins  from [this link](https://zeustracker.abuse.ch/blocklist.php?download=ipblocklist)
+[zeus_badips](#zeus_badips)|[Abuse.ch Zeus tracker](https://zeustracker.abuse.ch) includes IPv4 addresses that are used by the ZeuS trojan|ipv4 hash:ip|228 unique IPs|updated every 30 mins  from [this link](https://zeustracker.abuse.ch/blocklist.php?download=badips)
 
 # Comparison of ipsets
 
@@ -209,8 +209,9 @@ Below we compare each ipset against all other.
 
 [AlienVault.com](https://www.alienvault.com/) IP reputation database (this list seems to include port scanning hosts and to be updated regularly, but we found no information about its retention policy)
 
-Source is downloaded from [this link]().
-The last time downloaded was found to be dated: .
+Source is downloaded from [this link](https://reputation.alienvault.com/reputation.generic).
+
+The last time downloaded was found to be dated: Sun May 24 17:00:27 UTC 2015.
 
 The ipset `alienvault_reputation` has **188000** entries, **188000** unique IPs.
 
@@ -232,7 +233,7 @@ openbl_30d|4722|4722|4705|99.6%|2.5%|
 dshield|20|5120|3589|70.0%|1.9%|
 spamhaus_drop|640|18051584|2274|0.0%|1.2%|
 compromised|2436|2436|1591|65.3%|0.8%|
-blocklist_de|26581|26581|1559|5.8%|0.8%|
+blocklist_de|26592|26592|1560|5.8%|0.8%|
 bruteforceblocker|2288|2288|1440|62.9%|0.7%|
 openbl_7d|1427|1427|1412|98.9%|0.7%|
 ib_bluetack_hijacked|535|9177856|519|0.0%|0.2%|
@@ -243,12 +244,12 @@ stop_forum_spam_30d|91499|91499|254|0.2%|0.1%|
 stop_forum_spam_7d|28751|28751|120|0.4%|0.0%|
 snort_ipfilter|6580|6580|115|1.7%|0.0%|
 zeus|262|262|64|24.4%|0.0%|
-stop_forum_spam_1h|6821|6821|55|0.8%|0.0%|
+stop_forum_spam_1h|6822|6822|56|0.8%|0.0%|
 autoshun|51|51|49|96.0%|0.0%|
-tor_servers|6551|6551|45|0.6%|0.0%|
 tor|6340|6340|44|0.6%|0.0%|
-danmetor|6530|6530|44|0.6%|0.0%|
-nixspam|18188|18188|38|0.2%|0.0%|
+tor_servers|6516|6516|44|0.6%|0.0%|
+danmetor|6514|6514|44|0.6%|0.0%|
+nixspam|18125|18125|38|0.2%|0.0%|
 zeus_badips|228|228|37|16.2%|0.0%|
 spamhaus_edrop|55|421120|16|0.0%|0.0%|
 ib_bluetack_badpeers|48134|48134|15|0.0%|0.0%|
@@ -272,8 +273,9 @@ feodo|58|58|1|1.7%|0.0%|
 
 [AutoShun.org](http://autoshun.org/) IPs identified as hostile by correlating logs from distributed snort installations running the autoshun plugin
 
-Source is downloaded from [this link]().
-The last time downloaded was found to be dated: .
+Source is downloaded from [this link](http://www.autoshun.org/files/shunlist.csv).
+
+The last time downloaded was found to be dated: Sun May 24 18:30:04 UTC 2015.
 
 The ipset `autoshun` has **51** entries, **51** unique IPs.
 
@@ -291,7 +293,7 @@ openbl_60d|7904|7904|12|0.1%|23.5%|
 openbl_30d|4722|4722|11|0.2%|21.5%|
 bruteforceblocker|2288|2288|11|0.4%|21.5%|
 compromised|2436|2436|10|0.4%|19.6%|
-blocklist_de|26581|26581|10|0.0%|19.6%|
+blocklist_de|26592|26592|10|0.0%|19.6%|
 openbl_7d|1427|1427|9|0.6%|17.6%|
 ib_bluetack_level3|18550|139108857|6|0.0%|11.7%|
 ib_bluetack_level2|75927|348729520|3|0.0%|5.8%|
@@ -303,9 +305,10 @@ ciarmy|403|403|2|0.4%|3.9%|
 [Blocklist.de](https://www.blocklist.de/) IPs that have been detected by fail2ban in the last 48 hours - **excellent list**
 
 Source is downloaded from [this link](http://lists.blocklist.de/lists/all.txt).
-The last time downloaded was found to be dated: Sun May 24 21:28:04 UTC 2015.
 
-The ipset `blocklist_de` has **26581** entries, **26581** unique IPs.
+The last time downloaded was found to be dated: Sun May 24 21:56:04 UTC 2015.
+
+The ipset `blocklist_de` has **26592** entries, **26592** unique IPs.
 
 The following table shows the overlaps of `blocklist_de` with all the other ipsets supported. Only the ipsets that have at least 1 IP overlap are shown. if an ipset is not shown here, it does not have any overlap with `blocklist_de`.
 
@@ -314,44 +317,44 @@ The following table shows the overlaps of `blocklist_de` with all the other ipse
 
 ipset|entries|unique IPs|IPs on both| them % | this % |
 :---:|:-----:|:--------:|:---------:|:------:|:------:|
-ib_bluetack_level3|18550|139108857|3291|0.0%|12.3%|
+ib_bluetack_level3|18550|139108857|3294|0.0%|12.3%|
 stop_forum_spam_30d|91499|91499|2479|2.7%|9.3%|
-stop_forum_spam_7d|28751|28751|2017|7.0%|7.5%|
-alienvault_reputation|188000|188000|1559|0.8%|5.8%|
+stop_forum_spam_7d|28751|28751|2014|7.0%|7.5%|
+alienvault_reputation|188000|188000|1560|0.8%|5.8%|
 ib_bluetack_level1|215693|765044590|1521|0.0%|5.7%|
-ib_bluetack_level2|75927|348729520|1438|0.0%|5.4%|
-stop_forum_spam_1h|6821|6821|1320|19.3%|4.9%|
-openbl|9986|9986|1299|13.0%|4.8%|
-openbl_90d|9986|9986|1299|13.0%|4.8%|
-openbl_60d|7904|7904|1249|15.8%|4.6%|
-openbl_30d|4722|4722|1102|23.3%|4.1%|
-bruteforceblocker|2288|2288|875|38.2%|3.2%|
-compromised|2436|2436|807|33.1%|3.0%|
+ib_bluetack_level2|75927|348729520|1436|0.0%|5.4%|
+stop_forum_spam_1h|6822|6822|1322|19.3%|4.9%|
+openbl|9986|9986|1300|13.0%|4.8%|
+openbl_90d|9986|9986|1300|13.0%|4.8%|
+openbl_60d|7904|7904|1250|15.8%|4.7%|
+openbl_30d|4722|4722|1103|23.3%|4.1%|
+bruteforceblocker|2288|2288|876|38.2%|3.2%|
+compromised|2436|2436|808|33.1%|3.0%|
 openbl_7d|1427|1427|795|55.7%|2.9%|
-nixspam|18188|18188|644|3.5%|2.4%|
-rosi_web_proxies|3273|3273|340|10.3%|1.2%|
+nixspam|18125|18125|642|3.5%|2.4%|
+rosi_web_proxies|3273|3273|342|10.4%|1.2%|
 openbl_1d|357|357|251|70.3%|0.9%|
-snort_ipfilter|6580|6580|202|3.0%|0.7%|
-emerging_block|965|18065466|198|0.0%|0.7%|
-spamhaus_drop|640|18051584|192|0.0%|0.7%|
-php_dictionary|275|275|79|28.7%|0.2%|
+snort_ipfilter|6580|6580|201|3.0%|0.7%|
+emerging_block|965|18065466|197|0.0%|0.7%|
+spamhaus_drop|640|18051584|191|0.0%|0.7%|
 rosi_connect_proxies|1348|1348|78|5.7%|0.2%|
+php_dictionary|275|275|78|28.3%|0.2%|
 php_commenters|201|201|68|33.8%|0.2%|
 php_bad|201|201|68|33.8%|0.2%|
 ib_bluetack_hijacked|535|9177856|64|0.0%|0.2%|
 php_spammers|261|261|63|24.1%|0.2%|
 dshield|20|5120|45|0.8%|0.1%|
 ciarmy|403|403|42|10.4%|0.1%|
-spamhaus_edrop|55|421120|40|0.0%|0.1%|
+spamhaus_edrop|55|421120|41|0.0%|0.1%|
 php_harvesters|178|178|22|12.3%|0.0%|
 ib_bluetack_spyware|898|336971|12|0.0%|0.0%|
 autoshun|51|51|10|19.6%|0.0%|
-tor_servers|6551|6551|6|0.0%|0.0%|
-danmetor|6530|6530|6|0.0%|0.0%|
+tor_servers|6516|6516|6|0.0%|0.0%|
+danmetor|6514|6514|6|0.0%|0.0%|
 ib_bluetack_badpeers|48134|48134|4|0.0%|0.0%|
 tor|6340|6340|3|0.0%|0.0%|
 malwaredomainlist|1283|1283|3|0.2%|0.0%|
-ib_bluetack_proxies|673|673|2|0.2%|0.0%|
+ib_bluetack_proxies|673|673|3|0.4%|0.0%|
 clean_mx_viruses|318|318|2|0.6%|0.0%|
 zeus|262|262|1|0.3%|0.0%|
 zeus_badips|228|228|1|0.4%|0.0%|
@@ -361,8 +364,9 @@ ib_bluetack_webexploit|1460|1460|1|0.0%|0.0%|
 
 [Team-Cymru.org](http://www.team-cymru.org) private and reserved addresses defined by RFC 1918, RFC 5735, and RFC 6598 and netblocks that have not been allocated to a regional internet registry - **excellent list - use it only your internet interface**
 
-Source is downloaded from [this link]().
-The last time downloaded was found to be dated: .
+Source is downloaded from [this link](http://www.team-cymru.org/Services/Bogons/bogon-bn-agg.txt).
+
+The last time downloaded was found to be dated: Thu Feb 19 00:18:26 UTC 2015.
 
 The ipset `bogons` has **13** entries, **592708608** unique IPs.
 
@@ -383,8 +387,9 @@ bruteforceblocker|2288|2288|1|0.0%|0.0%|
 
 [EmergingThreats.net](http://www.emergingthreats.net/) botnet IPs (at the time of writing includes any abuse.ch trackers, which are available separately too - prefer to use the direct ipsets instead of this, they seem to lag a bit in updates)
 
-Source is downloaded from [this link]().
-The last time downloaded was found to be dated: .
+Source is downloaded from [this link](http://rules.emergingthreats.net/fwrules/emerging-PIX-CC.rules).
+
+The last time downloaded was found to be dated: Fri May 22 04:30:01 UTC 2015.
 
 The ipset `botnet` has **515** entries, **515** unique IPs.
 
@@ -410,8 +415,9 @@ dshield|20|5120|1|0.0%|0.1%|
 
 [danger.rulez.sk](http://danger.rulez.sk/) IPs detected by [bruteforceblocker](http://danger.rulez.sk/index.php/bruteforceblocker/) (fail2ban alternative for SSH on OpenBSD)
 
-Source is downloaded from [this link]().
-The last time downloaded was found to be dated: .
+Source is downloaded from [this link](http://danger.rulez.sk/projects/bruteforceblocker/blist.php).
+
+The last time downloaded was found to be dated: Sun May 24 19:44:58 UTC 2015.
 
 The ipset `bruteforceblocker` has **2288** entries, **2288** unique IPs.
 
@@ -428,7 +434,7 @@ openbl|9986|9986|1351|13.5%|59.0%|
 openbl_90d|9986|9986|1351|13.5%|59.0%|
 openbl_60d|7904|7904|1340|16.9%|58.5%|
 openbl_30d|4722|4722|1288|27.2%|56.2%|
-blocklist_de|26581|26581|875|3.2%|38.2%|
+blocklist_de|26592|26592|876|3.2%|38.2%|
 openbl_7d|1427|1427|723|50.6%|31.5%|
 ib_bluetack_level3|18550|139108857|221|0.0%|9.6%|
 openbl_1d|357|357|202|56.5%|8.8%|
@@ -440,7 +446,7 @@ dshield|20|5120|33|0.6%|1.4%|
 autoshun|51|51|11|21.5%|0.4%|
 stop_forum_spam_30d|91499|91499|4|0.0%|0.1%|
 ib_bluetack_hijacked|535|9177856|4|0.0%|0.1%|
-nixspam|18188|18188|2|0.0%|0.0%|
+nixspam|18125|18125|2|0.0%|0.0%|
 zeus|262|262|1|0.3%|0.0%|
 zeus_badips|228|228|1|0.4%|0.0%|
 stop_forum_spam_7d|28751|28751|1|0.0%|0.0%|
@@ -453,8 +459,9 @@ bogons|13|592708608|1|0.0%|0.0%|
 
 [CIArmy.com](http://ciarmy.com/) IPs with poor Rogue Packet score that have not yet been identified as malicious by the community
 
-Source is downloaded from [this link]().
-The last time downloaded was found to be dated: .
+Source is downloaded from [this link](http://cinsscore.com/list/ci-badguys.txt).
+
+The last time downloaded was found to be dated: Sun May 24 21:15:05 UTC 2015.
 
 The ipset `ciarmy` has **403** entries, **403** unique IPs.
 
@@ -468,7 +475,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 alienvault_reputation|188000|188000|389|0.2%|96.5%|
 ib_bluetack_level3|18550|139108857|69|0.0%|17.1%|
 ib_bluetack_level2|75927|348729520|49|0.0%|12.1%|
-blocklist_de|26581|26581|42|0.1%|10.4%|
+blocklist_de|26592|26592|42|0.1%|10.4%|
 ib_bluetack_level1|215693|765044590|33|0.0%|8.1%|
 dshield|20|5120|4|0.0%|0.9%|
 emerging_block|965|18065466|3|0.0%|0.7%|
@@ -478,8 +485,9 @@ autoshun|51|51|2|3.9%|0.4%|
 
 [Clean-MX.de](http://support.clean-mx.de/clean-mx/viruses.php) IPs with viruses
 
-Source is downloaded from [this link]().
-The last time downloaded was found to be dated: .
+Source is downloaded from [this link](http://support.clean-mx.de/clean-mx/xmlviruses.php?sort=id%20desc&response=alive).
+
+The last time downloaded was found to be dated: Sun May 24 14:01:53 UTC 2015.
 
 The ipset `clean_mx_viruses` has **318** entries, **318** unique IPs.
 
@@ -497,17 +505,18 @@ ib_bluetack_level1|215693|765044590|10|0.0%|3.1%|
 alienvault_reputation|188000|188000|6|0.0%|1.8%|
 snort_ipfilter|6580|6580|3|0.0%|0.9%|
 ib_bluetack_spyware|898|336971|3|0.0%|0.9%|
-blocklist_de|26581|26581|2|0.0%|0.6%|
+blocklist_de|26592|26592|2|0.0%|0.6%|
 stop_forum_spam_7d|28751|28751|1|0.0%|0.3%|
 stop_forum_spam_30d|91499|91499|1|0.0%|0.3%|
-nixspam|18188|18188|1|0.0%|0.3%|
+nixspam|18125|18125|1|0.0%|0.3%|
 
 ## compromised
 
 [EmergingThreats.net](http://www.emergingthreats.net/) distribution of IPs that have beed compromised (at the time of writing includes openbl, bruteforceblocker and sidreporter)
 
-Source is downloaded from [this link]().
-The last time downloaded was found to be dated: .
+Source is downloaded from [this link](http://rules.emergingthreats.net/blockrules/compromised-ips.txt).
+
+The last time downloaded was found to be dated: Fri May 22 04:30:09 UTC 2015.
 
 The ipset `compromised` has **2436** entries, **2436** unique IPs.
 
@@ -524,7 +533,7 @@ openbl|9986|9986|1473|14.7%|60.4%|
 openbl_90d|9986|9986|1473|14.7%|60.4%|
 openbl_60d|7904|7904|1461|18.4%|59.9%|
 openbl_30d|4722|4722|1337|28.3%|54.8%|
-blocklist_de|26581|26581|807|3.0%|33.1%|
+blocklist_de|26592|26592|808|3.0%|33.1%|
 openbl_7d|1427|1427|706|49.4%|28.9%|
 ib_bluetack_level3|18550|139108857|243|0.0%|9.9%|
 openbl_1d|357|357|198|55.4%|8.1%|
@@ -537,7 +546,7 @@ autoshun|51|51|10|19.6%|0.4%|
 stop_forum_spam_30d|91499|91499|4|0.0%|0.1%|
 ib_bluetack_hijacked|535|9177856|4|0.0%|0.1%|
 stop_forum_spam_7d|28751|28751|2|0.0%|0.0%|
-nixspam|18188|18188|2|0.0%|0.0%|
+nixspam|18125|18125|2|0.0%|0.0%|
 zeus|262|262|1|0.3%|0.0%|
 zeus_badips|228|228|1|0.4%|0.0%|
 snort_ipfilter|6580|6580|1|0.0%|0.0%|
@@ -548,10 +557,11 @@ ib_bluetack_spyware|898|336971|1|0.0%|0.0%|
 
 [dan.me.uk](https://www.dan.me.uk) dynamic list of TOR exit points
 
-Source is downloaded from [this link]().
-The last time downloaded was found to be dated: .
+Source is downloaded from [this link](https://www.dan.me.uk/torlist/).
 
-The ipset `danmetor` has **6530** entries, **6530** unique IPs.
+The last time downloaded was found to be dated: Sun May 24 22:02:18 UTC 2015.
+
+The ipset `danmetor` has **6514** entries, **6514** unique IPs.
 
 The following table shows the overlaps of `danmetor` with all the other ipsets supported. Only the ipsets that have at least 1 IP overlap are shown. if an ipset is not shown here, it does not have any overlap with `danmetor`.
 
@@ -560,15 +570,15 @@ The following table shows the overlaps of `danmetor` with all the other ipsets s
 
 ipset|entries|unique IPs|IPs on both| them % | this % |
 :---:|:-----:|:--------:|:---------:|:------:|:------:|
-tor_servers|6551|6551|6448|98.4%|98.7%|
-tor|6340|6340|5570|87.8%|85.2%|
-snort_ipfilter|6580|6580|1044|15.8%|15.9%|
-ib_bluetack_level3|18550|139108857|604|0.0%|9.2%|
-stop_forum_spam_30d|91499|91499|560|0.6%|8.5%|
-stop_forum_spam_7d|28751|28751|415|1.4%|6.3%|
-stop_forum_spam_1h|6821|6821|250|3.6%|3.8%|
-ib_bluetack_level2|75927|348729520|169|0.0%|2.5%|
-ib_bluetack_level1|215693|765044590|149|0.0%|2.2%|
+tor_servers|6516|6516|6514|99.9%|100.0%|
+tor|6340|6340|5572|87.8%|85.5%|
+snort_ipfilter|6580|6580|1041|15.8%|15.9%|
+ib_bluetack_level3|18550|139108857|602|0.0%|9.2%|
+stop_forum_spam_30d|91499|91499|563|0.6%|8.6%|
+stop_forum_spam_7d|28751|28751|417|1.4%|6.4%|
+stop_forum_spam_1h|6822|6822|250|3.6%|3.8%|
+ib_bluetack_level2|75927|348729520|170|0.0%|2.6%|
+ib_bluetack_level1|215693|765044590|150|0.0%|2.3%|
 alienvault_reputation|188000|188000|44|0.0%|0.6%|
 openbl|9986|9986|20|0.2%|0.3%|
 openbl_90d|9986|9986|20|0.2%|0.3%|
@@ -577,24 +587,25 @@ ib_bluetack_spyware|898|336971|20|0.0%|0.3%|
 php_commenters|201|201|19|9.4%|0.2%|
 php_bad|201|201|19|9.4%|0.2%|
 php_harvesters|178|178|7|3.9%|0.1%|
-blocklist_de|26581|26581|6|0.0%|0.0%|
+blocklist_de|26592|26592|6|0.0%|0.0%|
 php_spammers|261|261|5|1.9%|0.0%|
 rosi_web_proxies|3273|3273|4|0.1%|0.0%|
 php_dictionary|275|275|4|1.4%|0.0%|
 emerging_block|965|18065466|4|0.0%|0.0%|
 spamhaus_drop|640|18051584|2|0.0%|0.0%|
+nixspam|18125|18125|2|0.0%|0.0%|
 ib_bluetack_hijacked|535|9177856|2|0.0%|0.0%|
 dshield|20|5120|2|0.0%|0.0%|
 rosi_connect_proxies|1348|1348|1|0.0%|0.0%|
-nixspam|18188|18188|1|0.0%|0.0%|
 ib_bluetack_webexploit|1460|1460|1|0.0%|0.0%|
 
 ## dshield
 
 [DShield.org](https://dshield.org/) top 20 attacking class C (/24) subnets over the last three days - **excellent list**
 
-Source is downloaded from [this link]().
-The last time downloaded was found to be dated: .
+Source is downloaded from [this link](http://feeds.dshield.org/block.txt).
+
+The last time downloaded was found to be dated: Sun May 24 18:26:21 UTC 2015.
 
 The ipset `dshield` has **20** entries, **5120** unique IPs.
 
@@ -611,7 +622,7 @@ ib_bluetack_level1|215693|765044590|516|0.0%|10.0%|
 spamhaus_drop|640|18051584|256|0.0%|5.0%|
 ib_bluetack_level3|18550|139108857|256|0.0%|5.0%|
 ib_bluetack_level2|75927|348729520|256|0.0%|5.0%|
-blocklist_de|26581|26581|45|0.1%|0.8%|
+blocklist_de|26592|26592|45|0.1%|0.8%|
 openbl|9986|9986|38|0.3%|0.7%|
 openbl_90d|9986|9986|38|0.3%|0.7%|
 openbl_60d|7904|7904|38|0.4%|0.7%|
@@ -624,11 +635,11 @@ stop_forum_spam_30d|91499|91499|6|0.0%|0.1%|
 ib_bluetack_spyware|898|336971|4|0.0%|0.0%|
 ciarmy|403|403|4|0.9%|0.0%|
 stop_forum_spam_7d|28751|28751|3|0.0%|0.0%|
-stop_forum_spam_1h|6821|6821|3|0.0%|0.0%|
 tor|6340|6340|2|0.0%|0.0%|
-tor_servers|6551|6551|2|0.0%|0.0%|
+tor_servers|6516|6516|2|0.0%|0.0%|
+stop_forum_spam_1h|6822|6822|2|0.0%|0.0%|
 ib_bluetack_badpeers|48134|48134|2|0.0%|0.0%|
-danmetor|6530|6530|2|0.0%|0.0%|
+danmetor|6514|6514|2|0.0%|0.0%|
 snort_ipfilter|6580|6580|1|0.0%|0.0%|
 malc0de|426|426|1|0.2%|0.0%|
 ib_bluetack_webexploit|1460|1460|1|0.0%|0.0%|
@@ -638,8 +649,9 @@ botnet|515|515|1|0.1%|0.0%|
 
 [EmergingThreats.net](http://www.emergingthreats.net/) default blacklist (at the time of writing includes spamhaus DROP, dshield and abuse.ch trackers, which are available separately too - prefer to use the direct ipsets instead of this, they seem to lag a bit in updates)
 
-Source is downloaded from [this link]().
-The last time downloaded was found to be dated: .
+Source is downloaded from [this link](http://rules.emergingthreats.net/fwrules/emerging-Block-IPs.txt).
+
+The last time downloaded was found to be dated: Fri May 22 04:30:01 UTC 2015.
 
 The ipset `emerging_block` has **965** entries, **18065466** unique IPs.
 
@@ -669,24 +681,24 @@ zeus|262|262|257|98.0%|0.0%|
 zeus_badips|228|228|225|98.6%|0.0%|
 stop_forum_spam_7d|28751|28751|221|0.7%|0.0%|
 openbl_30d|4722|4722|216|4.5%|0.0%|
-blocklist_de|26581|26581|198|0.7%|0.0%|
-nixspam|18188|18188|164|0.9%|0.0%|
+blocklist_de|26592|26592|197|0.7%|0.0%|
+nixspam|18125|18125|171|0.9%|0.0%|
 openbl_7d|1427|1427|103|7.2%|0.0%|
 bruteforceblocker|2288|2288|91|3.9%|0.0%|
 compromised|2436|2436|77|3.1%|0.0%|
-stop_forum_spam_1h|6821|6821|59|0.8%|0.0%|
+stop_forum_spam_1h|6822|6822|59|0.8%|0.0%|
 feodo|58|58|56|96.5%|0.0%|
 malwaredomainlist|1283|1283|28|2.1%|0.0%|
 openbl_1d|357|357|27|7.5%|0.0%|
 php_commenters|201|201|24|11.9%|0.0%|
 php_bad|201|201|24|11.9%|0.0%|
 sslbl|320|320|23|7.1%|0.0%|
-palevo|13|13|12|92.3%|0.0%|
+palevo|13|13|13|100.0%|0.0%|
 ib_bluetack_badpeers|48134|48134|10|0.0%|0.0%|
 ib_bluetack_webexploit|1460|1460|6|0.4%|0.0%|
 tor|6340|6340|4|0.0%|0.0%|
-tor_servers|6551|6551|4|0.0%|0.0%|
-danmetor|6530|6530|4|0.0%|0.0%|
+tor_servers|6516|6516|4|0.0%|0.0%|
+danmetor|6514|6514|4|0.0%|0.0%|
 ciarmy|403|403|3|0.7%|0.0%|
 php_spammers|261|261|2|0.7%|0.0%|
 malc0de|426|426|2|0.4%|0.0%|
@@ -699,8 +711,9 @@ botnet|515|515|1|0.1%|0.0%|
 
 [Abuse.ch Feodo tracker](https://feodotracker.abuse.ch) trojan includes IPs which are being used by Feodo (also known as Cridex or Bugat) which commits ebanking fraud - **excellent list**
 
-Source is downloaded from [this link]().
-The last time downloaded was found to be dated: .
+Source is downloaded from [this link](https://feodotracker.abuse.ch/blocklist/?download=ipblocklist).
+
+The last time downloaded was found to be dated: Sun May 24 22:02:37 UTC 2015.
 
 The ipset `feodo` has **58** entries, **58** unique IPs.
 
@@ -726,8 +739,9 @@ alienvault_reputation|188000|188000|1|0.0%|1.7%|
 
 [Team-Cymru.org](http://www.team-cymru.org) IP space that has been allocated to an RIR, but not assigned by that RIR to an actual ISP or other end-user - **excellent list - use it only your internet interface**
 
-Source is downloaded from [this link]().
-The last time downloaded was found to be dated: .
+Source is downloaded from [this link](http://www.team-cymru.org/Services/Bogons/fullbogons-ipv4.txt).
+
+The last time downloaded was found to be dated: Sun May 24 09:35:07 UTC 2015.
 
 The ipset `fullbogons` has **3646** entries, **670922200** unique IPs.
 
@@ -758,8 +772,9 @@ bruteforceblocker|2288|2288|1|0.0%|0.0%|
 
 [iBlocklist.com](https://www.iblocklist.com/) free version of [BlueTack.co.uk](http://www.bluetack.co.uk/) IPs that have been reported for bad deeds in p2p
 
-Source is downloaded from [this link]().
-The last time downloaded was found to be dated: .
+Source is downloaded from [this link](http://list.iblocklist.com/?list=cwworuawihqvocglcoss&fileformat=p2p&archiveformat=gz).
+
+The last time downloaded was found to be dated: Sun May 24 02:41:13 UTC 2015.
 
 The ipset `ib_bluetack_badpeers` has **48134** entries, **48134** unique IPs.
 
@@ -779,10 +794,10 @@ fullbogons|3646|670922200|14|0.0%|0.0%|
 ib_bluetack_proxies|673|673|11|1.6%|0.0%|
 emerging_block|965|18065466|10|0.0%|0.0%|
 spamhaus_drop|640|18051584|6|0.0%|0.0%|
-nixspam|18188|18188|6|0.0%|0.0%|
+nixspam|18125|18125|6|0.0%|0.0%|
 stop_forum_spam_7d|28751|28751|5|0.0%|0.0%|
 ib_bluetack_spyware|898|336971|4|0.0%|0.0%|
-blocklist_de|26581|26581|4|0.0%|0.0%|
+blocklist_de|26592|26592|4|0.0%|0.0%|
 php_harvesters|178|178|2|1.1%|0.0%|
 php_dictionary|275|275|2|0.7%|0.0%|
 dshield|20|5120|2|0.0%|0.0%|
@@ -795,8 +810,9 @@ ib_bluetack_webexploit|1460|1460|1|0.0%|0.0%|
 
 [iBlocklist.com](https://www.iblocklist.com/) free version of [BlueTack.co.uk](http://www.bluetack.co.uk/) hijacked IP-Blocks Hijacked IP space are IP blocks that are being used without permission
 
-Source is downloaded from [this link]().
-The last time downloaded was found to be dated: .
+Source is downloaded from [this link](http://list.iblocklist.com/?list=usrcshglbiilevmyfhse&fileformat=p2p&archiveformat=gz).
+
+The last time downloaded was found to be dated: Sun May 24 03:10:47 UTC 2015.
 
 The ipset `ib_bluetack_hijacked` has **535** entries, **9177856** unique IPs.
 
@@ -817,9 +833,9 @@ ib_bluetack_spyware|898|336971|1024|0.3%|0.0%|
 stop_forum_spam_30d|91499|91499|708|0.7%|0.0%|
 alienvault_reputation|188000|188000|519|0.2%|0.0%|
 stop_forum_spam_7d|28751|28751|198|0.6%|0.0%|
-nixspam|18188|18188|159|0.8%|0.0%|
-blocklist_de|26581|26581|64|0.2%|0.0%|
-stop_forum_spam_1h|6821|6821|39|0.5%|0.0%|
+nixspam|18125|18125|166|0.9%|0.0%|
+blocklist_de|26592|26592|64|0.2%|0.0%|
+stop_forum_spam_1h|6822|6822|38|0.5%|0.0%|
 malwaredomainlist|1283|1283|27|2.1%|0.0%|
 openbl|9986|9986|18|0.1%|0.0%|
 openbl_90d|9986|9986|18|0.1%|0.0%|
@@ -834,10 +850,10 @@ openbl_1d|357|357|5|1.4%|0.0%|
 compromised|2436|2436|4|0.1%|0.0%|
 bruteforceblocker|2288|2288|4|0.1%|0.0%|
 tor|6340|6340|2|0.0%|0.0%|
-tor_servers|6551|6551|2|0.0%|0.0%|
+tor_servers|6516|6516|2|0.0%|0.0%|
 php_spammers|261|261|2|0.7%|0.0%|
 ib_bluetack_proxies|673|673|2|0.2%|0.0%|
-danmetor|6530|6530|2|0.0%|0.0%|
+danmetor|6514|6514|2|0.0%|0.0%|
 php_harvesters|178|178|1|0.5%|0.0%|
 botnet|515|515|1|0.1%|0.0%|
 
@@ -845,8 +861,9 @@ botnet|515|515|1|0.1%|0.0%|
 
 [iBlocklist.com](https://www.iblocklist.com/) free version of [BlueTack.co.uk](http://www.bluetack.co.uk/) Level 1 (for use in p2p): Companies or organizations who are clearly involved with trying to stop filesharing (e.g. Baytsp, MediaDefender, Mediasentry a.o.). Companies which anti-p2p activity has been seen from. Companies that produce or have a strong financial interest in copyrighted material (e.g. music, movie, software industries a.o.). Government ranges or companies that have a strong financial interest in doing work for governments. Legal industry ranges. IPs or ranges of ISPs from which anti-p2p activity has been observed. Basically this list will block all kinds of internet connections that most people would rather not have during their internet travels.
 
-Source is downloaded from [this link]().
-The last time downloaded was found to be dated: .
+Source is downloaded from [this link](http://list.iblocklist.com/?list=ydxerpxkpcfqjaybcssw&fileformat=p2p&archiveformat=gz).
+
+The last time downloaded was found to be dated: Sun May 24 09:22:01 UTC 2015.
 
 The ipset `ib_bluetack_level1` has **215693** entries, **765044590** unique IPs.
 
@@ -866,19 +883,19 @@ fullbogons|3646|670922200|232563|0.0%|0.0%|
 spamhaus_edrop|55|421120|33152|7.8%|0.0%|
 ib_bluetack_spyware|898|336971|12921|3.8%|0.0%|
 alienvault_reputation|188000|188000|5119|2.7%|0.0%|
-blocklist_de|26581|26581|1521|5.7%|0.0%|
+blocklist_de|26592|26592|1521|5.7%|0.0%|
 stop_forum_spam_30d|91499|91499|1257|1.3%|0.0%|
 dshield|20|5120|516|10.0%|0.0%|
 stop_forum_spam_7d|28751|28751|451|1.5%|0.0%|
 ib_bluetack_badpeers|48134|48134|366|0.7%|0.0%|
-nixspam|18188|18188|332|1.8%|0.0%|
+nixspam|18125|18125|332|1.8%|0.0%|
 openbl|9986|9986|219|2.1%|0.0%|
 openbl_90d|9986|9986|219|2.1%|0.0%|
 openbl_60d|7904|7904|177|2.2%|0.0%|
-tor_servers|6551|6551|149|2.2%|0.0%|
-danmetor|6530|6530|149|2.2%|0.0%|
+tor_servers|6516|6516|150|2.3%|0.0%|
+danmetor|6514|6514|150|2.3%|0.0%|
 tor|6340|6340|148|2.3%|0.0%|
-stop_forum_spam_1h|6821|6821|119|1.7%|0.0%|
+stop_forum_spam_1h|6822|6822|120|1.7%|0.0%|
 openbl_30d|4722|4722|99|2.0%|0.0%|
 ib_bluetack_webexploit|1460|1460|90|6.1%|0.0%|
 compromised|2436|2436|75|3.0%|0.0%|
@@ -908,8 +925,9 @@ php_harvesters|178|178|1|0.5%|0.0%|
 
 [iBlocklist.com](https://www.iblocklist.com/) free version of BlueTack.co.uk Level 2 (for use in p2p). General corporate ranges. Ranges used by labs or researchers. Proxies.
 
-Source is downloaded from [this link]().
-The last time downloaded was found to be dated: .
+Source is downloaded from [this link](http://list.iblocklist.com/?list=gyisgnzbhppbvsphucsw&fileformat=p2p&archiveformat=gz).
+
+The last time downloaded was found to be dated: Sun May 24 03:10:35 UTC 2015.
 
 The ipset `ib_bluetack_level2` has **75927** entries, **348729520** unique IPs.
 
@@ -930,19 +948,19 @@ spamhaus_edrop|55|421120|33368|7.9%|0.0%|
 alienvault_reputation|188000|188000|8665|4.6%|0.0%|
 ib_bluetack_spyware|898|336971|7629|2.2%|0.0%|
 stop_forum_spam_30d|91499|91499|2388|2.6%|0.0%|
-blocklist_de|26581|26581|1438|5.4%|0.0%|
+blocklist_de|26592|26592|1436|5.4%|0.0%|
 stop_forum_spam_7d|28751|28751|819|2.8%|0.0%|
 openbl|9986|9986|534|5.3%|0.0%|
 openbl_90d|9986|9986|534|5.3%|0.0%|
-nixspam|18188|18188|488|2.6%|0.0%|
+nixspam|18125|18125|489|2.6%|0.0%|
 openbl_60d|7904|7904|382|4.8%|0.0%|
 dshield|20|5120|256|5.0%|0.0%|
 ib_bluetack_badpeers|48134|48134|233|0.4%|0.0%|
 openbl_30d|4722|4722|232|4.9%|0.0%|
-stop_forum_spam_1h|6821|6821|224|3.2%|0.0%|
+stop_forum_spam_1h|6822|6822|224|3.2%|0.0%|
 tor|6340|6340|171|2.6%|0.0%|
-tor_servers|6551|6551|170|2.5%|0.0%|
-danmetor|6530|6530|169|2.5%|0.0%|
+tor_servers|6516|6516|170|2.6%|0.0%|
+danmetor|6514|6514|170|2.6%|0.0%|
 compromised|2436|2436|153|6.2%|0.0%|
 bruteforceblocker|2288|2288|144|6.2%|0.0%|
 rosi_web_proxies|3273|3273|122|3.7%|0.0%|
@@ -965,16 +983,17 @@ sslbl|320|320|5|1.5%|0.0%|
 php_harvesters|178|178|5|2.8%|0.0%|
 php_commenters|201|201|4|1.9%|0.0%|
 php_bad|201|201|4|1.9%|0.0%|
-palevo|13|13|3|23.0%|0.0%|
 feodo|58|58|3|5.1%|0.0%|
 autoshun|51|51|3|5.8%|0.0%|
+palevo|13|13|2|15.3%|0.0%|
 
 ## ib_bluetack_level3
 
 [iBlocklist.com](https://www.iblocklist.com/) free version of BlueTack.co.uk Level 3 (for use in p2p). Many portal-type websites. ISP ranges that may be dodgy for some reason. Ranges that belong to an individual, but which have not been determined to be used by a particular company. Ranges for things that are unusual in some way. The L3 list is aka the paranoid list.
 
-Source is downloaded from [this link]().
-The last time downloaded was found to be dated: .
+Source is downloaded from [this link](http://list.iblocklist.com/?list=uwnukjqktoggdknzrhgh&fileformat=p2p&archiveformat=gz).
+
+The last time downloaded was found to be dated: Sun May 24 03:11:51 UTC 2015.
 
 The ipset `ib_bluetack_level3` has **18550** entries, **139108857** unique IPs.
 
@@ -996,18 +1015,18 @@ ib_bluetack_hijacked|535|9177856|145472|1.5%|0.1%|
 alienvault_reputation|188000|188000|15506|8.2%|0.0%|
 ib_bluetack_spyware|898|336971|8958|2.6%|0.0%|
 stop_forum_spam_30d|91499|91499|6228|6.8%|0.0%|
-blocklist_de|26581|26581|3291|12.3%|0.0%|
+blocklist_de|26592|26592|3294|12.3%|0.0%|
 stop_forum_spam_7d|28751|28751|1914|6.6%|0.0%|
 ib_bluetack_badpeers|48134|48134|1172|2.4%|0.0%|
-nixspam|18188|18188|1156|6.3%|0.0%|
+nixspam|18125|18125|1146|6.3%|0.0%|
 openbl|9986|9986|971|9.7%|0.0%|
 openbl_90d|9986|9986|971|9.7%|0.0%|
 openbl_60d|7904|7904|719|9.0%|0.0%|
-tor_servers|6551|6551|606|9.2%|0.0%|
-danmetor|6530|6530|604|9.2%|0.0%|
 tor|6340|6340|602|9.4%|0.0%|
+tor_servers|6516|6516|602|9.2%|0.0%|
+danmetor|6514|6514|602|9.2%|0.0%|
 openbl_30d|4722|4722|488|10.3%|0.0%|
-stop_forum_spam_1h|6821|6821|445|6.5%|0.0%|
+stop_forum_spam_1h|6822|6822|449|6.5%|0.0%|
 dshield|20|5120|256|5.0%|0.0%|
 compromised|2436|2436|243|9.9%|0.0%|
 bruteforceblocker|2288|2288|221|9.6%|0.0%|
@@ -1039,8 +1058,9 @@ palevo|13|13|1|7.6%|0.0%|
 
 [iBlocklist.com](https://www.iblocklist.com/) free version of [BlueTack.co.uk](http://www.bluetack.co.uk/) Open Proxies IPs list (without TOR)
 
-Source is downloaded from [this link]().
-The last time downloaded was found to be dated: .
+Source is downloaded from [this link](http://list.iblocklist.com/?list=xoebmbyexwuiogmbyprb&fileformat=p2p&archiveformat=gz).
+
+The last time downloaded was found to be dated: Sun May 24 03:10:28 UTC 2015.
 
 The ipset `ib_bluetack_proxies` has **673** entries, **673** unique IPs.
 
@@ -1058,14 +1078,14 @@ ib_bluetack_level1|215693|765044590|18|0.0%|2.6%|
 stop_forum_spam_7d|28751|28751|15|0.0%|2.2%|
 ib_bluetack_badpeers|48134|48134|11|0.0%|1.6%|
 rosi_web_proxies|3273|3273|9|0.2%|1.3%|
-stop_forum_spam_1h|6821|6821|5|0.0%|0.7%|
+stop_forum_spam_1h|6822|6822|5|0.0%|0.7%|
 rosi_connect_proxies|1348|1348|5|0.3%|0.7%|
-nixspam|18188|18188|3|0.0%|0.4%|
+nixspam|18125|18125|3|0.0%|0.4%|
+blocklist_de|26592|26592|3|0.0%|0.4%|
 spamhaus_drop|640|18051584|2|0.0%|0.2%|
 ib_bluetack_webexploit|1460|1460|2|0.1%|0.2%|
 ib_bluetack_hijacked|535|9177856|2|0.0%|0.2%|
 emerging_block|965|18065466|2|0.0%|0.2%|
-blocklist_de|26581|26581|2|0.0%|0.2%|
 snort_ipfilter|6580|6580|1|0.0%|0.1%|
 php_dictionary|275|275|1|0.3%|0.1%|
 alienvault_reputation|188000|188000|1|0.0%|0.1%|
@@ -1074,8 +1094,9 @@ alienvault_reputation|188000|188000|1|0.0%|0.1%|
 
 [iBlocklist.com](https://www.iblocklist.com/) free version of [BlueTack.co.uk](http://www.bluetack.co.uk/) known malicious SPYWARE and ADWARE IP Address ranges
 
-Source is downloaded from [this link]().
-The last time downloaded was found to be dated: .
+Source is downloaded from [this link](http://list.iblocklist.com/?list=llvtlsjyoyiczbkjsxpf&fileformat=p2p&archiveformat=gz).
+
+The last time downloaded was found to be dated: Sun May 24 02:40:07 UTC 2015.
 
 The ipset `ib_bluetack_spyware` has **898** entries, **336971** unique IPs.
 
@@ -1097,13 +1118,13 @@ alienvault_reputation|188000|188000|280|0.1%|0.0%|
 stop_forum_spam_30d|91499|91499|41|0.0%|0.0%|
 stop_forum_spam_7d|28751|28751|22|0.0%|0.0%|
 tor|6340|6340|20|0.3%|0.0%|
-tor_servers|6551|6551|20|0.3%|0.0%|
-danmetor|6530|6530|20|0.3%|0.0%|
-nixspam|18188|18188|16|0.0%|0.0%|
+tor_servers|6516|6516|20|0.3%|0.0%|
+danmetor|6514|6514|20|0.3%|0.0%|
+nixspam|18125|18125|16|0.0%|0.0%|
 malwaredomainlist|1283|1283|14|1.0%|0.0%|
 snort_ipfilter|6580|6580|12|0.1%|0.0%|
-blocklist_de|26581|26581|12|0.0%|0.0%|
-stop_forum_spam_1h|6821|6821|10|0.1%|0.0%|
+blocklist_de|26592|26592|12|0.0%|0.0%|
+stop_forum_spam_1h|6822|6822|10|0.1%|0.0%|
 ib_bluetack_webexploit|1460|1460|7|0.4%|0.0%|
 openbl|9986|9986|5|0.0%|0.0%|
 openbl_90d|9986|9986|5|0.0%|0.0%|
@@ -1125,8 +1146,9 @@ compromised|2436|2436|1|0.0%|0.0%|
 
 [iBlocklist.com](https://www.iblocklist.com/) free version of [BlueTack.co.uk](http://www.bluetack.co.uk/) web server hack and exploit attempts
 
-Source is downloaded from [this link]().
-The last time downloaded was found to be dated: .
+Source is downloaded from [this link](http://list.iblocklist.com/?list=ghlzqtqxnzctvvajwwag&fileformat=p2p&archiveformat=gz).
+
+The last time downloaded was found to be dated: Sun May 24 02:40:08 UTC 2015.
 
 The ipset `ib_bluetack_webexploit` has **1460** entries, **1460** unique IPs.
 
@@ -1152,8 +1174,8 @@ stop_forum_spam_30d|91499|91499|2|0.0%|0.1%|
 snort_ipfilter|6580|6580|2|0.0%|0.1%|
 ib_bluetack_proxies|673|673|2|0.2%|0.1%|
 tor|6340|6340|1|0.0%|0.0%|
-tor_servers|6551|6551|1|0.0%|0.0%|
-stop_forum_spam_1h|6821|6821|1|0.0%|0.0%|
+tor_servers|6516|6516|1|0.0%|0.0%|
+stop_forum_spam_1h|6822|6822|1|0.0%|0.0%|
 rosi_web_proxies|3273|3273|1|0.0%|0.0%|
 openbl|9986|9986|1|0.0%|0.0%|
 openbl_90d|9986|9986|1|0.0%|0.0%|
@@ -1163,18 +1185,19 @@ openbl_30d|4722|4722|1|0.0%|0.0%|
 openbl_1d|357|357|1|0.2%|0.0%|
 ib_bluetack_badpeers|48134|48134|1|0.0%|0.0%|
 dshield|20|5120|1|0.0%|0.0%|
-danmetor|6530|6530|1|0.0%|0.0%|
+danmetor|6514|6514|1|0.0%|0.0%|
 compromised|2436|2436|1|0.0%|0.0%|
 bruteforceblocker|2288|2288|1|0.0%|0.0%|
 botnet|515|515|1|0.1%|0.0%|
-blocklist_de|26581|26581|1|0.0%|0.0%|
+blocklist_de|26592|26592|1|0.0%|0.0%|
 
 ## malc0de
 
 [Malc0de.com](http://malc0de.com) malicious IPs of the last 30 days
 
-Source is downloaded from [this link]().
-The last time downloaded was found to be dated: .
+Source is downloaded from [this link](http://malc0de.com/bl/IP_Blacklist.txt).
+
+The last time downloaded was found to be dated: Sun May 24 13:17:04 UTC 2015.
 
 The ipset `malc0de` has **426** entries, **426** unique IPs.
 
@@ -1201,8 +1224,9 @@ dshield|20|5120|1|0.0%|0.2%|
 
 [malwaredomainlist.com](http://www.malwaredomainlist.com) list of malware active ip addresses
 
-Source is downloaded from [this link]().
-The last time downloaded was found to be dated: .
+Source is downloaded from [this link](http://www.malwaredomainlist.com/hostslist/ip.txt).
+
+The last time downloaded was found to be dated: Thu May 14 20:46:41 UTC 2015.
 
 The ipset `malwaredomainlist` has **1283** entries, **1283** unique IPs.
 
@@ -1225,9 +1249,9 @@ fullbogons|3646|670922200|9|0.0%|0.7%|
 alienvault_reputation|188000|188000|6|0.0%|0.4%|
 malc0de|426|426|4|0.9%|0.3%|
 ib_bluetack_webexploit|1460|1460|3|0.2%|0.2%|
-blocklist_de|26581|26581|3|0.0%|0.2%|
+blocklist_de|26592|26592|3|0.0%|0.2%|
 stop_forum_spam_30d|91499|91499|2|0.0%|0.1%|
-nixspam|18188|18188|1|0.0%|0.0%|
+nixspam|18125|18125|1|0.0%|0.0%|
 botnet|515|515|1|0.1%|0.0%|
 
 ## nixspam
@@ -1235,9 +1259,10 @@ botnet|515|515|1|0.1%|0.0%|
 [NiX Spam](http://www.heise.de/ix/NiX-Spam-DNSBL-and-blacklist-for-download-499637.html) IP addresses that sent spam in the last hour - automatically generated entries without distinguishing open proxies from relays, dialup gateways, and so on. All IPs are removed after 12 hours if there is no spam from there.
 
 Source is downloaded from [this link](http://www.dnsbl.manitu.net/download/nixspam-ip.dump.gz).
-The last time downloaded was found to be dated: Sun May 24 21:45:02 UTC 2015.
 
-The ipset `nixspam` has **18188** entries, **18188** unique IPs.
+The last time downloaded was found to be dated: Sun May 24 22:00:02 UTC 2015.
+
+The ipset `nixspam` has **18125** entries, **18125** unique IPs.
 
 The following table shows the overlaps of `nixspam` with all the other ipsets supported. Only the ipsets that have at least 1 IP overlap are shown. if an ipset is not shown here, it does not have any overlap with `nixspam`.
 
@@ -1246,47 +1271,48 @@ The following table shows the overlaps of `nixspam` with all the other ipsets su
 
 ipset|entries|unique IPs|IPs on both| them % | this % |
 :---:|:-----:|:--------:|:---------:|:------:|:------:|
-ib_bluetack_level3|18550|139108857|1156|0.0%|6.3%|
-blocklist_de|26581|26581|644|2.4%|3.5%|
-ib_bluetack_level2|75927|348729520|488|0.0%|2.6%|
+ib_bluetack_level3|18550|139108857|1146|0.0%|6.3%|
+blocklist_de|26592|26592|642|2.4%|3.5%|
+ib_bluetack_level2|75927|348729520|489|0.0%|2.6%|
 ib_bluetack_level1|215693|765044590|332|0.0%|1.8%|
-stop_forum_spam_30d|91499|91499|199|0.2%|1.0%|
-snort_ipfilter|6580|6580|184|2.7%|1.0%|
-spamhaus_drop|640|18051584|164|0.0%|0.9%|
-emerging_block|965|18065466|164|0.0%|0.9%|
-ib_bluetack_hijacked|535|9177856|159|0.0%|0.8%|
-stop_forum_spam_7d|28751|28751|118|0.4%|0.6%|
+stop_forum_spam_30d|91499|91499|200|0.2%|1.1%|
+snort_ipfilter|6580|6580|186|2.8%|1.0%|
+spamhaus_drop|640|18051584|171|0.0%|0.9%|
+emerging_block|965|18065466|171|0.0%|0.9%|
+ib_bluetack_hijacked|535|9177856|166|0.0%|0.9%|
+stop_forum_spam_7d|28751|28751|119|0.4%|0.6%|
 php_dictionary|275|275|85|30.9%|0.4%|
-rosi_web_proxies|3273|3273|72|2.1%|0.3%|
+rosi_web_proxies|3273|3273|73|2.2%|0.4%|
 php_spammers|261|261|62|23.7%|0.3%|
-stop_forum_spam_1h|6821|6821|58|0.8%|0.3%|
+stop_forum_spam_1h|6822|6822|59|0.8%|0.3%|
 alienvault_reputation|188000|188000|38|0.0%|0.2%|
 ib_bluetack_spyware|898|336971|16|0.0%|0.0%|
-php_commenters|201|201|14|6.9%|0.0%|
-php_bad|201|201|14|6.9%|0.0%|
-rosi_connect_proxies|1348|1348|12|0.8%|0.0%|
+rosi_connect_proxies|1348|1348|13|0.9%|0.0%|
+php_commenters|201|201|13|6.4%|0.0%|
+php_bad|201|201|13|6.4%|0.0%|
 openbl|9986|9986|8|0.0%|0.0%|
 openbl_90d|9986|9986|8|0.0%|0.0%|
 openbl_60d|7904|7904|8|0.1%|0.0%|
 openbl_30d|4722|4722|6|0.1%|0.0%|
 ib_bluetack_badpeers|48134|48134|6|0.0%|0.0%|
+tor|6340|6340|3|0.0%|0.0%|
 ib_bluetack_proxies|673|673|3|0.4%|0.0%|
-tor|6340|6340|2|0.0%|0.0%|
+tor_servers|6516|6516|2|0.0%|0.0%|
 openbl_7d|1427|1427|2|0.1%|0.0%|
+danmetor|6514|6514|2|0.0%|0.0%|
 compromised|2436|2436|2|0.0%|0.0%|
 bruteforceblocker|2288|2288|2|0.0%|0.0%|
-tor_servers|6551|6551|1|0.0%|0.0%|
 spamhaus_edrop|55|421120|1|0.0%|0.0%|
 malwaredomainlist|1283|1283|1|0.0%|0.0%|
-danmetor|6530|6530|1|0.0%|0.0%|
 clean_mx_viruses|318|318|1|0.3%|0.0%|
 
 ## openbl
 
 [OpenBL.org](http://www.openbl.org/) default blacklist (currently it is the same with 90 days). OpenBL.org is detecting, logging and reporting various types of internet abuse. Currently they monitor ports 21 (FTP), 22 (SSH), 23 (TELNET), 25 (SMTP), 110 (POP3), 143 (IMAP), 587 (Submission), 993 (IMAPS) and 995 (POP3S) for bruteforce login attacks as well as scans on ports 80 (HTTP) and 443 (HTTPS) for vulnerable installations of phpMyAdmin and other web applications - **excellent list**
 
-Source is downloaded from [this link]().
-The last time downloaded was found to be dated: .
+Source is downloaded from [this link](http://www.openbl.org/lists/base.txt.gz).
+
+The last time downloaded was found to be dated: Sun May 24 18:37:01 UTC 2015.
 
 The ipset `openbl` has **9986** entries, **9986** unique IPs.
 
@@ -1304,7 +1330,7 @@ openbl_30d|4722|4722|4722|100.0%|47.2%|
 compromised|2436|2436|1473|60.4%|14.7%|
 openbl_7d|1427|1427|1427|100.0%|14.2%|
 bruteforceblocker|2288|2288|1351|59.0%|13.5%|
-blocklist_de|26581|26581|1299|4.8%|13.0%|
+blocklist_de|26592|26592|1300|4.8%|13.0%|
 ib_bluetack_level3|18550|139108857|971|0.0%|9.7%|
 ib_bluetack_level2|75927|348729520|534|0.0%|5.3%|
 emerging_block|965|18065466|452|0.0%|4.5%|
@@ -1315,14 +1341,14 @@ stop_forum_spam_30d|91499|91499|73|0.0%|0.7%|
 dshield|20|5120|38|0.7%|0.3%|
 stop_forum_spam_7d|28751|28751|37|0.1%|0.3%|
 snort_ipfilter|6580|6580|25|0.3%|0.2%|
-stop_forum_spam_1h|6821|6821|22|0.3%|0.2%|
-tor_servers|6551|6551|21|0.3%|0.2%|
+stop_forum_spam_1h|6822|6822|22|0.3%|0.2%|
 tor|6340|6340|20|0.3%|0.2%|
-danmetor|6530|6530|20|0.3%|0.2%|
+tor_servers|6516|6516|20|0.3%|0.2%|
+danmetor|6514|6514|20|0.3%|0.2%|
 ib_bluetack_hijacked|535|9177856|18|0.0%|0.1%|
 spamhaus_edrop|55|421120|14|0.0%|0.1%|
 autoshun|51|51|12|23.5%|0.1%|
-nixspam|18188|18188|8|0.0%|0.0%|
+nixspam|18125|18125|8|0.0%|0.0%|
 php_commenters|201|201|6|2.9%|0.0%|
 php_bad|201|201|6|2.9%|0.0%|
 ib_bluetack_spyware|898|336971|5|0.0%|0.0%|
@@ -1338,8 +1364,9 @@ feodo|58|58|1|1.7%|0.0%|
 
 [OpenBL.org](http://www.openbl.org/) last 24 hours IPs.  OpenBL.org is detecting, logging and reporting various types of internet abuse. Currently they monitor ports 21 (FTP), 22 (SSH), 23 (TELNET), 25 (SMTP), 110 (POP3), 143 (IMAP), 587 (Submission), 993 (IMAPS) and 995 (POP3S) for bruteforce login attacks as well as scans on ports 80 (HTTP) and 443 (HTTPS) for vulnerable installations of phpMyAdmin and other web applications.
 
-Source is downloaded from [this link]().
-The last time downloaded was found to be dated: .
+Source is downloaded from [this link](http://www.openbl.org/lists/base_1days.txt.gz).
+
+The last time downloaded was found to be dated: Wed May 20 19:07:00 UTC 2015.
 
 The ipset `openbl_1d` has **357** entries, **357** unique IPs.
 
@@ -1356,7 +1383,7 @@ openbl_7d|1427|1427|357|25.0%|100.0%|
 openbl_60d|7904|7904|357|4.5%|100.0%|
 openbl_30d|4722|4722|357|7.5%|100.0%|
 alienvault_reputation|188000|188000|355|0.1%|99.4%|
-blocklist_de|26581|26581|251|0.9%|70.3%|
+blocklist_de|26592|26592|251|0.9%|70.3%|
 bruteforceblocker|2288|2288|202|8.8%|56.5%|
 compromised|2436|2436|198|8.1%|55.4%|
 emerging_block|965|18065466|27|0.0%|7.5%|
@@ -1375,8 +1402,9 @@ ib_bluetack_webexploit|1460|1460|1|0.0%|0.2%|
 
 [OpenBL.org](http://www.openbl.org/) last 30 days IPs.  OpenBL.org is detecting, logging and reporting various types of internet abuse. Currently they monitor ports 21 (FTP), 22 (SSH), 23 (TELNET), 25 (SMTP), 110 (POP3), 143 (IMAP), 587 (Submission), 993 (IMAPS) and 995 (POP3S) for bruteforce login attacks as well as scans on ports 80 (HTTP) and 443 (HTTPS) for vulnerable installations of phpMyAdmin and other web applications.
 
-Source is downloaded from [this link]().
-The last time downloaded was found to be dated: .
+Source is downloaded from [this link](http://www.openbl.org/lists/base_30days.txt.gz).
+
+The last time downloaded was found to be dated: Sun May 24 18:37:00 UTC 2015.
 
 The ipset `openbl_30d` has **4722** entries, **4722** unique IPs.
 
@@ -1394,7 +1422,7 @@ alienvault_reputation|188000|188000|4705|2.5%|99.6%|
 openbl_7d|1427|1427|1427|100.0%|30.2%|
 compromised|2436|2436|1337|54.8%|28.3%|
 bruteforceblocker|2288|2288|1288|56.2%|27.2%|
-blocklist_de|26581|26581|1102|4.1%|23.3%|
+blocklist_de|26592|26592|1103|4.1%|23.3%|
 ib_bluetack_level3|18550|139108857|488|0.0%|10.3%|
 openbl_1d|357|357|357|100.0%|7.5%|
 ib_bluetack_level2|75927|348729520|232|0.0%|4.9%|
@@ -1406,11 +1434,11 @@ stop_forum_spam_30d|91499|91499|25|0.0%|0.5%|
 ib_bluetack_hijacked|535|9177856|12|0.0%|0.2%|
 autoshun|51|51|11|21.5%|0.2%|
 stop_forum_spam_7d|28751|28751|7|0.0%|0.1%|
-nixspam|18188|18188|6|0.0%|0.1%|
+nixspam|18125|18125|6|0.0%|0.1%|
 ib_bluetack_spyware|898|336971|3|0.0%|0.0%|
 zeus|262|262|1|0.3%|0.0%|
 zeus_badips|228|228|1|0.4%|0.0%|
-stop_forum_spam_1h|6821|6821|1|0.0%|0.0%|
+stop_forum_spam_1h|6822|6822|1|0.0%|0.0%|
 spamhaus_edrop|55|421120|1|0.0%|0.0%|
 snort_ipfilter|6580|6580|1|0.0%|0.0%|
 ib_bluetack_webexploit|1460|1460|1|0.0%|0.0%|
@@ -1419,8 +1447,9 @@ ib_bluetack_webexploit|1460|1460|1|0.0%|0.0%|
 
 [OpenBL.org](http://www.openbl.org/) last 60 days IPs.  OpenBL.org is detecting, logging and reporting various types of internet abuse. Currently they monitor ports 21 (FTP), 22 (SSH), 23 (TELNET), 25 (SMTP), 110 (POP3), 143 (IMAP), 587 (Submission), 993 (IMAPS) and 995 (POP3S) for bruteforce login attacks as well as scans on ports 80 (HTTP) and 443 (HTTPS) for vulnerable installations of phpMyAdmin and other web applications.
 
-Source is downloaded from [this link]().
-The last time downloaded was found to be dated: .
+Source is downloaded from [this link](http://www.openbl.org/lists/base_60days.txt.gz).
+
+The last time downloaded was found to be dated: Sun May 24 18:37:00 UTC 2015.
 
 The ipset `openbl_60d` has **7904** entries, **7904** unique IPs.
 
@@ -1438,7 +1467,7 @@ openbl_30d|4722|4722|4722|100.0%|59.7%|
 compromised|2436|2436|1461|59.9%|18.4%|
 openbl_7d|1427|1427|1427|100.0%|18.0%|
 bruteforceblocker|2288|2288|1340|58.5%|16.9%|
-blocklist_de|26581|26581|1249|4.6%|15.8%|
+blocklist_de|26592|26592|1250|4.7%|15.8%|
 ib_bluetack_level3|18550|139108857|719|0.0%|9.0%|
 ib_bluetack_level2|75927|348729520|382|0.0%|4.8%|
 openbl_1d|357|357|357|100.0%|4.5%|
@@ -1449,13 +1478,13 @@ stop_forum_spam_30d|91499|91499|65|0.0%|0.8%|
 dshield|20|5120|38|0.7%|0.4%|
 stop_forum_spam_7d|28751|28751|33|0.1%|0.4%|
 snort_ipfilter|6580|6580|24|0.3%|0.3%|
-tor_servers|6551|6551|21|0.3%|0.2%|
 tor|6340|6340|20|0.3%|0.2%|
-stop_forum_spam_1h|6821|6821|20|0.2%|0.2%|
-danmetor|6530|6530|20|0.3%|0.2%|
+tor_servers|6516|6516|20|0.3%|0.2%|
+stop_forum_spam_1h|6822|6822|20|0.2%|0.2%|
+danmetor|6514|6514|20|0.3%|0.2%|
 ib_bluetack_hijacked|535|9177856|17|0.0%|0.2%|
 autoshun|51|51|12|23.5%|0.1%|
-nixspam|18188|18188|8|0.0%|0.1%|
+nixspam|18125|18125|8|0.0%|0.1%|
 php_commenters|201|201|6|2.9%|0.0%|
 php_bad|201|201|6|2.9%|0.0%|
 php_harvesters|178|178|4|2.2%|0.0%|
@@ -1469,8 +1498,9 @@ ib_bluetack_webexploit|1460|1460|1|0.0%|0.0%|
 
 [OpenBL.org](http://www.openbl.org/) last 7 days IPs.  OpenBL.org is detecting, logging and reporting various types of internet abuse. Currently they monitor ports 21 (FTP), 22 (SSH), 23 (TELNET), 25 (SMTP), 110 (POP3), 143 (IMAP), 587 (Submission), 993 (IMAPS) and 995 (POP3S) for bruteforce login attacks as well as scans on ports 80 (HTTP) and 443 (HTTPS) for vulnerable installations of phpMyAdmin and other web applications.
 
-Source is downloaded from [this link]().
-The last time downloaded was found to be dated: .
+Source is downloaded from [this link](http://www.openbl.org/lists/base_7days.txt.gz).
+
+The last time downloaded was found to be dated: Sun May 24 18:37:00 UTC 2015.
 
 The ipset `openbl_7d` has **1427** entries, **1427** unique IPs.
 
@@ -1486,7 +1516,7 @@ openbl_90d|9986|9986|1427|14.2%|100.0%|
 openbl_60d|7904|7904|1427|18.0%|100.0%|
 openbl_30d|4722|4722|1427|30.2%|100.0%|
 alienvault_reputation|188000|188000|1412|0.7%|98.9%|
-blocklist_de|26581|26581|795|2.9%|55.7%|
+blocklist_de|26592|26592|795|2.9%|55.7%|
 bruteforceblocker|2288|2288|723|31.5%|50.6%|
 compromised|2436|2436|706|28.9%|49.4%|
 openbl_1d|357|357|357|100.0%|25.0%|
@@ -1499,9 +1529,9 @@ ib_bluetack_level1|215693|765044590|29|0.0%|2.0%|
 ib_bluetack_hijacked|535|9177856|10|0.0%|0.7%|
 autoshun|51|51|9|17.6%|0.6%|
 stop_forum_spam_30d|91499|91499|3|0.0%|0.2%|
-nixspam|18188|18188|2|0.0%|0.1%|
+nixspam|18125|18125|2|0.0%|0.1%|
 stop_forum_spam_7d|28751|28751|1|0.0%|0.0%|
-stop_forum_spam_1h|6821|6821|1|0.0%|0.0%|
+stop_forum_spam_1h|6822|6822|1|0.0%|0.0%|
 spamhaus_edrop|55|421120|1|0.0%|0.0%|
 ib_bluetack_webexploit|1460|1460|1|0.0%|0.0%|
 ib_bluetack_spyware|898|336971|1|0.0%|0.0%|
@@ -1510,8 +1540,9 @@ ib_bluetack_spyware|898|336971|1|0.0%|0.0%|
 
 [OpenBL.org](http://www.openbl.org/) last 90 days IPs.  OpenBL.org is detecting, logging and reporting various types of internet abuse. Currently they monitor ports 21 (FTP), 22 (SSH), 23 (TELNET), 25 (SMTP), 110 (POP3), 143 (IMAP), 587 (Submission), 993 (IMAPS) and 995 (POP3S) for bruteforce login attacks as well as scans on ports 80 (HTTP) and 443 (HTTPS) for vulnerable installations of phpMyAdmin and other web applications.
 
-Source is downloaded from [this link]().
-The last time downloaded was found to be dated: .
+Source is downloaded from [this link](http://www.openbl.org/lists/base_90days.txt.gz).
+
+The last time downloaded was found to be dated: Sun May 24 18:37:01 UTC 2015.
 
 The ipset `openbl_90d` has **9986** entries, **9986** unique IPs.
 
@@ -1529,7 +1560,7 @@ openbl_30d|4722|4722|4722|100.0%|47.2%|
 compromised|2436|2436|1473|60.4%|14.7%|
 openbl_7d|1427|1427|1427|100.0%|14.2%|
 bruteforceblocker|2288|2288|1351|59.0%|13.5%|
-blocklist_de|26581|26581|1299|4.8%|13.0%|
+blocklist_de|26592|26592|1300|4.8%|13.0%|
 ib_bluetack_level3|18550|139108857|971|0.0%|9.7%|
 ib_bluetack_level2|75927|348729520|534|0.0%|5.3%|
 emerging_block|965|18065466|452|0.0%|4.5%|
@@ -1540,14 +1571,14 @@ stop_forum_spam_30d|91499|91499|73|0.0%|0.7%|
 dshield|20|5120|38|0.7%|0.3%|
 stop_forum_spam_7d|28751|28751|37|0.1%|0.3%|
 snort_ipfilter|6580|6580|25|0.3%|0.2%|
-stop_forum_spam_1h|6821|6821|22|0.3%|0.2%|
-tor_servers|6551|6551|21|0.3%|0.2%|
+stop_forum_spam_1h|6822|6822|22|0.3%|0.2%|
 tor|6340|6340|20|0.3%|0.2%|
-danmetor|6530|6530|20|0.3%|0.2%|
+tor_servers|6516|6516|20|0.3%|0.2%|
+danmetor|6514|6514|20|0.3%|0.2%|
 ib_bluetack_hijacked|535|9177856|18|0.0%|0.1%|
 spamhaus_edrop|55|421120|14|0.0%|0.1%|
 autoshun|51|51|12|23.5%|0.1%|
-nixspam|18188|18188|8|0.0%|0.0%|
+nixspam|18125|18125|8|0.0%|0.0%|
 php_commenters|201|201|6|2.9%|0.0%|
 php_bad|201|201|6|2.9%|0.0%|
 ib_bluetack_spyware|898|336971|5|0.0%|0.0%|
@@ -1563,8 +1594,9 @@ feodo|58|58|1|1.7%|0.0%|
 
 [Abuse.ch Palevo tracker](https://palevotracker.abuse.ch) worm includes IPs which are being used as botnet C&C for the Palevo crimeware - **excellent list**
 
-Source is downloaded from [this link]().
-The last time downloaded was found to be dated: .
+Source is downloaded from [this link](https://palevotracker.abuse.ch/blocklists.php?download=ipblocklist).
+
+The last time downloaded was found to be dated: Sun May 24 22:02:35 UTC 2015.
 
 The ipset `palevo` has **13** entries, **13** unique IPs.
 
@@ -1575,17 +1607,18 @@ The following table shows the overlaps of `palevo` with all the other ipsets sup
 
 ipset|entries|unique IPs|IPs on both| them % | this % |
 :---:|:-----:|:--------:|:---------:|:------:|:------:|
-emerging_block|965|18065466|12|0.0%|92.3%|
+emerging_block|965|18065466|13|0.0%|100.0%|
 snort_ipfilter|6580|6580|11|0.1%|84.6%|
-ib_bluetack_level2|75927|348729520|3|0.0%|23.0%|
+ib_bluetack_level2|75927|348729520|2|0.0%|15.3%|
 ib_bluetack_level3|18550|139108857|1|0.0%|7.6%|
 
 ## php_bad
 
 [projecthoneypot.org](http://www.projecthoneypot.org/) bad web hosts (this list is composed using an RSS feed and aggregated for the last 30 days)
 
-Source is downloaded from [this link]().
-The last time downloaded was found to be dated: .
+Source is downloaded from [this link](http://www.projecthoneypot.org/list_of_ips.php?t=b&rss=1).
+
+The last time downloaded was found to be dated: Sun May 24 22:03:32 UTC 2015.
 
 The ipset `php_bad` has **201** entries, **201** unique IPs.
 
@@ -1599,16 +1632,16 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 php_commenters|201|201|201|100.0%|100.0%|
 stop_forum_spam_30d|91499|91499|142|0.1%|70.6%|
 stop_forum_spam_7d|28751|28751|135|0.4%|67.1%|
-stop_forum_spam_1h|6821|6821|104|1.5%|51.7%|
-blocklist_de|26581|26581|68|0.2%|33.8%|
+stop_forum_spam_1h|6822|6822|104|1.5%|51.7%|
+blocklist_de|26592|26592|68|0.2%|33.8%|
 snort_ipfilter|6580|6580|27|0.4%|13.4%|
 spamhaus_drop|640|18051584|24|0.0%|11.9%|
 emerging_block|965|18065466|24|0.0%|11.9%|
-tor_servers|6551|6551|20|0.3%|9.9%|
 tor|6340|6340|19|0.2%|9.4%|
-danmetor|6530|6530|19|0.2%|9.4%|
+tor_servers|6516|6516|19|0.2%|9.4%|
+danmetor|6514|6514|19|0.2%|9.4%|
 php_spammers|261|261|15|5.7%|7.4%|
-nixspam|18188|18188|14|0.0%|6.9%|
+nixspam|18125|18125|13|0.0%|6.4%|
 php_dictionary|275|275|10|3.6%|4.9%|
 alienvault_reputation|188000|188000|10|0.0%|4.9%|
 ib_bluetack_level3|18550|139108857|9|0.0%|4.4%|
@@ -1627,8 +1660,9 @@ zeus_badips|228|228|1|0.4%|0.4%|
 
 [projecthoneypot.org](http://www.projecthoneypot.org/) comment spammers (this list is composed using an RSS feed and aggregated for the last 30 days)
 
-Source is downloaded from [this link]().
-The last time downloaded was found to be dated: .
+Source is downloaded from [this link](http://www.projecthoneypot.org/list_of_ips.php?t=c&rss=1).
+
+The last time downloaded was found to be dated: Sun May 24 22:03:35 UTC 2015.
 
 The ipset `php_commenters` has **201** entries, **201** unique IPs.
 
@@ -1642,16 +1676,16 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 php_bad|201|201|201|100.0%|100.0%|
 stop_forum_spam_30d|91499|91499|142|0.1%|70.6%|
 stop_forum_spam_7d|28751|28751|135|0.4%|67.1%|
-stop_forum_spam_1h|6821|6821|104|1.5%|51.7%|
-blocklist_de|26581|26581|68|0.2%|33.8%|
+stop_forum_spam_1h|6822|6822|104|1.5%|51.7%|
+blocklist_de|26592|26592|68|0.2%|33.8%|
 snort_ipfilter|6580|6580|27|0.4%|13.4%|
 spamhaus_drop|640|18051584|24|0.0%|11.9%|
 emerging_block|965|18065466|24|0.0%|11.9%|
-tor_servers|6551|6551|20|0.3%|9.9%|
 tor|6340|6340|19|0.2%|9.4%|
-danmetor|6530|6530|19|0.2%|9.4%|
+tor_servers|6516|6516|19|0.2%|9.4%|
+danmetor|6514|6514|19|0.2%|9.4%|
 php_spammers|261|261|15|5.7%|7.4%|
-nixspam|18188|18188|14|0.0%|6.9%|
+nixspam|18125|18125|13|0.0%|6.4%|
 php_dictionary|275|275|10|3.6%|4.9%|
 alienvault_reputation|188000|188000|10|0.0%|4.9%|
 ib_bluetack_level3|18550|139108857|9|0.0%|4.4%|
@@ -1670,8 +1704,9 @@ zeus_badips|228|228|1|0.4%|0.4%|
 
 [projecthoneypot.org](http://www.projecthoneypot.org/) directory attackers (this list is composed using an RSS feed and aggregated for the last 30 days)
 
-Source is downloaded from [this link]().
-The last time downloaded was found to be dated: .
+Source is downloaded from [this link](http://www.projecthoneypot.org/list_of_ips.php?t=d&rss=1).
+
+The last time downloaded was found to be dated: Sun May 24 22:03:36 UTC 2015.
 
 The ipset `php_dictionary` has **275** entries, **275** unique IPs.
 
@@ -1682,13 +1717,13 @@ The following table shows the overlaps of `php_dictionary` with all the other ip
 
 ipset|entries|unique IPs|IPs on both| them % | this % |
 :---:|:-----:|:--------:|:---------:|:------:|:------:|
-nixspam|18188|18188|85|0.4%|30.9%|
-blocklist_de|26581|26581|79|0.2%|28.7%|
+nixspam|18125|18125|85|0.4%|30.9%|
+blocklist_de|26592|26592|78|0.2%|28.3%|
 snort_ipfilter|6580|6580|65|0.9%|23.6%|
 stop_forum_spam_30d|91499|91499|48|0.0%|17.4%|
 php_spammers|261|261|46|17.6%|16.7%|
 stop_forum_spam_7d|28751|28751|31|0.1%|11.2%|
-stop_forum_spam_1h|6821|6821|16|0.2%|5.8%|
+stop_forum_spam_1h|6822|6822|16|0.2%|5.8%|
 rosi_web_proxies|3273|3273|13|0.3%|4.7%|
 ib_bluetack_level3|18550|139108857|13|0.0%|4.7%|
 php_commenters|201|201|10|4.9%|3.6%|
@@ -1696,8 +1731,8 @@ php_bad|201|201|10|4.9%|3.6%|
 ib_bluetack_level2|75927|348729520|7|0.0%|2.5%|
 ib_bluetack_level1|215693|765044590|7|0.0%|2.5%|
 tor|6340|6340|4|0.0%|1.4%|
-tor_servers|6551|6551|4|0.0%|1.4%|
-danmetor|6530|6530|4|0.0%|1.4%|
+tor_servers|6516|6516|4|0.0%|1.4%|
+danmetor|6514|6514|4|0.0%|1.4%|
 ib_bluetack_badpeers|48134|48134|2|0.0%|0.7%|
 alienvault_reputation|188000|188000|2|0.0%|0.7%|
 spamhaus_drop|640|18051584|1|0.0%|0.3%|
@@ -1711,8 +1746,9 @@ emerging_block|965|18065466|1|0.0%|0.3%|
 
 [projecthoneypot.org](http://www.projecthoneypot.org/) harvesters (IPs that surf the internet looking for email addresses) (this list is composed using an RSS feed and aggregated for the last 30 days)
 
-Source is downloaded from [this link]().
-The last time downloaded was found to be dated: .
+Source is downloaded from [this link](http://www.projecthoneypot.org/list_of_ips.php?t=h&rss=1).
+
+The last time downloaded was found to be dated: Sun May 24 22:03:29 UTC 2015.
 
 The ipset `php_harvesters` has **178** entries, **178** unique IPs.
 
@@ -1725,15 +1761,15 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 :---:|:-----:|:--------:|:---------:|:------:|:------:|
 stop_forum_spam_30d|91499|91499|46|0.0%|25.8%|
 stop_forum_spam_7d|28751|28751|40|0.1%|22.4%|
-stop_forum_spam_1h|6821|6821|23|0.3%|12.9%|
-blocklist_de|26581|26581|22|0.0%|12.3%|
+stop_forum_spam_1h|6822|6822|24|0.3%|13.4%|
+blocklist_de|26592|26592|22|0.0%|12.3%|
 ib_bluetack_level3|18550|139108857|12|0.0%|6.7%|
 snort_ipfilter|6580|6580|10|0.1%|5.6%|
 php_commenters|201|201|8|3.9%|4.4%|
 php_bad|201|201|8|3.9%|4.4%|
 tor|6340|6340|7|0.1%|3.9%|
-tor_servers|6551|6551|7|0.1%|3.9%|
-danmetor|6530|6530|7|0.1%|3.9%|
+tor_servers|6516|6516|7|0.1%|3.9%|
+danmetor|6514|6514|7|0.1%|3.9%|
 alienvault_reputation|188000|188000|7|0.0%|3.9%|
 ib_bluetack_level2|75927|348729520|5|0.0%|2.8%|
 openbl|9986|9986|4|0.0%|2.2%|
@@ -1755,8 +1791,9 @@ bogons|13|592708608|1|0.0%|0.5%|
 
 [projecthoneypot.org](http://www.projecthoneypot.org/) spam servers (IPs used by spammers to send messages) (this list is composed using an RSS feed and aggregated for the last 30 days)
 
-Source is downloaded from [this link]().
-The last time downloaded was found to be dated: .
+Source is downloaded from [this link](http://www.projecthoneypot.org/list_of_ips.php?t=s&rss=1).
+
+The last time downloaded was found to be dated: Sun May 24 22:03:31 UTC 2015.
 
 The ipset `php_spammers` has **261** entries, **261** unique IPs.
 
@@ -1767,21 +1804,21 @@ The following table shows the overlaps of `php_spammers` with all the other ipse
 
 ipset|entries|unique IPs|IPs on both| them % | this % |
 :---:|:-----:|:--------:|:---------:|:------:|:------:|
-blocklist_de|26581|26581|63|0.2%|24.1%|
-nixspam|18188|18188|62|0.3%|23.7%|
+blocklist_de|26592|26592|63|0.2%|24.1%|
+nixspam|18125|18125|62|0.3%|23.7%|
 stop_forum_spam_30d|91499|91499|61|0.0%|23.3%|
 snort_ipfilter|6580|6580|55|0.8%|21.0%|
 php_dictionary|275|275|46|16.7%|17.6%|
 stop_forum_spam_7d|28751|28751|40|0.1%|15.3%|
-stop_forum_spam_1h|6821|6821|20|0.2%|7.6%|
+stop_forum_spam_1h|6822|6822|20|0.2%|7.6%|
 ib_bluetack_level3|18550|139108857|18|0.0%|6.8%|
 ib_bluetack_level2|75927|348729520|18|0.0%|6.8%|
 php_commenters|201|201|15|7.4%|5.7%|
 php_bad|201|201|15|7.4%|5.7%|
 rosi_web_proxies|3273|3273|9|0.2%|3.4%|
 tor|6340|6340|5|0.0%|1.9%|
-tor_servers|6551|6551|5|0.0%|1.9%|
-danmetor|6530|6530|5|0.0%|1.9%|
+tor_servers|6516|6516|5|0.0%|1.9%|
+danmetor|6514|6514|5|0.0%|1.9%|
 alienvault_reputation|188000|188000|3|0.0%|1.1%|
 spamhaus_drop|640|18051584|2|0.0%|0.7%|
 ib_bluetack_level1|215693|765044590|2|0.0%|0.7%|
@@ -1795,8 +1832,9 @@ ib_bluetack_badpeers|48134|48134|1|0.0%|0.3%|
 
 [rosinstrument.com](http://www.rosinstrument.com) open CONNECT proxies (this list is composed using an RSS feed and aggregated for the last 30 days)
 
-Source is downloaded from [this link]().
-The last time downloaded was found to be dated: .
+Source is downloaded from [this link](http://tools.rosinstrument.com/proxy/plab100.xml).
+
+The last time downloaded was found to be dated: Sun May 24 14:45:18 UTC 2015.
 
 The ipset `rosi_connect_proxies` has **1348** entries, **1348** unique IPs.
 
@@ -1810,27 +1848,28 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 stop_forum_spam_30d|91499|91499|803|0.8%|59.5%|
 stop_forum_spam_7d|28751|28751|681|2.3%|50.5%|
 rosi_web_proxies|3273|3273|518|15.8%|38.4%|
-stop_forum_spam_1h|6821|6821|173|2.5%|12.8%|
-blocklist_de|26581|26581|78|0.2%|5.7%|
+stop_forum_spam_1h|6822|6822|167|2.4%|12.3%|
+blocklist_de|26592|26592|78|0.2%|5.7%|
 ib_bluetack_level2|75927|348729520|66|0.0%|4.8%|
 ib_bluetack_level3|18550|139108857|29|0.0%|2.1%|
 ib_bluetack_level1|215693|765044590|22|0.0%|1.6%|
-nixspam|18188|18188|12|0.0%|0.8%|
+nixspam|18125|18125|13|0.0%|0.9%|
 ib_bluetack_proxies|673|673|5|0.7%|0.3%|
 snort_ipfilter|6580|6580|4|0.0%|0.2%|
 tor|6340|6340|1|0.0%|0.0%|
-tor_servers|6551|6551|1|0.0%|0.0%|
+tor_servers|6516|6516|1|0.0%|0.0%|
 php_spammers|261|261|1|0.3%|0.0%|
 php_dictionary|275|275|1|0.3%|0.0%|
-danmetor|6530|6530|1|0.0%|0.0%|
+danmetor|6514|6514|1|0.0%|0.0%|
 alienvault_reputation|188000|188000|1|0.0%|0.0%|
 
 ## rosi_web_proxies
 
 [rosinstrument.com](http://www.rosinstrument.com) open HTTP proxies (this list is composed using an RSS feed and aggregated for the last 30 days)
 
-Source is downloaded from [this link]().
-The last time downloaded was found to be dated: .
+Source is downloaded from [this link](http://tools.rosinstrument.com/proxy/l100.xml).
+
+The last time downloaded was found to be dated: Sun May 24 20:38:08 UTC 2015.
 
 The ipset `rosi_web_proxies` has **3273** entries, **3273** unique IPs.
 
@@ -1844,21 +1883,21 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 stop_forum_spam_30d|91499|91499|1603|1.7%|48.9%|
 stop_forum_spam_7d|28751|28751|1362|4.7%|41.6%|
 rosi_connect_proxies|1348|1348|518|38.4%|15.8%|
-stop_forum_spam_1h|6821|6821|500|7.3%|15.2%|
-blocklist_de|26581|26581|340|1.2%|10.3%|
+stop_forum_spam_1h|6822|6822|492|7.2%|15.0%|
+blocklist_de|26592|26592|342|1.2%|10.4%|
 ib_bluetack_level2|75927|348729520|122|0.0%|3.7%|
 ib_bluetack_level3|18550|139108857|115|0.0%|3.5%|
-nixspam|18188|18188|72|0.3%|2.1%|
+nixspam|18125|18125|73|0.4%|2.2%|
 ib_bluetack_level1|215693|765044590|57|0.0%|1.7%|
 snort_ipfilter|6580|6580|23|0.3%|0.7%|
 php_dictionary|275|275|13|4.7%|0.3%|
 php_spammers|261|261|9|3.4%|0.2%|
 ib_bluetack_proxies|673|673|9|1.3%|0.2%|
 tor|6340|6340|4|0.0%|0.1%|
-tor_servers|6551|6551|4|0.0%|0.1%|
+tor_servers|6516|6516|4|0.0%|0.1%|
 php_commenters|201|201|4|1.9%|0.1%|
 php_bad|201|201|4|1.9%|0.1%|
-danmetor|6530|6530|4|0.0%|0.1%|
+danmetor|6514|6514|4|0.0%|0.1%|
 ib_bluetack_spyware|898|336971|3|0.0%|0.0%|
 alienvault_reputation|188000|188000|2|0.0%|0.0%|
 php_harvesters|178|178|1|0.5%|0.0%|
@@ -1871,8 +1910,9 @@ ib_bluetack_badpeers|48134|48134|1|0.0%|0.0%|
 
 [labs.snort.org](https://labs.snort.org/) supplied IP blacklist (this list seems to be updated frequently, but we found no information about it)
 
-Source is downloaded from [this link]().
-The last time downloaded was found to be dated: .
+Source is downloaded from [this link](http://labs.snort.org/feeds/ip-filter.blf).
+
+The last time downloaded was found to be dated: Sun May 24 12:30:00 UTC 2015.
 
 The ipset `snort_ipfilter` has **6580** entries, **6580** unique IPs.
 
@@ -1883,18 +1923,18 @@ The following table shows the overlaps of `snort_ipfilter` with all the other ip
 
 ipset|entries|unique IPs|IPs on both| them % | this % |
 :---:|:-----:|:--------:|:---------:|:------:|:------:|
-tor_servers|6551|6551|1058|16.1%|16.0%|
-danmetor|6530|6530|1044|15.9%|15.8%|
+tor_servers|6516|6516|1041|15.9%|15.8%|
+danmetor|6514|6514|1041|15.9%|15.8%|
 tor|6340|6340|1039|16.3%|15.7%|
 stop_forum_spam_30d|91499|91499|682|0.7%|10.3%|
 stop_forum_spam_7d|28751|28751|506|1.7%|7.6%|
 emerging_block|965|18065466|282|0.0%|4.2%|
-stop_forum_spam_1h|6821|6821|280|4.1%|4.2%|
+stop_forum_spam_1h|6822|6822|278|4.0%|4.2%|
 zeus|262|262|223|85.1%|3.3%|
 ib_bluetack_level3|18550|139108857|211|0.0%|3.2%|
-blocklist_de|26581|26581|202|0.7%|3.0%|
+blocklist_de|26592|26592|201|0.7%|3.0%|
 zeus_badips|228|228|200|87.7%|3.0%|
-nixspam|18188|18188|184|1.0%|2.7%|
+nixspam|18125|18125|186|1.0%|2.8%|
 alienvault_reputation|188000|188000|115|0.0%|1.7%|
 ib_bluetack_level2|75927|348729520|97|0.0%|1.4%|
 php_dictionary|275|275|65|23.6%|0.9%|
@@ -1929,8 +1969,9 @@ bruteforceblocker|2288|2288|1|0.0%|0.0%|
 
 [Spamhaus.org](http://www.spamhaus.org) DROP list (according to their site this list should be dropped at tier-1 ISPs globaly) - **excellent list**
 
-Source is downloaded from [this link]().
-The last time downloaded was found to be dated: .
+Source is downloaded from [this link](http://www.spamhaus.org/drop/drop.txt).
+
+The last time downloaded was found to be dated: Fri May 22 16:08:26 UTC 2015.
 
 The ipset `spamhaus_drop` has **640** entries, **18051584** unique IPs.
 
@@ -1957,12 +1998,12 @@ openbl_60d|7904|7904|320|4.0%|0.0%|
 dshield|20|5120|256|5.0%|0.0%|
 stop_forum_spam_7d|28751|28751|216|0.7%|0.0%|
 openbl_30d|4722|4722|213|4.5%|0.0%|
-blocklist_de|26581|26581|192|0.7%|0.0%|
-nixspam|18188|18188|164|0.9%|0.0%|
+blocklist_de|26592|26592|191|0.7%|0.0%|
+nixspam|18125|18125|171|0.9%|0.0%|
 openbl_7d|1427|1427|101|7.0%|0.0%|
 bruteforceblocker|2288|2288|89|3.8%|0.0%|
 compromised|2436|2436|76|3.1%|0.0%|
-stop_forum_spam_1h|6821|6821|58|0.8%|0.0%|
+stop_forum_spam_1h|6822|6822|58|0.8%|0.0%|
 malwaredomainlist|1283|1283|28|2.1%|0.0%|
 openbl_1d|357|357|26|7.2%|0.0%|
 php_commenters|201|201|24|11.9%|0.0%|
@@ -1973,12 +2014,12 @@ zeus_badips|228|228|17|7.4%|0.0%|
 ib_bluetack_webexploit|1460|1460|6|0.4%|0.0%|
 ib_bluetack_badpeers|48134|48134|6|0.0%|0.0%|
 tor|6340|6340|2|0.0%|0.0%|
-tor_servers|6551|6551|2|0.0%|0.0%|
+tor_servers|6516|6516|2|0.0%|0.0%|
 sslbl|320|320|2|0.6%|0.0%|
 php_spammers|261|261|2|0.7%|0.0%|
 malc0de|426|426|2|0.4%|0.0%|
 ib_bluetack_proxies|673|673|2|0.2%|0.0%|
-danmetor|6530|6530|2|0.0%|0.0%|
+danmetor|6514|6514|2|0.0%|0.0%|
 php_harvesters|178|178|1|0.5%|0.0%|
 php_dictionary|275|275|1|0.3%|0.0%|
 botnet|515|515|1|0.1%|0.0%|
@@ -1987,8 +2028,9 @@ botnet|515|515|1|0.1%|0.0%|
 
 [Spamhaus.org](http://www.spamhaus.org) EDROP (extended matches that should be used with DROP) - **excellent list**
 
-Source is downloaded from [this link]().
-The last time downloaded was found to be dated: .
+Source is downloaded from [this link](http://www.spamhaus.org/drop/edrop.txt).
+
+The last time downloaded was found to be dated: Fri May 22 19:52:08 UTC 2015.
 
 The ipset `spamhaus_edrop` has **55** entries, **421120** unique IPs.
 
@@ -2005,10 +2047,10 @@ ib_bluetack_level1|215693|765044590|33152|0.0%|7.8%|
 emerging_block|965|18065466|517|0.0%|0.1%|
 spamhaus_drop|640|18051584|512|0.0%|0.1%|
 stop_forum_spam_30d|91499|91499|109|0.1%|0.0%|
-blocklist_de|26581|26581|40|0.1%|0.0%|
+blocklist_de|26592|26592|41|0.1%|0.0%|
 stop_forum_spam_7d|28751|28751|32|0.1%|0.0%|
+stop_forum_spam_1h|6822|6822|17|0.2%|0.0%|
 alienvault_reputation|188000|188000|16|0.0%|0.0%|
-stop_forum_spam_1h|6821|6821|15|0.2%|0.0%|
 openbl|9986|9986|14|0.1%|0.0%|
 openbl_90d|9986|9986|14|0.1%|0.0%|
 snort_ipfilter|6580|6580|6|0.0%|0.0%|
@@ -2020,15 +2062,16 @@ openbl_60d|7904|7904|2|0.0%|0.0%|
 openbl_7d|1427|1427|1|0.0%|0.0%|
 openbl_30d|4722|4722|1|0.0%|0.0%|
 openbl_1d|357|357|1|0.2%|0.0%|
-nixspam|18188|18188|1|0.0%|0.0%|
+nixspam|18125|18125|1|0.0%|0.0%|
 malc0de|426|426|1|0.2%|0.0%|
 
 ## sslbl
 
 [Abuse.ch SSL Blacklist](https://sslbl.abuse.ch/) bad SSL traffic related to malware or botnet activities - **excellent list**
 
-Source is downloaded from [this link]().
-The last time downloaded was found to be dated: .
+Source is downloaded from [this link](https://sslbl.abuse.ch/blacklist/sslipblacklist.csv).
+
+The last time downloaded was found to be dated: Sun May 24 21:45:05 UTC 2015.
 
 The ipset `sslbl` has **320** entries, **320** unique IPs.
 
@@ -2057,9 +2100,10 @@ ib_bluetack_spyware|898|336971|1|0.0%|0.3%|
 [StopForumSpam.com](http://www.stopforumspam.com) IPs used by forum spammers in the last 24 hours - **excellent list**
 
 Source is downloaded from [this link](http://www.stopforumspam.com/downloads/listed_ip_1.zip).
-The last time downloaded was found to be dated: Sun May 24 21:00:02 UTC 2015.
 
-The ipset `stop_forum_spam_1h` has **6821** entries, **6821** unique IPs.
+The last time downloaded was found to be dated: Sun May 24 22:00:02 UTC 2015.
+
+The ipset `stop_forum_spam_1h` has **6822** entries, **6822** unique IPs.
 
 The following table shows the overlaps of `stop_forum_spam_1h` with all the other ipsets supported. Only the ipsets that have at least 1 IP overlap are shown. if an ipset is not shown here, it does not have any overlap with `stop_forum_spam_1h`.
 
@@ -2068,35 +2112,35 @@ The following table shows the overlaps of `stop_forum_spam_1h` with all the othe
 
 ipset|entries|unique IPs|IPs on both| them % | this % |
 :---:|:-----:|:--------:|:---------:|:------:|:------:|
-stop_forum_spam_30d|91499|91499|4657|5.0%|68.2%|
-stop_forum_spam_7d|28751|28751|4593|15.9%|67.3%|
-blocklist_de|26581|26581|1320|4.9%|19.3%|
-rosi_web_proxies|3273|3273|500|15.2%|7.3%|
-ib_bluetack_level3|18550|139108857|445|0.0%|6.5%|
-snort_ipfilter|6580|6580|280|4.2%|4.1%|
-tor_servers|6551|6551|251|3.8%|3.6%|
-danmetor|6530|6530|250|3.8%|3.6%|
-tor|6340|6340|249|3.9%|3.6%|
+stop_forum_spam_30d|91499|91499|4566|4.9%|66.9%|
+stop_forum_spam_7d|28751|28751|4471|15.5%|65.5%|
+blocklist_de|26592|26592|1322|4.9%|19.3%|
+rosi_web_proxies|3273|3273|492|15.0%|7.2%|
+ib_bluetack_level3|18550|139108857|449|0.0%|6.5%|
+snort_ipfilter|6580|6580|278|4.2%|4.0%|
+tor_servers|6516|6516|250|3.8%|3.6%|
+danmetor|6514|6514|250|3.8%|3.6%|
+tor|6340|6340|248|3.9%|3.6%|
 ib_bluetack_level2|75927|348729520|224|0.0%|3.2%|
-rosi_connect_proxies|1348|1348|173|12.8%|2.5%|
-ib_bluetack_level1|215693|765044590|119|0.0%|1.7%|
+rosi_connect_proxies|1348|1348|167|12.3%|2.4%|
+ib_bluetack_level1|215693|765044590|120|0.0%|1.7%|
 php_commenters|201|201|104|51.7%|1.5%|
 php_bad|201|201|104|51.7%|1.5%|
+nixspam|18125|18125|59|0.3%|0.8%|
 emerging_block|965|18065466|59|0.0%|0.8%|
 spamhaus_drop|640|18051584|58|0.0%|0.8%|
-nixspam|18188|18188|58|0.3%|0.8%|
-alienvault_reputation|188000|188000|55|0.0%|0.8%|
-ib_bluetack_hijacked|535|9177856|39|0.0%|0.5%|
-php_harvesters|178|178|23|12.9%|0.3%|
+alienvault_reputation|188000|188000|56|0.0%|0.8%|
+ib_bluetack_hijacked|535|9177856|38|0.0%|0.5%|
+php_harvesters|178|178|24|13.4%|0.3%|
 openbl|9986|9986|22|0.2%|0.3%|
 openbl_90d|9986|9986|22|0.2%|0.3%|
 php_spammers|261|261|20|7.6%|0.2%|
 openbl_60d|7904|7904|20|0.2%|0.2%|
+spamhaus_edrop|55|421120|17|0.0%|0.2%|
 php_dictionary|275|275|16|5.8%|0.2%|
-spamhaus_edrop|55|421120|15|0.0%|0.2%|
 ib_bluetack_spyware|898|336971|10|0.0%|0.1%|
 ib_bluetack_proxies|673|673|5|0.7%|0.0%|
-dshield|20|5120|3|0.0%|0.0%|
+dshield|20|5120|2|0.0%|0.0%|
 zeus|262|262|1|0.3%|0.0%|
 zeus_badips|228|228|1|0.4%|0.0%|
 openbl_7d|1427|1427|1|0.0%|0.0%|
@@ -2107,8 +2151,9 @@ ib_bluetack_webexploit|1460|1460|1|0.0%|0.0%|
 
 [StopForumSpam.com](http://www.stopforumspam.com) IPs used by forum spammers (last 30 days)
 
-Source is downloaded from [this link]().
-The last time downloaded was found to be dated: .
+Source is downloaded from [this link](http://www.stopforumspam.com/downloads/listed_ip_30.zip).
+
+The last time downloaded was found to be dated: Sun May 24 00:00:46 UTC 2015.
 
 The ipset `stop_forum_spam_30d` has **91499** entries, **91499** unique IPs.
 
@@ -2121,8 +2166,8 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 :---:|:-----:|:--------:|:---------:|:------:|:------:|
 stop_forum_spam_7d|28751|28751|28407|98.8%|31.0%|
 ib_bluetack_level3|18550|139108857|6228|0.0%|6.8%|
-stop_forum_spam_1h|6821|6821|4657|68.2%|5.0%|
-blocklist_de|26581|26581|2479|9.3%|2.7%|
+stop_forum_spam_1h|6822|6822|4566|66.9%|4.9%|
+blocklist_de|26592|26592|2479|9.3%|2.7%|
 ib_bluetack_level2|75927|348729520|2388|0.0%|2.6%|
 rosi_web_proxies|3273|3273|1603|48.9%|1.7%|
 ib_bluetack_level1|215693|765044590|1257|0.0%|1.3%|
@@ -2132,10 +2177,10 @@ spamhaus_drop|640|18051584|741|0.0%|0.8%|
 ib_bluetack_hijacked|535|9177856|708|0.0%|0.7%|
 snort_ipfilter|6580|6580|682|10.3%|0.7%|
 tor|6340|6340|571|9.0%|0.6%|
-tor_servers|6551|6551|565|8.6%|0.6%|
-danmetor|6530|6530|560|8.5%|0.6%|
+tor_servers|6516|6516|563|8.6%|0.6%|
+danmetor|6514|6514|563|8.6%|0.6%|
 alienvault_reputation|188000|188000|254|0.1%|0.2%|
-nixspam|18188|18188|199|1.0%|0.2%|
+nixspam|18125|18125|200|1.1%|0.2%|
 php_commenters|201|201|142|70.6%|0.1%|
 php_bad|201|201|142|70.6%|0.1%|
 spamhaus_edrop|55|421120|109|0.0%|0.1%|
@@ -2167,8 +2212,9 @@ bogons|13|592708608|1|0.0%|0.0%|
 
 [StopForumSpam.com](http://www.stopforumspam.com) IPs used by forum spammers (last 7 days)
 
-Source is downloaded from [this link]().
-The last time downloaded was found to be dated: .
+Source is downloaded from [this link](http://www.stopforumspam.com/downloads/listed_ip_7.zip).
+
+The last time downloaded was found to be dated: Sun May 24 04:00:08 UTC 2015.
 
 The ipset `stop_forum_spam_7d` has **28751** entries, **28751** unique IPs.
 
@@ -2180,8 +2226,8 @@ The following table shows the overlaps of `stop_forum_spam_7d` with all the othe
 ipset|entries|unique IPs|IPs on both| them % | this % |
 :---:|:-----:|:--------:|:---------:|:------:|:------:|
 stop_forum_spam_30d|91499|91499|28407|31.0%|98.8%|
-stop_forum_spam_1h|6821|6821|4593|67.3%|15.9%|
-blocklist_de|26581|26581|2017|7.5%|7.0%|
+stop_forum_spam_1h|6822|6822|4471|65.5%|15.5%|
+blocklist_de|26592|26592|2014|7.5%|7.0%|
 ib_bluetack_level3|18550|139108857|1914|0.0%|6.6%|
 rosi_web_proxies|3273|3273|1362|41.6%|4.7%|
 ib_bluetack_level2|75927|348729520|819|0.0%|2.8%|
@@ -2189,15 +2235,15 @@ rosi_connect_proxies|1348|1348|681|50.5%|2.3%|
 snort_ipfilter|6580|6580|506|7.6%|1.7%|
 ib_bluetack_level1|215693|765044590|451|0.0%|1.5%|
 tor|6340|6340|424|6.6%|1.4%|
-tor_servers|6551|6551|417|6.3%|1.4%|
-danmetor|6530|6530|415|6.3%|1.4%|
+tor_servers|6516|6516|417|6.3%|1.4%|
+danmetor|6514|6514|417|6.4%|1.4%|
 emerging_block|965|18065466|221|0.0%|0.7%|
 spamhaus_drop|640|18051584|216|0.0%|0.7%|
 ib_bluetack_hijacked|535|9177856|198|0.0%|0.6%|
 php_commenters|201|201|135|67.1%|0.4%|
 php_bad|201|201|135|67.1%|0.4%|
 alienvault_reputation|188000|188000|120|0.0%|0.4%|
-nixspam|18188|18188|118|0.6%|0.4%|
+nixspam|18125|18125|119|0.6%|0.4%|
 php_spammers|261|261|40|15.3%|0.1%|
 php_harvesters|178|178|40|22.4%|0.1%|
 openbl|9986|9986|37|0.3%|0.1%|
@@ -2223,8 +2269,9 @@ bruteforceblocker|2288|2288|1|0.0%|0.0%|
 
 [EmergingThreats.net](http://www.emergingthreats.net/) [list](http://doc.emergingthreats.net/bin/view/Main/TorRules) of TOR network IPs
 
-Source is downloaded from [this link]().
-The last time downloaded was found to be dated: .
+Source is downloaded from [this link](http://rules.emergingthreats.net/blockrules/emerging-tor.rules).
+
+The last time downloaded was found to be dated: Fri May 22 04:30:09 UTC 2015.
 
 The ipset `tor` has **6340** entries, **6340** unique IPs.
 
@@ -2235,13 +2282,13 @@ The following table shows the overlaps of `tor` with all the other ipsets suppor
 
 ipset|entries|unique IPs|IPs on both| them % | this % |
 :---:|:-----:|:--------:|:---------:|:------:|:------:|
-tor_servers|6551|6551|5581|85.1%|88.0%|
-danmetor|6530|6530|5570|85.2%|87.8%|
+tor_servers|6516|6516|5574|85.5%|87.9%|
+danmetor|6514|6514|5572|85.5%|87.8%|
 snort_ipfilter|6580|6580|1039|15.7%|16.3%|
 ib_bluetack_level3|18550|139108857|602|0.0%|9.4%|
 stop_forum_spam_30d|91499|91499|571|0.6%|9.0%|
 stop_forum_spam_7d|28751|28751|424|1.4%|6.6%|
-stop_forum_spam_1h|6821|6821|249|3.6%|3.9%|
+stop_forum_spam_1h|6822|6822|248|3.6%|3.9%|
 ib_bluetack_level2|75927|348729520|171|0.0%|2.6%|
 ib_bluetack_level1|215693|765044590|148|0.0%|2.3%|
 alienvault_reputation|188000|188000|44|0.0%|0.6%|
@@ -2256,9 +2303,9 @@ php_spammers|261|261|5|1.9%|0.0%|
 rosi_web_proxies|3273|3273|4|0.1%|0.0%|
 php_dictionary|275|275|4|1.4%|0.0%|
 emerging_block|965|18065466|4|0.0%|0.0%|
-blocklist_de|26581|26581|3|0.0%|0.0%|
+nixspam|18125|18125|3|0.0%|0.0%|
+blocklist_de|26592|26592|3|0.0%|0.0%|
 spamhaus_drop|640|18051584|2|0.0%|0.0%|
-nixspam|18188|18188|2|0.0%|0.0%|
 ib_bluetack_hijacked|535|9177856|2|0.0%|0.0%|
 dshield|20|5120|2|0.0%|0.0%|
 rosi_connect_proxies|1348|1348|1|0.0%|0.0%|
@@ -2268,10 +2315,11 @@ ib_bluetack_webexploit|1460|1460|1|0.0%|0.0%|
 
 [torstatus.blutmagie.de](https://torstatus.blutmagie.de) list of all TOR network servers
 
-Source is downloaded from [this link]().
-The last time downloaded was found to be dated: .
+Source is downloaded from [this link](https://torstatus.blutmagie.de/ip_list_all.php/Tor_ip_list_ALL.csv).
 
-The ipset `tor_servers` has **6551** entries, **6551** unique IPs.
+The last time downloaded was found to be dated: Sun May 24 22:02:21 UTC 2015.
+
+The ipset `tor_servers` has **6516** entries, **6516** unique IPs.
 
 The following table shows the overlaps of `tor_servers` with all the other ipsets supported. Only the ipsets that have at least 1 IP overlap are shown. if an ipset is not shown here, it does not have any overlap with `tor_servers`.
 
@@ -2280,41 +2328,42 @@ The following table shows the overlaps of `tor_servers` with all the other ipset
 
 ipset|entries|unique IPs|IPs on both| them % | this % |
 :---:|:-----:|:--------:|:---------:|:------:|:------:|
-danmetor|6530|6530|6448|98.7%|98.4%|
-tor|6340|6340|5581|88.0%|85.1%|
-snort_ipfilter|6580|6580|1058|16.0%|16.1%|
-ib_bluetack_level3|18550|139108857|606|0.0%|9.2%|
-stop_forum_spam_30d|91499|91499|565|0.6%|8.6%|
+danmetor|6514|6514|6514|100.0%|99.9%|
+tor|6340|6340|5574|87.9%|85.5%|
+snort_ipfilter|6580|6580|1041|15.8%|15.9%|
+ib_bluetack_level3|18550|139108857|602|0.0%|9.2%|
+stop_forum_spam_30d|91499|91499|563|0.6%|8.6%|
 stop_forum_spam_7d|28751|28751|417|1.4%|6.3%|
-stop_forum_spam_1h|6821|6821|251|3.6%|3.8%|
-ib_bluetack_level2|75927|348729520|170|0.0%|2.5%|
-ib_bluetack_level1|215693|765044590|149|0.0%|2.2%|
-alienvault_reputation|188000|188000|45|0.0%|0.6%|
-openbl|9986|9986|21|0.2%|0.3%|
-openbl_90d|9986|9986|21|0.2%|0.3%|
-openbl_60d|7904|7904|21|0.2%|0.3%|
-php_commenters|201|201|20|9.9%|0.3%|
-php_bad|201|201|20|9.9%|0.3%|
+stop_forum_spam_1h|6822|6822|250|3.6%|3.8%|
+ib_bluetack_level2|75927|348729520|170|0.0%|2.6%|
+ib_bluetack_level1|215693|765044590|150|0.0%|2.3%|
+alienvault_reputation|188000|188000|44|0.0%|0.6%|
+openbl|9986|9986|20|0.2%|0.3%|
+openbl_90d|9986|9986|20|0.2%|0.3%|
+openbl_60d|7904|7904|20|0.2%|0.3%|
 ib_bluetack_spyware|898|336971|20|0.0%|0.3%|
+php_commenters|201|201|19|9.4%|0.2%|
+php_bad|201|201|19|9.4%|0.2%|
 php_harvesters|178|178|7|3.9%|0.1%|
-blocklist_de|26581|26581|6|0.0%|0.0%|
+blocklist_de|26592|26592|6|0.0%|0.0%|
 php_spammers|261|261|5|1.9%|0.0%|
 rosi_web_proxies|3273|3273|4|0.1%|0.0%|
 php_dictionary|275|275|4|1.4%|0.0%|
 emerging_block|965|18065466|4|0.0%|0.0%|
 spamhaus_drop|640|18051584|2|0.0%|0.0%|
+nixspam|18125|18125|2|0.0%|0.0%|
 ib_bluetack_hijacked|535|9177856|2|0.0%|0.0%|
 dshield|20|5120|2|0.0%|0.0%|
 rosi_connect_proxies|1348|1348|1|0.0%|0.0%|
-nixspam|18188|18188|1|0.0%|0.0%|
 ib_bluetack_webexploit|1460|1460|1|0.0%|0.0%|
 
 ## zeus
 
 [Abuse.ch Zeus tracker](https://zeustracker.abuse.ch) default blocklist including hijacked sites and web hosting providers - **excellent list**
 
-Source is downloaded from [this link]().
-The last time downloaded was found to be dated: .
+Source is downloaded from [this link](https://zeustracker.abuse.ch/blocklist.php?download=ipblocklist).
+
+The last time downloaded was found to be dated: Sun May 24 20:26:31 UTC 2015.
 
 The ipset `zeus` has **262** entries, **262** unique IPs.
 
@@ -2337,7 +2386,7 @@ ib_bluetack_level1|215693|765044590|7|0.0%|2.6%|
 spamhaus_edrop|55|421120|5|0.0%|1.9%|
 stop_forum_spam_30d|91499|91499|4|0.0%|1.5%|
 stop_forum_spam_7d|28751|28751|1|0.0%|0.3%|
-stop_forum_spam_1h|6821|6821|1|0.0%|0.3%|
+stop_forum_spam_1h|6822|6822|1|0.0%|0.3%|
 php_commenters|201|201|1|0.4%|0.3%|
 php_bad|201|201|1|0.4%|0.3%|
 openbl|9986|9986|1|0.0%|0.3%|
@@ -2346,14 +2395,15 @@ openbl_60d|7904|7904|1|0.0%|0.3%|
 openbl_30d|4722|4722|1|0.0%|0.3%|
 compromised|2436|2436|1|0.0%|0.3%|
 bruteforceblocker|2288|2288|1|0.0%|0.3%|
-blocklist_de|26581|26581|1|0.0%|0.3%|
+blocklist_de|26592|26592|1|0.0%|0.3%|
 
 ## zeus_badips
 
 [Abuse.ch Zeus tracker](https://zeustracker.abuse.ch) includes IPv4 addresses that are used by the ZeuS trojan
 
-Source is downloaded from [this link]().
-The last time downloaded was found to be dated: .
+Source is downloaded from [this link](https://zeustracker.abuse.ch/blocklist.php?download=badips).
+
+The last time downloaded was found to be dated: Sun May 24 22:02:31 UTC 2015.
 
 The ipset `zeus_badips` has **228** entries, **228** unique IPs.
 
@@ -2376,7 +2426,7 @@ spamhaus_edrop|55|421120|5|0.0%|2.1%|
 ib_bluetack_level1|215693|765044590|4|0.0%|1.7%|
 stop_forum_spam_30d|91499|91499|3|0.0%|1.3%|
 stop_forum_spam_7d|28751|28751|1|0.0%|0.4%|
-stop_forum_spam_1h|6821|6821|1|0.0%|0.4%|
+stop_forum_spam_1h|6822|6822|1|0.0%|0.4%|
 php_commenters|201|201|1|0.4%|0.4%|
 php_bad|201|201|1|0.4%|0.4%|
 openbl|9986|9986|1|0.0%|0.4%|
@@ -2385,4 +2435,4 @@ openbl_60d|7904|7904|1|0.0%|0.4%|
 openbl_30d|4722|4722|1|0.0%|0.4%|
 compromised|2436|2436|1|0.0%|0.4%|
 bruteforceblocker|2288|2288|1|0.0%|0.4%|
-blocklist_de|26581|26581|1|0.0%|0.4%|
+blocklist_de|26592|26592|1|0.0%|0.4%|
