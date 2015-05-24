@@ -141,7 +141,7 @@ TODO
 
 # List of ipsets included
 
-The following list was automatically generated on Sun May 24 19:11:12 UTC 2015.
+The following list was automatically generated on Sun May 24 19:34:45 UTC 2015.
 
 The update frequency is the maximum allowed by internal configuration. A list will never be downloaded sooner than the update frequency stated. A list may also not be downloaded, after this frequency expired, if it has not been modified on the server (as reported by HTTP `IF_MODIFIED_SINCE` method).
 
@@ -149,7 +149,7 @@ name|info|type|entries|update|
 :--:|:--:|:--:|:-----:|:----:|
 alienvault_reputation|[AlienVault.com](https://www.alienvault.com/) IP reputation database (this list seems to include port scanning hosts and to be updated regularly, but we found no information about its retention policy)|ipv4 hash:ip|188000 unique IPs|updated every 6 hours  from [this link](https://reputation.alienvault.com/reputation.generic)
 autoshun|[AutoShun.org](http://autoshun.org/) IPs identified as hostile by correlating logs from distributed snort installations running the autoshun plugin|ipv4 hash:ip|51 unique IPs|updated every 4 hours  from [this link](http://www.autoshun.org/files/shunlist.csv)
-blocklist_de|[Blocklist.de](https://www.blocklist.de/) IPs that have been detected by fail2ban in the last 48 hours - **excellent list**|ipv4 hash:ip|26505 unique IPs|updated every 30 mins  from [this link](http://lists.blocklist.de/lists/all.txt)
+blocklist_de|[Blocklist.de](https://www.blocklist.de/) IPs that have been detected by fail2ban in the last 48 hours - **excellent list**|ipv4 hash:ip|26479 unique IPs|updated every 30 mins  from [this link](http://lists.blocklist.de/lists/all.txt)
 bogons|[Team-Cymru.org](http://www.team-cymru.org) private and reserved addresses defined by RFC 1918, RFC 5735, and RFC 6598 and netblocks that have not been allocated to a regional internet registry - **excellent list - use it only your internet interface**|ipv4 hash:net|13 subnets, 592708608 unique IPs|updated every 1 day  from [this link](http://www.team-cymru.org/Services/Bogons/bogon-bn-agg.txt)
 botnet|[EmergingThreats.net](http://www.emergingthreats.net/) botnet IPs (at the time of writing includes any abuse.ch trackers, which are available separately too - prefer to use the direct ipsets instead of this, they seem to lag a bit in updates)|ipv4 hash:ip|515 unique IPs|updated every 12 hours  from [this link](http://rules.emergingthreats.net/fwrules/emerging-PIX-CC.rules)
 bruteforceblocker|[danger.rulez.sk](http://danger.rulez.sk/) IPs detected by [bruteforceblocker](http://danger.rulez.sk/index.php/bruteforceblocker/) (fail2ban alternative for SSH on OpenBSD)|ipv4 hash:ip|2287 unique IPs|updated every 3 hours  from [this link](http://danger.rulez.sk/projects/bruteforceblocker/blist.php)
@@ -173,7 +173,7 @@ ib_bluetack_webexploit|[iBlocklist.com](https://www.iblocklist.com/) free versio
 infiltrated|[infiltrated.net](http://www.infiltrated.net) (this list seems to be updated frequently, but we found no information about it)|ipv4 hash:ip|10520 unique IPs|updated every 12 hours  from [this link](http://www.infiltrated.net/blacklisted)
 malc0de|[Malc0de.com](http://malc0de.com) malicious IPs of the last 30 days|ipv4 hash:ip|426 unique IPs|updated every 1 day  from [this link](http://malc0de.com/bl/IP_Blacklist.txt)
 malwaredomainlist|[malwaredomainlist.com](http://www.malwaredomainlist.com) list of malware active ip addresses|ipv4 hash:ip|1283 unique IPs|updated every 12 hours  from [this link](http://www.malwaredomainlist.com/hostslist/ip.txt)
-nixspam|[NiX Spam](http://www.heise.de/ix/NiX-Spam-DNSBL-and-blacklist-for-download-499637.html) IP addresses that sent spam in the last hour - automatically generated entries without distinguishing open proxies from relays, dialup gateways, and so on. All IPs are removed after 12 hours if there is no spam from there.|ipv4 hash:ip|18683 unique IPs|updated every 15 mins  from [this link](http://www.dnsbl.manitu.net/download/nixspam-ip.dump.gz)
+nixspam|[NiX Spam](http://www.heise.de/ix/NiX-Spam-DNSBL-and-blacklist-for-download-499637.html) IP addresses that sent spam in the last hour - automatically generated entries without distinguishing open proxies from relays, dialup gateways, and so on. All IPs are removed after 12 hours if there is no spam from there.|ipv4 hash:ip|18589 unique IPs|updated every 15 mins  from [this link](http://www.dnsbl.manitu.net/download/nixspam-ip.dump.gz)
 openbl|[OpenBL.org](http://www.openbl.org/) default blacklist (currently it is the same with 90 days). OpenBL.org is detecting, logging and reporting various types of internet abuse. Currently they monitor ports 21 (FTP), 22 (SSH), 23 (TELNET), 25 (SMTP), 110 (POP3), 143 (IMAP), 587 (Submission), 993 (IMAPS) and 995 (POP3S) for bruteforce login attacks as well as scans on ports 80 (HTTP) and 443 (HTTPS) for vulnerable installations of phpMyAdmin and other web applications - **excellent list**|ipv4 hash:ip|9986 unique IPs|updated every 4 hours  from [this link](http://www.openbl.org/lists/base.txt.gz)
 openbl_1d|[OpenBL.org](http://www.openbl.org/) last 24 hours IPs.  OpenBL.org is detecting, logging and reporting various types of internet abuse. Currently they monitor ports 21 (FTP), 22 (SSH), 23 (TELNET), 25 (SMTP), 110 (POP3), 143 (IMAP), 587 (Submission), 993 (IMAPS) and 995 (POP3S) for bruteforce login attacks as well as scans on ports 80 (HTTP) and 443 (HTTPS) for vulnerable installations of phpMyAdmin and other web applications.|ipv4 hash:ip|357 unique IPs|updated every 4 hours  from [this link](http://www.openbl.org/lists/base_1days.txt.gz)
 openbl_30d|[OpenBL.org](http://www.openbl.org/) last 30 days IPs.  OpenBL.org is detecting, logging and reporting various types of internet abuse. Currently they monitor ports 21 (FTP), 22 (SSH), 23 (TELNET), 25 (SMTP), 110 (POP3), 143 (IMAP), 587 (Submission), 993 (IMAPS) and 995 (POP3S) for bruteforce login attacks as well as scans on ports 80 (HTTP) and 443 (HTTPS) for vulnerable installations of phpMyAdmin and other web applications.|ipv4 hash:ip|4722 unique IPs|updated every 4 hours  from [this link](http://www.openbl.org/lists/base_30days.txt.gz)
@@ -192,7 +192,7 @@ snort_ipfilter|[labs.snort.org](https://labs.snort.org/) supplied IP blacklist (
 spamhaus_drop|[Spamhaus.org](http://www.spamhaus.org) DROP list (according to their site this list should be dropped at tier-1 ISPs globaly) - **excellent list**|ipv4 hash:net|640 subnets, 18051584 unique IPs|updated every 12 hours  from [this link](http://www.spamhaus.org/drop/drop.txt)
 spamhaus_edrop|[Spamhaus.org](http://www.spamhaus.org) EDROP (extended matches that should be used with DROP) - **excellent list**|ipv4 hash:net|55 subnets, 421120 unique IPs|updated every 12 hours  from [this link](http://www.spamhaus.org/drop/edrop.txt)
 sslbl|[Abuse.ch SSL Blacklist](https://sslbl.abuse.ch/) bad SSL traffic related to malware or botnet activities - **excellent list**|ipv4 hash:ip|319 unique IPs|updated every 30 mins  from [this link](https://sslbl.abuse.ch/blacklist/sslipblacklist.csv)
-stop_forum_spam_1h|[StopForumSpam.com](http://www.stopforumspam.com) IPs used by forum spammers in the last 24 hours - **excellent list**|ipv4 hash:ip|6512 unique IPs|updated every 1 hour  from [this link](http://www.stopforumspam.com/downloads/listed_ip_1.zip)
+stop_forum_spam_1h|[StopForumSpam.com](http://www.stopforumspam.com) IPs used by forum spammers in the last 24 hours - **excellent list**|ipv4 hash:ip|6751 unique IPs|updated every 1 hour  from [this link](http://www.stopforumspam.com/downloads/listed_ip_1.zip)
 stop_forum_spam_30d|[StopForumSpam.com](http://www.stopforumspam.com) IPs used by forum spammers (last 30 days)|ipv4 hash:ip|91499 unique IPs|updated every 1 day  from [this link](http://www.stopforumspam.com/downloads/listed_ip_30.zip)
 stop_forum_spam_7d|[StopForumSpam.com](http://www.stopforumspam.com) IPs used by forum spammers (last 7 days)|ipv4 hash:ip|28751 unique IPs|updated every 1 day  from [this link](http://www.stopforumspam.com/downloads/listed_ip_7.zip)
 tor|[EmergingThreats.net](http://www.emergingthreats.net/) [list](http://doc.emergingthreats.net/bin/view/Main/TorRules) of TOR network IPs|ipv4 hash:ip|6340 unique IPs|updated every 12 hours  from [this link](http://rules.emergingthreats.net/blockrules/emerging-tor.rules)
@@ -208,8 +208,11 @@ The ipset `alienvault_reputation` has 188000 entries, 188000 unique IPs.
 
 The following table shows the overlaps of \'alienvault_reputation\' with all the other ipsets supported.
 
-ipset|entries|unique IPs|IPs found on both| % in alienvault_reputation| % of alienvault_reputation|
-:---:|:-----:|:--------:|:---------------:|:------------:|:------------:|
+- ` %  in ` is the percentage of each row found **in alienvault_reputation**.
+- ` %  of ` is the percentage **of alienvault_reputation** found in each row.
+
+ipset|entries|unique IPs|IPs found on both| % in| % of|
+:---:|:-----:|:--------:|:---------------:|:---:|:---:|
 ib_bluetack_level3|18550|139108857|15506|0.0%|8.2%|
 openbl|9986|9986|9955|99.6%|5.2%|
 openbl_90d|9986|9986|9955|99.6%|5.2%|
@@ -221,7 +224,7 @@ openbl_30d|4722|4722|4705|99.6%|2.5%|
 dshield|20|5120|3589|70.0%|1.9%|
 spamhaus_drop|640|18051584|2274|0.0%|1.2%|
 compromised|2436|2436|1591|65.3%|0.8%|
-blocklist_de|26505|26505|1557|5.8%|0.8%|
+blocklist_de|26479|26479|1555|5.8%|0.8%|
 bruteforceblocker|2287|2287|1442|63.0%|0.7%|
 openbl_7d|1427|1427|1412|98.9%|0.7%|
 ib_bluetack_hijacked|535|9177856|519|0.0%|0.2%|
@@ -232,13 +235,13 @@ stop_forum_spam_30d|91499|91499|254|0.2%|0.1%|
 stop_forum_spam_7d|28751|28751|120|0.4%|0.0%|
 snort_ipfilter|6580|6580|115|1.7%|0.0%|
 zeus|262|262|64|24.4%|0.0%|
-stop_forum_spam_1h|6512|6512|55|0.8%|0.0%|
+stop_forum_spam_1h|6751|6751|55|0.8%|0.0%|
 autoshun|51|51|49|96.0%|0.0%|
 danmetor|6555|6555|45|0.6%|0.0%|
 tor|6340|6340|44|0.6%|0.0%|
 tor_servers|6539|6539|44|0.6%|0.0%|
 zeus_badips|228|228|37|16.2%|0.0%|
-nixspam|18683|18683|36|0.1%|0.0%|
+nixspam|18589|18589|32|0.1%|0.0%|
 spamhaus_edrop|55|421120|16|0.0%|0.0%|
 ib_bluetack_badpeers|48134|48134|15|0.0%|0.0%|
 malc0de|426|426|11|2.5%|0.0%|
@@ -265,15 +268,18 @@ The ipset `autoshun` has 51 entries, 51 unique IPs.
 
 The following table shows the overlaps of \'autoshun\' with all the other ipsets supported.
 
-ipset|entries|unique IPs|IPs found on both| % in autoshun| % of autoshun|
-:---:|:-----:|:--------:|:---------------:|:------------:|:------------:|
+- ` %  in ` is the percentage of each row found **in autoshun**.
+- ` %  of ` is the percentage **of autoshun** found in each row.
+
+ipset|entries|unique IPs|IPs found on both| % in| % of|
+:---:|:-----:|:--------:|:---------------:|:---:|:---:|
 alienvault_reputation|188000|188000|49|0.0%|96.0%|
 openbl|9986|9986|12|0.1%|23.5%|
 openbl_90d|9986|9986|12|0.1%|23.5%|
 openbl_60d|7904|7904|12|0.1%|23.5%|
 openbl_30d|4722|4722|11|0.2%|21.5%|
 bruteforceblocker|2287|2287|11|0.4%|21.5%|
-blocklist_de|26505|26505|11|0.0%|21.5%|
+blocklist_de|26479|26479|11|0.0%|21.5%|
 compromised|2436|2436|10|0.4%|19.6%|
 openbl_7d|1427|1427|9|0.6%|17.6%|
 ib_bluetack_level3|18550|139108857|6|0.0%|11.7%|
@@ -285,34 +291,37 @@ ciarmy|400|400|2|0.5%|3.9%|
 
 [Blocklist.de](https://www.blocklist.de/) IPs that have been detected by fail2ban in the last 48 hours - **excellent list**
 
-The ipset `blocklist_de` has 26505 entries, 26505 unique IPs.
+The ipset `blocklist_de` has 26479 entries, 26479 unique IPs.
 
 The following table shows the overlaps of \'blocklist_de\' with all the other ipsets supported.
 
-ipset|entries|unique IPs|IPs found on both| % in blocklist_de| % of blocklist_de|
-:---:|:-----:|:--------:|:---------------:|:------------:|:------------:|
-ib_bluetack_level3|18550|139108857|3266|0.0%|12.3%|
-stop_forum_spam_30d|91499|91499|2509|2.7%|9.4%|
-stop_forum_spam_7d|28751|28751|2047|7.1%|7.7%|
-alienvault_reputation|188000|188000|1557|0.8%|5.8%|
+- ` %  in ` is the percentage of each row found **in blocklist_de**.
+- ` %  of ` is the percentage **of blocklist_de** found in each row.
+
+ipset|entries|unique IPs|IPs found on both| % in| % of|
+:---:|:-----:|:--------:|:---------------:|:---:|:---:|
+ib_bluetack_level3|18550|139108857|3262|0.0%|12.3%|
+stop_forum_spam_30d|91499|91499|2503|2.7%|9.4%|
+stop_forum_spam_7d|28751|28751|2041|7.0%|7.7%|
+alienvault_reputation|188000|188000|1555|0.8%|5.8%|
 ib_bluetack_level1|215693|765044590|1521|0.0%|5.7%|
-ib_bluetack_level2|75927|348729520|1432|0.0%|5.4%|
-stop_forum_spam_1h|6512|6512|1309|20.1%|4.9%|
-openbl|9986|9986|1294|12.9%|4.8%|
-openbl_90d|9986|9986|1294|12.9%|4.8%|
-openbl_60d|7904|7904|1244|15.7%|4.6%|
-openbl_30d|4722|4722|1103|23.3%|4.1%|
-bruteforceblocker|2287|2287|882|38.5%|3.3%|
-compromised|2436|2436|816|33.4%|3.0%|
-openbl_7d|1427|1427|797|55.8%|3.0%|
-nixspam|18683|18683|682|3.6%|2.5%|
+ib_bluetack_level2|75927|348729520|1431|0.0%|5.4%|
+stop_forum_spam_1h|6751|6751|1318|19.5%|4.9%|
+openbl|9986|9986|1292|12.9%|4.8%|
+openbl_90d|9986|9986|1292|12.9%|4.8%|
+openbl_60d|7904|7904|1242|15.7%|4.6%|
+openbl_30d|4722|4722|1101|23.3%|4.1%|
+bruteforceblocker|2287|2287|879|38.4%|3.3%|
+compromised|2436|2436|814|33.4%|3.0%|
+openbl_7d|1427|1427|796|55.7%|3.0%|
+nixspam|18589|18589|682|3.6%|2.5%|
 rosi_web_proxies|3230|3230|351|10.8%|1.3%|
 openbl_1d|357|357|252|70.5%|0.9%|
 snort_ipfilter|6580|6580|208|3.1%|0.7%|
 emerging_block|965|18065466|201|0.0%|0.7%|
 spamhaus_drop|640|18051584|194|0.0%|0.7%|
-rosi_connect_proxies|1348|1348|82|6.0%|0.3%|
 php_dictionary|275|275|81|29.4%|0.3%|
+rosi_connect_proxies|1348|1348|80|5.9%|0.3%|
 php_spammers|261|261|65|24.9%|0.2%|
 ib_bluetack_hijacked|535|9177856|65|0.0%|0.2%|
 php_commenters|184|184|61|33.1%|0.2%|
@@ -342,8 +351,11 @@ The ipset `bogons` has 13 entries, 592708608 unique IPs.
 
 The following table shows the overlaps of \'bogons\' with all the other ipsets supported.
 
-ipset|entries|unique IPs|IPs found on both| % in bogons| % of bogons|
-:---:|:-----:|:--------:|:---------------:|:------------:|:------------:|
+- ` %  in ` is the percentage of each row found **in bogons**.
+- ` %  of ` is the percentage **of bogons** found in each row.
+
+ipset|entries|unique IPs|IPs found on both| % in| % of|
+:---:|:-----:|:--------:|:---------------:|:---:|:---:|
 fullbogons|3646|670922200|592708608|88.3%|100.0%|
 ib_bluetack_level3|18550|139108857|4194304|3.0%|0.7%|
 stop_forum_spam_30d|91499|91499|1|0.0%|0.0%|
@@ -358,8 +370,11 @@ The ipset `botnet` has 515 entries, 515 unique IPs.
 
 The following table shows the overlaps of \'botnet\' with all the other ipsets supported.
 
-ipset|entries|unique IPs|IPs found on both| % in botnet| % of botnet|
-:---:|:-----:|:--------:|:---------------:|:------------:|:------------:|
+- ` %  in ` is the percentage of each row found **in botnet**.
+- ` %  of ` is the percentage **of botnet** found in each row.
+
+ipset|entries|unique IPs|IPs found on both| % in| % of|
+:---:|:-----:|:--------:|:---------------:|:---:|:---:|
 ib_bluetack_level3|18550|139108857|76|0.0%|14.7%|
 ib_bluetack_level1|215693|765044590|42|0.0%|8.1%|
 ib_bluetack_level2|75927|348729520|24|0.0%|4.6%|
@@ -379,15 +394,18 @@ The ipset `bruteforceblocker` has 2287 entries, 2287 unique IPs.
 
 The following table shows the overlaps of \'bruteforceblocker\' with all the other ipsets supported.
 
-ipset|entries|unique IPs|IPs found on both| % in bruteforceblocker| % of bruteforceblocker|
-:---:|:-----:|:--------:|:---------------:|:------------:|:------------:|
+- ` %  in ` is the percentage of each row found **in bruteforceblocker**.
+- ` %  of ` is the percentage **of bruteforceblocker** found in each row.
+
+ipset|entries|unique IPs|IPs found on both| % in| % of|
+:---:|:-----:|:--------:|:---------------:|:---:|:---:|
 compromised|2436|2436|2148|88.1%|93.9%|
 alienvault_reputation|188000|188000|1442|0.7%|63.0%|
 openbl|9986|9986|1353|13.5%|59.1%|
 openbl_90d|9986|9986|1353|13.5%|59.1%|
 openbl_60d|7904|7904|1342|16.9%|58.6%|
 openbl_30d|4722|4722|1288|27.2%|56.3%|
-blocklist_de|26505|26505|882|3.3%|38.5%|
+blocklist_de|26479|26479|879|3.3%|38.4%|
 openbl_7d|1427|1427|722|50.5%|31.5%|
 ib_bluetack_level3|18550|139108857|221|0.0%|9.6%|
 openbl_1d|357|357|201|56.3%|8.7%|
@@ -399,7 +417,7 @@ dshield|20|5120|33|0.6%|1.4%|
 autoshun|51|51|11|21.5%|0.4%|
 stop_forum_spam_30d|91499|91499|4|0.0%|0.1%|
 ib_bluetack_hijacked|535|9177856|4|0.0%|0.1%|
-nixspam|18683|18683|2|0.0%|0.0%|
+nixspam|18589|18589|2|0.0%|0.0%|
 zeus|262|262|1|0.3%|0.0%|
 zeus_badips|228|228|1|0.4%|0.0%|
 stop_forum_spam_7d|28751|28751|1|0.0%|0.0%|
@@ -416,12 +434,15 @@ The ipset `ciarmy` has 400 entries, 400 unique IPs.
 
 The following table shows the overlaps of \'ciarmy\' with all the other ipsets supported.
 
-ipset|entries|unique IPs|IPs found on both| % in ciarmy| % of ciarmy|
-:---:|:-----:|:--------:|:---------------:|:------------:|:------------:|
+- ` %  in ` is the percentage of each row found **in ciarmy**.
+- ` %  of ` is the percentage **of ciarmy** found in each row.
+
+ipset|entries|unique IPs|IPs found on both| % in| % of|
+:---:|:-----:|:--------:|:---------------:|:---:|:---:|
 alienvault_reputation|188000|188000|389|0.2%|97.2%|
 ib_bluetack_level3|18550|139108857|69|0.0%|17.2%|
 ib_bluetack_level2|75927|348729520|49|0.0%|12.2%|
-blocklist_de|26505|26505|40|0.1%|10.0%|
+blocklist_de|26479|26479|40|0.1%|10.0%|
 ib_bluetack_level1|215693|765044590|33|0.0%|8.2%|
 dshield|20|5120|4|0.0%|1.0%|
 emerging_block|965|18065466|3|0.0%|0.7%|
@@ -435,8 +456,11 @@ The ipset `clean_mx_viruses` has 318 entries, 318 unique IPs.
 
 The following table shows the overlaps of \'clean_mx_viruses\' with all the other ipsets supported.
 
-ipset|entries|unique IPs|IPs found on both| % in clean_mx_viruses| % of clean_mx_viruses|
-:---:|:-----:|:--------:|:---------------:|:------------:|:------------:|
+- ` %  in ` is the percentage of each row found **in clean_mx_viruses**.
+- ` %  of ` is the percentage **of clean_mx_viruses** found in each row.
+
+ipset|entries|unique IPs|IPs found on both| % in| % of|
+:---:|:-----:|:--------:|:---------------:|:---:|:---:|
 ib_bluetack_level3|18550|139108857|52|0.0%|16.3%|
 malc0de|426|426|23|5.3%|7.2%|
 ib_bluetack_level2|75927|348729520|12|0.0%|3.7%|
@@ -444,10 +468,10 @@ ib_bluetack_level1|215693|765044590|10|0.0%|3.1%|
 alienvault_reputation|188000|188000|6|0.0%|1.8%|
 snort_ipfilter|6580|6580|3|0.0%|0.9%|
 ib_bluetack_spyware|898|336971|3|0.0%|0.9%|
-blocklist_de|26505|26505|2|0.0%|0.6%|
+blocklist_de|26479|26479|2|0.0%|0.6%|
 stop_forum_spam_7d|28751|28751|1|0.0%|0.3%|
 stop_forum_spam_30d|91499|91499|1|0.0%|0.3%|
-nixspam|18683|18683|1|0.0%|0.3%|
+nixspam|18589|18589|1|0.0%|0.3%|
 
 # compromised
 
@@ -457,15 +481,18 @@ The ipset `compromised` has 2436 entries, 2436 unique IPs.
 
 The following table shows the overlaps of \'compromised\' with all the other ipsets supported.
 
-ipset|entries|unique IPs|IPs found on both| % in compromised| % of compromised|
-:---:|:-----:|:--------:|:---------------:|:------------:|:------------:|
+- ` %  in ` is the percentage of each row found **in compromised**.
+- ` %  of ` is the percentage **of compromised** found in each row.
+
+ipset|entries|unique IPs|IPs found on both| % in| % of|
+:---:|:-----:|:--------:|:---------------:|:---:|:---:|
 bruteforceblocker|2287|2287|2148|93.9%|88.1%|
 alienvault_reputation|188000|188000|1591|0.8%|65.3%|
 openbl|9986|9986|1473|14.7%|60.4%|
 openbl_90d|9986|9986|1473|14.7%|60.4%|
 openbl_60d|7904|7904|1461|18.4%|59.9%|
 openbl_30d|4722|4722|1337|28.3%|54.8%|
-blocklist_de|26505|26505|816|3.0%|33.4%|
+blocklist_de|26479|26479|814|3.0%|33.4%|
 openbl_7d|1427|1427|706|49.4%|28.9%|
 ib_bluetack_level3|18550|139108857|243|0.0%|9.9%|
 openbl_1d|357|357|198|55.4%|8.1%|
@@ -478,7 +505,7 @@ autoshun|51|51|10|19.6%|0.4%|
 stop_forum_spam_30d|91499|91499|4|0.0%|0.1%|
 ib_bluetack_hijacked|535|9177856|4|0.0%|0.1%|
 stop_forum_spam_7d|28751|28751|2|0.0%|0.0%|
-nixspam|18683|18683|2|0.0%|0.0%|
+nixspam|18589|18589|2|0.0%|0.0%|
 zeus|262|262|1|0.3%|0.0%|
 zeus_badips|228|228|1|0.4%|0.0%|
 snort_ipfilter|6580|6580|1|0.0%|0.0%|
@@ -493,15 +520,18 @@ The ipset `danmetor` has 6555 entries, 6555 unique IPs.
 
 The following table shows the overlaps of \'danmetor\' with all the other ipsets supported.
 
-ipset|entries|unique IPs|IPs found on both| % in danmetor| % of danmetor|
-:---:|:-----:|:--------:|:---------------:|:------------:|:------------:|
+- ` %  in ` is the percentage of each row found **in danmetor**.
+- ` %  of ` is the percentage **of danmetor** found in each row.
+
+ipset|entries|unique IPs|IPs found on both| % in| % of|
+:---:|:-----:|:--------:|:---------------:|:---:|:---:|
 tor_servers|6539|6539|6473|98.9%|98.7%|
 tor|6340|6340|5584|88.0%|85.1%|
 snort_ipfilter|6580|6580|1063|16.1%|16.2%|
 ib_bluetack_level3|18550|139108857|603|0.0%|9.1%|
 stop_forum_spam_30d|91499|91499|566|0.6%|8.6%|
 stop_forum_spam_7d|28751|28751|417|1.4%|6.3%|
-stop_forum_spam_1h|6512|6512|250|3.8%|3.8%|
+stop_forum_spam_1h|6751|6751|249|3.6%|3.7%|
 ib_bluetack_level2|75927|348729520|170|0.0%|2.5%|
 ib_bluetack_level1|215693|765044590|148|0.0%|2.2%|
 alienvault_reputation|188000|188000|45|0.0%|0.6%|
@@ -512,7 +542,7 @@ ib_bluetack_spyware|898|336971|20|0.0%|0.3%|
 php_commenters|184|184|18|9.7%|0.2%|
 php_bad|184|184|18|9.7%|0.2%|
 php_harvesters|178|178|7|3.9%|0.1%|
-blocklist_de|26505|26505|6|0.0%|0.0%|
+blocklist_de|26479|26479|6|0.0%|0.0%|
 php_spammers|261|261|5|1.9%|0.0%|
 rosi_web_proxies|3230|3230|4|0.1%|0.0%|
 php_dictionary|275|275|4|1.4%|0.0%|
@@ -521,7 +551,7 @@ spamhaus_drop|640|18051584|2|0.0%|0.0%|
 ib_bluetack_hijacked|535|9177856|2|0.0%|0.0%|
 dshield|20|5120|2|0.0%|0.0%|
 rosi_connect_proxies|1348|1348|1|0.0%|0.0%|
-nixspam|18683|18683|1|0.0%|0.0%|
+nixspam|18589|18589|1|0.0%|0.0%|
 ib_bluetack_webexploit|1460|1460|1|0.0%|0.0%|
 
 # dshield
@@ -532,15 +562,18 @@ The ipset `dshield` has 20 entries, 5120 unique IPs.
 
 The following table shows the overlaps of \'dshield\' with all the other ipsets supported.
 
-ipset|entries|unique IPs|IPs found on both| % in dshield| % of dshield|
-:---:|:-----:|:--------:|:---------------:|:------------:|:------------:|
+- ` %  in ` is the percentage of each row found **in dshield**.
+- ` %  of ` is the percentage **of dshield** found in each row.
+
+ipset|entries|unique IPs|IPs found on both| % in| % of|
+:---:|:-----:|:--------:|:---------------:|:---:|:---:|
 alienvault_reputation|188000|188000|3589|1.9%|70.0%|
 emerging_block|965|18065466|1536|0.0%|30.0%|
 ib_bluetack_level1|215693|765044590|516|0.0%|10.0%|
 spamhaus_drop|640|18051584|256|0.0%|5.0%|
 ib_bluetack_level3|18550|139108857|256|0.0%|5.0%|
 ib_bluetack_level2|75927|348729520|256|0.0%|5.0%|
-blocklist_de|26505|26505|45|0.1%|0.8%|
+blocklist_de|26479|26479|45|0.1%|0.8%|
 openbl|9986|9986|38|0.3%|0.7%|
 openbl_90d|9986|9986|38|0.3%|0.7%|
 openbl_60d|7904|7904|38|0.4%|0.7%|
@@ -553,13 +586,13 @@ stop_forum_spam_30d|91499|91499|6|0.0%|0.1%|
 ib_bluetack_spyware|898|336971|4|0.0%|0.0%|
 ciarmy|400|400|4|1.0%|0.0%|
 stop_forum_spam_7d|28751|28751|3|0.0%|0.0%|
-stop_forum_spam_1h|6512|6512|3|0.0%|0.0%|
+stop_forum_spam_1h|6751|6751|3|0.0%|0.0%|
 tor|6340|6340|2|0.0%|0.0%|
 tor_servers|6539|6539|2|0.0%|0.0%|
 ib_bluetack_badpeers|48134|48134|2|0.0%|0.0%|
 danmetor|6555|6555|2|0.0%|0.0%|
 snort_ipfilter|6580|6580|1|0.0%|0.0%|
-nixspam|18683|18683|1|0.0%|0.0%|
+nixspam|18589|18589|1|0.0%|0.0%|
 malc0de|426|426|1|0.2%|0.0%|
 ib_bluetack_webexploit|1460|1460|1|0.0%|0.0%|
 botnet|515|515|1|0.1%|0.0%|
@@ -572,8 +605,11 @@ The ipset `emerging_block` has 965 entries, 18065466 unique IPs.
 
 The following table shows the overlaps of \'emerging_block\' with all the other ipsets supported.
 
-ipset|entries|unique IPs|IPs found on both| % in emerging_block| % of emerging_block|
-:---:|:-----:|:--------:|:---------------:|:------------:|:------------:|
+- ` %  in ` is the percentage of each row found **in emerging_block**.
+- ` %  of ` is the percentage **of emerging_block** found in each row.
+
+ipset|entries|unique IPs|IPs found on both| % in| % of|
+:---:|:-----:|:--------:|:---------------:|:---:|:---:|
 spamhaus_drop|640|18051584|17994240|99.6%|99.6%|
 ib_bluetack_level2|75927|348729520|8401701|2.4%|46.5%|
 ib_bluetack_hijacked|535|9177856|7277056|79.2%|40.2%|
@@ -593,12 +629,12 @@ zeus|262|262|256|97.7%|0.0%|
 zeus_badips|228|228|225|98.6%|0.0%|
 stop_forum_spam_7d|28751|28751|221|0.7%|0.0%|
 openbl_30d|4722|4722|216|4.5%|0.0%|
-blocklist_de|26505|26505|201|0.7%|0.0%|
-nixspam|18683|18683|172|0.9%|0.0%|
+blocklist_de|26479|26479|201|0.7%|0.0%|
+nixspam|18589|18589|174|0.9%|0.0%|
 openbl_7d|1427|1427|103|7.2%|0.0%|
 bruteforceblocker|2287|2287|91|3.9%|0.0%|
 compromised|2436|2436|77|3.1%|0.0%|
-stop_forum_spam_1h|6512|6512|58|0.8%|0.0%|
+stop_forum_spam_1h|6751|6751|58|0.8%|0.0%|
 feodo|58|58|56|96.5%|0.0%|
 malwaredomainlist|1283|1283|28|2.1%|0.0%|
 openbl_1d|357|357|27|7.5%|0.0%|
@@ -627,8 +663,11 @@ The ipset `feodo` has 58 entries, 58 unique IPs.
 
 The following table shows the overlaps of \'feodo\' with all the other ipsets supported.
 
-ipset|entries|unique IPs|IPs found on both| % in feodo| % of feodo|
-:---:|:-----:|:--------:|:---------------:|:------------:|:------------:|
+- ` %  in ` is the percentage of each row found **in feodo**.
+- ` %  of ` is the percentage **of feodo** found in each row.
+
+ipset|entries|unique IPs|IPs found on both| % in| % of|
+:---:|:-----:|:--------:|:---------------:|:---:|:---:|
 emerging_block|965|18065466|56|0.0%|96.5%|
 snort_ipfilter|6580|6580|46|0.6%|79.3%|
 sslbl|319|319|21|6.5%|36.2%|
@@ -648,8 +687,11 @@ The ipset `fullbogons` has 3646 entries, 670922200 unique IPs.
 
 The following table shows the overlaps of \'fullbogons\' with all the other ipsets supported.
 
-ipset|entries|unique IPs|IPs found on both| % in fullbogons| % of fullbogons|
-:---:|:-----:|:--------:|:---------------:|:------------:|:------------:|
+- ` %  in ` is the percentage of each row found **in fullbogons**.
+- ` %  of ` is the percentage **of fullbogons** found in each row.
+
+ipset|entries|unique IPs|IPs found on both| % in| % of|
+:---:|:-----:|:--------:|:---------------:|:---:|:---:|
 bogons|13|592708608|592708608|100.0%|88.3%|
 ib_bluetack_level3|18550|139108857|4233774|3.0%|0.6%|
 ib_bluetack_hijacked|535|9177856|565248|6.1%|0.0%|
@@ -674,8 +716,11 @@ The ipset `ib_bluetack_badpeers` has 48134 entries, 48134 unique IPs.
 
 The following table shows the overlaps of \'ib_bluetack_badpeers\' with all the other ipsets supported.
 
-ipset|entries|unique IPs|IPs found on both| % in ib_bluetack_badpeers| % of ib_bluetack_badpeers|
-:---:|:-----:|:--------:|:---------------:|:------------:|:------------:|
+- ` %  in ` is the percentage of each row found **in ib_bluetack_badpeers**.
+- ` %  of ` is the percentage **of ib_bluetack_badpeers** found in each row.
+
+ipset|entries|unique IPs|IPs found on both| % in| % of|
+:---:|:-----:|:--------:|:---------------:|:---:|:---:|
 ib_bluetack_level3|18550|139108857|1172|0.0%|2.4%|
 ib_bluetack_level1|215693|765044590|366|0.0%|0.7%|
 ib_bluetack_level2|75927|348729520|233|0.0%|0.4%|
@@ -684,15 +729,15 @@ stop_forum_spam_30d|91499|91499|14|0.0%|0.0%|
 fullbogons|3646|670922200|14|0.0%|0.0%|
 ib_bluetack_proxies|673|673|11|1.6%|0.0%|
 emerging_block|965|18065466|10|0.0%|0.0%|
+nixspam|18589|18589|7|0.0%|0.0%|
 spamhaus_drop|640|18051584|6|0.0%|0.0%|
-nixspam|18683|18683|6|0.0%|0.0%|
 stop_forum_spam_7d|28751|28751|5|0.0%|0.0%|
 ib_bluetack_spyware|898|336971|4|0.0%|0.0%|
-blocklist_de|26505|26505|4|0.0%|0.0%|
+blocklist_de|26479|26479|4|0.0%|0.0%|
 php_harvesters|178|178|2|1.1%|0.0%|
 php_dictionary|275|275|2|0.7%|0.0%|
 dshield|20|5120|2|0.0%|0.0%|
-stop_forum_spam_1h|6512|6512|1|0.0%|0.0%|
+stop_forum_spam_1h|6751|6751|1|0.0%|0.0%|
 snort_ipfilter|6580|6580|1|0.0%|0.0%|
 rosi_web_proxies|3230|3230|1|0.0%|0.0%|
 php_spammers|261|261|1|0.3%|0.0%|
@@ -706,8 +751,11 @@ The ipset `ib_bluetack_hijacked` has 535 entries, 9177856 unique IPs.
 
 The following table shows the overlaps of \'ib_bluetack_hijacked\' with all the other ipsets supported.
 
-ipset|entries|unique IPs|IPs found on both| % in ib_bluetack_hijacked| % of ib_bluetack_hijacked|
-:---:|:-----:|:--------:|:---------------:|:------------:|:------------:|
+- ` %  in ` is the percentage of each row found **in ib_bluetack_hijacked**.
+- ` %  of ` is the percentage **of ib_bluetack_hijacked** found in each row.
+
+ipset|entries|unique IPs|IPs found on both| % in| % of|
+:---:|:-----:|:--------:|:---------------:|:---:|:---:|
 emerging_block|965|18065466|7277056|40.2%|79.2%|
 spamhaus_drop|640|18051584|7211008|39.9%|78.5%|
 ib_bluetack_level2|75927|348729520|2526624|0.7%|27.5%|
@@ -718,9 +766,9 @@ ib_bluetack_spyware|898|336971|1024|0.3%|0.0%|
 stop_forum_spam_30d|91499|91499|708|0.7%|0.0%|
 alienvault_reputation|188000|188000|519|0.2%|0.0%|
 stop_forum_spam_7d|28751|28751|198|0.6%|0.0%|
-nixspam|18683|18683|166|0.8%|0.0%|
-blocklist_de|26505|26505|65|0.2%|0.0%|
-stop_forum_spam_1h|6512|6512|35|0.5%|0.0%|
+nixspam|18589|18589|168|0.9%|0.0%|
+blocklist_de|26479|26479|65|0.2%|0.0%|
+stop_forum_spam_1h|6751|6751|36|0.5%|0.0%|
 malwaredomainlist|1283|1283|27|2.1%|0.0%|
 openbl|9986|9986|18|0.1%|0.0%|
 openbl_90d|9986|9986|18|0.1%|0.0%|
@@ -750,8 +798,11 @@ The ipset `ib_bluetack_level1` has 215693 entries, 765044590 unique IPs.
 
 The following table shows the overlaps of \'ib_bluetack_level1\' with all the other ipsets supported.
 
-ipset|entries|unique IPs|IPs found on both| % in ib_bluetack_level1| % of ib_bluetack_level1|
-:---:|:-----:|:--------:|:---------------:|:------------:|:------------:|
+- ` %  in ` is the percentage of each row found **in ib_bluetack_level1**.
+- ` %  of ` is the percentage **of ib_bluetack_level1** found in each row.
+
+ipset|entries|unique IPs|IPs found on both| % in| % of|
+:---:|:-----:|:--------:|:---------------:|:---:|:---:|
 ib_bluetack_level2|75927|348729520|16309487|4.6%|2.1%|
 emerging_block|965|18065466|2133264|11.8%|0.2%|
 spamhaus_drop|640|18051584|2132981|11.8%|0.2%|
@@ -761,19 +812,19 @@ fullbogons|3646|670922200|232563|0.0%|0.0%|
 spamhaus_edrop|55|421120|33152|7.8%|0.0%|
 ib_bluetack_spyware|898|336971|12921|3.8%|0.0%|
 alienvault_reputation|188000|188000|5119|2.7%|0.0%|
-blocklist_de|26505|26505|1521|5.7%|0.0%|
+blocklist_de|26479|26479|1521|5.7%|0.0%|
 stop_forum_spam_30d|91499|91499|1257|1.3%|0.0%|
 dshield|20|5120|516|10.0%|0.0%|
 stop_forum_spam_7d|28751|28751|451|1.5%|0.0%|
 ib_bluetack_badpeers|48134|48134|366|0.7%|0.0%|
-nixspam|18683|18683|330|1.7%|0.0%|
+nixspam|18589|18589|328|1.7%|0.0%|
 openbl|9986|9986|219|2.1%|0.0%|
 openbl_90d|9986|9986|219|2.1%|0.0%|
 openbl_60d|7904|7904|177|2.2%|0.0%|
 tor|6340|6340|148|2.3%|0.0%|
 tor_servers|6539|6539|148|2.2%|0.0%|
 danmetor|6555|6555|148|2.2%|0.0%|
-stop_forum_spam_1h|6512|6512|116|1.7%|0.0%|
+stop_forum_spam_1h|6751|6751|117|1.7%|0.0%|
 openbl_30d|4722|4722|99|2.0%|0.0%|
 ib_bluetack_webexploit|1460|1460|90|6.1%|0.0%|
 compromised|2436|2436|75|3.0%|0.0%|
@@ -807,8 +858,11 @@ The ipset `ib_bluetack_level2` has 75927 entries, 348729520 unique IPs.
 
 The following table shows the overlaps of \'ib_bluetack_level2\' with all the other ipsets supported.
 
-ipset|entries|unique IPs|IPs found on both| % in ib_bluetack_level2| % of ib_bluetack_level2|
-:---:|:-----:|:--------:|:---------------:|:------------:|:------------:|
+- ` %  in ` is the percentage of each row found **in ib_bluetack_level2**.
+- ` %  of ` is the percentage **of ib_bluetack_level2** found in each row.
+
+ipset|entries|unique IPs|IPs found on both| % in| % of|
+:---:|:-----:|:--------:|:---------------:|:---:|:---:|
 ib_bluetack_level1|215693|765044590|16309487|2.1%|4.6%|
 emerging_block|965|18065466|8401701|46.5%|2.4%|
 spamhaus_drop|640|18051584|8401433|46.5%|2.4%|
@@ -819,16 +873,16 @@ spamhaus_edrop|55|421120|33368|7.9%|0.0%|
 alienvault_reputation|188000|188000|8665|4.6%|0.0%|
 ib_bluetack_spyware|898|336971|7629|2.2%|0.0%|
 stop_forum_spam_30d|91499|91499|2388|2.6%|0.0%|
-blocklist_de|26505|26505|1432|5.4%|0.0%|
+blocklist_de|26479|26479|1431|5.4%|0.0%|
 stop_forum_spam_7d|28751|28751|819|2.8%|0.0%|
 openbl|9986|9986|534|5.3%|0.0%|
 openbl_90d|9986|9986|534|5.3%|0.0%|
-nixspam|18683|18683|469|2.5%|0.0%|
+nixspam|18589|18589|476|2.5%|0.0%|
 openbl_60d|7904|7904|382|4.8%|0.0%|
 dshield|20|5120|256|5.0%|0.0%|
 ib_bluetack_badpeers|48134|48134|233|0.4%|0.0%|
 openbl_30d|4722|4722|232|4.9%|0.0%|
-stop_forum_spam_1h|6512|6512|211|3.2%|0.0%|
+stop_forum_spam_1h|6751|6751|216|3.1%|0.0%|
 tor|6340|6340|171|2.6%|0.0%|
 tor_servers|6539|6539|170|2.5%|0.0%|
 danmetor|6555|6555|170|2.5%|0.0%|
@@ -866,8 +920,11 @@ The ipset `ib_bluetack_level3` has 18550 entries, 139108857 unique IPs.
 
 The following table shows the overlaps of \'ib_bluetack_level3\' with all the other ipsets supported.
 
-ipset|entries|unique IPs|IPs found on both| % in ib_bluetack_level3| % of ib_bluetack_level3|
-:---:|:-----:|:--------:|:---------------:|:------------:|:------------:|
+- ` %  in ` is the percentage of each row found **in ib_bluetack_level3**.
+- ` %  of ` is the percentage **of ib_bluetack_level3** found in each row.
+
+ipset|entries|unique IPs|IPs found on both| % in| % of|
+:---:|:-----:|:--------:|:---------------:|:---:|:---:|
 fullbogons|3646|670922200|4233774|0.6%|3.0%|
 bogons|13|592708608|4194304|0.7%|3.0%|
 ib_bluetack_level2|75927|348729520|2831962|0.8%|2.0%|
@@ -879,9 +936,9 @@ ib_bluetack_hijacked|535|9177856|145472|1.5%|0.1%|
 alienvault_reputation|188000|188000|15506|8.2%|0.0%|
 ib_bluetack_spyware|898|336971|8958|2.6%|0.0%|
 stop_forum_spam_30d|91499|91499|6228|6.8%|0.0%|
-blocklist_de|26505|26505|3266|12.3%|0.0%|
+blocklist_de|26479|26479|3262|12.3%|0.0%|
 stop_forum_spam_7d|28751|28751|1914|6.6%|0.0%|
-nixspam|18683|18683|1245|6.6%|0.0%|
+nixspam|18589|18589|1241|6.6%|0.0%|
 ib_bluetack_badpeers|48134|48134|1172|2.4%|0.0%|
 openbl|9986|9986|971|9.7%|0.0%|
 openbl_90d|9986|9986|971|9.7%|0.0%|
@@ -890,7 +947,7 @@ tor_servers|6539|6539|605|9.2%|0.0%|
 danmetor|6555|6555|603|9.1%|0.0%|
 tor|6340|6340|602|9.4%|0.0%|
 openbl_30d|4722|4722|488|10.3%|0.0%|
-stop_forum_spam_1h|6512|6512|431|6.6%|0.0%|
+stop_forum_spam_1h|6751|6751|435|6.4%|0.0%|
 dshield|20|5120|256|5.0%|0.0%|
 compromised|2436|2436|243|9.9%|0.0%|
 bruteforceblocker|2287|2287|221|9.6%|0.0%|
@@ -926,8 +983,11 @@ The ipset `ib_bluetack_proxies` has 673 entries, 673 unique IPs.
 
 The following table shows the overlaps of \'ib_bluetack_proxies\' with all the other ipsets supported.
 
-ipset|entries|unique IPs|IPs found on both| % in ib_bluetack_proxies| % of ib_bluetack_proxies|
-:---:|:-----:|:--------:|:---------------:|:------------:|:------------:|
+- ` %  in ` is the percentage of each row found **in ib_bluetack_proxies**.
+- ` %  of ` is the percentage **of ib_bluetack_proxies** found in each row.
+
+ipset|entries|unique IPs|IPs found on both| % in| % of|
+:---:|:-----:|:--------:|:---------------:|:---:|:---:|
 ib_bluetack_level3|18550|139108857|51|0.0%|7.5%|
 ib_bluetack_level2|75927|348729520|28|0.0%|4.1%|
 stop_forum_spam_30d|91499|91499|24|0.0%|3.5%|
@@ -935,11 +995,11 @@ ib_bluetack_level1|215693|765044590|18|0.0%|2.6%|
 stop_forum_spam_7d|28751|28751|15|0.0%|2.2%|
 ib_bluetack_badpeers|48134|48134|11|0.0%|1.6%|
 rosi_web_proxies|3230|3230|9|0.2%|1.3%|
-stop_forum_spam_1h|6512|6512|5|0.0%|0.7%|
+stop_forum_spam_1h|6751|6751|6|0.0%|0.8%|
 rosi_connect_proxies|1348|1348|5|0.3%|0.7%|
-blocklist_de|26505|26505|3|0.0%|0.4%|
+nixspam|18589|18589|3|0.0%|0.4%|
+blocklist_de|26479|26479|3|0.0%|0.4%|
 spamhaus_drop|640|18051584|2|0.0%|0.2%|
-nixspam|18683|18683|2|0.0%|0.2%|
 ib_bluetack_webexploit|1460|1460|2|0.1%|0.2%|
 ib_bluetack_hijacked|535|9177856|2|0.0%|0.2%|
 emerging_block|965|18065466|2|0.0%|0.2%|
@@ -955,8 +1015,11 @@ The ipset `ib_bluetack_spyware` has 898 entries, 336971 unique IPs.
 
 The following table shows the overlaps of \'ib_bluetack_spyware\' with all the other ipsets supported.
 
-ipset|entries|unique IPs|IPs found on both| % in ib_bluetack_spyware| % of ib_bluetack_spyware|
-:---:|:-----:|:--------:|:---------------:|:------------:|:------------:|
+- ` %  in ` is the percentage of each row found **in ib_bluetack_spyware**.
+- ` %  of ` is the percentage **of ib_bluetack_spyware** found in each row.
+
+ipset|entries|unique IPs|IPs found on both| % in| % of|
+:---:|:-----:|:--------:|:---------------:|:---:|:---:|
 ib_bluetack_level1|215693|765044590|12921|0.0%|3.8%|
 ib_bluetack_level3|18550|139108857|8958|0.0%|2.6%|
 ib_bluetack_level2|75927|348729520|7629|0.0%|2.2%|
@@ -970,11 +1033,11 @@ stop_forum_spam_7d|28751|28751|22|0.0%|0.0%|
 tor|6340|6340|20|0.3%|0.0%|
 tor_servers|6539|6539|20|0.3%|0.0%|
 danmetor|6555|6555|20|0.3%|0.0%|
-nixspam|18683|18683|18|0.0%|0.0%|
+nixspam|18589|18589|18|0.0%|0.0%|
 malwaredomainlist|1283|1283|14|1.0%|0.0%|
 snort_ipfilter|6580|6580|12|0.1%|0.0%|
-blocklist_de|26505|26505|11|0.0%|0.0%|
-stop_forum_spam_1h|6512|6512|10|0.1%|0.0%|
+blocklist_de|26479|26479|11|0.0%|0.0%|
+stop_forum_spam_1h|6751|6751|10|0.1%|0.0%|
 ib_bluetack_webexploit|1460|1460|7|0.4%|0.0%|
 openbl|9986|9986|5|0.0%|0.0%|
 openbl_90d|9986|9986|5|0.0%|0.0%|
@@ -1000,8 +1063,11 @@ The ipset `ib_bluetack_webexploit` has 1460 entries, 1460 unique IPs.
 
 The following table shows the overlaps of \'ib_bluetack_webexploit\' with all the other ipsets supported.
 
-ipset|entries|unique IPs|IPs found on both| % in ib_bluetack_webexploit| % of ib_bluetack_webexploit|
-:---:|:-----:|:--------:|:---------------:|:------------:|:------------:|
+- ` %  in ` is the percentage of each row found **in ib_bluetack_webexploit**.
+- ` %  of ` is the percentage **of ib_bluetack_webexploit** found in each row.
+
+ipset|entries|unique IPs|IPs found on both| % in| % of|
+:---:|:-----:|:--------:|:---------------:|:---:|:---:|
 ib_bluetack_level3|18550|139108857|110|0.0%|7.5%|
 ib_bluetack_level1|215693|765044590|90|0.0%|6.1%|
 ib_bluetack_level2|75927|348729520|43|0.0%|2.9%|
@@ -1018,7 +1084,7 @@ snort_ipfilter|6580|6580|2|0.0%|0.1%|
 ib_bluetack_proxies|673|673|2|0.2%|0.1%|
 tor|6340|6340|1|0.0%|0.0%|
 tor_servers|6539|6539|1|0.0%|0.0%|
-stop_forum_spam_1h|6512|6512|1|0.0%|0.0%|
+stop_forum_spam_1h|6751|6751|1|0.0%|0.0%|
 rosi_web_proxies|3230|3230|1|0.0%|0.0%|
 openbl|9986|9986|1|0.0%|0.0%|
 openbl_90d|9986|9986|1|0.0%|0.0%|
@@ -1032,7 +1098,7 @@ danmetor|6555|6555|1|0.0%|0.0%|
 compromised|2436|2436|1|0.0%|0.0%|
 bruteforceblocker|2287|2287|1|0.0%|0.0%|
 botnet|515|515|1|0.1%|0.0%|
-blocklist_de|26505|26505|1|0.0%|0.0%|
+blocklist_de|26479|26479|1|0.0%|0.0%|
 
 # malc0de
 
@@ -1042,8 +1108,11 @@ The ipset `malc0de` has 426 entries, 426 unique IPs.
 
 The following table shows the overlaps of \'malc0de\' with all the other ipsets supported.
 
-ipset|entries|unique IPs|IPs found on both| % in malc0de| % of malc0de|
-:---:|:-----:|:--------:|:---------------:|:------------:|:------------:|
+- ` %  in ` is the percentage of each row found **in malc0de**.
+- ` %  of ` is the percentage **of malc0de** found in each row.
+
+ipset|entries|unique IPs|IPs found on both| % in| % of|
+:---:|:-----:|:--------:|:---------------:|:---:|:---:|
 ib_bluetack_level3|18550|139108857|80|0.0%|18.7%|
 ib_bluetack_level2|75927|348729520|28|0.0%|6.5%|
 clean_mx_viruses|318|318|23|7.2%|5.3%|
@@ -1064,8 +1133,11 @@ The ipset `malwaredomainlist` has 1283 entries, 1283 unique IPs.
 
 The following table shows the overlaps of \'malwaredomainlist\' with all the other ipsets supported.
 
-ipset|entries|unique IPs|IPs found on both| % in malwaredomainlist| % of malwaredomainlist|
-:---:|:-----:|:--------:|:---------------:|:------------:|:------------:|
+- ` %  in ` is the percentage of each row found **in malwaredomainlist**.
+- ` %  of ` is the percentage **of malwaredomainlist** found in each row.
+
+ipset|entries|unique IPs|IPs found on both| % in| % of|
+:---:|:-----:|:--------:|:---------------:|:---:|:---:|
 ib_bluetack_level3|18550|139108857|146|0.0%|11.3%|
 ib_bluetack_level1|215693|765044590|60|0.0%|4.6%|
 spamhaus_drop|640|18051584|28|0.0%|2.1%|
@@ -1078,48 +1150,51 @@ fullbogons|3646|670922200|9|0.0%|0.7%|
 alienvault_reputation|188000|188000|6|0.0%|0.4%|
 malc0de|426|426|4|0.9%|0.3%|
 ib_bluetack_webexploit|1460|1460|3|0.2%|0.2%|
-blocklist_de|26505|26505|3|0.0%|0.2%|
+blocklist_de|26479|26479|3|0.0%|0.2%|
 stop_forum_spam_30d|91499|91499|2|0.0%|0.1%|
-nixspam|18683|18683|1|0.0%|0.0%|
+nixspam|18589|18589|1|0.0%|0.0%|
 botnet|515|515|1|0.1%|0.0%|
 
 # nixspam
 
 [NiX Spam](http://www.heise.de/ix/NiX-Spam-DNSBL-and-blacklist-for-download-499637.html) IP addresses that sent spam in the last hour - automatically generated entries without distinguishing open proxies from relays, dialup gateways, and so on. All IPs are removed after 12 hours if there is no spam from there.
 
-The ipset `nixspam` has 18683 entries, 18683 unique IPs.
+The ipset `nixspam` has 18589 entries, 18589 unique IPs.
 
 The following table shows the overlaps of \'nixspam\' with all the other ipsets supported.
 
-ipset|entries|unique IPs|IPs found on both| % in nixspam| % of nixspam|
-:---:|:-----:|:--------:|:---------------:|:------------:|:------------:|
-ib_bluetack_level3|18550|139108857|1245|0.0%|6.6%|
-blocklist_de|26505|26505|682|2.5%|3.6%|
-ib_bluetack_level2|75927|348729520|469|0.0%|2.5%|
-ib_bluetack_level1|215693|765044590|330|0.0%|1.7%|
-stop_forum_spam_30d|91499|91499|201|0.2%|1.0%|
-snort_ipfilter|6580|6580|190|2.8%|1.0%|
-emerging_block|965|18065466|172|0.0%|0.9%|
-spamhaus_drop|640|18051584|171|0.0%|0.9%|
-ib_bluetack_hijacked|535|9177856|166|0.0%|0.8%|
-stop_forum_spam_7d|28751|28751|117|0.4%|0.6%|
-php_dictionary|275|275|81|29.4%|0.4%|
-rosi_web_proxies|3230|3230|72|2.2%|0.3%|
+- ` %  in ` is the percentage of each row found **in nixspam**.
+- ` %  of ` is the percentage **of nixspam** found in each row.
+
+ipset|entries|unique IPs|IPs found on both| % in| % of|
+:---:|:-----:|:--------:|:---------------:|:---:|:---:|
+ib_bluetack_level3|18550|139108857|1241|0.0%|6.6%|
+blocklist_de|26479|26479|682|2.5%|3.6%|
+ib_bluetack_level2|75927|348729520|476|0.0%|2.5%|
+ib_bluetack_level1|215693|765044590|328|0.0%|1.7%|
+stop_forum_spam_30d|91499|91499|199|0.2%|1.0%|
+snort_ipfilter|6580|6580|188|2.8%|1.0%|
+emerging_block|965|18065466|174|0.0%|0.9%|
+spamhaus_drop|640|18051584|173|0.0%|0.9%|
+ib_bluetack_hijacked|535|9177856|168|0.0%|0.9%|
+stop_forum_spam_7d|28751|28751|118|0.4%|0.6%|
+php_dictionary|275|275|83|30.1%|0.4%|
+rosi_web_proxies|3230|3230|76|2.3%|0.4%|
 php_spammers|261|261|61|23.3%|0.3%|
-stop_forum_spam_1h|6512|6512|54|0.8%|0.2%|
-alienvault_reputation|188000|188000|36|0.0%|0.1%|
+stop_forum_spam_1h|6751|6751|57|0.8%|0.3%|
+alienvault_reputation|188000|188000|32|0.0%|0.1%|
 ib_bluetack_spyware|898|336971|18|0.0%|0.0%|
 rosi_connect_proxies|1348|1348|14|1.0%|0.0%|
 php_commenters|184|184|14|7.6%|0.0%|
 php_bad|184|184|14|7.6%|0.0%|
-ib_bluetack_badpeers|48134|48134|6|0.0%|0.0%|
-openbl|9986|9986|4|0.0%|0.0%|
-openbl_90d|9986|9986|4|0.0%|0.0%|
-openbl_60d|7904|7904|4|0.0%|0.0%|
+ib_bluetack_badpeers|48134|48134|7|0.0%|0.0%|
 php_harvesters|178|178|3|1.6%|0.0%|
-openbl_30d|4722|4722|3|0.0%|0.0%|
+openbl|9986|9986|3|0.0%|0.0%|
+openbl_90d|9986|9986|3|0.0%|0.0%|
+openbl_60d|7904|7904|3|0.0%|0.0%|
+ib_bluetack_proxies|673|673|3|0.4%|0.0%|
 tor|6340|6340|2|0.0%|0.0%|
-ib_bluetack_proxies|673|673|2|0.2%|0.0%|
+openbl_30d|4722|4722|2|0.0%|0.0%|
 compromised|2436|2436|2|0.0%|0.0%|
 bruteforceblocker|2287|2287|2|0.0%|0.0%|
 tor_servers|6539|6539|1|0.0%|0.0%|
@@ -1138,8 +1213,11 @@ The ipset `openbl` has 9986 entries, 9986 unique IPs.
 
 The following table shows the overlaps of \'openbl\' with all the other ipsets supported.
 
-ipset|entries|unique IPs|IPs found on both| % in openbl| % of openbl|
-:---:|:-----:|:--------:|:---------------:|:------------:|:------------:|
+- ` %  in ` is the percentage of each row found **in openbl**.
+- ` %  of ` is the percentage **of openbl** found in each row.
+
+ipset|entries|unique IPs|IPs found on both| % in| % of|
+:---:|:-----:|:--------:|:---------------:|:---:|:---:|
 openbl_90d|9986|9986|9986|100.0%|100.0%|
 alienvault_reputation|188000|188000|9955|5.2%|99.6%|
 openbl_60d|7904|7904|7904|100.0%|79.1%|
@@ -1147,7 +1225,7 @@ openbl_30d|4722|4722|4722|100.0%|47.2%|
 compromised|2436|2436|1473|60.4%|14.7%|
 openbl_7d|1427|1427|1427|100.0%|14.2%|
 bruteforceblocker|2287|2287|1353|59.1%|13.5%|
-blocklist_de|26505|26505|1294|4.8%|12.9%|
+blocklist_de|26479|26479|1292|4.8%|12.9%|
 ib_bluetack_level3|18550|139108857|971|0.0%|9.7%|
 ib_bluetack_level2|75927|348729520|534|0.0%|5.3%|
 emerging_block|965|18065466|452|0.0%|4.5%|
@@ -1158,7 +1236,7 @@ stop_forum_spam_30d|91499|91499|73|0.0%|0.7%|
 dshield|20|5120|38|0.7%|0.3%|
 stop_forum_spam_7d|28751|28751|37|0.1%|0.3%|
 snort_ipfilter|6580|6580|25|0.3%|0.2%|
-stop_forum_spam_1h|6512|6512|21|0.3%|0.2%|
+stop_forum_spam_1h|6751|6751|22|0.3%|0.2%|
 danmetor|6555|6555|21|0.3%|0.2%|
 tor|6340|6340|20|0.3%|0.2%|
 tor_servers|6539|6539|20|0.3%|0.2%|
@@ -1169,7 +1247,7 @@ php_commenters|184|184|6|3.2%|0.0%|
 php_bad|184|184|6|3.2%|0.0%|
 ib_bluetack_spyware|898|336971|5|0.0%|0.0%|
 php_harvesters|178|178|4|2.2%|0.0%|
-nixspam|18683|18683|4|0.0%|0.0%|
+nixspam|18589|18589|3|0.0%|0.0%|
 zeus|262|262|1|0.3%|0.0%|
 zeus_badips|228|228|1|0.4%|0.0%|
 sslbl|319|319|1|0.3%|0.0%|
@@ -1185,15 +1263,18 @@ The ipset `openbl_1d` has 357 entries, 357 unique IPs.
 
 The following table shows the overlaps of \'openbl_1d\' with all the other ipsets supported.
 
-ipset|entries|unique IPs|IPs found on both| % in openbl_1d| % of openbl_1d|
-:---:|:-----:|:--------:|:---------------:|:------------:|:------------:|
+- ` %  in ` is the percentage of each row found **in openbl_1d**.
+- ` %  of ` is the percentage **of openbl_1d** found in each row.
+
+ipset|entries|unique IPs|IPs found on both| % in| % of|
+:---:|:-----:|:--------:|:---------------:|:---:|:---:|
 openbl|9986|9986|357|3.5%|100.0%|
 openbl_90d|9986|9986|357|3.5%|100.0%|
 openbl_7d|1427|1427|357|25.0%|100.0%|
 openbl_60d|7904|7904|357|4.5%|100.0%|
 openbl_30d|4722|4722|357|7.5%|100.0%|
 alienvault_reputation|188000|188000|355|0.1%|99.4%|
-blocklist_de|26505|26505|252|0.9%|70.5%|
+blocklist_de|26479|26479|252|0.9%|70.5%|
 bruteforceblocker|2287|2287|201|8.7%|56.3%|
 compromised|2436|2436|198|8.1%|55.4%|
 emerging_block|965|18065466|27|0.0%|7.5%|
@@ -1216,8 +1297,11 @@ The ipset `openbl_30d` has 4722 entries, 4722 unique IPs.
 
 The following table shows the overlaps of \'openbl_30d\' with all the other ipsets supported.
 
-ipset|entries|unique IPs|IPs found on both| % in openbl_30d| % of openbl_30d|
-:---:|:-----:|:--------:|:---------------:|:------------:|:------------:|
+- ` %  in ` is the percentage of each row found **in openbl_30d**.
+- ` %  of ` is the percentage **of openbl_30d** found in each row.
+
+ipset|entries|unique IPs|IPs found on both| % in| % of|
+:---:|:-----:|:--------:|:---------------:|:---:|:---:|
 openbl|9986|9986|4722|47.2%|100.0%|
 openbl_90d|9986|9986|4722|47.2%|100.0%|
 openbl_60d|7904|7904|4722|59.7%|100.0%|
@@ -1225,7 +1309,7 @@ alienvault_reputation|188000|188000|4705|2.5%|99.6%|
 openbl_7d|1427|1427|1427|100.0%|30.2%|
 compromised|2436|2436|1337|54.8%|28.3%|
 bruteforceblocker|2287|2287|1288|56.3%|27.2%|
-blocklist_de|26505|26505|1103|4.1%|23.3%|
+blocklist_de|26479|26479|1101|4.1%|23.3%|
 ib_bluetack_level3|18550|139108857|488|0.0%|10.3%|
 openbl_1d|357|357|357|100.0%|7.5%|
 ib_bluetack_level2|75927|348729520|232|0.0%|4.9%|
@@ -1237,11 +1321,11 @@ stop_forum_spam_30d|91499|91499|25|0.0%|0.5%|
 ib_bluetack_hijacked|535|9177856|12|0.0%|0.2%|
 autoshun|51|51|11|21.5%|0.2%|
 stop_forum_spam_7d|28751|28751|7|0.0%|0.1%|
-nixspam|18683|18683|3|0.0%|0.0%|
 ib_bluetack_spyware|898|336971|3|0.0%|0.0%|
+nixspam|18589|18589|2|0.0%|0.0%|
 zeus|262|262|1|0.3%|0.0%|
 zeus_badips|228|228|1|0.4%|0.0%|
-stop_forum_spam_1h|6512|6512|1|0.0%|0.0%|
+stop_forum_spam_1h|6751|6751|1|0.0%|0.0%|
 spamhaus_edrop|55|421120|1|0.0%|0.0%|
 snort_ipfilter|6580|6580|1|0.0%|0.0%|
 ib_bluetack_webexploit|1460|1460|1|0.0%|0.0%|
@@ -1254,8 +1338,11 @@ The ipset `openbl_60d` has 7904 entries, 7904 unique IPs.
 
 The following table shows the overlaps of \'openbl_60d\' with all the other ipsets supported.
 
-ipset|entries|unique IPs|IPs found on both| % in openbl_60d| % of openbl_60d|
-:---:|:-----:|:--------:|:---------------:|:------------:|:------------:|
+- ` %  in ` is the percentage of each row found **in openbl_60d**.
+- ` %  of ` is the percentage **of openbl_60d** found in each row.
+
+ipset|entries|unique IPs|IPs found on both| % in| % of|
+:---:|:-----:|:--------:|:---------------:|:---:|:---:|
 openbl|9986|9986|7904|79.1%|100.0%|
 openbl_90d|9986|9986|7904|79.1%|100.0%|
 alienvault_reputation|188000|188000|7879|4.1%|99.6%|
@@ -1263,7 +1350,7 @@ openbl_30d|4722|4722|4722|100.0%|59.7%|
 compromised|2436|2436|1461|59.9%|18.4%|
 openbl_7d|1427|1427|1427|100.0%|18.0%|
 bruteforceblocker|2287|2287|1342|58.6%|16.9%|
-blocklist_de|26505|26505|1244|4.6%|15.7%|
+blocklist_de|26479|26479|1242|4.6%|15.7%|
 ib_bluetack_level3|18550|139108857|719|0.0%|9.0%|
 ib_bluetack_level2|75927|348729520|382|0.0%|4.8%|
 openbl_1d|357|357|357|100.0%|4.5%|
@@ -1277,14 +1364,14 @@ snort_ipfilter|6580|6580|24|0.3%|0.3%|
 danmetor|6555|6555|21|0.3%|0.2%|
 tor|6340|6340|20|0.3%|0.2%|
 tor_servers|6539|6539|20|0.3%|0.2%|
-stop_forum_spam_1h|6512|6512|20|0.3%|0.2%|
+stop_forum_spam_1h|6751|6751|20|0.2%|0.2%|
 ib_bluetack_hijacked|535|9177856|17|0.0%|0.2%|
 autoshun|51|51|12|23.5%|0.1%|
 php_commenters|184|184|6|3.2%|0.0%|
 php_bad|184|184|6|3.2%|0.0%|
 php_harvesters|178|178|4|2.2%|0.0%|
-nixspam|18683|18683|4|0.0%|0.0%|
 ib_bluetack_spyware|898|336971|4|0.0%|0.0%|
+nixspam|18589|18589|3|0.0%|0.0%|
 spamhaus_edrop|55|421120|2|0.0%|0.0%|
 zeus|262|262|1|0.3%|0.0%|
 zeus_badips|228|228|1|0.4%|0.0%|
@@ -1298,14 +1385,17 @@ The ipset `openbl_7d` has 1427 entries, 1427 unique IPs.
 
 The following table shows the overlaps of \'openbl_7d\' with all the other ipsets supported.
 
-ipset|entries|unique IPs|IPs found on both| % in openbl_7d| % of openbl_7d|
-:---:|:-----:|:--------:|:---------------:|:------------:|:------------:|
+- ` %  in ` is the percentage of each row found **in openbl_7d**.
+- ` %  of ` is the percentage **of openbl_7d** found in each row.
+
+ipset|entries|unique IPs|IPs found on both| % in| % of|
+:---:|:-----:|:--------:|:---------------:|:---:|:---:|
 openbl|9986|9986|1427|14.2%|100.0%|
 openbl_90d|9986|9986|1427|14.2%|100.0%|
 openbl_60d|7904|7904|1427|18.0%|100.0%|
 openbl_30d|4722|4722|1427|30.2%|100.0%|
 alienvault_reputation|188000|188000|1412|0.7%|98.9%|
-blocklist_de|26505|26505|797|3.0%|55.8%|
+blocklist_de|26479|26479|796|3.0%|55.7%|
 bruteforceblocker|2287|2287|722|31.5%|50.5%|
 compromised|2436|2436|706|28.9%|49.4%|
 openbl_1d|357|357|357|100.0%|25.0%|
@@ -1319,9 +1409,9 @@ ib_bluetack_hijacked|535|9177856|10|0.0%|0.7%|
 autoshun|51|51|9|17.6%|0.6%|
 stop_forum_spam_30d|91499|91499|3|0.0%|0.2%|
 stop_forum_spam_7d|28751|28751|1|0.0%|0.0%|
-stop_forum_spam_1h|6512|6512|1|0.0%|0.0%|
+stop_forum_spam_1h|6751|6751|1|0.0%|0.0%|
 spamhaus_edrop|55|421120|1|0.0%|0.0%|
-nixspam|18683|18683|1|0.0%|0.0%|
+nixspam|18589|18589|1|0.0%|0.0%|
 ib_bluetack_webexploit|1460|1460|1|0.0%|0.0%|
 ib_bluetack_spyware|898|336971|1|0.0%|0.0%|
 
@@ -1333,8 +1423,11 @@ The ipset `openbl_90d` has 9986 entries, 9986 unique IPs.
 
 The following table shows the overlaps of \'openbl_90d\' with all the other ipsets supported.
 
-ipset|entries|unique IPs|IPs found on both| % in openbl_90d| % of openbl_90d|
-:---:|:-----:|:--------:|:---------------:|:------------:|:------------:|
+- ` %  in ` is the percentage of each row found **in openbl_90d**.
+- ` %  of ` is the percentage **of openbl_90d** found in each row.
+
+ipset|entries|unique IPs|IPs found on both| % in| % of|
+:---:|:-----:|:--------:|:---------------:|:---:|:---:|
 openbl|9986|9986|9986|100.0%|100.0%|
 alienvault_reputation|188000|188000|9955|5.2%|99.6%|
 openbl_60d|7904|7904|7904|100.0%|79.1%|
@@ -1342,7 +1435,7 @@ openbl_30d|4722|4722|4722|100.0%|47.2%|
 compromised|2436|2436|1473|60.4%|14.7%|
 openbl_7d|1427|1427|1427|100.0%|14.2%|
 bruteforceblocker|2287|2287|1353|59.1%|13.5%|
-blocklist_de|26505|26505|1294|4.8%|12.9%|
+blocklist_de|26479|26479|1292|4.8%|12.9%|
 ib_bluetack_level3|18550|139108857|971|0.0%|9.7%|
 ib_bluetack_level2|75927|348729520|534|0.0%|5.3%|
 emerging_block|965|18065466|452|0.0%|4.5%|
@@ -1353,7 +1446,7 @@ stop_forum_spam_30d|91499|91499|73|0.0%|0.7%|
 dshield|20|5120|38|0.7%|0.3%|
 stop_forum_spam_7d|28751|28751|37|0.1%|0.3%|
 snort_ipfilter|6580|6580|25|0.3%|0.2%|
-stop_forum_spam_1h|6512|6512|21|0.3%|0.2%|
+stop_forum_spam_1h|6751|6751|22|0.3%|0.2%|
 danmetor|6555|6555|21|0.3%|0.2%|
 tor|6340|6340|20|0.3%|0.2%|
 tor_servers|6539|6539|20|0.3%|0.2%|
@@ -1364,7 +1457,7 @@ php_commenters|184|184|6|3.2%|0.0%|
 php_bad|184|184|6|3.2%|0.0%|
 ib_bluetack_spyware|898|336971|5|0.0%|0.0%|
 php_harvesters|178|178|4|2.2%|0.0%|
-nixspam|18683|18683|4|0.0%|0.0%|
+nixspam|18589|18589|3|0.0%|0.0%|
 zeus|262|262|1|0.3%|0.0%|
 zeus_badips|228|228|1|0.4%|0.0%|
 sslbl|319|319|1|0.3%|0.0%|
@@ -1380,8 +1473,11 @@ The ipset `palevo` has 12 entries, 12 unique IPs.
 
 The following table shows the overlaps of \'palevo\' with all the other ipsets supported.
 
-ipset|entries|unique IPs|IPs found on both| % in palevo| % of palevo|
-:---:|:-----:|:--------:|:---------------:|:------------:|:------------:|
+- ` %  in ` is the percentage of each row found **in palevo**.
+- ` %  of ` is the percentage **of palevo** found in each row.
+
+ipset|entries|unique IPs|IPs found on both| % in| % of|
+:---:|:-----:|:--------:|:---------------:|:---:|:---:|
 emerging_block|965|18065466|12|0.0%|100.0%|
 snort_ipfilter|6580|6580|10|0.1%|83.3%|
 ib_bluetack_level3|18550|139108857|1|0.0%|8.3%|
@@ -1395,13 +1491,16 @@ The ipset `php_bad` has 184 entries, 184 unique IPs.
 
 The following table shows the overlaps of \'php_bad\' with all the other ipsets supported.
 
-ipset|entries|unique IPs|IPs found on both| % in php_bad| % of php_bad|
-:---:|:-----:|:--------:|:---------------:|:------------:|:------------:|
+- ` %  in ` is the percentage of each row found **in php_bad**.
+- ` %  of ` is the percentage **of php_bad** found in each row.
+
+ipset|entries|unique IPs|IPs found on both| % in| % of|
+:---:|:-----:|:--------:|:---------------:|:---:|:---:|
 php_commenters|184|184|184|100.0%|100.0%|
 stop_forum_spam_30d|91499|91499|134|0.1%|72.8%|
 stop_forum_spam_7d|28751|28751|126|0.4%|68.4%|
-stop_forum_spam_1h|6512|6512|93|1.4%|50.5%|
-blocklist_de|26505|26505|61|0.2%|33.1%|
+stop_forum_spam_1h|6751|6751|92|1.3%|50.0%|
+blocklist_de|26479|26479|61|0.2%|33.1%|
 snort_ipfilter|6580|6580|25|0.3%|13.5%|
 spamhaus_drop|640|18051584|24|0.0%|13.0%|
 emerging_block|965|18065466|24|0.0%|13.0%|
@@ -1409,7 +1508,7 @@ danmetor|6555|6555|18|0.2%|9.7%|
 tor|6340|6340|17|0.2%|9.2%|
 tor_servers|6539|6539|17|0.2%|9.2%|
 php_spammers|261|261|15|5.7%|8.1%|
-nixspam|18683|18683|14|0.0%|7.6%|
+nixspam|18589|18589|14|0.0%|7.6%|
 php_dictionary|275|275|10|3.6%|5.4%|
 alienvault_reputation|188000|188000|10|0.0%|5.4%|
 php_harvesters|178|178|8|4.4%|4.3%|
@@ -1432,13 +1531,16 @@ The ipset `php_commenters` has 184 entries, 184 unique IPs.
 
 The following table shows the overlaps of \'php_commenters\' with all the other ipsets supported.
 
-ipset|entries|unique IPs|IPs found on both| % in php_commenters| % of php_commenters|
-:---:|:-----:|:--------:|:---------------:|:------------:|:------------:|
+- ` %  in ` is the percentage of each row found **in php_commenters**.
+- ` %  of ` is the percentage **of php_commenters** found in each row.
+
+ipset|entries|unique IPs|IPs found on both| % in| % of|
+:---:|:-----:|:--------:|:---------------:|:---:|:---:|
 php_bad|184|184|184|100.0%|100.0%|
 stop_forum_spam_30d|91499|91499|134|0.1%|72.8%|
 stop_forum_spam_7d|28751|28751|126|0.4%|68.4%|
-stop_forum_spam_1h|6512|6512|93|1.4%|50.5%|
-blocklist_de|26505|26505|61|0.2%|33.1%|
+stop_forum_spam_1h|6751|6751|92|1.3%|50.0%|
+blocklist_de|26479|26479|61|0.2%|33.1%|
 snort_ipfilter|6580|6580|25|0.3%|13.5%|
 spamhaus_drop|640|18051584|24|0.0%|13.0%|
 emerging_block|965|18065466|24|0.0%|13.0%|
@@ -1446,7 +1548,7 @@ danmetor|6555|6555|18|0.2%|9.7%|
 tor|6340|6340|17|0.2%|9.2%|
 tor_servers|6539|6539|17|0.2%|9.2%|
 php_spammers|261|261|15|5.7%|8.1%|
-nixspam|18683|18683|14|0.0%|7.6%|
+nixspam|18589|18589|14|0.0%|7.6%|
 php_dictionary|275|275|10|3.6%|5.4%|
 alienvault_reputation|188000|188000|10|0.0%|5.4%|
 php_harvesters|178|178|8|4.4%|4.3%|
@@ -1469,15 +1571,18 @@ The ipset `php_dictionary` has 275 entries, 275 unique IPs.
 
 The following table shows the overlaps of \'php_dictionary\' with all the other ipsets supported.
 
-ipset|entries|unique IPs|IPs found on both| % in php_dictionary| % of php_dictionary|
-:---:|:-----:|:--------:|:---------------:|:------------:|:------------:|
-nixspam|18683|18683|81|0.4%|29.4%|
-blocklist_de|26505|26505|81|0.3%|29.4%|
+- ` %  in ` is the percentage of each row found **in php_dictionary**.
+- ` %  of ` is the percentage **of php_dictionary** found in each row.
+
+ipset|entries|unique IPs|IPs found on both| % in| % of|
+:---:|:-----:|:--------:|:---------------:|:---:|:---:|
+nixspam|18589|18589|83|0.4%|30.1%|
+blocklist_de|26479|26479|81|0.3%|29.4%|
 snort_ipfilter|6580|6580|65|0.9%|23.6%|
 stop_forum_spam_30d|91499|91499|48|0.0%|17.4%|
 php_spammers|261|261|46|17.6%|16.7%|
 stop_forum_spam_7d|28751|28751|31|0.1%|11.2%|
-stop_forum_spam_1h|6512|6512|15|0.2%|5.4%|
+stop_forum_spam_1h|6751|6751|14|0.2%|5.0%|
 rosi_web_proxies|3230|3230|13|0.4%|4.7%|
 ib_bluetack_level3|18550|139108857|13|0.0%|4.7%|
 php_commenters|184|184|10|5.4%|3.6%|
@@ -1504,12 +1609,15 @@ The ipset `php_harvesters` has 178 entries, 178 unique IPs.
 
 The following table shows the overlaps of \'php_harvesters\' with all the other ipsets supported.
 
-ipset|entries|unique IPs|IPs found on both| % in php_harvesters| % of php_harvesters|
-:---:|:-----:|:--------:|:---------------:|:------------:|:------------:|
+- ` %  in ` is the percentage of each row found **in php_harvesters**.
+- ` %  of ` is the percentage **of php_harvesters** found in each row.
+
+ipset|entries|unique IPs|IPs found on both| % in| % of|
+:---:|:-----:|:--------:|:---------------:|:---:|:---:|
 stop_forum_spam_30d|91499|91499|46|0.0%|25.8%|
 stop_forum_spam_7d|28751|28751|40|0.1%|22.4%|
-stop_forum_spam_1h|6512|6512|25|0.3%|14.0%|
-blocklist_de|26505|26505|22|0.0%|12.3%|
+stop_forum_spam_1h|6751|6751|24|0.3%|13.4%|
+blocklist_de|26479|26479|22|0.0%|12.3%|
 ib_bluetack_level3|18550|139108857|12|0.0%|6.7%|
 snort_ipfilter|6580|6580|10|0.1%|5.6%|
 php_commenters|184|184|8|4.3%|4.4%|
@@ -1522,7 +1630,7 @@ ib_bluetack_level2|75927|348729520|5|0.0%|2.8%|
 openbl|9986|9986|4|0.0%|2.2%|
 openbl_90d|9986|9986|4|0.0%|2.2%|
 openbl_60d|7904|7904|4|0.0%|2.2%|
-nixspam|18683|18683|3|0.0%|1.6%|
+nixspam|18589|18589|3|0.0%|1.6%|
 ib_bluetack_badpeers|48134|48134|2|0.0%|1.1%|
 spamhaus_drop|640|18051584|1|0.0%|0.5%|
 rosi_web_proxies|3230|3230|1|0.0%|0.5%|
@@ -1543,15 +1651,18 @@ The ipset `php_spammers` has 261 entries, 261 unique IPs.
 
 The following table shows the overlaps of \'php_spammers\' with all the other ipsets supported.
 
-ipset|entries|unique IPs|IPs found on both| % in php_spammers| % of php_spammers|
-:---:|:-----:|:--------:|:---------------:|:------------:|:------------:|
-blocklist_de|26505|26505|65|0.2%|24.9%|
+- ` %  in ` is the percentage of each row found **in php_spammers**.
+- ` %  of ` is the percentage **of php_spammers** found in each row.
+
+ipset|entries|unique IPs|IPs found on both| % in| % of|
+:---:|:-----:|:--------:|:---------------:|:---:|:---:|
+blocklist_de|26479|26479|65|0.2%|24.9%|
 stop_forum_spam_30d|91499|91499|61|0.0%|23.3%|
-nixspam|18683|18683|61|0.3%|23.3%|
+nixspam|18589|18589|61|0.3%|23.3%|
 snort_ipfilter|6580|6580|55|0.8%|21.0%|
 php_dictionary|275|275|46|16.7%|17.6%|
 stop_forum_spam_7d|28751|28751|40|0.1%|15.3%|
-stop_forum_spam_1h|6512|6512|23|0.3%|8.8%|
+stop_forum_spam_1h|6751|6751|20|0.2%|7.6%|
 ib_bluetack_level3|18550|139108857|18|0.0%|6.8%|
 ib_bluetack_level2|75927|348729520|18|0.0%|6.8%|
 php_commenters|184|184|15|8.1%|5.7%|
@@ -1577,17 +1688,20 @@ The ipset `rosi_connect_proxies` has 1348 entries, 1348 unique IPs.
 
 The following table shows the overlaps of \'rosi_connect_proxies\' with all the other ipsets supported.
 
-ipset|entries|unique IPs|IPs found on both| % in rosi_connect_proxies| % of rosi_connect_proxies|
-:---:|:-----:|:--------:|:---------------:|:------------:|:------------:|
+- ` %  in ` is the percentage of each row found **in rosi_connect_proxies**.
+- ` %  of ` is the percentage **of rosi_connect_proxies** found in each row.
+
+ipset|entries|unique IPs|IPs found on both| % in| % of|
+:---:|:-----:|:--------:|:---------------:|:---:|:---:|
 stop_forum_spam_30d|91499|91499|803|0.8%|59.5%|
 stop_forum_spam_7d|28751|28751|681|2.3%|50.5%|
 rosi_web_proxies|3230|3230|515|15.9%|38.2%|
-stop_forum_spam_1h|6512|6512|169|2.5%|12.5%|
-blocklist_de|26505|26505|82|0.3%|6.0%|
+stop_forum_spam_1h|6751|6751|171|2.5%|12.6%|
+blocklist_de|26479|26479|80|0.3%|5.9%|
 ib_bluetack_level2|75927|348729520|66|0.0%|4.8%|
 ib_bluetack_level3|18550|139108857|29|0.0%|2.1%|
 ib_bluetack_level1|215693|765044590|22|0.0%|1.6%|
-nixspam|18683|18683|14|0.0%|1.0%|
+nixspam|18589|18589|14|0.0%|1.0%|
 ib_bluetack_proxies|673|673|5|0.7%|0.3%|
 snort_ipfilter|6580|6580|4|0.0%|0.2%|
 tor|6340|6340|1|0.0%|0.0%|
@@ -1605,16 +1719,19 @@ The ipset `rosi_web_proxies` has 3230 entries, 3230 unique IPs.
 
 The following table shows the overlaps of \'rosi_web_proxies\' with all the other ipsets supported.
 
-ipset|entries|unique IPs|IPs found on both| % in rosi_web_proxies| % of rosi_web_proxies|
-:---:|:-----:|:--------:|:---------------:|:------------:|:------------:|
+- ` %  in ` is the percentage of each row found **in rosi_web_proxies**.
+- ` %  of ` is the percentage **of rosi_web_proxies** found in each row.
+
+ipset|entries|unique IPs|IPs found on both| % in| % of|
+:---:|:-----:|:--------:|:---------------:|:---:|:---:|
 stop_forum_spam_30d|91499|91499|1588|1.7%|49.1%|
 stop_forum_spam_7d|28751|28751|1347|4.6%|41.7%|
 rosi_connect_proxies|1348|1348|515|38.2%|15.9%|
-stop_forum_spam_1h|6512|6512|484|7.4%|14.9%|
-blocklist_de|26505|26505|351|1.3%|10.8%|
+stop_forum_spam_1h|6751|6751|486|7.1%|15.0%|
+blocklist_de|26479|26479|351|1.3%|10.8%|
 ib_bluetack_level2|75927|348729520|122|0.0%|3.7%|
 ib_bluetack_level3|18550|139108857|114|0.0%|3.5%|
-nixspam|18683|18683|72|0.3%|2.2%|
+nixspam|18589|18589|76|0.4%|2.3%|
 ib_bluetack_level1|215693|765044590|57|0.0%|1.7%|
 snort_ipfilter|6580|6580|23|0.3%|0.7%|
 php_dictionary|275|275|13|4.7%|0.4%|
@@ -1641,20 +1758,23 @@ The ipset `snort_ipfilter` has 6580 entries, 6580 unique IPs.
 
 The following table shows the overlaps of \'snort_ipfilter\' with all the other ipsets supported.
 
-ipset|entries|unique IPs|IPs found on both| % in snort_ipfilter| % of snort_ipfilter|
-:---:|:-----:|:--------:|:---------------:|:------------:|:------------:|
+- ` %  in ` is the percentage of each row found **in snort_ipfilter**.
+- ` %  of ` is the percentage **of snort_ipfilter** found in each row.
+
+ipset|entries|unique IPs|IPs found on both| % in| % of|
+:---:|:-----:|:--------:|:---------------:|:---:|:---:|
 danmetor|6555|6555|1063|16.2%|16.1%|
 tor_servers|6539|6539|1062|16.2%|16.1%|
 tor|6340|6340|1039|16.3%|15.7%|
 stop_forum_spam_30d|91499|91499|682|0.7%|10.3%|
 stop_forum_spam_7d|28751|28751|506|1.7%|7.6%|
 emerging_block|965|18065466|282|0.0%|4.2%|
-stop_forum_spam_1h|6512|6512|277|4.2%|4.2%|
+stop_forum_spam_1h|6751|6751|275|4.0%|4.1%|
 zeus|262|262|223|85.1%|3.3%|
 ib_bluetack_level3|18550|139108857|211|0.0%|3.2%|
-blocklist_de|26505|26505|208|0.7%|3.1%|
+blocklist_de|26479|26479|208|0.7%|3.1%|
 zeus_badips|228|228|200|87.7%|3.0%|
-nixspam|18683|18683|190|1.0%|2.8%|
+nixspam|18589|18589|188|1.0%|2.8%|
 alienvault_reputation|188000|188000|115|0.0%|1.7%|
 ib_bluetack_level2|75927|348729520|97|0.0%|1.4%|
 php_dictionary|275|275|65|23.6%|0.9%|
@@ -1693,8 +1813,11 @@ The ipset `spamhaus_drop` has 640 entries, 18051584 unique IPs.
 
 The following table shows the overlaps of \'spamhaus_drop\' with all the other ipsets supported.
 
-ipset|entries|unique IPs|IPs found on both| % in spamhaus_drop| % of spamhaus_drop|
-:---:|:-----:|:--------:|:---------------:|:------------:|:------------:|
+- ` %  in ` is the percentage of each row found **in spamhaus_drop**.
+- ` %  of ` is the percentage **of spamhaus_drop** found in each row.
+
+ipset|entries|unique IPs|IPs found on both| % in| % of|
+:---:|:-----:|:--------:|:---------------:|:---:|:---:|
 emerging_block|965|18065466|17994240|99.6%|99.6%|
 ib_bluetack_level2|75927|348729520|8401433|2.4%|46.5%|
 ib_bluetack_hijacked|535|9177856|7211008|78.5%|39.9%|
@@ -1711,12 +1834,12 @@ openbl_60d|7904|7904|320|4.0%|0.0%|
 dshield|20|5120|256|5.0%|0.0%|
 stop_forum_spam_7d|28751|28751|216|0.7%|0.0%|
 openbl_30d|4722|4722|213|4.5%|0.0%|
-blocklist_de|26505|26505|194|0.7%|0.0%|
-nixspam|18683|18683|171|0.9%|0.0%|
+blocklist_de|26479|26479|194|0.7%|0.0%|
+nixspam|18589|18589|173|0.9%|0.0%|
 openbl_7d|1427|1427|101|7.0%|0.0%|
 bruteforceblocker|2287|2287|89|3.8%|0.0%|
 compromised|2436|2436|76|3.1%|0.0%|
-stop_forum_spam_1h|6512|6512|56|0.8%|0.0%|
+stop_forum_spam_1h|6751|6751|56|0.8%|0.0%|
 malwaredomainlist|1283|1283|28|2.1%|0.0%|
 openbl_1d|357|357|26|7.2%|0.0%|
 php_commenters|184|184|24|13.0%|0.0%|
@@ -1745,20 +1868,23 @@ The ipset `spamhaus_edrop` has 55 entries, 421120 unique IPs.
 
 The following table shows the overlaps of \'spamhaus_edrop\' with all the other ipsets supported.
 
-ipset|entries|unique IPs|IPs found on both| % in spamhaus_edrop| % of spamhaus_edrop|
-:---:|:-----:|:--------:|:---------------:|:------------:|:------------:|
+- ` %  in ` is the percentage of each row found **in spamhaus_edrop**.
+- ` %  of ` is the percentage **of spamhaus_edrop** found in each row.
+
+ipset|entries|unique IPs|IPs found on both| % in| % of|
+:---:|:-----:|:--------:|:---------------:|:---:|:---:|
 ib_bluetack_level3|18550|139108857|270785|0.1%|64.3%|
 ib_bluetack_level2|75927|348729520|33368|0.0%|7.9%|
 ib_bluetack_level1|215693|765044590|33152|0.0%|7.8%|
 emerging_block|965|18065466|517|0.0%|0.1%|
 spamhaus_drop|640|18051584|512|0.0%|0.1%|
 stop_forum_spam_30d|91499|91499|109|0.1%|0.0%|
-blocklist_de|26505|26505|38|0.1%|0.0%|
+blocklist_de|26479|26479|38|0.1%|0.0%|
 stop_forum_spam_7d|28751|28751|32|0.1%|0.0%|
 alienvault_reputation|188000|188000|16|0.0%|0.0%|
 openbl|9986|9986|14|0.1%|0.0%|
 openbl_90d|9986|9986|14|0.1%|0.0%|
-stop_forum_spam_1h|6512|6512|12|0.1%|0.0%|
+stop_forum_spam_1h|6751|6751|13|0.1%|0.0%|
 snort_ipfilter|6580|6580|6|0.0%|0.0%|
 php_commenters|184|184|6|3.2%|0.0%|
 php_bad|184|184|6|3.2%|0.0%|
@@ -1768,7 +1894,7 @@ openbl_60d|7904|7904|2|0.0%|0.0%|
 openbl_7d|1427|1427|1|0.0%|0.0%|
 openbl_30d|4722|4722|1|0.0%|0.0%|
 openbl_1d|357|357|1|0.2%|0.0%|
-nixspam|18683|18683|1|0.0%|0.0%|
+nixspam|18589|18589|1|0.0%|0.0%|
 malc0de|426|426|1|0.2%|0.0%|
 
 # sslbl
@@ -1779,8 +1905,11 @@ The ipset `sslbl` has 319 entries, 319 unique IPs.
 
 The following table shows the overlaps of \'sslbl\' with all the other ipsets supported.
 
-ipset|entries|unique IPs|IPs found on both| % in sslbl| % of sslbl|
-:---:|:-----:|:--------:|:---------------:|:------------:|:------------:|
+- ` %  in ` is the percentage of each row found **in sslbl**.
+- ` %  of ` is the percentage **of sslbl** found in each row.
+
+ipset|entries|unique IPs|IPs found on both| % in| % of|
+:---:|:-----:|:--------:|:---------------:|:---:|:---:|
 emerging_block|965|18065466|23|0.0%|7.2%|
 feodo|58|58|21|36.2%|6.5%|
 snort_ipfilter|6580|6580|18|0.2%|5.6%|
@@ -1798,40 +1927,43 @@ ib_bluetack_spyware|898|336971|1|0.0%|0.3%|
 
 [StopForumSpam.com](http://www.stopforumspam.com) IPs used by forum spammers in the last 24 hours - **excellent list**
 
-The ipset `stop_forum_spam_1h` has 6512 entries, 6512 unique IPs.
+The ipset `stop_forum_spam_1h` has 6751 entries, 6751 unique IPs.
 
 The following table shows the overlaps of \'stop_forum_spam_1h\' with all the other ipsets supported.
 
-ipset|entries|unique IPs|IPs found on both| % in stop_forum_spam_1h| % of stop_forum_spam_1h|
-:---:|:-----:|:--------:|:---------------:|:------------:|:------------:|
-stop_forum_spam_7d|28751|28751|4826|16.7%|74.1%|
-stop_forum_spam_30d|91499|91499|4774|5.2%|73.3%|
-blocklist_de|26505|26505|1309|4.9%|20.1%|
-rosi_web_proxies|3230|3230|484|14.9%|7.4%|
-ib_bluetack_level3|18550|139108857|431|0.0%|6.6%|
-snort_ipfilter|6580|6580|277|4.2%|4.2%|
-tor_servers|6539|6539|250|3.8%|3.8%|
-danmetor|6555|6555|250|3.8%|3.8%|
-tor|6340|6340|248|3.9%|3.8%|
-ib_bluetack_level2|75927|348729520|211|0.0%|3.2%|
-rosi_connect_proxies|1348|1348|169|12.5%|2.5%|
-ib_bluetack_level1|215693|765044590|116|0.0%|1.7%|
-php_commenters|184|184|93|50.5%|1.4%|
-php_bad|184|184|93|50.5%|1.4%|
+- ` %  in ` is the percentage of each row found **in stop_forum_spam_1h**.
+- ` %  of ` is the percentage **of stop_forum_spam_1h** found in each row.
+
+ipset|entries|unique IPs|IPs found on both| % in| % of|
+:---:|:-----:|:--------:|:---------------:|:---:|:---:|
+stop_forum_spam_30d|91499|91499|4802|5.2%|71.1%|
+stop_forum_spam_7d|28751|28751|4796|16.6%|71.0%|
+blocklist_de|26479|26479|1318|4.9%|19.5%|
+rosi_web_proxies|3230|3230|486|15.0%|7.1%|
+ib_bluetack_level3|18550|139108857|435|0.0%|6.4%|
+snort_ipfilter|6580|6580|275|4.1%|4.0%|
+tor_servers|6539|6539|249|3.8%|3.6%|
+danmetor|6555|6555|249|3.7%|3.6%|
+tor|6340|6340|247|3.8%|3.6%|
+ib_bluetack_level2|75927|348729520|216|0.0%|3.1%|
+rosi_connect_proxies|1348|1348|171|12.6%|2.5%|
+ib_bluetack_level1|215693|765044590|117|0.0%|1.7%|
+php_commenters|184|184|92|50.0%|1.3%|
+php_bad|184|184|92|50.0%|1.3%|
 emerging_block|965|18065466|58|0.0%|0.8%|
+nixspam|18589|18589|57|0.3%|0.8%|
 spamhaus_drop|640|18051584|56|0.0%|0.8%|
 alienvault_reputation|188000|188000|55|0.0%|0.8%|
-nixspam|18683|18683|54|0.2%|0.8%|
-ib_bluetack_hijacked|535|9177856|35|0.0%|0.5%|
-php_harvesters|178|178|25|14.0%|0.3%|
-php_spammers|261|261|23|8.8%|0.3%|
-openbl|9986|9986|21|0.2%|0.3%|
-openbl_90d|9986|9986|21|0.2%|0.3%|
-openbl_60d|7904|7904|20|0.2%|0.3%|
-php_dictionary|275|275|15|5.4%|0.2%|
-spamhaus_edrop|55|421120|12|0.0%|0.1%|
+ib_bluetack_hijacked|535|9177856|36|0.0%|0.5%|
+php_harvesters|178|178|24|13.4%|0.3%|
+openbl|9986|9986|22|0.2%|0.3%|
+openbl_90d|9986|9986|22|0.2%|0.3%|
+php_spammers|261|261|20|7.6%|0.2%|
+openbl_60d|7904|7904|20|0.2%|0.2%|
+php_dictionary|275|275|14|5.0%|0.2%|
+spamhaus_edrop|55|421120|13|0.0%|0.1%|
 ib_bluetack_spyware|898|336971|10|0.0%|0.1%|
-ib_bluetack_proxies|673|673|5|0.7%|0.0%|
+ib_bluetack_proxies|673|673|6|0.8%|0.0%|
 dshield|20|5120|3|0.0%|0.0%|
 zeus|262|262|1|0.3%|0.0%|
 zeus_badips|228|228|1|0.4%|0.0%|
@@ -1848,12 +1980,15 @@ The ipset `stop_forum_spam_30d` has 91499 entries, 91499 unique IPs.
 
 The following table shows the overlaps of \'stop_forum_spam_30d\' with all the other ipsets supported.
 
-ipset|entries|unique IPs|IPs found on both| % in stop_forum_spam_30d| % of stop_forum_spam_30d|
-:---:|:-----:|:--------:|:---------------:|:------------:|:------------:|
+- ` %  in ` is the percentage of each row found **in stop_forum_spam_30d**.
+- ` %  of ` is the percentage **of stop_forum_spam_30d** found in each row.
+
+ipset|entries|unique IPs|IPs found on both| % in| % of|
+:---:|:-----:|:--------:|:---------------:|:---:|:---:|
 stop_forum_spam_7d|28751|28751|28407|98.8%|31.0%|
 ib_bluetack_level3|18550|139108857|6228|0.0%|6.8%|
-stop_forum_spam_1h|6512|6512|4774|73.3%|5.2%|
-blocklist_de|26505|26505|2509|9.4%|2.7%|
+stop_forum_spam_1h|6751|6751|4802|71.1%|5.2%|
+blocklist_de|26479|26479|2503|9.4%|2.7%|
 ib_bluetack_level2|75927|348729520|2388|0.0%|2.6%|
 rosi_web_proxies|3230|3230|1588|49.1%|1.7%|
 ib_bluetack_level1|215693|765044590|1257|0.0%|1.3%|
@@ -1866,7 +2001,7 @@ tor|6340|6340|571|9.0%|0.6%|
 danmetor|6555|6555|566|8.6%|0.6%|
 tor_servers|6539|6539|564|8.6%|0.6%|
 alienvault_reputation|188000|188000|254|0.1%|0.2%|
-nixspam|18683|18683|201|1.0%|0.2%|
+nixspam|18589|18589|199|1.0%|0.2%|
 php_commenters|184|184|134|72.8%|0.1%|
 php_bad|184|184|134|72.8%|0.1%|
 spamhaus_edrop|55|421120|109|0.0%|0.1%|
@@ -1902,11 +2037,14 @@ The ipset `stop_forum_spam_7d` has 28751 entries, 28751 unique IPs.
 
 The following table shows the overlaps of \'stop_forum_spam_7d\' with all the other ipsets supported.
 
-ipset|entries|unique IPs|IPs found on both| % in stop_forum_spam_7d| % of stop_forum_spam_7d|
-:---:|:-----:|:--------:|:---------------:|:------------:|:------------:|
+- ` %  in ` is the percentage of each row found **in stop_forum_spam_7d**.
+- ` %  of ` is the percentage **of stop_forum_spam_7d** found in each row.
+
+ipset|entries|unique IPs|IPs found on both| % in| % of|
+:---:|:-----:|:--------:|:---------------:|:---:|:---:|
 stop_forum_spam_30d|91499|91499|28407|31.0%|98.8%|
-stop_forum_spam_1h|6512|6512|4826|74.1%|16.7%|
-blocklist_de|26505|26505|2047|7.7%|7.1%|
+stop_forum_spam_1h|6751|6751|4796|71.0%|16.6%|
+blocklist_de|26479|26479|2041|7.7%|7.0%|
 ib_bluetack_level3|18550|139108857|1914|0.0%|6.6%|
 rosi_web_proxies|3230|3230|1347|41.7%|4.6%|
 ib_bluetack_level2|75927|348729520|819|0.0%|2.8%|
@@ -1922,7 +2060,7 @@ ib_bluetack_hijacked|535|9177856|198|0.0%|0.6%|
 php_commenters|184|184|126|68.4%|0.4%|
 php_bad|184|184|126|68.4%|0.4%|
 alienvault_reputation|188000|188000|120|0.0%|0.4%|
-nixspam|18683|18683|117|0.6%|0.4%|
+nixspam|18589|18589|118|0.6%|0.4%|
 php_spammers|261|261|40|15.3%|0.1%|
 php_harvesters|178|178|40|22.4%|0.1%|
 openbl|9986|9986|37|0.3%|0.1%|
@@ -1952,15 +2090,18 @@ The ipset `tor` has 6340 entries, 6340 unique IPs.
 
 The following table shows the overlaps of \'tor\' with all the other ipsets supported.
 
-ipset|entries|unique IPs|IPs found on both| % in tor| % of tor|
-:---:|:-----:|:--------:|:---------------:|:------------:|:------------:|
+- ` %  in ` is the percentage of each row found **in tor**.
+- ` %  of ` is the percentage **of tor** found in each row.
+
+ipset|entries|unique IPs|IPs found on both| % in| % of|
+:---:|:-----:|:--------:|:---------------:|:---:|:---:|
 danmetor|6555|6555|5584|85.1%|88.0%|
 tor_servers|6539|6539|5581|85.3%|88.0%|
 snort_ipfilter|6580|6580|1039|15.7%|16.3%|
 ib_bluetack_level3|18550|139108857|602|0.0%|9.4%|
 stop_forum_spam_30d|91499|91499|571|0.6%|9.0%|
 stop_forum_spam_7d|28751|28751|424|1.4%|6.6%|
-stop_forum_spam_1h|6512|6512|248|3.8%|3.9%|
+stop_forum_spam_1h|6751|6751|247|3.6%|3.8%|
 ib_bluetack_level2|75927|348729520|171|0.0%|2.6%|
 ib_bluetack_level1|215693|765044590|148|0.0%|2.3%|
 alienvault_reputation|188000|188000|44|0.0%|0.6%|
@@ -1975,9 +2116,9 @@ php_spammers|261|261|5|1.9%|0.0%|
 rosi_web_proxies|3230|3230|4|0.1%|0.0%|
 php_dictionary|275|275|4|1.4%|0.0%|
 emerging_block|965|18065466|4|0.0%|0.0%|
-blocklist_de|26505|26505|3|0.0%|0.0%|
+blocklist_de|26479|26479|3|0.0%|0.0%|
 spamhaus_drop|640|18051584|2|0.0%|0.0%|
-nixspam|18683|18683|2|0.0%|0.0%|
+nixspam|18589|18589|2|0.0%|0.0%|
 ib_bluetack_hijacked|535|9177856|2|0.0%|0.0%|
 dshield|20|5120|2|0.0%|0.0%|
 rosi_connect_proxies|1348|1348|1|0.0%|0.0%|
@@ -1991,15 +2132,18 @@ The ipset `tor_servers` has 6539 entries, 6539 unique IPs.
 
 The following table shows the overlaps of \'tor_servers\' with all the other ipsets supported.
 
-ipset|entries|unique IPs|IPs found on both| % in tor_servers| % of tor_servers|
-:---:|:-----:|:--------:|:---------------:|:------------:|:------------:|
+- ` %  in ` is the percentage of each row found **in tor_servers**.
+- ` %  of ` is the percentage **of tor_servers** found in each row.
+
+ipset|entries|unique IPs|IPs found on both| % in| % of|
+:---:|:-----:|:--------:|:---------------:|:---:|:---:|
 danmetor|6555|6555|6473|98.7%|98.9%|
 tor|6340|6340|5581|88.0%|85.3%|
 snort_ipfilter|6580|6580|1062|16.1%|16.2%|
 ib_bluetack_level3|18550|139108857|605|0.0%|9.2%|
 stop_forum_spam_30d|91499|91499|564|0.6%|8.6%|
 stop_forum_spam_7d|28751|28751|415|1.4%|6.3%|
-stop_forum_spam_1h|6512|6512|250|3.8%|3.8%|
+stop_forum_spam_1h|6751|6751|249|3.6%|3.8%|
 ib_bluetack_level2|75927|348729520|170|0.0%|2.5%|
 ib_bluetack_level1|215693|765044590|148|0.0%|2.2%|
 alienvault_reputation|188000|188000|44|0.0%|0.6%|
@@ -2010,7 +2154,7 @@ ib_bluetack_spyware|898|336971|20|0.0%|0.3%|
 php_commenters|184|184|17|9.2%|0.2%|
 php_bad|184|184|17|9.2%|0.2%|
 php_harvesters|178|178|7|3.9%|0.1%|
-blocklist_de|26505|26505|6|0.0%|0.0%|
+blocklist_de|26479|26479|6|0.0%|0.0%|
 php_spammers|261|261|5|1.9%|0.0%|
 rosi_web_proxies|3230|3230|4|0.1%|0.0%|
 php_dictionary|275|275|4|1.4%|0.0%|
@@ -2019,7 +2163,7 @@ spamhaus_drop|640|18051584|2|0.0%|0.0%|
 ib_bluetack_hijacked|535|9177856|2|0.0%|0.0%|
 dshield|20|5120|2|0.0%|0.0%|
 rosi_connect_proxies|1348|1348|1|0.0%|0.0%|
-nixspam|18683|18683|1|0.0%|0.0%|
+nixspam|18589|18589|1|0.0%|0.0%|
 ib_bluetack_webexploit|1460|1460|1|0.0%|0.0%|
 
 # zeus
@@ -2030,8 +2174,11 @@ The ipset `zeus` has 262 entries, 262 unique IPs.
 
 The following table shows the overlaps of \'zeus\' with all the other ipsets supported.
 
-ipset|entries|unique IPs|IPs found on both| % in zeus| % of zeus|
-:---:|:-----:|:--------:|:---------------:|:------------:|:------------:|
+- ` %  in ` is the percentage of each row found **in zeus**.
+- ` %  of ` is the percentage **of zeus** found in each row.
+
+ipset|entries|unique IPs|IPs found on both| % in| % of|
+:---:|:-----:|:--------:|:---------------:|:---:|:---:|
 emerging_block|965|18065466|256|0.0%|97.7%|
 zeus_badips|228|228|228|100.0%|87.0%|
 snort_ipfilter|6580|6580|223|3.3%|85.1%|
@@ -2044,7 +2191,7 @@ ib_bluetack_level1|215693|765044590|7|0.0%|2.6%|
 spamhaus_edrop|55|421120|5|0.0%|1.9%|
 stop_forum_spam_30d|91499|91499|4|0.0%|1.5%|
 stop_forum_spam_7d|28751|28751|1|0.0%|0.3%|
-stop_forum_spam_1h|6512|6512|1|0.0%|0.3%|
+stop_forum_spam_1h|6751|6751|1|0.0%|0.3%|
 php_commenters|184|184|1|0.5%|0.3%|
 php_bad|184|184|1|0.5%|0.3%|
 openbl|9986|9986|1|0.0%|0.3%|
@@ -2053,7 +2200,7 @@ openbl_60d|7904|7904|1|0.0%|0.3%|
 openbl_30d|4722|4722|1|0.0%|0.3%|
 compromised|2436|2436|1|0.0%|0.3%|
 bruteforceblocker|2287|2287|1|0.0%|0.3%|
-blocklist_de|26505|26505|1|0.0%|0.3%|
+blocklist_de|26479|26479|1|0.0%|0.3%|
 
 # zeus_badips
 
@@ -2063,8 +2210,11 @@ The ipset `zeus_badips` has 228 entries, 228 unique IPs.
 
 The following table shows the overlaps of \'zeus_badips\' with all the other ipsets supported.
 
-ipset|entries|unique IPs|IPs found on both| % in zeus_badips| % of zeus_badips|
-:---:|:-----:|:--------:|:---------------:|:------------:|:------------:|
+- ` %  in ` is the percentage of each row found **in zeus_badips**.
+- ` %  of ` is the percentage **of zeus_badips** found in each row.
+
+ipset|entries|unique IPs|IPs found on both| % in| % of|
+:---:|:-----:|:--------:|:---------------:|:---:|:---:|
 zeus|262|262|228|87.0%|100.0%|
 emerging_block|965|18065466|225|0.0%|98.6%|
 snort_ipfilter|6580|6580|200|3.0%|87.7%|
@@ -2077,7 +2227,7 @@ spamhaus_edrop|55|421120|5|0.0%|2.1%|
 ib_bluetack_level1|215693|765044590|4|0.0%|1.7%|
 stop_forum_spam_30d|91499|91499|3|0.0%|1.3%|
 stop_forum_spam_7d|28751|28751|1|0.0%|0.4%|
-stop_forum_spam_1h|6512|6512|1|0.0%|0.4%|
+stop_forum_spam_1h|6751|6751|1|0.0%|0.4%|
 php_commenters|184|184|1|0.5%|0.4%|
 php_bad|184|184|1|0.5%|0.4%|
 openbl|9986|9986|1|0.0%|0.4%|
@@ -2086,4 +2236,4 @@ openbl_60d|7904|7904|1|0.0%|0.4%|
 openbl_30d|4722|4722|1|0.0%|0.4%|
 compromised|2436|2436|1|0.0%|0.4%|
 bruteforceblocker|2287|2287|1|0.0%|0.4%|
-blocklist_de|26505|26505|1|0.0%|0.4%|
+blocklist_de|26479|26479|1|0.0%|0.4%|
