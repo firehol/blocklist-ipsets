@@ -13,6 +13,8 @@
     
 - [Dynamic List of ipsets included](#list-of-ipsets-included)
 
+- [Comparison of ipsets](#comparison-of-ipsets)
+
 ---
 
 # About this repo
@@ -27,14 +29,16 @@ This repo is self maintained. It it updated automatically from the script via a 
 
 As time passes and the internet matures in our life, cyber crime is becoming increasingly sophisticated.
 Although there many tools (detection of malware, viruses, intrusion detection and prevension systems, etc)
-to help us isolate the budguys, at the end of day they always manage to bypass all that.
+to help us isolate the budguys, there are now a lot more than just such attacks.
 
 What is more interesting is that the fraudsters or attackers in many cases are not going to do a
 direct damage to you or your systems. They will use you and your systems to gain something else,
 possibly not related or indirectly related to your business. Nowdays the attacks cannot be identified easily. They are
 distributed and come to our systems from a vast amount of IPs around the world.
 
-To get an idea, check for example the [XRumer](http://en.wikipedia.org/wiki/XRumer) software.
+To get an idea, check for example the [XRumer](http://en.wikipedia.org/wiki/XRumer) software. This think mimics human
+behaviour to post ads, it creates email accounts, responds to emails it receives, bypasses captchas, it goes gently
+to stay unoticed, etc.
 
 To increase our effectiveness we need to complement our security solutions with our 
 shared knowledge, our shared experience in this fight.
