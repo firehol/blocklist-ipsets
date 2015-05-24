@@ -141,7 +141,7 @@ TODO
 
 # List of ipsets included
 
-The following list was automatically generated on Sun May 24 21:32:05 UTC 2015.
+The following list was automatically generated on Sun May 24 21:45:40 UTC 2015.
 
 The update frequency is the maximum allowed by internal configuration. A list will never be downloaded sooner than the update frequency stated. A list may also not be downloaded, after this frequency expired, if it has not been modified on the server (as reported by HTTP `IF_MODIFIED_SINCE` method).
 
@@ -149,7 +149,7 @@ name|info|type|entries|update|
 :--:|:--:|:--:|:-----:|:----:|
 alienvault_reputation|[AlienVault.com](https://www.alienvault.com/) IP reputation database (this list seems to include port scanning hosts and to be updated regularly, but we found no information about its retention policy)|ipv4 hash:ip|188000 unique IPs|updated every 6 hours  from [this link](https://reputation.alienvault.com/reputation.generic)
 autoshun|[AutoShun.org](http://autoshun.org/) IPs identified as hostile by correlating logs from distributed snort installations running the autoshun plugin|ipv4 hash:ip|51 unique IPs|updated every 4 hours  from [this link](http://www.autoshun.org/files/shunlist.csv)
-blocklist_de|[Blocklist.de](https://www.blocklist.de/) IPs that have been detected by fail2ban in the last 48 hours - **excellent list**|ipv4 hash:ip|26580 unique IPs|updated every 30 mins  from [this link](http://lists.blocklist.de/lists/all.txt)
+[blocklist_de](#blocklist_de)|[Blocklist.de](https://www.blocklist.de/) IPs that have been detected by fail2ban in the last 48 hours - **excellent list**|ipv4 hash:ip|26581 unique IPs|updated every 30 mins  from [this link](http://lists.blocklist.de/lists/all.txt)
 bogons|[Team-Cymru.org](http://www.team-cymru.org) private and reserved addresses defined by RFC 1918, RFC 5735, and RFC 6598 and netblocks that have not been allocated to a regional internet registry - **excellent list - use it only your internet interface**|ipv4 hash:net|13 subnets, 592708608 unique IPs|updated every 1 day  from [this link](http://www.team-cymru.org/Services/Bogons/bogon-bn-agg.txt)
 botnet|[EmergingThreats.net](http://www.emergingthreats.net/) botnet IPs (at the time of writing includes any abuse.ch trackers, which are available separately too - prefer to use the direct ipsets instead of this, they seem to lag a bit in updates)|ipv4 hash:ip|515 unique IPs|updated every 12 hours  from [this link](http://rules.emergingthreats.net/fwrules/emerging-PIX-CC.rules)
 bruteforceblocker|[danger.rulez.sk](http://danger.rulez.sk/) IPs detected by [bruteforceblocker](http://danger.rulez.sk/index.php/bruteforceblocker/) (fail2ban alternative for SSH on OpenBSD)|ipv4 hash:ip|2288 unique IPs|updated every 3 hours  from [this link](http://danger.rulez.sk/projects/bruteforceblocker/blist.php)
@@ -211,11 +211,11 @@ The ipset `alienvault_reputation` has **188000** entries, **188000** unique IPs.
 
 The following table shows the overlaps of `alienvault_reputation` with all the other ipsets supported. Only the ipsets that have at least 1 IP overlap are shown. if an ipset is not shown here, it does not have any overlap with `alienvault_reputation`.
 
-- ` %  in ` is the percentage of each row found **in alienvault_reputation**.
-- ` %  of ` is the percentage **of alienvault_reputation** found in each row.
+- ` them % ` is the percentage of IPs of each row ipset (them), found in `alienvault_reputation`.
+- ` this % ` is the percentage **of this ipset (`alienvault_reputation`)**, found in the IPs of each other ipset.
 
-ipset|entries|unique IPs|IPs found on both| % in| % of|
-:---:|:-----:|:--------:|:---------------:|:---:|:---:|
+ipset|entries|unique IPs|IPs on both| them % | this % |
+:---:|:-----:|:--------:|:---------:|:------:|:------:|
 ib_bluetack_level3|18550|139108857|15506|0.0%|8.2%|
 openbl|9986|9986|9955|99.6%|5.2%|
 openbl_90d|9986|9986|9955|99.6%|5.2%|
@@ -227,7 +227,7 @@ openbl_30d|4722|4722|4705|99.6%|2.5%|
 dshield|20|5120|3589|70.0%|1.9%|
 spamhaus_drop|640|18051584|2274|0.0%|1.2%|
 compromised|2436|2436|1591|65.3%|0.8%|
-blocklist_de|26580|26580|1559|5.8%|0.8%|
+blocklist_de|26581|26581|1559|5.8%|0.8%|
 bruteforceblocker|2288|2288|1440|62.9%|0.7%|
 openbl_7d|1427|1427|1412|98.9%|0.7%|
 ib_bluetack_hijacked|535|9177856|519|0.0%|0.2%|
@@ -274,19 +274,19 @@ The ipset `autoshun` has **51** entries, **51** unique IPs.
 
 The following table shows the overlaps of `autoshun` with all the other ipsets supported. Only the ipsets that have at least 1 IP overlap are shown. if an ipset is not shown here, it does not have any overlap with `autoshun`.
 
-- ` %  in ` is the percentage of each row found **in autoshun**.
-- ` %  of ` is the percentage **of autoshun** found in each row.
+- ` them % ` is the percentage of IPs of each row ipset (them), found in `autoshun`.
+- ` this % ` is the percentage **of this ipset (`autoshun`)**, found in the IPs of each other ipset.
 
-ipset|entries|unique IPs|IPs found on both| % in| % of|
-:---:|:-----:|:--------:|:---------------:|:---:|:---:|
+ipset|entries|unique IPs|IPs on both| them % | this % |
+:---:|:-----:|:--------:|:---------:|:------:|:------:|
 alienvault_reputation|188000|188000|49|0.0%|96.0%|
 openbl|9986|9986|12|0.1%|23.5%|
 openbl_90d|9986|9986|12|0.1%|23.5%|
 openbl_60d|7904|7904|12|0.1%|23.5%|
 openbl_30d|4722|4722|11|0.2%|21.5%|
 bruteforceblocker|2288|2288|11|0.4%|21.5%|
-blocklist_de|26580|26580|11|0.0%|21.5%|
 compromised|2436|2436|10|0.4%|19.6%|
+blocklist_de|26581|26581|10|0.0%|19.6%|
 openbl_7d|1427|1427|9|0.6%|17.6%|
 ib_bluetack_level3|18550|139108857|6|0.0%|11.7%|
 ib_bluetack_level2|75927|348729520|3|0.0%|5.8%|
@@ -297,50 +297,50 @@ ciarmy|403|403|2|0.4%|3.9%|
 
 [Blocklist.de](https://www.blocklist.de/) IPs that have been detected by fail2ban in the last 48 hours - **excellent list**
 
-Source is downloaded from [this link]().
-The last time downloaded was found to be dated: .
+Source is downloaded from [this link](http://lists.blocklist.de/lists/all.txt).
+The last time downloaded was found to be dated: Sun May 24 21:28:04 UTC 2015.
 
-The ipset `blocklist_de` has **26580** entries, **26580** unique IPs.
+The ipset `blocklist_de` has **26581** entries, **26581** unique IPs.
 
 The following table shows the overlaps of `blocklist_de` with all the other ipsets supported. Only the ipsets that have at least 1 IP overlap are shown. if an ipset is not shown here, it does not have any overlap with `blocklist_de`.
 
-- ` %  in ` is the percentage of each row found **in blocklist_de**.
-- ` %  of ` is the percentage **of blocklist_de** found in each row.
+- ` them % ` is the percentage of IPs of each row ipset (them), found in `blocklist_de`.
+- ` this % ` is the percentage **of this ipset (`blocklist_de`)**, found in the IPs of each other ipset.
 
-ipset|entries|unique IPs|IPs found on both| % in| % of|
-:---:|:-----:|:--------:|:---------------:|:---:|:---:|
-ib_bluetack_level3|18550|139108857|3290|0.0%|12.3%|
-stop_forum_spam_30d|91499|91499|2477|2.7%|9.3%|
-stop_forum_spam_7d|28751|28751|2015|7.0%|7.5%|
+ipset|entries|unique IPs|IPs on both| them % | this % |
+:---:|:-----:|:--------:|:---------:|:------:|:------:|
+ib_bluetack_level3|18550|139108857|3291|0.0%|12.3%|
+stop_forum_spam_30d|91499|91499|2479|2.7%|9.3%|
+stop_forum_spam_7d|28751|28751|2017|7.0%|7.5%|
 alienvault_reputation|188000|188000|1559|0.8%|5.8%|
 ib_bluetack_level1|215693|765044590|1521|0.0%|5.7%|
 ib_bluetack_level2|75927|348729520|1438|0.0%|5.4%|
-stop_forum_spam_1h|6821|6821|1317|19.3%|4.9%|
+stop_forum_spam_1h|6821|6821|1320|19.3%|4.9%|
 openbl|9986|9986|1299|13.0%|4.8%|
 openbl_90d|9986|9986|1299|13.0%|4.8%|
 openbl_60d|7904|7904|1249|15.8%|4.6%|
 openbl_30d|4722|4722|1102|23.3%|4.1%|
-bruteforceblocker|2288|2288|877|38.3%|3.2%|
-compromised|2436|2436|810|33.2%|3.0%|
+bruteforceblocker|2288|2288|875|38.2%|3.2%|
+compromised|2436|2436|807|33.1%|3.0%|
 openbl_7d|1427|1427|795|55.7%|2.9%|
-nixspam|18221|18221|648|3.5%|2.4%|
+nixspam|18221|18221|652|3.5%|2.4%|
 rosi_web_proxies|3273|3273|340|10.3%|1.2%|
-openbl_1d|357|357|252|70.5%|0.9%|
+openbl_1d|357|357|251|70.3%|0.9%|
 snort_ipfilter|6580|6580|202|3.0%|0.7%|
 emerging_block|965|18065466|198|0.0%|0.7%|
 spamhaus_drop|640|18051584|192|0.0%|0.7%|
-php_dictionary|275|275|80|29.0%|0.3%|
+php_dictionary|275|275|79|28.7%|0.2%|
 rosi_connect_proxies|1348|1348|78|5.7%|0.2%|
 php_commenters|201|201|68|33.8%|0.2%|
 php_bad|201|201|68|33.8%|0.2%|
-php_spammers|261|261|64|24.5%|0.2%|
 ib_bluetack_hijacked|535|9177856|64|0.0%|0.2%|
+php_spammers|261|261|63|24.1%|0.2%|
 dshield|20|5120|45|0.8%|0.1%|
 ciarmy|403|403|42|10.4%|0.1%|
-spamhaus_edrop|55|421120|39|0.0%|0.1%|
-php_harvesters|178|178|21|11.7%|0.0%|
+spamhaus_edrop|55|421120|40|0.0%|0.1%|
+php_harvesters|178|178|22|12.3%|0.0%|
 ib_bluetack_spyware|898|336971|12|0.0%|0.0%|
-autoshun|51|51|11|21.5%|0.0%|
+autoshun|51|51|10|19.6%|0.0%|
 tor_servers|6551|6551|6|0.0%|0.0%|
 danmetor|6530|6530|6|0.0%|0.0%|
 ib_bluetack_badpeers|48134|48134|4|0.0%|0.0%|
@@ -363,11 +363,11 @@ The ipset `bogons` has **13** entries, **592708608** unique IPs.
 
 The following table shows the overlaps of `bogons` with all the other ipsets supported. Only the ipsets that have at least 1 IP overlap are shown. if an ipset is not shown here, it does not have any overlap with `bogons`.
 
-- ` %  in ` is the percentage of each row found **in bogons**.
-- ` %  of ` is the percentage **of bogons** found in each row.
+- ` them % ` is the percentage of IPs of each row ipset (them), found in `bogons`.
+- ` this % ` is the percentage **of this ipset (`bogons`)**, found in the IPs of each other ipset.
 
-ipset|entries|unique IPs|IPs found on both| % in| % of|
-:---:|:-----:|:--------:|:---------------:|:---:|:---:|
+ipset|entries|unique IPs|IPs on both| them % | this % |
+:---:|:-----:|:--------:|:---------:|:------:|:------:|
 fullbogons|3646|670922200|592708608|88.3%|100.0%|
 ib_bluetack_level3|18550|139108857|4194304|3.0%|0.7%|
 stop_forum_spam_30d|91499|91499|1|0.0%|0.0%|
@@ -385,11 +385,11 @@ The ipset `botnet` has **515** entries, **515** unique IPs.
 
 The following table shows the overlaps of `botnet` with all the other ipsets supported. Only the ipsets that have at least 1 IP overlap are shown. if an ipset is not shown here, it does not have any overlap with `botnet`.
 
-- ` %  in ` is the percentage of each row found **in botnet**.
-- ` %  of ` is the percentage **of botnet** found in each row.
+- ` them % ` is the percentage of IPs of each row ipset (them), found in `botnet`.
+- ` this % ` is the percentage **of this ipset (`botnet`)**, found in the IPs of each other ipset.
 
-ipset|entries|unique IPs|IPs found on both| % in| % of|
-:---:|:-----:|:--------:|:---------------:|:---:|:---:|
+ipset|entries|unique IPs|IPs on both| them % | this % |
+:---:|:-----:|:--------:|:---------:|:------:|:------:|
 ib_bluetack_level3|18550|139108857|76|0.0%|14.7%|
 ib_bluetack_level1|215693|765044590|42|0.0%|8.1%|
 ib_bluetack_level2|75927|348729520|24|0.0%|4.6%|
@@ -412,18 +412,18 @@ The ipset `bruteforceblocker` has **2288** entries, **2288** unique IPs.
 
 The following table shows the overlaps of `bruteforceblocker` with all the other ipsets supported. Only the ipsets that have at least 1 IP overlap are shown. if an ipset is not shown here, it does not have any overlap with `bruteforceblocker`.
 
-- ` %  in ` is the percentage of each row found **in bruteforceblocker**.
-- ` %  of ` is the percentage **of bruteforceblocker** found in each row.
+- ` them % ` is the percentage of IPs of each row ipset (them), found in `bruteforceblocker`.
+- ` this % ` is the percentage **of this ipset (`bruteforceblocker`)**, found in the IPs of each other ipset.
 
-ipset|entries|unique IPs|IPs found on both| % in| % of|
-:---:|:-----:|:--------:|:---------------:|:---:|:---:|
+ipset|entries|unique IPs|IPs on both| them % | this % |
+:---:|:-----:|:--------:|:---------:|:------:|:------:|
 compromised|2436|2436|2143|87.9%|93.6%|
 alienvault_reputation|188000|188000|1440|0.7%|62.9%|
 openbl|9986|9986|1351|13.5%|59.0%|
 openbl_90d|9986|9986|1351|13.5%|59.0%|
 openbl_60d|7904|7904|1340|16.9%|58.5%|
 openbl_30d|4722|4722|1288|27.2%|56.2%|
-blocklist_de|26580|26580|877|3.2%|38.3%|
+blocklist_de|26581|26581|875|3.2%|38.2%|
 openbl_7d|1427|1427|723|50.6%|31.5%|
 ib_bluetack_level3|18550|139108857|221|0.0%|9.6%|
 openbl_1d|357|357|202|56.5%|8.8%|
@@ -455,15 +455,15 @@ The ipset `ciarmy` has **403** entries, **403** unique IPs.
 
 The following table shows the overlaps of `ciarmy` with all the other ipsets supported. Only the ipsets that have at least 1 IP overlap are shown. if an ipset is not shown here, it does not have any overlap with `ciarmy`.
 
-- ` %  in ` is the percentage of each row found **in ciarmy**.
-- ` %  of ` is the percentage **of ciarmy** found in each row.
+- ` them % ` is the percentage of IPs of each row ipset (them), found in `ciarmy`.
+- ` this % ` is the percentage **of this ipset (`ciarmy`)**, found in the IPs of each other ipset.
 
-ipset|entries|unique IPs|IPs found on both| % in| % of|
-:---:|:-----:|:--------:|:---------------:|:---:|:---:|
+ipset|entries|unique IPs|IPs on both| them % | this % |
+:---:|:-----:|:--------:|:---------:|:------:|:------:|
 alienvault_reputation|188000|188000|389|0.2%|96.5%|
 ib_bluetack_level3|18550|139108857|69|0.0%|17.1%|
 ib_bluetack_level2|75927|348729520|49|0.0%|12.1%|
-blocklist_de|26580|26580|42|0.1%|10.4%|
+blocklist_de|26581|26581|42|0.1%|10.4%|
 ib_bluetack_level1|215693|765044590|33|0.0%|8.1%|
 dshield|20|5120|4|0.0%|0.9%|
 emerging_block|965|18065466|3|0.0%|0.7%|
@@ -480,11 +480,11 @@ The ipset `clean_mx_viruses` has **318** entries, **318** unique IPs.
 
 The following table shows the overlaps of `clean_mx_viruses` with all the other ipsets supported. Only the ipsets that have at least 1 IP overlap are shown. if an ipset is not shown here, it does not have any overlap with `clean_mx_viruses`.
 
-- ` %  in ` is the percentage of each row found **in clean_mx_viruses**.
-- ` %  of ` is the percentage **of clean_mx_viruses** found in each row.
+- ` them % ` is the percentage of IPs of each row ipset (them), found in `clean_mx_viruses`.
+- ` this % ` is the percentage **of this ipset (`clean_mx_viruses`)**, found in the IPs of each other ipset.
 
-ipset|entries|unique IPs|IPs found on both| % in| % of|
-:---:|:-----:|:--------:|:---------------:|:---:|:---:|
+ipset|entries|unique IPs|IPs on both| them % | this % |
+:---:|:-----:|:--------:|:---------:|:------:|:------:|
 ib_bluetack_level3|18550|139108857|52|0.0%|16.3%|
 malc0de|426|426|23|5.3%|7.2%|
 ib_bluetack_level2|75927|348729520|12|0.0%|3.7%|
@@ -492,7 +492,7 @@ ib_bluetack_level1|215693|765044590|10|0.0%|3.1%|
 alienvault_reputation|188000|188000|6|0.0%|1.8%|
 snort_ipfilter|6580|6580|3|0.0%|0.9%|
 ib_bluetack_spyware|898|336971|3|0.0%|0.9%|
-blocklist_de|26580|26580|2|0.0%|0.6%|
+blocklist_de|26581|26581|2|0.0%|0.6%|
 stop_forum_spam_7d|28751|28751|1|0.0%|0.3%|
 stop_forum_spam_30d|91499|91499|1|0.0%|0.3%|
 nixspam|18221|18221|1|0.0%|0.3%|
@@ -508,18 +508,18 @@ The ipset `compromised` has **2436** entries, **2436** unique IPs.
 
 The following table shows the overlaps of `compromised` with all the other ipsets supported. Only the ipsets that have at least 1 IP overlap are shown. if an ipset is not shown here, it does not have any overlap with `compromised`.
 
-- ` %  in ` is the percentage of each row found **in compromised**.
-- ` %  of ` is the percentage **of compromised** found in each row.
+- ` them % ` is the percentage of IPs of each row ipset (them), found in `compromised`.
+- ` this % ` is the percentage **of this ipset (`compromised`)**, found in the IPs of each other ipset.
 
-ipset|entries|unique IPs|IPs found on both| % in| % of|
-:---:|:-----:|:--------:|:---------------:|:---:|:---:|
+ipset|entries|unique IPs|IPs on both| them % | this % |
+:---:|:-----:|:--------:|:---------:|:------:|:------:|
 bruteforceblocker|2288|2288|2143|93.6%|87.9%|
 alienvault_reputation|188000|188000|1591|0.8%|65.3%|
 openbl|9986|9986|1473|14.7%|60.4%|
 openbl_90d|9986|9986|1473|14.7%|60.4%|
 openbl_60d|7904|7904|1461|18.4%|59.9%|
 openbl_30d|4722|4722|1337|28.3%|54.8%|
-blocklist_de|26580|26580|810|3.0%|33.2%|
+blocklist_de|26581|26581|807|3.0%|33.1%|
 openbl_7d|1427|1427|706|49.4%|28.9%|
 ib_bluetack_level3|18550|139108857|243|0.0%|9.9%|
 openbl_1d|357|357|198|55.4%|8.1%|
@@ -550,11 +550,11 @@ The ipset `danmetor` has **6530** entries, **6530** unique IPs.
 
 The following table shows the overlaps of `danmetor` with all the other ipsets supported. Only the ipsets that have at least 1 IP overlap are shown. if an ipset is not shown here, it does not have any overlap with `danmetor`.
 
-- ` %  in ` is the percentage of each row found **in danmetor**.
-- ` %  of ` is the percentage **of danmetor** found in each row.
+- ` them % ` is the percentage of IPs of each row ipset (them), found in `danmetor`.
+- ` this % ` is the percentage **of this ipset (`danmetor`)**, found in the IPs of each other ipset.
 
-ipset|entries|unique IPs|IPs found on both| % in| % of|
-:---:|:-----:|:--------:|:---------------:|:---:|:---:|
+ipset|entries|unique IPs|IPs on both| them % | this % |
+:---:|:-----:|:--------:|:---------:|:------:|:------:|
 tor_servers|6551|6551|6448|98.4%|98.7%|
 tor|6340|6340|5570|87.8%|85.2%|
 snort_ipfilter|6580|6580|1044|15.8%|15.9%|
@@ -572,7 +572,7 @@ ib_bluetack_spyware|898|336971|20|0.0%|0.3%|
 php_commenters|201|201|19|9.4%|0.2%|
 php_bad|201|201|19|9.4%|0.2%|
 php_harvesters|178|178|7|3.9%|0.1%|
-blocklist_de|26580|26580|6|0.0%|0.0%|
+blocklist_de|26581|26581|6|0.0%|0.0%|
 php_spammers|261|261|5|1.9%|0.0%|
 rosi_web_proxies|3273|3273|4|0.1%|0.0%|
 php_dictionary|275|275|4|1.4%|0.0%|
@@ -595,18 +595,18 @@ The ipset `dshield` has **20** entries, **5120** unique IPs.
 
 The following table shows the overlaps of `dshield` with all the other ipsets supported. Only the ipsets that have at least 1 IP overlap are shown. if an ipset is not shown here, it does not have any overlap with `dshield`.
 
-- ` %  in ` is the percentage of each row found **in dshield**.
-- ` %  of ` is the percentage **of dshield** found in each row.
+- ` them % ` is the percentage of IPs of each row ipset (them), found in `dshield`.
+- ` this % ` is the percentage **of this ipset (`dshield`)**, found in the IPs of each other ipset.
 
-ipset|entries|unique IPs|IPs found on both| % in| % of|
-:---:|:-----:|:--------:|:---------------:|:---:|:---:|
+ipset|entries|unique IPs|IPs on both| them % | this % |
+:---:|:-----:|:--------:|:---------:|:------:|:------:|
 alienvault_reputation|188000|188000|3589|1.9%|70.0%|
 emerging_block|965|18065466|1536|0.0%|30.0%|
 ib_bluetack_level1|215693|765044590|516|0.0%|10.0%|
 spamhaus_drop|640|18051584|256|0.0%|5.0%|
 ib_bluetack_level3|18550|139108857|256|0.0%|5.0%|
 ib_bluetack_level2|75927|348729520|256|0.0%|5.0%|
-blocklist_de|26580|26580|45|0.1%|0.8%|
+blocklist_de|26581|26581|45|0.1%|0.8%|
 openbl|9986|9986|38|0.3%|0.7%|
 openbl_90d|9986|9986|38|0.3%|0.7%|
 openbl_60d|7904|7904|38|0.4%|0.7%|
@@ -640,11 +640,11 @@ The ipset `emerging_block` has **965** entries, **18065466** unique IPs.
 
 The following table shows the overlaps of `emerging_block` with all the other ipsets supported. Only the ipsets that have at least 1 IP overlap are shown. if an ipset is not shown here, it does not have any overlap with `emerging_block`.
 
-- ` %  in ` is the percentage of each row found **in emerging_block**.
-- ` %  of ` is the percentage **of emerging_block** found in each row.
+- ` them % ` is the percentage of IPs of each row ipset (them), found in `emerging_block`.
+- ` this % ` is the percentage **of this ipset (`emerging_block`)**, found in the IPs of each other ipset.
 
-ipset|entries|unique IPs|IPs found on both| % in| % of|
-:---:|:-----:|:--------:|:---------------:|:---:|:---:|
+ipset|entries|unique IPs|IPs on both| them % | this % |
+:---:|:-----:|:--------:|:---------:|:------:|:------:|
 spamhaus_drop|640|18051584|17994240|99.6%|99.6%|
 ib_bluetack_level2|75927|348729520|8401701|2.4%|46.5%|
 ib_bluetack_hijacked|535|9177856|7277056|79.2%|40.2%|
@@ -664,7 +664,7 @@ zeus|262|262|257|98.0%|0.0%|
 zeus_badips|228|228|225|98.6%|0.0%|
 stop_forum_spam_7d|28751|28751|221|0.7%|0.0%|
 openbl_30d|4722|4722|216|4.5%|0.0%|
-blocklist_de|26580|26580|198|0.7%|0.0%|
+blocklist_de|26581|26581|198|0.7%|0.0%|
 nixspam|18221|18221|171|0.9%|0.0%|
 openbl_7d|1427|1427|103|7.2%|0.0%|
 bruteforceblocker|2288|2288|91|3.9%|0.0%|
@@ -701,11 +701,11 @@ The ipset `feodo` has **58** entries, **58** unique IPs.
 
 The following table shows the overlaps of `feodo` with all the other ipsets supported. Only the ipsets that have at least 1 IP overlap are shown. if an ipset is not shown here, it does not have any overlap with `feodo`.
 
-- ` %  in ` is the percentage of each row found **in feodo**.
-- ` %  of ` is the percentage **of feodo** found in each row.
+- ` them % ` is the percentage of IPs of each row ipset (them), found in `feodo`.
+- ` this % ` is the percentage **of this ipset (`feodo`)**, found in the IPs of each other ipset.
 
-ipset|entries|unique IPs|IPs found on both| % in| % of|
-:---:|:-----:|:--------:|:---------------:|:---:|:---:|
+ipset|entries|unique IPs|IPs on both| them % | this % |
+:---:|:-----:|:--------:|:---------:|:------:|:------:|
 emerging_block|965|18065466|56|0.0%|96.5%|
 snort_ipfilter|6580|6580|46|0.6%|79.3%|
 sslbl|320|320|21|6.5%|36.2%|
@@ -728,11 +728,11 @@ The ipset `fullbogons` has **3646** entries, **670922200** unique IPs.
 
 The following table shows the overlaps of `fullbogons` with all the other ipsets supported. Only the ipsets that have at least 1 IP overlap are shown. if an ipset is not shown here, it does not have any overlap with `fullbogons`.
 
-- ` %  in ` is the percentage of each row found **in fullbogons**.
-- ` %  of ` is the percentage **of fullbogons** found in each row.
+- ` them % ` is the percentage of IPs of each row ipset (them), found in `fullbogons`.
+- ` this % ` is the percentage **of this ipset (`fullbogons`)**, found in the IPs of each other ipset.
 
-ipset|entries|unique IPs|IPs found on both| % in| % of|
-:---:|:-----:|:--------:|:---------------:|:---:|:---:|
+ipset|entries|unique IPs|IPs on both| them % | this % |
+:---:|:-----:|:--------:|:---------:|:------:|:------:|
 bogons|13|592708608|592708608|100.0%|88.3%|
 ib_bluetack_level3|18550|139108857|4233774|3.0%|0.6%|
 ib_bluetack_hijacked|535|9177856|565248|6.1%|0.0%|
@@ -760,11 +760,11 @@ The ipset `ib_bluetack_badpeers` has **48134** entries, **48134** unique IPs.
 
 The following table shows the overlaps of `ib_bluetack_badpeers` with all the other ipsets supported. Only the ipsets that have at least 1 IP overlap are shown. if an ipset is not shown here, it does not have any overlap with `ib_bluetack_badpeers`.
 
-- ` %  in ` is the percentage of each row found **in ib_bluetack_badpeers**.
-- ` %  of ` is the percentage **of ib_bluetack_badpeers** found in each row.
+- ` them % ` is the percentage of IPs of each row ipset (them), found in `ib_bluetack_badpeers`.
+- ` this % ` is the percentage **of this ipset (`ib_bluetack_badpeers`)**, found in the IPs of each other ipset.
 
-ipset|entries|unique IPs|IPs found on both| % in| % of|
-:---:|:-----:|:--------:|:---------------:|:---:|:---:|
+ipset|entries|unique IPs|IPs on both| them % | this % |
+:---:|:-----:|:--------:|:---------:|:------:|:------:|
 ib_bluetack_level3|18550|139108857|1172|0.0%|2.4%|
 ib_bluetack_level1|215693|765044590|366|0.0%|0.7%|
 ib_bluetack_level2|75927|348729520|233|0.0%|0.4%|
@@ -777,7 +777,7 @@ spamhaus_drop|640|18051584|6|0.0%|0.0%|
 nixspam|18221|18221|6|0.0%|0.0%|
 stop_forum_spam_7d|28751|28751|5|0.0%|0.0%|
 ib_bluetack_spyware|898|336971|4|0.0%|0.0%|
-blocklist_de|26580|26580|4|0.0%|0.0%|
+blocklist_de|26581|26581|4|0.0%|0.0%|
 php_harvesters|178|178|2|1.1%|0.0%|
 php_dictionary|275|275|2|0.7%|0.0%|
 dshield|20|5120|2|0.0%|0.0%|
@@ -797,11 +797,11 @@ The ipset `ib_bluetack_hijacked` has **535** entries, **9177856** unique IPs.
 
 The following table shows the overlaps of `ib_bluetack_hijacked` with all the other ipsets supported. Only the ipsets that have at least 1 IP overlap are shown. if an ipset is not shown here, it does not have any overlap with `ib_bluetack_hijacked`.
 
-- ` %  in ` is the percentage of each row found **in ib_bluetack_hijacked**.
-- ` %  of ` is the percentage **of ib_bluetack_hijacked** found in each row.
+- ` them % ` is the percentage of IPs of each row ipset (them), found in `ib_bluetack_hijacked`.
+- ` this % ` is the percentage **of this ipset (`ib_bluetack_hijacked`)**, found in the IPs of each other ipset.
 
-ipset|entries|unique IPs|IPs found on both| % in| % of|
-:---:|:-----:|:--------:|:---------------:|:---:|:---:|
+ipset|entries|unique IPs|IPs on both| them % | this % |
+:---:|:-----:|:--------:|:---------:|:------:|:------:|
 emerging_block|965|18065466|7277056|40.2%|79.2%|
 spamhaus_drop|640|18051584|7211008|39.9%|78.5%|
 ib_bluetack_level2|75927|348729520|2526624|0.7%|27.5%|
@@ -813,7 +813,7 @@ stop_forum_spam_30d|91499|91499|708|0.7%|0.0%|
 alienvault_reputation|188000|188000|519|0.2%|0.0%|
 stop_forum_spam_7d|28751|28751|198|0.6%|0.0%|
 nixspam|18221|18221|166|0.9%|0.0%|
-blocklist_de|26580|26580|64|0.2%|0.0%|
+blocklist_de|26581|26581|64|0.2%|0.0%|
 stop_forum_spam_1h|6821|6821|39|0.5%|0.0%|
 malwaredomainlist|1283|1283|27|2.1%|0.0%|
 openbl|9986|9986|18|0.1%|0.0%|
@@ -847,11 +847,11 @@ The ipset `ib_bluetack_level1` has **215693** entries, **765044590** unique IPs.
 
 The following table shows the overlaps of `ib_bluetack_level1` with all the other ipsets supported. Only the ipsets that have at least 1 IP overlap are shown. if an ipset is not shown here, it does not have any overlap with `ib_bluetack_level1`.
 
-- ` %  in ` is the percentage of each row found **in ib_bluetack_level1**.
-- ` %  of ` is the percentage **of ib_bluetack_level1** found in each row.
+- ` them % ` is the percentage of IPs of each row ipset (them), found in `ib_bluetack_level1`.
+- ` this % ` is the percentage **of this ipset (`ib_bluetack_level1`)**, found in the IPs of each other ipset.
 
-ipset|entries|unique IPs|IPs found on both| % in| % of|
-:---:|:-----:|:--------:|:---------------:|:---:|:---:|
+ipset|entries|unique IPs|IPs on both| them % | this % |
+:---:|:-----:|:--------:|:---------:|:------:|:------:|
 ib_bluetack_level2|75927|348729520|16309487|4.6%|2.1%|
 emerging_block|965|18065466|2133264|11.8%|0.2%|
 spamhaus_drop|640|18051584|2132981|11.8%|0.2%|
@@ -861,7 +861,7 @@ fullbogons|3646|670922200|232563|0.0%|0.0%|
 spamhaus_edrop|55|421120|33152|7.8%|0.0%|
 ib_bluetack_spyware|898|336971|12921|3.8%|0.0%|
 alienvault_reputation|188000|188000|5119|2.7%|0.0%|
-blocklist_de|26580|26580|1521|5.7%|0.0%|
+blocklist_de|26581|26581|1521|5.7%|0.0%|
 stop_forum_spam_30d|91499|91499|1257|1.3%|0.0%|
 dshield|20|5120|516|10.0%|0.0%|
 stop_forum_spam_7d|28751|28751|451|1.5%|0.0%|
@@ -910,11 +910,11 @@ The ipset `ib_bluetack_level2` has **75927** entries, **348729520** unique IPs.
 
 The following table shows the overlaps of `ib_bluetack_level2` with all the other ipsets supported. Only the ipsets that have at least 1 IP overlap are shown. if an ipset is not shown here, it does not have any overlap with `ib_bluetack_level2`.
 
-- ` %  in ` is the percentage of each row found **in ib_bluetack_level2**.
-- ` %  of ` is the percentage **of ib_bluetack_level2** found in each row.
+- ` them % ` is the percentage of IPs of each row ipset (them), found in `ib_bluetack_level2`.
+- ` this % ` is the percentage **of this ipset (`ib_bluetack_level2`)**, found in the IPs of each other ipset.
 
-ipset|entries|unique IPs|IPs found on both| % in| % of|
-:---:|:-----:|:--------:|:---------------:|:---:|:---:|
+ipset|entries|unique IPs|IPs on both| them % | this % |
+:---:|:-----:|:--------:|:---------:|:------:|:------:|
 ib_bluetack_level1|215693|765044590|16309487|2.1%|4.6%|
 emerging_block|965|18065466|8401701|46.5%|2.4%|
 spamhaus_drop|640|18051584|8401433|46.5%|2.4%|
@@ -925,7 +925,7 @@ spamhaus_edrop|55|421120|33368|7.9%|0.0%|
 alienvault_reputation|188000|188000|8665|4.6%|0.0%|
 ib_bluetack_spyware|898|336971|7629|2.2%|0.0%|
 stop_forum_spam_30d|91499|91499|2388|2.6%|0.0%|
-blocklist_de|26580|26580|1438|5.4%|0.0%|
+blocklist_de|26581|26581|1438|5.4%|0.0%|
 stop_forum_spam_7d|28751|28751|819|2.8%|0.0%|
 openbl|9986|9986|534|5.3%|0.0%|
 openbl_90d|9986|9986|534|5.3%|0.0%|
@@ -975,11 +975,11 @@ The ipset `ib_bluetack_level3` has **18550** entries, **139108857** unique IPs.
 
 The following table shows the overlaps of `ib_bluetack_level3` with all the other ipsets supported. Only the ipsets that have at least 1 IP overlap are shown. if an ipset is not shown here, it does not have any overlap with `ib_bluetack_level3`.
 
-- ` %  in ` is the percentage of each row found **in ib_bluetack_level3**.
-- ` %  of ` is the percentage **of ib_bluetack_level3** found in each row.
+- ` them % ` is the percentage of IPs of each row ipset (them), found in `ib_bluetack_level3`.
+- ` this % ` is the percentage **of this ipset (`ib_bluetack_level3`)**, found in the IPs of each other ipset.
 
-ipset|entries|unique IPs|IPs found on both| % in| % of|
-:---:|:-----:|:--------:|:---------------:|:---:|:---:|
+ipset|entries|unique IPs|IPs on both| them % | this % |
+:---:|:-----:|:--------:|:---------:|:------:|:------:|
 fullbogons|3646|670922200|4233774|0.6%|3.0%|
 bogons|13|592708608|4194304|0.7%|3.0%|
 ib_bluetack_level2|75927|348729520|2831962|0.8%|2.0%|
@@ -991,7 +991,7 @@ ib_bluetack_hijacked|535|9177856|145472|1.5%|0.1%|
 alienvault_reputation|188000|188000|15506|8.2%|0.0%|
 ib_bluetack_spyware|898|336971|8958|2.6%|0.0%|
 stop_forum_spam_30d|91499|91499|6228|6.8%|0.0%|
-blocklist_de|26580|26580|3290|12.3%|0.0%|
+blocklist_de|26581|26581|3291|12.3%|0.0%|
 stop_forum_spam_7d|28751|28751|1914|6.6%|0.0%|
 ib_bluetack_badpeers|48134|48134|1172|2.4%|0.0%|
 nixspam|18221|18221|1155|6.3%|0.0%|
@@ -1041,11 +1041,11 @@ The ipset `ib_bluetack_proxies` has **673** entries, **673** unique IPs.
 
 The following table shows the overlaps of `ib_bluetack_proxies` with all the other ipsets supported. Only the ipsets that have at least 1 IP overlap are shown. if an ipset is not shown here, it does not have any overlap with `ib_bluetack_proxies`.
 
-- ` %  in ` is the percentage of each row found **in ib_bluetack_proxies**.
-- ` %  of ` is the percentage **of ib_bluetack_proxies** found in each row.
+- ` them % ` is the percentage of IPs of each row ipset (them), found in `ib_bluetack_proxies`.
+- ` this % ` is the percentage **of this ipset (`ib_bluetack_proxies`)**, found in the IPs of each other ipset.
 
-ipset|entries|unique IPs|IPs found on both| % in| % of|
-:---:|:-----:|:--------:|:---------------:|:---:|:---:|
+ipset|entries|unique IPs|IPs on both| them % | this % |
+:---:|:-----:|:--------:|:---------:|:------:|:------:|
 ib_bluetack_level3|18550|139108857|51|0.0%|7.5%|
 ib_bluetack_level2|75927|348729520|28|0.0%|4.1%|
 stop_forum_spam_30d|91499|91499|24|0.0%|3.5%|
@@ -1060,7 +1060,7 @@ spamhaus_drop|640|18051584|2|0.0%|0.2%|
 ib_bluetack_webexploit|1460|1460|2|0.1%|0.2%|
 ib_bluetack_hijacked|535|9177856|2|0.0%|0.2%|
 emerging_block|965|18065466|2|0.0%|0.2%|
-blocklist_de|26580|26580|2|0.0%|0.2%|
+blocklist_de|26581|26581|2|0.0%|0.2%|
 snort_ipfilter|6580|6580|1|0.0%|0.1%|
 php_dictionary|275|275|1|0.3%|0.1%|
 alienvault_reputation|188000|188000|1|0.0%|0.1%|
@@ -1076,11 +1076,11 @@ The ipset `ib_bluetack_spyware` has **898** entries, **336971** unique IPs.
 
 The following table shows the overlaps of `ib_bluetack_spyware` with all the other ipsets supported. Only the ipsets that have at least 1 IP overlap are shown. if an ipset is not shown here, it does not have any overlap with `ib_bluetack_spyware`.
 
-- ` %  in ` is the percentage of each row found **in ib_bluetack_spyware**.
-- ` %  of ` is the percentage **of ib_bluetack_spyware** found in each row.
+- ` them % ` is the percentage of IPs of each row ipset (them), found in `ib_bluetack_spyware`.
+- ` this % ` is the percentage **of this ipset (`ib_bluetack_spyware`)**, found in the IPs of each other ipset.
 
-ipset|entries|unique IPs|IPs found on both| % in| % of|
-:---:|:-----:|:--------:|:---------------:|:---:|:---:|
+ipset|entries|unique IPs|IPs on both| them % | this % |
+:---:|:-----:|:--------:|:---------:|:------:|:------:|
 ib_bluetack_level1|215693|765044590|12921|0.0%|3.8%|
 ib_bluetack_level3|18550|139108857|8958|0.0%|2.6%|
 ib_bluetack_level2|75927|348729520|7629|0.0%|2.2%|
@@ -1097,7 +1097,7 @@ danmetor|6530|6530|20|0.3%|0.0%|
 nixspam|18221|18221|15|0.0%|0.0%|
 malwaredomainlist|1283|1283|14|1.0%|0.0%|
 snort_ipfilter|6580|6580|12|0.1%|0.0%|
-blocklist_de|26580|26580|12|0.0%|0.0%|
+blocklist_de|26581|26581|12|0.0%|0.0%|
 stop_forum_spam_1h|6821|6821|10|0.1%|0.0%|
 ib_bluetack_webexploit|1460|1460|7|0.4%|0.0%|
 openbl|9986|9986|5|0.0%|0.0%|
@@ -1127,11 +1127,11 @@ The ipset `ib_bluetack_webexploit` has **1460** entries, **1460** unique IPs.
 
 The following table shows the overlaps of `ib_bluetack_webexploit` with all the other ipsets supported. Only the ipsets that have at least 1 IP overlap are shown. if an ipset is not shown here, it does not have any overlap with `ib_bluetack_webexploit`.
 
-- ` %  in ` is the percentage of each row found **in ib_bluetack_webexploit**.
-- ` %  of ` is the percentage **of ib_bluetack_webexploit** found in each row.
+- ` them % ` is the percentage of IPs of each row ipset (them), found in `ib_bluetack_webexploit`.
+- ` this % ` is the percentage **of this ipset (`ib_bluetack_webexploit`)**, found in the IPs of each other ipset.
 
-ipset|entries|unique IPs|IPs found on both| % in| % of|
-:---:|:-----:|:--------:|:---------------:|:---:|:---:|
+ipset|entries|unique IPs|IPs on both| them % | this % |
+:---:|:-----:|:--------:|:---------:|:------:|:------:|
 ib_bluetack_level3|18550|139108857|110|0.0%|7.5%|
 ib_bluetack_level1|215693|765044590|90|0.0%|6.1%|
 ib_bluetack_level2|75927|348729520|43|0.0%|2.9%|
@@ -1162,7 +1162,7 @@ danmetor|6530|6530|1|0.0%|0.0%|
 compromised|2436|2436|1|0.0%|0.0%|
 bruteforceblocker|2288|2288|1|0.0%|0.0%|
 botnet|515|515|1|0.1%|0.0%|
-blocklist_de|26580|26580|1|0.0%|0.0%|
+blocklist_de|26581|26581|1|0.0%|0.0%|
 
 # malc0de
 
@@ -1175,11 +1175,11 @@ The ipset `malc0de` has **426** entries, **426** unique IPs.
 
 The following table shows the overlaps of `malc0de` with all the other ipsets supported. Only the ipsets that have at least 1 IP overlap are shown. if an ipset is not shown here, it does not have any overlap with `malc0de`.
 
-- ` %  in ` is the percentage of each row found **in malc0de**.
-- ` %  of ` is the percentage **of malc0de** found in each row.
+- ` them % ` is the percentage of IPs of each row ipset (them), found in `malc0de`.
+- ` this % ` is the percentage **of this ipset (`malc0de`)**, found in the IPs of each other ipset.
 
-ipset|entries|unique IPs|IPs found on both| % in| % of|
-:---:|:-----:|:--------:|:---------------:|:---:|:---:|
+ipset|entries|unique IPs|IPs on both| them % | this % |
+:---:|:-----:|:--------:|:---------:|:------:|:------:|
 ib_bluetack_level3|18550|139108857|80|0.0%|18.7%|
 ib_bluetack_level2|75927|348729520|28|0.0%|6.5%|
 clean_mx_viruses|318|318|23|7.2%|5.3%|
@@ -1203,11 +1203,11 @@ The ipset `malwaredomainlist` has **1283** entries, **1283** unique IPs.
 
 The following table shows the overlaps of `malwaredomainlist` with all the other ipsets supported. Only the ipsets that have at least 1 IP overlap are shown. if an ipset is not shown here, it does not have any overlap with `malwaredomainlist`.
 
-- ` %  in ` is the percentage of each row found **in malwaredomainlist**.
-- ` %  of ` is the percentage **of malwaredomainlist** found in each row.
+- ` them % ` is the percentage of IPs of each row ipset (them), found in `malwaredomainlist`.
+- ` this % ` is the percentage **of this ipset (`malwaredomainlist`)**, found in the IPs of each other ipset.
 
-ipset|entries|unique IPs|IPs found on both| % in| % of|
-:---:|:-----:|:--------:|:---------------:|:---:|:---:|
+ipset|entries|unique IPs|IPs on both| them % | this % |
+:---:|:-----:|:--------:|:---------:|:------:|:------:|
 ib_bluetack_level3|18550|139108857|146|0.0%|11.3%|
 ib_bluetack_level1|215693|765044590|60|0.0%|4.6%|
 spamhaus_drop|640|18051584|28|0.0%|2.1%|
@@ -1220,7 +1220,7 @@ fullbogons|3646|670922200|9|0.0%|0.7%|
 alienvault_reputation|188000|188000|6|0.0%|0.4%|
 malc0de|426|426|4|0.9%|0.3%|
 ib_bluetack_webexploit|1460|1460|3|0.2%|0.2%|
-blocklist_de|26580|26580|3|0.0%|0.2%|
+blocklist_de|26581|26581|3|0.0%|0.2%|
 stop_forum_spam_30d|91499|91499|2|0.0%|0.1%|
 nixspam|18221|18221|1|0.0%|0.0%|
 botnet|515|515|1|0.1%|0.0%|
@@ -1230,19 +1230,19 @@ botnet|515|515|1|0.1%|0.0%|
 [NiX Spam](http://www.heise.de/ix/NiX-Spam-DNSBL-and-blacklist-for-download-499637.html) IP addresses that sent spam in the last hour - automatically generated entries without distinguishing open proxies from relays, dialup gateways, and so on. All IPs are removed after 12 hours if there is no spam from there.
 
 Source is downloaded from [this link](http://www.dnsbl.manitu.net/download/nixspam-ip.dump.gz).
-The last time downloaded was found to be dated: .
+The last time downloaded was found to be dated: Sun May 24 21:30:02 UTC 2015.
 
 The ipset `nixspam` has **18221** entries, **18221** unique IPs.
 
 The following table shows the overlaps of `nixspam` with all the other ipsets supported. Only the ipsets that have at least 1 IP overlap are shown. if an ipset is not shown here, it does not have any overlap with `nixspam`.
 
-- ` %  in ` is the percentage of each row found **in nixspam**.
-- ` %  of ` is the percentage **of nixspam** found in each row.
+- ` them % ` is the percentage of IPs of each row ipset (them), found in `nixspam`.
+- ` this % ` is the percentage **of this ipset (`nixspam`)**, found in the IPs of each other ipset.
 
-ipset|entries|unique IPs|IPs found on both| % in| % of|
-:---:|:-----:|:--------:|:---------------:|:---:|:---:|
+ipset|entries|unique IPs|IPs on both| them % | this % |
+:---:|:-----:|:--------:|:---------:|:------:|:------:|
 ib_bluetack_level3|18550|139108857|1155|0.0%|6.3%|
-blocklist_de|26580|26580|648|2.4%|3.5%|
+blocklist_de|26581|26581|652|2.4%|3.5%|
 ib_bluetack_level2|75927|348729520|484|0.0%|2.6%|
 ib_bluetack_level1|215693|765044590|328|0.0%|1.8%|
 stop_forum_spam_30d|91499|91499|199|0.2%|1.0%|
@@ -1287,11 +1287,11 @@ The ipset `openbl` has **9986** entries, **9986** unique IPs.
 
 The following table shows the overlaps of `openbl` with all the other ipsets supported. Only the ipsets that have at least 1 IP overlap are shown. if an ipset is not shown here, it does not have any overlap with `openbl`.
 
-- ` %  in ` is the percentage of each row found **in openbl**.
-- ` %  of ` is the percentage **of openbl** found in each row.
+- ` them % ` is the percentage of IPs of each row ipset (them), found in `openbl`.
+- ` this % ` is the percentage **of this ipset (`openbl`)**, found in the IPs of each other ipset.
 
-ipset|entries|unique IPs|IPs found on both| % in| % of|
-:---:|:-----:|:--------:|:---------------:|:---:|:---:|
+ipset|entries|unique IPs|IPs on both| them % | this % |
+:---:|:-----:|:--------:|:---------:|:------:|:------:|
 openbl_90d|9986|9986|9986|100.0%|100.0%|
 alienvault_reputation|188000|188000|9955|5.2%|99.6%|
 openbl_60d|7904|7904|7904|100.0%|79.1%|
@@ -1299,7 +1299,7 @@ openbl_30d|4722|4722|4722|100.0%|47.2%|
 compromised|2436|2436|1473|60.4%|14.7%|
 openbl_7d|1427|1427|1427|100.0%|14.2%|
 bruteforceblocker|2288|2288|1351|59.0%|13.5%|
-blocklist_de|26580|26580|1299|4.8%|13.0%|
+blocklist_de|26581|26581|1299|4.8%|13.0%|
 ib_bluetack_level3|18550|139108857|971|0.0%|9.7%|
 ib_bluetack_level2|75927|348729520|534|0.0%|5.3%|
 emerging_block|965|18065466|452|0.0%|4.5%|
@@ -1340,18 +1340,18 @@ The ipset `openbl_1d` has **357** entries, **357** unique IPs.
 
 The following table shows the overlaps of `openbl_1d` with all the other ipsets supported. Only the ipsets that have at least 1 IP overlap are shown. if an ipset is not shown here, it does not have any overlap with `openbl_1d`.
 
-- ` %  in ` is the percentage of each row found **in openbl_1d**.
-- ` %  of ` is the percentage **of openbl_1d** found in each row.
+- ` them % ` is the percentage of IPs of each row ipset (them), found in `openbl_1d`.
+- ` this % ` is the percentage **of this ipset (`openbl_1d`)**, found in the IPs of each other ipset.
 
-ipset|entries|unique IPs|IPs found on both| % in| % of|
-:---:|:-----:|:--------:|:---------------:|:---:|:---:|
+ipset|entries|unique IPs|IPs on both| them % | this % |
+:---:|:-----:|:--------:|:---------:|:------:|:------:|
 openbl|9986|9986|357|3.5%|100.0%|
 openbl_90d|9986|9986|357|3.5%|100.0%|
 openbl_7d|1427|1427|357|25.0%|100.0%|
 openbl_60d|7904|7904|357|4.5%|100.0%|
 openbl_30d|4722|4722|357|7.5%|100.0%|
 alienvault_reputation|188000|188000|355|0.1%|99.4%|
-blocklist_de|26580|26580|252|0.9%|70.5%|
+blocklist_de|26581|26581|251|0.9%|70.3%|
 bruteforceblocker|2288|2288|202|8.8%|56.5%|
 compromised|2436|2436|198|8.1%|55.4%|
 emerging_block|965|18065466|27|0.0%|7.5%|
@@ -1377,11 +1377,11 @@ The ipset `openbl_30d` has **4722** entries, **4722** unique IPs.
 
 The following table shows the overlaps of `openbl_30d` with all the other ipsets supported. Only the ipsets that have at least 1 IP overlap are shown. if an ipset is not shown here, it does not have any overlap with `openbl_30d`.
 
-- ` %  in ` is the percentage of each row found **in openbl_30d**.
-- ` %  of ` is the percentage **of openbl_30d** found in each row.
+- ` them % ` is the percentage of IPs of each row ipset (them), found in `openbl_30d`.
+- ` this % ` is the percentage **of this ipset (`openbl_30d`)**, found in the IPs of each other ipset.
 
-ipset|entries|unique IPs|IPs found on both| % in| % of|
-:---:|:-----:|:--------:|:---------------:|:---:|:---:|
+ipset|entries|unique IPs|IPs on both| them % | this % |
+:---:|:-----:|:--------:|:---------:|:------:|:------:|
 openbl|9986|9986|4722|47.2%|100.0%|
 openbl_90d|9986|9986|4722|47.2%|100.0%|
 openbl_60d|7904|7904|4722|59.7%|100.0%|
@@ -1389,7 +1389,7 @@ alienvault_reputation|188000|188000|4705|2.5%|99.6%|
 openbl_7d|1427|1427|1427|100.0%|30.2%|
 compromised|2436|2436|1337|54.8%|28.3%|
 bruteforceblocker|2288|2288|1288|56.2%|27.2%|
-blocklist_de|26580|26580|1102|4.1%|23.3%|
+blocklist_de|26581|26581|1102|4.1%|23.3%|
 ib_bluetack_level3|18550|139108857|488|0.0%|10.3%|
 openbl_1d|357|357|357|100.0%|7.5%|
 ib_bluetack_level2|75927|348729520|232|0.0%|4.9%|
@@ -1421,11 +1421,11 @@ The ipset `openbl_60d` has **7904** entries, **7904** unique IPs.
 
 The following table shows the overlaps of `openbl_60d` with all the other ipsets supported. Only the ipsets that have at least 1 IP overlap are shown. if an ipset is not shown here, it does not have any overlap with `openbl_60d`.
 
-- ` %  in ` is the percentage of each row found **in openbl_60d**.
-- ` %  of ` is the percentage **of openbl_60d** found in each row.
+- ` them % ` is the percentage of IPs of each row ipset (them), found in `openbl_60d`.
+- ` this % ` is the percentage **of this ipset (`openbl_60d`)**, found in the IPs of each other ipset.
 
-ipset|entries|unique IPs|IPs found on both| % in| % of|
-:---:|:-----:|:--------:|:---------------:|:---:|:---:|
+ipset|entries|unique IPs|IPs on both| them % | this % |
+:---:|:-----:|:--------:|:---------:|:------:|:------:|
 openbl|9986|9986|7904|79.1%|100.0%|
 openbl_90d|9986|9986|7904|79.1%|100.0%|
 alienvault_reputation|188000|188000|7879|4.1%|99.6%|
@@ -1433,7 +1433,7 @@ openbl_30d|4722|4722|4722|100.0%|59.7%|
 compromised|2436|2436|1461|59.9%|18.4%|
 openbl_7d|1427|1427|1427|100.0%|18.0%|
 bruteforceblocker|2288|2288|1340|58.5%|16.9%|
-blocklist_de|26580|26580|1249|4.6%|15.8%|
+blocklist_de|26581|26581|1249|4.6%|15.8%|
 ib_bluetack_level3|18550|139108857|719|0.0%|9.0%|
 ib_bluetack_level2|75927|348729520|382|0.0%|4.8%|
 openbl_1d|357|357|357|100.0%|4.5%|
@@ -1471,17 +1471,17 @@ The ipset `openbl_7d` has **1427** entries, **1427** unique IPs.
 
 The following table shows the overlaps of `openbl_7d` with all the other ipsets supported. Only the ipsets that have at least 1 IP overlap are shown. if an ipset is not shown here, it does not have any overlap with `openbl_7d`.
 
-- ` %  in ` is the percentage of each row found **in openbl_7d**.
-- ` %  of ` is the percentage **of openbl_7d** found in each row.
+- ` them % ` is the percentage of IPs of each row ipset (them), found in `openbl_7d`.
+- ` this % ` is the percentage **of this ipset (`openbl_7d`)**, found in the IPs of each other ipset.
 
-ipset|entries|unique IPs|IPs found on both| % in| % of|
-:---:|:-----:|:--------:|:---------------:|:---:|:---:|
+ipset|entries|unique IPs|IPs on both| them % | this % |
+:---:|:-----:|:--------:|:---------:|:------:|:------:|
 openbl|9986|9986|1427|14.2%|100.0%|
 openbl_90d|9986|9986|1427|14.2%|100.0%|
 openbl_60d|7904|7904|1427|18.0%|100.0%|
 openbl_30d|4722|4722|1427|30.2%|100.0%|
 alienvault_reputation|188000|188000|1412|0.7%|98.9%|
-blocklist_de|26580|26580|795|2.9%|55.7%|
+blocklist_de|26581|26581|795|2.9%|55.7%|
 bruteforceblocker|2288|2288|723|31.5%|50.6%|
 compromised|2436|2436|706|28.9%|49.4%|
 openbl_1d|357|357|357|100.0%|25.0%|
@@ -1512,11 +1512,11 @@ The ipset `openbl_90d` has **9986** entries, **9986** unique IPs.
 
 The following table shows the overlaps of `openbl_90d` with all the other ipsets supported. Only the ipsets that have at least 1 IP overlap are shown. if an ipset is not shown here, it does not have any overlap with `openbl_90d`.
 
-- ` %  in ` is the percentage of each row found **in openbl_90d**.
-- ` %  of ` is the percentage **of openbl_90d** found in each row.
+- ` them % ` is the percentage of IPs of each row ipset (them), found in `openbl_90d`.
+- ` this % ` is the percentage **of this ipset (`openbl_90d`)**, found in the IPs of each other ipset.
 
-ipset|entries|unique IPs|IPs found on both| % in| % of|
-:---:|:-----:|:--------:|:---------------:|:---:|:---:|
+ipset|entries|unique IPs|IPs on both| them % | this % |
+:---:|:-----:|:--------:|:---------:|:------:|:------:|
 openbl|9986|9986|9986|100.0%|100.0%|
 alienvault_reputation|188000|188000|9955|5.2%|99.6%|
 openbl_60d|7904|7904|7904|100.0%|79.1%|
@@ -1524,7 +1524,7 @@ openbl_30d|4722|4722|4722|100.0%|47.2%|
 compromised|2436|2436|1473|60.4%|14.7%|
 openbl_7d|1427|1427|1427|100.0%|14.2%|
 bruteforceblocker|2288|2288|1351|59.0%|13.5%|
-blocklist_de|26580|26580|1299|4.8%|13.0%|
+blocklist_de|26581|26581|1299|4.8%|13.0%|
 ib_bluetack_level3|18550|139108857|971|0.0%|9.7%|
 ib_bluetack_level2|75927|348729520|534|0.0%|5.3%|
 emerging_block|965|18065466|452|0.0%|4.5%|
@@ -1565,11 +1565,11 @@ The ipset `palevo` has **13** entries, **13** unique IPs.
 
 The following table shows the overlaps of `palevo` with all the other ipsets supported. Only the ipsets that have at least 1 IP overlap are shown. if an ipset is not shown here, it does not have any overlap with `palevo`.
 
-- ` %  in ` is the percentage of each row found **in palevo**.
-- ` %  of ` is the percentage **of palevo** found in each row.
+- ` them % ` is the percentage of IPs of each row ipset (them), found in `palevo`.
+- ` this % ` is the percentage **of this ipset (`palevo`)**, found in the IPs of each other ipset.
 
-ipset|entries|unique IPs|IPs found on both| % in| % of|
-:---:|:-----:|:--------:|:---------------:|:---:|:---:|
+ipset|entries|unique IPs|IPs on both| them % | this % |
+:---:|:-----:|:--------:|:---------:|:------:|:------:|
 emerging_block|965|18065466|12|0.0%|92.3%|
 snort_ipfilter|6580|6580|11|0.1%|84.6%|
 ib_bluetack_level2|75927|348729520|3|0.0%|23.0%|
@@ -1586,16 +1586,16 @@ The ipset `php_bad` has **201** entries, **201** unique IPs.
 
 The following table shows the overlaps of `php_bad` with all the other ipsets supported. Only the ipsets that have at least 1 IP overlap are shown. if an ipset is not shown here, it does not have any overlap with `php_bad`.
 
-- ` %  in ` is the percentage of each row found **in php_bad**.
-- ` %  of ` is the percentage **of php_bad** found in each row.
+- ` them % ` is the percentage of IPs of each row ipset (them), found in `php_bad`.
+- ` this % ` is the percentage **of this ipset (`php_bad`)**, found in the IPs of each other ipset.
 
-ipset|entries|unique IPs|IPs found on both| % in| % of|
-:---:|:-----:|:--------:|:---------------:|:---:|:---:|
+ipset|entries|unique IPs|IPs on both| them % | this % |
+:---:|:-----:|:--------:|:---------:|:------:|:------:|
 php_commenters|201|201|201|100.0%|100.0%|
 stop_forum_spam_30d|91499|91499|142|0.1%|70.6%|
 stop_forum_spam_7d|28751|28751|135|0.4%|67.1%|
 stop_forum_spam_1h|6821|6821|104|1.5%|51.7%|
-blocklist_de|26580|26580|68|0.2%|33.8%|
+blocklist_de|26581|26581|68|0.2%|33.8%|
 snort_ipfilter|6580|6580|27|0.4%|13.4%|
 spamhaus_drop|640|18051584|24|0.0%|11.9%|
 emerging_block|965|18065466|24|0.0%|11.9%|
@@ -1629,16 +1629,16 @@ The ipset `php_commenters` has **201** entries, **201** unique IPs.
 
 The following table shows the overlaps of `php_commenters` with all the other ipsets supported. Only the ipsets that have at least 1 IP overlap are shown. if an ipset is not shown here, it does not have any overlap with `php_commenters`.
 
-- ` %  in ` is the percentage of each row found **in php_commenters**.
-- ` %  of ` is the percentage **of php_commenters** found in each row.
+- ` them % ` is the percentage of IPs of each row ipset (them), found in `php_commenters`.
+- ` this % ` is the percentage **of this ipset (`php_commenters`)**, found in the IPs of each other ipset.
 
-ipset|entries|unique IPs|IPs found on both| % in| % of|
-:---:|:-----:|:--------:|:---------------:|:---:|:---:|
+ipset|entries|unique IPs|IPs on both| them % | this % |
+:---:|:-----:|:--------:|:---------:|:------:|:------:|
 php_bad|201|201|201|100.0%|100.0%|
 stop_forum_spam_30d|91499|91499|142|0.1%|70.6%|
 stop_forum_spam_7d|28751|28751|135|0.4%|67.1%|
 stop_forum_spam_1h|6821|6821|104|1.5%|51.7%|
-blocklist_de|26580|26580|68|0.2%|33.8%|
+blocklist_de|26581|26581|68|0.2%|33.8%|
 snort_ipfilter|6580|6580|27|0.4%|13.4%|
 spamhaus_drop|640|18051584|24|0.0%|11.9%|
 emerging_block|965|18065466|24|0.0%|11.9%|
@@ -1672,13 +1672,13 @@ The ipset `php_dictionary` has **275** entries, **275** unique IPs.
 
 The following table shows the overlaps of `php_dictionary` with all the other ipsets supported. Only the ipsets that have at least 1 IP overlap are shown. if an ipset is not shown here, it does not have any overlap with `php_dictionary`.
 
-- ` %  in ` is the percentage of each row found **in php_dictionary**.
-- ` %  of ` is the percentage **of php_dictionary** found in each row.
+- ` them % ` is the percentage of IPs of each row ipset (them), found in `php_dictionary`.
+- ` this % ` is the percentage **of this ipset (`php_dictionary`)**, found in the IPs of each other ipset.
 
-ipset|entries|unique IPs|IPs found on both| % in| % of|
-:---:|:-----:|:--------:|:---------------:|:---:|:---:|
+ipset|entries|unique IPs|IPs on both| them % | this % |
+:---:|:-----:|:--------:|:---------:|:------:|:------:|
 nixspam|18221|18221|85|0.4%|30.9%|
-blocklist_de|26580|26580|80|0.3%|29.0%|
+blocklist_de|26581|26581|79|0.2%|28.7%|
 snort_ipfilter|6580|6580|65|0.9%|23.6%|
 stop_forum_spam_30d|91499|91499|48|0.0%|17.4%|
 php_spammers|261|261|46|17.6%|16.7%|
@@ -1713,15 +1713,15 @@ The ipset `php_harvesters` has **178** entries, **178** unique IPs.
 
 The following table shows the overlaps of `php_harvesters` with all the other ipsets supported. Only the ipsets that have at least 1 IP overlap are shown. if an ipset is not shown here, it does not have any overlap with `php_harvesters`.
 
-- ` %  in ` is the percentage of each row found **in php_harvesters**.
-- ` %  of ` is the percentage **of php_harvesters** found in each row.
+- ` them % ` is the percentage of IPs of each row ipset (them), found in `php_harvesters`.
+- ` this % ` is the percentage **of this ipset (`php_harvesters`)**, found in the IPs of each other ipset.
 
-ipset|entries|unique IPs|IPs found on both| % in| % of|
-:---:|:-----:|:--------:|:---------------:|:---:|:---:|
+ipset|entries|unique IPs|IPs on both| them % | this % |
+:---:|:-----:|:--------:|:---------:|:------:|:------:|
 stop_forum_spam_30d|91499|91499|46|0.0%|25.8%|
 stop_forum_spam_7d|28751|28751|40|0.1%|22.4%|
 stop_forum_spam_1h|6821|6821|23|0.3%|12.9%|
-blocklist_de|26580|26580|21|0.0%|11.7%|
+blocklist_de|26581|26581|22|0.0%|12.3%|
 ib_bluetack_level3|18550|139108857|12|0.0%|6.7%|
 snort_ipfilter|6580|6580|10|0.1%|5.6%|
 php_commenters|201|201|8|3.9%|4.4%|
@@ -1757,12 +1757,12 @@ The ipset `php_spammers` has **261** entries, **261** unique IPs.
 
 The following table shows the overlaps of `php_spammers` with all the other ipsets supported. Only the ipsets that have at least 1 IP overlap are shown. if an ipset is not shown here, it does not have any overlap with `php_spammers`.
 
-- ` %  in ` is the percentage of each row found **in php_spammers**.
-- ` %  of ` is the percentage **of php_spammers** found in each row.
+- ` them % ` is the percentage of IPs of each row ipset (them), found in `php_spammers`.
+- ` this % ` is the percentage **of this ipset (`php_spammers`)**, found in the IPs of each other ipset.
 
-ipset|entries|unique IPs|IPs found on both| % in| % of|
-:---:|:-----:|:--------:|:---------------:|:---:|:---:|
-blocklist_de|26580|26580|64|0.2%|24.5%|
+ipset|entries|unique IPs|IPs on both| them % | this % |
+:---:|:-----:|:--------:|:---------:|:------:|:------:|
+blocklist_de|26581|26581|63|0.2%|24.1%|
 nixspam|18221|18221|62|0.3%|23.7%|
 stop_forum_spam_30d|91499|91499|61|0.0%|23.3%|
 snort_ipfilter|6580|6580|55|0.8%|21.0%|
@@ -1797,16 +1797,16 @@ The ipset `rosi_connect_proxies` has **1348** entries, **1348** unique IPs.
 
 The following table shows the overlaps of `rosi_connect_proxies` with all the other ipsets supported. Only the ipsets that have at least 1 IP overlap are shown. if an ipset is not shown here, it does not have any overlap with `rosi_connect_proxies`.
 
-- ` %  in ` is the percentage of each row found **in rosi_connect_proxies**.
-- ` %  of ` is the percentage **of rosi_connect_proxies** found in each row.
+- ` them % ` is the percentage of IPs of each row ipset (them), found in `rosi_connect_proxies`.
+- ` this % ` is the percentage **of this ipset (`rosi_connect_proxies`)**, found in the IPs of each other ipset.
 
-ipset|entries|unique IPs|IPs found on both| % in| % of|
-:---:|:-----:|:--------:|:---------------:|:---:|:---:|
+ipset|entries|unique IPs|IPs on both| them % | this % |
+:---:|:-----:|:--------:|:---------:|:------:|:------:|
 stop_forum_spam_30d|91499|91499|803|0.8%|59.5%|
 stop_forum_spam_7d|28751|28751|681|2.3%|50.5%|
 rosi_web_proxies|3273|3273|518|15.8%|38.4%|
 stop_forum_spam_1h|6821|6821|173|2.5%|12.8%|
-blocklist_de|26580|26580|78|0.2%|5.7%|
+blocklist_de|26581|26581|78|0.2%|5.7%|
 ib_bluetack_level2|75927|348729520|66|0.0%|4.8%|
 ib_bluetack_level3|18550|139108857|29|0.0%|2.1%|
 ib_bluetack_level1|215693|765044590|22|0.0%|1.6%|
@@ -1831,16 +1831,16 @@ The ipset `rosi_web_proxies` has **3273** entries, **3273** unique IPs.
 
 The following table shows the overlaps of `rosi_web_proxies` with all the other ipsets supported. Only the ipsets that have at least 1 IP overlap are shown. if an ipset is not shown here, it does not have any overlap with `rosi_web_proxies`.
 
-- ` %  in ` is the percentage of each row found **in rosi_web_proxies**.
-- ` %  of ` is the percentage **of rosi_web_proxies** found in each row.
+- ` them % ` is the percentage of IPs of each row ipset (them), found in `rosi_web_proxies`.
+- ` this % ` is the percentage **of this ipset (`rosi_web_proxies`)**, found in the IPs of each other ipset.
 
-ipset|entries|unique IPs|IPs found on both| % in| % of|
-:---:|:-----:|:--------:|:---------------:|:---:|:---:|
+ipset|entries|unique IPs|IPs on both| them % | this % |
+:---:|:-----:|:--------:|:---------:|:------:|:------:|
 stop_forum_spam_30d|91499|91499|1603|1.7%|48.9%|
 stop_forum_spam_7d|28751|28751|1362|4.7%|41.6%|
 rosi_connect_proxies|1348|1348|518|38.4%|15.8%|
 stop_forum_spam_1h|6821|6821|500|7.3%|15.2%|
-blocklist_de|26580|26580|340|1.2%|10.3%|
+blocklist_de|26581|26581|340|1.2%|10.3%|
 ib_bluetack_level2|75927|348729520|122|0.0%|3.7%|
 ib_bluetack_level3|18550|139108857|115|0.0%|3.5%|
 nixspam|18221|18221|72|0.3%|2.1%|
@@ -1873,11 +1873,11 @@ The ipset `snort_ipfilter` has **6580** entries, **6580** unique IPs.
 
 The following table shows the overlaps of `snort_ipfilter` with all the other ipsets supported. Only the ipsets that have at least 1 IP overlap are shown. if an ipset is not shown here, it does not have any overlap with `snort_ipfilter`.
 
-- ` %  in ` is the percentage of each row found **in snort_ipfilter**.
-- ` %  of ` is the percentage **of snort_ipfilter** found in each row.
+- ` them % ` is the percentage of IPs of each row ipset (them), found in `snort_ipfilter`.
+- ` this % ` is the percentage **of this ipset (`snort_ipfilter`)**, found in the IPs of each other ipset.
 
-ipset|entries|unique IPs|IPs found on both| % in| % of|
-:---:|:-----:|:--------:|:---------------:|:---:|:---:|
+ipset|entries|unique IPs|IPs on both| them % | this % |
+:---:|:-----:|:--------:|:---------:|:------:|:------:|
 tor_servers|6551|6551|1058|16.1%|16.0%|
 danmetor|6530|6530|1044|15.9%|15.8%|
 tor|6340|6340|1039|16.3%|15.7%|
@@ -1887,7 +1887,7 @@ emerging_block|965|18065466|282|0.0%|4.2%|
 stop_forum_spam_1h|6821|6821|280|4.1%|4.2%|
 zeus|262|262|223|85.1%|3.3%|
 ib_bluetack_level3|18550|139108857|211|0.0%|3.2%|
-blocklist_de|26580|26580|202|0.7%|3.0%|
+blocklist_de|26581|26581|202|0.7%|3.0%|
 zeus_badips|228|228|200|87.7%|3.0%|
 nixspam|18221|18221|183|1.0%|2.7%|
 alienvault_reputation|188000|188000|115|0.0%|1.7%|
@@ -1931,11 +1931,11 @@ The ipset `spamhaus_drop` has **640** entries, **18051584** unique IPs.
 
 The following table shows the overlaps of `spamhaus_drop` with all the other ipsets supported. Only the ipsets that have at least 1 IP overlap are shown. if an ipset is not shown here, it does not have any overlap with `spamhaus_drop`.
 
-- ` %  in ` is the percentage of each row found **in spamhaus_drop**.
-- ` %  of ` is the percentage **of spamhaus_drop** found in each row.
+- ` them % ` is the percentage of IPs of each row ipset (them), found in `spamhaus_drop`.
+- ` this % ` is the percentage **of this ipset (`spamhaus_drop`)**, found in the IPs of each other ipset.
 
-ipset|entries|unique IPs|IPs found on both| % in| % of|
-:---:|:-----:|:--------:|:---------------:|:---:|:---:|
+ipset|entries|unique IPs|IPs on both| them % | this % |
+:---:|:-----:|:--------:|:---------:|:------:|:------:|
 emerging_block|965|18065466|17994240|99.6%|99.6%|
 ib_bluetack_level2|75927|348729520|8401433|2.4%|46.5%|
 ib_bluetack_hijacked|535|9177856|7211008|78.5%|39.9%|
@@ -1952,7 +1952,7 @@ openbl_60d|7904|7904|320|4.0%|0.0%|
 dshield|20|5120|256|5.0%|0.0%|
 stop_forum_spam_7d|28751|28751|216|0.7%|0.0%|
 openbl_30d|4722|4722|213|4.5%|0.0%|
-blocklist_de|26580|26580|192|0.7%|0.0%|
+blocklist_de|26581|26581|192|0.7%|0.0%|
 nixspam|18221|18221|171|0.9%|0.0%|
 openbl_7d|1427|1427|101|7.0%|0.0%|
 bruteforceblocker|2288|2288|89|3.8%|0.0%|
@@ -1989,18 +1989,18 @@ The ipset `spamhaus_edrop` has **55** entries, **421120** unique IPs.
 
 The following table shows the overlaps of `spamhaus_edrop` with all the other ipsets supported. Only the ipsets that have at least 1 IP overlap are shown. if an ipset is not shown here, it does not have any overlap with `spamhaus_edrop`.
 
-- ` %  in ` is the percentage of each row found **in spamhaus_edrop**.
-- ` %  of ` is the percentage **of spamhaus_edrop** found in each row.
+- ` them % ` is the percentage of IPs of each row ipset (them), found in `spamhaus_edrop`.
+- ` this % ` is the percentage **of this ipset (`spamhaus_edrop`)**, found in the IPs of each other ipset.
 
-ipset|entries|unique IPs|IPs found on both| % in| % of|
-:---:|:-----:|:--------:|:---------------:|:---:|:---:|
+ipset|entries|unique IPs|IPs on both| them % | this % |
+:---:|:-----:|:--------:|:---------:|:------:|:------:|
 ib_bluetack_level3|18550|139108857|270785|0.1%|64.3%|
 ib_bluetack_level2|75927|348729520|33368|0.0%|7.9%|
 ib_bluetack_level1|215693|765044590|33152|0.0%|7.8%|
 emerging_block|965|18065466|517|0.0%|0.1%|
 spamhaus_drop|640|18051584|512|0.0%|0.1%|
 stop_forum_spam_30d|91499|91499|109|0.1%|0.0%|
-blocklist_de|26580|26580|39|0.1%|0.0%|
+blocklist_de|26581|26581|40|0.1%|0.0%|
 stop_forum_spam_7d|28751|28751|32|0.1%|0.0%|
 alienvault_reputation|188000|188000|16|0.0%|0.0%|
 stop_forum_spam_1h|6821|6821|15|0.2%|0.0%|
@@ -2029,11 +2029,11 @@ The ipset `sslbl` has **320** entries, **320** unique IPs.
 
 The following table shows the overlaps of `sslbl` with all the other ipsets supported. Only the ipsets that have at least 1 IP overlap are shown. if an ipset is not shown here, it does not have any overlap with `sslbl`.
 
-- ` %  in ` is the percentage of each row found **in sslbl**.
-- ` %  of ` is the percentage **of sslbl** found in each row.
+- ` them % ` is the percentage of IPs of each row ipset (them), found in `sslbl`.
+- ` this % ` is the percentage **of this ipset (`sslbl`)**, found in the IPs of each other ipset.
 
-ipset|entries|unique IPs|IPs found on both| % in| % of|
-:---:|:-----:|:--------:|:---------------:|:---:|:---:|
+ipset|entries|unique IPs|IPs on both| them % | this % |
+:---:|:-----:|:--------:|:---------:|:------:|:------:|
 emerging_block|965|18065466|23|0.0%|7.1%|
 feodo|58|58|21|36.2%|6.5%|
 snort_ipfilter|6580|6580|18|0.2%|5.6%|
@@ -2052,20 +2052,20 @@ ib_bluetack_spyware|898|336971|1|0.0%|0.3%|
 [StopForumSpam.com](http://www.stopforumspam.com) IPs used by forum spammers in the last 24 hours - **excellent list**
 
 Source is downloaded from [this link](http://www.stopforumspam.com/downloads/listed_ip_1.zip).
-The last time downloaded was found to be dated: .
+The last time downloaded was found to be dated: Sun May 24 21:00:02 UTC 2015.
 
 The ipset `stop_forum_spam_1h` has **6821** entries, **6821** unique IPs.
 
 The following table shows the overlaps of `stop_forum_spam_1h` with all the other ipsets supported. Only the ipsets that have at least 1 IP overlap are shown. if an ipset is not shown here, it does not have any overlap with `stop_forum_spam_1h`.
 
-- ` %  in ` is the percentage of each row found **in stop_forum_spam_1h**.
-- ` %  of ` is the percentage **of stop_forum_spam_1h** found in each row.
+- ` them % ` is the percentage of IPs of each row ipset (them), found in `stop_forum_spam_1h`.
+- ` this % ` is the percentage **of this ipset (`stop_forum_spam_1h`)**, found in the IPs of each other ipset.
 
-ipset|entries|unique IPs|IPs found on both| % in| % of|
-:---:|:-----:|:--------:|:---------------:|:---:|:---:|
+ipset|entries|unique IPs|IPs on both| them % | this % |
+:---:|:-----:|:--------:|:---------:|:------:|:------:|
 stop_forum_spam_30d|91499|91499|4657|5.0%|68.2%|
 stop_forum_spam_7d|28751|28751|4593|15.9%|67.3%|
-blocklist_de|26580|26580|1317|4.9%|19.3%|
+blocklist_de|26581|26581|1320|4.9%|19.3%|
 rosi_web_proxies|3273|3273|500|15.2%|7.3%|
 ib_bluetack_level3|18550|139108857|445|0.0%|6.5%|
 snort_ipfilter|6580|6580|280|4.2%|4.1%|
@@ -2109,15 +2109,15 @@ The ipset `stop_forum_spam_30d` has **91499** entries, **91499** unique IPs.
 
 The following table shows the overlaps of `stop_forum_spam_30d` with all the other ipsets supported. Only the ipsets that have at least 1 IP overlap are shown. if an ipset is not shown here, it does not have any overlap with `stop_forum_spam_30d`.
 
-- ` %  in ` is the percentage of each row found **in stop_forum_spam_30d**.
-- ` %  of ` is the percentage **of stop_forum_spam_30d** found in each row.
+- ` them % ` is the percentage of IPs of each row ipset (them), found in `stop_forum_spam_30d`.
+- ` this % ` is the percentage **of this ipset (`stop_forum_spam_30d`)**, found in the IPs of each other ipset.
 
-ipset|entries|unique IPs|IPs found on both| % in| % of|
-:---:|:-----:|:--------:|:---------------:|:---:|:---:|
+ipset|entries|unique IPs|IPs on both| them % | this % |
+:---:|:-----:|:--------:|:---------:|:------:|:------:|
 stop_forum_spam_7d|28751|28751|28407|98.8%|31.0%|
 ib_bluetack_level3|18550|139108857|6228|0.0%|6.8%|
 stop_forum_spam_1h|6821|6821|4657|68.2%|5.0%|
-blocklist_de|26580|26580|2477|9.3%|2.7%|
+blocklist_de|26581|26581|2479|9.3%|2.7%|
 ib_bluetack_level2|75927|348729520|2388|0.0%|2.6%|
 rosi_web_proxies|3273|3273|1603|48.9%|1.7%|
 ib_bluetack_level1|215693|765044590|1257|0.0%|1.3%|
@@ -2169,14 +2169,14 @@ The ipset `stop_forum_spam_7d` has **28751** entries, **28751** unique IPs.
 
 The following table shows the overlaps of `stop_forum_spam_7d` with all the other ipsets supported. Only the ipsets that have at least 1 IP overlap are shown. if an ipset is not shown here, it does not have any overlap with `stop_forum_spam_7d`.
 
-- ` %  in ` is the percentage of each row found **in stop_forum_spam_7d**.
-- ` %  of ` is the percentage **of stop_forum_spam_7d** found in each row.
+- ` them % ` is the percentage of IPs of each row ipset (them), found in `stop_forum_spam_7d`.
+- ` this % ` is the percentage **of this ipset (`stop_forum_spam_7d`)**, found in the IPs of each other ipset.
 
-ipset|entries|unique IPs|IPs found on both| % in| % of|
-:---:|:-----:|:--------:|:---------------:|:---:|:---:|
+ipset|entries|unique IPs|IPs on both| them % | this % |
+:---:|:-----:|:--------:|:---------:|:------:|:------:|
 stop_forum_spam_30d|91499|91499|28407|31.0%|98.8%|
 stop_forum_spam_1h|6821|6821|4593|67.3%|15.9%|
-blocklist_de|26580|26580|2015|7.5%|7.0%|
+blocklist_de|26581|26581|2017|7.5%|7.0%|
 ib_bluetack_level3|18550|139108857|1914|0.0%|6.6%|
 rosi_web_proxies|3273|3273|1362|41.6%|4.7%|
 ib_bluetack_level2|75927|348729520|819|0.0%|2.8%|
@@ -2225,11 +2225,11 @@ The ipset `tor` has **6340** entries, **6340** unique IPs.
 
 The following table shows the overlaps of `tor` with all the other ipsets supported. Only the ipsets that have at least 1 IP overlap are shown. if an ipset is not shown here, it does not have any overlap with `tor`.
 
-- ` %  in ` is the percentage of each row found **in tor**.
-- ` %  of ` is the percentage **of tor** found in each row.
+- ` them % ` is the percentage of IPs of each row ipset (them), found in `tor`.
+- ` this % ` is the percentage **of this ipset (`tor`)**, found in the IPs of each other ipset.
 
-ipset|entries|unique IPs|IPs found on both| % in| % of|
-:---:|:-----:|:--------:|:---------------:|:---:|:---:|
+ipset|entries|unique IPs|IPs on both| them % | this % |
+:---:|:-----:|:--------:|:---------:|:------:|:------:|
 tor_servers|6551|6551|5581|85.1%|88.0%|
 danmetor|6530|6530|5570|85.2%|87.8%|
 snort_ipfilter|6580|6580|1039|15.7%|16.3%|
@@ -2251,7 +2251,7 @@ php_spammers|261|261|5|1.9%|0.0%|
 rosi_web_proxies|3273|3273|4|0.1%|0.0%|
 php_dictionary|275|275|4|1.4%|0.0%|
 emerging_block|965|18065466|4|0.0%|0.0%|
-blocklist_de|26580|26580|3|0.0%|0.0%|
+blocklist_de|26581|26581|3|0.0%|0.0%|
 spamhaus_drop|640|18051584|2|0.0%|0.0%|
 nixspam|18221|18221|2|0.0%|0.0%|
 ib_bluetack_hijacked|535|9177856|2|0.0%|0.0%|
@@ -2270,11 +2270,11 @@ The ipset `tor_servers` has **6551** entries, **6551** unique IPs.
 
 The following table shows the overlaps of `tor_servers` with all the other ipsets supported. Only the ipsets that have at least 1 IP overlap are shown. if an ipset is not shown here, it does not have any overlap with `tor_servers`.
 
-- ` %  in ` is the percentage of each row found **in tor_servers**.
-- ` %  of ` is the percentage **of tor_servers** found in each row.
+- ` them % ` is the percentage of IPs of each row ipset (them), found in `tor_servers`.
+- ` this % ` is the percentage **of this ipset (`tor_servers`)**, found in the IPs of each other ipset.
 
-ipset|entries|unique IPs|IPs found on both| % in| % of|
-:---:|:-----:|:--------:|:---------------:|:---:|:---:|
+ipset|entries|unique IPs|IPs on both| them % | this % |
+:---:|:-----:|:--------:|:---------:|:------:|:------:|
 danmetor|6530|6530|6448|98.7%|98.4%|
 tor|6340|6340|5581|88.0%|85.1%|
 snort_ipfilter|6580|6580|1058|16.0%|16.1%|
@@ -2292,7 +2292,7 @@ php_commenters|201|201|20|9.9%|0.3%|
 php_bad|201|201|20|9.9%|0.3%|
 ib_bluetack_spyware|898|336971|20|0.0%|0.3%|
 php_harvesters|178|178|7|3.9%|0.1%|
-blocklist_de|26580|26580|6|0.0%|0.0%|
+blocklist_de|26581|26581|6|0.0%|0.0%|
 php_spammers|261|261|5|1.9%|0.0%|
 rosi_web_proxies|3273|3273|4|0.1%|0.0%|
 php_dictionary|275|275|4|1.4%|0.0%|
@@ -2315,11 +2315,11 @@ The ipset `zeus` has **262** entries, **262** unique IPs.
 
 The following table shows the overlaps of `zeus` with all the other ipsets supported. Only the ipsets that have at least 1 IP overlap are shown. if an ipset is not shown here, it does not have any overlap with `zeus`.
 
-- ` %  in ` is the percentage of each row found **in zeus**.
-- ` %  of ` is the percentage **of zeus** found in each row.
+- ` them % ` is the percentage of IPs of each row ipset (them), found in `zeus`.
+- ` this % ` is the percentage **of this ipset (`zeus`)**, found in the IPs of each other ipset.
 
-ipset|entries|unique IPs|IPs found on both| % in| % of|
-:---:|:-----:|:--------:|:---------------:|:---:|:---:|
+ipset|entries|unique IPs|IPs on both| them % | this % |
+:---:|:-----:|:--------:|:---------:|:------:|:------:|
 emerging_block|965|18065466|257|0.0%|98.0%|
 zeus_badips|228|228|228|100.0%|87.0%|
 snort_ipfilter|6580|6580|223|3.3%|85.1%|
@@ -2341,7 +2341,7 @@ openbl_60d|7904|7904|1|0.0%|0.3%|
 openbl_30d|4722|4722|1|0.0%|0.3%|
 compromised|2436|2436|1|0.0%|0.3%|
 bruteforceblocker|2288|2288|1|0.0%|0.3%|
-blocklist_de|26580|26580|1|0.0%|0.3%|
+blocklist_de|26581|26581|1|0.0%|0.3%|
 
 # zeus_badips
 
@@ -2354,11 +2354,11 @@ The ipset `zeus_badips` has **228** entries, **228** unique IPs.
 
 The following table shows the overlaps of `zeus_badips` with all the other ipsets supported. Only the ipsets that have at least 1 IP overlap are shown. if an ipset is not shown here, it does not have any overlap with `zeus_badips`.
 
-- ` %  in ` is the percentage of each row found **in zeus_badips**.
-- ` %  of ` is the percentage **of zeus_badips** found in each row.
+- ` them % ` is the percentage of IPs of each row ipset (them), found in `zeus_badips`.
+- ` this % ` is the percentage **of this ipset (`zeus_badips`)**, found in the IPs of each other ipset.
 
-ipset|entries|unique IPs|IPs found on both| % in| % of|
-:---:|:-----:|:--------:|:---------------:|:---:|:---:|
+ipset|entries|unique IPs|IPs on both| them % | this % |
+:---:|:-----:|:--------:|:---------:|:------:|:------:|
 zeus|262|262|228|87.0%|100.0%|
 emerging_block|965|18065466|225|0.0%|98.6%|
 snort_ipfilter|6580|6580|200|3.0%|87.7%|
@@ -2380,4 +2380,4 @@ openbl_60d|7904|7904|1|0.0%|0.4%|
 openbl_30d|4722|4722|1|0.0%|0.4%|
 compromised|2436|2436|1|0.0%|0.4%|
 bruteforceblocker|2288|2288|1|0.0%|0.4%|
-blocklist_de|26580|26580|1|0.0%|0.4%|
+blocklist_de|26581|26581|1|0.0%|0.4%|
