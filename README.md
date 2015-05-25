@@ -153,7 +153,7 @@ TODO
 
 # List of ipsets included
 
-The following list was automatically generated on Mon May 25 23:19:57 UTC 2015.
+The following list was automatically generated on Mon May 25 23:24:21 UTC 2015.
 
 The update frequency is the maximum allowed by internal configuration. A list will never be downloaded sooner than the update frequency stated. A list may also not be downloaded, after this frequency expired, if it has not been modified on the server (as reported by HTTP `IF_MODIFIED_SINCE` method).
 
@@ -500,7 +500,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 
 Source is downloaded from [this link](https://www.dan.me.uk/torlist/).
 
-The last time downloaded was found to be dated: Mon May 25 22:52:42 UTC 2015.
+The last time downloaded was found to be dated: Mon May 25 23:23:34 UTC 2015.
 
 The ipset `danmetor` has **6472** entries, **6472** unique IPs.
 
@@ -635,7 +635,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [php_bad](#php_bad)|222|222|24|10.8%|0.0%|
 [sslbl](#sslbl)|328|328|23|7.0%|0.0%|
 [voipbl](#voipbl)|10264|10735|18|0.1%|0.0%|
-[palevo](#palevo)|13|13|12|92.3%|0.0%|
+[palevo](#palevo)|13|13|13|100.0%|0.0%|
 [ib_bluetack_badpeers](#ib_bluetack_badpeers)|48134|48134|10|0.0%|0.0%|
 [ib_bluetack_webexploit](#ib_bluetack_webexploit)|1460|1460|6|0.4%|0.0%|
 [tor_servers](#tor_servers)|6526|6526|4|0.0%|0.0%|
@@ -773,7 +773,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 
 Source is downloaded from [this link](https://feodotracker.abuse.ch/blocklist/?download=ipblocklist).
 
-The last time downloaded was found to be dated: Mon May 25 22:52:57 UTC 2015.
+The last time downloaded was found to be dated: Mon May 25 23:23:41 UTC 2015.
 
 The ipset `feodo` has **59** entries, **59** unique IPs.
 
@@ -1046,9 +1046,9 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [php_bad](#php_bad)|222|222|6|2.7%|0.0%|
 [sslbl](#sslbl)|328|328|5|1.5%|0.0%|
 [clean_mx_viruses](#clean_mx_viruses)|164|164|5|3.0%|0.0%|
-[palevo](#palevo)|13|13|3|23.0%|0.0%|
 [feodo](#feodo)|59|59|3|5.0%|0.0%|
 [autoshun](#autoshun)|51|51|3|5.8%|0.0%|
+[palevo](#palevo)|13|13|2|15.3%|0.0%|
 
 ## ib_bluetack_level3
 
@@ -1718,7 +1718,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 
 Source is downloaded from [this link](https://palevotracker.abuse.ch/blocklists.php?download=ipblocklist).
 
-The last time downloaded was found to be dated: Mon May 25 22:52:54 UTC 2015.
+The last time downloaded was found to be dated: Mon May 25 23:23:37 UTC 2015.
 
 The ipset `palevo` has **13** entries, **13** unique IPs.
 
@@ -1729,9 +1729,9 @@ The following table shows the overlaps of `palevo` with all the other ipsets sup
 
 ipset|entries|unique IPs|IPs on both| them % | this % |
 :---:|:-----:|:--------:|:---------:|:------:|:------:|
-[et_block](#et_block)|965|18065466|12|0.0%|92.3%|
+[et_block](#et_block)|965|18065466|13|0.0%|100.0%|
 [snort_ipfilter](#snort_ipfilter)|6505|6505|11|0.1%|84.6%|
-[ib_bluetack_level2](#ib_bluetack_level2)|75927|348729520|3|0.0%|23.0%|
+[ib_bluetack_level2](#ib_bluetack_level2)|75927|348729520|2|0.0%|15.3%|
 [ib_bluetack_level3](#ib_bluetack_level3)|18550|139108857|1|0.0%|7.6%|
 
 ## php_bad
@@ -2334,7 +2334,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 
 Source is downloaded from [this link](https://torstatus.blutmagie.de/ip_list_all.php/Tor_ip_list_ALL.csv).
 
-The last time downloaded was found to be dated: Mon May 25 22:52:45 UTC 2015.
+The last time downloaded was found to be dated: Mon May 25 23:23:35 UTC 2015.
 
 The ipset `tor_servers` has **6526** entries, **6526** unique IPs.
 
@@ -2466,7 +2466,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 
 Source is downloaded from [this link](https://zeustracker.abuse.ch/blocklist.php?download=badips).
 
-The last time downloaded was found to be dated: Mon May 25 22:52:52 UTC 2015.
+The last time downloaded was found to be dated: Mon May 25 23:23:36 UTC 2015.
 
 The ipset `zeus_badips` has **229** entries, **229** unique IPs.
 
