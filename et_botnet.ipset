@@ -1,18 +1,15 @@
 #
-# botnet
+# et_botnet
 #
 # ipv4 hash:ip ipset
 #
 # [EmergingThreats.net](http://www.emergingthreats.net/) 
-# botnet IPs (at the time of writing includes any abuse.ch 
-# trackers, which are available separately too - prefer to 
-# use the direct ipsets instead of this, they seem to lag a 
-# bit in updates)
+# botnet IPs
 #
 # Source URL: http://rules.emergingthreats.net/fwrules/emerging-PIX-CC.rules
 #
 # Source File Date: Fri May 22 04:30:01 UTC 2015
-# This File Date  : Sun May 24 22:02:24 UTC 2015
+# This File Date  : Mon May 25 22:30:00 UTC 2015
 # Update Frequency: 12 hours 
 # Aggregation     : none
 # Entries         : 515 unique IPs

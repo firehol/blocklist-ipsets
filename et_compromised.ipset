@@ -1,17 +1,15 @@
 #
-# compromised
+# et_compromised
 #
 # ipv4 hash:ip ipset
 #
 # [EmergingThreats.net](http://www.emergingthreats.net/) 
-# distribution of IPs that have beed compromised (at the time 
-# of writing includes openbl, bruteforceblocker and 
-# sidreporter)
+# compromised hosts (seems to be a derivate of other lists)
 #
 # Source URL: http://rules.emergingthreats.net/blockrules/compromised-ips.txt
 #
 # Source File Date: Fri May 22 04:30:09 UTC 2015
-# This File Date  : Sun May 24 22:02:23 UTC 2015
+# This File Date  : Mon May 25 22:29:59 UTC 2015
 # Update Frequency: 12 hours 
 # Aggregation     : none
 # Entries         : 2436 unique IPs

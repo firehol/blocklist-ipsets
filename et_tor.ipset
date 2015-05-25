@@ -1,5 +1,5 @@
 #
-# tor
+# et_tor
 #
 # ipv4 hash:ip ipset
 #
@@ -10,7 +10,7 @@
 # Source URL: http://rules.emergingthreats.net/blockrules/emerging-tor.rules
 #
 # Source File Date: Fri May 22 04:30:09 UTC 2015
-# This File Date  : Sun May 24 22:02:21 UTC 2015
+# This File Date  : Mon May 25 22:29:56 UTC 2015
 # Update Frequency: 12 hours 
 # Aggregation     : none
 # Entries         : 6340 unique IPs
