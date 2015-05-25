@@ -65,6 +65,14 @@ I decided to upload these lists to a github repo because:
 3. Github also provides a unified version control. Using it we can have a history of what each list has done,
  which IPs or subnets were added and which were removed.
 
+## DNSBLs
+
+Check also another tool included in FireHOL v3+, called `dnsbl-ipset.sh`.
+
+This tool is capable of creating an ipset based on your traffic by looking up information on DNSBLs and scoring it according to your preferences.
+
+More information [here](https://github.com/ktsaou/firehol/wiki/dnsbl-ipset.sh).
+
 
 ---
 
