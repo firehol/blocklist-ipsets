@@ -9,8 +9,8 @@
 #
 # Source URL: https://sslbl.abuse.ch/blacklist/sslipblacklist.csv
 #
-# Source File Date: Mon May 25 23:30:06 UTC 2015
-# This File Date  : Mon May 25 23:51:11 UTC 2015
+# Source File Date: Tue May 26 18:15:06 UTC 2015
+# This File Date  : Tue May 26 18:20:21 UTC 2015
 # Update Frequency: 30 mins 
 # Aggregation     : none
 # Entries         : 328 unique IPs
@@ -33,7 +33,6 @@
 134.249.29.111
 134.249.63.46
 146.120.110.147
-149.154.64.70
 151.236.216.254
 151.97.243.220
 158.255.255.87
@@ -178,6 +177,7 @@
 37.57.144.177
 38.123.202.197
 38.123.202.3
+38.124.111.30
 38.124.169.178
 38.124.169.187
 38.124.60.17
