@@ -1,5 +1,5 @@
 #
-# autoshun
+# shunlist
 #
 # ipv4 hash:ip ipset
 #
@@ -10,7 +10,7 @@
 # Source URL: http://www.autoshun.org/files/shunlist.csv
 #
 # Source File Date: Tue May 26 18:30:03 UTC 2015
-# This File Date  : Tue May 26 18:40:22 UTC 2015
+# This File Date  : Tue May 26 19:19:43 UTC 2015
 # Update Frequency: 4 hours 
 # Aggregation     : none
 # Entries         : 51 unique IPs
