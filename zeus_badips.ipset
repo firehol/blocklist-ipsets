@@ -8,8 +8,8 @@
 #
 # Source URL: https://zeustracker.abuse.ch/blocklist.php?download=badips
 #
-# Source File Date: Tue May 26 09:40:17 UTC 2015
-# This File Date  : Tue May 26 09:40:18 UTC 2015
+# Source File Date: Tue May 26 11:00:19 UTC 2015
+# This File Date  : Tue May 26 11:00:20 UTC 2015
 # Update Frequency: 30 mins 
 # Aggregation     : none
 # Entries         : 228 unique IPs
@@ -52,6 +52,7 @@
 151.236.58.229
 151.80.176.184
 151.97.190.239
+155.133.18.115
 157.7.170.62
 160.97.52.229
 162.221.186.120
@@ -175,7 +176,6 @@
 46.151.52.48
 46.151.52.61
 46.151.54.46
-46.151.54.56
 46.151.54.95
 46.166.131.154
 46.166.145.113
