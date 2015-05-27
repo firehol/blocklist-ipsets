@@ -110,7 +110,7 @@ iptables will log each match, together with the name of the ipset that matched t
 	ipset4 add whitelist A.B.C.D/E # A.B.C.D/E is whitelisted
 	
 	# subnets
-	for x in fullbogons dshield spamhaus_drop spamhaus_edrop
+	for x in fullbogons dshield spamhaus_drop spamhaus_edrop voipbl
 	do
 		ipset4 create  ${x} hash:net
 		ipset4 addfile ${x} ipsets/${x}.netset
@@ -119,9 +119,9 @@ iptables will log each match, together with the name of the ipset that matched t
 	done
 
 	# individual IPs
-	for x in zeus feodo palevo autoshun openbl blocklist_de malc0de ciarmy \
+	for x in zeus feodo palevo shunlist openbl blocklist_de malc0de ciarmy \
 		malwaredomainlist snort_ipfilter stop_forum_spam_1h stop_forum_spam_7d \
-		bruteforceblocker rosi_connect_proxies rosi_web_proxies compromised
+		bruteforceblocker ri_connect_proxies ri_web_proxies
 	do
 		ipset4 create  ${x} hash:ip
 		ipset4 addfile ${x} ipsets/${x}.ipset
