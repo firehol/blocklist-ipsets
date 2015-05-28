@@ -1,5 +1,5 @@
 #
-# stop_forum_spam_1h
+# stopforumspam_1d
 #
 # ipv4 hash:ip ipset
 #
@@ -9,7 +9,7 @@
 # Source URL: http://www.stopforumspam.com/downloads/listed_ip_1.zip
 #
 # Source File Date: Thu May 28 21:00:02 UTC 2015
-# This File Date  : Thu May 28 21:09:06 UTC 2015
+# This File Date  : Thu May 28 21:30:09 UTC 2015
 # Update Frequency: 1 hour 
 # Aggregation     : none
 # Entries         : 7655 unique IPs

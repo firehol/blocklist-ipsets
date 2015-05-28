@@ -1,5 +1,5 @@
 #
-# clean_mx_viruses
+# cleanmx_viruses
 #
 # ipv4 hash:ip ipset
 #
@@ -9,7 +9,7 @@
 # Source URL: http://support.clean-mx.de/clean-mx/xmlviruses.php?sort=id%20desc&response=alive
 #
 # Source File Date: Thu May 28 16:40:36 UTC 2015
-# This File Date  : Thu May 28 16:40:44 UTC 2015
+# This File Date  : Thu May 28 21:30:32 UTC 2015
 # Update Frequency: 12 hours 
 # Aggregation     : none
 # Entries         : 509 unique IPs
