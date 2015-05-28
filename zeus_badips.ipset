@@ -4,12 +4,18 @@
 # ipv4 hash:ip ipset
 #
 # [Abuse.ch Zeus tracker](https://zeustracker.abuse.ch) 
-# includes IPv4 addresses that are used by the ZeuS trojan
+# badips includes IPv4 addresses that are used by the ZeuS 
+# trojan. It is the recommened blocklist if you want to block 
+# only ZeuS IPs. It excludes IP addresses that ZeuS Tracker 
+# believes to be hijacked (level 2) or belong to a free web 
+# hosting provider (level 3). Hence the false postive rate 
+# should be much lower compared to the standard ZeuS IP 
+# blocklist. **excellent list**
 #
 # Source URL: https://zeustracker.abuse.ch/blocklist.php?download=badips
 #
-# Source File Date: Thu May 28 10:20:28 UTC 2015
-# This File Date  : Thu May 28 10:20:29 UTC 2015
+# Source File Date: Thu May 28 14:20:16 UTC 2015
+# This File Date  : Thu May 28 14:20:17 UTC 2015
 # Update Frequency: 30 mins 
 # Aggregation     : none
 # Entries         : 230 unique IPs
@@ -47,7 +53,6 @@
 131.72.139.112
 131.72.139.163
 131.72.139.65
-136.243.224.51
 146.185.221.199
 146.185.253.30
 151.236.58.229
@@ -206,6 +211,7 @@
 64.90.187.131
 65.200.132.20
 66.221.12.6
+66.221.21.60
 66.34.18.70
 66.34.22.70
 69.61.37.158
