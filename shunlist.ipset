@@ -9,8 +9,8 @@
 #
 # Source URL: http://www.autoshun.org/files/shunlist.csv
 #
-# Source File Date: Fri May 29 10:30:05 UTC 2015
-# This File Date  : Fri May 29 10:36:28 UTC 2015
+# Source File Date: Fri May 29 18:30:06 UTC 2015
+# This File Date  : Fri May 29 18:36:22 UTC 2015
 # Update Frequency: 4 hours 
 # Aggregation     : none
 # Entries         : 51 unique IPs
@@ -46,8 +46,10 @@
 14.161.30.82
 14.23.153.98
 2.115.68.148
+23.28.138.60
+23.88.239.204
+23.92.210.18
 5.135.36.106
-5.152.216.90
 5.165.66.212
 5.165.69.205
 5.189.142.115
@@ -64,7 +66,5 @@
 5.255.85.228
 5.34.183.163
 5.39.220.253
-5.39.221.193
 5.79.69.35
 5.9.77.176
-8.19.245.76
