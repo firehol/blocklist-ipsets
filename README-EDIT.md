@@ -40,7 +40,7 @@ direct damage to you or your systems. They will use you and your systems to gain
 possibly not related or indirectly related to your business. Nowdays the attacks cannot be identified easily. They are
 distributed and come to our systems from a vast amount of IPs around the world.
 
-To get an idea, check for example the [XRumer](http://en.wikipedia.org/wiki/XRumer) software. This think mimics human
+To get an idea, check for example the [XRumer](http://en.wikipedia.org/wiki/XRumer) software. This thing mimics human
 behaviour to post ads, it creates email accounts, responds to emails it receives, bypasses captchas, it goes gently
 to stay unoticed, etc.
 
