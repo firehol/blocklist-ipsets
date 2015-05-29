@@ -4,6 +4,8 @@
 
 - [Using these ipsets](#using-these-ipsets)
  - [Which ones to use?](#which-ones-to-use)
+
+ - [Why are open proxy lists included](#why-are-open-proxy-lists-included)
    
  - [Using them in FireHOL](#using-them-in-firehol)
     * [Adding the ipsets in your firehol.conf](#adding-the-ipsets-in-your-fireholconf)
@@ -130,12 +132,26 @@ These are the ones I install on all my firewalls:
 6. **Blocklist.de** lists `blocklist_de*`
    
    Is a network of users reporting abuse mainly using `fail2ban`.
-   They only include IPs that has attacked them in the last 48 hours.
+   They only include IPs that have attacked them in the last 48 hours.
    Their goal is also to report abuse back, so that the infection is disabled.
 
 
 Of course there are more lists included. You can check them and decide if they fit for your needs.
 
+
+## Why are open proxy lists included
+
+Of course, I haven't included them for you to use the open proxies. The port the proxy is listening, or the type of proxy, are not included (although most of them use the standard proxy ports and do serve web requests).
+
+If you check the comparisons for the open proxy lists (`ri_connect_proxies`, `ri_web_proxies`, `xroxy`, `proxz`, `proxyrss`, etc)
+you will find that they overlap to a great degree with other blocklists, like `blocklist_de`, `stopforumspam`, etc.
+
+> This means the attackers also use open proxies to execute attacks.
+
+So, if you are under attack, blocking the open proxies may help isolate a large part of the attack.
+
+I don't suggest to permanenly block IPs using the proxy lists. Their purpose of existance is questionable.
+Their quality though may be acceptable, since lot of these sites advertise that they test open proxies before including them in their lists, so that there are no false positives, at least that the time they tested them.
 
 ---
 
