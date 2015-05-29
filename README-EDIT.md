@@ -151,7 +151,7 @@ you will find that they overlap to a great degree with other blocklists, like `b
 So, if you are under attack, blocking the open proxies may help isolate a large part of the attack.
 
 I don't suggest to permanenly block IPs using the proxy lists. Their purpose of existance is questionable.
-Their quality though may be acceptable, since lot of these sites advertise that they test open proxies before including them in their lists, so that there are no false positives, at least that the time they tested them.
+Their quality though may be acceptable, since lot of these sites advertise that they test open proxies before including them in their lists, so that there are no false positives, at least at the time they tested them.
 
 ---
 
