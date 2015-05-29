@@ -3,6 +3,8 @@
 - [About this repo](#about-this-repo)
 
 - [Using these ipsets](#using-these-ipsets)
+ - [Which ones to use?](#which-ones-to-use)
+   
  - [Using them in FireHOL](#using-them-in-firehol)
     * [Adding the ipsets in your firehol.conf](#adding-the-ipsets-in-your-fireholconf)
     * [Updating the ipsets while the firewall is running](#updating-the-ipsets-while-the-firewall-is-running)
@@ -77,6 +79,7 @@ More information [here](https://github.com/ktsaou/firehol/wiki/dnsbl-ipset.sh).
 ---
 
 # Using these ipsets
+
 Please be very careful what you choose to use and how you use it.
 If you blacklist traffic using these lists you may end up blocking
 your users, your customers, even yourself (!) from accessing your
@@ -86,11 +89,53 @@ services.
 
 2. Most sites have either a donation system or commercial lists of higher quality. Try to support them. 
 
-3. I have included the TOR network in these lists (`danmetor`, `tor`, `tor_servers`). The TOR network is not necessarily bad and you should not block it if you want to allow your users be anonymous. I have included it because for certain cases, allowing an anonymity network might be a risky thing (such as eCommerce).
+3. I have included the TOR network in these lists (`bm_tor`, `dm_tor`, `et_tor`). The TOR network is not necessarily bad and you should not block it if you want to allow your users be anonymous. I have included it because for certain cases, allowing an anonymity network might be a risky thing (such as eCommerce).
 
 4. Apply any blacklist at the internet side of your firewall. Be very carefull. The `bogons` and `fullbogons` lists contain private, unroutable IPs that should not be routed on the internet. If you apply such a blocklist on your DMZ or LAN side, you will be blocked out of your firewall.
 
 5. Always have a whitelist too, containing the IP addresses or subnets you trust. Try to build the rules in such a way that if an IP is in the whitelist, it should not be blocked by these blocklists.
+
+
+## Which ones to use
+
+These are the ones I install on all my firewalls:
+
+1. **Abuse.ch** lists `feodo`, `palevo`, `sslbl`, `zeus`, `zeus_badips`
+   
+   These folks are doing a great job tracking crimeware. Their blocklists are very focused.
+
+2. **DShield.org** list `dshield`
+
+   It contains the top 20 attacking class C (/24) subnets, over the last three days.
+
+3. **Spamhaus.org** lists `spamhaus_drop`, `spamhaus_edrop`
+   
+   DROP (Don't Route Or Peer) and EDROP are advisory "drop all traffic" lists, consisting of netblocks that are "hijacked" or leased by professional spam or cyber-crime operations (used for dissemination of malware, trojan downloaders, botnet controllers).
+   According to Spamhaus.org:
+
+   > When implemented at a network or ISP's 'core routers', DROP and EDROP will help protect the network's users from spamming, scanning, harvesting, DNS-hijacking and DDoS attacks originating on rogue netblocks.
+   > 
+   > Spamhaus strongly encourages the use of DROP and EDROP by tier-1s and backbones.
+
+4. **Team-Cymru.org** list `bogons` or `fullbogons`
+
+   These are lists of IPs that should not be routed on the internet. No one should be using them.
+   Be very carefull to apply either of the two on the internet side of your network.
+
+5. **OpenBL.org** lists `openbl*`
+   
+   The team of OpenBL tracks brute force attacks on their hosts. They suggest to use the default blacklist which has a retension policy of 90 days (`openbl`), but they also provide lists with different retension policies (from 1 day to 1 year).
+   Their goal is to report abuse to the responsible provider so that the infection is disabled.
+
+6. **Blocklist.de** lists `blocklist_de*`
+   
+   Is a network of users reporting abuse mainly using `fail2ban`.
+   They only include IPs that has attacked them in the last 48 hours.
+   Their goal is also to report abuse back, so that the infection is disabled.
+
+
+Of course there are more lists included. You can check them and decide if they fit for your needs.
+
 
 ---
 
@@ -98,8 +143,7 @@ services.
 
 ### Adding the ipsets in your firehol.conf
 
-I use something like this. Keep in mind that you have to have the `whitelist` ipset created before all these.
-iptables will log each match, together with the name of the ipset that matched the packet.
+I use something like this:
 
 ```sh
 	# our wan interface
@@ -109,8 +153,8 @@ iptables will log each match, together with the name of the ipset that matched t
 	ipset4 create whitelist hash:net
 	ipset4 add whitelist A.B.C.D/E # A.B.C.D/E is whitelisted
 	
-	# subnets
-	for x in fullbogons dshield spamhaus_drop spamhaus_edrop voipbl
+	# subnets - netsets
+	for x in fullbogons dshield spamhaus_drop spamhaus_edrop
 	do
 		ipset4 create  ${x} hash:net
 		ipset4 addfile ${x} ipsets/${x}.netset
@@ -118,10 +162,8 @@ iptables will log each match, together with the name of the ipset that matched t
 			except src ipset:whitelist
 	done
 
-	# individual IPs
-	for x in zeus feodo palevo shunlist openbl blocklist_de malc0de ciarmy \
-		malwaredomainlist snort_ipfilter stop_forum_spam_1h stop_forum_spam_7d \
-		bruteforceblocker ri_connect_proxies ri_web_proxies
+	# individual IPs - ipsets
+	for x in feodo palevo sslbl zeus openbl blocklist_de
 	do
 		ipset4 create  ${x} hash:ip
 		ipset4 addfile ${x} ipsets/${x}.ipset
@@ -132,12 +174,19 @@ iptables will log each match, together with the name of the ipset that matched t
 	... rest of firehol.conf ...
 ```
 
+If you are concerned about iptables performance, change the `blacklist4` keyword `full` to `input`.
+This will block only inbound NEW connections, i.e. only the first packet for every NEW inbound connection will be checked.
+All other traffic passes through unchecked.
+
+> Before adding these rules to your `firehol.conf` you should run `update-ipsets.sh` to enable them.
+
 ### Updating the ipsets while the firewall is running
 
 Just use the `update-ipsets.sh` script from the firehol distribution.
 This script will update each ipset and call firehol to update the ipset while the firewall is running.
 
-Keep in mind that you have to use the `update-ipsets.sh` script before activating the firewall, so that the ipsets exist on disk.
+> You can add `update-ipsets.sh` to cron, to run every 30 mins. `update-ipsets.sh` is smart enough to download
+> a list only when it needs to.
 
 ---
 
