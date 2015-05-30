@@ -10,8 +10,8 @@
 #
 # Source URL: http://lists.blocklist.de/lists/sip.txt
 #
-# Source File Date: Sat May 30 11:14:06 UTC 2015
-# This File Date  : Sat May 30 11:18:12 UTC 2015
+# Source File Date: Sat May 30 12:42:10 UTC 2015
+# This File Date  : Sat May 30 12:45:12 UTC 2015
 # Update Frequency: 30 mins 
 # Aggregation     : none
 # Entries         : 85 unique IPs
@@ -90,6 +90,7 @@
 61.191.41.7
 62.210.15.116
 62.210.244.236
+62.210.90.237
 63.141.247.226
 63.141.247.234
 64.129.188.18
@@ -100,6 +101,5 @@
 74.91.18.162
 91.121.222.153
 91.236.75.157
-94.23.213.220
 94.23.220.91
 94.23.252.136
