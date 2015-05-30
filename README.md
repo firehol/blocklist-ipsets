@@ -218,7 +218,7 @@ TODO
 
 # List of ipsets included
 
-The following list was automatically generated on Sat May 30 11:24:53 UTC 2015.
+The following list was automatically generated on Sat May 30 11:27:58 UTC 2015.
 
 The update frequency is the maximum allowed by internal configuration. A list will never be downloaded sooner than the update frequency stated. A list may also not be downloaded, after this frequency expired, if it has not been modified on the server (as reported by HTTP `IF_MODIFIED_SINCE` method).
 
@@ -287,7 +287,7 @@ name|info|type|entries|update|
 [stopforumspam_7d](#stopforumspam_7d)|[StopForumSpam.com](http://www.stopforumspam.com) IPs used by forum spammers (last 7 days)|ipv4 hash:ip|30993 unique IPs|updated every 1 day  from [this link](http://www.stopforumspam.com/downloads/listed_ip_7.zip)
 [voipbl](#voipbl)|[VoIPBL.org](http://www.voipbl.org/) a distributed VoIP blacklist that is aimed to protects against VoIP Fraud and minimizing abuse for network that have publicly accessible PBX's. Several algorithms, external sources and manual confirmation are used before they categorize something as an attack and determine the threat level.|ipv4 hash:net|10305 subnets, 10714 unique IPs|updated every 4 hours  from [this link](http://www.voipbl.org/update/)
 [xroxy](#xroxy)|[xroxy.com](http://www.xroxy.com) open proxies (this list is composed using an RSS feed and aggregated for the last 30 days)|ipv4 hash:ip|1963 unique IPs|updated every 1 hour  from [this link](http://www.xroxy.com/proxyrss.xml)
-[zeus](#zeus)|[Abuse.ch Zeus tracker](https://zeustracker.abuse.ch) standard, contains the same data as the ZeuS IP blocklist (zeus_badips) but with the slight difference that it doesn't exclude hijacked websites (level 2) and free web hosting providers (level 3). This means that this blocklist contains all IPv4 addresses associated with ZeuS C&Cs which are currently being tracked by ZeuS Tracker. Hence this blocklist will likely cause some false positives. - **excellent list**|ipv4 hash:ip|266 unique IPs|updated every 30 mins  from [this link](https://zeustracker.abuse.ch/blocklist.php?download=ipblocklist)
+[zeus](#zeus)|[Abuse.ch Zeus tracker](https://zeustracker.abuse.ch) standard, contains the same data as the ZeuS IP blocklist (zeus_badips) but with the slight difference that it doesn't exclude hijacked websites (level 2) and free web hosting providers (level 3). This means that this blocklist contains all IPv4 addresses associated with ZeuS C&Cs which are currently being tracked by ZeuS Tracker. Hence this blocklist will likely cause some false positives. - **excellent list**|ipv4 hash:ip|267 unique IPs|updated every 30 mins  from [this link](https://zeustracker.abuse.ch/blocklist.php?download=ipblocklist)
 [zeus_badips](#zeus_badips)|[Abuse.ch Zeus tracker](https://zeustracker.abuse.ch) badips includes IPv4 addresses that are used by the ZeuS trojan. It is the recommened blocklist if you want to block only ZeuS IPs. It excludes IP addresses that ZeuS Tracker believes to be hijacked (level 2) or belong to a free web hosting provider (level 3). Hence the false postive rate should be much lower compared to the standard ZeuS IP blocklist. **excellent list**|ipv4 hash:ip|229 unique IPs|updated every 30 mins  from [this link](https://zeustracker.abuse.ch/blocklist.php?download=badips)
 
 # Comparison of ipsets
@@ -338,8 +338,8 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [snort_ipfilter](#snort_ipfilter)|5712|5712|117|2.0%|0.0%|
 [stopforumspam_7d](#stopforumspam_7d)|30993|30993|114|0.3%|0.0%|
 [blocklist_de_mail](#blocklist_de_mail)|14463|14463|84|0.5%|0.0%|
-[zeus](#zeus)|266|266|68|25.5%|0.0%|
 [blocklist_de_imap](#blocklist_de_imap)|777|777|67|8.6%|0.0%|
+[zeus](#zeus)|267|267|65|24.3%|0.0%|
 [stopforumspam_1d](#stopforumspam_1d)|6841|6841|60|0.8%|0.0%|
 [blocklist_de_strongips](#blocklist_de_strongips)|195|195|58|29.7%|0.0%|
 [et_tor](#et_tor)|6470|6470|48|0.7%|0.0%|
@@ -442,6 +442,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [cleanmx_viruses](#cleanmx_viruses)|259|259|3|1.1%|0.0%|
 [ib_bluetack_spyware](#ib_bluetack_spyware)|3274|339192|2|0.0%|0.0%|
 [ib_bluetack_badpeers](#ib_bluetack_badpeers)|48134|48134|2|0.0%|0.0%|
+[zeus](#zeus)|267|267|1|0.3%|0.0%|
 [ib_bluetack_webexploit](#ib_bluetack_webexploit)|1460|1460|1|0.0%|0.0%|
 
 ## blocklist_de_apache
@@ -497,6 +498,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [et_compromised](#et_compromised)|2367|2367|2|0.0%|0.0%|
 [dshield](#dshield)|20|5120|2|0.0%|0.0%|
 [bruteforceblocker](#bruteforceblocker)|2254|2254|2|0.0%|0.0%|
+[zeus](#zeus)|267|267|1|0.3%|0.0%|
 [php_harvesters](#php_harvesters)|257|257|1|0.3%|0.0%|
 [openbl_1d](#openbl_1d)|229|229|1|0.4%|0.0%|
 [ib_bluetack_spyware](#ib_bluetack_spyware)|3274|339192|1|0.0%|0.0%|
@@ -596,6 +598,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [openbl](#openbl)|9799|9799|3|0.0%|0.2%|
 [cleanmx_viruses](#cleanmx_viruses)|259|259|3|1.1%|0.2%|
 [shunlist](#shunlist)|1180|1180|2|0.1%|0.1%|
+[zeus](#zeus)|267|267|1|0.3%|0.0%|
 [voipbl](#voipbl)|10305|10714|1|0.0%|0.0%|
 [openbl_60d](#openbl_60d)|7689|7689|1|0.0%|0.0%|
 [maxmind_proxy_fraud](#maxmind_proxy_fraud)|372|372|1|0.2%|0.0%|
@@ -1006,7 +1009,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [proxz](#proxz)|236|236|2|0.8%|0.0%|
 [blocklist_de_apache](#blocklist_de_apache)|12529|12529|2|0.0%|0.0%|
 [zeus_badips](#zeus_badips)|229|229|1|0.4%|0.0%|
-[zeus](#zeus)|266|266|1|0.3%|0.0%|
+[zeus](#zeus)|267|267|1|0.3%|0.0%|
 [xroxy](#xroxy)|1963|1963|1|0.0%|0.0%|
 [voipbl](#voipbl)|10305|10714|1|0.0%|0.0%|
 [stopforumspam_1d](#stopforumspam_1d)|6841|6841|1|0.0%|0.0%|
@@ -1083,7 +1086,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [blocklist_de_apache](#blocklist_de_apache)|12529|12529|3|0.0%|1.1%|
 [blocklist_de](#blocklist_de)|21611|21611|3|0.0%|1.1%|
 [zeus_badips](#zeus_badips)|229|229|1|0.4%|0.3%|
-[zeus](#zeus)|266|266|1|0.3%|0.3%|
+[zeus](#zeus)|267|267|1|0.3%|0.3%|
 [snort_ipfilter](#snort_ipfilter)|5712|5712|1|0.0%|0.3%|
 [malwaredomainlist](#malwaredomainlist)|1282|1282|1|0.0%|0.3%|
 [et_block](#et_block)|986|18056524|1|0.0%|0.3%|
@@ -1222,7 +1225,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [openbl_90d](#openbl_90d)|9799|9799|453|4.6%|0.0%|
 [openbl](#openbl)|9799|9799|453|4.6%|0.0%|
 [snort_ipfilter](#snort_ipfilter)|5712|5712|294|5.1%|0.0%|
-[zeus](#zeus)|266|266|263|98.8%|0.0%|
+[zeus](#zeus)|267|267|260|97.3%|0.0%|
 [openbl_60d](#openbl_60d)|7689|7689|240|3.1%|0.0%|
 [nixspam](#nixspam)|22729|22729|229|1.0%|0.0%|
 [zeus_badips](#zeus_badips)|229|229|228|99.5%|0.0%|
@@ -1335,7 +1338,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [ib_bluetack_webexploit](#ib_bluetack_webexploit)|1460|1460|2|0.1%|0.0%|
 [blocklist_de_apache](#blocklist_de_apache)|12529|12529|2|0.0%|0.0%|
 [zeus_badips](#zeus_badips)|229|229|1|0.4%|0.0%|
-[zeus](#zeus)|266|266|1|0.3%|0.0%|
+[zeus](#zeus)|267|267|1|0.3%|0.0%|
 [xroxy](#xroxy)|1963|1963|1|0.0%|0.0%|
 [voipbl](#voipbl)|10305|10714|1|0.0%|0.0%|
 [stopforumspam_1d](#stopforumspam_1d)|6841|6841|1|0.0%|0.0%|
@@ -1539,7 +1542,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [snort_ipfilter](#snort_ipfilter)|5712|5712|11|0.1%|0.0%|
 [openbl_7d](#openbl_7d)|948|948|11|1.1%|0.0%|
 [zeus_badips](#zeus_badips)|229|229|10|4.3%|0.0%|
-[zeus](#zeus)|266|266|10|3.7%|0.0%|
+[zeus](#zeus)|267|267|10|3.7%|0.0%|
 [blocklist_de_ssh](#blocklist_de_ssh)|1834|1834|9|0.4%|0.0%|
 [ib_bluetack_webexploit](#ib_bluetack_webexploit)|1460|1460|7|0.4%|0.0%|
 [blocklist_de_mail](#blocklist_de_mail)|14463|14463|6|0.0%|0.0%|
@@ -1628,8 +1631,8 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [blocklist_de_ftp](#blocklist_de_ftp)|373|373|13|3.4%|0.0%|
 [malc0de](#malc0de)|410|410|12|2.9%|0.0%|
 [ciarmy](#ciarmy)|348|348|11|3.1%|0.0%|
+[zeus](#zeus)|267|267|9|3.3%|0.0%|
 [php_dictionary](#php_dictionary)|433|433|9|2.0%|0.0%|
-[zeus](#zeus)|266|266|8|3.0%|0.0%|
 [php_harvesters](#php_harvesters)|257|257|7|2.7%|0.0%|
 [cleanmx_viruses](#cleanmx_viruses)|259|259|6|2.3%|0.0%|
 [php_spammers](#php_spammers)|417|417|5|1.1%|0.0%|
@@ -1710,7 +1713,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [openbl_1d](#openbl_1d)|229|229|11|4.8%|0.0%|
 [php_dictionary](#php_dictionary)|433|433|10|2.3%|0.0%|
 [cleanmx_viruses](#cleanmx_viruses)|259|259|10|3.8%|0.0%|
-[zeus](#zeus)|266|266|9|3.3%|0.0%|
+[zeus](#zeus)|267|267|9|3.3%|0.0%|
 [proxz](#proxz)|236|236|9|3.8%|0.0%|
 [php_commenters](#php_commenters)|281|281|9|3.2%|0.0%|
 [php_bad](#php_bad)|281|281|9|3.2%|0.0%|
@@ -1792,7 +1795,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [php_dictionary](#php_dictionary)|433|433|24|5.5%|0.0%|
 [sslbl](#sslbl)|349|349|23|6.5%|0.0%|
 [blocklist_de_ftp](#blocklist_de_ftp)|373|373|20|5.3%|0.0%|
-[zeus](#zeus)|266|266|19|7.1%|0.0%|
+[zeus](#zeus)|267|267|19|7.1%|0.0%|
 [openbl_1d](#openbl_1d)|229|229|18|7.8%|0.0%|
 [blocklist_de_strongips](#blocklist_de_strongips)|195|195|17|8.7%|0.0%|
 [php_bad](#php_bad)|281|281|16|5.6%|0.0%|
@@ -1890,7 +1893,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [blocklist_de_sip](#blocklist_de_sip)|85|85|2|2.3%|0.0%|
 [blocklist_de](#blocklist_de)|21611|21611|2|0.0%|0.0%|
 [zeus_badips](#zeus_badips)|229|229|1|0.4%|0.0%|
-[zeus](#zeus)|266|266|1|0.3%|0.0%|
+[zeus](#zeus)|267|267|1|0.3%|0.0%|
 [xroxy](#xroxy)|1963|1963|1|0.0%|0.0%|
 [sslbl](#sslbl)|349|349|1|0.2%|0.0%|
 [spamhaus_edrop](#spamhaus_edrop)|55|421120|1|0.0%|0.0%|
@@ -2124,7 +2127,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [blocklist_de_ssh](#blocklist_de_ssh)|1834|1834|2|0.1%|0.0%|
 [blocklist_de_imap](#blocklist_de_imap)|777|777|2|0.2%|0.0%|
 [zeus_badips](#zeus_badips)|229|229|1|0.4%|0.0%|
-[zeus](#zeus)|266|266|1|0.3%|0.0%|
+[zeus](#zeus)|267|267|1|0.3%|0.0%|
 [shunlist](#shunlist)|1180|1180|1|0.0%|0.0%|
 [ib_bluetack_proxies](#ib_bluetack_proxies)|673|673|1|0.1%|0.0%|
 [et_compromised](#et_compromised)|2367|2367|1|0.0%|0.0%|
@@ -2187,7 +2190,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [ib_bluetack_spyware](#ib_bluetack_spyware)|3274|339192|6|0.0%|0.0%|
 [php_harvesters](#php_harvesters)|257|257|5|1.9%|0.0%|
 [blocklist_de_bruteforce](#blocklist_de_bruteforce)|1201|1201|3|0.2%|0.0%|
-[zeus](#zeus)|266|266|2|0.7%|0.0%|
+[zeus](#zeus)|267|267|2|0.7%|0.0%|
 [ib_bluetack_webexploit](#ib_bluetack_webexploit)|1460|1460|2|0.1%|0.0%|
 [zeus_badips](#zeus_badips)|229|229|1|0.4%|0.0%|
 [xroxy](#xroxy)|1963|1963|1|0.0%|0.0%|
@@ -2282,7 +2285,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [nixspam](#nixspam)|22729|22729|4|0.0%|0.0%|
 [ib_bluetack_spyware](#ib_bluetack_spyware)|3274|339192|4|0.0%|0.0%|
 [snort_ipfilter](#snort_ipfilter)|5712|5712|3|0.0%|0.0%|
-[zeus](#zeus)|266|266|2|0.7%|0.0%|
+[zeus](#zeus)|267|267|2|0.7%|0.0%|
 [ib_bluetack_webexploit](#ib_bluetack_webexploit)|1460|1460|2|0.1%|0.0%|
 [blocklist_de_ftp](#blocklist_de_ftp)|373|373|2|0.5%|0.0%|
 [zeus_badips](#zeus_badips)|229|229|1|0.4%|0.0%|
@@ -2344,7 +2347,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [blocklist_de_ftp](#blocklist_de_ftp)|373|373|6|1.6%|0.0%|
 [php_harvesters](#php_harvesters)|257|257|5|1.9%|0.0%|
 [ib_bluetack_spyware](#ib_bluetack_spyware)|3274|339192|5|0.0%|0.0%|
-[zeus](#zeus)|266|266|2|0.7%|0.0%|
+[zeus](#zeus)|267|267|2|0.7%|0.0%|
 [ib_bluetack_webexploit](#ib_bluetack_webexploit)|1460|1460|2|0.1%|0.0%|
 [zeus_badips](#zeus_badips)|229|229|1|0.4%|0.0%|
 [spamhaus_edrop](#spamhaus_edrop)|55|421120|1|0.0%|0.0%|
@@ -2393,7 +2396,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [voipbl](#voipbl)|10305|10714|2|0.0%|0.2%|
 [snort_ipfilter](#snort_ipfilter)|5712|5712|2|0.0%|0.2%|
 [blocklist_de_ftp](#blocklist_de_ftp)|373|373|2|0.5%|0.2%|
-[zeus](#zeus)|266|266|1|0.3%|0.1%|
+[zeus](#zeus)|267|267|1|0.3%|0.1%|
 [ib_bluetack_webexploit](#ib_bluetack_webexploit)|1460|1460|1|0.0%|0.1%|
 [ib_bluetack_spyware](#ib_bluetack_spyware)|3274|339192|1|0.0%|0.1%|
 [ciarmy](#ciarmy)|348|348|1|0.2%|0.1%|
@@ -2454,7 +2457,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [ib_bluetack_spyware](#ib_bluetack_spyware)|3274|339192|6|0.0%|0.0%|
 [php_harvesters](#php_harvesters)|257|257|5|1.9%|0.0%|
 [blocklist_de_bruteforce](#blocklist_de_bruteforce)|1201|1201|3|0.2%|0.0%|
-[zeus](#zeus)|266|266|2|0.7%|0.0%|
+[zeus](#zeus)|267|267|2|0.7%|0.0%|
 [ib_bluetack_webexploit](#ib_bluetack_webexploit)|1460|1460|2|0.1%|0.0%|
 [zeus_badips](#zeus_badips)|229|229|1|0.4%|0.0%|
 [xroxy](#xroxy)|1963|1963|1|0.0%|0.0%|
@@ -2537,7 +2540,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [proxz](#proxz)|236|236|2|0.8%|0.7%|
 [proxyrss](#proxyrss)|1548|1548|2|0.1%|0.7%|
 [zeus_badips](#zeus_badips)|229|229|1|0.4%|0.3%|
-[zeus](#zeus)|266|266|1|0.3%|0.3%|
+[zeus](#zeus)|267|267|1|0.3%|0.3%|
 [ib_bluetack_hijacked](#ib_bluetack_hijacked)|535|9177856|1|0.0%|0.3%|
 
 ## php_commenters
@@ -2591,7 +2594,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [proxz](#proxz)|236|236|2|0.8%|0.7%|
 [proxyrss](#proxyrss)|1548|1548|2|0.1%|0.7%|
 [zeus_badips](#zeus_badips)|229|229|1|0.4%|0.3%|
-[zeus](#zeus)|266|266|1|0.3%|0.3%|
+[zeus](#zeus)|267|267|1|0.3%|0.3%|
 [ib_bluetack_hijacked](#ib_bluetack_hijacked)|535|9177856|1|0.0%|0.3%|
 
 ## php_dictionary
@@ -3010,7 +3013,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [stopforumspam_7d](#stopforumspam_7d)|30993|30993|570|1.8%|9.9%|
 [stopforumspam_1d](#stopforumspam_1d)|6841|6841|358|5.2%|6.2%|
 [et_block](#et_block)|986|18056524|294|0.0%|5.1%|
-[zeus](#zeus)|266|266|225|84.5%|3.9%|
+[zeus](#zeus)|267|267|222|83.1%|3.8%|
 [ib_bluetack_level3](#ib_bluetack_level3)|17802|139104824|218|0.0%|3.8%|
 [zeus_badips](#zeus_badips)|229|229|199|86.8%|3.4%|
 [maxmind_proxy_fraud](#maxmind_proxy_fraud)|372|372|184|49.4%|3.2%|
@@ -3108,7 +3111,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [blocklist_de_mail](#blocklist_de_mail)|14463|14463|20|0.1%|0.0%|
 [snort_ipfilter](#snort_ipfilter)|5712|5712|18|0.3%|0.0%|
 [zeus_badips](#zeus_badips)|229|229|16|6.9%|0.0%|
-[zeus](#zeus)|266|266|16|6.0%|0.0%|
+[zeus](#zeus)|267|267|16|5.9%|0.0%|
 [blocklist_de_imap](#blocklist_de_imap)|777|777|15|1.9%|0.0%|
 [voipbl](#voipbl)|10305|10714|14|0.1%|0.0%|
 [ib_bluetack_webexploit](#ib_bluetack_webexploit)|1460|1460|6|0.4%|0.0%|
@@ -3164,7 +3167,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [snort_ipfilter](#snort_ipfilter)|5712|5712|6|0.1%|0.0%|
 [blocklist_de_strongips](#blocklist_de_strongips)|195|195|6|3.0%|0.0%|
 [zeus_badips](#zeus_badips)|229|229|5|2.1%|0.0%|
-[zeus](#zeus)|266|266|5|1.8%|0.0%|
+[zeus](#zeus)|267|267|5|1.8%|0.0%|
 [blocklist_de_mail](#blocklist_de_mail)|14463|14463|2|0.0%|0.0%|
 [blocklist_de_apache](#blocklist_de_apache)|12529|12529|2|0.0%|0.0%|
 [php_harvesters](#php_harvesters)|257|257|1|0.3%|0.0%|
@@ -3261,7 +3264,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [ib_bluetack_proxies](#ib_bluetack_proxies)|673|673|3|0.4%|0.0%|
 [blocklist_de_ftp](#blocklist_de_ftp)|373|373|2|0.5%|0.0%|
 [zeus_badips](#zeus_badips)|229|229|1|0.4%|0.0%|
-[zeus](#zeus)|266|266|1|0.3%|0.0%|
+[zeus](#zeus)|267|267|1|0.3%|0.0%|
 [shunlist](#shunlist)|1180|1180|1|0.0%|0.0%|
 [openbl_30d](#openbl_30d)|4266|4266|1|0.0%|0.0%|
 [malwaredomainlist](#malwaredomainlist)|1282|1282|1|0.0%|0.0%|
@@ -3333,7 +3336,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [blocklist_de_ssh](#blocklist_de_ssh)|1834|1834|5|0.2%|0.0%|
 [shunlist](#shunlist)|1180|1180|4|0.3%|0.0%|
 [zeus_badips](#zeus_badips)|229|229|3|1.3%|0.0%|
-[zeus](#zeus)|266|266|3|1.1%|0.0%|
+[zeus](#zeus)|267|267|3|1.1%|0.0%|
 [malwaredomainlist](#malwaredomainlist)|1282|1282|3|0.2%|0.0%|
 [ib_bluetack_webexploit](#ib_bluetack_webexploit)|1460|1460|2|0.1%|0.0%|
 [fullbogons](#fullbogons)|3642|670590424|2|0.0%|0.0%|
@@ -3408,7 +3411,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [malwaredomainlist](#malwaredomainlist)|1282|1282|2|0.1%|0.0%|
 [ib_bluetack_webexploit](#ib_bluetack_webexploit)|1460|1460|2|0.1%|0.0%|
 [zeus_badips](#zeus_badips)|229|229|1|0.4%|0.0%|
-[zeus](#zeus)|266|266|1|0.3%|0.0%|
+[zeus](#zeus)|267|267|1|0.3%|0.0%|
 [dshield](#dshield)|20|5120|1|0.0%|0.0%|
 [blocklist_de_imap](#blocklist_de_imap)|777|777|1|0.1%|0.0%|
 
@@ -3524,9 +3527,9 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 
 Source is downloaded from [this link](https://zeustracker.abuse.ch/blocklist.php?download=ipblocklist).
 
-The last time downloaded was found to be dated: Sat May 30 09:50:05 UTC 2015.
+The last time downloaded was found to be dated: Sat May 30 11:26:13 UTC 2015.
 
-The ipset `zeus` has **266** entries, **266** unique IPs.
+The ipset `zeus` has **267** entries, **267** unique IPs.
 
 The following table shows the overlaps of `zeus` with all the other ipsets supported. Only the ipsets that have at least 1 IP overlap are shown. if an ipset is not shown here, it does not have any overlap with `zeus`.
 
@@ -3535,15 +3538,15 @@ The following table shows the overlaps of `zeus` with all the other ipsets suppo
 
 ipset|entries|unique IPs|IPs on both| them % | this % |
 :---:|:-----:|:--------:|:---------:|:------:|:------:|
-[et_block](#et_block)|986|18056524|263|0.0%|98.8%|
-[zeus_badips](#zeus_badips)|229|229|229|100.0%|86.0%|
-[snort_ipfilter](#snort_ipfilter)|5712|5712|225|3.9%|84.5%|
-[alienvault_reputation](#alienvault_reputation)|174737|174737|68|0.0%|25.5%|
+[et_block](#et_block)|986|18056524|260|0.0%|97.3%|
+[zeus_badips](#zeus_badips)|229|229|229|100.0%|85.7%|
+[snort_ipfilter](#snort_ipfilter)|5712|5712|222|3.8%|83.1%|
+[alienvault_reputation](#alienvault_reputation)|174737|174737|65|0.0%|24.3%|
 [ib_bluetack_level3](#ib_bluetack_level3)|17802|139104824|19|0.0%|7.1%|
-[spamhaus_drop](#spamhaus_drop)|640|17925376|16|0.0%|6.0%|
+[spamhaus_drop](#spamhaus_drop)|640|17925376|16|0.0%|5.9%|
 [ib_bluetack_hijacked](#ib_bluetack_hijacked)|535|9177856|10|0.0%|3.7%|
 [ib_bluetack_level2](#ib_bluetack_level2)|72774|348707599|9|0.0%|3.3%|
-[ib_bluetack_level1](#ib_bluetack_level1)|218309|764987411|8|0.0%|3.0%|
+[ib_bluetack_level1](#ib_bluetack_level1)|218309|764987411|9|0.0%|3.3%|
 [spamhaus_edrop](#spamhaus_edrop)|55|421120|5|0.0%|1.8%|
 [stopforumspam_30d](#stopforumspam_30d)|92359|92359|3|0.0%|1.1%|
 [openbl_90d](#openbl_90d)|9799|9799|2|0.0%|0.7%|
@@ -3560,6 +3563,9 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [et_compromised](#et_compromised)|2367|2367|1|0.0%|0.3%|
 [cleanmx_viruses](#cleanmx_viruses)|259|259|1|0.3%|0.3%|
 [bruteforceblocker](#bruteforceblocker)|2254|2254|1|0.0%|0.3%|
+[blocklist_de_bruteforce](#blocklist_de_bruteforce)|1201|1201|1|0.0%|0.3%|
+[blocklist_de_apache](#blocklist_de_apache)|12529|12529|1|0.0%|0.3%|
+[blocklist_de](#blocklist_de)|21611|21611|1|0.0%|0.3%|
 
 ## zeus_badips
 
@@ -3578,7 +3584,7 @@ The following table shows the overlaps of `zeus_badips` with all the other ipset
 
 ipset|entries|unique IPs|IPs on both| them % | this % |
 :---:|:-----:|:--------:|:---------:|:------:|:------:|
-[zeus](#zeus)|266|266|229|86.0%|100.0%|
+[zeus](#zeus)|267|267|229|85.7%|100.0%|
 [et_block](#et_block)|986|18056524|228|0.0%|99.5%|
 [snort_ipfilter](#snort_ipfilter)|5712|5712|199|3.4%|86.8%|
 [alienvault_reputation](#alienvault_reputation)|174737|174737|37|0.0%|16.1%|
