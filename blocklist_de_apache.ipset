@@ -9,8 +9,8 @@
 #
 # Source URL: http://lists.blocklist.de/lists/apache.txt
 #
-# Source File Date: Sat May 30 11:28:05 UTC 2015
-# This File Date  : Sat May 30 11:36:20 UTC 2015
+# Source File Date: Sat May 30 11:56:07 UTC 2015
+# This File Date  : Sat May 30 12:09:13 UTC 2015
 # Update Frequency: 30 mins 
 # Aggregation     : none
 # Entries         : 12527 unique IPs
@@ -4578,7 +4578,6 @@
 189.7.20.48
 189.73.147.55
 190.0.2.154
-190.103.238.187
 190.110.190.237
 190.110.238.121
 190.137.25.64
@@ -7297,6 +7296,7 @@
 46.163.32.47
 46.164.230.63
 46.164.235.69
+46.166.199.137
 46.181.200.121
 46.183.124.2
 46.188.29.17
