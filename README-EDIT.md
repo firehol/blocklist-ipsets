@@ -31,43 +31,30 @@ This repo is self maintained. It it updated automatically from the script via a 
 
 ## Why do we need blocklists?
 
-As time passes and the internet matures in our life, cyber crime is becoming increasingly sophisticated.
-Although there many tools (detection of malware, viruses, intrusion detection and prevension systems, etc)
-to help us isolate the budguys, there are now a lot more than just such attacks.
+As time passes and the internet matures in our life, cyber crime is becoming increasingly sophisticated. Although there many tools (detection of malware, viruses, intrusion detection and prevension systems, etc) to help us isolate the budguys, there are now a lot more than just such attacks.
 
-What is more interesting is that the fraudsters or attackers in many cases are not going to do a
-direct damage to you or your systems. They will use you and your systems to gain something else,
-possibly not related or indirectly related to your business. Nowdays the attacks cannot be identified easily. They are
-distributed and come to our systems from a vast amount of IPs around the world.
+What is more interesting is that the fraudsters or attackers in many cases are not going to do a direct damage to you or your systems. They will use you and your systems to gain something else, possibly not related or indirectly related to your business. Nowdays the attacks cannot be identified easily. They are distributed and come to our systems from a vast amount of IPs around the world.
 
-To get an idea, check for example the [XRumer](http://en.wikipedia.org/wiki/XRumer) software. This thing mimics human
-behaviour to post ads, it creates email accounts, responds to emails it receives, bypasses captchas, it goes gently
-to stay unoticed, etc.
+To get an idea, check for example the [XRumer](http://en.wikipedia.org/wiki/XRumer) software. This thing mimics human behaviour to post ads, it creates email accounts, responds to emails it receives, bypasses captchas, it goes gently to stay unoticed, etc.
 
-To increase our effectiveness we need to complement our security solutions with our 
-shared knowledge, our shared experience in this fight.
+To increase our effectiveness we need to complement our security solutions with our shared knowledge, our shared experience in this fight.
 
-Hopefully, there are many teams out there that do their best to identify the attacks and pinpoint
-the attackers. These teams release blocklists. Blocklists of IPs (for use in firewalls), domains & URLs
+Hopefully, there are many teams out there that do their best to identify the attacks and pinpoint the attackers. These teams release blocklists. Blocklists of IPs (for use in firewalls), domains & URLs
 (for use in proxies), etc.
 
 What we are interested here is IPs.
 
-Using IP blocklists at the internet side of your firewall is a key component of internet security.
-These lists share key knowledge between us, allowing us to learn from each other and effectively
-isolate fraudsters and attackers from our services.
+Using IP blocklists at the internet side of your firewall is a key component of internet security. These lists share key knowledge between us, allowing us to learn from each other and effectively isolate fraudsters and attackers from our services.
 
 I decided to upload these lists to a github repo because:
 
 1. They are freely available on the internet. The intention of their creators is to help internet security.
- Keep in mind though that a few of these lists may have special licences attached. Before using them, please
- check their source site for any information regarding proper use.
+ Keep in mind though that a few of these lists may have special licences attached. Before using them, please check their source site for any information regarding proper use.
 
 2. Github provides (via `git pull`) a unified way of updating all the lists together.
  Pulling this repo regularly on your machines, you will update all the IP lists at once.
 
-3. Github also provides a unified version control. Using it we can have a history of what each list has done,
- which IPs or subnets were added and which were removed.
+3. Github also provides a unified version control. Using it we can have a history of what each list has done, which IPs or subnets were added and which were removed.
 
 ## DNSBLs
 
@@ -82,12 +69,9 @@ More information [here](https://github.com/ktsaou/firehol/wiki/dnsbl-ipset.sh).
 
 # Using these ipsets
 
-Please be very careful what you choose to use and how you use it.
-If you blacklist traffic using these lists you may end up blocking
-your users, your customers, even yourself (!) from accessing your
-services.
+Please be very careful what you choose to use and how you use it. If you blacklist traffic using these lists you may end up blocking your users, your customers, even yourself (!) from accessing your services.
 
-1. Goto to the site of each list and read how each list is maintained. You are going to trust these guys for doing their job right.
+1. Go to to the site of each list and read how each list is maintained. You are going to trust these guys for doing their job right.
 
 2. Most sites have either a donation system or commercial lists of higher quality. Try to support them. 
 
@@ -100,11 +84,15 @@ services.
 
 ## Which ones to use
 
-These are the ones I install on all my firewalls:
+
+### Level 1 - Basic
+
+These are the ones I install on all my firewalls. **Level 1** provides basic security against the most well known attackers, with the minimum of false positives.
 
 1. **Abuse.ch** lists `feodo`, `palevo`, `sslbl`, `zeus`, `zeus_badips`
    
    These folks are doing a great job tracking crimeware. Their blocklists are very focused.
+   Keep in mind `zeus` may include some false positives. You can use `zeus_badips` instead.
 
 2. **DShield.org** list `dshield`
 
@@ -119,25 +107,31 @@ These are the ones I install on all my firewalls:
    > 
    > Spamhaus strongly encourages the use of DROP and EDROP by tier-1s and backbones.
 
+ Spamhaus is very responsive to adapt these lists when a network owner updates them that the issue has been solved (I had one such incident with one of my users).
+
 4. **Team-Cymru.org** list `bogons` or `fullbogons`
 
    These are lists of IPs that should not be routed on the internet. No one should be using them.
-   Be very carefull to apply either of the two on the internet side of your network.
+   Be very careful to apply either of the two on the internet side of your network.
 
-5. **OpenBL.org** lists `openbl*`
+### Level 2 - Essentials
+
+**Level 2** provide protection against current brute force attacks. This level may have a small percentage of false positives, mainly due to dynamic IPs being re-used by other users.
+
+1. **OpenBL.org** lists `openbl*`
    
-   The team of OpenBL tracks brute force attacks on their hosts. They suggest to use the default blacklist which has a retension policy of 90 days (`openbl`), but they also provide lists with different retension policies (from 1 day to 1 year).
+   The team of OpenBL tracks brute force attacks on their hosts. They have a very short list for hosts, under their own control, collecting this information, to eliminate false positives.
+   They suggest to use the default blacklist which has a retention policy of 90 days (`openbl`), but they also provide lists with different retention policies (from 1 day to 1 year).
    Their goal is to report abuse to the responsible provider so that the infection is disabled.
 
-6. **Blocklist.de** lists `blocklist_de*`
+2. **Blocklist.de** lists `blocklist_de*`
    
-   Is a network of users reporting abuse mainly using `fail2ban`.
-   They only include IPs that have attacked them in the last 48 hours.
-   Their goal is also to report abuse back, so that the infection is disabled.
-
+   Is a network of users reporting abuse mainly using `fail2ban`. They eliminate false positives using other lists available. Since they collect information from their users, their lists may be subject to poisoning, or false positives.
+   However, they only include individual IPs (no subnets) which have attacked their users the last 48 hours and their list contains 20.000 to 40.000 IPs (which is small enough considering the size of the internet).
+   Like `openbl`, their goal is to report abuse back, so that the infection is disabled.
+   They also provide their blocklist per type of attack (mail, web, etc).
 
 Of course there are more lists included. You can check them and decide if they fit for your needs.
-
 
 ## Why are open proxy lists included
 
