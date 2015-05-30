@@ -212,7 +212,7 @@ TODO
 
 # List of ipsets included
 
-The following list was automatically generated on Sat May 30 20:21:54 UTC 2015.
+The following list was automatically generated on Sat May 30 20:28:00 UTC 2015.
 
 The update frequency is the maximum allowed by internal configuration. A list will never be downloaded sooner than the update frequency stated. A list may also not be downloaded, after this frequency expired, if it has not been modified on the server (as reported by HTTP `IF_MODIFIED_SINCE` method).
 
@@ -855,7 +855,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 
 Source is downloaded from [this link](https://torstatus.blutmagie.de/ip_list_all.php/Tor_ip_list_ALL.csv).
 
-The last time downloaded was found to be dated: Sat May 30 19:54:08 UTC 2015.
+The last time downloaded was found to be dated: Sat May 30 20:27:05 UTC 2015.
 
 The ipset `bm_tor` has **6479** entries, **6479** unique IPs.
 
@@ -1047,7 +1047,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 
 Source is downloaded from [this link](https://www.dan.me.uk/torlist/).
 
-The last time downloaded was found to be dated: Sat May 30 19:54:06 UTC 2015.
+The last time downloaded was found to be dated: Sat May 30 20:27:04 UTC 2015.
 
 The ipset `dm_tor` has **6464** entries, **6464** unique IPs.
 
@@ -1187,7 +1187,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [voipbl](#voipbl)|10327|10736|17|0.1%|0.0%|
 [openbl_1d](#openbl_1d)|222|222|15|6.7%|0.0%|
 [blocklist_de_imap](#blocklist_de_imap)|724|724|15|2.0%|0.0%|
-[palevo](#palevo)|13|13|12|92.3%|0.0%|
+[palevo](#palevo)|13|13|13|100.0%|0.0%|
 [ib_bluetack_badpeers](#ib_bluetack_badpeers)|48134|48134|7|0.0%|0.0%|
 [blocklist_de_apache](#blocklist_de_apache)|12608|12608|7|0.0%|0.0%|
 [ib_bluetack_webexploit](#ib_bluetack_webexploit)|1460|1460|6|0.4%|0.0%|
@@ -1339,7 +1339,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 
 Source is downloaded from [this link](https://feodotracker.abuse.ch/blocklist/?download=ipblocklist).
 
-The last time downloaded was found to be dated: Sat May 30 19:54:20 UTC 2015.
+The last time downloaded was found to be dated: Sat May 30 20:27:11 UTC 2015.
 
 The ipset `feodo` has **71** entries, **71** unique IPs.
 
@@ -1642,8 +1642,8 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [php_harvesters](#php_harvesters)|257|257|7|2.7%|0.0%|
 [sslbl](#sslbl)|350|350|6|1.7%|0.0%|
 [blocklist_de_strongips](#blocklist_de_strongips)|188|188|6|3.1%|0.0%|
-[palevo](#palevo)|13|13|3|23.0%|0.0%|
 [feodo](#feodo)|71|71|3|4.2%|0.0%|
+[palevo](#palevo)|13|13|2|15.3%|0.0%|
 
 ## ib_bluetack_level3
 
@@ -1805,7 +1805,6 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [openbl_30d](#openbl_30d)|3304|3304|3|0.0%|0.0%|
 [malc0de](#malc0de)|407|407|3|0.7%|0.0%|
 [cleanmx_viruses](#cleanmx_viruses)|278|278|3|1.0%|0.0%|
-[palevo](#palevo)|13|13|2|15.3%|0.0%|
 [blocklist_de_sip](#blocklist_de_sip)|97|97|2|2.0%|0.0%|
 [blocklist_de](#blocklist_de)|21338|21338|2|0.0%|0.0%|
 [zeus_badips](#zeus_badips)|229|229|1|0.4%|0.0%|
@@ -1817,6 +1816,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [proxyrss](#proxyrss)|1802|1802|1|0.0%|0.0%|
 [php_harvesters](#php_harvesters)|257|257|1|0.3%|0.0%|
 [php_dictionary](#php_dictionary)|433|433|1|0.2%|0.0%|
+[palevo](#palevo)|13|13|1|7.6%|0.0%|
 [openbl_7d](#openbl_7d)|926|926|1|0.1%|0.0%|
 [feodo](#feodo)|71|71|1|1.4%|0.0%|
 [bruteforceblocker](#bruteforceblocker)|2225|2225|1|0.0%|0.0%|
@@ -2241,7 +2241,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 
 Source is downloaded from [this link](https://palevotracker.abuse.ch/blocklists.php?download=ipblocklist).
 
-The last time downloaded was found to be dated: Sat May 30 19:54:17 UTC 2015.
+The last time downloaded was found to be dated: Sat May 30 20:27:09 UTC 2015.
 
 The ipset `palevo` has **13** entries, **13** unique IPs.
 
@@ -2252,10 +2252,10 @@ The following table shows the overlaps of `palevo` with all the other ipsets sup
 
 ipset|entries|unique IPs|IPs on both| them % | this % |
 :---:|:-----:|:--------:|:---------:|:------:|:------:|
-[et_block](#et_block)|986|18056524|12|0.0%|92.3%|
+[et_block](#et_block)|986|18056524|13|0.0%|100.0%|
 [snort_ipfilter](#snort_ipfilter)|2000|2000|11|0.5%|84.6%|
-[ib_bluetack_level2](#ib_bluetack_level2)|72774|348707599|3|0.0%|23.0%|
-[ib_bluetack_spyware](#ib_bluetack_spyware)|3274|339192|2|0.0%|15.3%|
+[ib_bluetack_level2](#ib_bluetack_level2)|72774|348707599|2|0.0%|15.3%|
+[ib_bluetack_spyware](#ib_bluetack_spyware)|3274|339192|1|0.0%|7.6%|
 [ib_bluetack_level3](#ib_bluetack_level3)|17802|139104824|1|0.0%|7.6%|
 
 ## php_commenters
@@ -3244,7 +3244,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 
 Source is downloaded from [this link](https://zeustracker.abuse.ch/blocklist.php?download=badips).
 
-The last time downloaded was found to be dated: Sat May 30 19:54:15 UTC 2015.
+The last time downloaded was found to be dated: Sat May 30 20:27:07 UTC 2015.
 
 The ipset `zeus_badips` has **229** entries, **229** unique IPs.
 
