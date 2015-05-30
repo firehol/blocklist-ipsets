@@ -1,15 +1,21 @@
 #
-# et_botnet
+# et_botcc
 #
 # ipv4 hash:ip ipset
 #
-# [EmergingThreats.net](http://www.emergingthreats.net/) 
-# botnet IPs
+# [EmergingThreats.net Command and Control 
+# IPs](http://doc.emergingthreats.net/bin/view/Main/BotCC) 
+# These IPs are updates every 24 hours and should be 
+# considered VERY highly reliable indications that a host is 
+# communicating with a known and active Bot or Malware 
+# command and control server - (although they say this 
+# includes abuse.ch trackers, it does not - most probably it 
+# is the shadowserver.org C&C list)
 #
 # Source URL: http://rules.emergingthreats.net/fwrules/emerging-PIX-CC.rules
 #
 # Source File Date: Fri May 29 04:30:01 UTC 2015
-# This File Date  : Fri May 29 22:27:12 UTC 2015
+# This File Date  : Sat May 30 10:18:02 UTC 2015
 # Update Frequency: 12 hours 
 # Aggregation     : none
 # Entries         : 501 unique IPs
