@@ -9,8 +9,8 @@
 #
 # Source URL: http://lists.blocklist.de/lists/bruteforcelogin.txt
 #
-# Source File Date: Sun May 31 08:42:24 UTC 2015
-# This File Date  : Sun May 31 08:45:15 UTC 2015
+# Source File Date: Sun May 31 09:14:09 UTC 2015
+# This File Date  : Sun May 31 09:18:17 UTC 2015
 # Update Frequency: 30 mins 
 # Aggregation     : none
 # Entries         : 1281 unique IPs
@@ -63,6 +63,7 @@
 108.62.78.194
 109.108.241.71
 109.128.54.126
+109.182.164.38
 109.182.55.78
 109.185.252.78
 109.190.197.132
@@ -1104,7 +1105,6 @@
 85.105.14.42
 85.108.122.176
 85.108.233.220
-85.108.94.123
 85.110.227.180
 85.128.142.77
 85.159.234.32
