@@ -213,7 +213,7 @@ TODO
 
 # List of ipsets included
 
-The following list was automatically generated on Mon Jun  1 14:37:48 UTC 2015.
+The following list was automatically generated on Mon Jun  1 14:45:48 UTC 2015.
 
 The update frequency is the maximum allowed by internal configuration. A list will never be downloaded sooner than the update frequency stated. A list may also not be downloaded, after this frequency expired, if it has not been modified on the server (as reported by HTTP `IF_MODIFIED_SINCE` method).
 
@@ -409,7 +409,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [blocklist_de_ftp](#blocklist_de_ftp)|88|88|88|100.0%|0.3%|
 [snort_ipfilter](#snort_ipfilter)|6251|6251|86|1.3%|0.3%|
 [proxz](#proxz)|439|439|85|19.3%|0.3%|
-[blocklist_de_sip](#blocklist_de_sip)|92|92|73|79.3%|0.3%|
+[blocklist_de_sip](#blocklist_de_sip)|92|92|72|78.2%|0.3%|
 [php_commenters](#php_commenters)|281|281|62|22.0%|0.2%|
 [ri_connect_proxies](#ri_connect_proxies)|2014|2014|57|2.8%|0.2%|
 [dshield](#dshield)|20|5120|55|1.0%|0.2%|
@@ -718,7 +718,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 
 Source is downloaded from [this link](http://lists.blocklist.de/lists/sip.txt).
 
-The last time downloaded was found to be dated: Mon Jun  1 14:10:09 UTC 2015.
+The last time downloaded was found to be dated: Mon Jun  1 14:42:07 UTC 2015.
 
 The ipset `blocklist_de_sip` has **92** entries, **92** unique IPs.
 
@@ -729,7 +729,7 @@ The following table shows the overlaps of `blocklist_de_sip` with all the other 
 
 ipset|entries|unique IPs|IPs on both| them % | this % |
 :---:|:-----:|:--------:|:---------:|:------:|:------:|
-[blocklist_de](#blocklist_de)|22383|22383|73|0.3%|79.3%|
+[blocklist_de](#blocklist_de)|22383|22383|72|0.3%|78.2%|
 [voipbl](#voipbl)|10343|10752|29|0.2%|31.5%|
 [alienvault_reputation](#alienvault_reputation)|178278|178278|19|0.0%|20.6%|
 [ib_bluetack_level3](#ib_bluetack_level3)|17802|139104824|13|0.0%|14.1%|
@@ -1916,7 +1916,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 
 Source is downloaded from [this link](https://www.maxmind.com/en/anonymous-proxy-fraudulent-ip-address-list).
 
-The last time downloaded was found to be dated: Mon Jun  1 10:36:17 UTC 2015.
+The last time downloaded was found to be dated: Mon Jun  1 14:45:09 UTC 2015.
 
 The ipset `maxmind_proxy_fraud` has **372** entries, **372** unique IPs.
 
@@ -3174,7 +3174,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 
 Source is downloaded from [this link](https://zeustracker.abuse.ch/blocklist.php?download=ipblocklist).
 
-The last time downloaded was found to be dated: Mon Jun  1 08:30:03 UTC 2015.
+The last time downloaded was found to be dated: Mon Jun  1 14:43:56 UTC 2015.
 
 The ipset `zeus` has **265** entries, **265** unique IPs.
 
