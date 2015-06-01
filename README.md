@@ -213,7 +213,7 @@ TODO
 
 # List of ipsets included
 
-The following list was automatically generated on Mon Jun  1 20:55:25 UTC 2015.
+The following list was automatically generated on Mon Jun  1 21:00:48 UTC 2015.
 
 The update frequency is the maximum allowed by internal configuration. A list will never be downloaded sooner than the update frequency stated. A list may also not be downloaded, after this frequency expired, if it has not been modified on the server (as reported by HTTP `IF_MODIFIED_SINCE` method).
 
@@ -1150,7 +1150,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [spamhaus_edrop](#spamhaus_edrop)|56|421632|517|0.1%|0.0%|
 [stopforumspam_7d](#stopforumspam_7d)|31333|31333|342|1.0%|0.0%|
 [snort_ipfilter](#snort_ipfilter)|6251|6251|297|4.7%|0.0%|
-[zeus](#zeus)|267|267|260|97.3%|0.0%|
+[zeus](#zeus)|267|267|261|97.7%|0.0%|
 [openbl_60d](#openbl_60d)|7581|7581|245|3.2%|0.0%|
 [zeus_badips](#zeus_badips)|231|231|229|99.1%|0.0%|
 [nixspam](#nixspam)|23545|23545|229|0.9%|0.0%|
@@ -3190,7 +3190,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 
 Source is downloaded from [this link](https://zeustracker.abuse.ch/blocklist.php?download=ipblocklist).
 
-The last time downloaded was found to be dated: Mon Jun  1 20:24:31 UTC 2015.
+The last time downloaded was found to be dated: Mon Jun  1 20:49:43 UTC 2015.
 
 The ipset `zeus` has **267** entries, **267** unique IPs.
 
@@ -3201,7 +3201,7 @@ The following table shows the overlaps of `zeus` with all the other ipsets suppo
 
 ipset|entries|unique IPs|IPs on both| them % | this % |
 :---:|:-----:|:--------:|:---------:|:------:|:------:|
-[et_block](#et_block)|997|18338381|260|0.0%|97.3%|
+[et_block](#et_block)|997|18338381|261|0.0%|97.7%|
 [zeus_badips](#zeus_badips)|231|231|231|100.0%|86.5%|
 [snort_ipfilter](#snort_ipfilter)|6251|6251|227|3.6%|85.0%|
 [alienvault_reputation](#alienvault_reputation)|178819|178819|66|0.0%|24.7%|
