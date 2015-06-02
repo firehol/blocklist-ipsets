@@ -213,7 +213,7 @@ TODO
 
 # List of ipsets included
 
-The following list was automatically generated on Tue Jun  2 23:20:22 UTC 2015.
+The following list was automatically generated on Tue Jun  2 23:28:00 UTC 2015.
 
 The update frequency is the maximum allowed by internal configuration. A list will never be downloaded sooner than the update frequency stated. A list may also not be downloaded, after this frequency expired, if it has not been modified on the server (as reported by HTTP `IF_MODIFIED_SINCE` method).
 
@@ -310,7 +310,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [openbl_60d](#openbl_60d)|7627|7627|7607|99.7%|4.3%|
 [et_block](#et_block)|997|18338381|5537|0.0%|3.1%|
 [ib_bluetack_level1](#ib_bluetack_level1)|218309|764987411|4700|0.0%|2.6%|
-[dshield](#dshield)|20|5120|4099|80.0%|2.3%|
+[dshield](#dshield)|20|5120|3854|75.2%|2.2%|
 [openbl_30d](#openbl_30d)|3220|3220|3206|99.5%|1.8%|
 [blocklist_de](#blocklist_de)|31955|31955|1920|6.0%|1.0%|
 [blocklist_de_ssh](#blocklist_de_ssh)|9613|9613|1684|17.5%|0.9%|
@@ -413,9 +413,9 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [blocklist_de_sip](#blocklist_de_sip)|112|112|93|83.0%|0.2%|
 [ri_connect_proxies](#ri_connect_proxies)|2142|2142|68|3.1%|0.2%|
 [php_commenters](#php_commenters)|281|281|61|21.7%|0.1%|
-[dshield](#dshield)|20|5120|57|1.1%|0.1%|
 [php_dictionary](#php_dictionary)|433|433|52|12.0%|0.1%|
 [php_spammers](#php_spammers)|417|417|46|11.0%|0.1%|
+[dshield](#dshield)|20|5120|46|0.8%|0.1%|
 [voipbl](#voipbl)|10367|10776|42|0.3%|0.1%|
 [ciarmy](#ciarmy)|350|350|39|11.1%|0.1%|
 [ib_bluetack_hijacked](#ib_bluetack_hijacked)|535|9177856|26|0.0%|0.0%|
@@ -472,7 +472,6 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [openbl_60d](#openbl_60d)|7627|7627|3|0.0%|0.0%|
 [ib_bluetack_spyware](#ib_bluetack_spyware)|3274|339192|3|0.0%|0.0%|
 [et_tor](#et_tor)|6360|6360|3|0.0%|0.0%|
-[dshield](#dshield)|20|5120|3|0.0%|0.0%|
 [dm_tor](#dm_tor)|6475|6475|3|0.0%|0.0%|
 [bm_tor](#bm_tor)|6523|6523|3|0.0%|0.0%|
 [spamhaus_edrop](#spamhaus_edrop)|57|487168|2|0.0%|0.0%|
@@ -480,6 +479,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [php_dictionary](#php_dictionary)|433|433|2|0.4%|0.0%|
 [openbl_30d](#openbl_30d)|3220|3220|2|0.0%|0.0%|
 [et_compromised](#et_compromised)|2191|2191|2|0.0%|0.0%|
+[dshield](#dshield)|20|5120|2|0.0%|0.0%|
 [bruteforceblocker](#bruteforceblocker)|2173|2173|2|0.0%|0.0%|
 [php_harvesters](#php_harvesters)|257|257|1|0.3%|0.0%|
 [maxmind_proxy_fraud](#maxmind_proxy_fraud)|372|372|1|0.2%|0.0%|
@@ -779,8 +779,8 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [spamhaus_drop](#spamhaus_drop)|656|18600704|111|0.0%|1.1%|
 [ib_bluetack_level1](#ib_bluetack_level1)|218309|764987411|104|0.0%|1.0%|
 [stopforumspam_30d](#stopforumspam_30d)|92372|92372|71|0.0%|0.7%|
-[dshield](#dshield)|20|5120|52|1.0%|0.5%|
 [nixspam](#nixspam)|21560|21560|45|0.2%|0.4%|
+[dshield](#dshield)|20|5120|42|0.8%|0.4%|
 [blocklist_de_strongips](#blocklist_de_strongips)|172|172|28|16.2%|0.2%|
 [stopforumspam_7d](#stopforumspam_7d)|31339|31339|10|0.0%|0.1%|
 [ib_bluetack_hijacked](#ib_bluetack_hijacked)|535|9177856|7|0.0%|0.0%|
@@ -830,7 +830,6 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [blocklist_de_mail](#blocklist_de_mail)|15560|15560|20|0.1%|11.6%|
 [openbl_1d](#openbl_1d)|247|247|18|7.2%|10.4%|
 [ib_bluetack_level3](#ib_bluetack_level3)|17802|139104824|16|0.0%|9.3%|
-[dshield](#dshield)|20|5120|12|0.2%|6.9%|
 [blocklist_de_bruteforce](#blocklist_de_bruteforce)|2626|2626|12|0.4%|6.9%|
 [xroxy](#xroxy)|2040|2040|7|0.3%|4.0%|
 [spamhaus_drop](#spamhaus_drop)|656|18600704|7|0.0%|4.0%|
@@ -846,6 +845,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [php_dictionary](#php_dictionary)|433|433|2|0.4%|1.1%|
 [snort_ipfilter](#snort_ipfilter)|9012|9012|1|0.0%|0.5%|
 [nixspam](#nixspam)|21560|21560|1|0.0%|0.5%|
+[dshield](#dshield)|20|5120|1|0.0%|0.5%|
 [blocklist_de_imap](#blocklist_de_imap)|1539|1539|1|0.0%|0.5%|
 
 ## bm_tor
@@ -854,7 +854,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 
 Source is downloaded from [this link](https://torstatus.blutmagie.de/ip_list_all.php/Tor_ip_list_ALL.csv).
 
-The last time downloaded was found to be dated: Tue Jun  2 22:54:09 UTC 2015.
+The last time downloaded was found to be dated: Tue Jun  2 23:27:09 UTC 2015.
 
 The ipset `bm_tor` has **6523** entries, **6523** unique IPs.
 
@@ -891,6 +891,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [voipbl](#voipbl)|10367|10776|2|0.0%|0.0%|
 [spamhaus_drop](#spamhaus_drop)|656|18600704|2|0.0%|0.0%|
 [ri_web_proxies](#ri_web_proxies)|5772|5772|2|0.0%|0.0%|
+[dshield](#dshield)|20|5120|2|0.0%|0.0%|
 [shunlist](#shunlist)|1271|1271|1|0.0%|0.0%|
 [ri_connect_proxies](#ri_connect_proxies)|2142|2142|1|0.0%|0.0%|
 [proxyrss](#proxyrss)|1953|1953|1|0.0%|0.0%|
@@ -952,7 +953,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [spamhaus_drop](#spamhaus_drop)|656|18600704|100|0.0%|4.6%|
 [openbl_1d](#openbl_1d)|247|247|76|30.7%|3.4%|
 [ib_bluetack_level1](#ib_bluetack_level1)|218309|764987411|62|0.0%|2.8%|
-[dshield](#dshield)|20|5120|35|0.6%|1.6%|
+[dshield](#dshield)|20|5120|43|0.8%|1.9%|
 [blocklist_de_mail](#blocklist_de_mail)|15560|15560|12|0.0%|0.5%|
 [stopforumspam_30d](#stopforumspam_30d)|92372|92372|10|0.0%|0.4%|
 [blocklist_de_imap](#blocklist_de_imap)|1539|1539|8|0.5%|0.3%|
@@ -999,7 +1000,6 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [ib_bluetack_level2](#ib_bluetack_level2)|72774|348707599|14|0.0%|4.0%|
 [ib_bluetack_level1](#ib_bluetack_level1)|218309|764987411|11|0.0%|3.1%|
 [voipbl](#voipbl)|10367|10776|6|0.0%|1.7%|
-[dshield](#dshield)|20|5120|3|0.0%|0.8%|
 [blocklist_de_ssh](#blocklist_de_ssh)|9613|9613|3|0.0%|0.8%|
 [et_block](#et_block)|997|18338381|2|0.0%|0.5%|
 [blocklist_de_mail](#blocklist_de_mail)|15560|15560|2|0.0%|0.5%|
@@ -1036,7 +1036,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 
 Source is downloaded from [this link](https://www.dan.me.uk/torlist/).
 
-The last time downloaded was found to be dated: Tue Jun  2 22:54:06 UTC 2015.
+The last time downloaded was found to be dated: Tue Jun  2 23:27:07 UTC 2015.
 
 The ipset `dm_tor` has **6475** entries, **6475** unique IPs.
 
@@ -1073,6 +1073,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [voipbl](#voipbl)|10367|10776|2|0.0%|0.0%|
 [spamhaus_drop](#spamhaus_drop)|656|18600704|2|0.0%|0.0%|
 [ri_web_proxies](#ri_web_proxies)|5772|5772|2|0.0%|0.0%|
+[dshield](#dshield)|20|5120|2|0.0%|0.0%|
 [shunlist](#shunlist)|1271|1271|1|0.0%|0.0%|
 [ri_connect_proxies](#ri_connect_proxies)|2142|2142|1|0.0%|0.0%|
 [proxyrss](#proxyrss)|1953|1953|1|0.0%|0.0%|
@@ -1083,7 +1084,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 
 Source is downloaded from [this link](http://feeds.dshield.org/block.txt).
 
-The last time downloaded was found to be dated: Tue Jun  2 19:17:02 UTC 2015.
+The last time downloaded was found to be dated: Tue Jun  2 23:23:17 UTC 2015.
 
 The ipset `dshield` has **20** entries, **5120** unique IPs.
 
@@ -1094,28 +1095,35 @@ The following table shows the overlaps of `dshield` with all the other ipsets su
 
 ipset|entries|unique IPs|IPs on both| them % | this % |
 :---:|:-----:|:--------:|:---------:|:------:|:------:|
-[alienvault_reputation](#alienvault_reputation)|174882|174882|4099|2.3%|80.0%|
+[alienvault_reputation](#alienvault_reputation)|174882|174882|3854|2.2%|75.2%|
 [et_block](#et_block)|997|18338381|1281|0.0%|25.0%|
-[spamhaus_drop](#spamhaus_drop)|656|18600704|256|0.0%|5.0%|
-[ib_bluetack_level3](#ib_bluetack_level3)|17802|139104824|256|0.0%|5.0%|
-[openbl_60d](#openbl_60d)|7627|7627|77|1.0%|1.5%|
-[openbl_30d](#openbl_30d)|3220|3220|70|2.1%|1.3%|
-[blocklist_de](#blocklist_de)|31955|31955|57|0.1%|1.1%|
-[blocklist_de_ssh](#blocklist_de_ssh)|9613|9613|52|0.5%|1.0%|
-[shunlist](#shunlist)|1271|1271|49|3.8%|0.9%|
-[openbl_7d](#openbl_7d)|971|971|48|4.9%|0.9%|
-[et_compromised](#et_compromised)|2191|2191|35|1.5%|0.6%|
-[bruteforceblocker](#bruteforceblocker)|2173|2173|35|1.6%|0.6%|
-[openbl_1d](#openbl_1d)|247|247|21|8.5%|0.4%|
-[ib_bluetack_level1](#ib_bluetack_level1)|218309|764987411|12|0.0%|0.2%|
-[blocklist_de_strongips](#blocklist_de_strongips)|172|172|12|6.9%|0.2%|
-[ib_bluetack_badpeers](#ib_bluetack_badpeers)|48134|48134|4|0.0%|0.0%|
-[ciarmy](#ciarmy)|350|350|3|0.8%|0.0%|
-[blocklist_de_apache](#blocklist_de_apache)|14012|14012|3|0.0%|0.0%|
-[zeus_badips](#zeus_badips)|230|230|1|0.4%|0.0%|
+[spamhaus_drop](#spamhaus_drop)|656|18600704|512|0.0%|10.0%|
+[ib_bluetack_level3](#ib_bluetack_level3)|17802|139104824|512|0.0%|10.0%|
+[ib_bluetack_level2](#ib_bluetack_level2)|72774|348707599|512|0.0%|10.0%|
+[ib_bluetack_hijacked](#ib_bluetack_hijacked)|535|9177856|256|0.0%|5.0%|
+[openbl_60d](#openbl_60d)|7627|7627|76|0.9%|1.4%|
+[openbl_30d](#openbl_30d)|3220|3220|67|2.0%|1.3%|
+[blocklist_de](#blocklist_de)|31955|31955|46|0.1%|0.8%|
+[openbl_7d](#openbl_7d)|971|971|43|4.4%|0.8%|
+[et_compromised](#et_compromised)|2191|2191|43|1.9%|0.8%|
+[bruteforceblocker](#bruteforceblocker)|2173|2173|43|1.9%|0.8%|
+[blocklist_de_ssh](#blocklist_de_ssh)|9613|9613|42|0.4%|0.8%|
+[shunlist](#shunlist)|1271|1271|40|3.1%|0.7%|
+[ib_bluetack_level1](#ib_bluetack_level1)|218309|764987411|22|0.0%|0.4%|
+[openbl_1d](#openbl_1d)|247|247|10|4.0%|0.1%|
+[stopforumspam_30d](#stopforumspam_30d)|92372|92372|3|0.0%|0.0%|
+[stopforumspam_7d](#stopforumspam_7d)|31339|31339|2|0.0%|0.0%|
+[stopforumspam_1d](#stopforumspam_1d)|7164|7164|2|0.0%|0.0%|
+[snort_ipfilter](#snort_ipfilter)|9012|9012|2|0.0%|0.0%|
+[et_tor](#et_tor)|6360|6360|2|0.0%|0.0%|
+[dm_tor](#dm_tor)|6475|6475|2|0.0%|0.0%|
+[bm_tor](#bm_tor)|6523|6523|2|0.0%|0.0%|
+[blocklist_de_apache](#blocklist_de_apache)|14012|14012|2|0.0%|0.0%|
 [zeus](#zeus)|266|266|1|0.3%|0.0%|
+[php_commenters](#php_commenters)|281|281|1|0.3%|0.0%|
+[maxmind_proxy_fraud](#maxmind_proxy_fraud)|372|372|1|0.2%|0.0%|
 [malc0de](#malc0de)|392|392|1|0.2%|0.0%|
-[ib_bluetack_proxies](#ib_bluetack_proxies)|673|673|1|0.1%|0.0%|
+[blocklist_de_strongips](#blocklist_de_strongips)|172|172|1|0.5%|0.0%|
 [blocklist_de_mail](#blocklist_de_mail)|15560|15560|1|0.0%|0.0%|
 [blocklist_de_ftp](#blocklist_de_ftp)|684|684|1|0.1%|0.0%|
 
@@ -1248,7 +1256,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [spamhaus_drop](#spamhaus_drop)|656|18600704|102|0.0%|4.6%|
 [openbl_1d](#openbl_1d)|247|247|68|27.5%|3.1%|
 [ib_bluetack_level1](#ib_bluetack_level1)|218309|764987411|62|0.0%|2.8%|
-[dshield](#dshield)|20|5120|35|0.6%|1.5%|
+[dshield](#dshield)|20|5120|43|0.8%|1.9%|
 [blocklist_de_mail](#blocklist_de_mail)|15560|15560|12|0.0%|0.5%|
 [stopforumspam_30d](#stopforumspam_30d)|92372|92372|9|0.0%|0.4%|
 [blocklist_de_imap](#blocklist_de_imap)|1539|1539|9|0.5%|0.4%|
@@ -1311,6 +1319,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [voipbl](#voipbl)|10367|10776|2|0.0%|0.0%|
 [spamhaus_drop](#spamhaus_drop)|656|18600704|2|0.0%|0.0%|
 [ri_connect_proxies](#ri_connect_proxies)|2142|2142|2|0.0%|0.0%|
+[dshield](#dshield)|20|5120|2|0.0%|0.0%|
 [shunlist](#shunlist)|1271|1271|1|0.0%|0.0%|
 [proxz](#proxz)|568|568|1|0.1%|0.0%|
 [proxyrss](#proxyrss)|1953|1953|1|0.0%|0.0%|
@@ -1321,7 +1330,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 
 Source is downloaded from [this link](https://feodotracker.abuse.ch/blocklist/?download=ipblocklist).
 
-The last time downloaded was found to be dated: Tue Jun  2 22:54:21 UTC 2015.
+The last time downloaded was found to be dated: Tue Jun  2 23:27:14 UTC 2015.
 
 The ipset `feodo` has **80** entries, **80** unique IPs.
 
@@ -1403,7 +1412,6 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [nixspam](#nixspam)|21560|21560|7|0.0%|0.0%|
 [spamhaus_drop](#spamhaus_drop)|656|18600704|6|0.0%|0.0%|
 [ib_bluetack_spyware](#ib_bluetack_spyware)|3274|339192|4|0.0%|0.0%|
-[dshield](#dshield)|20|5120|4|0.0%|0.0%|
 [xroxy](#xroxy)|2040|2040|3|0.1%|0.0%|
 [snort_ipfilter](#snort_ipfilter)|9012|9012|3|0.0%|0.0%|
 [blocklist_de](#blocklist_de)|31955|31955|3|0.0%|0.0%|
@@ -1445,6 +1453,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [ib_bluetack_spyware](#ib_bluetack_spyware)|3274|339192|1036|0.3%|0.0%|
 [stopforumspam_30d](#stopforumspam_30d)|92372|92372|731|0.7%|0.0%|
 [alienvault_reputation](#alienvault_reputation)|174882|174882|518|0.2%|0.0%|
+[dshield](#dshield)|20|5120|256|5.0%|0.0%|
 [stopforumspam_7d](#stopforumspam_7d)|31339|31339|178|0.5%|0.0%|
 [nixspam](#nixspam)|21560|21560|144|0.6%|0.0%|
 [stopforumspam_1d](#stopforumspam_1d)|7164|7164|38|0.5%|0.0%|
@@ -1534,11 +1543,11 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [blocklist_de_bruteforce](#blocklist_de_bruteforce)|2626|2626|30|1.1%|0.0%|
 [shunlist](#shunlist)|1271|1271|25|1.9%|0.0%|
 [proxz](#proxz)|568|568|23|4.0%|0.0%|
+[dshield](#dshield)|20|5120|22|0.4%|0.0%|
 [openbl_7d](#openbl_7d)|971|971|19|1.9%|0.0%|
 [maxmind_proxy_fraud](#maxmind_proxy_fraud)|372|372|17|4.5%|0.0%|
 [blocklist_de_imap](#blocklist_de_imap)|1539|1539|14|0.9%|0.0%|
 [malc0de](#malc0de)|392|392|12|3.0%|0.0%|
-[dshield](#dshield)|20|5120|12|0.2%|0.0%|
 [ciarmy](#ciarmy)|350|350|11|3.1%|0.0%|
 [php_dictionary](#php_dictionary)|433|433|9|2.0%|0.0%|
 [zeus](#zeus)|266|266|7|2.6%|0.0%|
@@ -1585,6 +1594,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [blocklist_de_apache](#blocklist_de_apache)|14012|14012|1078|7.6%|0.0%|
 [stopforumspam_7d](#stopforumspam_7d)|31339|31339|934|2.9%|0.0%|
 [nixspam](#nixspam)|21560|21560|655|3.0%|0.0%|
+[dshield](#dshield)|20|5120|512|10.0%|0.0%|
 [voipbl](#voipbl)|10367|10776|432|4.0%|0.0%|
 [openbl_60d](#openbl_60d)|7627|7627|341|4.4%|0.0%|
 [stopforumspam_1d](#stopforumspam_1d)|7164|7164|259|3.6%|0.0%|
@@ -1625,8 +1635,8 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [blocklist_de_strongips](#blocklist_de_strongips)|172|172|7|4.0%|0.0%|
 [sslbl](#sslbl)|360|360|6|1.6%|0.0%|
 [blocklist_de_sip](#blocklist_de_sip)|112|112|6|5.3%|0.0%|
-[palevo](#palevo)|13|13|3|23.0%|0.0%|
 [feodo](#feodo)|80|80|3|3.7%|0.0%|
+[palevo](#palevo)|13|13|2|15.3%|0.0%|
 
 ## ib_bluetack_level3
 
@@ -1668,9 +1678,9 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [dm_tor](#dm_tor)|6475|6475|632|9.7%|0.0%|
 [bm_tor](#bm_tor)|6523|6523|631|9.6%|0.0%|
 [et_tor](#et_tor)|6360|6360|628|9.8%|0.0%|
+[dshield](#dshield)|20|5120|512|10.0%|0.0%|
 [stopforumspam_1d](#stopforumspam_1d)|7164|7164|500|6.9%|0.0%|
 [openbl_30d](#openbl_30d)|3220|3220|306|9.5%|0.0%|
-[dshield](#dshield)|20|5120|256|5.0%|0.0%|
 [snort_ipfilter](#snort_ipfilter)|9012|9012|246|2.7%|0.0%|
 [et_compromised](#et_compromised)|2191|2191|219|9.9%|0.0%|
 [bruteforceblocker](#bruteforceblocker)|2173|2173|214|9.8%|0.0%|
@@ -1742,7 +1752,6 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [blocklist_de](#blocklist_de)|31955|31955|2|0.0%|0.2%|
 [php_dictionary](#php_dictionary)|433|433|1|0.2%|0.1%|
 [nixspam](#nixspam)|21560|21560|1|0.0%|0.1%|
-[dshield](#dshield)|20|5120|1|0.0%|0.1%|
 [blocklist_de_mail](#blocklist_de_mail)|15560|15560|1|0.0%|0.1%|
 [blocklist_de_bots](#blocklist_de_bots)|3111|3111|1|0.0%|0.1%|
 [alienvault_reputation](#alienvault_reputation)|174882|174882|1|0.0%|0.1%|
@@ -1792,7 +1801,6 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [malc0de](#malc0de)|392|392|3|0.7%|0.0%|
 [blocklist_de_ssh](#blocklist_de_ssh)|9613|9613|3|0.0%|0.0%|
 [blocklist_de_apache](#blocklist_de_apache)|14012|14012|3|0.0%|0.0%|
-[palevo](#palevo)|13|13|2|15.3%|0.0%|
 [bruteforceblocker](#bruteforceblocker)|2173|2173|2|0.0%|0.0%|
 [blocklist_de_sip](#blocklist_de_sip)|112|112|2|1.7%|0.0%|
 [blocklist_de_bruteforce](#blocklist_de_bruteforce)|2626|2626|2|0.0%|0.0%|
@@ -1805,6 +1813,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [shunlist](#shunlist)|1271|1271|1|0.0%|0.0%|
 [php_harvesters](#php_harvesters)|257|257|1|0.3%|0.0%|
 [php_dictionary](#php_dictionary)|433|433|1|0.2%|0.0%|
+[palevo](#palevo)|13|13|1|7.6%|0.0%|
 [openbl_7d](#openbl_7d)|971|971|1|0.1%|0.0%|
 [feodo](#feodo)|80|80|1|1.2%|0.0%|
 [et_compromised](#et_compromised)|2191|2191|1|0.0%|0.0%|
@@ -1960,6 +1969,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [xroxy](#xroxy)|2040|2040|1|0.0%|0.2%|
 [voipbl](#voipbl)|10367|10776|1|0.0%|0.2%|
 [ri_connect_proxies](#ri_connect_proxies)|2142|2142|1|0.0%|0.2%|
+[dshield](#dshield)|20|5120|1|0.0%|0.2%|
 [blocklist_de_mail](#blocklist_de_mail)|15560|15560|1|0.0%|0.2%|
 [blocklist_de_apache](#blocklist_de_apache)|14012|14012|1|0.0%|0.2%|
 [blocklist_de](#blocklist_de)|31955|31955|1|0.0%|0.2%|
@@ -2048,9 +2058,9 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [shunlist](#shunlist)|1271|1271|71|5.5%|28.7%|
 [et_compromised](#et_compromised)|2191|2191|68|3.1%|27.5%|
 [ib_bluetack_level3](#ib_bluetack_level3)|17802|139104824|43|0.0%|17.4%|
-[dshield](#dshield)|20|5120|21|0.4%|8.5%|
 [blocklist_de_strongips](#blocklist_de_strongips)|172|172|18|10.4%|7.2%|
 [ib_bluetack_level2](#ib_bluetack_level2)|72774|348707599|12|0.0%|4.8%|
+[dshield](#dshield)|20|5120|10|0.1%|4.0%|
 [spamhaus_drop](#spamhaus_drop)|656|18600704|9|0.0%|3.6%|
 [et_block](#et_block)|997|18338381|9|0.0%|3.6%|
 [ib_bluetack_level1](#ib_bluetack_level1)|218309|764987411|7|0.0%|2.8%|
@@ -2089,7 +2099,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [spamhaus_drop](#spamhaus_drop)|656|18600704|179|0.0%|5.5%|
 [ib_bluetack_level2](#ib_bluetack_level2)|72774|348707599|179|0.0%|5.5%|
 [ib_bluetack_level1](#ib_bluetack_level1)|218309|764987411|71|0.0%|2.2%|
-[dshield](#dshield)|20|5120|70|1.3%|2.1%|
+[dshield](#dshield)|20|5120|67|1.3%|2.0%|
 [blocklist_de_mail](#blocklist_de_mail)|15560|15560|39|0.2%|1.2%|
 [blocklist_de_imap](#blocklist_de_imap)|1539|1539|32|2.0%|0.9%|
 [blocklist_de_strongips](#blocklist_de_strongips)|172|172|25|14.5%|0.7%|
@@ -2140,7 +2150,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [spamhaus_drop](#spamhaus_drop)|656|18600704|239|0.0%|3.1%|
 [openbl_1d](#openbl_1d)|247|247|220|89.0%|2.8%|
 [ib_bluetack_level1](#ib_bluetack_level1)|218309|764987411|171|0.0%|2.2%|
-[dshield](#dshield)|20|5120|77|1.5%|1.0%|
+[dshield](#dshield)|20|5120|76|1.4%|0.9%|
 [stopforumspam_30d](#stopforumspam_30d)|92372|92372|54|0.0%|0.7%|
 [blocklist_de_mail](#blocklist_de_mail)|15560|15560|45|0.2%|0.5%|
 [blocklist_de_imap](#blocklist_de_imap)|1539|1539|37|2.4%|0.4%|
@@ -2197,8 +2207,8 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [ib_bluetack_level3](#ib_bluetack_level3)|17802|139104824|112|0.0%|11.5%|
 [et_block](#et_block)|997|18338381|89|0.0%|9.1%|
 [spamhaus_drop](#spamhaus_drop)|656|18600704|86|0.0%|8.8%|
-[dshield](#dshield)|20|5120|48|0.9%|4.9%|
 [ib_bluetack_level2](#ib_bluetack_level2)|72774|348707599|47|0.0%|4.8%|
+[dshield](#dshield)|20|5120|43|0.8%|4.4%|
 [blocklist_de_strongips](#blocklist_de_strongips)|172|172|24|13.9%|2.4%|
 [ib_bluetack_level1](#ib_bluetack_level1)|218309|764987411|19|0.0%|1.9%|
 [blocklist_de_mail](#blocklist_de_mail)|15560|15560|18|0.1%|1.8%|
@@ -2219,7 +2229,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 
 Source is downloaded from [this link](https://palevotracker.abuse.ch/blocklists.php?download=ipblocklist).
 
-The last time downloaded was found to be dated: Tue Jun  2 22:54:19 UTC 2015.
+The last time downloaded was found to be dated: Tue Jun  2 23:27:11 UTC 2015.
 
 The ipset `palevo` has **13** entries, **13** unique IPs.
 
@@ -2232,8 +2242,8 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 :---:|:-----:|:--------:|:---------:|:------:|:------:|
 [et_block](#et_block)|997|18338381|12|0.0%|92.3%|
 [snort_ipfilter](#snort_ipfilter)|9012|9012|11|0.1%|84.6%|
-[ib_bluetack_level2](#ib_bluetack_level2)|72774|348707599|3|0.0%|23.0%|
-[ib_bluetack_spyware](#ib_bluetack_spyware)|3274|339192|2|0.0%|15.3%|
+[ib_bluetack_level2](#ib_bluetack_level2)|72774|348707599|2|0.0%|15.3%|
+[ib_bluetack_spyware](#ib_bluetack_spyware)|3274|339192|1|0.0%|7.6%|
 [ib_bluetack_level3](#ib_bluetack_level3)|17802|139104824|1|0.0%|7.6%|
 
 ## php_commenters
@@ -2286,6 +2296,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [zeus](#zeus)|266|266|1|0.3%|0.3%|
 [proxyrss](#proxyrss)|1953|1953|1|0.0%|0.3%|
 [ib_bluetack_hijacked](#ib_bluetack_hijacked)|535|9177856|1|0.0%|0.3%|
+[dshield](#dshield)|20|5120|1|0.0%|0.3%|
 
 ## php_dictionary
 
@@ -2650,7 +2661,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [openbl_1d](#openbl_1d)|247|247|71|28.7%|5.5%|
 [ib_bluetack_level2](#ib_bluetack_level2)|72774|348707599|69|0.0%|5.4%|
 [sslbl](#sslbl)|360|360|55|15.2%|4.3%|
-[dshield](#dshield)|20|5120|49|0.9%|3.8%|
+[dshield](#dshield)|20|5120|40|0.7%|3.1%|
 [blocklist_de_apache](#blocklist_de_apache)|14012|14012|34|0.2%|2.6%|
 [ciarmy](#ciarmy)|350|350|28|8.0%|2.2%|
 [ib_bluetack_level1](#ib_bluetack_level1)|218309|764987411|25|0.0%|1.9%|
@@ -2735,6 +2746,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [bruteforceblocker](#bruteforceblocker)|2173|2173|3|0.1%|0.0%|
 [blocklist_de_ssh](#blocklist_de_ssh)|9613|9613|3|0.0%|0.0%|
 [ib_bluetack_proxies](#ib_bluetack_proxies)|673|673|2|0.2%|0.0%|
+[dshield](#dshield)|20|5120|2|0.0%|0.0%|
 [openbl_7d](#openbl_7d)|971|971|1|0.1%|0.0%|
 [ib_bluetack_webexploit](#ib_bluetack_webexploit)|1460|1460|1|0.0%|0.0%|
 [blocklist_de_strongips](#blocklist_de_strongips)|172|172|1|0.5%|0.0%|
@@ -2767,8 +2779,8 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [ib_bluetack_spyware](#ib_bluetack_spyware)|3274|339192|1037|0.3%|0.0%|
 [stopforumspam_30d](#stopforumspam_30d)|92372|92372|981|1.0%|0.0%|
 [spamhaus_edrop](#spamhaus_edrop)|57|487168|512|0.1%|0.0%|
+[dshield](#dshield)|20|5120|512|10.0%|0.0%|
 [stopforumspam_7d](#stopforumspam_7d)|31339|31339|340|1.0%|0.0%|
-[dshield](#dshield)|20|5120|256|5.0%|0.0%|
 [openbl_60d](#openbl_60d)|7627|7627|239|3.1%|0.0%|
 [openbl_30d](#openbl_30d)|3220|3220|179|5.5%|0.0%|
 [blocklist_de](#blocklist_de)|31955|31955|160|0.5%|0.0%|
@@ -2936,6 +2948,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [spamhaus_edrop](#spamhaus_edrop)|57|487168|5|0.0%|0.0%|
 [shunlist](#shunlist)|1271|1271|2|0.1%|0.0%|
 [et_compromised](#et_compromised)|2191|2191|2|0.0%|0.0%|
+[dshield](#dshield)|20|5120|2|0.0%|0.0%|
 [bruteforceblocker](#bruteforceblocker)|2173|2173|2|0.0%|0.0%|
 [blocklist_de_ftp](#blocklist_de_ftp)|684|684|2|0.2%|0.0%|
 [zeus_badips](#zeus_badips)|230|230|1|0.4%|0.0%|
@@ -3009,6 +3022,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [zeus_badips](#zeus_badips)|230|230|3|1.3%|0.0%|
 [zeus](#zeus)|266|266|3|1.1%|0.0%|
 [malwaredomainlist](#malwaredomainlist)|1283|1283|3|0.2%|0.0%|
+[dshield](#dshield)|20|5120|3|0.0%|0.0%|
 [ib_bluetack_webexploit](#ib_bluetack_webexploit)|1460|1460|2|0.1%|0.0%|
 [fullbogons](#fullbogons)|3686|670534424|2|0.0%|0.0%|
 [sslbl](#sslbl)|360|360|1|0.2%|0.0%|
@@ -3076,6 +3090,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [blocklist_de_imap](#blocklist_de_imap)|1539|1539|3|0.1%|0.0%|
 [malwaredomainlist](#malwaredomainlist)|1283|1283|2|0.1%|0.0%|
 [ib_bluetack_webexploit](#ib_bluetack_webexploit)|1460|1460|2|0.1%|0.0%|
+[dshield](#dshield)|20|5120|2|0.0%|0.0%|
 [zeus_badips](#zeus_badips)|230|230|1|0.4%|0.0%|
 [zeus](#zeus)|266|266|1|0.3%|0.0%|
 [openbl_30d](#openbl_30d)|3220|3220|1|0.0%|0.0%|
@@ -3247,7 +3262,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 
 Source is downloaded from [this link](https://zeustracker.abuse.ch/blocklist.php?download=badips).
 
-The last time downloaded was found to be dated: Tue Jun  2 22:54:16 UTC 2015.
+The last time downloaded was found to be dated: Tue Jun  2 23:27:10 UTC 2015.
 
 The ipset `zeus_badips` has **230** entries, **230** unique IPs.
 
@@ -3277,5 +3292,4 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [nixspam](#nixspam)|21560|21560|1|0.0%|0.4%|
 [ib_bluetack_spyware](#ib_bluetack_spyware)|3274|339192|1|0.0%|0.4%|
 [et_compromised](#et_compromised)|2191|2191|1|0.0%|0.4%|
-[dshield](#dshield)|20|5120|1|0.0%|0.4%|
 [bruteforceblocker](#bruteforceblocker)|2173|2173|1|0.0%|0.4%|
