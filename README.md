@@ -213,7 +213,7 @@ TODO
 
 # List of ipsets included
 
-The following list was automatically generated on Tue Jun  2 19:20:16 UTC 2015.
+The following list was automatically generated on Tue Jun  2 19:28:00 UTC 2015.
 
 The update frequency is the maximum allowed by internal configuration. A list will never be downloaded sooner than the update frequency stated. A list may also not be downloaded, after this frequency expired, if it has not been modified on the server (as reported by HTTP `IF_MODIFIED_SINCE` method).
 
@@ -850,7 +850,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 
 Source is downloaded from [this link](https://torstatus.blutmagie.de/ip_list_all.php/Tor_ip_list_ALL.csv).
 
-The last time downloaded was found to be dated: Tue Jun  2 18:54:08 UTC 2015.
+The last time downloaded was found to be dated: Tue Jun  2 19:27:07 UTC 2015.
 
 The ipset `bm_tor` has **6525** entries, **6525** unique IPs.
 
@@ -1030,7 +1030,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 
 Source is downloaded from [this link](https://www.dan.me.uk/torlist/).
 
-The last time downloaded was found to be dated: Tue Jun  2 18:54:06 UTC 2015.
+The last time downloaded was found to be dated: Tue Jun  2 19:27:05 UTC 2015.
 
 The ipset `dm_tor` has **6554** entries, **6554** unique IPs.
 
@@ -1311,7 +1311,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 
 Source is downloaded from [this link](https://feodotracker.abuse.ch/blocklist/?download=ipblocklist).
 
-The last time downloaded was found to be dated: Tue Jun  2 18:54:30 UTC 2015.
+The last time downloaded was found to be dated: Tue Jun  2 19:27:20 UTC 2015.
 
 The ipset `feodo` has **80** entries, **80** unique IPs.
 
@@ -1616,8 +1616,8 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [php_harvesters](#php_harvesters)|257|257|7|2.7%|0.0%|
 [sslbl](#sslbl)|361|361|6|1.6%|0.0%|
 [blocklist_de_strongips](#blocklist_de_strongips)|172|172|6|3.4%|0.0%|
+[palevo](#palevo)|13|13|3|23.0%|0.0%|
 [feodo](#feodo)|80|80|3|3.7%|0.0%|
-[palevo](#palevo)|13|13|2|15.3%|0.0%|
 
 ## ib_bluetack_level3
 
@@ -1783,6 +1783,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [malc0de](#malc0de)|392|392|3|0.7%|0.0%|
 [blocklist_de_bots](#blocklist_de_bots)|3175|3175|3|0.0%|0.0%|
 [blocklist_de_apache](#blocklist_de_apache)|14003|14003|3|0.0%|0.0%|
+[palevo](#palevo)|13|13|2|15.3%|0.0%|
 [bruteforceblocker](#bruteforceblocker)|2174|2174|2|0.0%|0.0%|
 [blocklist_de_ssh](#blocklist_de_ssh)|7144|7144|2|0.0%|0.0%|
 [blocklist_de_sip](#blocklist_de_sip)|108|108|2|1.8%|0.0%|
@@ -1795,7 +1796,6 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [shunlist](#shunlist)|1256|1256|1|0.0%|0.0%|
 [php_harvesters](#php_harvesters)|257|257|1|0.3%|0.0%|
 [php_dictionary](#php_dictionary)|433|433|1|0.2%|0.0%|
-[palevo](#palevo)|13|13|1|7.6%|0.0%|
 [openbl_7d](#openbl_7d)|931|931|1|0.1%|0.0%|
 [feodo](#feodo)|80|80|1|1.2%|0.0%|
 [et_compromised](#et_compromised)|2191|2191|1|0.0%|0.0%|
@@ -2208,7 +2208,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 
 Source is downloaded from [this link](https://palevotracker.abuse.ch/blocklists.php?download=ipblocklist).
 
-The last time downloaded was found to be dated: Tue Jun  2 18:54:25 UTC 2015.
+The last time downloaded was found to be dated: Tue Jun  2 19:27:15 UTC 2015.
 
 The ipset `palevo` has **13** entries, **13** unique IPs.
 
@@ -2221,8 +2221,8 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 :---:|:-----:|:--------:|:---------:|:------:|:------:|
 [et_block](#et_block)|997|18338381|12|0.0%|92.3%|
 [snort_ipfilter](#snort_ipfilter)|9012|9012|11|0.1%|84.6%|
-[ib_bluetack_level2](#ib_bluetack_level2)|72774|348707599|2|0.0%|15.3%|
-[ib_bluetack_spyware](#ib_bluetack_spyware)|3274|339192|1|0.0%|7.6%|
+[ib_bluetack_level2](#ib_bluetack_level2)|72774|348707599|3|0.0%|23.0%|
+[ib_bluetack_spyware](#ib_bluetack_spyware)|3274|339192|2|0.0%|15.3%|
 [ib_bluetack_level3](#ib_bluetack_level3)|17802|139104824|1|0.0%|7.6%|
 
 ## php_commenters
@@ -3231,7 +3231,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 
 Source is downloaded from [this link](https://zeustracker.abuse.ch/blocklist.php?download=badips).
 
-The last time downloaded was found to be dated: Tue Jun  2 18:54:22 UTC 2015.
+The last time downloaded was found to be dated: Tue Jun  2 19:27:13 UTC 2015.
 
 The ipset `zeus_badips` has **230** entries, **230** unique IPs.
 
