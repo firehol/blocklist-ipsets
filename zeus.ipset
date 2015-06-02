@@ -15,8 +15,8 @@
 #
 # Source URL: https://zeustracker.abuse.ch/blocklist.php?download=ipblocklist
 #
-# Source File Date: Mon Jun  1 20:49:43 UTC 2015
-# This File Date  : Mon Jun  1 21:00:06 UTC 2015
+# Source File Date: Tue Jun  2 09:40:52 UTC 2015
+# This File Date  : Tue Jun  2 09:45:22 UTC 2015
 # Update Frequency: 30 mins 
 # Aggregation     : none
 # Entries         : 267 unique IPs
@@ -86,6 +86,7 @@
 178.32.189.254
 179.43.158.10
 180.182.234.200
+184.107.242.114
 185.20.227.69
 185.24.234.108
 185.25.117.49
@@ -193,7 +194,6 @@
 222.29.197.232
 23.235.201.32
 23.253.150.120
-23.253.46.64
 31.148.220.14
 31.170.162.105
 31.24.30.76
