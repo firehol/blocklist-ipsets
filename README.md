@@ -213,7 +213,7 @@ TODO
 
 # List of ipsets included
 
-The following list was automatically generated on Tue Jun  2 12:20:07 UTC 2015.
+The following list was automatically generated on Tue Jun  2 12:27:45 UTC 2015.
 
 The update frequency is the maximum allowed by internal configuration. A list will never be downloaded sooner than the update frequency stated. A list may also not be downloaded, after this frequency expired, if it has not been modified on the server (as reported by HTTP `IF_MODIFIED_SINCE` method).
 
@@ -277,6 +277,7 @@ name|info|type|entries|update|
 [stopforumspam_1d](#stopforumspam_1d)|[StopForumSpam.com](http://www.stopforumspam.com) IPs used by forum spammers in the last 24 hours - **excellent list**|ipv4 hash:ip|7195 unique IPs|updated every 1 hour  from [this link](http://www.stopforumspam.com/downloads/listed_ip_1.zip)
 [stopforumspam_30d](#stopforumspam_30d)|[StopForumSpam.com](http://www.stopforumspam.com) IPs used by forum spammers (last 30 days)|ipv4 hash:ip|92372 unique IPs|updated every 1 day  from [this link](http://www.stopforumspam.com/downloads/listed_ip_30.zip)
 [stopforumspam_7d](#stopforumspam_7d)|[StopForumSpam.com](http://www.stopforumspam.com) IPs used by forum spammers (last 7 days)|ipv4 hash:ip|31339 unique IPs|updated every 1 day  from [this link](http://www.stopforumspam.com/downloads/listed_ip_7.zip)
+[virbl](#virbl)|[VirBL](http://virbl.bit.nl/) is a project of which the idea was born during the RIPE-48 meeting. The plan was to get reports of virusscanning mailservers, and put the IP-addresses that were reported to send viruses on a blacklist.|ipv4 hash:ip|18 unique IPs|updated every 1 hour  from [this link](http://virbl.bit.nl/download/virbl.dnsbl.bit.nl.txt)
 [voipbl](#voipbl)|[VoIPBL.org](http://www.voipbl.org/) a distributed VoIP blacklist that is aimed to protects against VoIP Fraud and minimizing abuse for network that have publicly accessible PBX's. Several algorithms, external sources and manual confirmation are used before they categorize something as an attack and determine the threat level.|ipv4 hash:net|10350 subnets, 10759 unique IPs|updated every 4 hours  from [this link](http://www.voipbl.org/update/)
 [xroxy](#xroxy)|[xroxy.com](http://www.xroxy.com) open proxies (this list is composed using an RSS feed and aggregated for the last 30 days)|ipv4 hash:ip|2026 unique IPs|updated every 1 hour  from [this link](http://www.xroxy.com/proxyrss.xml)
 [zeus](#zeus)|[Abuse.ch Zeus tracker](https://zeustracker.abuse.ch) standard, contains the same data as the ZeuS IP blocklist (zeus_badips) but with the slight difference that it doesn't exclude hijacked websites (level 2) and free web hosting providers (level 3). This means that this blocklist contains all IPv4 addresses associated with ZeuS C&Cs which are currently being tracked by ZeuS Tracker. Hence this blocklist will likely cause some false positives. - **excellent list**|ipv4 hash:ip|266 unique IPs|updated every 30 mins  from [this link](https://zeustracker.abuse.ch/blocklist.php?download=ipblocklist)
@@ -425,6 +426,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [et_tor](#et_tor)|6360|6360|3|0.0%|0.0%|
 [dm_tor](#dm_tor)|6502|6502|3|0.0%|0.0%|
 [bm_tor](#bm_tor)|6491|6491|3|0.0%|0.0%|
+[virbl](#virbl)|18|18|2|11.1%|0.0%|
 [ib_bluetack_proxies](#ib_bluetack_proxies)|673|673|2|0.2%|0.0%|
 [maxmind_proxy_fraud](#maxmind_proxy_fraud)|372|372|1|0.2%|0.0%|
 [malwaredomainlist](#malwaredomainlist)|1282|1282|1|0.0%|0.0%|
@@ -649,6 +651,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [ciarmy](#ciarmy)|326|326|2|0.6%|0.2%|
 [blocklist_de_strongips](#blocklist_de_strongips)|164|164|2|1.2%|0.2%|
 [voipbl](#voipbl)|10350|10759|1|0.0%|0.1%|
+[virbl](#virbl)|18|18|1|5.5%|0.1%|
 
 ## blocklist_de_mail
 
@@ -700,6 +703,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [et_tor](#et_tor)|6360|6360|3|0.0%|0.0%|
 [dm_tor](#dm_tor)|6502|6502|3|0.0%|0.0%|
 [bm_tor](#bm_tor)|6491|6491|3|0.0%|0.0%|
+[virbl](#virbl)|18|18|2|11.1%|0.0%|
 [spamhaus_edrop](#spamhaus_edrop)|57|487168|2|0.0%|0.0%|
 [php_harvesters](#php_harvesters)|257|257|2|0.7%|0.0%|
 [ciarmy](#ciarmy)|326|326|2|0.6%|0.0%|
@@ -1180,6 +1184,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [ib_bluetack_proxies](#ib_bluetack_proxies)|673|673|2|0.2%|0.0%|
 [ciarmy](#ciarmy)|326|326|2|0.6%|0.0%|
 [blocklist_de_sip](#blocklist_de_sip)|107|107|2|1.8%|0.0%|
+[virbl](#virbl)|18|18|1|5.5%|0.0%|
 [php_harvesters](#php_harvesters)|257|257|1|0.3%|0.0%|
 [et_botcc](#et_botcc)|505|505|1|0.1%|0.0%|
 
@@ -1625,6 +1630,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [blocklist_de_strongips](#blocklist_de_strongips)|164|164|6|3.6%|0.0%|
 [feodo](#feodo)|80|80|3|3.7%|0.0%|
 [palevo](#palevo)|13|13|2|15.3%|0.0%|
+[virbl](#virbl)|18|18|1|5.5%|0.0%|
 
 ## ib_bluetack_level3
 
@@ -1702,6 +1708,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [zeus_badips](#zeus_badips)|230|230|14|6.0%|0.0%|
 [blocklist_de_sip](#blocklist_de_sip)|107|107|13|12.1%|0.0%|
 [feodo](#feodo)|80|80|7|8.7%|0.0%|
+[virbl](#virbl)|18|18|1|5.5%|0.0%|
 [palevo](#palevo)|13|13|1|7.6%|0.0%|
 
 ## ib_bluetack_proxies
@@ -2011,6 +2018,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [blocklist_de_imap](#blocklist_de_imap)|966|966|4|0.4%|0.0%|
 [voipbl](#voipbl)|10350|10759|3|0.0%|0.0%|
 [blocklist_de_ssh](#blocklist_de_ssh)|3425|3425|3|0.0%|0.0%|
+[virbl](#virbl)|18|18|2|11.1%|0.0%|
 [blocklist_de_sip](#blocklist_de_sip)|107|107|2|1.8%|0.0%|
 [zeus_badips](#zeus_badips)|230|230|1|0.4%|0.0%|
 [zeus](#zeus)|266|266|1|0.3%|0.0%|
@@ -2731,6 +2739,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [et_compromised](#et_compromised)|2191|2191|2|0.0%|0.0%|
 [cleanmx_viruses](#cleanmx_viruses)|356|356|2|0.5%|0.0%|
 [bruteforceblocker](#bruteforceblocker)|2186|2186|2|0.0%|0.0%|
+[virbl](#virbl)|18|18|1|5.5%|0.0%|
 [ib_bluetack_webexploit](#ib_bluetack_webexploit)|1460|1460|1|0.0%|0.0%|
 [blocklist_de_strongips](#blocklist_de_strongips)|164|164|1|0.6%|0.0%|
 [blocklist_de_ssh](#blocklist_de_ssh)|3425|3425|1|0.0%|0.0%|
@@ -2840,6 +2849,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [blocklist_de_bots](#blocklist_de_bots)|3227|3227|5|0.1%|0.0%|
 [nixspam](#nixspam)|23794|23794|4|0.0%|0.0%|
 [blocklist_de_mail](#blocklist_de_mail)|14857|14857|2|0.0%|0.0%|
+[virbl](#virbl)|18|18|1|5.5%|0.0%|
 [php_harvesters](#php_harvesters)|257|257|1|0.3%|0.0%|
 [malc0de](#malc0de)|397|397|1|0.2%|0.0%|
 [ib_bluetack_spyware](#ib_bluetack_spyware)|3274|339192|1|0.0%|0.0%|
@@ -3071,6 +3081,35 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [openbl_30d](#openbl_30d)|3179|3179|1|0.0%|0.0%|
 [dshield](#dshield)|20|5120|1|0.0%|0.0%|
 
+## virbl
+
+[VirBL](http://virbl.bit.nl/) is a project of which the idea was born during the RIPE-48 meeting. The plan was to get reports of virusscanning mailservers, and put the IP-addresses that were reported to send viruses on a blacklist.
+
+Source is downloaded from [this link](http://virbl.bit.nl/download/virbl.dnsbl.bit.nl.txt).
+
+The last time downloaded was found to be dated: Tue Jun  2 12:27:02 UTC 2015.
+
+The ipset `virbl` has **18** entries, **18** unique IPs.
+
+The following table shows the overlaps of `virbl` with all the other ipsets supported. Only the ipsets that have at least 1 IP overlap are shown. if an ipset is not shown here, it does not have any overlap with `virbl`.
+
+- ` them % ` is the percentage of IPs of each row ipset (them), found in `virbl`.
+- ` this % ` is the percentage **of this ipset (`virbl`)**, found in the IPs of each other ipset.
+
+ipset|entries|unique IPs|IPs on both| them % | this % |
+:---:|:-----:|:--------:|:---------:|:------:|:------:|
+[nixspam](#nixspam)|23794|23794|2|0.0%|11.1%|
+[blocklist_de_mail](#blocklist_de_mail)|14857|14857|2|0.0%|11.1%|
+[blocklist_de](#blocklist_de)|24550|24550|2|0.0%|11.1%|
+[zeus_badips](#zeus_badips)|230|230|1|0.4%|5.5%|
+[zeus](#zeus)|266|266|1|0.3%|5.5%|
+[spamhaus_edrop](#spamhaus_edrop)|57|487168|1|0.0%|5.5%|
+[snort_ipfilter](#snort_ipfilter)|8058|8058|1|0.0%|5.5%|
+[ib_bluetack_level3](#ib_bluetack_level3)|17802|139104824|1|0.0%|5.5%|
+[ib_bluetack_level2](#ib_bluetack_level2)|72774|348707599|1|0.0%|5.5%|
+[et_block](#et_block)|997|18338381|1|0.0%|5.5%|
+[blocklist_de_imap](#blocklist_de_imap)|966|966|1|0.1%|5.5%|
+
 ## voipbl
 
 [VoIPBL.org](http://www.voipbl.org/) a distributed VoIP blacklist that is aimed to protects against VoIP Fraud and minimizing abuse for network that have publicly accessible PBX's. Several algorithms, external sources and manual confirmation are used before they categorize something as an attack and determine the threat level.
@@ -3204,6 +3243,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [stopforumspam_30d](#stopforumspam_30d)|92372|92372|3|0.0%|1.1%|
 [openbl_60d](#openbl_60d)|7586|7586|2|0.0%|0.7%|
 [openbl_30d](#openbl_30d)|3179|3179|2|0.0%|0.7%|
+[virbl](#virbl)|18|18|1|5.5%|0.3%|
 [stopforumspam_7d](#stopforumspam_7d)|31339|31339|1|0.0%|0.3%|
 [stopforumspam_1d](#stopforumspam_1d)|7195|7195|1|0.0%|0.3%|
 [php_commenters](#php_commenters)|281|281|1|0.3%|0.3%|
@@ -3241,6 +3281,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [spamhaus_edrop](#spamhaus_edrop)|57|487168|5|0.0%|2.1%|
 [ib_bluetack_level1](#ib_bluetack_level1)|218309|764987411|4|0.0%|1.7%|
 [stopforumspam_30d](#stopforumspam_30d)|92372|92372|3|0.0%|1.3%|
+[virbl](#virbl)|18|18|1|5.5%|0.4%|
 [stopforumspam_7d](#stopforumspam_7d)|31339|31339|1|0.0%|0.4%|
 [stopforumspam_1d](#stopforumspam_1d)|7195|7195|1|0.0%|0.4%|
 [php_commenters](#php_commenters)|281|281|1|0.3%|0.4%|
