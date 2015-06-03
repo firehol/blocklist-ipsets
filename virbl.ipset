@@ -11,8 +11,8 @@
 #
 # Source URL: http://virbl.bit.nl/download/virbl.dnsbl.bit.nl.txt
 #
-# Source File Date: Wed Jun  3 08:42:04 UTC 2015
-# This File Date  : Wed Jun  3 08:45:20 UTC 2015
+# Source File Date: Wed Jun  3 10:42:03 UTC 2015
+# This File Date  : Wed Jun  3 10:45:09 UTC 2015
 # Update Frequency: 1 hour 
 # Aggregation     : none
 # Entries         : 40 unique IPs
@@ -33,7 +33,7 @@
 216.30.201.2
 37.143.9.245
 37.48.71.228
-41.71.167.137
+41.138.161.132
 46.13.0.6
 46.4.60.237
 5.83.128.217
