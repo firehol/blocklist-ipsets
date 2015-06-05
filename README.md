@@ -213,7 +213,7 @@ TODO
 
 # List of ipsets included
 
-The following list was automatically generated on Fri Jun  5 11:20:07 UTC 2015.
+The following list was automatically generated on Fri Jun  5 11:27:45 UTC 2015.
 
 The update frequency is the maximum allowed by internal configuration. A list will never be downloaded sooner than the update frequency stated. A list may also not be downloaded, after this frequency expired, if it has not been modified on the server (as reported by HTTP `IF_MODIFIED_SINCE` method).
 
@@ -269,7 +269,7 @@ openbl_360d|[OpenBL.org](http://www.openbl.org/) last 360 days IPs.  OpenBL.org 
 [openbl_7d](#openbl_7d)|[OpenBL.org](http://www.openbl.org/) last 7 days IPs.  OpenBL.org is detecting, logging and reporting various types of internet abuse. Currently they monitor ports 21 (FTP), 22 (SSH), 23 (TELNET), 25 (SMTP), 110 (POP3), 143 (IMAP), 587 (Submission), 993 (IMAPS) and 995 (POP3S) for bruteforce login attacks as well as scans on ports 80 (HTTP) and 443 (HTTPS) for vulnerable installations of phpMyAdmin and other web applications.|ipv4 hash:ip|910 unique IPs|updated every 4 hours  from [this link](http://www.openbl.org/lists/base_7days.txt)
 openbl_90d|[OpenBL.org](http://www.openbl.org/) last 90 days IPs.  OpenBL.org is detecting, logging and reporting various types of internet abuse. Currently they monitor ports 21 (FTP), 22 (SSH), 23 (TELNET), 25 (SMTP), 110 (POP3), 143 (IMAP), 587 (Submission), 993 (IMAPS) and 995 (POP3S) for bruteforce login attacks as well as scans on ports 80 (HTTP) and 443 (HTTPS) for vulnerable installations of phpMyAdmin and other web applications.|ipv4 hash:ip|disabled|updated every 4 hours  from [this link](http://www.openbl.org/lists/base_90days.txt)
 openbl_all|[OpenBL.org](http://www.openbl.org/) last all IPs.  OpenBL.org is detecting, logging and reporting various types of internet abuse. Currently they monitor ports 21 (FTP), 22 (SSH), 23 (TELNET), 25 (SMTP), 110 (POP3), 143 (IMAP), 587 (Submission), 993 (IMAPS) and 995 (POP3S) for bruteforce login attacks as well as scans on ports 80 (HTTP) and 443 (HTTPS) for vulnerable installations of phpMyAdmin and other web applications.|ipv4 hash:ip|disabled|updated every 4 hours  from [this link](http://www.openbl.org/lists/base_all.txt)
-[palevo](#palevo)|[Abuse.ch Palevo tracker](https://palevotracker.abuse.ch) worm includes IPs which are being used as botnet C&C for the Palevo crimeware - **excellent list**|ipv4 hash:ip|12 unique IPs|updated every 30 mins  from [this link](https://palevotracker.abuse.ch/blocklists.php?download=ipblocklist)
+[palevo](#palevo)|[Abuse.ch Palevo tracker](https://palevotracker.abuse.ch) worm includes IPs which are being used as botnet C&C for the Palevo crimeware - **excellent list**|ipv4 hash:ip|13 unique IPs|updated every 30 mins  from [this link](https://palevotracker.abuse.ch/blocklists.php?download=ipblocklist)
 php_bad|[projecthoneypot.org](http://www.projecthoneypot.org/?rf=192670) bad web hosts (this list is composed using an RSS feed and aggregated for the last 30 days)|ipv4 hash:ip|disabled|updated every 1 hour  from [this link](http://www.projecthoneypot.org/list_of_ips.php?t=b&rss=1)
 [php_commenters](#php_commenters)|[projecthoneypot.org](http://www.projecthoneypot.org/?rf=192670) comment spammers (this list is composed using an RSS feed and aggregated for the last 30 days)|ipv4 hash:ip|301 unique IPs|updated every 1 hour  from [this link](http://www.projecthoneypot.org/list_of_ips.php?t=c&rss=1)
 [php_dictionary](#php_dictionary)|[projecthoneypot.org](http://www.projecthoneypot.org/?rf=192670) directory attackers (this list is composed using an RSS feed and aggregated for the last 30 days)|ipv4 hash:ip|508 unique IPs|updated every 1 hour  from [this link](http://www.projecthoneypot.org/list_of_ips.php?t=d&rss=1)
@@ -931,7 +931,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 
 Source is downloaded from [this link](https://torstatus.blutmagie.de/ip_list_all.php/Tor_ip_list_ALL.csv).
 
-The last time downloaded was found to be dated: Fri Jun  5 10:54:08 UTC 2015.
+The last time downloaded was found to be dated: Fri Jun  5 11:27:06 UTC 2015.
 
 The ipset `bm_tor` has **6572** entries, **6572** unique IPs.
 
@@ -1128,7 +1128,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 
 Source is downloaded from [this link](https://www.dan.me.uk/torlist/).
 
-The last time downloaded was found to be dated: Fri Jun  5 10:54:05 UTC 2015.
+The last time downloaded was found to be dated: Fri Jun  5 11:27:04 UTC 2015.
 
 The ipset `dm_tor` has **6566** entries, **6566** unique IPs.
 
@@ -1273,8 +1273,8 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [blocklist_de_mail](#blocklist_de_mail)|16040|16040|25|0.1%|0.0%|
 [voipbl](#voipbl)|10426|10837|21|0.1%|0.0%|
 [blocklist_de_imap](#blocklist_de_imap)|2421|2421|18|0.7%|0.0%|
+[palevo](#palevo)|13|13|13|100.0%|0.0%|
 [sorbs_spam](#sorbs_spam)|28713|29742|12|0.0%|0.0%|
-[palevo](#palevo)|12|12|12|100.0%|0.0%|
 [openbl_1d](#openbl_1d)|161|161|10|6.2%|0.0%|
 [ib_bluetack_badpeers](#ib_bluetack_badpeers)|48134|48134|8|0.0%|0.0%|
 [et_tor](#et_tor)|6610|6610|8|0.1%|0.0%|
@@ -1433,7 +1433,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 
 Source is downloaded from [this link](https://feodotracker.abuse.ch/blocklist/?download=ipblocklist).
 
-The last time downloaded was found to be dated: Fri Jun  5 10:54:24 UTC 2015.
+The last time downloaded was found to be dated: Fri Jun  5 11:27:12 UTC 2015.
 
 The ipset `feodo` has **94** entries, **94** unique IPs.
 
@@ -1760,7 +1760,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [sorbs_socks](#sorbs_socks)|32|32|2|6.2%|0.0%|
 [sorbs_misc](#sorbs_misc)|32|32|2|6.2%|0.0%|
 [sorbs_http](#sorbs_http)|32|32|2|6.2%|0.0%|
-[palevo](#palevo)|12|12|2|16.6%|0.0%|
+[palevo](#palevo)|13|13|2|15.3%|0.0%|
 [virbl](#virbl)|10|10|1|10.0%|0.0%|
 [sorbs_smtp](#sorbs_smtp)|14|14|1|7.1%|0.0%|
 
@@ -1848,7 +1848,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [sorbs_socks](#sorbs_socks)|32|32|1|3.1%|0.0%|
 [sorbs_misc](#sorbs_misc)|32|32|1|3.1%|0.0%|
 [sorbs_http](#sorbs_http)|32|32|1|3.1%|0.0%|
-[palevo](#palevo)|12|12|1|8.3%|0.0%|
+[palevo](#palevo)|13|13|1|7.6%|0.0%|
 
 ## ib_bluetack_proxies
 
@@ -1959,7 +1959,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [ri_connect_proxies](#ri_connect_proxies)|2376|2376|1|0.0%|0.0%|
 [php_harvesters](#php_harvesters)|298|298|1|0.3%|0.0%|
 [php_dictionary](#php_dictionary)|508|508|1|0.1%|0.0%|
-[palevo](#palevo)|12|12|1|8.3%|0.0%|
+[palevo](#palevo)|13|13|1|7.6%|0.0%|
 [openbl_7d](#openbl_7d)|910|910|1|0.1%|0.0%|
 [feodo](#feodo)|94|94|1|1.0%|0.0%|
 [ciarmy](#ciarmy)|396|396|1|0.2%|0.0%|
@@ -2399,9 +2399,9 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 
 Source is downloaded from [this link](https://palevotracker.abuse.ch/blocklists.php?download=ipblocklist).
 
-The last time downloaded was found to be dated: Fri Jun  5 10:54:21 UTC 2015.
+The last time downloaded was found to be dated: Fri Jun  5 11:27:09 UTC 2015.
 
-The ipset `palevo` has **12** entries, **12** unique IPs.
+The ipset `palevo` has **13** entries, **13** unique IPs.
 
 The following table shows the overlaps of `palevo` with all the other ipsets supported. Only the ipsets that have at least 1 IP overlap are shown. if an ipset is not shown here, it does not have any overlap with `palevo`.
 
@@ -2410,11 +2410,11 @@ The following table shows the overlaps of `palevo` with all the other ipsets sup
 
 ipset|entries|unique IPs|IPs on both| them % | this % |
 :---:|:-----:|:--------:|:---------:|:------:|:------:|
-[et_block](#et_block)|1016|18338655|12|0.0%|100.0%|
-[snort_ipfilter](#snort_ipfilter)|9882|9882|10|0.1%|83.3%|
-[ib_bluetack_level2](#ib_bluetack_level2)|72774|348707599|2|0.0%|16.6%|
-[ib_bluetack_spyware](#ib_bluetack_spyware)|3274|339192|1|0.0%|8.3%|
-[ib_bluetack_level3](#ib_bluetack_level3)|17802|139104824|1|0.0%|8.3%|
+[et_block](#et_block)|1016|18338655|13|0.0%|100.0%|
+[snort_ipfilter](#snort_ipfilter)|9882|9882|11|0.1%|84.6%|
+[ib_bluetack_level2](#ib_bluetack_level2)|72774|348707599|2|0.0%|15.3%|
+[ib_bluetack_spyware](#ib_bluetack_spyware)|3274|339192|1|0.0%|7.6%|
+[ib_bluetack_level3](#ib_bluetack_level3)|17802|139104824|1|0.0%|7.6%|
 
 ## php_commenters
 
@@ -2948,9 +2948,9 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [proxz](#proxz)|776|776|20|2.5%|0.2%|
 [blocklist_de_bots](#blocklist_de_bots)|3251|3251|20|0.6%|0.2%|
 [ib_bluetack_spyware](#ib_bluetack_spyware)|3274|339192|13|0.0%|0.1%|
+[palevo](#palevo)|13|13|11|84.6%|0.1%|
 [ib_bluetack_hijacked](#ib_bluetack_hijacked)|535|9177856|11|0.0%|0.1%|
 [php_harvesters](#php_harvesters)|298|298|10|3.3%|0.1%|
-[palevo](#palevo)|12|12|10|83.3%|0.1%|
 [blocklist_de_apache](#blocklist_de_apache)|13706|13706|8|0.0%|0.0%|
 [spamhaus_edrop](#spamhaus_edrop)|55|486400|6|0.0%|0.0%|
 [sorbs_socks](#sorbs_socks)|32|32|6|18.7%|0.0%|
@@ -3921,7 +3921,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 
 Source is downloaded from [this link](https://zeustracker.abuse.ch/blocklist.php?download=badips).
 
-The last time downloaded was found to be dated: Fri Jun  5 10:54:20 UTC 2015.
+The last time downloaded was found to be dated: Fri Jun  5 11:27:07 UTC 2015.
 
 The ipset `zeus_badips` has **202** entries, **202** unique IPs.
 
