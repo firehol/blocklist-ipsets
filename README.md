@@ -213,7 +213,7 @@ TODO
 
 # List of ipsets included
 
-The following list was automatically generated on Sat Jun  6 08:19:32 UTC 2015.
+The following list was automatically generated on Sat Jun  6 08:27:34 UTC 2015.
 
 The update frequency is the maximum allowed by internal configuration. A list will never be downloaded sooner than the update frequency stated. A list may also not be downloaded, after this frequency expired, if it has not been modified on the server (as reported by HTTP `IF_MODIFIED_SINCE` method).
 
@@ -232,7 +232,7 @@ name|info|type|entries|update|
 [blocklist_de_strongips](#blocklist_de_strongips)|[Blocklist.de](https://www.blocklist.de/) All IPs which are older then 2 month and have more then 5.000 attacks.|ipv4 hash:ip|183 unique IPs|updated every 30 mins  from [this link](http://lists.blocklist.de/lists/strongips.txt)
 [bm_tor](#bm_tor)|[torstatus.blutmagie.de](https://torstatus.blutmagie.de) list of all TOR network servers|ipv4 hash:ip|6461 unique IPs|updated every 30 mins  from [this link](https://torstatus.blutmagie.de/ip_list_all.php/Tor_ip_list_ALL.csv)
 [bogons](#bogons)|[Team-Cymru.org](http://www.team-cymru.org) private and reserved addresses defined by RFC 1918, RFC 5735, and RFC 6598 and netblocks that have not been allocated to a regional internet registry - **excellent list - use it only your internet interface**|ipv4 hash:net|13 subnets, 592708608 unique IPs|updated every 1 day  from [this link](http://www.team-cymru.org/Services/Bogons/bogon-bn-agg.txt)
-[bruteforceblocker](#bruteforceblocker)|[danger.rulez.sk](http://danger.rulez.sk/) IPs detected by [bruteforceblocker](http://danger.rulez.sk/index.php/bruteforceblocker/) (fail2ban alternative for SSH on OpenBSD). This is an automatically generated list from users reporting failed authentication attempts. An IP seems to be included if 3 or more users report it. Its retention pocily seems 30 days.|ipv4 hash:ip|1922 unique IPs|updated every 3 hours  from [this link](http://danger.rulez.sk/projects/bruteforceblocker/blist.php)
+[bruteforceblocker](#bruteforceblocker)|[danger.rulez.sk](http://danger.rulez.sk/) IPs detected by [bruteforceblocker](http://danger.rulez.sk/index.php/bruteforceblocker/) (fail2ban alternative for SSH on OpenBSD). This is an automatically generated list from users reporting failed authentication attempts. An IP seems to be included if 3 or more users report it. Its retention pocily seems 30 days.|ipv4 hash:ip|1892 unique IPs|updated every 3 hours  from [this link](http://danger.rulez.sk/projects/bruteforceblocker/blist.php)
 [ciarmy](#ciarmy)|[CIArmy.com](http://ciarmy.com/) IPs with poor Rogue Packet score that have not yet been identified as malicious by the community|ipv4 hash:ip|395 unique IPs|updated every 3 hours  from [this link](http://cinsscore.com/list/ci-badguys.txt)
 [cleanmx_viruses](#cleanmx_viruses)|[Clean-MX.de](http://support.clean-mx.de/clean-mx/viruses.php) IPs with viruses|ipv4 hash:ip|168 unique IPs|updated every 12 hours  from [this link](http://support.clean-mx.de/clean-mx/xmlviruses.php?sort=id%20desc&response=alive)
 [dm_tor](#dm_tor)|[dan.me.uk](https://www.dan.me.uk) dynamic list of TOR exit points|ipv4 hash:ip|6457 unique IPs|updated every 30 mins  from [this link](https://www.dan.me.uk/torlist/)
@@ -337,8 +337,8 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [openbl_30d](#openbl_30d)|3251|3251|3232|99.4%|1.8%|
 [spamhaus_drop](#spamhaus_drop)|653|18404096|1631|0.0%|0.9%|
 [et_compromised](#et_compromised)|2016|2016|1311|65.0%|0.7%|
-[bruteforceblocker](#bruteforceblocker)|1922|1922|1244|64.7%|0.6%|
 [shunlist](#shunlist)|1248|1248|1241|99.4%|0.6%|
+[bruteforceblocker](#bruteforceblocker)|1892|1892|1225|64.7%|0.6%|
 [blocklist_de](#blocklist_de)|25673|25673|1140|4.4%|0.6%|
 [blocklist_de_ssh](#blocklist_de_ssh)|2221|2221|904|40.7%|0.5%|
 [openbl_7d](#openbl_7d)|861|861|852|98.9%|0.4%|
@@ -426,7 +426,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [blocklist_de_ftp](#blocklist_de_ftp)|898|898|898|100.0%|3.4%|
 [openbl_60d](#openbl_60d)|7651|7651|879|11.4%|3.4%|
 [openbl_30d](#openbl_30d)|3251|3251|710|21.8%|2.7%|
-[bruteforceblocker](#bruteforceblocker)|1922|1922|645|33.5%|2.5%|
+[bruteforceblocker](#bruteforceblocker)|1892|1892|643|33.9%|2.5%|
 [et_compromised](#et_compromised)|2016|2016|641|31.7%|2.4%|
 [openbl_7d](#openbl_7d)|861|861|446|51.8%|1.7%|
 [ri_web_proxies](#ri_web_proxies)|6548|6548|399|6.0%|1.5%|
@@ -522,7 +522,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [maxmind_proxy_fraud](#maxmind_proxy_fraud)|372|372|2|0.5%|0.0%|
 [ib_bluetack_spyware](#ib_bluetack_spyware)|3274|339192|2|0.0%|0.0%|
 [et_compromised](#et_compromised)|2016|2016|2|0.0%|0.0%|
-[bruteforceblocker](#bruteforceblocker)|1922|1922|2|0.1%|0.0%|
+[bruteforceblocker](#bruteforceblocker)|1892|1892|2|0.1%|0.0%|
 [spamhaus_edrop](#spamhaus_edrop)|56|487424|1|0.0%|0.0%|
 [cleanmx_viruses](#cleanmx_viruses)|168|168|1|0.5%|0.0%|
 
@@ -581,7 +581,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [ib_bluetack_proxies](#ib_bluetack_proxies)|673|673|2|0.2%|0.0%|
 [et_compromised](#et_compromised)|2016|2016|2|0.0%|0.0%|
 [dshield](#dshield)|19|5120|2|0.0%|0.0%|
-[bruteforceblocker](#bruteforceblocker)|1922|1922|2|0.1%|0.0%|
+[bruteforceblocker](#bruteforceblocker)|1892|1892|2|0.1%|0.0%|
 [ib_bluetack_badpeers](#ib_bluetack_badpeers)|48134|48134|1|0.0%|0.0%|
 
 ## blocklist_de_bruteforce
@@ -702,7 +702,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [openbl_7d](#openbl_7d)|861|861|11|1.2%|0.6%|
 [stopforumspam_30d](#stopforumspam_30d)|93258|93258|6|0.0%|0.3%|
 [et_compromised](#et_compromised)|2016|2016|5|0.2%|0.2%|
-[bruteforceblocker](#bruteforceblocker)|1922|1922|5|0.2%|0.2%|
+[bruteforceblocker](#bruteforceblocker)|1892|1892|5|0.2%|0.2%|
 [snort_ipfilter](#snort_ipfilter)|8977|8977|3|0.0%|0.1%|
 [ib_bluetack_spyware](#ib_bluetack_spyware)|3274|339192|2|0.0%|0.1%|
 [ib_bluetack_hijacked](#ib_bluetack_hijacked)|535|9177856|2|0.0%|0.1%|
@@ -761,7 +761,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [php_commenters](#php_commenters)|326|326|21|6.4%|0.1%|
 [openbl_7d](#openbl_7d)|861|861|12|1.3%|0.0%|
 [et_compromised](#et_compromised)|2016|2016|7|0.3%|0.0%|
-[bruteforceblocker](#bruteforceblocker)|1922|1922|7|0.3%|0.0%|
+[bruteforceblocker](#bruteforceblocker)|1892|1892|7|0.3%|0.0%|
 [sorbs_socks](#sorbs_socks)|19|19|6|31.5%|0.0%|
 [sorbs_misc](#sorbs_misc)|19|19|6|31.5%|0.0%|
 [sorbs_http](#sorbs_http)|19|19|6|31.5%|0.0%|
@@ -828,7 +828,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [alienvault_reputation](#alienvault_reputation)|178368|178368|904|0.5%|40.7%|
 [openbl_60d](#openbl_60d)|7651|7651|815|10.6%|36.6%|
 [openbl_30d](#openbl_30d)|3251|3251|663|20.3%|29.8%|
-[bruteforceblocker](#bruteforceblocker)|1922|1922|632|32.8%|28.4%|
+[bruteforceblocker](#bruteforceblocker)|1892|1892|630|33.2%|28.3%|
 [et_compromised](#et_compromised)|2016|2016|628|31.1%|28.2%|
 [openbl_7d](#openbl_7d)|861|861|430|49.9%|19.3%|
 [shunlist](#shunlist)|1248|1248|332|26.6%|14.9%|
@@ -912,7 +912,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [nixspam](#nixspam)|16528|16528|1|0.0%|0.5%|
 [ib_bluetack_level1](#ib_bluetack_level1)|218309|764987411|1|0.0%|0.5%|
 [dshield](#dshield)|19|5120|1|0.0%|0.5%|
-[bruteforceblocker](#bruteforceblocker)|1922|1922|1|0.0%|0.5%|
+[bruteforceblocker](#bruteforceblocker)|1892|1892|1|0.0%|0.5%|
 [blocklist_de_imap](#blocklist_de_imap)|1817|1817|1|0.0%|0.5%|
 
 ## bm_tor
@@ -990,7 +990,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [php_harvesters](#php_harvesters)|311|311|1|0.3%|0.0%|
 [ib_bluetack_spyware](#ib_bluetack_spyware)|3274|339192|1|0.0%|0.0%|
 [ciarmy](#ciarmy)|395|395|1|0.2%|0.0%|
-[bruteforceblocker](#bruteforceblocker)|1922|1922|1|0.0%|0.0%|
+[bruteforceblocker](#bruteforceblocker)|1892|1892|1|0.0%|0.0%|
 
 ## bruteforceblocker
 
@@ -998,9 +998,9 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 
 Source is downloaded from [this link](http://danger.rulez.sk/projects/bruteforceblocker/blist.php).
 
-The last time downloaded was found to be dated: Sat Jun  6 05:18:31 UTC 2015.
+The last time downloaded was found to be dated: Sat Jun  6 08:27:03 UTC 2015.
 
-The ipset `bruteforceblocker` has **1922** entries, **1922** unique IPs.
+The ipset `bruteforceblocker` has **1892** entries, **1892** unique IPs.
 
 The following table shows the overlaps of `bruteforceblocker` with all the other ipsets supported. Only the ipsets that have at least 1 IP overlap are shown. if an ipset is not shown here, it does not have any overlap with `bruteforceblocker`.
 
@@ -1009,19 +1009,19 @@ The following table shows the overlaps of `bruteforceblocker` with all the other
 
 ipset|entries|unique IPs|IPs on both| them % | this % |
 :---:|:-----:|:--------:|:---------:|:------:|:------:|
-[et_compromised](#et_compromised)|2016|2016|1887|93.6%|98.1%|
-[alienvault_reputation](#alienvault_reputation)|178368|178368|1244|0.6%|64.7%|
-[openbl_60d](#openbl_60d)|7651|7651|1146|14.9%|59.6%|
-[openbl_30d](#openbl_30d)|3251|3251|1095|33.6%|56.9%|
-[blocklist_de](#blocklist_de)|25673|25673|645|2.5%|33.5%|
-[blocklist_de_ssh](#blocklist_de_ssh)|2221|2221|632|28.4%|32.8%|
-[shunlist](#shunlist)|1248|1248|453|36.2%|23.5%|
-[openbl_7d](#openbl_7d)|861|861|384|44.5%|19.9%|
-[ib_bluetack_level3](#ib_bluetack_level3)|17802|139104824|183|0.0%|9.5%|
-[spamhaus_drop](#spamhaus_drop)|653|18404096|101|0.0%|5.2%|
-[et_block](#et_block)|1023|18338662|101|0.0%|5.2%|
-[ib_bluetack_level2](#ib_bluetack_level2)|72774|348707599|96|0.0%|4.9%|
-[openbl_1d](#openbl_1d)|146|146|86|58.9%|4.4%|
+[et_compromised](#et_compromised)|2016|2016|1851|91.8%|97.8%|
+[alienvault_reputation](#alienvault_reputation)|178368|178368|1225|0.6%|64.7%|
+[openbl_60d](#openbl_60d)|7651|7651|1130|14.7%|59.7%|
+[openbl_30d](#openbl_30d)|3251|3251|1081|33.2%|57.1%|
+[blocklist_de](#blocklist_de)|25673|25673|643|2.5%|33.9%|
+[blocklist_de_ssh](#blocklist_de_ssh)|2221|2221|630|28.3%|33.2%|
+[shunlist](#shunlist)|1248|1248|449|35.9%|23.7%|
+[openbl_7d](#openbl_7d)|861|861|382|44.3%|20.1%|
+[ib_bluetack_level3](#ib_bluetack_level3)|17802|139104824|179|0.0%|9.4%|
+[spamhaus_drop](#spamhaus_drop)|653|18404096|101|0.0%|5.3%|
+[et_block](#et_block)|1023|18338662|101|0.0%|5.3%|
+[ib_bluetack_level2](#ib_bluetack_level2)|72774|348707599|95|0.0%|5.0%|
+[openbl_1d](#openbl_1d)|146|146|86|58.9%|4.5%|
 [ib_bluetack_level1](#ib_bluetack_level1)|218309|764987411|50|0.0%|2.6%|
 [dshield](#dshield)|19|5120|43|0.8%|2.2%|
 [stopforumspam_30d](#stopforumspam_30d)|93258|93258|11|0.0%|0.5%|
@@ -1076,7 +1076,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [ib_bluetack_spyware](#ib_bluetack_spyware)|3274|339192|1|0.0%|0.2%|
 [fullbogons](#fullbogons)|3715|670310296|1|0.0%|0.2%|
 [et_compromised](#et_compromised)|2016|2016|1|0.0%|0.2%|
-[bruteforceblocker](#bruteforceblocker)|1922|1922|1|0.0%|0.2%|
+[bruteforceblocker](#bruteforceblocker)|1892|1892|1|0.0%|0.2%|
 [bogons](#bogons)|13|592708608|1|0.0%|0.2%|
 [blocklist_de_mail](#blocklist_de_mail)|15610|15610|1|0.0%|0.2%|
 [blocklist_de_imap](#blocklist_de_imap)|1817|1817|1|0.0%|0.2%|
@@ -1187,7 +1187,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [blocklist_de](#blocklist_de)|25673|25673|58|0.2%|1.1%|
 [et_compromised](#et_compromised)|2016|2016|51|2.5%|0.9%|
 [blocklist_de_ssh](#blocklist_de_ssh)|2221|2221|47|2.1%|0.9%|
-[bruteforceblocker](#bruteforceblocker)|1922|1922|43|2.2%|0.8%|
+[bruteforceblocker](#bruteforceblocker)|1892|1892|43|2.2%|0.8%|
 [openbl_7d](#openbl_7d)|861|861|36|4.1%|0.7%|
 [blocklist_de_apache](#blocklist_de_apache)|14814|14814|9|0.0%|0.1%|
 [stopforumspam_30d](#stopforumspam_30d)|93258|93258|8|0.0%|0.1%|
@@ -1243,7 +1243,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [shunlist](#shunlist)|1248|1248|111|8.8%|0.0%|
 [blocklist_de_ssh](#blocklist_de_ssh)|2221|2221|111|4.9%|0.0%|
 [nixspam](#nixspam)|16528|16528|103|0.6%|0.0%|
-[bruteforceblocker](#bruteforceblocker)|1922|1922|101|5.2%|0.0%|
+[bruteforceblocker](#bruteforceblocker)|1892|1892|101|5.3%|0.0%|
 [et_compromised](#et_compromised)|2016|2016|100|4.9%|0.0%|
 [feodo](#feodo)|98|98|94|95.9%|0.0%|
 [stopforumspam_1d](#stopforumspam_1d)|7054|7054|80|1.1%|0.0%|
@@ -1323,7 +1323,7 @@ The following table shows the overlaps of `et_compromised` with all the other ip
 
 ipset|entries|unique IPs|IPs on both| them % | this % |
 :---:|:-----:|:--------:|:---------:|:------:|:------:|
-[bruteforceblocker](#bruteforceblocker)|1922|1922|1887|98.1%|93.6%|
+[bruteforceblocker](#bruteforceblocker)|1892|1892|1851|97.8%|91.8%|
 [alienvault_reputation](#alienvault_reputation)|178368|178368|1311|0.7%|65.0%|
 [openbl_60d](#openbl_60d)|7651|7651|1216|15.8%|60.3%|
 [openbl_30d](#openbl_30d)|3251|3251|1151|35.4%|57.0%|
@@ -1461,7 +1461,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [stopforumspam_30d](#stopforumspam_30d)|93258|93258|2|0.0%|0.0%|
 [php_harvesters](#php_harvesters)|311|311|1|0.3%|0.0%|
 [ciarmy](#ciarmy)|395|395|1|0.2%|0.0%|
-[bruteforceblocker](#bruteforceblocker)|1922|1922|1|0.0%|0.0%|
+[bruteforceblocker](#bruteforceblocker)|1892|1892|1|0.0%|0.0%|
 
 ## ib_bluetack_badpeers
 
@@ -1556,7 +1556,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [ib_bluetack_webexploit](#ib_bluetack_webexploit)|1460|1460|7|0.4%|0.0%|
 [openbl_7d](#openbl_7d)|861|861|5|0.5%|0.0%|
 [et_compromised](#et_compromised)|2016|2016|5|0.2%|0.0%|
-[bruteforceblocker](#bruteforceblocker)|1922|1922|5|0.2%|0.0%|
+[bruteforceblocker](#bruteforceblocker)|1892|1892|5|0.2%|0.0%|
 [blocklist_de_mail](#blocklist_de_mail)|15610|15610|5|0.0%|0.0%|
 [sorbs_spam](#sorbs_spam)|29194|30212|4|0.0%|0.0%|
 [sorbs_recent_spam](#sorbs_recent_spam)|29194|30212|4|0.0%|0.0%|
@@ -1630,7 +1630,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [xroxy](#xroxy)|2090|2090|58|2.7%|0.0%|
 [ib_bluetack_proxies](#ib_bluetack_proxies)|673|673|58|8.6%|0.0%|
 [et_compromised](#et_compromised)|2016|2016|52|2.5%|0.0%|
-[bruteforceblocker](#bruteforceblocker)|1922|1922|50|2.6%|0.0%|
+[bruteforceblocker](#bruteforceblocker)|1892|1892|50|2.6%|0.0%|
 [blocklist_de_ssh](#blocklist_de_ssh)|2221|2221|47|2.1%|0.0%|
 [proxyrss](#proxyrss)|1688|1688|41|2.4%|0.0%|
 [et_botcc](#et_botcc)|509|509|41|8.0%|0.0%|
@@ -1709,7 +1709,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [snort_ipfilter](#snort_ipfilter)|8977|8977|100|1.1%|0.0%|
 [et_compromised](#et_compromised)|2016|2016|97|4.8%|0.0%|
 [ri_connect_proxies](#ri_connect_proxies)|2447|2447|96|3.9%|0.0%|
-[bruteforceblocker](#bruteforceblocker)|1922|1922|96|4.9%|0.0%|
+[bruteforceblocker](#bruteforceblocker)|1892|1892|95|5.0%|0.0%|
 [shunlist](#shunlist)|1248|1248|72|5.7%|0.0%|
 [proxyrss](#proxyrss)|1688|1688|71|4.2%|0.0%|
 [blocklist_de_imap](#blocklist_de_imap)|1817|1817|55|3.0%|0.0%|
@@ -1793,7 +1793,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [et_compromised](#et_compromised)|2016|2016|199|9.8%|0.0%|
 [blocklist_de_bots](#blocklist_de_bots)|3144|3144|195|6.2%|0.0%|
 [ri_web_proxies](#ri_web_proxies)|6548|6548|190|2.9%|0.0%|
-[bruteforceblocker](#bruteforceblocker)|1922|1922|183|9.5%|0.0%|
+[bruteforceblocker](#bruteforceblocker)|1892|1892|179|9.4%|0.0%|
 [blocklist_de_imap](#blocklist_de_imap)|1817|1817|179|9.8%|0.0%|
 [malwaredomainlist](#malwaredomainlist)|1288|1288|147|11.4%|0.0%|
 [maxmind_proxy_fraud](#maxmind_proxy_fraud)|372|372|125|33.6%|0.0%|
@@ -1919,7 +1919,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [cleanmx_viruses](#cleanmx_viruses)|168|168|3|1.7%|0.0%|
 [palevo](#palevo)|13|13|2|15.3%|0.0%|
 [et_compromised](#et_compromised)|2016|2016|2|0.0%|0.0%|
-[bruteforceblocker](#bruteforceblocker)|1922|1922|2|0.1%|0.0%|
+[bruteforceblocker](#bruteforceblocker)|1892|1892|2|0.1%|0.0%|
 [blocklist_de_sip](#blocklist_de_sip)|89|89|2|2.2%|0.0%|
 [blocklist_de_imap](#blocklist_de_imap)|1817|1817|2|0.1%|0.0%|
 [blocklist_de_apache](#blocklist_de_apache)|14814|14814|2|0.0%|0.0%|
@@ -2160,7 +2160,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [maxmind_proxy_fraud](#maxmind_proxy_fraud)|372|372|1|0.2%|0.0%|
 [et_compromised](#et_compromised)|2016|2016|1|0.0%|0.0%|
 [dshield](#dshield)|19|5120|1|0.0%|0.0%|
-[bruteforceblocker](#bruteforceblocker)|1922|1922|1|0.0%|0.0%|
+[bruteforceblocker](#bruteforceblocker)|1892|1892|1|0.0%|0.0%|
 [blocklist_de_strongips](#blocklist_de_strongips)|183|183|1|0.5%|0.0%|
 
 ## openbl_1d
@@ -2186,7 +2186,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [alienvault_reputation](#alienvault_reputation)|178368|178368|141|0.0%|96.5%|
 [blocklist_de](#blocklist_de)|25673|25673|124|0.4%|84.9%|
 [blocklist_de_ssh](#blocklist_de_ssh)|2221|2221|123|5.5%|84.2%|
-[bruteforceblocker](#bruteforceblocker)|1922|1922|86|4.4%|58.9%|
+[bruteforceblocker](#bruteforceblocker)|1892|1892|86|4.5%|58.9%|
 [et_compromised](#et_compromised)|2016|2016|84|4.1%|57.5%|
 [shunlist](#shunlist)|1248|1248|71|5.6%|48.6%|
 [blocklist_de_strongips](#blocklist_de_strongips)|183|183|20|10.9%|13.6%|
@@ -2220,7 +2220,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [openbl_60d](#openbl_60d)|7651|7651|3251|42.4%|100.0%|
 [alienvault_reputation](#alienvault_reputation)|178368|178368|3232|1.8%|99.4%|
 [et_compromised](#et_compromised)|2016|2016|1151|57.0%|35.4%|
-[bruteforceblocker](#bruteforceblocker)|1922|1922|1095|56.9%|33.6%|
+[bruteforceblocker](#bruteforceblocker)|1892|1892|1081|57.1%|33.2%|
 [openbl_7d](#openbl_7d)|861|861|861|100.0%|26.4%|
 [blocklist_de](#blocklist_de)|25673|25673|710|2.7%|21.8%|
 [blocklist_de_ssh](#blocklist_de_ssh)|2221|2221|663|29.8%|20.3%|
@@ -2275,7 +2275,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [alienvault_reputation](#alienvault_reputation)|178368|178368|7627|4.2%|99.6%|
 [openbl_30d](#openbl_30d)|3251|3251|3251|100.0%|42.4%|
 [et_compromised](#et_compromised)|2016|2016|1216|60.3%|15.8%|
-[bruteforceblocker](#bruteforceblocker)|1922|1922|1146|59.6%|14.9%|
+[bruteforceblocker](#bruteforceblocker)|1892|1892|1130|59.7%|14.7%|
 [blocklist_de](#blocklist_de)|25673|25673|879|3.4%|11.4%|
 [openbl_7d](#openbl_7d)|861|861|861|100.0%|11.2%|
 [blocklist_de_ssh](#blocklist_de_ssh)|2221|2221|815|36.6%|10.6%|
@@ -2339,7 +2339,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [blocklist_de](#blocklist_de)|25673|25673|446|1.7%|51.8%|
 [blocklist_de_ssh](#blocklist_de_ssh)|2221|2221|430|19.3%|49.9%|
 [et_compromised](#et_compromised)|2016|2016|386|19.1%|44.8%|
-[bruteforceblocker](#bruteforceblocker)|1922|1922|384|19.9%|44.5%|
+[bruteforceblocker](#bruteforceblocker)|1892|1892|382|20.1%|44.3%|
 [shunlist](#shunlist)|1248|1248|248|19.8%|28.8%|
 [openbl_1d](#openbl_1d)|146|146|146|100.0%|16.9%|
 [ib_bluetack_level3](#ib_bluetack_level3)|17802|139104824|115|0.0%|13.3%|
@@ -2699,7 +2699,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [blocklist_de_strongips](#blocklist_de_strongips)|183|183|4|2.1%|0.4%|
 [alienvault_reputation](#alienvault_reputation)|178368|178368|3|0.0%|0.3%|
 [et_compromised](#et_compromised)|2016|2016|2|0.0%|0.2%|
-[bruteforceblocker](#bruteforceblocker)|1922|1922|2|0.1%|0.2%|
+[bruteforceblocker](#bruteforceblocker)|1892|1892|2|0.1%|0.2%|
 [ib_bluetack_badpeers](#ib_bluetack_badpeers)|48134|48134|1|0.0%|0.1%|
 
 ## ri_connect_proxies
@@ -2802,7 +2802,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [php_harvesters](#php_harvesters)|311|311|1|0.3%|0.0%|
 [ib_bluetack_webexploit](#ib_bluetack_webexploit)|1460|1460|1|0.0%|0.0%|
 [et_compromised](#et_compromised)|2016|2016|1|0.0%|0.0%|
-[bruteforceblocker](#bruteforceblocker)|1922|1922|1|0.0%|0.0%|
+[bruteforceblocker](#bruteforceblocker)|1892|1892|1|0.0%|0.0%|
 
 ## shunlist
 
@@ -2825,7 +2825,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [openbl_60d](#openbl_60d)|7651|7651|566|7.3%|45.3%|
 [openbl_30d](#openbl_30d)|3251|3251|551|16.9%|44.1%|
 [et_compromised](#et_compromised)|2016|2016|459|22.7%|36.7%|
-[bruteforceblocker](#bruteforceblocker)|1922|1922|453|23.5%|36.2%|
+[bruteforceblocker](#bruteforceblocker)|1892|1892|449|23.7%|35.9%|
 [blocklist_de](#blocklist_de)|25673|25673|366|1.4%|29.3%|
 [blocklist_de_ssh](#blocklist_de_ssh)|2221|2221|332|14.9%|26.6%|
 [openbl_7d](#openbl_7d)|861|861|248|28.8%|19.8%|
@@ -3356,7 +3356,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [openbl_30d](#openbl_30d)|3251|3251|160|4.9%|0.0%|
 [blocklist_de_ssh](#blocklist_de_ssh)|2221|2221|107|4.8%|0.0%|
 [nixspam](#nixspam)|16528|16528|102|0.6%|0.0%|
-[bruteforceblocker](#bruteforceblocker)|1922|1922|101|5.2%|0.0%|
+[bruteforceblocker](#bruteforceblocker)|1892|1892|101|5.3%|0.0%|
 [et_compromised](#et_compromised)|2016|2016|100|4.9%|0.0%|
 [shunlist](#shunlist)|1248|1248|97|7.7%|0.0%|
 [stopforumspam_1d](#stopforumspam_1d)|7054|7054|85|1.2%|0.0%|
@@ -3595,7 +3595,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [ib_bluetack_badpeers](#ib_bluetack_badpeers)|48134|48134|14|0.0%|0.0%|
 [blocklist_de_ftp](#blocklist_de_ftp)|898|898|12|1.3%|0.0%|
 [et_compromised](#et_compromised)|2016|2016|11|0.5%|0.0%|
-[bruteforceblocker](#bruteforceblocker)|1922|1922|11|0.5%|0.0%|
+[bruteforceblocker](#bruteforceblocker)|1892|1892|11|0.5%|0.0%|
 [dshield](#dshield)|19|5120|8|0.1%|0.0%|
 [blocklist_de_imap](#blocklist_de_imap)|1817|1817|6|0.3%|0.0%|
 [openbl_30d](#openbl_30d)|3251|3251|5|0.1%|0.0%|
@@ -3669,7 +3669,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [ib_bluetack_proxies](#ib_bluetack_proxies)|673|673|12|1.7%|0.0%|
 [spamhaus_edrop](#spamhaus_edrop)|56|487424|11|0.0%|0.0%|
 [et_compromised](#et_compromised)|2016|2016|7|0.3%|0.0%|
-[bruteforceblocker](#bruteforceblocker)|1922|1922|7|0.3%|0.0%|
+[bruteforceblocker](#bruteforceblocker)|1892|1892|7|0.3%|0.0%|
 [ib_bluetack_badpeers](#ib_bluetack_badpeers)|48134|48134|6|0.0%|0.0%|
 [dshield](#dshield)|19|5120|6|0.1%|0.0%|
 [blocklist_de_ssh](#blocklist_de_ssh)|2221|2221|5|0.2%|0.0%|
@@ -3750,7 +3750,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [nixspam](#nixspam)|16528|16528|2|0.0%|0.0%|
 [ib_bluetack_badpeers](#ib_bluetack_badpeers)|48134|48134|2|0.0%|0.0%|
 [et_compromised](#et_compromised)|2016|2016|2|0.0%|0.0%|
-[bruteforceblocker](#bruteforceblocker)|1922|1922|2|0.1%|0.0%|
+[bruteforceblocker](#bruteforceblocker)|1892|1892|2|0.1%|0.0%|
 [blocklist_de_mail](#blocklist_de_mail)|15610|15610|2|0.0%|0.0%|
 [openbl_7d](#openbl_7d)|861|861|1|0.1%|0.0%|
 [maxmind_proxy_fraud](#maxmind_proxy_fraud)|372|372|1|0.2%|0.0%|
@@ -3811,7 +3811,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [maxmind_proxy_fraud](#maxmind_proxy_fraud)|372|372|1|0.2%|0.0%|
 [ib_bluetack_spyware](#ib_bluetack_spyware)|3274|339192|1|0.0%|0.0%|
 [et_compromised](#et_compromised)|2016|2016|1|0.0%|0.0%|
-[bruteforceblocker](#bruteforceblocker)|1922|1922|1|0.0%|0.0%|
+[bruteforceblocker](#bruteforceblocker)|1892|1892|1|0.0%|0.0%|
 
 ## zeus
 
