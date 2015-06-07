@@ -3,12 +3,13 @@
 #
 # ipv4 hash:net ipset
 #
-# includes ipsets: feodo
+# includes ipsets: feodo palevo sslbl zeus_badips dshield 
+# spamhaus_drop bogons
 #
 # Source URL: 
 #
 # Source File Date: Sun Jun  7 22:15:43 UTC 2015
-# This File Date  : Sun Jun  7 22:18:18 UTC 2015
+# This File Date  : Sun Jun  7 22:27:57 UTC 2015
 # Update Frequency: 1 min 
 # Aggregation     : none
 # Entries         : 61179 subnets, 611052675 unique IPs

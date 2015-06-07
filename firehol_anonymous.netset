@@ -3,12 +3,12 @@
 #
 # ipv4 hash:net ipset
 #
-# includes ipsets: firehol_proxies
+# includes ipsets: firehol_proxies anonymous
 #
 # Source URL: 
 #
 # Source File Date: Sun Jun  7 22:20:34 UTC 2015
-# This File Date  : Sun Jun  7 22:20:56 UTC 2015
+# This File Date  : Sun Jun  7 22:28:13 UTC 2015
 # Update Frequency: 1 min 
 # Aggregation     : none
 # Entries         : 15334 subnets, 75514 unique IPs

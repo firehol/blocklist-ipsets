@@ -3,12 +3,13 @@
 #
 # ipv4 hash:net ipset
 #
-# includes ipsets: ib_bluetack_proxies
+# includes ipsets: ib_bluetack_proxies maxmind_proxy_fraud 
+# proxyrss proxz ri_connect_proxies ri_web_proxies xroxy
 #
 # Source URL: 
 #
 # Source File Date: Sun Jun  7 22:20:34 UTC 2015
-# This File Date  : Sun Jun  7 22:20:54 UTC 2015
+# This File Date  : Sun Jun  7 22:28:11 UTC 2015
 # Update Frequency: 1 min 
 # Aggregation     : none
 # Entries         : 11608 subnets, 11608 unique IPs

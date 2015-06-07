@@ -213,7 +213,7 @@ TODO
 
 # List of ipsets included
 
-The following list was automatically generated on Sun Jun  7 22:21:30 UTC 2015.
+The following list was automatically generated on Sun Jun  7 22:28:47 UTC 2015.
 
 The update frequency is the maximum allowed by internal configuration. A list will never be downloaded sooner than the update frequency stated. A list may also not be downloaded, after this frequency expired, if it has not been modified on the server (as reported by HTTP `IF_MODIFIED_SINCE` method).
 
@@ -244,11 +244,11 @@ et_dshield|[EmergingThreats.net](http://www.emergingthreats.net/) dshield blockl
 et_spamhaus|[EmergingThreats.net](http://www.emergingthreats.net/) spamhaus blocklist|ipv4 hash:net|disabled|updated every 12 hours  from [this link](http://rules.emergingthreats.net/fwrules/emerging-PIX-DROP.rules)
 [et_tor](#et_tor)|[EmergingThreats.net](http://www.emergingthreats.net/) [list](http://doc.emergingthreats.net/bin/view/Main/TorRules) of TOR network IPs|ipv4 hash:ip|6470 unique IPs|updated every 12 hours  from [this link](http://rules.emergingthreats.net/blockrules/emerging-tor.rules)
 [feodo](#feodo)|[Abuse.ch Feodo tracker](https://feodotracker.abuse.ch) trojan includes IPs which are being used by Feodo (also known as Cridex or Bugat) which commits ebanking fraud - **excellent list**|ipv4 hash:ip|99 unique IPs|updated every 30 mins  from [this link](https://feodotracker.abuse.ch/blocklist/?download=ipblocklist)
-[firehol_anonymous](#firehol_anonymous)|includes ipsets: firehol_proxies|ipv4 hash:net|15334 subnets, 75514 unique IPs|updated every 1 min  from [this link]()
-[firehol_level1](#firehol_level1)|includes ipsets: feodo|ipv4 hash:net|61179 subnets, 611052675 unique IPs|updated every 1 min  from [this link]()
-[firehol_level2](#firehol_level2)|includes ipsets: zeus|ipv4 hash:net|46846 subnets, 670781506 unique IPs|updated every 1 min  from [this link]()
-[firehol_level3](#firehol_level3)|includes ipsets: openbl_30d|ipv4 hash:net|53658 subnets, 377763 unique IPs|updated every 1 min  from [this link]()
-[firehol_proxies](#firehol_proxies)|includes ipsets: ib_bluetack_proxies|ipv4 hash:net|11608 subnets, 11608 unique IPs|updated every 1 min  from [this link]()
+[firehol_anonymous](#firehol_anonymous)|includes ipsets: firehol_proxies anonymous|ipv4 hash:net|15334 subnets, 75514 unique IPs|updated every 1 min  from [this link]()
+[firehol_level1](#firehol_level1)|includes ipsets: feodo palevo sslbl zeus_badips dshield spamhaus_drop bogons|ipv4 hash:net|61179 subnets, 611052675 unique IPs|updated every 1 min  from [this link]()
+[firehol_level2](#firehol_level2)|includes ipsets: zeus spamhaus_edrop openbl_7d blocklist_de fullbogons virbl|ipv4 hash:net|46846 subnets, 670781506 unique IPs|updated every 1 min  from [this link]()
+[firehol_level3](#firehol_level3)|includes ipsets: openbl_30d stopforumspam_7d malc0de shunlist malwaredomainlist bruteforceblocker ib_bluetack_spyware ib_bluetack_spyware ib_bluetack_webexploit php_commenters php_dictionary php_harvesters php_spammers|ipv4 hash:net|53658 subnets, 377763 unique IPs|updated every 1 min  from [this link]()
+[firehol_proxies](#firehol_proxies)|includes ipsets: ib_bluetack_proxies maxmind_proxy_fraud proxyrss proxz ri_connect_proxies ri_web_proxies xroxy|ipv4 hash:net|11608 subnets, 11608 unique IPs|updated every 1 min  from [this link]()
 [fullbogons](#fullbogons)|[Team-Cymru.org](http://www.team-cymru.org) IP space that has been allocated to an RIR, but not assigned by that RIR to an actual ISP or other end-user - **excellent list - use it only your internet interface**|ipv4 hash:net|3720 subnets, 670264216 unique IPs|updated every 1 day  from [this link](http://www.team-cymru.org/Services/Bogons/fullbogons-ipv4.txt)
 [geolite2_country](https://github.com/ktsaou/blocklist-ipsets/tree/master/geolite2_country)|[MaxMind GeoLite2](http://dev.maxmind.com/geoip/geoip2/geolite2/) databases are free IP geolocation databases comparable to, but less accurate than, MaxMind’s GeoIP2 databases. They include IPs per country, IPs per continent, IPs used by anonymous services (VPNs, Proxies, etc) and Satellite Providers.|ipv4 hash:net|All the world|updated every 7 days  from [this link](http://geolite.maxmind.com/download/geoip/database/GeoLite2-Country-CSV.zip)
 [ib_bluetack_badpeers](#ib_bluetack_badpeers)|[iBlocklist.com](https://www.iblocklist.com/) free version of [BlueTack.co.uk](http://www.bluetack.co.uk/) IPs that have been reported for bad deeds in p2p|ipv4 hash:ip|47940 unique IPs|updated every 12 hours  from [this link](http://list.iblocklist.com/?list=cwworuawihqvocglcoss&fileformat=p2p&archiveformat=gz)
@@ -1444,7 +1444,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 
 ## firehol_anonymous
 
-includes ipsets: firehol_proxies
+includes ipsets: firehol_proxies anonymous
 
 Source is downloaded from [this link]().
 
@@ -1509,7 +1509,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 
 ## firehol_level1
 
-includes ipsets: feodo
+includes ipsets: feodo palevo sslbl zeus_badips dshield spamhaus_drop bogons
 
 Source is downloaded from [this link]().
 
@@ -1585,7 +1585,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 
 ## firehol_level2
 
-includes ipsets: zeus
+includes ipsets: zeus spamhaus_edrop openbl_7d blocklist_de fullbogons virbl
 
 Source is downloaded from [this link]().
 
@@ -1664,7 +1664,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 
 ## firehol_level3
 
-includes ipsets: openbl_30d
+includes ipsets: openbl_30d stopforumspam_7d malc0de shunlist malwaredomainlist bruteforceblocker ib_bluetack_spyware ib_bluetack_spyware ib_bluetack_webexploit php_commenters php_dictionary php_harvesters php_spammers
 
 Source is downloaded from [this link]().
 
@@ -1746,7 +1746,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 
 ## firehol_proxies
 
-includes ipsets: ib_bluetack_proxies
+includes ipsets: ib_bluetack_proxies maxmind_proxy_fraud proxyrss proxz ri_connect_proxies ri_web_proxies xroxy
 
 Source is downloaded from [this link]().
 
