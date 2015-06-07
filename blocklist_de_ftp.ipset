@@ -9,8 +9,8 @@
 #
 # Source URL: http://lists.blocklist.de/lists/ftp.txt
 #
-# Source File Date: Sun Jun  7 06:28:06 UTC 2015
-# This File Date  : Sun Jun  7 06:36:09 UTC 2015
+# Source File Date: Sun Jun  7 06:42:10 UTC 2015
+# This File Date  : Sun Jun  7 07:00:16 UTC 2015
 # Update Frequency: 30 mins 
 # Aggregation     : none
 # Entries         :  unique IPs
@@ -540,7 +540,6 @@
 37.214.119.130
 37.214.145.70
 37.214.253.94
-37.215.173.6
 37.215.42.52
 37.215.46.15
 37.232.23.180
