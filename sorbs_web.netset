@@ -8,8 +8,8 @@
 #
 # Source URL: 
 #
-# Source File Date: Sun Jun  7 05:04:09 UTC 2015
-# This File Date  : Sun Jun  7 05:09:29 UTC 2015
+# Source File Date: Sun Jun  7 06:04:10 UTC 2015
+# This File Date  : Sun Jun  7 06:09:33 UTC 2015
 # Update Frequency: 1 min 
 # Aggregation     : none
 # Entries         :  subnets,  unique IPs
@@ -169,6 +169,7 @@
 125.23.200.38/32
 128.234.66.84/32
 130.0.187.199/32
+134.17.160.222/32
 134.90.157.94/32
 14.108.128.148/32
 14.156.155.120/32
@@ -246,6 +247,7 @@
 183.93.125.29/32
 183.93.69.223/32
 183.93.84.72/32
+183.93.85.217/32
 183.95.66.221/32
 184.1.221.87/32
 184.168.192.114/32
