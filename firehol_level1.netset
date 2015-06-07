@@ -3,12 +3,12 @@
 #
 # ipv4 hash:net ipset
 #
-# includes ipsets: 
+# includes ipsets: feodo
 #
 # Source URL: 
 #
 # Source File Date: 
-# This File Date  : Sun Jun  7 22:13:03 UTC 2015
+# This File Date  : Sun Jun  7 22:13:58 UTC 2015
 # Update Frequency: 1 min 
 # Aggregation     : none
 # Entries         :  subnets,  unique IPs
