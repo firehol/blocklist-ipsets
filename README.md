@@ -213,7 +213,7 @@ TODO
 
 # List of ipsets included
 
-The following list was automatically generated on Sun Jun  7 21:09:52 UTC 2015.
+The following list was automatically generated on Sun Jun  7 21:11:06 UTC 2015.
 
 The update frequency is the maximum allowed by internal configuration. A list will never be downloaded sooner than the update frequency stated. A list may also not be downloaded, after this frequency expired, if it has not been modified on the server (as reported by HTTP `IF_MODIFIED_SINCE` method).
 
@@ -931,7 +931,6 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [ib_bluetack_level3](#ib_bluetack_level3)|17812|139104927|4194304|3.0%|0.7%|
 [voipbl](#voipbl)|10491|10902|319|2.9%|0.0%|
 [ib_bluetack_level1](#ib_bluetack_level1)|218307|764993634|5|0.0%|0.0%|
-[virbl](#virbl)|0|1|1|100.0%|0.0%|
 [stopforumspam_30d](#stopforumspam_30d)|93068|93068|1|0.0%|0.0%|
 [php_harvesters](#php_harvesters)|324|324|1|0.3%|0.0%|
 [php_commenters](#php_commenters)|373|373|1|0.2%|0.0%|
@@ -1226,7 +1225,6 @@ The following table shows the overlaps of `et_botcc` with all the other ipsets s
 
 ipset|entries|unique IPs|IPs on both| them % | this % |
 :---:|:-----:|:--------:|:---------:|:------:|:------:|
-[virbl](#virbl)|0|1|1|100.0%|100.0%|
 [fullbogons](#fullbogons)|3720|670264216|1|0.0%|100.0%|
 [bogons](#bogons)|13|592708608|1|0.0%|100.0%|
 
@@ -1381,7 +1379,6 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [ib_bluetack_badpeers](#ib_bluetack_badpeers)|47940|47940|13|0.0%|0.0%|
 [malwaredomainlist](#malwaredomainlist)|1288|1288|9|0.6%|0.0%|
 [stopforumspam_30d](#stopforumspam_30d)|93068|93068|2|0.0%|0.0%|
-[virbl](#virbl)|0|1|1|100.0%|0.0%|
 [php_harvesters](#php_harvesters)|324|324|1|0.3%|0.0%|
 [php_commenters](#php_commenters)|373|373|1|0.2%|0.0%|
 [et_botcc](#et_botcc)|0|1|1|100.0%|0.0%|
@@ -1567,6 +1564,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [blocklist_de_sip](#blocklist_de_sip)|83|83|4|4.8%|0.0%|
 [sslbl](#sslbl)|381|381|3|0.7%|0.0%|
 [feodo](#feodo)|99|99|3|3.0%|0.0%|
+[virbl](#virbl)|0|1|1|100.0%|0.0%|
 [openbl_1d](#openbl_1d)|104|104|1|0.9%|0.0%|
 
 ## ib_bluetack_level2
@@ -3136,9 +3134,7 @@ The following table shows the overlaps of `virbl` with all the other ipsets supp
 
 ipset|entries|unique IPs|IPs on both| them % | this % |
 :---:|:-----:|:--------:|:---------:|:------:|:------:|
-[fullbogons](#fullbogons)|3720|670264216|1|0.0%|100.0%|
-[et_botcc](#et_botcc)|0|1|1|100.0%|100.0%|
-[bogons](#bogons)|13|592708608|1|0.0%|100.0%|
+[ib_bluetack_level1](#ib_bluetack_level1)|218307|764993634|1|0.0%|100.0%|
 
 ## voipbl
 
