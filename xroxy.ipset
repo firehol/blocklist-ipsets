@@ -9,8 +9,8 @@
 #
 # Source URL: http://www.xroxy.com/proxyrss.xml
 #
-# Source File Date: Sun Jun  7 02:33:01 UTC 2015
-# This File Date  : Sun Jun  7 02:36:11 UTC 2015
+# Source File Date: Sun Jun  7 05:33:01 UTC 2015
+# This File Date  : Sun Jun  7 05:36:17 UTC 2015
 # Update Frequency: 1 hour 
 # Aggregation     : 30 days 
 # Entries         :  unique IPs
@@ -101,6 +101,7 @@
 103.242.64.172
 103.244.205.94
 103.245.181.107
+103.247.101.102
 103.247.31.81
 103.248.187.143
 103.249.100.18
@@ -300,6 +301,7 @@
 112.5.254.166
 112.74.95.141
 112.90.177.73
+112.95.244.57
 112.95.32.96
 113.105.224.66
 113.105.224.86
