@@ -213,7 +213,7 @@ TODO
 
 # List of ipsets included
 
-The following list was automatically generated on Sun Jun  7 02:20:44 UTC 2015.
+The following list was automatically generated on Sun Jun  7 02:27:41 UTC 2015.
 
 The update frequency is the maximum allowed by internal configuration. A list will never be downloaded sooner than the update frequency stated. A list may also not be downloaded, after this frequency expired, if it has not been modified on the server (as reported by HTTP `IF_MODIFIED_SINCE` method).
 
@@ -912,7 +912,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 
 Source is downloaded from [this link](https://torstatus.blutmagie.de/ip_list_all.php/Tor_ip_list_ALL.csv).
 
-The last time downloaded was found to be dated: Sun Jun  7 01:54:07 UTC 2015.
+The last time downloaded was found to be dated: Sun Jun  7 02:27:06 UTC 2015.
 
 The ipset `bm_tor` has **6459** entries, **6459** unique IPs.
 
@@ -1060,7 +1060,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 
 Source is downloaded from [this link](https://www.dan.me.uk/torlist/).
 
-The last time downloaded was found to be dated: Sun Jun  7 01:54:04 UTC 2015.
+The last time downloaded was found to be dated: Sun Jun  7 02:27:05 UTC 2015.
 
 The ipset `dm_tor` has **6432** entries, **6432** unique IPs.
 
@@ -1198,9 +1198,9 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [blocklist_de_mail](#blocklist_de_mail)|17324|17324|22|0.1%|0.0%|
 [voipbl](#voipbl)|10476|10476,10888|17|0.1%|0.0%|
 [blocklist_de_imap](#blocklist_de_imap)|2057|2057|16|0.7%|0.0%|
+[palevo](#palevo)|13|13|13|100.0%|0.0%|
 [openbl_1d](#openbl_1d)|146|146|13|8.9%|0.0%|
 [blocklist_de_apache](#blocklist_de_apache)|15542|15542|13|0.0%|0.0%|
-[palevo](#palevo)|13|13|12|92.3%|0.0%|
 [sorbs_spam](#sorbs_spam)|26361|27266|9|0.0%|0.0%|
 [sorbs_recent_spam](#sorbs_recent_spam)|26361|27266|9|0.0%|0.0%|
 [sorbs_new_spam](#sorbs_new_spam)|26361|27266|9|0.0%|0.0%|
@@ -1352,7 +1352,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 
 Source is downloaded from [this link](https://feodotracker.abuse.ch/blocklist/?download=ipblocklist).
 
-The last time downloaded was found to be dated: Sun Jun  7 01:54:25 UTC 2015.
+The last time downloaded was found to be dated: Sun Jun  7 02:27:14 UTC 2015.
 
 The ipset `feodo` has **99** entries, **99** unique IPs.
 
@@ -1672,8 +1672,8 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [blocklist_de_strongips](#blocklist_de_strongips)|176|176|8|4.5%|0.0%|
 [blocklist_de_sip](#blocklist_de_sip)|93|93|6|6.4%|0.0%|
 [sslbl](#sslbl)|366|366|5|1.3%|0.0%|
-[palevo](#palevo)|13|13|3|23.0%|0.0%|
 [feodo](#feodo)|99|99|3|3.0%|0.0%|
+[palevo](#palevo)|13|13|2|15.3%|0.0%|
 [sorbs_socks](#sorbs_socks)|16|16|1|6.2%|0.0%|
 [sorbs_smtp](#sorbs_smtp)|10|10|1|10.0%|0.0%|
 [sorbs_misc](#sorbs_misc)|16|16|1|6.2%|0.0%|
@@ -1849,7 +1849,6 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [malc0de](#malc0de)|361|361|3|0.8%|0.0%|
 [blocklist_de_bots](#blocklist_de_bots)|2994|2994|3|0.1%|0.0%|
 [blocklist_de_apache](#blocklist_de_apache)|15542|15542|3|0.0%|0.0%|
-[palevo](#palevo)|13|13|2|15.3%|0.0%|
 [et_compromised](#et_compromised)|2016|2016|2|0.0%|0.0%|
 [cleanmx_viruses](#cleanmx_viruses)|230|230|2|0.8%|0.0%|
 [blocklist_de_ssh](#blocklist_de_ssh)|2076|2076|2|0.0%|0.0%|
@@ -1865,6 +1864,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [ri_connect_proxies](#ri_connect_proxies)|2505|2505|1|0.0%|0.0%|
 [php_harvesters](#php_harvesters)|324|324|1|0.3%|0.0%|
 [php_dictionary](#php_dictionary)|545|545|1|0.1%|0.0%|
+[palevo](#palevo)|13|13|1|7.6%|0.0%|
 [openbl_7d](#openbl_7d)|834|834|1|0.1%|0.0%|
 [feodo](#feodo)|99|99|1|1.0%|0.0%|
 [ciarmy](#ciarmy)|391|391|1|0.2%|0.0%|
@@ -2287,7 +2287,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 
 Source is downloaded from [this link](https://palevotracker.abuse.ch/blocklists.php?download=ipblocklist).
 
-The last time downloaded was found to be dated: Sun Jun  7 01:54:23 UTC 2015.
+The last time downloaded was found to be dated: Sun Jun  7 02:27:11 UTC 2015.
 
 The ipset `palevo` has **13** entries, **13** unique IPs.
 
@@ -2298,10 +2298,10 @@ The following table shows the overlaps of `palevo` with all the other ipsets sup
 
 ipset|entries|unique IPs|IPs on both| them % | this % |
 :---:|:-----:|:--------:|:---------:|:------:|:------:|
-[et_block](#et_block)|1023|18338662|12|0.0%|92.3%|
+[et_block](#et_block)|1023|18338662|13|0.0%|100.0%|
 [snort_ipfilter](#snort_ipfilter)|9812|9812|11|0.1%|84.6%|
-[ib_bluetack_level2](#ib_bluetack_level2)|72774|348707599|3|0.0%|23.0%|
-[ib_bluetack_spyware](#ib_bluetack_spyware)|3274|339192|2|0.0%|15.3%|
+[ib_bluetack_level2](#ib_bluetack_level2)|72774|348707599|2|0.0%|15.3%|
+[ib_bluetack_spyware](#ib_bluetack_spyware)|3274|339192|1|0.0%|7.6%|
 [ib_bluetack_level3](#ib_bluetack_level3)|17802|139104824|1|0.0%|7.6%|
 
 ## php_commenters
@@ -2368,7 +2368,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 
 Source is downloaded from [this link](http://www.projecthoneypot.org/list_of_ips.php?t=d&rss=1).
 
-The last time downloaded was found to be dated: Sun Jun  7 01:18:32 UTC 2015.
+The last time downloaded was found to be dated: Sun Jun  7 02:27:15 UTC 2015.
 
 The ipset `php_dictionary` has **545** entries, **545** unique IPs.
 
@@ -3672,7 +3672,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 
 Source is downloaded from [this link](https://zeustracker.abuse.ch/blocklist.php?download=badips).
 
-The last time downloaded was found to be dated: Sun Jun  7 01:54:21 UTC 2015.
+The last time downloaded was found to be dated: Sun Jun  7 02:27:09 UTC 2015.
 
 The ipset `zeus_badips` has **202** entries, **202** unique IPs.
 
