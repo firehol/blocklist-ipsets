@@ -213,7 +213,7 @@ TODO
 
 # List of ipsets included
 
-The following list was automatically generated on Mon Jun  8 11:37:08 UTC 2015.
+The following list was automatically generated on Mon Jun  8 11:45:43 UTC 2015.
 
 The update frequency is the maximum allowed by internal configuration. A list will never be downloaded sooner than the update frequency stated. A list may also not be downloaded, after this frequency expired, if it has not been modified on the server (as reported by HTTP `IF_MODIFIED_SINCE` method).
 
@@ -243,7 +243,7 @@ name|info|type|entries|update|
 et_dshield|[EmergingThreats.net](http://www.emergingthreats.net/) dshield blocklist|ipv4 hash:net|disabled|updated every 12 hours  from [this link](http://rules.emergingthreats.net/fwrules/emerging-PIX-DSHIELD.rules)
 et_spamhaus|[EmergingThreats.net](http://www.emergingthreats.net/) spamhaus blocklist|ipv4 hash:net|disabled|updated every 12 hours  from [this link](http://rules.emergingthreats.net/fwrules/emerging-PIX-DROP.rules)
 [et_tor](#et_tor)|[EmergingThreats.net](http://www.emergingthreats.net/) [list](http://doc.emergingthreats.net/bin/view/Main/TorRules) of TOR network IPs|ipv4 hash:ip|6470 unique IPs|updated every 12 hours  from [this link](http://rules.emergingthreats.net/blockrules/emerging-tor.rules)
-[feodo](#feodo)|[Abuse.ch Feodo tracker](https://feodotracker.abuse.ch) trojan includes IPs which are being used by Feodo (also known as Cridex or Bugat) which commits ebanking fraud - **excellent list**|ipv4 hash:ip|99 unique IPs|updated every 30 mins  from [this link](https://feodotracker.abuse.ch/blocklist/?download=ipblocklist)
+[feodo](#feodo)|[Abuse.ch Feodo tracker](https://feodotracker.abuse.ch) trojan includes IPs which are being used by Feodo (also known as Cridex or Bugat) which commits ebanking fraud - **excellent list**|ipv4 hash:ip|100 unique IPs|updated every 30 mins  from [this link](https://feodotracker.abuse.ch/blocklist/?download=ipblocklist)
 [firehol_anonymous](#firehol_anonymous)|**FireHOL Anonymous** - Known anonymizing IPs. (includes: firehol_proxies anonymous bm_tor dm_tor)|ipv4 hash:net|17859 subnets, 81868 unique IPs|updated every 1 min  from [this link]()
 [firehol_level1](#firehol_level1)|**FireHOL Level 1** - Maximum protection without false positives. (includes: fullbogons dshield feodo palevo sslbl zeus spamhaus_drop spamhaus_edrop)|ipv4 hash:net|5087 subnets, 688943155 unique IPs|updated every 1 min  from [this link]()
 [firehol_level2](#firehol_level2)|**FireHOL Level 2** - Maximum protection from attacks took place in the last 48 hours. (includes: openbl_1d blocklist_de stopforumspam_1d)|ipv4 hash:net|25561 subnets, 37175 unique IPs|updated every 1 min  from [this link]()
@@ -382,7 +382,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [ri_web_proxies](#ri_web_proxies)|7066|7066|3|0.0%|0.0%|
 [ri_connect_proxies](#ri_connect_proxies)|2581|2581|3|0.1%|0.0%|
 [proxz](#proxz)|1039|1039|3|0.2%|0.0%|
-[feodo](#feodo)|99|99|2|2.0%|0.0%|
+[feodo](#feodo)|100|100|2|2.0%|0.0%|
 [ib_bluetack_proxies](#ib_bluetack_proxies)|663|663|1|0.1%|0.0%|
 
 ## blocklist_de
@@ -927,7 +927,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 
 Source is downloaded from [this link](https://torstatus.blutmagie.de/ip_list_all.php/Tor_ip_list_ALL.csv).
 
-The last time downloaded was found to be dated: Mon Jun  8 11:09:04 UTC 2015.
+The last time downloaded was found to be dated: Mon Jun  8 11:45:03 UTC 2015.
 
 The ipset `bm_tor` has **6458** entries, **6458** unique IPs.
 
@@ -1268,7 +1268,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [shunlist](#shunlist)|1241|1241|108|8.7%|0.0%|
 [bruteforceblocker](#bruteforceblocker)|1703|1703|101|5.9%|0.0%|
 [et_compromised](#et_compromised)|2016|2016|100|4.9%|0.0%|
-[feodo](#feodo)|99|99|94|94.9%|0.0%|
+[feodo](#feodo)|100|100|94|94.0%|0.0%|
 [stopforumspam_1d](#stopforumspam_1d)|6804|6804|81|1.1%|0.0%|
 [openbl_7d](#openbl_7d)|825|825|46|5.5%|0.0%|
 [blocklist_de_bots](#blocklist_de_bots)|3438|3438|43|1.2%|0.0%|
@@ -1426,9 +1426,9 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 
 Source is downloaded from [this link](https://feodotracker.abuse.ch/blocklist/?download=ipblocklist).
 
-The last time downloaded was found to be dated: Mon Jun  8 11:09:15 UTC 2015.
+The last time downloaded was found to be dated: Mon Jun  8 11:45:09 UTC 2015.
 
-The ipset `feodo` has **99** entries, **99** unique IPs.
+The ipset `feodo` has **100** entries, **100** unique IPs.
 
 The following table shows the overlaps of `feodo` with all the other ipsets supported. Only the ipsets that have at least 1 IP overlap are shown. if an ipset is not shown here, it does not have any overlap with `feodo`.
 
@@ -1437,12 +1437,12 @@ The following table shows the overlaps of `feodo` with all the other ipsets supp
 
 ipset|entries|unique IPs|IPs on both| them % | this % |
 :---:|:-----:|:--------:|:---------:|:------:|:------:|
-[firehol_level1](#firehol_level1)|5087|688943155|99|0.0%|100.0%|
-[et_block](#et_block)|1023|18338662|94|0.0%|94.9%|
-[snort_ipfilter](#snort_ipfilter)|9492|9492|79|0.8%|79.7%|
-[firehol_level3](#firehol_level3)|107765|9625279|79|0.0%|79.7%|
-[sslbl](#sslbl)|379|379|36|9.4%|36.3%|
-[ib_bluetack_level3](#ib_bluetack_level3)|17812|139104927|11|0.0%|11.1%|
+[firehol_level1](#firehol_level1)|5087|688943155|100|0.0%|100.0%|
+[et_block](#et_block)|1023|18338662|94|0.0%|94.0%|
+[snort_ipfilter](#snort_ipfilter)|9492|9492|79|0.8%|79.0%|
+[firehol_level3](#firehol_level3)|107765|9625279|79|0.0%|79.0%|
+[sslbl](#sslbl)|379|379|37|9.7%|37.0%|
+[ib_bluetack_level3](#ib_bluetack_level3)|17812|139104927|11|0.0%|11.0%|
 [ib_bluetack_level2](#ib_bluetack_level2)|72950|348710251|3|0.0%|3.0%|
 [ib_bluetack_level1](#ib_bluetack_level1)|218307|764993634|3|0.0%|3.0%|
 [alienvault_reputation](#alienvault_reputation)|181932|181932|2|0.0%|2.0%|
@@ -1558,8 +1558,8 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [openbl_30d](#openbl_30d)|2969|2969|134|4.5%|0.0%|
 [blocklist_de_ssh](#blocklist_de_ssh)|3505|3505|119|3.3%|0.0%|
 [bruteforceblocker](#bruteforceblocker)|1703|1703|102|5.9%|0.0%|
+[feodo](#feodo)|100|100|100|100.0%|0.0%|
 [et_compromised](#et_compromised)|2016|2016|100|4.9%|0.0%|
-[feodo](#feodo)|99|99|99|100.0%|0.0%|
 [stopforumspam_1d](#stopforumspam_1d)|6804|6804|89|1.3%|0.0%|
 [openbl_7d](#openbl_7d)|825|825|48|5.8%|0.0%|
 [blocklist_de_bots](#blocklist_de_bots)|3438|3438|44|1.2%|0.0%|
@@ -1737,7 +1737,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [openbl_1d](#openbl_1d)|114|114|111|97.3%|0.0%|
 [spamhaus_edrop](#spamhaus_edrop)|56|487424|90|0.0%|0.0%|
 [sslbl](#sslbl)|379|379|89|23.4%|0.0%|
-[feodo](#feodo)|99|99|79|79.7%|0.0%|
+[feodo](#feodo)|100|100|79|79.0%|0.0%|
 [voipbl](#voipbl)|10491|10902|60|0.5%|0.0%|
 [blocklist_de_bruteforce](#blocklist_de_bruteforce)|5140|5140|60|1.1%|0.0%|
 [blocklist_de_imap](#blocklist_de_imap)|2769|2769|55|1.9%|0.0%|
@@ -2041,7 +2041,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [bogons](#bogons)|13|592708608|5|0.0%|0.0%|
 [zeus_badips](#zeus_badips)|204|204|4|1.9%|0.0%|
 [sslbl](#sslbl)|379|379|3|0.7%|0.0%|
-[feodo](#feodo)|99|99|3|3.0%|0.0%|
+[feodo](#feodo)|100|100|3|3.0%|0.0%|
 
 ## ib_bluetack_level2
 
@@ -2121,7 +2121,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [blocklist_de_strongips](#blocklist_de_strongips)|158|158|6|3.7%|0.0%|
 [sslbl](#sslbl)|379|379|4|1.0%|0.0%|
 [openbl_1d](#openbl_1d)|114|114|4|3.5%|0.0%|
-[feodo](#feodo)|99|99|3|3.0%|0.0%|
+[feodo](#feodo)|100|100|3|3.0%|0.0%|
 [palevo](#palevo)|13|13|2|15.3%|0.0%|
 
 ## ib_bluetack_level3
@@ -2201,7 +2201,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [blocklist_de_strongips](#blocklist_de_strongips)|158|158|16|10.1%|0.0%|
 [zeus](#zeus)|234|234|14|5.9%|0.0%|
 [blocklist_de_sip](#blocklist_de_sip)|90|90|12|13.3%|0.0%|
-[feodo](#feodo)|99|99|11|11.1%|0.0%|
+[feodo](#feodo)|100|100|11|11.0%|0.0%|
 [zeus_badips](#zeus_badips)|204|204|10|4.9%|0.0%|
 [openbl_1d](#openbl_1d)|114|114|7|6.1%|0.0%|
 [palevo](#palevo)|13|13|1|7.6%|0.0%|
@@ -2318,7 +2318,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [php_commenters](#php_commenters)|373|373|1|0.2%|0.0%|
 [palevo](#palevo)|13|13|1|7.6%|0.0%|
 [nixspam](#nixspam)|24828|24828|1|0.0%|0.0%|
-[feodo](#feodo)|99|99|1|1.0%|0.0%|
+[feodo](#feodo)|100|100|1|1.0%|0.0%|
 [ciarmy](#ciarmy)|422|422|1|0.2%|0.0%|
 [bogons](#bogons)|13|592708608|1|0.0%|0.0%|
 [blocklist_de_mail](#blocklist_de_mail)|19045|19045|1|0.0%|0.0%|
@@ -2759,7 +2759,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 
 Source is downloaded from [this link](https://palevotracker.abuse.ch/blocklists.php?download=ipblocklist).
 
-The last time downloaded was found to be dated: Mon Jun  8 11:09:12 UTC 2015.
+The last time downloaded was found to be dated: Mon Jun  8 11:45:07 UTC 2015.
 
 The ipset `palevo` has **13** entries, **13** unique IPs.
 
@@ -3314,7 +3314,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [alienvault_reputation](#alienvault_reputation)|181932|181932|116|0.0%|1.2%|
 [ib_bluetack_level1](#ib_bluetack_level1)|218307|764993634|87|0.0%|0.9%|
 [php_dictionary](#php_dictionary)|630|630|80|12.6%|0.8%|
-[feodo](#feodo)|99|99|79|79.7%|0.8%|
+[feodo](#feodo)|100|100|79|79.0%|0.8%|
 [php_spammers](#php_spammers)|622|622|77|12.3%|0.8%|
 [ri_web_proxies](#ri_web_proxies)|7066|7066|56|0.7%|0.5%|
 [php_commenters](#php_commenters)|373|373|50|13.4%|0.5%|
@@ -3482,7 +3482,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [firehol_level3](#firehol_level3)|107765|9625279|89|0.0%|23.4%|
 [alienvault_reputation](#alienvault_reputation)|181932|181932|64|0.0%|16.8%|
 [shunlist](#shunlist)|1241|1241|58|4.6%|15.3%|
-[feodo](#feodo)|99|99|36|36.3%|9.4%|
+[feodo](#feodo)|100|100|37|37.0%|9.7%|
 [et_block](#et_block)|1023|18338662|35|0.0%|9.2%|
 [snort_ipfilter](#snort_ipfilter)|9492|9492|31|0.3%|8.1%|
 [ib_bluetack_level3](#ib_bluetack_level3)|17812|139104927|29|0.0%|7.6%|
@@ -3885,7 +3885,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 
 Source is downloaded from [this link](https://zeustracker.abuse.ch/blocklist.php?download=badips).
 
-The last time downloaded was found to be dated: Mon Jun  8 11:09:08 UTC 2015.
+The last time downloaded was found to be dated: Mon Jun  8 11:45:04 UTC 2015.
 
 The ipset `zeus_badips` has **204** entries, **204** unique IPs.
 
