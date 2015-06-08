@@ -3,13 +3,13 @@
 #
 # ipv4 hash:net ipset
 #
-# Czech Republic (cz) -- [IPDeny.com](http://www.ipdeny.com/)
+# Czech Republic (CZ) -- [IPDeny.com](http://www.ipdeny.com/)
 #
 # Source URL: http://www.ipdeny.com/ipblocks/data/countries/all-zones.tar.gz
 #
 # Source File Date: Mon Jun  8 12:07:17 UTC 2015
-# This File Date  : Mon Jun  8 22:49:59 UTC 2015
-# Update Frequency: 7 days 
+# This File Date  : Mon Jun  8 23:09:23 UTC 2015
+# Update Frequency: 1 day 
 # Aggregation     : none
 # Entries         : 937 subnets, 9129600 unique IPs
 #

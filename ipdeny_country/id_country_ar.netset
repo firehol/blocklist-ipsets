@@ -3,13 +3,13 @@
 #
 # ipv4 hash:net ipset
 #
-# Argentina (ar) -- [IPDeny.com](http://www.ipdeny.com/)
+# Argentina (AR) -- [IPDeny.com](http://www.ipdeny.com/)
 #
 # Source URL: http://www.ipdeny.com/ipblocks/data/countries/all-zones.tar.gz
 #
 # Source File Date: Mon Jun  8 12:07:17 UTC 2015
-# This File Date  : Mon Jun  8 22:48:49 UTC 2015
-# Update Frequency: 7 days 
+# This File Date  : Mon Jun  8 23:08:21 UTC 2015
+# Update Frequency: 1 day 
 # Aggregation     : none
 # Entries         : 742 subnets, 18833920 unique IPs
 #

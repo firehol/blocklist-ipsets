@@ -3,28 +3,28 @@
 #
 # ipv4 hash:net ipset
 #
-# Continent as, with countries: Saudi Arabia (sa), Kyrgyzstan 
-# (kg), Uzbekistan (uz), Brunei (bn), Armenia (am), Yemen 
-# (ye), Indonesia (id), Azerbaijan (az), Qatar (qa), Hong 
-# Kong (hk), Vietnam (vn), Palestine (ps), Turkmenistan (tm), 
-# Japan (jp), Georgia (ge), Oman (om), Republic of Korea 
-# (kr), Bhutan (bt), Taiwan (tw), British Indian Ocean 
-# Territory (io), Singapore (sg), Cambodia (kh), China (cn), 
-# India (in), Mongolia (mn), Tajikistan (tj), Iran (ir), 
-# Thailand (th), Turkey (tr), Myanmar (Burma) (mm), Iraq 
-# (iq), Macao (mo), Israel (il), Pakistan (pk), United Arab 
-# Emirates (ae), Sri Lanka (lk), Syria (sy), Hashemite 
-# Kingdom of Jordan (jo), Nepal (np), Bahrain (bh), Lebanon 
-# (lb), Bangladesh (bd), Afghanistan (af), North Korea (kp), 
-# Laos (la), Kuwait (kw), Kazakhstan (kz), Malaysia (my), 
-# Philippines (ph), Maldives (mv),  -- 
+# Continent as, with countries: Saudi Arabia (SA), Kyrgyzstan 
+# (KG), Uzbekistan (UZ), Brunei (BN), Armenia (AM), Yemen 
+# (YE), Indonesia (ID), Azerbaijan (AZ), Qatar (QA), Hong 
+# Kong (HK), Vietnam (VN), Palestine (PS), Turkmenistan (TM), 
+# Japan (JP), Georgia (GE), Oman (OM), Republic of Korea 
+# (KR), Bhutan (BT), Taiwan (TW), British Indian Ocean 
+# Territory (IO), Singapore (SG), Cambodia (KH), China (CN), 
+# India (IN), Mongolia (MN), Tajikistan (TJ), Iran (IR), 
+# Thailand (TH), Turkey (TR), Myanmar (Burma) (MM), Iraq 
+# (IQ), Macao (MO), Israel (IL), Pakistan (PK), United Arab 
+# Emirates (AE), Sri Lanka (LK), Syria (SY), Hashemite 
+# Kingdom of Jordan (JO), Nepal (NP), Bahrain (BH), Lebanon 
+# (LB), Bangladesh (BD), Afghanistan (AF), North Korea (KP), 
+# Laos (LA), Kuwait (KW), Kazakhstan (KZ), Malaysia (MY), 
+# Philippines (PH), Maldives (MV),  -- 
 # [IPDeny.com](http://www.ipdeny.com/)
 #
 # Source URL: http://www.ipdeny.com/ipblocks/data/countries/all-zones.tar.gz
 #
 # Source File Date: Mon Jun  8 12:07:17 UTC 2015
-# This File Date  : Mon Jun  8 22:48:10 UTC 2015
-# Update Frequency: 7 days 
+# This File Date  : Mon Jun  8 23:07:47 UTC 2015
+# Update Frequency: 1 day 
 # Aggregation     : none
 # Entries         : 12236 subnets, 864434464 unique IPs
 #

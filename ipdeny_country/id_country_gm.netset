@@ -3,13 +3,13 @@
 #
 # ipv4 hash:net ipset
 #
-# Gambia (gm) -- [IPDeny.com](http://www.ipdeny.com/)
+# Gambia (GM) -- [IPDeny.com](http://www.ipdeny.com/)
 #
 # Source URL: http://www.ipdeny.com/ipblocks/data/countries/all-zones.tar.gz
 #
 # Source File Date: Mon Jun  8 12:07:17 UTC 2015
-# This File Date  : Mon Jun  8 22:51:06 UTC 2015
-# Update Frequency: 7 days 
+# This File Date  : Mon Jun  8 23:10:20 UTC 2015
+# Update Frequency: 1 day 
 # Aggregation     : none
 # Entries         : 11 subnets, 27136 unique IPs
 #

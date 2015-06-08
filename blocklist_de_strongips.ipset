@@ -8,8 +8,8 @@
 #
 # Source URL: http://lists.blocklist.de/lists/strongips.txt
 #
-# Source File Date: Mon Jun  8 22:42:31 UTC 2015
-# This File Date  : Mon Jun  8 22:46:54 UTC 2015
+# Source File Date: Mon Jun  8 23:14:14 UTC 2015
+# This File Date  : Mon Jun  8 23:15:22 UTC 2015
 # Update Frequency: 30 mins 
 # Aggregation     : none
 # Entries         : 163 unique IPs
@@ -87,7 +87,6 @@
 198.204.225.114
 199.15.233.183
 212.129.43.111
-213.159.38.90
 218.65.30.107
 218.65.30.23
 218.65.30.61
@@ -131,6 +130,7 @@
 62.210.211.91
 79.133.217.242
 8.17.252.10
+80.252.154.233
 82.200.121.251
 83.239.108.238
 84.240.9.6

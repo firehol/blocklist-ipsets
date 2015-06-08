@@ -3,27 +3,27 @@
 #
 # ipv4 hash:net ipset
 #
-# Continent na, with countries: Canada (ca), Guatemala (gt), 
-# Saint Pierre and Miquelon (pm), Trinidad and Tobago (tt), 
-# Aruba (aw), Haiti (ht), Dominica (dm), Mexico (mx), Bermuda 
-# (bm), Saint Lucia (lc), U.S. Virgin Islands (vi), Sint 
-# Maarten (sx), Grenada (gd), Honduras (hn), Guadeloupe (gp), 
-# Dominican Republic (do), United States (us), Anguilla (ai), 
-# British Virgin Islands (vg), Belize (bz), Bonaire, Sint 
-# Eustatius, and Saba (bq), Cuba (cu), Barbados (bb), Saint 
-# Kitts and Nevis (kn), Turks and Caicos Islands (tc), Cayman 
-# Islands (ky), Montserrat (ms), Bahamas (bs), Saint Martin 
-# (mf), Puerto Rico (pr), Saint-Barthélemy (bl), Jamaica 
-# (jm), Saint Vincent and the Grenadines (vc), Nicaragua 
-# (ni), Martinique (mq), Panama (pa), Antigua and Barbuda 
-# (ag), El Salvador (sv), Costa Rica (cr), Curaçao (cw), 
-# Greenland (gl),  -- [IPDeny.com](http://www.ipdeny.com/)
+# Continent na, with countries: Canada (CA), Guatemala (GT), 
+# Saint Pierre and Miquelon (PM), Trinidad and Tobago (TT), 
+# Aruba (AW), Haiti (HT), Dominica (DM), Mexico (MX), Bermuda 
+# (BM), Saint Lucia (LC), U.S. Virgin Islands (VI), Sint 
+# Maarten (SX), Grenada (GD), Honduras (HN), Guadeloupe (GP), 
+# Dominican Republic (DO), United States (US), Anguilla (AI), 
+# British Virgin Islands (VG), Belize (BZ), Bonaire, Sint 
+# Eustatius, and Saba (BQ), Cuba (CU), Barbados (BB), Saint 
+# Kitts and Nevis (KN), Turks and Caicos Islands (TC), Cayman 
+# Islands (KY), Montserrat (MS), Bahamas (BS), Saint Martin 
+# (MF), Puerto Rico (PR), Saint-Barthélemy (BL), Jamaica 
+# (JM), Saint Vincent and the Grenadines (VC), Nicaragua 
+# (NI), Martinique (MQ), Panama (PA), Antigua and Barbuda 
+# (AG), El Salvador (SV), Costa Rica (CR), Curaçao (CW), 
+# Greenland (GL),  -- [IPDeny.com](http://www.ipdeny.com/)
 #
 # Source URL: http://www.ipdeny.com/ipblocks/data/countries/all-zones.tar.gz
 #
 # Source File Date: Mon Jun  8 12:07:17 UTC 2015
-# This File Date  : Mon Jun  8 22:48:25 UTC 2015
-# Update Frequency: 7 days 
+# This File Date  : Mon Jun  8 23:08:00 UTC 2015
+# Update Frequency: 1 day 
 # Aggregation     : none
 # Entries         : 11780 subnets, 1721296128 unique IPs
 #

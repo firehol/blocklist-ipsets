@@ -3,28 +3,28 @@
 #
 # ipv4 hash:net ipset
 #
-# Continent eu, with countries: Jersey (je), France (fr), 
-# Macedonia (mk), Latvia (lv), Montenegro (me), Albania (al), 
-# Vatican City (va), Liechtenstein (li), Estonia (ee), 
-# Guernsey (gg), Hungary (hu), Belgium (be), Switzerland 
-# (ch), Greece (gr), Republic of Lithuania (lt), Ireland 
-# (ie), Ukraine (ua), Serbia (rs), Poland (pl), Bosnia and 
-# Herzegovina (ba), Italy (it), Bulgaria (bg), Andorra (ad), 
-# Slovak Republic (sk), San Marino (sm), Romania (ro), 
-# Iceland (is), Austria (at), Isle of Man (im), Belarus (by), 
-# Netherlands (nl), Malta (mt), Denmark (dk), Faroe Islands 
-# (fo), Finland (fi), Norway (no), Cyprus (cy), Slovenia 
-# (si), Russia (ru), Gibraltar (gi), Germany (de), Croatia 
-# (hr), Luxembourg (lu), Sweden (se), Portugal (pt), Monaco 
-# (mc), Czech Republic (cz), Spain (es), Republic of Moldova 
-# (md), United Kingdom (gb),  -- 
+# Continent eu, with countries: Jersey (JE), France (FR), 
+# Macedonia (MK), Latvia (LV), Montenegro (ME), Albania (AL), 
+# Vatican City (VA), Liechtenstein (LI), Estonia (EE), 
+# Guernsey (GG), Hungary (HU), Belgium (BE), Switzerland 
+# (CH), Greece (GR), Republic of Lithuania (LT), Ireland 
+# (IE), Ukraine (UA), Serbia (RS), Poland (PL), Bosnia and 
+# Herzegovina (BA), Italy (IT), Bulgaria (BG), Andorra (AD), 
+# Slovak Republic (SK), San Marino (SM), Romania (RO), 
+# Iceland (IS), Austria (AT), Isle of Man (IM), Belarus (BY), 
+# Netherlands (NL), Malta (MT), Denmark (DK), Faroe Islands 
+# (FO), Finland (FI), Norway (NO), Cyprus (CY), Slovenia 
+# (SI), Russia (RU), Gibraltar (GI), Germany (DE), Croatia 
+# (HR), Luxembourg (LU), Sweden (SE), Portugal (PT), Monaco 
+# (MC), Czech Republic (CZ), Spain (ES), Republic of Moldova 
+# (MD), United Kingdom (GB),  -- 
 # [IPDeny.com](http://www.ipdeny.com/)
 #
 # Source URL: http://www.ipdeny.com/ipblocks/data/countries/all-zones.tar.gz
 #
 # Source File Date: Mon Jun  8 12:07:17 UTC 2015
-# This File Date  : Mon Jun  8 22:48:18 UTC 2015
-# Update Frequency: 7 days 
+# This File Date  : Mon Jun  8 23:07:54 UTC 2015
+# Update Frequency: 1 day 
 # Aggregation     : none
 # Entries         : 18473 subnets, 735999032 unique IPs
 #

@@ -3,13 +3,13 @@
 #
 # ipv4 hash:net ipset
 #
-# Netherlands (nl) -- [IPDeny.com](http://www.ipdeny.com/)
+# Netherlands (NL) -- [IPDeny.com](http://www.ipdeny.com/)
 #
 # Source URL: http://www.ipdeny.com/ipblocks/data/countries/all-zones.tar.gz
 #
 # Source File Date: Mon Jun  8 12:07:17 UTC 2015
-# This File Date  : Mon Jun  8 22:53:35 UTC 2015
-# Update Frequency: 7 days 
+# This File Date  : Mon Jun  8 23:12:31 UTC 2015
+# Update Frequency: 1 day 
 # Aggregation     : none
 # Entries         : 2422 subnets, 45652192 unique IPs
 #

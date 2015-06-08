@@ -3,29 +3,29 @@
 #
 # ipv4 hash:net ipset
 #
-# Continent af, with countries: Zambia (zm), Ghana (gh), 
-# Namibia (na), Mali (ml), Lesotho (ls), Senegal (sn), South 
-# Africa (za), Guinea (gn), Burundi (bi), Nigeria (ng), Togo 
-# (tg), Cameroon (cm), Somalia (so), South Sudan (ss), Libya 
-# (ly), Republic of the Congo (cg), Seychelles (sc), 
-# Mozambique (mz), Benin (bj), Kenya (ke), Central African 
-# Republic (cf), Sierra Leone (sl), Malawi (mw), Réunion 
-# (re), Madagascar (mg), Niger (ne), Eritrea (er), Gabon 
-# (ga), Tunisia (tn), Ivory Coast (ci), Djibouti (dj), 
-# Mauritania (mr), Morocco (ma), Mauritius (mu), Gambia (gm), 
-# Mayotte (yt), Sudan (sd), Guinea-Bissau (gw), Congo (cd), 
-# Comoros (km), Egypt (eg), Algeria (dz), Tanzania (tz), 
-# Zimbabwe (zw), Chad (td), Ethiopia (et), Botswana (bw), 
-# Cape Verde (cv), São Tomé and Príncipe (st), Angola 
-# (ao), Equatorial Guinea (gq), Burkina Faso (bf), Rwanda 
-# (rw), Swaziland (sz), Liberia (lr), Uganda (ug),  -- 
+# Continent af, with countries: Zambia (ZM), Ghana (GH), 
+# Namibia (NA), Mali (ML), Lesotho (LS), Senegal (SN), South 
+# Africa (ZA), Guinea (GN), Burundi (BI), Nigeria (NG), Togo 
+# (TG), Cameroon (CM), Somalia (SO), South Sudan (SS), Libya 
+# (LY), Republic of the Congo (CG), Seychelles (SC), 
+# Mozambique (MZ), Benin (BJ), Kenya (KE), Central African 
+# Republic (CF), Sierra Leone (SL), Malawi (MW), Réunion 
+# (RE), Madagascar (MG), Niger (NE), Eritrea (ER), Gabon 
+# (GA), Tunisia (TN), Ivory Coast (CI), Djibouti (DJ), 
+# Mauritania (MR), Morocco (MA), Mauritius (MU), Gambia (GM), 
+# Mayotte (YT), Sudan (SD), Guinea-Bissau (GW), Congo (CD), 
+# Comoros (KM), Egypt (EG), Algeria (DZ), Tanzania (TZ), 
+# Zimbabwe (ZW), Chad (TD), Ethiopia (ET), Botswana (BW), 
+# Cape Verde (CV), São Tomé and Príncipe (ST), Angola 
+# (AO), Equatorial Guinea (GQ), Burkina Faso (BF), Rwanda 
+# (RW), Swaziland (SZ), Liberia (LR), Uganda (UG),  -- 
 # [IPDeny.com](http://www.ipdeny.com/)
 #
 # Source URL: http://www.ipdeny.com/ipblocks/data/countries/all-zones.tar.gz
 #
 # Source File Date: Mon Jun  8 12:07:17 UTC 2015
-# This File Date  : Mon Jun  8 22:48:04 UTC 2015
-# Update Frequency: 7 days 
+# This File Date  : Mon Jun  8 23:07:42 UTC 2015
+# Update Frequency: 1 day 
 # Aggregation     : none
 # Entries         : 910 subnets, 75963904 unique IPs
 #

@@ -3,13 +3,13 @@
 #
 # ipv4 hash:net ipset
 #
-# Thailand (th) -- [IPDeny.com](http://www.ipdeny.com/)
+# Thailand (TH) -- [IPDeny.com](http://www.ipdeny.com/)
 #
 # Source URL: http://www.ipdeny.com/ipblocks/data/countries/all-zones.tar.gz
 #
 # Source File Date: Mon Jun  8 12:07:17 UTC 2015
-# This File Date  : Mon Jun  8 22:55:10 UTC 2015
-# Update Frequency: 7 days 
+# This File Date  : Mon Jun  8 23:13:55 UTC 2015
+# Update Frequency: 1 day 
 # Aggregation     : none
 # Entries         : 400 subnets, 8792832 unique IPs
 #

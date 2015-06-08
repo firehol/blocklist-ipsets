@@ -3,22 +3,22 @@
 #
 # ipv4 hash:net ipset
 #
-# Continent oc, with countries: Fiji (fj), Solomon Islands 
-# (sb), Northern Mariana Islands (mp), Guam (gu), Papua New 
-# Guinea (pg), Vanuatu (vu), Niue (nu), Marshall Islands 
-# (mh), New Caledonia (nc), New Zealand (nz), Tonga (to), 
-# Nauru (nr), Palau (pw), Australia (au), Wallis and Futuna 
-# (wf), Tuvalu (tv), Kiribati (ki), Federated States of 
-# Micronesia (fm), Tokelau (tk), Norfolk Island (nf), French 
-# Polynesia (pf), Cook Islands (ck), Samoa (ws), East Timor 
-# (tl), American Samoa (as),  -- 
+# Continent oc, with countries: Fiji (FJ), Solomon Islands 
+# (SB), Northern Mariana Islands (MP), Guam (GU), Papua New 
+# Guinea (PG), Vanuatu (VU), Niue (NU), Marshall Islands 
+# (MH), New Caledonia (NC), New Zealand (NZ), Tonga (TO), 
+# Nauru (NR), Palau (PW), Australia (AU), Wallis and Futuna 
+# (WF), Tuvalu (TV), Kiribati (KI), Federated States of 
+# Micronesia (FM), Tokelau (TK), Norfolk Island (NF), French 
+# Polynesia (PF), Cook Islands (CK), Samoa (WS), East Timor 
+# (TL), American Samoa (AS),  -- 
 # [IPDeny.com](http://www.ipdeny.com/)
 #
 # Source URL: http://www.ipdeny.com/ipblocks/data/countries/all-zones.tar.gz
 #
 # Source File Date: Mon Jun  8 12:07:17 UTC 2015
-# This File Date  : Mon Jun  8 22:48:29 UTC 2015
-# Update Frequency: 7 days 
+# This File Date  : Mon Jun  8 23:08:03 UTC 2015
+# Update Frequency: 1 day 
 # Aggregation     : none
 # Entries         : 5342 subnets, 56149504 unique IPs
 #

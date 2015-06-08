@@ -3,13 +3,13 @@
 #
 # ipv4 hash:net ipset
 #
-# Guadeloupe (gp) -- [IPDeny.com](http://www.ipdeny.com/)
+# Guadeloupe (GP) -- [IPDeny.com](http://www.ipdeny.com/)
 #
 # Source URL: http://www.ipdeny.com/ipblocks/data/countries/all-zones.tar.gz
 #
 # Source File Date: Mon Jun  8 12:07:17 UTC 2015
-# This File Date  : Mon Jun  8 22:51:08 UTC 2015
-# Update Frequency: 7 days 
+# This File Date  : Mon Jun  8 23:10:22 UTC 2015
+# Update Frequency: 1 day 
 # Aggregation     : none
 # Entries         : 7 subnets, 16640 unique IPs
 #

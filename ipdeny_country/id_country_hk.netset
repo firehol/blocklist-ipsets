@@ -3,13 +3,13 @@
 #
 # ipv4 hash:net ipset
 #
-# Hong Kong (hk) -- [IPDeny.com](http://www.ipdeny.com/)
+# Hong Kong (HK) -- [IPDeny.com](http://www.ipdeny.com/)
 #
 # Source URL: http://www.ipdeny.com/ipblocks/data/countries/all-zones.tar.gz
 #
 # Source File Date: Mon Jun  8 12:07:17 UTC 2015
-# This File Date  : Mon Jun  8 22:51:22 UTC 2015
-# Update Frequency: 7 days 
+# This File Date  : Mon Jun  8 23:10:35 UTC 2015
+# Update Frequency: 1 day 
 # Aggregation     : none
 # Entries         : 1250 subnets, 11249664 unique IPs
 #

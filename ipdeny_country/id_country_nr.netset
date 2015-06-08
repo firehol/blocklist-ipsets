@@ -3,13 +3,13 @@
 #
 # ipv4 hash:net ipset
 #
-# Nauru (nr) -- [IPDeny.com](http://www.ipdeny.com/)
+# Nauru (NR) -- [IPDeny.com](http://www.ipdeny.com/)
 #
 # Source URL: http://www.ipdeny.com/ipblocks/data/countries/all-zones.tar.gz
 #
 # Source File Date: Mon Jun  8 12:07:17 UTC 2015
-# This File Date  : Mon Jun  8 22:53:44 UTC 2015
-# Update Frequency: 7 days 
+# This File Date  : Mon Jun  8 23:12:39 UTC 2015
+# Update Frequency: 1 day 
 # Aggregation     : none
 # Entries         : 5 subnets, 9472 unique IPs
 #

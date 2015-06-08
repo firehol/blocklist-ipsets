@@ -3,13 +3,13 @@
 #
 # ipv4 hash:net ipset
 #
-# Botswana (bw) -- [IPDeny.com](http://www.ipdeny.com/)
+# Botswana (BW) -- [IPDeny.com](http://www.ipdeny.com/)
 #
 # Source URL: http://www.ipdeny.com/ipblocks/data/countries/all-zones.tar.gz
 #
 # Source File Date: Mon Jun  8 12:07:17 UTC 2015
-# This File Date  : Mon Jun  8 22:49:24 UTC 2015
-# Update Frequency: 7 days 
+# This File Date  : Mon Jun  8 23:08:52 UTC 2015
+# Update Frequency: 1 day 
 # Aggregation     : none
 # Entries         : 29 subnets, 116480 unique IPs
 #
