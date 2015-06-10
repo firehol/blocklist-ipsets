@@ -213,7 +213,7 @@ TODO
 
 # List of ipsets included
 
-The following list was automatically generated on Wed Jun 10 20:55:50 UTC 2015.
+The following list was automatically generated on Wed Jun 10 21:02:11 UTC 2015.
 
 The update frequency is the maximum allowed by internal configuration. A list will never be downloaded sooner than the update frequency stated. A list may also not be downloaded, after this frequency expired, if it has not been modified on the server (as reported by HTTP `IF_MODIFIED_SINCE` method).
 
@@ -234,7 +234,7 @@ name|info|type|entries|update|
 [bogons](#bogons)|[Team-Cymru.org](http://www.team-cymru.org) private and reserved addresses defined by RFC 1918, RFC 5735, and RFC 6598 and netblocks that have not been allocated to a regional internet registry - **excellent list - use it only your internet interface**|ipv4 hash:net|13 subnets, 592708608 unique IPs|updated every 1 day  from [this link](http://www.team-cymru.org/Services/Bogons/bogon-bn-agg.txt)
 [bruteforceblocker](#bruteforceblocker)|[danger.rulez.sk](http://danger.rulez.sk/) IPs detected by [bruteforceblocker](http://danger.rulez.sk/index.php/bruteforceblocker/) (fail2ban alternative for SSH on OpenBSD). This is an automatically generated list from users reporting failed authentication attempts. An IP seems to be included if 3 or more users report it. Its retention pocily seems 30 days.|ipv4 hash:ip|1711 unique IPs|updated every 3 hours  from [this link](http://danger.rulez.sk/projects/bruteforceblocker/blist.php)
 [ciarmy](#ciarmy)|[CIArmy.com](http://ciarmy.com/) IPs with poor Rogue Packet score that have not yet been identified as malicious by the community|ipv4 hash:ip|457 unique IPs|updated every 3 hours  from [this link](http://cinsscore.com/list/ci-badguys.txt)
-[cleanmx_viruses](#cleanmx_viruses)|[Clean-MX.de](http://support.clean-mx.de/clean-mx/viruses.php) IPs with viruses|ipv4 hash:ip|123 unique IPs|updated every 12 hours  from [this link](http://support.clean-mx.de/clean-mx/xmlviruses.php?sort=id%20desc&response=alive)
+[cleanmx_viruses](#cleanmx_viruses)|[Clean-MX.de](http://support.clean-mx.de/clean-mx/viruses.php) IPs with viruses|ipv4 hash:ip|65 unique IPs|updated every 12 hours  from [this link](http://support.clean-mx.de/clean-mx/xmlviruses.php?sort=id%20desc&response=alive)
 [dm_tor](#dm_tor)|[dan.me.uk](https://www.dan.me.uk) dynamic list of TOR exit points|ipv4 hash:ip|6533 unique IPs|updated every 30 mins  from [this link](https://www.dan.me.uk/torlist/)
 [dragon_http](#dragon_http)|[Dragon Search Group](http://www.dragonresearchgroup.org/) IPs that have been seen sending HTTP requests to Dragon Research Pods in the last 7 days. This report lists hosts that are highly suspicious and are likely conducting malicious HTTP attacks. LEGITIMATE SEARCH ENGINE BOTS MAY BE IN THIS LIST. This report is informational.  It is not a blacklist, but some operators may choose to use it to help protect their networks and hosts in the forms of automated reporting and mitigation services.|ipv4 hash:net|1044 subnets, 273664 unique IPs|updated every 1 day  from [this link](http://www.dragonresearchgroup.org/insight/http-report.txt)
 [dshield](#dshield)|[DShield.org](https://dshield.org/) top 20 attacking class C (/24) subnets over the last three days - **excellent list**|ipv4 hash:net|20 subnets, 5120 unique IPs|updated every 4 hours  from [this link](http://feeds.dshield.org/block.txt)
@@ -248,7 +248,7 @@ et_spamhaus|[EmergingThreats.net](http://www.emergingthreats.net/) spamhaus bloc
 [firehol_anonymous](#firehol_anonymous)|**FireHOL Anonymous** - Known anonymizing IPs. (includes: firehol_proxies anonymous bm_tor dm_tor)|ipv4 hash:net|18923 subnets, 82959 unique IPs|
 [firehol_level1](#firehol_level1)|**FireHOL Level 1** - Maximum protection without false positives. (includes: fullbogons dshield feodo palevo sslbl zeus spamhaus_drop spamhaus_edrop)|ipv4 hash:net|5135 subnets, 688894845 unique IPs|
 [firehol_level2](#firehol_level2)|**FireHOL Level 2** - Maximum protection from attacks took place in the last 48 hours. (includes: openbl_1d blocklist_de stopforumspam_1d)|ipv4 hash:net|23467 subnets, 35096 unique IPs|
-[firehol_level3](#firehol_level3)|**FireHOL Level 3** - All the bad IPs in last 30 days. (includes: openbl_30d stopforumspam_30d virbl malc0de shunlist malwaredomainlist bruteforceblocker ciarmy cleanmx_viruses snort_ipfilter ib_bluetack_spyware ib_bluetack_hijacked ib_bluetack_webexploit php_commenters php_dictionary php_harvesters php_spammers)|ipv4 hash:net|110213 subnets, 9627950 unique IPs|
+[firehol_level3](#firehol_level3)|**FireHOL Level 3** - All the bad IPs in last 30 days. (includes: openbl_30d stopforumspam_30d virbl malc0de shunlist malwaredomainlist bruteforceblocker ciarmy cleanmx_viruses snort_ipfilter ib_bluetack_spyware ib_bluetack_hijacked ib_bluetack_webexploit php_commenters php_dictionary php_harvesters php_spammers)|ipv4 hash:net|110163 subnets, 9627904 unique IPs|
 [firehol_proxies](#firehol_proxies)|**FireHOL Proxies** - Known open proxies in the last 30 days. (includes: ib_bluetack_proxies maxmind_proxy_fraud proxyrss proxz ri_connect_proxies ri_web_proxies xroxy)|ipv4 hash:net|12407 subnets, 12673 unique IPs|
 [fullbogons](#fullbogons)|[Team-Cymru.org](http://www.team-cymru.org) IP space that has been allocated to an RIR, but not assigned by that RIR to an actual ISP or other end-user - **excellent list - use it only your internet interface**|ipv4 hash:net|3770 subnets, 670213096 unique IPs|updated every 1 day  from [this link](http://www.team-cymru.org/Services/Bogons/fullbogons-ipv4.txt)
 [geolite2_country](https://github.com/ktsaou/blocklist-ipsets/tree/master/geolite2_country)|[MaxMind GeoLite2](http://dev.maxmind.com/geoip/geoip2/geolite2/) databases are free IP geolocation databases comparable to, but less accurate than, MaxMind’s GeoIP2 databases. They include IPs per country, IPs per continent, IPs used by anonymous services (VPNs, Proxies, etc) and Satellite Providers.|ipv4 hash:net|All the world|updated every 7 days  from [this link](http://geolite.maxmind.com/download/geoip/database/GeoLite2-Country-CSV.zip)
@@ -339,7 +339,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [openbl_60d](#openbl_60d)|7012|7012|6989|99.6%|3.7%|
 [ib_bluetack_level2](#ib_bluetack_level2)|72950|348710251|6262|0.0%|3.3%|
 [dragon_http](#dragon_http)|1044|273664|5646|2.0%|3.0%|
-[firehol_level3](#firehol_level3)|110213|9627950|5166|0.0%|2.7%|
+[firehol_level3](#firehol_level3)|110163|9627904|5169|0.0%|2.7%|
 [et_block](#et_block)|1000|18344011|4764|0.0%|2.5%|
 [firehol_level1](#firehol_level1)|5135|688894845|4589|0.0%|2.4%|
 [ib_bluetack_level1](#ib_bluetack_level1)|218307|764993634|4218|0.0%|2.2%|
@@ -392,12 +392,12 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [malwaredomainlist](#malwaredomainlist)|1288|1288|8|0.6%|0.0%|
 [php_spammers](#php_spammers)|700|700|6|0.8%|0.0%|
 [ib_bluetack_webexploit](#ib_bluetack_webexploit)|1450|1450|6|0.4%|0.0%|
+[cleanmx_viruses](#cleanmx_viruses)|65|65|6|9.2%|0.0%|
 [xroxy](#xroxy)|2159|2159|5|0.2%|0.0%|
 [ri_web_proxies](#ri_web_proxies)|7593|7593|4|0.0%|0.0%|
 [et_botcc](#et_botcc)|506|506|4|0.7%|0.0%|
 [ri_connect_proxies](#ri_connect_proxies)|2737|2737|3|0.1%|0.0%|
 [proxz](#proxz)|1236|1236|3|0.2%|0.0%|
-[cleanmx_viruses](#cleanmx_viruses)|123|123|3|2.4%|0.0%|
 [feodo](#feodo)|105|105|2|1.9%|0.0%|
 [proxyrss](#proxyrss)|1669|1669|1|0.0%|0.0%|
 [ib_bluetack_proxies](#ib_bluetack_proxies)|663|663|1|0.1%|0.0%|
@@ -423,7 +423,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [blocklist_de_mail](#blocklist_de_mail)|17428|17428|17428|100.0%|58.7%|
 [blocklist_de_apache](#blocklist_de_apache)|15426|15426|15424|99.9%|52.0%|
 [blocklist_de_bruteforce](#blocklist_de_bruteforce)|4071|4071|4069|99.9%|13.7%|
-[firehol_level3](#firehol_level3)|110213|9627950|3963|0.0%|13.3%|
+[firehol_level3](#firehol_level3)|110163|9627904|3963|0.0%|13.3%|
 [ib_bluetack_level3](#ib_bluetack_level3)|17812|139104927|3756|0.0%|12.6%|
 [blocklist_de_ssh](#blocklist_de_ssh)|3530|3530|3530|100.0%|11.9%|
 [blocklist_de_bots](#blocklist_de_bots)|2933|2933|2926|99.7%|9.8%|
@@ -505,7 +505,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [ib_bluetack_level3](#ib_bluetack_level3)|17812|139104927|2392|0.0%|15.5%|
 [ib_bluetack_level1](#ib_bluetack_level1)|218307|764993634|1335|0.0%|8.6%|
 [ib_bluetack_level2](#ib_bluetack_level2)|72950|348710251|1105|0.0%|7.1%|
-[firehol_level3](#firehol_level3)|110213|9627950|325|0.0%|2.1%|
+[firehol_level3](#firehol_level3)|110163|9627904|325|0.0%|2.1%|
 [stopforumspam_30d](#stopforumspam_30d)|94424|94424|237|0.2%|1.5%|
 [stopforumspam_7d](#stopforumspam_7d)|29338|29338|144|0.4%|0.9%|
 [alienvault_reputation](#alienvault_reputation)|187115|187115|125|0.0%|0.8%|
@@ -563,7 +563,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 :---:|:-----:|:--------:|:---------:|:------:|:------:|
 [firehol_level2](#firehol_level2)|23467|35096|2927|8.3%|99.7%|
 [blocklist_de](#blocklist_de)|29645|29645|2926|9.8%|99.7%|
-[firehol_level3](#firehol_level3)|110213|9627950|2361|0.0%|80.4%|
+[firehol_level3](#firehol_level3)|110163|9627904|2361|0.0%|80.4%|
 [stopforumspam_30d](#stopforumspam_30d)|94424|94424|2323|2.4%|79.2%|
 [stopforumspam_7d](#stopforumspam_7d)|29338|29338|1959|6.6%|66.7%|
 [stopforumspam_1d](#stopforumspam_1d)|6808|6808|1311|19.2%|44.6%|
@@ -628,7 +628,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [firehol_level2](#firehol_level2)|23467|35096|4069|11.5%|99.9%|
 [blocklist_de](#blocklist_de)|29645|29645|4069|13.7%|99.9%|
 [ib_bluetack_level3](#ib_bluetack_level3)|17812|139104927|301|0.0%|7.3%|
-[firehol_level3](#firehol_level3)|110213|9627950|121|0.0%|2.9%|
+[firehol_level3](#firehol_level3)|110163|9627904|121|0.0%|2.9%|
 [stopforumspam_30d](#stopforumspam_30d)|94424|94424|94|0.0%|2.3%|
 [ib_bluetack_level2](#ib_bluetack_level2)|72950|348710251|73|0.0%|1.7%|
 [stopforumspam_7d](#stopforumspam_7d)|29338|29338|68|0.2%|1.6%|
@@ -682,7 +682,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [firehol_level2](#firehol_level2)|23467|35096|1343|3.8%|100.0%|
 [blocklist_de](#blocklist_de)|29645|29645|1343|4.5%|100.0%|
 [ib_bluetack_level3](#ib_bluetack_level3)|17812|139104927|153|0.0%|11.3%|
-[firehol_level3](#firehol_level3)|110213|9627950|26|0.0%|1.9%|
+[firehol_level3](#firehol_level3)|110163|9627904|26|0.0%|1.9%|
 [stopforumspam_30d](#stopforumspam_30d)|94424|94424|18|0.0%|1.3%|
 [ib_bluetack_level2](#ib_bluetack_level2)|72950|348710251|17|0.0%|1.2%|
 [ib_bluetack_level1](#ib_bluetack_level1)|218307|764993634|12|0.0%|0.8%|
@@ -727,7 +727,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [blocklist_de_mail](#blocklist_de_mail)|17428|17428|2381|13.6%|99.9%|
 [ib_bluetack_level3](#ib_bluetack_level3)|17812|139104927|304|0.0%|12.7%|
 [ib_bluetack_level2](#ib_bluetack_level2)|72950|348710251|53|0.0%|2.2%|
-[firehol_level3](#firehol_level3)|110213|9627950|46|0.0%|1.9%|
+[firehol_level3](#firehol_level3)|110163|9627904|46|0.0%|1.9%|
 [alienvault_reputation](#alienvault_reputation)|187115|187115|37|0.0%|1.5%|
 [ib_bluetack_level1](#ib_bluetack_level1)|218307|764993634|31|0.0%|1.3%|
 [openbl_60d](#openbl_60d)|7012|7012|24|0.3%|1.0%|
@@ -787,7 +787,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [sorbs_recent_spam](#sorbs_recent_spam)|59772|60402|1202|1.9%|6.8%|
 [sorbs_new_spam](#sorbs_new_spam)|59772|60402|1202|1.9%|6.8%|
 [nixspam](#nixspam)|39994|39994|796|1.9%|4.5%|
-[firehol_level3](#firehol_level3)|110213|9627950|406|0.0%|2.3%|
+[firehol_level3](#firehol_level3)|110163|9627904|406|0.0%|2.3%|
 [stopforumspam_30d](#stopforumspam_30d)|94424|94424|260|0.2%|1.4%|
 [snort_ipfilter](#snort_ipfilter)|10158|10158|161|1.5%|0.9%|
 [stopforumspam_7d](#stopforumspam_7d)|29338|29338|148|0.5%|0.8%|
@@ -854,7 +854,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [ib_bluetack_level3](#ib_bluetack_level3)|17812|139104927|10|0.0%|12.8%|
 [ib_bluetack_level2](#ib_bluetack_level2)|72950|348710251|7|0.0%|8.9%|
 [ib_bluetack_level1](#ib_bluetack_level1)|218307|764993634|6|0.0%|7.6%|
-[firehol_level3](#firehol_level3)|110213|9627950|3|0.0%|3.8%|
+[firehol_level3](#firehol_level3)|110163|9627904|3|0.0%|3.8%|
 [spamhaus_drop](#spamhaus_drop)|653|18340608|2|0.0%|2.5%|
 [ib_bluetack_spyware](#ib_bluetack_spyware)|3267|339173|2|0.0%|2.5%|
 [firehol_level1](#firehol_level1)|5135|688894845|2|0.0%|2.5%|
@@ -883,7 +883,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [firehol_level2](#firehol_level2)|23467|35096|3530|10.0%|100.0%|
 [blocklist_de](#blocklist_de)|29645|29645|3530|11.9%|100.0%|
 [alienvault_reputation](#alienvault_reputation)|187115|187115|1123|0.6%|31.8%|
-[firehol_level3](#firehol_level3)|110213|9627950|992|0.0%|28.1%|
+[firehol_level3](#firehol_level3)|110163|9627904|992|0.0%|28.1%|
 [openbl_60d](#openbl_60d)|7012|7012|922|13.1%|26.1%|
 [openbl_30d](#openbl_30d)|2835|2835|736|25.9%|20.8%|
 [et_compromised](#et_compromised)|1721|1721|645|37.4%|18.2%|
@@ -940,7 +940,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 :---:|:-----:|:--------:|:---------:|:------:|:------:|
 [firehol_level2](#firehol_level2)|23467|35096|180|0.5%|100.0%|
 [blocklist_de](#blocklist_de)|29645|29645|180|0.6%|100.0%|
-[firehol_level3](#firehol_level3)|110213|9627950|163|0.0%|90.5%|
+[firehol_level3](#firehol_level3)|110163|9627904|163|0.0%|90.5%|
 [stopforumspam_30d](#stopforumspam_30d)|94424|94424|137|0.1%|76.1%|
 [blocklist_de_bots](#blocklist_de_bots)|2933|2933|131|4.4%|72.7%|
 [stopforumspam_7d](#stopforumspam_7d)|29338|29338|117|0.3%|65.0%|
@@ -989,7 +989,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 
 Source is downloaded from [this link](https://torstatus.blutmagie.de/ip_list_all.php/Tor_ip_list_ALL.csv).
 
-The last time downloaded was found to be dated: Wed Jun 10 20:27:02 UTC 2015.
+The last time downloaded was found to be dated: Wed Jun 10 21:00:04 UTC 2015.
 
 The ipset `bm_tor` has **6552** entries, **6552** unique IPs.
 
@@ -1003,7 +1003,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [firehol_anonymous](#firehol_anonymous)|18923|82959|6552|7.8%|100.0%|
 [dm_tor](#dm_tor)|6533|6533|6449|98.7%|98.4%|
 [et_tor](#et_tor)|6400|6400|5965|93.2%|91.0%|
-[firehol_level3](#firehol_level3)|110213|9627950|1116|0.0%|17.0%|
+[firehol_level3](#firehol_level3)|110163|9627904|1116|0.0%|17.0%|
 [snort_ipfilter](#snort_ipfilter)|10158|10158|1079|10.6%|16.4%|
 [stopforumspam_30d](#stopforumspam_30d)|94424|94424|645|0.6%|9.8%|
 [ib_bluetack_level3](#ib_bluetack_level3)|17812|139104927|629|0.0%|9.6%|
@@ -1063,7 +1063,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [ib_bluetack_level3](#ib_bluetack_level3)|17812|139104927|4194304|3.0%|0.7%|
 [voipbl](#voipbl)|10533|10945|319|2.9%|0.0%|
 [ib_bluetack_level1](#ib_bluetack_level1)|218307|764993634|5|0.0%|0.0%|
-[firehol_level3](#firehol_level3)|110213|9627950|3|0.0%|0.0%|
+[firehol_level3](#firehol_level3)|110163|9627904|3|0.0%|0.0%|
 [php_harvesters](#php_harvesters)|378|378|1|0.2%|0.0%|
 [php_commenters](#php_commenters)|430|430|1|0.2%|0.0%|
 [ib_bluetack_spyware](#ib_bluetack_spyware)|3267|339173|1|0.0%|0.0%|
@@ -1086,7 +1086,7 @@ The following table shows the overlaps of `bruteforceblocker` with all the other
 
 ipset|entries|unique IPs|IPs on both| them % | this % |
 :---:|:-----:|:--------:|:---------:|:------:|:------:|
-[firehol_level3](#firehol_level3)|110213|9627950|1711|0.0%|100.0%|
+[firehol_level3](#firehol_level3)|110163|9627904|1711|0.0%|100.0%|
 [et_compromised](#et_compromised)|1721|1721|1676|97.3%|97.9%|
 [alienvault_reputation](#alienvault_reputation)|187115|187115|1093|0.5%|63.8%|
 [openbl_60d](#openbl_60d)|7012|7012|982|14.0%|57.3%|
@@ -1146,7 +1146,7 @@ The following table shows the overlaps of `ciarmy` with all the other ipsets sup
 
 ipset|entries|unique IPs|IPs on both| them % | this % |
 :---:|:-----:|:--------:|:---------:|:------:|:------:|
-[firehol_level3](#firehol_level3)|110213|9627950|457|0.0%|100.0%|
+[firehol_level3](#firehol_level3)|110163|9627904|457|0.0%|100.0%|
 [alienvault_reputation](#alienvault_reputation)|187115|187115|450|0.2%|98.4%|
 [ib_bluetack_level3](#ib_bluetack_level3)|17812|139104927|100|0.0%|21.8%|
 [ib_bluetack_level2](#ib_bluetack_level2)|72950|348710251|49|0.0%|10.7%|
@@ -1182,9 +1182,9 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 
 Source is downloaded from [this link](http://support.clean-mx.de/clean-mx/xmlviruses.php?sort=id%20desc&response=alive).
 
-The last time downloaded was found to be dated: Wed Jun 10 08:54:12 UTC 2015.
+The last time downloaded was found to be dated: Wed Jun 10 21:00:49 UTC 2015.
 
-The ipset `cleanmx_viruses` has **123** entries, **123** unique IPs.
+The ipset `cleanmx_viruses` has **65** entries, **65** unique IPs.
 
 The following table shows the overlaps of `cleanmx_viruses` with all the other ipsets supported. Only the ipsets that have at least 1 IP overlap are shown. if an ipset is not shown here, it does not have any overlap with `cleanmx_viruses`.
 
@@ -1193,14 +1193,14 @@ The following table shows the overlaps of `cleanmx_viruses` with all the other i
 
 ipset|entries|unique IPs|IPs on both| them % | this % |
 :---:|:-----:|:--------:|:---------:|:------:|:------:|
-[firehol_level3](#firehol_level3)|110213|9627950|123|0.0%|100.0%|
-[ib_bluetack_level3](#ib_bluetack_level3)|17812|139104927|16|0.0%|13.0%|
-[malc0de](#malc0de)|313|313|13|4.1%|10.5%|
-[ib_bluetack_level1](#ib_bluetack_level1)|218307|764993634|3|0.0%|2.4%|
-[alienvault_reputation](#alienvault_reputation)|187115|187115|3|0.0%|2.4%|
-[snort_ipfilter](#snort_ipfilter)|10158|10158|2|0.0%|1.6%|
-[ib_bluetack_level2](#ib_bluetack_level2)|72950|348710251|2|0.0%|1.6%|
-[malwaredomainlist](#malwaredomainlist)|1288|1288|1|0.0%|0.8%|
+[firehol_level3](#firehol_level3)|110163|9627904|65|0.0%|100.0%|
+[alienvault_reputation](#alienvault_reputation)|187115|187115|6|0.0%|9.2%|
+[ib_bluetack_level3](#ib_bluetack_level3)|17812|139104927|5|0.0%|7.6%|
+[snort_ipfilter](#snort_ipfilter)|10158|10158|1|0.0%|1.5%|
+[malc0de](#malc0de)|313|313|1|0.3%|1.5%|
+[ib_bluetack_spyware](#ib_bluetack_spyware)|3267|339173|1|0.0%|1.5%|
+[ib_bluetack_level2](#ib_bluetack_level2)|72950|348710251|1|0.0%|1.5%|
+[ib_bluetack_level1](#ib_bluetack_level1)|218307|764993634|1|0.0%|1.5%|
 
 ## dm_tor
 
@@ -1222,7 +1222,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [firehol_anonymous](#firehol_anonymous)|18923|82959|6533|7.8%|100.0%|
 [bm_tor](#bm_tor)|6552|6552|6449|98.4%|98.7%|
 [et_tor](#et_tor)|6400|6400|5949|92.9%|91.0%|
-[firehol_level3](#firehol_level3)|110213|9627950|1104|0.0%|16.8%|
+[firehol_level3](#firehol_level3)|110163|9627904|1104|0.0%|16.8%|
 [snort_ipfilter](#snort_ipfilter)|10158|10158|1067|10.5%|16.3%|
 [stopforumspam_30d](#stopforumspam_30d)|94424|94424|641|0.6%|9.8%|
 [ib_bluetack_level3](#ib_bluetack_level3)|17812|139104927|631|0.0%|9.6%|
@@ -1284,7 +1284,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [firehol_level1](#firehol_level1)|5135|688894845|1537|0.0%|0.5%|
 [dshield](#dshield)|20|5120|1280|25.0%|0.4%|
 [et_block](#et_block)|1000|18344011|1024|0.0%|0.3%|
-[firehol_level3](#firehol_level3)|110213|9627950|565|0.0%|0.2%|
+[firehol_level3](#firehol_level3)|110163|9627904|565|0.0%|0.2%|
 [spamhaus_drop](#spamhaus_drop)|653|18340608|256|0.0%|0.0%|
 [ib_bluetack_hijacked](#ib_bluetack_hijacked)|535|9177856|256|0.0%|0.0%|
 [openbl_60d](#openbl_60d)|7012|7012|223|3.1%|0.0%|
@@ -1360,7 +1360,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [alienvault_reputation](#alienvault_reputation)|187115|187115|3075|1.6%|60.0%|
 [et_block](#et_block)|1000|18344011|1536|0.0%|30.0%|
 [dragon_http](#dragon_http)|1044|273664|1280|0.4%|25.0%|
-[firehol_level3](#firehol_level3)|110213|9627950|49|0.0%|0.9%|
+[firehol_level3](#firehol_level3)|110163|9627904|49|0.0%|0.9%|
 [openbl_60d](#openbl_60d)|7012|7012|45|0.6%|0.8%|
 [openbl_30d](#openbl_30d)|2835|2835|33|1.1%|0.6%|
 [shunlist](#shunlist)|1225|1225|20|1.6%|0.3%|
@@ -1399,10 +1399,10 @@ The following table shows the overlaps of `et_block` with all the other ipsets s
 
 ipset|entries|unique IPs|IPs on both| them % | this % |
 :---:|:-----:|:--------:|:---------:|:------:|:------:|
-[firehol_level1](#firehol_level1)|5135|688894845|18340425|2.6%|99.9%|
+[firehol_level1](#firehol_level1)|5135|688894845|18340426|2.6%|99.9%|
 [spamhaus_drop](#spamhaus_drop)|653|18340608|18338560|99.9%|99.9%|
 [ib_bluetack_level2](#ib_bluetack_level2)|72950|348710251|8532520|2.4%|46.5%|
-[firehol_level3](#firehol_level3)|110213|9627950|6933378|72.0%|37.7%|
+[firehol_level3](#firehol_level3)|110163|9627904|6933378|72.0%|37.7%|
 [ib_bluetack_hijacked](#ib_bluetack_hijacked)|535|9177856|6932480|75.5%|37.7%|
 [ib_bluetack_level1](#ib_bluetack_level1)|218307|764993634|2272548|0.2%|12.3%|
 [fullbogons](#fullbogons)|3770|670213096|151552|0.0%|0.8%|
@@ -1439,8 +1439,8 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [openbl_1d](#openbl_1d)|158|158|19|12.0%|0.0%|
 [blocklist_de_mail](#blocklist_de_mail)|17428|17428|19|0.1%|0.0%|
 [voipbl](#voipbl)|10533|10945|14|0.1%|0.0%|
+[palevo](#palevo)|13|13|13|100.0%|0.0%|
 [blocklist_de_apache](#blocklist_de_apache)|15426|15426|13|0.0%|0.0%|
-[palevo](#palevo)|13|13|12|92.3%|0.0%|
 [blocklist_de_strongips](#blocklist_de_strongips)|180|180|10|5.5%|0.0%|
 [blocklist_de_imap](#blocklist_de_imap)|2383|2383|9|0.3%|0.0%|
 [php_dictionary](#php_dictionary)|702|702|6|0.8%|0.0%|
@@ -1483,7 +1483,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [ib_bluetack_level2](#ib_bluetack_level2)|72950|348710251|20|0.0%|3.9%|
 [dragon_http](#dragon_http)|1044|273664|4|0.0%|0.7%|
 [alienvault_reputation](#alienvault_reputation)|187115|187115|4|0.0%|0.7%|
-[firehol_level3](#firehol_level3)|110213|9627950|3|0.0%|0.5%|
+[firehol_level3](#firehol_level3)|110163|9627904|3|0.0%|0.5%|
 [spamhaus_drop](#spamhaus_drop)|653|18340608|1|0.0%|0.1%|
 [malwaredomainlist](#malwaredomainlist)|1288|1288|1|0.0%|0.1%|
 [ib_bluetack_webexploit](#ib_bluetack_webexploit)|1450|1450|1|0.0%|0.1%|
@@ -1509,7 +1509,7 @@ The following table shows the overlaps of `et_compromised` with all the other ip
 
 ipset|entries|unique IPs|IPs on both| them % | this % |
 :---:|:-----:|:--------:|:---------:|:------:|:------:|
-[firehol_level3](#firehol_level3)|110213|9627950|1709|0.0%|99.3%|
+[firehol_level3](#firehol_level3)|110163|9627904|1709|0.0%|99.3%|
 [bruteforceblocker](#bruteforceblocker)|1711|1711|1676|97.9%|97.3%|
 [alienvault_reputation](#alienvault_reputation)|187115|187115|1117|0.5%|64.9%|
 [openbl_60d](#openbl_60d)|7012|7012|1009|14.3%|58.6%|
@@ -1572,7 +1572,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [firehol_anonymous](#firehol_anonymous)|18923|82959|5985|7.2%|93.5%|
 [bm_tor](#bm_tor)|6552|6552|5965|91.0%|93.2%|
 [dm_tor](#dm_tor)|6533|6533|5949|91.0%|92.9%|
-[firehol_level3](#firehol_level3)|110213|9627950|1126|0.0%|17.5%|
+[firehol_level3](#firehol_level3)|110163|9627904|1126|0.0%|17.5%|
 [snort_ipfilter](#snort_ipfilter)|10158|10158|1089|10.7%|17.0%|
 [stopforumspam_30d](#stopforumspam_30d)|94424|94424|649|0.6%|10.1%|
 [ib_bluetack_level3](#ib_bluetack_level3)|17812|139104927|625|0.0%|9.7%|
@@ -1615,7 +1615,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 
 Source is downloaded from [this link](https://feodotracker.abuse.ch/blocklist/?download=ipblocklist).
 
-The last time downloaded was found to be dated: Wed Jun 10 20:27:10 UTC 2015.
+The last time downloaded was found to be dated: Wed Jun 10 21:00:12 UTC 2015.
 
 The ipset `feodo` has **105** entries, **105** unique IPs.
 
@@ -1629,7 +1629,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [firehol_level1](#firehol_level1)|5135|688894845|105|0.0%|100.0%|
 [et_block](#et_block)|1000|18344011|104|0.0%|99.0%|
 [snort_ipfilter](#snort_ipfilter)|10158|10158|83|0.8%|79.0%|
-[firehol_level3](#firehol_level3)|110213|9627950|83|0.0%|79.0%|
+[firehol_level3](#firehol_level3)|110163|9627904|83|0.0%|79.0%|
 [sslbl](#sslbl)|372|372|38|10.2%|36.1%|
 [ib_bluetack_level3](#ib_bluetack_level3)|17812|139104927|11|0.0%|10.4%|
 [ib_bluetack_level2](#ib_bluetack_level2)|72950|348710251|3|0.0%|2.8%|
@@ -1656,7 +1656,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 :---:|:-----:|:--------:|:---------:|:------:|:------:|
 [firehol_proxies](#firehol_proxies)|12407|12673|12673|100.0%|15.2%|
 [ri_web_proxies](#ri_web_proxies)|7593|7593|7593|100.0%|9.1%|
-[firehol_level3](#firehol_level3)|110213|9627950|6620|0.0%|7.9%|
+[firehol_level3](#firehol_level3)|110163|9627904|6620|0.0%|7.9%|
 [bm_tor](#bm_tor)|6552|6552|6552|100.0%|7.8%|
 [dm_tor](#dm_tor)|6533|6533|6533|100.0%|7.8%|
 [stopforumspam_30d](#stopforumspam_30d)|94424|94424|6083|6.4%|7.3%|
@@ -1729,16 +1729,16 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [fullbogons](#fullbogons)|3770|670213096|670213096|100.0%|97.2%|
 [bogons](#bogons)|13|592708608|592708608|100.0%|86.0%|
 [spamhaus_drop](#spamhaus_drop)|653|18340608|18340608|100.0%|2.6%|
-[et_block](#et_block)|1000|18344011|18340425|99.9%|2.6%|
-[ib_bluetack_level2](#ib_bluetack_level2)|72950|348710251|8867460|2.5%|1.2%|
-[firehol_level3](#firehol_level3)|110213|9627950|7500204|77.9%|1.0%|
+[et_block](#et_block)|1000|18344011|18340426|99.9%|2.6%|
+[ib_bluetack_level2](#ib_bluetack_level2)|72950|348710251|8867461|2.5%|1.2%|
+[firehol_level3](#firehol_level3)|110163|9627904|7500204|77.9%|1.0%|
 [ib_bluetack_hijacked](#ib_bluetack_hijacked)|535|9177856|7498240|81.6%|1.0%|
 [ib_bluetack_level3](#ib_bluetack_level3)|17812|139104927|4637346|3.3%|0.6%|
 [ib_bluetack_level1](#ib_bluetack_level1)|218307|764993634|2570274|0.3%|0.3%|
 [spamhaus_edrop](#spamhaus_edrop)|56|487424|487424|100.0%|0.0%|
 [dshield](#dshield)|20|5120|5120|100.0%|0.0%|
 [alienvault_reputation](#alienvault_reputation)|187115|187115|4589|2.4%|0.0%|
-[ib_bluetack_spyware](#ib_bluetack_spyware)|3267|339173|1931|0.5%|0.0%|
+[ib_bluetack_spyware](#ib_bluetack_spyware)|3267|339173|1932|0.5%|0.0%|
 [dragon_http](#dragon_http)|1044|273664|1537|0.5%|0.0%|
 [stopforumspam_30d](#stopforumspam_30d)|94424|94424|1102|1.1%|0.0%|
 [sslbl](#sslbl)|372|372|372|100.0%|0.0%|
@@ -1811,7 +1811,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [blocklist_de](#blocklist_de)|29645|29645|29645|100.0%|84.4%|
 [blocklist_de_mail](#blocklist_de_mail)|17428|17428|17428|100.0%|49.6%|
 [blocklist_de_apache](#blocklist_de_apache)|15426|15426|15424|99.9%|43.9%|
-[firehol_level3](#firehol_level3)|110213|9627950|8601|0.0%|24.5%|
+[firehol_level3](#firehol_level3)|110163|9627904|8601|0.0%|24.5%|
 [stopforumspam_30d](#stopforumspam_30d)|94424|94424|7310|7.7%|20.8%|
 [stopforumspam_1d](#stopforumspam_1d)|6808|6808|6808|100.0%|19.3%|
 [stopforumspam_7d](#stopforumspam_7d)|29338|29338|5157|17.5%|14.6%|
@@ -1879,7 +1879,7 @@ Source is downloaded from [this link]().
 
 The last time downloaded was found to be dated: Sun Jun  7 22:20:34 UTC 2015.
 
-The ipset `firehol_level3` has **110213** entries, **9627950** unique IPs.
+The ipset `firehol_level3` has **110163** entries, **9627904** unique IPs.
 
 The following table shows the overlaps of `firehol_level3` with all the other ipsets supported. Only the ipsets that have at least 1 IP overlap are shown. if an ipset is not shown here, it does not have any overlap with `firehol_level3`.
 
@@ -1892,11 +1892,11 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [firehol_level1](#firehol_level1)|5135|688894845|7500204|1.0%|77.9%|
 [et_block](#et_block)|1000|18344011|6933378|37.7%|72.0%|
 [spamhaus_drop](#spamhaus_drop)|653|18340608|6933037|37.8%|72.0%|
-[ib_bluetack_level2](#ib_bluetack_level2)|72950|348710251|2537317|0.7%|26.3%|
-[ib_bluetack_level1](#ib_bluetack_level1)|218307|764993634|919965|0.1%|9.5%|
+[ib_bluetack_level2](#ib_bluetack_level2)|72950|348710251|2537316|0.7%|26.3%|
+[ib_bluetack_level1](#ib_bluetack_level1)|218307|764993634|919963|0.1%|9.5%|
 [fullbogons](#fullbogons)|3770|670213096|566693|0.0%|5.8%|
 [ib_bluetack_spyware](#ib_bluetack_spyware)|3267|339173|339173|100.0%|3.5%|
-[ib_bluetack_level3](#ib_bluetack_level3)|17812|139104927|161595|0.1%|1.6%|
+[ib_bluetack_level3](#ib_bluetack_level3)|17812|139104927|161585|0.1%|1.6%|
 [stopforumspam_30d](#stopforumspam_30d)|94424|94424|94424|100.0%|0.9%|
 [stopforumspam_7d](#stopforumspam_7d)|29338|29338|29338|100.0%|0.3%|
 [snort_ipfilter](#snort_ipfilter)|10158|10158|10158|100.0%|0.1%|
@@ -1904,7 +1904,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [firehol_anonymous](#firehol_anonymous)|18923|82959|6620|7.9%|0.0%|
 [stopforumspam_1d](#stopforumspam_1d)|6808|6808|5918|86.9%|0.0%|
 [firehol_proxies](#firehol_proxies)|12407|12673|5559|43.8%|0.0%|
-[alienvault_reputation](#alienvault_reputation)|187115|187115|5166|2.7%|0.0%|
+[alienvault_reputation](#alienvault_reputation)|187115|187115|5169|2.7%|0.0%|
 [blocklist_de](#blocklist_de)|29645|29645|3963|13.3%|0.0%|
 [ri_web_proxies](#ri_web_proxies)|7593|7593|3649|48.0%|0.0%|
 [openbl_60d](#openbl_60d)|7012|7012|2966|42.2%|0.0%|
@@ -1942,11 +1942,11 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [zeus_badips](#zeus_badips)|202|202|180|89.1%|0.0%|
 [blocklist_de_strongips](#blocklist_de_strongips)|180|180|163|90.5%|0.0%|
 [openbl_1d](#openbl_1d)|158|158|158|100.0%|0.0%|
-[cleanmx_viruses](#cleanmx_viruses)|123|123|123|100.0%|0.0%|
 [blocklist_de_bruteforce](#blocklist_de_bruteforce)|4071|4071|121|2.9%|0.0%|
 [sslbl](#sslbl)|372|372|93|25.0%|0.0%|
 [spamhaus_edrop](#spamhaus_edrop)|56|487424|88|0.0%|0.0%|
 [feodo](#feodo)|105|105|83|79.0%|0.0%|
+[cleanmx_viruses](#cleanmx_viruses)|65|65|65|100.0%|0.0%|
 [voipbl](#voipbl)|10533|10945|57|0.5%|0.0%|
 [sorbs_web](#sorbs_web)|411|412|56|13.5%|0.0%|
 [dshield](#dshield)|20|5120|49|0.9%|0.0%|
@@ -1979,7 +1979,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 :---:|:-----:|:--------:|:---------:|:------:|:------:|
 [firehol_anonymous](#firehol_anonymous)|18923|82959|12673|15.2%|100.0%|
 [ri_web_proxies](#ri_web_proxies)|7593|7593|7593|100.0%|59.9%|
-[firehol_level3](#firehol_level3)|110213|9627950|5559|0.0%|43.8%|
+[firehol_level3](#firehol_level3)|110163|9627904|5559|0.0%|43.8%|
 [stopforumspam_30d](#stopforumspam_30d)|94424|94424|5499|5.8%|43.3%|
 [ri_connect_proxies](#ri_connect_proxies)|2737|2737|2737|100.0%|21.5%|
 [stopforumspam_7d](#stopforumspam_7d)|29338|29338|2427|8.2%|19.1%|
@@ -2050,7 +2050,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [firehol_level1](#firehol_level1)|5135|688894845|670213096|97.2%|100.0%|
 [bogons](#bogons)|13|592708608|592708608|100.0%|88.4%|
 [ib_bluetack_level3](#ib_bluetack_level3)|17812|139104927|4236143|3.0%|0.6%|
-[firehol_level3](#firehol_level3)|110213|9627950|566693|5.8%|0.0%|
+[firehol_level3](#firehol_level3)|110163|9627904|566693|5.8%|0.0%|
 [ib_bluetack_hijacked](#ib_bluetack_hijacked)|535|9177856|565760|6.1%|0.0%|
 [ib_bluetack_level1](#ib_bluetack_level1)|218307|764993634|264841|0.0%|0.0%|
 [ib_bluetack_level2](#ib_bluetack_level2)|72950|348710251|252415|0.0%|0.0%|
@@ -2089,7 +2089,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [ib_bluetack_level3](#ib_bluetack_level3)|17812|139104927|1172|0.0%|2.4%|
 [ib_bluetack_level1](#ib_bluetack_level1)|218307|764993634|394|0.0%|0.8%|
 [ib_bluetack_level2](#ib_bluetack_level2)|72950|348710251|226|0.0%|0.4%|
-[firehol_level3](#firehol_level3)|110213|9627950|24|0.0%|0.0%|
+[firehol_level3](#firehol_level3)|110163|9627904|24|0.0%|0.0%|
 [dragon_http](#dragon_http)|1044|273664|24|0.0%|0.0%|
 [firehol_level1](#firehol_level1)|5135|688894845|18|0.0%|0.0%|
 [stopforumspam_30d](#stopforumspam_30d)|94424|94424|16|0.0%|0.0%|
@@ -2144,7 +2144,7 @@ The following table shows the overlaps of `ib_bluetack_hijacked` with all the ot
 
 ipset|entries|unique IPs|IPs on both| them % | this % |
 :---:|:-----:|:--------:|:---------:|:------:|:------:|
-[firehol_level3](#firehol_level3)|110213|9627950|9177856|95.3%|100.0%|
+[firehol_level3](#firehol_level3)|110163|9627904|9177856|95.3%|100.0%|
 [firehol_level1](#firehol_level1)|5135|688894845|7498240|1.0%|81.6%|
 [spamhaus_drop](#spamhaus_drop)|653|18340608|6932480|37.7%|75.5%|
 [et_block](#et_block)|1000|18344011|6932480|37.7%|75.5%|
@@ -2218,7 +2218,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [et_block](#et_block)|1000|18344011|2272548|12.3%|0.2%|
 [spamhaus_drop](#spamhaus_drop)|653|18340608|2272265|12.3%|0.2%|
 [ib_bluetack_level3](#ib_bluetack_level3)|17812|139104927|1354507|0.9%|0.1%|
-[firehol_level3](#firehol_level3)|110213|9627950|919965|9.5%|0.1%|
+[firehol_level3](#firehol_level3)|110163|9627904|919963|9.5%|0.1%|
 [ib_bluetack_hijacked](#ib_bluetack_hijacked)|535|9177856|904796|9.8%|0.1%|
 [fullbogons](#fullbogons)|3770|670213096|264841|0.0%|0.0%|
 [spamhaus_edrop](#spamhaus_edrop)|56|487424|33155|6.8%|0.0%|
@@ -2278,9 +2278,9 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [zeus_badips](#zeus_badips)|202|202|4|1.9%|0.0%|
 [sslbl](#sslbl)|372|372|3|0.8%|0.0%|
 [feodo](#feodo)|105|105|3|2.8%|0.0%|
-[cleanmx_viruses](#cleanmx_viruses)|123|123|3|2.4%|0.0%|
 [virbl](#virbl)|29|29|2|6.8%|0.0%|
 [openbl_1d](#openbl_1d)|158|158|2|1.2%|0.0%|
+[cleanmx_viruses](#cleanmx_viruses)|65|65|1|1.5%|0.0%|
 
 ## ib_bluetack_level2
 
@@ -2300,11 +2300,11 @@ The following table shows the overlaps of `ib_bluetack_level2` with all the othe
 ipset|entries|unique IPs|IPs on both| them % | this % |
 :---:|:-----:|:--------:|:---------:|:------:|:------:|
 [ib_bluetack_level1](#ib_bluetack_level1)|218307|764993634|16302420|2.1%|4.6%|
-[firehol_level1](#firehol_level1)|5135|688894845|8867460|1.2%|2.5%|
+[firehol_level1](#firehol_level1)|5135|688894845|8867461|1.2%|2.5%|
 [et_block](#et_block)|1000|18344011|8532520|46.5%|2.4%|
 [spamhaus_drop](#spamhaus_drop)|653|18340608|8532506|46.5%|2.4%|
 [ib_bluetack_level3](#ib_bluetack_level3)|17812|139104927|2830203|2.0%|0.8%|
-[firehol_level3](#firehol_level3)|110213|9627950|2537317|26.3%|0.7%|
+[firehol_level3](#firehol_level3)|110163|9627904|2537316|26.3%|0.7%|
 [ib_bluetack_hijacked](#ib_bluetack_hijacked)|535|9177856|2526625|27.5%|0.7%|
 [fullbogons](#fullbogons)|3770|670213096|252415|0.0%|0.0%|
 [spamhaus_edrop](#spamhaus_edrop)|56|487424|98904|20.2%|0.0%|
@@ -2364,10 +2364,10 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [blocklist_de_sip](#blocklist_de_sip)|78|78|7|8.9%|0.0%|
 [sslbl](#sslbl)|372|372|6|1.6%|0.0%|
 [openbl_1d](#openbl_1d)|158|158|6|3.7%|0.0%|
+[palevo](#palevo)|13|13|3|23.0%|0.0%|
 [feodo](#feodo)|105|105|3|2.8%|0.0%|
 [virbl](#virbl)|29|29|2|6.8%|0.0%|
-[palevo](#palevo)|13|13|2|15.3%|0.0%|
-[cleanmx_viruses](#cleanmx_viruses)|123|123|2|1.6%|0.0%|
+[cleanmx_viruses](#cleanmx_viruses)|65|65|1|1.5%|0.0%|
 
 ## ib_bluetack_level3
 
@@ -2392,7 +2392,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [ib_bluetack_level2](#ib_bluetack_level2)|72950|348710251|2830203|0.8%|2.0%|
 [ib_bluetack_level1](#ib_bluetack_level1)|218307|764993634|1354507|0.1%|0.9%|
 [spamhaus_edrop](#spamhaus_edrop)|56|487424|270785|55.5%|0.1%|
-[firehol_level3](#firehol_level3)|110213|9627950|161595|1.6%|0.1%|
+[firehol_level3](#firehol_level3)|110163|9627904|161585|1.6%|0.1%|
 [ib_bluetack_hijacked](#ib_bluetack_hijacked)|535|9177856|145472|1.5%|0.1%|
 [et_block](#et_block)|1000|18344011|130394|0.7%|0.0%|
 [spamhaus_drop](#spamhaus_drop)|653|18340608|130368|0.7%|0.0%|
@@ -2447,13 +2447,13 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [php_commenters](#php_commenters)|430|430|28|6.5%|0.0%|
 [php_harvesters](#php_harvesters)|378|378|20|5.2%|0.0%|
 [sorbs_web](#sorbs_web)|411|412|18|4.3%|0.0%|
-[cleanmx_viruses](#cleanmx_viruses)|123|123|16|13.0%|0.0%|
 [blocklist_de_strongips](#blocklist_de_strongips)|180|180|16|8.8%|0.0%|
 [zeus](#zeus)|230|230|14|6.0%|0.0%|
 [openbl_1d](#openbl_1d)|158|158|14|8.8%|0.0%|
 [feodo](#feodo)|105|105|11|10.4%|0.0%|
 [zeus_badips](#zeus_badips)|202|202|10|4.9%|0.0%|
 [blocklist_de_sip](#blocklist_de_sip)|78|78|10|12.8%|0.0%|
+[cleanmx_viruses](#cleanmx_viruses)|65|65|5|7.6%|0.0%|
 [virbl](#virbl)|29|29|4|13.7%|0.0%|
 [palevo](#palevo)|13|13|1|7.6%|0.0%|
 
@@ -2479,7 +2479,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [ib_bluetack_level1](#ib_bluetack_level1)|218307|764993634|56|0.0%|8.4%|
 [ib_bluetack_level3](#ib_bluetack_level3)|17812|139104927|51|0.0%|7.6%|
 [ib_bluetack_level2](#ib_bluetack_level2)|72950|348710251|26|0.0%|3.9%|
-[firehol_level3](#firehol_level3)|110213|9627950|24|0.0%|3.6%|
+[firehol_level3](#firehol_level3)|110163|9627904|24|0.0%|3.6%|
 [stopforumspam_30d](#stopforumspam_30d)|94424|94424|19|0.0%|2.8%|
 [ri_web_proxies](#ri_web_proxies)|7593|7593|14|0.1%|2.1%|
 [xroxy](#xroxy)|2159|2159|13|0.6%|1.9%|
@@ -2524,11 +2524,11 @@ The following table shows the overlaps of `ib_bluetack_spyware` with all the oth
 
 ipset|entries|unique IPs|IPs on both| them % | this % |
 :---:|:-----:|:--------:|:---------:|:------:|:------:|
-[firehol_level3](#firehol_level3)|110213|9627950|339173|3.5%|100.0%|
+[firehol_level3](#firehol_level3)|110163|9627904|339173|3.5%|100.0%|
 [ib_bluetack_level1](#ib_bluetack_level1)|218307|764993634|13247|0.0%|3.9%|
 [ib_bluetack_level3](#ib_bluetack_level3)|17812|139104927|9226|0.0%|2.7%|
 [ib_bluetack_level2](#ib_bluetack_level2)|72950|348710251|7728|0.0%|2.2%|
-[firehol_level1](#firehol_level1)|5135|688894845|1931|0.0%|0.5%|
+[firehol_level1](#firehol_level1)|5135|688894845|1932|0.0%|0.5%|
 [et_block](#et_block)|1000|18344011|1042|0.0%|0.3%|
 [spamhaus_drop](#spamhaus_drop)|653|18340608|1037|0.0%|0.3%|
 [ib_bluetack_hijacked](#ib_bluetack_hijacked)|535|9177856|1036|0.0%|0.3%|
@@ -2561,6 +2561,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [openbl_30d](#openbl_30d)|2835|2835|3|0.1%|0.0%|
 [malc0de](#malc0de)|313|313|3|0.9%|0.0%|
 [ib_bluetack_badpeers](#ib_bluetack_badpeers)|47940|47940|3|0.0%|0.0%|
+[palevo](#palevo)|13|13|2|15.3%|0.0%|
 [et_compromised](#et_compromised)|1721|1721|2|0.1%|0.0%|
 [bruteforceblocker](#bruteforceblocker)|1711|1711|2|0.1%|0.0%|
 [blocklist_de_sip](#blocklist_de_sip)|78|78|2|2.5%|0.0%|
@@ -2577,8 +2578,8 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [php_harvesters](#php_harvesters)|378|378|1|0.2%|0.0%|
 [php_dictionary](#php_dictionary)|702|702|1|0.1%|0.0%|
 [php_commenters](#php_commenters)|430|430|1|0.2%|0.0%|
-[palevo](#palevo)|13|13|1|7.6%|0.0%|
 [feodo](#feodo)|105|105|1|0.9%|0.0%|
+[cleanmx_viruses](#cleanmx_viruses)|65|65|1|1.5%|0.0%|
 [ciarmy](#ciarmy)|457|457|1|0.2%|0.0%|
 [bogons](#bogons)|13|592708608|1|0.0%|0.0%|
 [blocklist_de_ssh](#blocklist_de_ssh)|3530|3530|1|0.0%|0.0%|
@@ -2600,7 +2601,7 @@ The following table shows the overlaps of `ib_bluetack_webexploit` with all the 
 
 ipset|entries|unique IPs|IPs on both| them % | this % |
 :---:|:-----:|:--------:|:---------:|:------:|:------:|
-[firehol_level3](#firehol_level3)|110213|9627950|1450|0.0%|100.0%|
+[firehol_level3](#firehol_level3)|110163|9627904|1450|0.0%|100.0%|
 [ib_bluetack_level3](#ib_bluetack_level3)|17812|139104927|108|0.0%|7.4%|
 [ib_bluetack_level1](#ib_bluetack_level1)|218307|764993634|97|0.0%|6.6%|
 [ib_bluetack_level2](#ib_bluetack_level2)|72950|348710251|45|0.0%|3.1%|
@@ -2652,10 +2653,9 @@ The following table shows the overlaps of `malc0de` with all the other ipsets su
 
 ipset|entries|unique IPs|IPs on both| them % | this % |
 :---:|:-----:|:--------:|:---------:|:------:|:------:|
-[firehol_level3](#firehol_level3)|110213|9627950|313|0.0%|100.0%|
+[firehol_level3](#firehol_level3)|110163|9627904|313|0.0%|100.0%|
 [ib_bluetack_level3](#ib_bluetack_level3)|17812|139104927|45|0.0%|14.3%|
 [ib_bluetack_level2](#ib_bluetack_level2)|72950|348710251|16|0.0%|5.1%|
-[cleanmx_viruses](#cleanmx_viruses)|123|123|13|10.5%|4.1%|
 [ib_bluetack_level1](#ib_bluetack_level1)|218307|764993634|11|0.0%|3.5%|
 [alienvault_reputation](#alienvault_reputation)|187115|187115|10|0.0%|3.1%|
 [firehol_level1](#firehol_level1)|5135|688894845|7|0.0%|2.2%|
@@ -2669,6 +2669,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [sorbs_spam](#sorbs_spam)|59772|60402|1|0.0%|0.3%|
 [sorbs_recent_spam](#sorbs_recent_spam)|59772|60402|1|0.0%|0.3%|
 [sorbs_new_spam](#sorbs_new_spam)|59772|60402|1|0.0%|0.3%|
+[cleanmx_viruses](#cleanmx_viruses)|65|65|1|1.5%|0.3%|
 
 ## malwaredomainlist
 
@@ -2687,7 +2688,7 @@ The following table shows the overlaps of `malwaredomainlist` with all the other
 
 ipset|entries|unique IPs|IPs on both| them % | this % |
 :---:|:-----:|:--------:|:---------:|:------:|:------:|
-[firehol_level3](#firehol_level3)|110213|9627950|1288|0.0%|100.0%|
+[firehol_level3](#firehol_level3)|110163|9627904|1288|0.0%|100.0%|
 [ib_bluetack_level3](#ib_bluetack_level3)|17812|139104927|147|0.0%|11.4%|
 [ib_bluetack_level1](#ib_bluetack_level1)|218307|764993634|66|0.0%|5.1%|
 [firehol_level1](#firehol_level1)|5135|688894845|39|0.0%|3.0%|
@@ -2705,7 +2706,6 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [dragon_http](#dragon_http)|1044|273664|2|0.0%|0.1%|
 [zeus](#zeus)|230|230|1|0.4%|0.0%|
 [et_botcc](#et_botcc)|506|506|1|0.1%|0.0%|
-[cleanmx_viruses](#cleanmx_viruses)|123|123|1|0.8%|0.0%|
 
 ## maxmind_proxy_fraud
 
@@ -2726,7 +2726,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 :---:|:-----:|:--------:|:---------:|:------:|:------:|
 [firehol_proxies](#firehol_proxies)|12407|12673|524|4.1%|100.0%|
 [firehol_anonymous](#firehol_anonymous)|18923|82959|524|0.6%|100.0%|
-[firehol_level3](#firehol_level3)|110213|9627950|343|0.0%|65.4%|
+[firehol_level3](#firehol_level3)|110163|9627904|343|0.0%|65.4%|
 [stopforumspam_30d](#stopforumspam_30d)|94424|94424|342|0.3%|65.2%|
 [stopforumspam_7d](#stopforumspam_7d)|29338|29338|285|0.9%|54.3%|
 [snort_ipfilter](#snort_ipfilter)|10158|10158|239|2.3%|45.6%|
@@ -2792,7 +2792,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [firehol_level2](#firehol_level2)|23467|35096|877|2.4%|2.1%|
 [blocklist_de](#blocklist_de)|29645|29645|866|2.9%|2.1%|
 [blocklist_de_mail](#blocklist_de_mail)|17428|17428|796|4.5%|1.9%|
-[firehol_level3](#firehol_level3)|110213|9627950|669|0.0%|1.6%|
+[firehol_level3](#firehol_level3)|110163|9627904|669|0.0%|1.6%|
 [ib_bluetack_level1](#ib_bluetack_level1)|218307|764993634|582|0.0%|1.4%|
 [snort_ipfilter](#snort_ipfilter)|10158|10158|342|3.3%|0.8%|
 [stopforumspam_30d](#stopforumspam_30d)|94424|94424|223|0.2%|0.5%|
@@ -2863,7 +2863,7 @@ The following table shows the overlaps of `openbl_1d` with all the other ipsets 
 ipset|entries|unique IPs|IPs on both| them % | this % |
 :---:|:-----:|:--------:|:---------:|:------:|:------:|
 [openbl_60d](#openbl_60d)|7012|7012|158|2.2%|100.0%|
-[firehol_level3](#firehol_level3)|110213|9627950|158|0.0%|100.0%|
+[firehol_level3](#firehol_level3)|110163|9627904|158|0.0%|100.0%|
 [firehol_level2](#firehol_level2)|23467|35096|158|0.4%|100.0%|
 [openbl_30d](#openbl_30d)|2835|2835|157|5.5%|99.3%|
 [openbl_7d](#openbl_7d)|679|679|156|22.9%|98.7%|
@@ -2910,7 +2910,7 @@ The following table shows the overlaps of `openbl_30d` with all the other ipsets
 ipset|entries|unique IPs|IPs on both| them % | this % |
 :---:|:-----:|:--------:|:---------:|:------:|:------:|
 [openbl_60d](#openbl_60d)|7012|7012|2835|40.4%|100.0%|
-[firehol_level3](#firehol_level3)|110213|9627950|2835|0.0%|100.0%|
+[firehol_level3](#firehol_level3)|110163|9627904|2835|0.0%|100.0%|
 [alienvault_reputation](#alienvault_reputation)|187115|187115|2817|1.5%|99.3%|
 [et_compromised](#et_compromised)|1721|1721|941|54.6%|33.1%|
 [bruteforceblocker](#bruteforceblocker)|1711|1711|917|53.5%|32.3%|
@@ -2969,7 +2969,7 @@ The following table shows the overlaps of `openbl_60d` with all the other ipsets
 ipset|entries|unique IPs|IPs on both| them % | this % |
 :---:|:-----:|:--------:|:---------:|:------:|:------:|
 [alienvault_reputation](#alienvault_reputation)|187115|187115|6989|3.7%|99.6%|
-[firehol_level3](#firehol_level3)|110213|9627950|2966|0.0%|42.2%|
+[firehol_level3](#firehol_level3)|110163|9627904|2966|0.0%|42.2%|
 [openbl_30d](#openbl_30d)|2835|2835|2835|100.0%|40.4%|
 [firehol_level2](#firehol_level2)|23467|35096|1017|2.8%|14.5%|
 [et_compromised](#et_compromised)|1721|1721|1009|58.6%|14.3%|
@@ -3038,7 +3038,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 :---:|:-----:|:--------:|:---------:|:------:|:------:|
 [openbl_60d](#openbl_60d)|7012|7012|679|9.6%|100.0%|
 [openbl_30d](#openbl_30d)|2835|2835|679|23.9%|100.0%|
-[firehol_level3](#firehol_level3)|110213|9627950|679|0.0%|100.0%|
+[firehol_level3](#firehol_level3)|110163|9627904|679|0.0%|100.0%|
 [alienvault_reputation](#alienvault_reputation)|187115|187115|673|0.3%|99.1%|
 [firehol_level2](#firehol_level2)|23467|35096|425|1.2%|62.5%|
 [blocklist_de](#blocklist_de)|29645|29645|391|1.3%|57.5%|
@@ -3076,7 +3076,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 
 Source is downloaded from [this link](https://palevotracker.abuse.ch/blocklists.php?download=ipblocklist).
 
-The last time downloaded was found to be dated: Wed Jun 10 20:27:08 UTC 2015.
+The last time downloaded was found to be dated: Wed Jun 10 21:00:08 UTC 2015.
 
 The ipset `palevo` has **13** entries, **13** unique IPs.
 
@@ -3088,11 +3088,11 @@ The following table shows the overlaps of `palevo` with all the other ipsets sup
 ipset|entries|unique IPs|IPs on both| them % | this % |
 :---:|:-----:|:--------:|:---------:|:------:|:------:|
 [firehol_level1](#firehol_level1)|5135|688894845|13|0.0%|100.0%|
-[et_block](#et_block)|1000|18344011|12|0.0%|92.3%|
+[et_block](#et_block)|1000|18344011|13|0.0%|100.0%|
 [snort_ipfilter](#snort_ipfilter)|10158|10158|11|0.1%|84.6%|
-[firehol_level3](#firehol_level3)|110213|9627950|11|0.0%|84.6%|
-[ib_bluetack_level2](#ib_bluetack_level2)|72950|348710251|2|0.0%|15.3%|
-[ib_bluetack_spyware](#ib_bluetack_spyware)|3267|339173|1|0.0%|7.6%|
+[firehol_level3](#firehol_level3)|110163|9627904|11|0.0%|84.6%|
+[ib_bluetack_level2](#ib_bluetack_level2)|72950|348710251|3|0.0%|23.0%|
+[ib_bluetack_spyware](#ib_bluetack_spyware)|3267|339173|2|0.0%|15.3%|
 [ib_bluetack_level3](#ib_bluetack_level3)|17812|139104927|1|0.0%|7.6%|
 
 ## php_commenters
@@ -3112,7 +3112,7 @@ The following table shows the overlaps of `php_commenters` with all the other ip
 
 ipset|entries|unique IPs|IPs on both| them % | this % |
 :---:|:-----:|:--------:|:---------:|:------:|:------:|
-[firehol_level3](#firehol_level3)|110213|9627950|430|0.0%|100.0%|
+[firehol_level3](#firehol_level3)|110163|9627904|430|0.0%|100.0%|
 [stopforumspam_30d](#stopforumspam_30d)|94424|94424|318|0.3%|73.9%|
 [stopforumspam_7d](#stopforumspam_7d)|29338|29338|237|0.8%|55.1%|
 [firehol_level2](#firehol_level2)|23467|35096|197|0.5%|45.8%|
@@ -3183,7 +3183,7 @@ The following table shows the overlaps of `php_dictionary` with all the other ip
 
 ipset|entries|unique IPs|IPs on both| them % | this % |
 :---:|:-----:|:--------:|:---------:|:------:|:------:|
-[firehol_level3](#firehol_level3)|110213|9627950|702|0.0%|100.0%|
+[firehol_level3](#firehol_level3)|110163|9627904|702|0.0%|100.0%|
 [php_spammers](#php_spammers)|700|700|296|42.2%|42.1%|
 [sorbs_spam](#sorbs_spam)|59772|60402|186|0.3%|26.4%|
 [sorbs_recent_spam](#sorbs_recent_spam)|59772|60402|186|0.3%|26.4%|
@@ -3244,7 +3244,7 @@ The following table shows the overlaps of `php_harvesters` with all the other ip
 
 ipset|entries|unique IPs|IPs on both| them % | this % |
 :---:|:-----:|:--------:|:---------:|:------:|:------:|
-[firehol_level3](#firehol_level3)|110213|9627950|378|0.0%|100.0%|
+[firehol_level3](#firehol_level3)|110163|9627904|378|0.0%|100.0%|
 [stopforumspam_30d](#stopforumspam_30d)|94424|94424|83|0.0%|21.9%|
 [stopforumspam_7d](#stopforumspam_7d)|29338|29338|60|0.2%|15.8%|
 [firehol_level2](#firehol_level2)|23467|35096|60|0.1%|15.8%|
@@ -3306,7 +3306,7 @@ The following table shows the overlaps of `php_spammers` with all the other ipse
 
 ipset|entries|unique IPs|IPs on both| them % | this % |
 :---:|:-----:|:--------:|:---------:|:------:|:------:|
-[firehol_level3](#firehol_level3)|110213|9627950|700|0.0%|100.0%|
+[firehol_level3](#firehol_level3)|110163|9627904|700|0.0%|100.0%|
 [php_dictionary](#php_dictionary)|702|702|296|42.1%|42.2%|
 [sorbs_spam](#sorbs_spam)|59772|60402|157|0.2%|22.4%|
 [sorbs_recent_spam](#sorbs_recent_spam)|59772|60402|157|0.2%|22.4%|
@@ -3374,7 +3374,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [firehol_proxies](#firehol_proxies)|12407|12673|1669|13.1%|100.0%|
 [firehol_anonymous](#firehol_anonymous)|18923|82959|1669|2.0%|100.0%|
 [stopforumspam_30d](#stopforumspam_30d)|94424|94424|697|0.7%|41.7%|
-[firehol_level3](#firehol_level3)|110213|9627950|697|0.0%|41.7%|
+[firehol_level3](#firehol_level3)|110163|9627904|697|0.0%|41.7%|
 [ri_web_proxies](#ri_web_proxies)|7593|7593|605|7.9%|36.2%|
 [stopforumspam_7d](#stopforumspam_7d)|29338|29338|498|1.6%|29.8%|
 [firehol_level2](#firehol_level2)|23467|35096|428|1.2%|25.6%|
@@ -3425,7 +3425,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 :---:|:-----:|:--------:|:---------:|:------:|:------:|
 [firehol_proxies](#firehol_proxies)|12407|12673|1236|9.7%|100.0%|
 [firehol_anonymous](#firehol_anonymous)|18923|82959|1236|1.4%|100.0%|
-[firehol_level3](#firehol_level3)|110213|9627950|736|0.0%|59.5%|
+[firehol_level3](#firehol_level3)|110163|9627904|736|0.0%|59.5%|
 [stopforumspam_30d](#stopforumspam_30d)|94424|94424|730|0.7%|59.0%|
 [ri_web_proxies](#ri_web_proxies)|7593|7593|569|7.4%|46.0%|
 [stopforumspam_7d](#stopforumspam_7d)|29338|29338|494|1.6%|39.9%|
@@ -3479,7 +3479,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [firehol_proxies](#firehol_proxies)|12407|12673|2737|21.5%|100.0%|
 [firehol_anonymous](#firehol_anonymous)|18923|82959|2737|3.2%|100.0%|
 [stopforumspam_30d](#stopforumspam_30d)|94424|94424|1544|1.6%|56.4%|
-[firehol_level3](#firehol_level3)|110213|9627950|1544|0.0%|56.4%|
+[firehol_level3](#firehol_level3)|110163|9627904|1544|0.0%|56.4%|
 [ri_web_proxies](#ri_web_proxies)|7593|7593|1166|15.3%|42.6%|
 [stopforumspam_7d](#stopforumspam_7d)|29338|29338|590|2.0%|21.5%|
 [xroxy](#xroxy)|2159|2159|391|18.1%|14.2%|
@@ -3529,7 +3529,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 :---:|:-----:|:--------:|:---------:|:------:|:------:|
 [firehol_proxies](#firehol_proxies)|12407|12673|7593|59.9%|100.0%|
 [firehol_anonymous](#firehol_anonymous)|18923|82959|7593|9.1%|100.0%|
-[firehol_level3](#firehol_level3)|110213|9627950|3649|0.0%|48.0%|
+[firehol_level3](#firehol_level3)|110163|9627904|3649|0.0%|48.0%|
 [stopforumspam_30d](#stopforumspam_30d)|94424|94424|3606|3.8%|47.4%|
 [stopforumspam_7d](#stopforumspam_7d)|29338|29338|1545|5.2%|20.3%|
 [ri_connect_proxies](#ri_connect_proxies)|2737|2737|1166|42.6%|15.3%|
@@ -3590,7 +3590,7 @@ The following table shows the overlaps of `shunlist` with all the other ipsets s
 
 ipset|entries|unique IPs|IPs on both| them % | this % |
 :---:|:-----:|:--------:|:---------:|:------:|:------:|
-[firehol_level3](#firehol_level3)|110213|9627950|1225|0.0%|100.0%|
+[firehol_level3](#firehol_level3)|110163|9627904|1225|0.0%|100.0%|
 [alienvault_reputation](#alienvault_reputation)|187115|187115|1213|0.6%|99.0%|
 [openbl_60d](#openbl_60d)|7012|7012|528|7.5%|43.1%|
 [openbl_30d](#openbl_30d)|2835|2835|499|17.6%|40.7%|
@@ -3651,7 +3651,7 @@ The following table shows the overlaps of `snort_ipfilter` with all the other ip
 
 ipset|entries|unique IPs|IPs on both| them % | this % |
 :---:|:-----:|:--------:|:---------:|:------:|:------:|
-[firehol_level3](#firehol_level3)|110213|9627950|10158|0.1%|100.0%|
+[firehol_level3](#firehol_level3)|110163|9627904|10158|0.1%|100.0%|
 [firehol_anonymous](#firehol_anonymous)|18923|82959|1173|1.4%|11.5%|
 [et_tor](#et_tor)|6400|6400|1089|17.0%|10.7%|
 [bm_tor](#bm_tor)|6552|6552|1079|16.4%|10.6%|
@@ -3702,7 +3702,6 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [ri_connect_proxies](#ri_connect_proxies)|2737|2737|4|0.1%|0.0%|
 [openbl_30d](#openbl_30d)|2835|2835|3|0.1%|0.0%|
 [shunlist](#shunlist)|1225|1225|2|0.1%|0.0%|
-[cleanmx_viruses](#cleanmx_viruses)|123|123|2|1.6%|0.0%|
 [blocklist_de_strongips](#blocklist_de_strongips)|180|180|2|1.1%|0.0%|
 [voipbl](#voipbl)|10533|10945|1|0.0%|0.0%|
 [virbl](#virbl)|29|29|1|3.4%|0.0%|
@@ -3713,6 +3712,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [ib_bluetack_badpeers](#ib_bluetack_badpeers)|47940|47940|1|0.0%|0.0%|
 [et_compromised](#et_compromised)|1721|1721|1|0.0%|0.0%|
 [dshield](#dshield)|20|5120|1|0.0%|0.0%|
+[cleanmx_viruses](#cleanmx_viruses)|65|65|1|1.5%|0.0%|
 [bruteforceblocker](#bruteforceblocker)|1711|1711|1|0.0%|0.0%|
 
 ## sorbs_dul
@@ -3803,7 +3803,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [nixspam](#nixspam)|39994|39994|10592|26.4%|17.5%|
 [ib_bluetack_level3](#ib_bluetack_level3)|17812|139104927|2477|0.0%|4.1%|
 [ib_bluetack_level2](#ib_bluetack_level2)|72950|348710251|1617|0.0%|2.6%|
-[firehol_level3](#firehol_level3)|110213|9627950|1388|0.0%|2.2%|
+[firehol_level3](#firehol_level3)|110163|9627904|1388|0.0%|2.2%|
 [firehol_level2](#firehol_level2)|23467|35096|1314|3.7%|2.1%|
 [blocklist_de](#blocklist_de)|29645|29645|1301|4.3%|2.1%|
 [blocklist_de_mail](#blocklist_de_mail)|17428|17428|1202|6.8%|1.9%|
@@ -3879,7 +3879,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [nixspam](#nixspam)|39994|39994|10592|26.4%|17.5%|
 [ib_bluetack_level3](#ib_bluetack_level3)|17812|139104927|2477|0.0%|4.1%|
 [ib_bluetack_level2](#ib_bluetack_level2)|72950|348710251|1617|0.0%|2.6%|
-[firehol_level3](#firehol_level3)|110213|9627950|1388|0.0%|2.2%|
+[firehol_level3](#firehol_level3)|110163|9627904|1388|0.0%|2.2%|
 [firehol_level2](#firehol_level2)|23467|35096|1314|3.7%|2.1%|
 [blocklist_de](#blocklist_de)|29645|29645|1301|4.3%|2.1%|
 [blocklist_de_mail](#blocklist_de_mail)|17428|17428|1202|6.8%|1.9%|
@@ -4000,7 +4000,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [nixspam](#nixspam)|39994|39994|10592|26.4%|17.5%|
 [ib_bluetack_level3](#ib_bluetack_level3)|17812|139104927|2477|0.0%|4.1%|
 [ib_bluetack_level2](#ib_bluetack_level2)|72950|348710251|1617|0.0%|2.6%|
-[firehol_level3](#firehol_level3)|110213|9627950|1388|0.0%|2.2%|
+[firehol_level3](#firehol_level3)|110163|9627904|1388|0.0%|2.2%|
 [firehol_level2](#firehol_level2)|23467|35096|1314|3.7%|2.1%|
 [blocklist_de](#blocklist_de)|29645|29645|1301|4.3%|2.1%|
 [blocklist_de_mail](#blocklist_de_mail)|17428|17428|1202|6.8%|1.9%|
@@ -4075,7 +4075,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [sorbs_recent_spam](#sorbs_recent_spam)|59772|60402|232|0.3%|56.3%|
 [sorbs_new_spam](#sorbs_new_spam)|59772|60402|232|0.3%|56.3%|
 [nixspam](#nixspam)|39994|39994|124|0.3%|30.0%|
-[firehol_level3](#firehol_level3)|110213|9627950|56|0.0%|13.5%|
+[firehol_level3](#firehol_level3)|110163|9627904|56|0.0%|13.5%|
 [firehol_level2](#firehol_level2)|23467|35096|54|0.1%|13.1%|
 [blocklist_de](#blocklist_de)|29645|29645|54|0.1%|13.1%|
 [blocklist_de_mail](#blocklist_de_mail)|17428|17428|51|0.2%|12.3%|
@@ -4119,7 +4119,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [firehol_level1](#firehol_level1)|5135|688894845|18340608|2.6%|100.0%|
 [et_block](#et_block)|1000|18344011|18338560|99.9%|99.9%|
 [ib_bluetack_level2](#ib_bluetack_level2)|72950|348710251|8532506|2.4%|46.5%|
-[firehol_level3](#firehol_level3)|110213|9627950|6933037|72.0%|37.8%|
+[firehol_level3](#firehol_level3)|110163|9627904|6933037|72.0%|37.8%|
 [ib_bluetack_hijacked](#ib_bluetack_hijacked)|535|9177856|6932480|75.5%|37.7%|
 [ib_bluetack_level1](#ib_bluetack_level1)|218307|764993634|2272265|0.2%|12.3%|
 [fullbogons](#fullbogons)|3770|670213096|151552|0.0%|0.8%|
@@ -4197,7 +4197,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [ib_bluetack_level1](#ib_bluetack_level1)|218307|764993634|33155|0.0%|6.8%|
 [et_block](#et_block)|1000|18344011|517|0.0%|0.1%|
 [spamhaus_drop](#spamhaus_drop)|653|18340608|512|0.0%|0.1%|
-[firehol_level3](#firehol_level3)|110213|9627950|88|0.0%|0.0%|
+[firehol_level3](#firehol_level3)|110163|9627904|88|0.0%|0.0%|
 [stopforumspam_30d](#stopforumspam_30d)|94424|94424|78|0.0%|0.0%|
 [sorbs_spam](#sorbs_spam)|59772|60402|20|0.0%|0.0%|
 [sorbs_recent_spam](#sorbs_recent_spam)|59772|60402|20|0.0%|0.0%|
@@ -4238,7 +4238,7 @@ The following table shows the overlaps of `sslbl` with all the other ipsets supp
 ipset|entries|unique IPs|IPs on both| them % | this % |
 :---:|:-----:|:--------:|:---------:|:------:|:------:|
 [firehol_level1](#firehol_level1)|5135|688894845|372|0.0%|100.0%|
-[firehol_level3](#firehol_level3)|110213|9627950|93|0.0%|25.0%|
+[firehol_level3](#firehol_level3)|110163|9627904|93|0.0%|25.0%|
 [alienvault_reputation](#alienvault_reputation)|187115|187115|66|0.0%|17.7%|
 [shunlist](#shunlist)|1225|1225|61|4.9%|16.3%|
 [feodo](#feodo)|105|105|38|36.1%|10.2%|
@@ -4272,7 +4272,7 @@ The following table shows the overlaps of `stopforumspam_1d` with all the other 
 ipset|entries|unique IPs|IPs on both| them % | this % |
 :---:|:-----:|:--------:|:---------:|:------:|:------:|
 [firehol_level2](#firehol_level2)|23467|35096|6808|19.3%|100.0%|
-[firehol_level3](#firehol_level3)|110213|9627950|5918|0.0%|86.9%|
+[firehol_level3](#firehol_level3)|110163|9627904|5918|0.0%|86.9%|
 [stopforumspam_30d](#stopforumspam_30d)|94424|94424|5903|6.2%|86.7%|
 [stopforumspam_7d](#stopforumspam_7d)|29338|29338|4111|14.0%|60.3%|
 [blocklist_de](#blocklist_de)|29645|29645|1391|4.6%|20.4%|
@@ -4344,7 +4344,7 @@ The following table shows the overlaps of `stopforumspam_30d` with all the other
 
 ipset|entries|unique IPs|IPs on both| them % | this % |
 :---:|:-----:|:--------:|:---------:|:------:|:------:|
-[firehol_level3](#firehol_level3)|110213|9627950|94424|0.9%|100.0%|
+[firehol_level3](#firehol_level3)|110163|9627904|94424|0.9%|100.0%|
 [stopforumspam_7d](#stopforumspam_7d)|29338|29338|29338|100.0%|31.0%|
 [firehol_level2](#firehol_level2)|23467|35096|7310|20.8%|7.7%|
 [firehol_anonymous](#firehol_anonymous)|18923|82959|6083|7.3%|6.4%|
@@ -4426,7 +4426,7 @@ The following table shows the overlaps of `stopforumspam_7d` with all the other 
 ipset|entries|unique IPs|IPs on both| them % | this % |
 :---:|:-----:|:--------:|:---------:|:------:|:------:|
 [stopforumspam_30d](#stopforumspam_30d)|94424|94424|29338|31.0%|100.0%|
-[firehol_level3](#firehol_level3)|110213|9627950|29338|0.3%|100.0%|
+[firehol_level3](#firehol_level3)|110163|9627904|29338|0.3%|100.0%|
 [firehol_level2](#firehol_level2)|23467|35096|5157|14.6%|17.5%|
 [stopforumspam_1d](#stopforumspam_1d)|6808|6808|4111|60.3%|14.0%|
 [firehol_anonymous](#firehol_anonymous)|18923|82959|2759|3.3%|9.4%|
@@ -4501,7 +4501,7 @@ The following table shows the overlaps of `virbl` with all the other ipsets supp
 
 ipset|entries|unique IPs|IPs on both| them % | this % |
 :---:|:-----:|:--------:|:---------:|:------:|:------:|
-[firehol_level3](#firehol_level3)|110213|9627950|29|0.0%|100.0%|
+[firehol_level3](#firehol_level3)|110163|9627904|29|0.0%|100.0%|
 [ib_bluetack_level3](#ib_bluetack_level3)|17812|139104927|4|0.0%|13.7%|
 [ib_bluetack_level2](#ib_bluetack_level2)|72950|348710251|2|0.0%|6.8%|
 [ib_bluetack_level1](#ib_bluetack_level1)|218307|764993634|2|0.0%|6.8%|
@@ -4536,7 +4536,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [ib_bluetack_level1](#ib_bluetack_level1)|218307|764993634|299|0.0%|2.7%|
 [alienvault_reputation](#alienvault_reputation)|187115|187115|193|0.1%|1.7%|
 [firehol_anonymous](#firehol_anonymous)|18923|82959|79|0.0%|0.7%|
-[firehol_level3](#firehol_level3)|110213|9627950|57|0.0%|0.5%|
+[firehol_level3](#firehol_level3)|110163|9627904|57|0.0%|0.5%|
 [stopforumspam_30d](#stopforumspam_30d)|94424|94424|35|0.0%|0.3%|
 [firehol_level2](#firehol_level2)|23467|35096|34|0.0%|0.3%|
 [blocklist_de](#blocklist_de)|29645|29645|30|0.1%|0.2%|
@@ -4588,7 +4588,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 :---:|:-----:|:--------:|:---------:|:------:|:------:|
 [firehol_proxies](#firehol_proxies)|12407|12673|2159|17.0%|100.0%|
 [firehol_anonymous](#firehol_anonymous)|18923|82959|2159|2.6%|100.0%|
-[firehol_level3](#firehol_level3)|110213|9627950|1292|0.0%|59.8%|
+[firehol_level3](#firehol_level3)|110163|9627904|1292|0.0%|59.8%|
 [stopforumspam_30d](#stopforumspam_30d)|94424|94424|1276|1.3%|59.1%|
 [ri_web_proxies](#ri_web_proxies)|7593|7593|951|12.5%|44.0%|
 [stopforumspam_7d](#stopforumspam_7d)|29338|29338|626|2.1%|28.9%|
@@ -4646,7 +4646,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 :---:|:-----:|:--------:|:---------:|:------:|:------:|
 [firehol_level1](#firehol_level1)|5135|688894845|230|0.0%|100.0%|
 [et_block](#et_block)|1000|18344011|228|0.0%|99.1%|
-[firehol_level3](#firehol_level3)|110213|9627950|203|0.0%|88.2%|
+[firehol_level3](#firehol_level3)|110163|9627904|203|0.0%|88.2%|
 [zeus_badips](#zeus_badips)|202|202|202|100.0%|87.8%|
 [snort_ipfilter](#snort_ipfilter)|10158|10158|200|1.9%|86.9%|
 [alienvault_reputation](#alienvault_reputation)|187115|187115|61|0.0%|26.5%|
@@ -4677,7 +4677,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 
 Source is downloaded from [this link](https://zeustracker.abuse.ch/blocklist.php?download=badips).
 
-The last time downloaded was found to be dated: Wed Jun 10 20:27:04 UTC 2015.
+The last time downloaded was found to be dated: Wed Jun 10 21:00:06 UTC 2015.
 
 The ipset `zeus_badips` has **202** entries, **202** unique IPs.
 
@@ -4691,7 +4691,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [zeus](#zeus)|230|230|202|87.8%|100.0%|
 [firehol_level1](#firehol_level1)|5135|688894845|202|0.0%|100.0%|
 [et_block](#et_block)|1000|18344011|202|0.0%|100.0%|
-[firehol_level3](#firehol_level3)|110213|9627950|180|0.0%|89.1%|
+[firehol_level3](#firehol_level3)|110163|9627904|180|0.0%|89.1%|
 [snort_ipfilter](#snort_ipfilter)|10158|10158|178|1.7%|88.1%|
 [alienvault_reputation](#alienvault_reputation)|187115|187115|37|0.0%|18.3%|
 [spamhaus_drop](#spamhaus_drop)|653|18340608|15|0.0%|7.4%|
