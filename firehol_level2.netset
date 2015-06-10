@@ -10,7 +10,7 @@
 # Source URL: 
 #
 # Source File Date: Sun Jun  7 22:20:34 UTC 2015
-# This File Date  : Wed Jun 10 06:18:32 UTC 2015
+# This File Date  : Wed Jun 10 06:36:52 UTC 2015
 # Update Frequency: 1 min 
 # Aggregation     : none
 # Entries         : 23835 subnets, 35467 unique IPs
@@ -2363,7 +2363,6 @@
 37.59.101.99
 37.59.109.159
 37.59.151.181
-37.59.198.81
 37.59.230.138
 37.59.241.54
 37.59.247.88
@@ -9583,6 +9582,7 @@
 95.86.182.90
 95.87.8.90
 95.87.70.143
+95.87.86.39
 95.87.124.54
 95.89.118.103
 95.90.81.168
