@@ -213,7 +213,7 @@ TODO
 
 # List of ipsets included
 
-The following list was automatically generated on Fri Jun 12 04:55:17 UTC 2015.
+The following list was automatically generated on Fri Jun 12 05:01:03 UTC 2015.
 
 The update frequency is the maximum allowed by internal configuration. A list will never be downloaded sooner than the update frequency stated. A list may also not be downloaded, after this frequency expired, if it has not been modified on the server (as reported by HTTP `IF_MODIFIED_SINCE` method).
 
@@ -1035,7 +1035,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 
 Source is downloaded from [this link](https://torstatus.blutmagie.de/ip_list_all.php/Tor_ip_list_ALL.csv).
 
-The last time downloaded was found to be dated: Fri Jun 12 04:27:02 UTC 2015.
+The last time downloaded was found to be dated: Fri Jun 12 05:00:03 UTC 2015.
 
 The ipset `bm_tor` has **6410** entries, **6410** unique IPs.
 
@@ -1563,7 +1563,7 @@ The following table shows the overlaps of `et_block` with all the other ipsets s
 
 ipset|entries|unique IPs|IPs on both| them % | this % |
 :---:|:-----:|:--------:|:---------:|:------:|:------:|
-[firehol_level1](#firehol_level1)|5137|688854747|18340171|2.6%|99.9%|
+[firehol_level1](#firehol_level1)|5137|688854747|18340172|2.6%|99.9%|
 [spamhaus_drop](#spamhaus_drop)|653|18340608|18338560|99.9%|99.9%|
 [ib_bluetack_level2](#ib_bluetack_level2)|72950|348710251|8532776|2.4%|46.5%|
 [firehol_level3](#firehol_level3)|109163|9626826|6933353|72.0%|37.7%|
@@ -1605,7 +1605,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [openbl_1d](#openbl_1d)|140|140|20|14.2%|0.0%|
 [voipbl](#voipbl)|10586|10998|18|0.1%|0.0%|
 [blocklist_de_strongips](#blocklist_de_strongips)|169|169|14|8.2%|0.0%|
-[palevo](#palevo)|13|13|12|92.3%|0.0%|
+[palevo](#palevo)|13|13|13|100.0%|0.0%|
 [blocklist_de_imap](#blocklist_de_imap)|2762|2762|11|0.3%|0.0%|
 [blocklist_de_apache](#blocklist_de_apache)|13996|13996|9|0.0%|0.0%|
 [firehol_anonymous](#firehol_anonymous)|19187|83239|8|0.0%|0.0%|
@@ -1793,7 +1793,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 
 Source is downloaded from [this link](https://feodotracker.abuse.ch/blocklist/?download=ipblocklist).
 
-The last time downloaded was found to be dated: Fri Jun 12 04:27:10 UTC 2015.
+The last time downloaded was found to be dated: Fri Jun 12 05:00:10 UTC 2015.
 
 The ipset `feodo` has **105** entries, **105** unique IPs.
 
@@ -1909,8 +1909,8 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [fullbogons](#fullbogons)|3775|670173256|670173256|100.0%|97.2%|
 [bogons](#bogons)|13|592708608|592708608|100.0%|86.0%|
 [spamhaus_drop](#spamhaus_drop)|653|18340608|18340608|100.0%|2.6%|
-[et_block](#et_block)|1000|18343756|18340171|99.9%|2.6%|
-[ib_bluetack_level2](#ib_bluetack_level2)|72950|348710251|8867716|2.5%|1.2%|
+[et_block](#et_block)|1000|18343756|18340172|99.9%|2.6%|
+[ib_bluetack_level2](#ib_bluetack_level2)|72950|348710251|8867717|2.5%|1.2%|
 [firehol_level3](#firehol_level3)|109163|9626826|7500198|77.9%|1.0%|
 [ib_bluetack_hijacked](#ib_bluetack_hijacked)|535|9177856|7498240|81.6%|1.0%|
 [ib_bluetack_level3](#ib_bluetack_level3)|17812|139104927|4637602|3.3%|0.6%|
@@ -1918,7 +1918,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [spamhaus_edrop](#spamhaus_edrop)|56|487424|487424|100.0%|0.0%|
 [alienvault_reputation](#alienvault_reputation)|189146|189146|6389|3.3%|0.0%|
 [dshield](#dshield)|20|5120|5120|100.0%|0.0%|
-[ib_bluetack_spyware](#ib_bluetack_spyware)|3267|339173|1931|0.5%|0.0%|
+[ib_bluetack_spyware](#ib_bluetack_spyware)|3267|339173|1932|0.5%|0.0%|
 [stopforumspam_30d](#stopforumspam_30d)|94309|94309|1111|1.1%|0.0%|
 [dragon_http](#dragon_http)|1021|268288|1025|0.3%|0.0%|
 [sslbl](#sslbl)|370|370|370|100.0%|0.0%|
@@ -2524,7 +2524,7 @@ The following table shows the overlaps of `ib_bluetack_level2` with all the othe
 ipset|entries|unique IPs|IPs on both| them % | this % |
 :---:|:-----:|:--------:|:---------:|:------:|:------:|
 [ib_bluetack_level1](#ib_bluetack_level1)|218307|764993634|16302420|2.1%|4.6%|
-[firehol_level1](#firehol_level1)|5137|688854747|8867716|1.2%|2.5%|
+[firehol_level1](#firehol_level1)|5137|688854747|8867717|1.2%|2.5%|
 [et_block](#et_block)|1000|18343756|8532776|46.5%|2.4%|
 [spamhaus_drop](#spamhaus_drop)|653|18340608|8532506|46.5%|2.4%|
 [ib_bluetack_level3](#ib_bluetack_level3)|17812|139104927|2830203|2.0%|0.8%|
@@ -2593,8 +2593,8 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [cleanmx_viruses](#cleanmx_viruses)|121|121|6|4.9%|0.0%|
 [blocklist_de_sip](#blocklist_de_sip)|83|83|5|6.0%|0.0%|
 [openbl_1d](#openbl_1d)|140|140|4|2.8%|0.0%|
+[palevo](#palevo)|13|13|3|23.0%|0.0%|
 [feodo](#feodo)|105|105|3|2.8%|0.0%|
-[palevo](#palevo)|13|13|2|15.3%|0.0%|
 [nt_malware_irc](#nt_malware_irc)|43|43|2|4.6%|0.0%|
 [nt_malware_http](#nt_malware_http)|69|69|2|2.8%|0.0%|
 
@@ -2769,7 +2769,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [ib_bluetack_level1](#ib_bluetack_level1)|218307|764993634|13247|0.0%|3.9%|
 [ib_bluetack_level3](#ib_bluetack_level3)|17812|139104927|9226|0.0%|2.7%|
 [ib_bluetack_level2](#ib_bluetack_level2)|72950|348710251|7728|0.0%|2.2%|
-[firehol_level1](#firehol_level1)|5137|688854747|1931|0.0%|0.5%|
+[firehol_level1](#firehol_level1)|5137|688854747|1932|0.0%|0.5%|
 [et_block](#et_block)|1000|18343756|1041|0.0%|0.3%|
 [spamhaus_drop](#spamhaus_drop)|653|18340608|1037|0.0%|0.3%|
 [ib_bluetack_hijacked](#ib_bluetack_hijacked)|535|9177856|1036|0.0%|0.3%|
@@ -2802,6 +2802,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [ib_bluetack_badpeers](#ib_bluetack_badpeers)|47940|47940|3|0.0%|0.0%|
 [blocklist_de_apache](#blocklist_de_apache)|13996|13996|3|0.0%|0.0%|
 [proxyrss](#proxyrss)|1738|1738|2|0.1%|0.0%|
+[palevo](#palevo)|13|13|2|15.3%|0.0%|
 [malc0de](#malc0de)|276|276|2|0.7%|0.0%|
 [iw_spamlist](#iw_spamlist)|3892|3892|2|0.0%|0.0%|
 [et_compromised](#et_compromised)|1704|1704|2|0.1%|0.0%|
@@ -2819,7 +2820,6 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 [php_harvesters](#php_harvesters)|408|408|1|0.2%|0.0%|
 [php_dictionary](#php_dictionary)|737|737|1|0.1%|0.0%|
 [php_commenters](#php_commenters)|458|458|1|0.2%|0.0%|
-[palevo](#palevo)|13|13|1|7.6%|0.0%|
 [nt_malware_http](#nt_malware_http)|69|69|1|1.4%|0.0%|
 [feodo](#feodo)|105|105|1|0.9%|0.0%|
 [bogons](#bogons)|13|592708608|1|0.0%|0.0%|
@@ -3496,7 +3496,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 
 Source is downloaded from [this link](https://palevotracker.abuse.ch/blocklists.php?download=ipblocklist).
 
-The last time downloaded was found to be dated: Fri Jun 12 04:27:07 UTC 2015.
+The last time downloaded was found to be dated: Fri Jun 12 05:00:07 UTC 2015.
 
 The ipset `palevo` has **13** entries, **13** unique IPs.
 
@@ -3508,11 +3508,11 @@ The following table shows the overlaps of `palevo` with all the other ipsets sup
 ipset|entries|unique IPs|IPs on both| them % | this % |
 :---:|:-----:|:--------:|:---------:|:------:|:------:|
 [firehol_level1](#firehol_level1)|5137|688854747|13|0.0%|100.0%|
-[et_block](#et_block)|1000|18343756|12|0.0%|92.3%|
+[et_block](#et_block)|1000|18343756|13|0.0%|100.0%|
 [snort_ipfilter](#snort_ipfilter)|9136|9136|11|0.1%|84.6%|
 [firehol_level3](#firehol_level3)|109163|9626826|11|0.0%|84.6%|
-[ib_bluetack_level2](#ib_bluetack_level2)|72950|348710251|2|0.0%|15.3%|
-[ib_bluetack_spyware](#ib_bluetack_spyware)|3267|339173|1|0.0%|7.6%|
+[ib_bluetack_level2](#ib_bluetack_level2)|72950|348710251|3|0.0%|23.0%|
+[ib_bluetack_spyware](#ib_bluetack_spyware)|3267|339173|2|0.0%|15.3%|
 [ib_bluetack_level3](#ib_bluetack_level3)|17812|139104927|1|0.0%|7.6%|
 
 ## php_commenters
@@ -5239,7 +5239,7 @@ ipset|entries|unique IPs|IPs on both| them % | this % |
 
 Source is downloaded from [this link](https://zeustracker.abuse.ch/blocklist.php?download=badips).
 
-The last time downloaded was found to be dated: Fri Jun 12 04:27:05 UTC 2015.
+The last time downloaded was found to be dated: Fri Jun 12 05:00:05 UTC 2015.
 
 The ipset `zeus_badips` has **202** entries, **202** unique IPs.
 
