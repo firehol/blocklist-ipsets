@@ -9,15 +9,15 @@
 # Maintainer      : DShield.org
 # Maintainer URL  : https://dshield.org/
 # List source URL : https://isc.sans.edu/api/sources/attacks/1000/
-# Source File Date: Thu Nov  5 00:09:07 UTC 2015
+# Source File Date: Thu Nov  5 01:18:09 UTC 2015
 #
 # Category        : attacks
-# Version         : 38
+# Version         : 39
 #
-# This File Date  : Thu Nov  5 00:09:09 UTC 2015
+# This File Date  : Thu Nov  5 01:18:12 UTC 2015
 # Update Frequency: 1 hour 
 # Aggregation     : none
-# Entries         : 846 unique IPs
+# Entries         : 847 unique IPs
 #
 # Full list analysis, including geolocation map, history,
 # retention policy, overlaps with other lists, etc.
@@ -726,6 +726,7 @@
 193.104.41.141
 193.107.16.206
 193.107.17.72
+193.109.246.12
 193.200.156.25
 193.200.156.79
 193.252.114.148
