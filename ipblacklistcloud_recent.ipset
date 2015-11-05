@@ -13,12 +13,12 @@
 # Maintainer      : IP Blacklist Cloud
 # Maintainer URL  : http://www.ip-finder.me/
 # List source URL : http://www.ip-finder.me/download/
-# Source File Date: Thu Nov  5 03:37:51 UTC 2015
+# Source File Date: Thu Nov  5 07:01:04 UTC 2015
 #
 # Category        : abuse
-# Version         : 15
+# Version         : 16
 #
-# This File Date  : Thu Nov  5 03:37:51 UTC 2015
+# This File Date  : Thu Nov  5 07:01:04 UTC 2015
 # Update Frequency: 1 hour 
 # Aggregation     : none
 # Entries         : 35 unique IPs
@@ -33,12 +33,9 @@
 # Processed with FireHOL's iprange
 #
 95.9.8.37
-95.78.42.46
-95.78.43.97
 95.78.48.36
 95.78.71.133
 95.78.90.38
-95.78.215.238
 95.79.12.190
 95.79.40.237
 95.79.41.119
@@ -53,6 +50,7 @@
 95.79.248.57
 95.81.192.84
 95.83.20.118
+95.83.24.10
 95.83.59.106
 95.83.190.121
 95.83.190.227
@@ -66,4 +64,6 @@
 96.47.226.21
 96.233.173.115
 98.115.110.100
+98.124.108.14
+98.145.66.52
 98.195.130.182
