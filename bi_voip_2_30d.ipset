@@ -9,15 +9,15 @@
 # Maintainer      : BadIPs.com
 # Maintainer URL  : https://www.badips.com/
 # List source URL : https://www.badips.com/get/list/voip/2?age=30d
-# Source File Date: Thu Nov  5 14:25:17 UTC 2015
+# Source File Date: Fri Nov  6 15:38:49 UTC 2015
 #
 # Category        : attacks
-# Version         : 3
+# Version         : 4
 #
-# This File Date  : Thu Nov  5 14:25:18 UTC 2015
+# This File Date  : Fri Nov  6 15:38:49 UTC 2015
 # Update Frequency: 1 day 
 # Aggregation     : none
-# Entries         : 54 unique IPs
+# Entries         : 56 unique IPs
 #
 # Full list analysis, including geolocation map, history,
 # retention policy, overlaps with other lists, etc.
@@ -29,6 +29,7 @@
 # Processed with FireHOL's iprange
 #
 5.39.216.146
+31.3.230.210
 31.3.231.186
 37.220.30.42
 46.166.160.56
@@ -36,6 +37,7 @@
 62.210.7.143
 62.210.188.36
 62.210.188.164
+74.208.162.29
 79.143.186.165
 79.143.188.184
 80.84.50.42
@@ -50,6 +52,7 @@
 88.150.240.111
 88.150.240.169
 89.163.140.41
+89.163.140.45
 89.163.144.105
 89.163.144.145
 89.163.144.167
@@ -67,7 +70,6 @@
 188.227.169.113
 188.227.170.18
 192.151.150.98
-192.151.152.66
 192.187.111.146
 194.63.142.85
 195.154.154.219
