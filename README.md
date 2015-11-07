@@ -206,7 +206,7 @@ This script will update each ipset and call firehol to update the ipset while th
 
 # List of ipsets included
 
-The following list was automatically generated on Sat Nov  7 17:28:06 UTC 2015.
+The following list was automatically generated on Sat Nov  7 17:29:04 UTC 2015.
 
 The update frequency is the maximum allowed by internal configuration. A list will never be downloaded sooner than the update frequency stated. A list may also not be downloaded, after this frequency expired, if it has not been modified on the server (as reported by HTTP `IF_MODIFIED_SINCE` method).
 
@@ -258,7 +258,7 @@ bambenek_p2pgoz|[Bambenek Consulting](http://osint.bambenekconsulting.com/feeds/
 [bitcoin_nodes_7d](http://iplists.firehol.org/?ipset=bitcoin_nodes_7d)|[BitNodes](https://getaddr.bitnodes.io/) Bitcoin connected nodes, globally.|ipv4 hash:ip|17131 unique IPs|updated every 10 mins  from [this link](https://getaddr.bitnodes.io/api/v1/snapshots/latest/)
 [blocklist_de](http://iplists.firehol.org/?ipset=blocklist_de)|[Blocklist.de](https://www.blocklist.de/) IPs that have been detected by fail2ban in the last 48 hours|ipv4 hash:ip|26124 unique IPs|updated every 15 mins  from [this link](http://lists.blocklist.de/lists/all.txt)
 [blocklist_de_apache](http://iplists.firehol.org/?ipset=blocklist_de_apache)|[Blocklist.de](https://www.blocklist.de/) All IP addresses which have been reported within the last 48 hours as having run attacks on the service Apache, Apache-DDOS, RFI-Attacks.|ipv4 hash:ip|14351 unique IPs|updated every 15 mins  from [this link](http://lists.blocklist.de/lists/apache.txt)
-[blocklist_de_bots](http://iplists.firehol.org/?ipset=blocklist_de_bots)|[Blocklist.de](https://www.blocklist.de/) All IP addresses which have been reported within the last 48 hours as having run attacks on the RFI-Attacks, REG-Bots, IRC-Bots or BadBots (BadBots = he has posted a Spam-Comment on a open Forum or Wiki).|ipv4 hash:ip|1781 unique IPs|updated every 15 mins  from [this link](http://lists.blocklist.de/lists/bots.txt)
+[blocklist_de_bots](http://iplists.firehol.org/?ipset=blocklist_de_bots)|[Blocklist.de](https://www.blocklist.de/) All IP addresses which have been reported within the last 48 hours as having run attacks on the RFI-Attacks, REG-Bots, IRC-Bots or BadBots (BadBots = he has posted a Spam-Comment on a open Forum or Wiki).|ipv4 hash:ip|1780 unique IPs|updated every 15 mins  from [this link](http://lists.blocklist.de/lists/bots.txt)
 [blocklist_de_bruteforce](http://iplists.firehol.org/?ipset=blocklist_de_bruteforce)|[Blocklist.de](https://www.blocklist.de/) All IPs which attacks Joomlas, Wordpress and other Web-Logins with Brute-Force Logins.|ipv4 hash:ip|3056 unique IPs|updated every 15 mins  from [this link](http://lists.blocklist.de/lists/bruteforcelogin.txt)
 [blocklist_de_ftp](http://iplists.firehol.org/?ipset=blocklist_de_ftp)|[Blocklist.de](https://www.blocklist.de/) All IP addresses which have been reported within the last 48 hours for attacks on the Service FTP.|ipv4 hash:ip|1189 unique IPs|updated every 15 mins  from [this link](http://lists.blocklist.de/lists/ftp.txt)
 [blocklist_de_imap](http://iplists.firehol.org/?ipset=blocklist_de_imap)|[Blocklist.de](https://www.blocklist.de/) All IP addresses which have been reported within the last 48 hours for attacks on the Service imap, sasl, pop3, etc.|ipv4 hash:ip|1752 unique IPs|updated every 15 mins  from [this link](http://lists.blocklist.de/lists/imap.txt)
