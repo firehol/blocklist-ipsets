@@ -9,15 +9,15 @@
 # Maintainer      : ProxySpy (spys.ru)
 # Maintainer URL  : http://spys.ru/en/
 # List source URL : http://txt.proxyspy.net/proxy.txt
-# Source File Date: Sat Nov  7 16:56:03 UTC 2015
+# Source File Date: Sat Nov  7 17:56:03 UTC 2015
 #
 # Category        : anonymizers
-# Version         : 120
+# Version         : 121
 #
-# This File Date  : Sat Nov  7 18:09:11 UTC 2015
+# This File Date  : Sat Nov  7 18:18:25 UTC 2015
 # Update Frequency: 1 hour 
 # Aggregation     : 30 days 
-# Entries         : 5811 unique IPs
+# Entries         : 5817 unique IPs
 #
 # Full list analysis, including geolocation map, history,
 # retention policy, overlaps with other lists, etc.
@@ -1146,6 +1146,7 @@
 62.240.104.131
 62.241.149.172
 63.110.247.4
+63.142.246.2
 63.221.140.143
 64.5.173.110
 64.8.155.12
@@ -1192,6 +1193,7 @@
 70.100.252.6
 71.15.57.250
 71.19.173.2
+71.41.27.245
 71.42.250.218
 71.204.227.247
 71.225.203.185
@@ -1948,6 +1950,7 @@
 95.104.99.23
 95.104.112.214
 95.104.112.216
+95.105.53.116
 95.106.16.92
 95.106.66.89
 95.107.162.92
@@ -4056,6 +4059,7 @@
 183.89.129.115
 183.89.145.93
 183.89.146.14
+183.89.153.139
 183.89.205.235
 183.89.206.181
 183.89.210.173
@@ -4408,6 +4412,7 @@
 189.78.184.59
 189.80.131.150
 189.80.149.51
+189.80.204.74
 189.84.79.122
 189.84.174.49
 189.84.192.194
@@ -4938,6 +4943,7 @@
 200.105.148.74
 200.106.19.57
 200.108.143.123
+200.109.51.85
 200.109.60.55
 200.109.203.167
 200.111.230.26
