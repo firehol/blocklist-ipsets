@@ -206,7 +206,7 @@ This script will update each ipset and call firehol to update the ipset while th
 
 # List of ipsets included
 
-The following list was automatically generated on Sat Nov  7 13:16:44 UTC 2015.
+The following list was automatically generated on Sat Nov  7 13:18:58 UTC 2015.
 
 The update frequency is the maximum allowed by internal configuration. A list will never be downloaded sooner than the update frequency stated. A list may also not be downloaded, after this frequency expired, if it has not been modified on the server (as reported by HTTP `IF_MODIFIED_SINCE` method).
 
@@ -277,7 +277,7 @@ bambenek_p2pgoz|[Bambenek Consulting](http://osint.bambenekconsulting.com/feeds/
 [chaosreigns_iprep0](http://iplists.firehol.org/?ipset=chaosreigns_iprep0)|[ChaosReigns.com](http://www.chaosreigns.com/iprep) The iprep0 list includes all IPs that sent only spam emails. This is an automated, free, public email IP reputation system. The primary goal is a whitelist. Other data is provided as a consequence.|ipv4 hash:ip|161532 unique IPs|updated every 1 day  from [this link](http://www.chaosreigns.com/iprep/iprep.txt)
 [chaosreigns_iprep100](http://iplists.firehol.org/?ipset=chaosreigns_iprep100)|[ChaosReigns.com](http://www.chaosreigns.com/iprep) The iprep100 list includes all IPs that sent 100% ham emails. This is an automated, free, public email IP reputation system. The primary goal is a whitelist. Other data is provided as a consequence.|ipv4 hash:ip|4961 unique IPs|updated every 1 day  from [this link](http://www.chaosreigns.com/iprep/iprep.txt)
 [chaosreigns_iprep50](http://iplists.firehol.org/?ipset=chaosreigns_iprep50)|[ChaosReigns.com](http://www.chaosreigns.com/iprep) The iprep50 list includes all IPs that sent both ham and spam emails. This is an automated, free, public email IP reputation system. The primary goal is a whitelist. Other data is provided as a consequence.|ipv4 hash:ip|120 unique IPs|updated every 1 day  from [this link](http://www.chaosreigns.com/iprep/iprep.txt)
-[ciarmy](http://iplists.firehol.org/?ipset=ciarmy)|[CIArmy.com](http://ciarmy.com/) IPs with poor Rogue Packet score that have not yet been identified as malicious by the community|ipv4 hash:ip|307 unique IPs|updated every 3 hours  from [this link](http://cinsscore.com/list/ci-badguys.txt)
+[ciarmy](http://iplists.firehol.org/?ipset=ciarmy)|[CIArmy.com](http://ciarmy.com/) IPs with poor Rogue Packet score that have not yet been identified as malicious by the community|ipv4 hash:ip|309 unique IPs|updated every 3 hours  from [this link](http://cinsscore.com/list/ci-badguys.txt)
 [cidr_report_bogons](http://iplists.firehol.org/?ipset=cidr_report_bogons)|Unallocated (Free) Address Space, generated on a daily basis using the IANA registry files, the Regional Internet Registry stats files and the Regional Internet Registry whois data.|ipv4 hash:net|3670 subnets, 606289224 unique IPs|updated every 1 day  from [this link](http://www.cidr-report.org/bogons/freespace-prefix.txt)
 [cleanmx_viruses](http://iplists.firehol.org/?ipset=cleanmx_viruses)|[Clean-MX.de](http://support.clean-mx.de/clean-mx/viruses.php) IPs with viruses|ipv4 hash:ip|4148 unique IPs|updated every 30 mins  from [this link](http://support.clean-mx.de/clean-mx/xmlviruses.php?response=alive&fields=ip)
 [cleantalk](http://iplists.firehol.org/?ipset=cleantalk)|[CleanTalk](https://cleantalk.org/) Today's HTTP Spammers (includes: cleantalk_new cleantalk_updated)|ipv4 hash:ip|11811 unique IPs|
