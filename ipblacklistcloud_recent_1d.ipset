@@ -13,15 +13,15 @@
 # Maintainer      : IP Blacklist Cloud
 # Maintainer URL  : http://www.ip-finder.me/
 # List source URL : http://www.ip-finder.me/download/
-# Source File Date: Sat Nov  7 15:49:18 UTC 2015
+# Source File Date: Sat Nov  7 19:54:43 UTC 2015
 #
 # Category        : abuse
-# Version         : 26
+# Version         : 27
 #
-# This File Date  : Sat Nov  7 15:49:18 UTC 2015
-# Update Frequency: 1 hour 
+# This File Date  : Sat Nov  7 19:54:43 UTC 2015
+# Update Frequency: 4 hours 
 # Aggregation     : 1 day 
-# Entries         : 103 unique IPs
+# Entries         : 112 unique IPs
 #
 # Full list analysis, including geolocation map, history,
 # retention policy, overlaps with other lists, etc.
@@ -52,9 +52,11 @@
 92.86.100.95
 93.72.0.191
 94.41.150.32
+94.45.182.250
 94.46.40.105
 94.51.52.132
 94.66.189.225
+94.76.179.1
 94.102.7.23
 94.102.56.181
 94.112.237.240
@@ -65,11 +67,13 @@
 94.242.228.43
 94.242.246.24
 94.242.253.92
+94.250.253.129
 95.8.29.100
 95.8.191.154
 95.9.167.27
 95.10.7.227
 95.10.214.20
+95.21.255.136
 95.26.107.104
 95.32.3.210
 95.52.71.241
@@ -92,15 +96,19 @@
 95.78.61.64
 95.78.205.205
 95.79.0.109
+95.79.116.46
 95.79.202.172
+95.79.207.126
 95.81.239.107
 95.83.30.209
 95.83.62.161
 95.87.208.67
 95.95.133.182
+95.110.252.158
 95.133.19.112
 95.133.238.122
 95.153.131.241
+95.161.225.106
 95.185.250.232
 95.189.4.8
 96.31.255.30
@@ -109,6 +117,7 @@
 96.44.189.100
 96.47.226.21
 96.47.226.22
+96.126.123.252
 96.233.173.115
 96.233.179.199
 96.245.164.229
