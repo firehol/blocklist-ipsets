@@ -206,7 +206,7 @@ This script will update each ipset and call firehol to update the ipset while th
 
 # List of ipsets included
 
-The following list was automatically generated on Sat Nov  7 15:55:33 UTC 2015.
+The following list was automatically generated on Sat Nov  7 15:57:23 UTC 2015.
 
 The update frequency is the maximum allowed by internal configuration. A list will never be downloaded sooner than the update frequency stated. A list may also not be downloaded, after this frequency expired, if it has not been modified on the server (as reported by HTTP `IF_MODIFIED_SINCE` method).
 
@@ -251,7 +251,7 @@ bambenek_p2pgoz|[Bambenek Consulting](http://osint.bambenekconsulting.com/feeds/
 [bitcoin_blockchain_info](http://iplists.firehol.org/?ipset=bitcoin_blockchain_info)|[Blockchain.info](https://blockchain.info/en/connected-nodes) Bitcoin nodes connected to Blockchain.info.|ipv4 hash:ip|448 unique IPs|updated every 10 mins  from [this link](https://blockchain.info/en/connected-nodes)
 [bitcoin_blockchain_info_1d](http://iplists.firehol.org/?ipset=bitcoin_blockchain_info_1d)|[Blockchain.info](https://blockchain.info/en/connected-nodes) Bitcoin nodes connected to Blockchain.info.|ipv4 hash:ip|509 unique IPs|updated every 10 mins  from [this link](https://blockchain.info/en/connected-nodes)
 [bitcoin_blockchain_info_30d](http://iplists.firehol.org/?ipset=bitcoin_blockchain_info_30d)|[Blockchain.info](https://blockchain.info/en/connected-nodes) Bitcoin nodes connected to Blockchain.info.|ipv4 hash:ip|7160 unique IPs|updated every 10 mins  from [this link](https://blockchain.info/en/connected-nodes)
-[bitcoin_blockchain_info_7d](http://iplists.firehol.org/?ipset=bitcoin_blockchain_info_7d)|[Blockchain.info](https://blockchain.info/en/connected-nodes) Bitcoin nodes connected to Blockchain.info.|ipv4 hash:ip|1921 unique IPs|updated every 10 mins  from [this link](https://blockchain.info/en/connected-nodes)
+[bitcoin_blockchain_info_7d](http://iplists.firehol.org/?ipset=bitcoin_blockchain_info_7d)|[Blockchain.info](https://blockchain.info/en/connected-nodes) Bitcoin nodes connected to Blockchain.info.|ipv4 hash:ip|1920 unique IPs|updated every 10 mins  from [this link](https://blockchain.info/en/connected-nodes)
 [bitcoin_nodes](http://iplists.firehol.org/?ipset=bitcoin_nodes)|[BitNodes](https://getaddr.bitnodes.io/) Bitcoin connected nodes, globally.|ipv4 hash:ip|4877 unique IPs|updated every 10 mins  from [this link](https://getaddr.bitnodes.io/api/v1/snapshots/latest/)
 [bitcoin_nodes_1d](http://iplists.firehol.org/?ipset=bitcoin_nodes_1d)|[BitNodes](https://getaddr.bitnodes.io/) Bitcoin connected nodes, globally.|ipv4 hash:ip|7590 unique IPs|updated every 10 mins  from [this link](https://getaddr.bitnodes.io/api/v1/snapshots/latest/)
 [bitcoin_nodes_30d](http://iplists.firehol.org/?ipset=bitcoin_nodes_30d)|[BitNodes](https://getaddr.bitnodes.io/) Bitcoin connected nodes, globally.|ipv4 hash:ip|43680 unique IPs|updated every 10 mins  from [this link](https://getaddr.bitnodes.io/api/v1/snapshots/latest/)
