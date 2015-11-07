@@ -13,15 +13,15 @@
 # Maintainer      : IP Blacklist Cloud
 # Maintainer URL  : http://www.ip-finder.me/
 # List source URL : http://www.ip-finder.me/download/
-# Source File Date: Fri Nov  6 23:45:35 UTC 2015
+# Source File Date: Sat Nov  7 02:02:10 UTC 2015
 #
 # Category        : abuse
-# Version         : 20
+# Version         : 21
 #
-# This File Date  : Fri Nov  6 23:45:35 UTC 2015
+# This File Date  : Sat Nov  7 02:02:10 UTC 2015
 # Update Frequency: 1 hour 
 # Aggregation     : 7 days 
-# Entries         : 480 unique IPs
+# Entries         : 472 unique IPs
 #
 # Full list analysis, including geolocation map, history,
 # retention policy, overlaps with other lists, etc.
@@ -118,7 +118,6 @@
 94.254.146.224
 95.5.33.165
 95.5.97.89
-95.5.125.64
 95.5.225.192
 95.6.63.142
 95.7.73.145
@@ -136,13 +135,10 @@
 95.27.110.101
 95.27.120.44
 95.28.58.134
-95.28.69.46
 95.28.130.94
 95.28.234.117
 95.29.132.158
 95.29.147.12
-95.29.153.229
-95.29.167.213
 95.29.171.182
 95.29.183.158
 95.29.213.141
@@ -159,17 +155,14 @@
 95.32.65.21
 95.32.78.101
 95.32.96.163
-95.32.99.72
 95.32.131.137
 95.32.135.40
 95.32.212.99
-95.32.216.78
 95.37.97.167
 95.40.129.189
 95.42.185.243
 95.42.241.199
 95.42.249.25
-95.47.158.158
 95.49.8.4
 95.52.91.175
 95.52.126.163
@@ -192,7 +185,6 @@
 95.59.55.51
 95.59.187.102
 95.61.115.231
-95.61.231.44
 95.65.125.49
 95.67.147.63
 95.67.148.87
