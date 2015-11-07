@@ -206,7 +206,7 @@ This script will update each ipset and call firehol to update the ipset while th
 
 # List of ipsets included
 
-The following list was automatically generated on Sat Nov  7 17:20:41 UTC 2015.
+The following list was automatically generated on Sat Nov  7 17:21:58 UTC 2015.
 
 The update frequency is the maximum allowed by internal configuration. A list will never be downloaded sooner than the update frequency stated. A list may also not be downloaded, after this frequency expired, if it has not been modified on the server (as reported by HTTP `IF_MODIFIED_SINCE` method).
 
@@ -311,9 +311,9 @@ bambenek_p2pgoz|[Bambenek Consulting](http://osint.bambenekconsulting.com/feeds/
 [dronebl_unknown](http://iplists.firehol.org/?ipset=dronebl_unknown)|[DroneBL.org](https://dronebl.org) List of IPs of uncategorized threats. It includes IPs for which DroneBL responds with 255.|ipv4 hash:net|35 subnets, 37 unique IPs|
 [dronebl_worms_bots](http://iplists.firehol.org/?ipset=dronebl_worms_bots)|[DroneBL.org](https://dronebl.org) IPs of unknown worms or spambots. It includes IPs for which DroneBL responds with 6|ipv4 hash:net|23850 subnets, 25704 unique IPs|
 [dshield](http://iplists.firehol.org/?ipset=dshield)|[DShield.org](https://dshield.org/) top 20 attacking class C (/24) subnets over the last three days|ipv4 hash:net|20 subnets, 5120 unique IPs|updated every 10 mins  from [this link](http://feeds.dshield.org/block.txt)
-[dshield_1d](http://iplists.firehol.org/?ipset=dshield_1d)|[DShield.org](https://dshield.org/) top 20 attacking class C (/24) subnets over the last three days|ipv4 hash:net|363 subnets, 94976 unique IPs|updated every 10 mins  from [this link](http://feeds.dshield.org/block.txt)
+[dshield_1d](http://iplists.firehol.org/?ipset=dshield_1d)|[DShield.org](https://dshield.org/) top 20 attacking class C (/24) subnets over the last three days|ipv4 hash:net|366 subnets, 95744 unique IPs|updated every 10 mins  from [this link](http://feeds.dshield.org/block.txt)
 [dshield_30d](http://iplists.firehol.org/?ipset=dshield_30d)|[DShield.org](https://dshield.org/) top 20 attacking class C (/24) subnets over the last three days|ipv4 hash:net|5260 subnets, 1380096 unique IPs|updated every 10 mins  from [this link](http://feeds.dshield.org/block.txt)
-[dshield_7d](http://iplists.firehol.org/?ipset=dshield_7d)|[DShield.org](https://dshield.org/) top 20 attacking class C (/24) subnets over the last three days|ipv4 hash:net|1561 subnets, 407808 unique IPs|updated every 10 mins  from [this link](http://feeds.dshield.org/block.txt)
+[dshield_7d](http://iplists.firehol.org/?ipset=dshield_7d)|[DShield.org](https://dshield.org/) top 20 attacking class C (/24) subnets over the last three days|ipv4 hash:net|1559 subnets, 407296 unique IPs|updated every 10 mins  from [this link](http://feeds.dshield.org/block.txt)
 [dshield_top_1000](http://iplists.firehol.org/?ipset=dshield_top_1000)|[DShield.org](https://dshield.org/) top 1000 attacking hosts in the last 30 days|ipv4 hash:ip|849 unique IPs|updated every 1 hour  from [this link](https://isc.sans.edu/api/sources/attacks/1000/)
 [et_block](http://iplists.firehol.org/?ipset=et_block)|[EmergingThreats.net](http://www.emergingthreats.net/) default blacklist (at the time of writing includes spamhaus DROP, dshield and abuse.ch trackers, which are available separately too - prefer to use the direct ipsets instead of this, they seem to lag a bit in updates)|ipv4 hash:net|703 subnets, 22609152 unique IPs|updated every 12 hours  from [this link](http://rules.emergingthreats.net/fwrules/emerging-Block-IPs.txt)
 [et_botcc](http://iplists.firehol.org/?ipset=et_botcc)|[EmergingThreats.net Command and Control IPs](http://doc.emergingthreats.net/bin/view/Main/BotCC) These IPs are updates every 24 hours and should be considered VERY highly reliable indications that a host is communicating with a known and active Bot or Malware command and control server - (although they say this includes abuse.ch trackers, it does not - check its overlaps)|ipv4 hash:ip|440 unique IPs|updated every 12 hours  from [this link](http://rules.emergingthreats.net/fwrules/emerging-PIX-CC.rules)
