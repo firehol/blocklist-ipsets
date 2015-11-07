@@ -45,7 +45,7 @@
 [ -f 'bitcoin_nodes_1d.ipset' ] && /bin/touch --date=@1446864369 'bitcoin_nodes_1d.ipset'
 [ -f 'bitcoin_nodes_30d.ipset' ] && /bin/touch --date=@1446864369 'bitcoin_nodes_30d.ipset'
 [ -f 'bitcoin_nodes_7d.ipset' ] && /bin/touch --date=@1446864369 'bitcoin_nodes_7d.ipset'
-[ -f 'blocklist_de.ipset' ] && /bin/touch --date=@1446861483 'blocklist_de.ipset'
+[ -f 'blocklist_de.ipset' ] && /bin/touch --date=@1446863284 'blocklist_de.ipset'
 [ -f 'blocklist_de_apache.ipset' ] && /bin/touch --date=@1446863293 'blocklist_de_apache.ipset'
 [ -f 'blocklist_de_bots.ipset' ] && /bin/touch --date=@1446863298 'blocklist_de_bots.ipset'
 [ -f 'blocklist_de_bruteforce.ipset' ] && /bin/touch --date=@1446863302 'blocklist_de_bruteforce.ipset'
