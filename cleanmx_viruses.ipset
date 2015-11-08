@@ -10,15 +10,15 @@
 # Maintainer      : Clean-MX.de
 # Maintainer URL  : http://support.clean-mx.de/clean-mx/viruses.php
 # List source URL : http://support.clean-mx.de/clean-mx/xmlviruses.php?response=alive&fields=ip
-# Source File Date: Sun Nov  8 03:58:26 UTC 2015
+# Source File Date: Sun Nov  8 06:36:32 UTC 2015
 #
 # Category        : spam
-# Version         : 71
+# Version         : 72
 #
-# This File Date  : Sun Nov  8 03:58:38 UTC 2015
+# This File Date  : Sun Nov  8 06:36:43 UTC 2015
 # Update Frequency: 30 mins 
 # Aggregation     : none
-# Entries         : 4421 unique IPs
+# Entries         : 4419 unique IPs
 #
 # Full list analysis, including geolocation map, history,
 # retention policy, overlaps with other lists, etc.
@@ -1353,7 +1353,6 @@
 78.129.201.14
 78.137.166.8
 78.138.127.212
-78.140.131.125
 78.142.63.230
 79.96.16.76
 79.96.29.236
@@ -2588,7 +2587,6 @@
 119.59.120.4
 119.59.120.9
 119.59.120.14
-119.59.120.73
 119.82.226.22
 119.90.16.156
 119.146.201.38
