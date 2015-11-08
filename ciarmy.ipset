@@ -10,15 +10,15 @@
 # Maintainer      : Collective Intelligence Network Security
 # Maintainer URL  : http://ciarmy.com/
 # List source URL : http://cinsscore.com/list/ci-badguys.txt
-# Source File Date: Sun Nov  8 19:15:06 UTC 2015
+# Source File Date: Sun Nov  8 22:15:07 UTC 2015
 #
 # Category        : reputation
-# Version         : 55
+# Version         : 56
 #
-# This File Date  : Sun Nov  8 19:19:13 UTC 2015
+# This File Date  : Sun Nov  8 22:18:41 UTC 2015
 # Update Frequency: 3 hours 
 # Aggregation     : none
-# Entries         : 314 unique IPs
+# Entries         : 316 unique IPs
 #
 # Full list analysis, including geolocation map, history,
 # retention policy, overlaps with other lists, etc.
@@ -186,6 +186,7 @@
 115.238.252.86
 116.90.87.65
 116.122.206.194
+117.21.173.36
 117.21.227.110
 118.161.71.137
 118.186.207.82
@@ -231,6 +232,7 @@
 158.255.6.107
 162.144.158.58
 162.244.32.49
+163.172.10.90
 167.114.82.227
 171.34.226.233
 171.34.226.247
