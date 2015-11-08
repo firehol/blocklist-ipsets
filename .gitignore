@@ -8,6 +8,7 @@ ipv4_range_to_cidr.awk
 *.lastchecked
 *.tmp
 .cache
+.cache.old
 .warn_if_last_downloaded_before_this
 sorbs_*.ipset
 sorbs_*.netset
