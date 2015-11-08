@@ -9,15 +9,15 @@
 # Maintainer      : Spamhaus.org
 # Maintainer URL  : http://www.spamhaus.org/
 # List source URL : http://www.spamhaus.org/drop/edrop.txt
-# Source File Date: Mon Nov  2 15:31:10 UTC 2015
+# Source File Date: Sat Nov  7 15:11:16 UTC 2015
 #
 # Category        : reputation
-# Version         : 1
+# Version         : 2
 #
-# This File Date  : Tue Nov  3 13:27:06 UTC 2015
+# This File Date  : Sun Nov  8 13:27:08 UTC 2015
 # Update Frequency: 12 hours 
 # Aggregation     : none
-# Entries         : 63 subnets, 786944 unique IPs
+# Entries         : 64 subnets, 787200 unique IPs
 #
 # Full list analysis, including geolocation map, history,
 # retention policy, overlaps with other lists, etc.
@@ -72,6 +72,7 @@
 120.128.128.0/17
 120.129.0.0/16
 120.130.0.0/16
+137.63.68.0/24
 153.85.0.0/16
 177.47.126.0/24
 178.212.56.0/22
