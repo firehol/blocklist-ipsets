@@ -9,15 +9,15 @@
 # Maintainer      : Abuse.ch
 # Maintainer URL  : https://sslbl.abuse.ch/
 # List source URL : https://sslbl.abuse.ch/blacklist/sslipblacklist.csv
-# Source File Date: Sun Nov  8 06:00:04 UTC 2015
+# Source File Date: Sun Nov  8 07:00:04 UTC 2015
 #
 # Category        : malware
-# Version         : 23
+# Version         : 24
 #
-# This File Date  : Sun Nov  8 06:00:15 UTC 2015
+# This File Date  : Sun Nov  8 07:00:29 UTC 2015
 # Update Frequency: 30 mins 
 # Aggregation     : none
-# Entries         : 90 unique IPs
+# Entries         : 91 unique IPs
 #
 # Full list analysis, including geolocation map, history,
 # retention policy, overlaps with other lists, etc.
@@ -30,6 +30,7 @@
 #
 1.93.0.224
 5.8.60.15
+5.8.60.90
 5.8.60.194
 5.14.212.139
 5.135.42.140
