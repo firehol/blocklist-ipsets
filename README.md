@@ -206,7 +206,7 @@ This script will update each ipset and call firehol to update the ipset while th
 
 # List of ipsets included
 
-The following list was automatically generated on Mon Nov  9 23:49:33 UTC 2015.
+The following list was automatically generated on Mon Nov  9 23:55:13 UTC 2015.
 
 The update frequency is the maximum allowed by internal configuration. A list will never be downloaded sooner than the update frequency stated. A list may also not be downloaded, after this frequency expired, if it has not been modified on the server (as reported by HTTP `IF_MODIFIED_SINCE` method).
 
@@ -418,7 +418,7 @@ infiltrated|[infiltrated.net](http://www.infiltrated.net) (this list seems to be
 [ipblacklistcloud_recent_7d](http://iplists.firehol.org/?ipset=ipblacklistcloud_recent_7d)|[IP Blacklist Cloud](http://www.ip-finder.me/) These are the most recent IP addresses that have been blacklisted by websites. IP Blacklist Cloud plugin protects your WordPress based website from spam comments, gives details about login attacks which you don't even know are happening without this plugin!|ipv4 hash:ip|453 unique IPs|updated every 4 hours  from [this link](http://www.ip-finder.me/download/)
 [ipblacklistcloud_top](http://iplists.firehol.org/?ipset=ipblacklistcloud_top)|[IP Blacklist Cloud](http://www.ip-finder.me/) These are the top IP addresses that have been blacklisted by many websites. IP Blacklist Cloud plugin protects your WordPress based website from spam comments, gives details about login attacks which you don't even know are happening without this plugin!|ipv4 hash:ip|199 unique IPs|updated every 1 day  from [this link](http://www.ip-finder.me/ip-full-list/)
 [ipdeny_country](https://github.com/ktsaou/blocklist-ipsets/tree/master/ipdeny_country)|[IPDeny.com](http://www.ipdeny.com/) geolocation database|ipv4 hash:net|All the world|updated every 1 day  from [this link](http://www.ipdeny.com/ipblocks/data/countries/all-zones.tar.gz)
-[iw_spamlist](http://iplists.firehol.org/?ipset=iw_spamlist)|[ImproWare Antispam](http://antispam.imp.ch/) IPs sending spam, in the last 3 days|ipv4 hash:ip|2358 unique IPs|updated every 1 hour  from [this link](http://antispam.imp.ch/spamlist)
+[iw_spamlist](http://iplists.firehol.org/?ipset=iw_spamlist)|[ImproWare Antispam](http://antispam.imp.ch/) IPs sending spam, in the last 3 days|ipv4 hash:ip|2359 unique IPs|updated every 1 hour  from [this link](http://antispam.imp.ch/spamlist)
 [iw_wormlist](http://iplists.firehol.org/?ipset=iw_wormlist)|[ImproWare Antispam](http://antispam.imp.ch/) IPs sending emails with viruses or worms, in the last 3 days|ipv4 hash:ip|3 unique IPs|updated every 1 hour  from [this link](http://antispam.imp.ch/wormlist)
 [lashback_ubl](http://iplists.firehol.org/?ipset=lashback_ubl)|[The LashBack UBL](http://blacklist.lashback.com/) The Unsubscribe Blacklist (UBL) is a real-time blacklist of IP addresses which are sending email to names harvested from suppression files (this is a big list, more than 500.000 IPs)|ipv4 hash:ip|354577 unique IPs|updated every 1 day  from [this link](http://www.unsubscore.com/blacklist.txt)
 [malc0de](http://iplists.firehol.org/?ipset=malc0de)|[Malc0de.com](http://malc0de.com) malicious IPs of the last 30 days|ipv4 hash:ip|76 unique IPs|updated every 1 day  from [this link](http://malc0de.com/bl/IP_Blacklist.txt)
