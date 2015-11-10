@@ -10,15 +10,15 @@
 # Maintainer      : Bambenek Consulting
 # Maintainer URL  : http://osint.bambenekconsulting.com/feeds/
 # List source URL : http://osint.bambenekconsulting.com/feeds/hesperbot-iplist.txt
-# Source File Date: Tue Nov 10 21:03:41 UTC 2015
+# Source File Date: Tue Nov 10 21:33:13 UTC 2015
 #
 # Category        : malware
-# Version         : 28
+# Version         : 29
 #
-# This File Date  : Tue Nov 10 21:09:30 UTC 2015
+# This File Date  : Tue Nov 10 21:37:06 UTC 2015
 # Update Frequency: 30 mins 
 # Aggregation     : none
-# Entries         : 4 unique IPs
+# Entries         : 5 unique IPs
 #
 # Full list analysis, including geolocation map, history,
 # retention policy, overlaps with other lists, etc.
@@ -30,6 +30,7 @@
 # Processed with FireHOL's iprange
 #
 46.151.53.81
+194.58.56.105
 194.58.56.136
 194.58.56.207
 199.59.166.109
