@@ -10,15 +10,15 @@
 # Maintainer      : Blocklist.de
 # Maintainer URL  : https://www.blocklist.de/
 # List source URL : http://lists.blocklist.de/lists/mail.txt
-# Source File Date: Tue Nov 10 22:10:07 UTC 2015
+# Source File Date: Tue Nov 10 22:14:09 UTC 2015
 #
 # Category        : attacks
-# Version         : 576
+# Version         : 577
 #
-# This File Date  : Tue Nov 10 22:18:08 UTC 2015
+# This File Date  : Tue Nov 10 22:27:04 UTC 2015
 # Update Frequency: 15 mins 
 # Aggregation     : none
-# Entries         : 15438 unique IPs
+# Entries         : 15444 unique IPs
 #
 # Full list analysis, including geolocation map, history,
 # retention policy, overlaps with other lists, etc.
@@ -115,6 +115,7 @@
 5.145.90.165
 5.150.239.121
 5.154.124.54
+5.158.144.8
 5.159.54.29
 5.160.4.130
 5.160.53.196
@@ -6524,6 +6525,7 @@
 101.100.177.29
 101.100.177.60
 101.100.177.164
+101.100.177.178
 101.100.177.191
 101.100.185.8
 101.100.185.40
@@ -10167,6 +10169,7 @@
 140.130.132.207
 141.0.245.14
 142.0.69.137
+142.255.85.139
 143.0.252.22
 144.12.201.230
 144.52.134.37
@@ -10211,6 +10214,7 @@
 155.133.18.153
 155.208.242.236
 156.110.139.125
+158.69.158.84
 158.69.207.233
 158.222.205.234
 158.255.228.21
@@ -13960,6 +13964,7 @@
 216.104.204.118
 216.107.130.46
 216.107.130.53
+216.107.130.74
 216.107.130.78
 216.107.130.81
 216.107.130.83
@@ -15321,6 +15326,7 @@
 220.137.47.211
 220.137.47.219
 220.166.0.226
+220.168.150.231
 220.170.15.138
 220.176.232.4
 220.176.232.42
