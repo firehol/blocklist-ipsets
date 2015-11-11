@@ -9,15 +9,15 @@
 # Maintainer      : DShield.org
 # Maintainer URL  : https://dshield.org/
 # List source URL : http://feeds.dshield.org/block.txt
-# Source File Date: Wed Nov 11 19:41:06 UTC 2015
+# Source File Date: Wed Nov 11 20:11:21 UTC 2015
 #
 # Category        : attacks
-# Version         : 652
+# Version         : 653
 #
-# This File Date  : Wed Nov 11 19:45:04 UTC 2015
+# This File Date  : Wed Nov 11 20:18:03 UTC 2015
 # Update Frequency: 10 mins 
 # Aggregation     : 30 days 
-# Entries         : 5388 subnets, 1413120 unique IPs
+# Entries         : 5393 subnets, 1414400 unique IPs
 #
 # Full list analysis, including geolocation map, history,
 # retention policy, overlaps with other lists, etc.
@@ -376,6 +376,7 @@
 36.80.56.0/24
 36.84.248.0/24
 36.100.91.0/24
+36.101.13.0/24
 36.107.162.0/24
 36.107.212.0/24
 36.109.199.0/24
@@ -1631,6 +1632,7 @@
 88.149.164.0/24
 88.150.240.0/24
 88.150.252.0/24
+88.198.167.0/24
 88.203.160.0/24
 88.205.237.0/24
 88.208.220.0/24
@@ -2044,6 +2046,7 @@
 104.197.84.0/24
 104.197.123.0/24
 104.200.132.0/24
+104.207.151.0/24
 104.207.155.0/24
 104.215.103.0/24
 104.216.9.0/24
@@ -3912,6 +3915,7 @@
 179.184.176.0/24
 179.185.66.0/24
 179.186.62.0/24
+179.188.2.0/24
 179.189.87.0/24
 179.191.13.0/24
 179.191.217.0/24
@@ -4740,6 +4744,7 @@
 201.191.207.0/24
 201.194.91.0/24
 201.195.18.0/24
+201.197.32.0/24
 201.203.142.0/24
 201.206.66.0/24
 201.206.92.0/24
