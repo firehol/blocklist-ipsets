@@ -12,15 +12,15 @@
 # Maintainer      : Pushing Inertia
 # Maintainer URL  : https://github.com/pushinginertia/ip-blacklist
 # List source URL : https://raw.githubusercontent.com/pushinginertia/ip-blacklist/master/ip_blacklist.conf
-# Source File Date: Sat Nov  7 22:45:41 UTC 2015
+# Source File Date: Wed Nov 11 23:55:48 UTC 2015
 #
 # Category        : reputation
-# Version         : 2
+# Version         : 3
 #
-# This File Date  : Sat Nov  7 22:45:41 UTC 2015
+# This File Date  : Wed Nov 11 23:55:48 UTC 2015
 # Update Frequency: 1 day 
 # Aggregation     : none
-# Entries         : 743 subnets, 42393736 unique IPs
+# Entries         : 744 subnets, 42459272 unique IPs
 #
 # Full list analysis, including geolocation map, history,
 # retention policy, overlaps with other lists, etc.
@@ -366,6 +366,7 @@
 107.6.192.0/18
 107.20.0.0/14
 107.150.32.0/19
+107.160.0.0/16
 107.161.16.0/20
 107.161.80.0/20
 107.161.112.0/20
