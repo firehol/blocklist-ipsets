@@ -21,7 +21,7 @@
 [ -f 'bambenek_ramnit.ipset' ] && /bin/touch --date=@1447168742 'bambenek_ramnit.ipset'
 [ -f 'bambenek_ranbyus.ipset' ] && /bin/touch --date=@1444101861 'bambenek_ranbyus.ipset'
 [ -f 'bambenek_simda.ipset' ] && /bin/touch --date=@1447235505 'bambenek_simda.ipset'
-[ -f 'bambenek_suppobox.ipset' ] && /bin/touch --date=@1447237401 'bambenek_suppobox.ipset'
+[ -f 'bambenek_suppobox.ipset' ] && /bin/touch --date=@1447238341 'bambenek_suppobox.ipset'
 [ -f 'bambenek_symmi.ipset' ] && /bin/touch --date=@1440669154 'bambenek_symmi.ipset'
 [ -f 'bambenek_tinba.ipset' ] && /bin/touch --date=@1447230676 'bambenek_tinba.ipset'
 [ -f 'bambenek_volatile.ipset' ] && /bin/touch --date=@1440669154 'bambenek_volatile.ipset'
