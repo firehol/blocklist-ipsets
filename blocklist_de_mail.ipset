@@ -10,15 +10,15 @@
 # Maintainer      : Blocklist.de
 # Maintainer URL  : https://www.blocklist.de/
 # List source URL : http://lists.blocklist.de/lists/mail.txt
-# Source File Date: Thu Nov 12 23:10:09 UTC 2015
+# Source File Date: Thu Nov 12 23:14:11 UTC 2015
 #
 # Category        : attacks
-# Version         : 736
+# Version         : 737
 #
-# This File Date  : Thu Nov 12 23:18:07 UTC 2015
+# This File Date  : Thu Nov 12 23:27:07 UTC 2015
 # Update Frequency: 15 mins 
 # Aggregation     : none
-# Entries         : 16068 unique IPs
+# Entries         : 16071 unique IPs
 #
 # Full list analysis, including geolocation map, history,
 # retention policy, overlaps with other lists, etc.
@@ -5077,6 +5077,7 @@
 58.242.212.28
 58.242.212.61
 58.242.212.62
+58.242.212.100
 58.242.212.101
 58.242.212.108
 58.242.212.124
@@ -5112,6 +5113,7 @@
 58.242.214.118
 58.242.214.163
 58.242.214.165
+58.242.214.169
 58.242.214.193
 58.242.214.212
 58.242.214.223
@@ -6690,6 +6692,7 @@
 98.127.52.210
 98.164.130.5
 99.111.80.79
+99.244.105.160
 100.9.240.75
 100.39.2.98
 101.59.194.183
