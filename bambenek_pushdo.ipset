@@ -10,15 +10,15 @@
 # Maintainer      : Bambenek Consulting
 # Maintainer URL  : http://osint.bambenekconsulting.com/feeds/
 # List source URL : http://osint.bambenekconsulting.com/feeds/pushdo-iplist.txt
-# Source File Date: Thu Nov 12 00:01:51 UTC 2015
+# Source File Date: Thu Nov 12 07:04:30 UTC 2015
 #
 # Category        : malware
-# Version         : 2
+# Version         : 3
 #
-# This File Date  : Thu Nov 12 00:09:34 UTC 2015
+# This File Date  : Thu Nov 12 07:09:33 UTC 2015
 # Update Frequency: 30 mins 
 # Aggregation     : none
-# Entries         : 2 unique IPs
+# Entries         : 1 unique IPs
 #
 # Full list analysis, including geolocation map, history,
 # retention policy, overlaps with other lists, etc.
@@ -30,4 +30,3 @@
 # Processed with FireHOL's iprange
 #
 52.28.249.128
-173.244.172.146
