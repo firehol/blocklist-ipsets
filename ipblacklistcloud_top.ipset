@@ -13,12 +13,12 @@
 # Maintainer      : IP Blacklist Cloud
 # Maintainer URL  : http://www.ip-finder.me/
 # List source URL : http://www.ip-finder.me/ip-full-list/
-# Source File Date: Wed Nov 11 01:36:56 UTC 2015
+# Source File Date: Thu Nov 12 01:54:18 UTC 2015
 #
 # Category        : abuse
-# Version         : 3
+# Version         : 4
 #
-# This File Date  : Wed Nov 11 01:36:56 UTC 2015
+# This File Date  : Thu Nov 12 01:54:18 UTC 2015
 # Update Frequency: 1 day 
 # Aggregation     : none
 # Entries         : 199 unique IPs
@@ -96,13 +96,13 @@
 85.65.3.186
 85.113.38.80
 85.204.118.142
-85.214.27.40
 87.255.57.169
 89.31.57.5
 89.187.142.208
 89.234.157.254
 91.109.247.173
 91.200.12.9
+91.200.12.11
 91.200.12.50
 91.200.12.138
 91.200.12.139
