@@ -10,15 +10,15 @@
 # Maintainer      : Bambenek Consulting
 # Maintainer URL  : http://osint.bambenekconsulting.com/feeds/
 # List source URL : http://osint.bambenekconsulting.com/feeds/suppobox-iplist.txt
-# Source File Date: Thu Nov 12 00:38:49 UTC 2015
+# Source File Date: Thu Nov 12 00:52:30 UTC 2015
 #
 # Category        : malware
-# Version         : 238
+# Version         : 239
 #
-# This File Date  : Thu Nov 12 00:54:21 UTC 2015
+# This File Date  : Thu Nov 12 01:09:33 UTC 2015
 # Update Frequency: 30 mins 
 # Aggregation     : none
-# Entries         : 143 unique IPs
+# Entries         : 142 unique IPs
 #
 # Full list analysis, including geolocation map, history,
 # retention policy, overlaps with other lists, etc.
@@ -41,7 +41,6 @@
 54.75.225.111
 54.169.63.43
 54.231.10.172
-54.231.14.20
 54.231.33.5
 54.231.81.122
 54.231.81.233
