@@ -10,15 +10,15 @@
 # Maintainer      : Bambenek Consulting
 # Maintainer URL  : http://osint.bambenekconsulting.com/feeds/
 # List source URL : http://osint.bambenekconsulting.com/feeds/dyre-iplist.txt
-# Source File Date: Wed Nov 11 01:32:18 UTC 2015
+# Source File Date: Thu Nov 12 00:03:09 UTC 2015
 #
 # Category        : malware
-# Version         : 19
+# Version         : 20
 #
-# This File Date  : Wed Nov 11 01:36:52 UTC 2015
+# This File Date  : Thu Nov 12 00:09:31 UTC 2015
 # Update Frequency: 30 mins 
 # Aggregation     : none
-# Entries         : 2 unique IPs
+# Entries         : 3 unique IPs
 #
 # Full list analysis, including geolocation map, history,
 # retention policy, overlaps with other lists, etc.
@@ -30,4 +30,5 @@
 # Processed with FireHOL's iprange
 #
 195.20.40.235
+195.20.41.55
 195.20.47.48
