@@ -10,15 +10,15 @@
 # Maintainer      : Bambenek Consulting
 # Maintainer URL  : http://osint.bambenekconsulting.com/feeds/
 # List source URL : http://osint.bambenekconsulting.com/feeds/matsnu-iplist.txt
-# Source File Date: Wed Nov 11 00:01:54 UTC 2015
+# Source File Date: Thu Nov 12 06:03:37 UTC 2015
 #
 # Category        : malware
-# Version         : 24
+# Version         : 25
 #
-# This File Date  : Wed Nov 11 00:09:55 UTC 2015
+# This File Date  : Thu Nov 12 06:09:36 UTC 2015
 # Update Frequency: 30 mins 
 # Aggregation     : none
-# Entries         : 14 unique IPs
+# Entries         : 5 unique IPs
 #
 # Full list analysis, including geolocation map, history,
 # retention policy, overlaps with other lists, etc.
@@ -30,16 +30,7 @@
 # Processed with FireHOL's iprange
 #
 23.227.38.32
-64.15.205.100
-64.15.205.101
-68.224.169.82
 104.40.179.178
 162.253.55.195
 185.53.177.9
-185.62.190.207
-185.72.217.59
 185.118.142.62
-198.167.140.55
-208.48.81.133
-208.48.81.134
-208.48.81.179
