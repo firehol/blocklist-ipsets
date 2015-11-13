@@ -10,15 +10,15 @@
 # Maintainer      : Blocklist.de
 # Maintainer URL  : https://www.blocklist.de/
 # List source URL : http://lists.blocklist.de/lists/imap.txt
-# Source File Date: Fri Nov 13 04:10:12 UTC 2015
+# Source File Date: Fri Nov 13 04:14:10 UTC 2015
 #
 # Category        : attacks
-# Version         : 747
+# Version         : 748
 #
-# This File Date  : Fri Nov 13 04:18:13 UTC 2015
+# This File Date  : Fri Nov 13 04:27:15 UTC 2015
 # Update Frequency: 15 mins 
 # Aggregation     : none
-# Entries         : 2130 unique IPs
+# Entries         : 2134 unique IPs
 #
 # Full list analysis, including geolocation map, history,
 # retention policy, overlaps with other lists, etc.
@@ -405,6 +405,7 @@
 42.119.105.50
 42.119.147.245
 43.255.112.133
+45.117.204.150
 46.2.97.151
 46.18.64.77
 46.29.252.101
@@ -900,6 +901,7 @@
 94.55.32.61
 94.72.182.20
 94.102.51.96
+94.102.53.140
 94.102.63.125
 94.102.63.151
 94.153.159.187
@@ -1495,6 +1497,7 @@
 124.73.147.144
 124.73.148.152
 124.73.150.8
+124.73.151.152
 124.73.151.186
 124.73.153.35
 124.73.154.19
@@ -1617,6 +1620,7 @@
 173.208.222.101
 173.240.15.229
 173.243.119.233
+174.141.91.150
 175.45.186.150
 175.100.48.126
 175.100.69.224
