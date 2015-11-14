@@ -16,15 +16,15 @@
 # Maintainer      : blocklist.net.ua
 # Maintainer URL  : https://blocklist.net.ua
 # List source URL : https://blocklist.net.ua/blocklist.csv
-# Source File Date: Sat Nov 14 02:25:03 UTC 2015
+# Source File Date: Sat Nov 14 02:35:08 UTC 2015
 #
 # Category        : abuse
-# Version         : 1585
+# Version         : 1586
 #
-# This File Date  : Sat Nov 14 02:27:20 UTC 2015
+# This File Date  : Sat Nov 14 02:36:27 UTC 2015
 # Update Frequency: 10 mins 
 # Aggregation     : none
-# Entries         : 16592 unique IPs
+# Entries         : 16590 unique IPs
 #
 # Full list analysis, including geolocation map, history,
 # retention policy, overlaps with other lists, etc.
@@ -375,6 +375,7 @@
 5.189.128.102
 5.189.140.133
 5.189.143.176
+5.189.161.127
 5.196.19.245
 5.196.34.52
 5.196.64.151
@@ -409,7 +410,6 @@
 5.231.20.26
 5.231.21.7
 5.231.22.8
-5.231.22.10
 5.231.22.15
 5.231.30.129
 5.231.30.153
@@ -9018,7 +9018,6 @@
 112.175.184.18
 112.196.16.53
 112.198.110.254
-112.198.118.83
 112.198.118.167
 112.208.45.211
 112.208.190.229
@@ -9137,7 +9136,6 @@
 114.249.28.176
 115.21.247.251
 115.28.25.125
-115.28.28.164
 115.28.52.26
 115.28.68.88
 115.28.72.14
