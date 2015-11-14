@@ -10,15 +10,15 @@
 # Maintainer      : AutoShun.org
 # Maintainer URL  : http://autoshun.org/
 # List source URL : http://www.autoshun.org/files/shunlist.csv
-# Source File Date: Sat Nov 14 01:30:05 UTC 2015
+# Source File Date: Sat Nov 14 05:30:05 UTC 2015
 #
 # Category        : attacks
-# Version         : 72
+# Version         : 73
 #
-# This File Date  : Sat Nov 14 01:37:33 UTC 2015
+# This File Date  : Sat Nov 14 05:46:21 UTC 2015
 # Update Frequency: 4 hours 
 # Aggregation     : none
-# Entries         : 1179 unique IPs
+# Entries         : 1184 unique IPs
 #
 # Full list analysis, including geolocation map, history,
 # retention policy, overlaps with other lists, etc.
@@ -38,6 +38,7 @@
 2.132.43.17
 2.139.226.231
 5.8.66.129
+5.10.74.194
 5.39.251.4
 5.101.157.60
 5.135.53.45
@@ -648,6 +649,8 @@
 111.162.153.190
 111.203.22.57
 111.227.172.237
+112.134.159.188
+112.134.210.200
 112.160.101.201
 112.168.92.138
 112.217.102.186
@@ -987,6 +990,7 @@
 198.7.59.204
 198.11.173.81
 198.38.82.230
+198.50.201.56
 198.57.155.58
 198.57.198.176
 198.71.228.51
@@ -1057,6 +1061,7 @@
 207.150.183.113
 207.225.51.24
 207.235.72.134
+207.244.83.130
 207.255.97.181
 207.255.194.18
 208.67.1.91
