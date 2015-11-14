@@ -10,15 +10,15 @@
 # Maintainer      : Bambenek Consulting
 # Maintainer URL  : http://osint.bambenekconsulting.com/feeds/
 # List source URL : http://osint.bambenekconsulting.com/feeds/bebloh-iplist.txt
-# Source File Date: Sat Nov 14 06:05:29 UTC 2015
+# Source File Date: Sat Nov 14 09:05:49 UTC 2015
 #
 # Category        : malware
-# Version         : 23
+# Version         : 24
 #
-# This File Date  : Sat Nov 14 06:19:30 UTC 2015
+# This File Date  : Sat Nov 14 09:09:38 UTC 2015
 # Update Frequency: 30 mins 
 # Aggregation     : none
-# Entries         : 5 unique IPs
+# Entries         : 4 unique IPs
 #
 # Full list analysis, including geolocation map, history,
 # retention policy, overlaps with other lists, etc.
@@ -30,7 +30,6 @@
 # Processed with FireHOL's iprange
 #
 64.32.26.89
-109.234.109.76
 166.78.145.90
 205.164.14.72
 209.99.40.227
