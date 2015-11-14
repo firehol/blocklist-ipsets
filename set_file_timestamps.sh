@@ -948,7 +948,7 @@
 [ -f 'ipblacklistcloud_recent_30d.ipset' ] && /bin/touch --date=@1447486933 'ipblacklistcloud_recent_30d.ipset'
 [ -f 'ipblacklistcloud_recent_7d.ipset' ] && /bin/touch --date=@1447486933 'ipblacklistcloud_recent_7d.ipset'
 [ -f 'ipblacklistcloud_top.ipset' ] && /bin/touch --date=@1447468042 'ipblacklistcloud_top.ipset'
-[ -f 'iw_spamlist.ipset' ] && /bin/touch --date=@1447491109 'iw_spamlist.ipset'
+[ -f 'iw_spamlist.ipset' ] && /bin/touch --date=@1447494709 'iw_spamlist.ipset'
 [ -f 'iw_wormlist.ipset' ] && /bin/touch --date=@1447488409 'iw_wormlist.ipset'
 [ -f 'lashback_ubl.ipset' ] && /bin/touch --date=@1447467438 'lashback_ubl.ipset'
 [ -f 'malc0de.ipset' ] && /bin/touch --date=@1447424224 'malc0de.ipset'
