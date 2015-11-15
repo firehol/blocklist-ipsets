@@ -10,12 +10,12 @@
 # Maintainer      : Blockchain.info
 # Maintainer URL  : https://blockchain.info/en/connected-nodes
 # List source URL : https://blockchain.info/en/connected-nodes
-# Source File Date: Sun Nov 15 01:19:11 UTC 2015
+# Source File Date: Sun Nov 15 01:37:17 UTC 2015
 #
 # Category        : reputation
-# Version         : 700
+# Version         : 701
 #
-# This File Date  : Sun Nov 15 01:19:11 UTC 2015
+# This File Date  : Sun Nov 15 01:37:19 UTC 2015
 # Update Frequency: 10 mins 
 # Aggregation     : 1 day 
 # Entries         : 574 unique IPs
@@ -30,7 +30,6 @@
 # Processed with FireHOL's iprange
 #
 0.9.2.1
-5.1.20.232
 5.9.56.103
 5.9.94.21
 5.9.100.147
@@ -358,6 +357,7 @@
 104.196.14.137
 104.196.15.76
 104.197.5.172
+104.207.133.198
 104.236.186.249
 104.236.192.133
 104.238.167.191
