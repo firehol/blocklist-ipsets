@@ -10,15 +10,15 @@
 # Maintainer      : Collective Intelligence Network Security
 # Maintainer URL  : http://ciarmy.com/
 # List source URL : http://cinsscore.com/list/ci-badguys.txt
-# Source File Date: Sun Nov 15 04:15:25 UTC 2015
+# Source File Date: Sun Nov 15 08:15:21 UTC 2015
 #
 # Category        : reputation
-# Version         : 105
+# Version         : 106
 #
-# This File Date  : Sun Nov 15 04:18:17 UTC 2015
+# This File Date  : Sun Nov 15 08:54:11 UTC 2015
 # Update Frequency: 3 hours 
 # Aggregation     : none
-# Entries         : 390 unique IPs
+# Entries         : 397 unique IPs
 #
 # Full list analysis, including geolocation map, history,
 # retention policy, overlaps with other lists, etc.
@@ -39,6 +39,7 @@
 5.135.110.164
 5.154.190.54
 5.189.171.83
+14.29.32.149
 14.47.51.21
 14.53.239.18
 14.152.84.23
@@ -92,6 +93,7 @@
 59.61.216.55
 59.72.128.128
 59.173.13.235
+59.174.110.115
 59.174.111.29
 60.190.251.203
 60.191.129.138
@@ -101,6 +103,7 @@
 61.120.154.119
 61.147.70.101
 61.147.70.142
+61.156.235.172
 61.164.161.167
 61.166.147.68
 61.174.14.195
@@ -232,6 +235,7 @@
 115.144.107.248
 115.144.107.249
 115.144.122.55
+115.231.219.252
 117.27.240.24
 117.149.2.42
 118.38.80.119
@@ -241,10 +245,12 @@
 118.161.71.250
 118.193.170.58
 118.193.249.62
+118.244.129.165
 119.10.10.238
 119.39.20.26
 119.97.184.174
 119.194.47.123
+119.194.115.34
 120.132.94.53
 120.210.171.249
 120.237.240.226
@@ -255,6 +261,7 @@
 121.189.96.222
 121.195.0.21
 122.10.82.68
+122.114.53.248
 122.114.116.119
 122.114.124.26
 122.224.245.118
