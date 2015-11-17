@@ -15,15 +15,15 @@
 # Maintainer      : OpenBL.org
 # Maintainer URL  : http://www.openbl.org/
 # List source URL : http://www.openbl.org/lists/base_1days.txt
-# Source File Date: Tue Nov 17 21:32:02 UTC 2015
+# Source File Date: Tue Nov 17 22:32:02 UTC 2015
 #
 # Category        : attacks
-# Version         : 205
+# Version         : 206
 #
-# This File Date  : Tue Nov 17 21:36:03 UTC 2015
+# This File Date  : Tue Nov 17 22:36:02 UTC 2015
 # Update Frequency: 1 hour 
 # Aggregation     : none
-# Entries         : 119 unique IPs
+# Entries         : 118 unique IPs
 #
 # Full list analysis, including geolocation map, history,
 # retention policy, overlaps with other lists, etc.
@@ -50,6 +50,7 @@
 46.246.83.249
 50.232.236.242
 51.254.133.166
+58.214.18.235
 58.218.211.38
 59.45.79.116
 59.47.0.148
@@ -62,7 +63,6 @@
 80.191.202.2
 82.138.1.118
 82.146.61.32
-90.170.113.36
 91.200.12.111
 91.217.91.13
 93.79.218.79
@@ -74,7 +74,6 @@
 110.77.140.129
 110.77.165.184
 112.187.199.184
-113.87.133.144
 113.190.247.129
 113.195.145.70
 114.255.159.85
@@ -88,7 +87,6 @@
 121.42.140.239
 122.231.14.13
 123.30.171.144
-123.49.57.222
 123.56.108.130
 123.56.127.80
 123.178.29.74
@@ -97,6 +95,7 @@
 128.120.83.126
 128.120.83.144
 151.237.169.213
+153.149.34.62
 157.203.53.97
 158.69.195.20
 158.69.195.225
