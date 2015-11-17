@@ -9,15 +9,15 @@
 # Maintainer      : ProxySpy (spys.ru)
 # Maintainer URL  : http://spys.ru/en/
 # List source URL : http://txt.proxyspy.net/proxy.txt
-# Source File Date: Tue Nov 17 20:56:04 UTC 2015
+# Source File Date: Tue Nov 17 21:56:03 UTC 2015
 #
 # Category        : anonymizers
-# Version         : 331
+# Version         : 332
 #
-# This File Date  : Tue Nov 17 22:09:31 UTC 2015
+# This File Date  : Tue Nov 17 22:18:12 UTC 2015
 # Update Frequency: 1 hour 
 # Aggregation     : 30 days 
-# Entries         : 5494 unique IPs
+# Entries         : 5498 unique IPs
 #
 # Full list analysis, including geolocation map, history,
 # retention policy, overlaps with other lists, etc.
@@ -417,6 +417,7 @@
 41.39.71.60
 41.41.128.12
 41.46.198.131
+41.46.205.174
 41.67.80.25
 41.67.81.164
 41.72.105.38
@@ -2159,9 +2160,11 @@
 109.224.56.210
 109.230.117.59
 109.232.106.142
+109.235.251.132
 109.236.122.245
 109.237.13.181
 109.237.13.225
+109.239.196.74
 109.251.37.238
 110.5.110.118
 110.15.29.190
@@ -4609,6 +4612,7 @@
 198.205.122.66
 198.211.126.11
 198.211.126.204
+198.244.104.85
 199.83.141.246
 199.115.114.38
 199.175.52.84
