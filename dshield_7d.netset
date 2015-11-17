@@ -9,15 +9,15 @@
 # Maintainer      : DShield.org
 # Maintainer URL  : https://dshield.org/
 # List source URL : http://feeds.dshield.org/block.txt
-# Source File Date: Tue Nov 17 10:11:10 UTC 2015
+# Source File Date: Tue Nov 17 10:40:59 UTC 2015
 #
 # Category        : attacks
-# Version         : 1059
+# Version         : 1060
 #
-# This File Date  : Tue Nov 17 10:18:03 UTC 2015
+# This File Date  : Tue Nov 17 10:45:04 UTC 2015
 # Update Frequency: 10 mins 
 # Aggregation     : 7 days 
-# Entries         : 1614 subnets, 419328 unique IPs
+# Entries         : 1612 subnets, 418816 unique IPs
 #
 # Full list analysis, including geolocation map, history,
 # retention policy, overlaps with other lists, etc.
@@ -29,7 +29,6 @@
 # Processed with FireHOL's iprange
 #
 1.27.132.0/24
-1.28.236.0/24
 1.34.85.0/24
 1.61.55.0/24
 1.93.5.0/24
@@ -476,7 +475,6 @@
 85.113.55.0/24
 85.114.41.0/24
 85.130.222.0/24
-85.233.254.0/24
 85.250.233.0/24
 86.101.109.0/24
 86.125.246.0/24
@@ -496,7 +494,6 @@
 88.248.146.0/24
 88.249.126.0/24
 88.250.66.0/24
-88.250.244.0/24
 89.107.137.0/24
 89.108.85.0/24
 89.108.107.0/24
@@ -687,7 +684,6 @@
 111.178.146.0/24
 111.192.231.0/24
 111.198.173.0/24
-111.202.0.0/24
 111.207.25.0/24
 111.243.56.0/24
 111.243.66.0/24
@@ -860,6 +856,7 @@
 119.84.76.0/24
 119.84.125.0/24
 119.90.18.0/24
+119.97.137.0/24
 119.97.153.0/24
 119.112.95.0/24
 119.119.123.0/24
@@ -889,6 +886,7 @@
 120.25.216.0/24
 120.25.225.0/24
 120.25.226.0/24
+120.26.140.0/24
 120.26.217.0/24
 120.32.192.0/24
 120.42.188.0/24
