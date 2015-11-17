@@ -10,15 +10,15 @@
 # Maintainer      : Blocklist.de
 # Maintainer URL  : https://www.blocklist.de/
 # List source URL : http://lists.blocklist.de/lists/ftp.txt
-# Source File Date: Tue Nov 17 12:28:09 UTC 2015
+# Source File Date: Tue Nov 17 12:42:12 UTC 2015
 #
 # Category        : attacks
-# Version         : 1037
+# Version         : 1038
 #
-# This File Date  : Tue Nov 17 12:36:14 UTC 2015
+# This File Date  : Tue Nov 17 12:45:09 UTC 2015
 # Update Frequency: 15 mins 
 # Aggregation     : none
-# Entries         : 547 unique IPs
+# Entries         : 545 unique IPs
 #
 # Full list analysis, including geolocation map, history,
 # retention policy, overlaps with other lists, etc.
@@ -121,6 +121,7 @@
 59.38.97.101
 59.38.97.106
 59.38.97.131
+59.38.97.136
 59.38.97.138
 59.38.97.148
 59.38.97.157
@@ -332,7 +333,6 @@
 120.204.67.99
 120.204.67.101
 120.237.8.201
-121.12.105.26
 121.12.105.162
 121.17.120.98
 121.26.215.250
@@ -446,7 +446,6 @@
 179.155.151.200
 179.179.87.197
 179.181.192.136
-179.182.10.251
 179.182.139.118
 179.189.113.154
 179.211.97.103
@@ -546,7 +545,6 @@
 212.13.64.42
 213.207.44.34
 217.23.12.229
-217.66.198.20
 217.80.3.28
 217.80.21.213
 218.5.250.47
