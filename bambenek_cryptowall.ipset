@@ -10,15 +10,15 @@
 # Maintainer      : Bambenek Consulting
 # Maintainer URL  : http://osint.bambenekconsulting.com/feeds/
 # List source URL : http://osint.bambenekconsulting.com/feeds/cryptowall-iplist.txt
-# Source File Date: Mon Nov 16 21:04:45 UTC 2015
+# Source File Date: Tue Nov 17 10:05:27 UTC 2015
 #
 # Category        : malware
-# Version         : 76
+# Version         : 77
 #
-# This File Date  : Mon Nov 16 21:09:34 UTC 2015
+# This File Date  : Tue Nov 17 10:09:31 UTC 2015
 # Update Frequency: 30 mins 
 # Aggregation     : none
-# Entries         : 14 unique IPs
+# Entries         : 15 unique IPs
 #
 # Full list analysis, including geolocation map, history,
 # retention policy, overlaps with other lists, etc.
@@ -38,6 +38,7 @@
 194.58.56.42
 194.58.56.58
 194.58.56.60
+194.58.56.96
 194.58.56.160
 194.58.56.180
 194.58.56.192
