@@ -12,15 +12,15 @@
 # Maintainer      : VirBL.bit.nl
 # Maintainer URL  : http://virbl.bit.nl/
 # List source URL : http://virbl.bit.nl/download/virbl.dnsbl.bit.nl.txt
-# Source File Date: Wed Nov 18 01:42:04 UTC 2015
+# Source File Date: Wed Nov 18 02:42:03 UTC 2015
 #
 # Category        : spam
-# Version         : 284
+# Version         : 285
 #
-# This File Date  : Wed Nov 18 01:45:19 UTC 2015
+# This File Date  : Wed Nov 18 02:46:41 UTC 2015
 # Update Frequency: 1 hour 
 # Aggregation     : none
-# Entries         : 27 unique IPs
+# Entries         : 26 unique IPs
 #
 # Full list analysis, including geolocation map, history,
 # retention policy, overlaps with other lists, etc.
@@ -33,7 +33,6 @@
 #
 41.138.183.40
 50.87.144.59
-52.27.152.3
 66.68.56.232
 67.52.222.114
 69.24.63.85
@@ -49,12 +48,12 @@
 181.48.193.86
 185.4.133.62
 185.24.233.67
-185.29.8.6
 188.193.240.166
 192.185.4.77
 192.185.82.194
 192.254.250.172
 195.211.101.75
+198.57.247.204
 198.57.247.231
 212.227.82.145
 213.82.110.170
