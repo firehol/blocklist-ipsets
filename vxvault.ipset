@@ -9,12 +9,12 @@
 # Maintainer      : VxVault
 # Maintainer URL  : http://vxvault.net
 # List source URL : http://vxvault.net/ViriList.php?s=0&m=100
-# Source File Date: Tue Nov 17 01:00:40 UTC 2015
+# Source File Date: Wed Nov 18 01:18:53 UTC 2015
 #
 # Category        : malware
-# Version         : 10
+# Version         : 11
 #
-# This File Date  : Tue Nov 17 01:00:40 UTC 2015
+# This File Date  : Wed Nov 18 01:18:53 UTC 2015
 # Update Frequency: 12 hours 
 # Aggregation     : none
 # Entries         : 44 unique IPs
@@ -46,7 +46,6 @@
 88.86.117.154
 88.86.117.156
 91.223.88.54
-94.73.145.30
 95.143.194.106
 95.211.144.65
 95.211.241.118
@@ -69,6 +68,7 @@
 198.105.221.5
 199.175.55.116
 203.172.180.195
+205.185.216.10
 211.149.231.175
 213.157.198.39
 217.160.22.233
