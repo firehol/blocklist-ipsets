@@ -9,15 +9,15 @@
 # Maintainer      : BitNodes
 # Maintainer URL  : https://getaddr.bitnodes.io/
 # List source URL : https://getaddr.bitnodes.io/api/v1/snapshots/latest/
-# Source File Date: Wed Nov 18 04:45:56 UTC 2015
+# Source File Date: Wed Nov 18 05:00:58 UTC 2015
 #
 # Category        : reputation
-# Version         : 1339
+# Version         : 1340
 #
-# This File Date  : Wed Nov 18 04:46:07 UTC 2015
+# This File Date  : Wed Nov 18 05:01:09 UTC 2015
 # Update Frequency: 10 mins 
 # Aggregation     : 30 days 
-# Entries         : 40732 unique IPs
+# Entries         : 40738 unique IPs
 #
 # Full list analysis, including geolocation map, history,
 # retention policy, overlaps with other lists, etc.
@@ -43,6 +43,7 @@
 1.32.24.245
 1.32.35.97
 1.33.197.110
+1.34.168.128
 1.34.180.245
 1.36.149.33
 1.36.149.148
@@ -8144,6 +8145,7 @@
 69.193.71.2
 69.195.140.202
 69.196.139.133
+69.196.140.233
 69.196.141.131
 69.196.166.194
 69.196.173.4
@@ -23756,6 +23758,7 @@
 95.133.43.109
 95.133.49.54
 95.133.53.190
+95.133.60.178
 95.133.60.191
 95.133.66.28
 95.133.67.191
@@ -26232,6 +26235,7 @@
 109.126.233.36
 109.126.238.202
 109.126.242.208
+109.126.245.237
 109.126.248.212
 109.126.251.218
 109.126.254.80
@@ -30730,6 +30734,7 @@
 142.162.42.243
 142.162.49.154
 142.162.56.143
+142.162.226.172
 142.165.167.196
 142.166.189.70
 142.169.100.233
@@ -34855,6 +34860,7 @@
 180.183.157.71
 180.183.157.165
 180.183.194.93
+180.183.204.194
 180.200.128.58
 180.200.185.53
 180.210.34.58
