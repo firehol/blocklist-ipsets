@@ -15,15 +15,15 @@
 # Maintainer      : OpenBL.org
 # Maintainer URL  : http://www.openbl.org/
 # List source URL : http://www.openbl.org/lists/base_all.txt
-# Source File Date: Wed Nov 18 20:22:11 UTC 2015
+# Source File Date: Thu Nov 19 00:22:12 UTC 2015
 #
 # Category        : attacks
-# Version         : 58
+# Version         : 59
 #
-# This File Date  : Wed Nov 18 20:27:24 UTC 2015
+# This File Date  : Thu Nov 19 00:27:07 UTC 2015
 # Update Frequency: 4 hours 
 # Aggregation     : none
-# Entries         : 108905 unique IPs
+# Entries         : 108911 unique IPs
 #
 # Full list analysis, including geolocation map, history,
 # retention policy, overlaps with other lists, etc.
@@ -1734,6 +1734,7 @@
 12.233.180.226
 12.234.176.221
 12.234.232.2
+12.235.25.34
 12.235.41.141
 12.236.34.135
 12.236.34.152
@@ -5114,6 +5115,7 @@
 37.32.25.115
 37.32.32.140
 37.32.44.184
+37.32.47.106
 37.32.65.146
 37.34.51.134
 37.34.62.245
@@ -8333,6 +8335,7 @@
 46.166.152.229
 46.166.158.138
 46.166.161.182
+46.166.165.30
 46.166.166.54
 46.166.166.103
 46.166.168.75
@@ -64209,6 +64212,7 @@
 162.211.168.6
 162.212.1.14
 162.212.1.218
+162.212.1.240
 162.212.14.70
 162.212.32.69
 162.212.34.75
@@ -65698,6 +65702,7 @@
 173.63.62.156
 173.63.153.35
 173.63.155.180
+173.65.67.76
 173.65.132.64
 173.66.42.12
 173.66.88.111
@@ -75243,6 +75248,7 @@
 186.28.6.175
 186.28.229.17
 186.28.247.62
+186.29.69.222
 186.30.150.80
 186.30.206.68
 186.30.210.64
