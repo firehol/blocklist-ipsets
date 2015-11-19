@@ -10,15 +10,15 @@
 # Maintainer      : Bambenek Consulting
 # Maintainer URL  : http://osint.bambenekconsulting.com/feeds/
 # List source URL : http://osint.bambenekconsulting.com/feeds/c2-ipmasterlist.txt
-# Source File Date: Thu Nov 19 08:11:59 UTC 2015
+# Source File Date: Thu Nov 19 09:11:02 UTC 2015
 #
 # Category        : malware
-# Version         : 515
+# Version         : 516
 #
-# This File Date  : Thu Nov 19 08:18:21 UTC 2015
+# This File Date  : Thu Nov 19 09:21:25 UTC 2015
 # Update Frequency: 30 mins 
 # Aggregation     : none
-# Entries         : 181 unique IPs
+# Entries         : 182 unique IPs
 #
 # Full list analysis, including geolocation map, history,
 # retention policy, overlaps with other lists, etc.
@@ -44,6 +44,7 @@
 52.30.92.59
 54.72.9.51
 54.72.130.67
+54.171.28.66
 54.186.220.79
 54.194.225.82
 54.200.80.127
@@ -64,13 +65,13 @@
 65.246.196.49
 66.96.131.56
 66.147.244.91
-66.196.36.20
 69.57.185.11
 69.195.100.231
 69.195.129.76
 69.195.129.78
 72.5.65.113
 72.47.224.99
+72.52.4.90
 72.52.128.19
 74.84.144.31
 74.220.215.106
