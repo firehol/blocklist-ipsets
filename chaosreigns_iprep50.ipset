@@ -12,15 +12,15 @@
 # Maintainer      : ChaosReigns.com
 # Maintainer URL  : http://www.chaosreigns.com/iprep
 # List source URL : http://www.chaosreigns.com/iprep/iprep.txt
-# Source File Date: Wed Nov 18 10:53:48 UTC 2015
+# Source File Date: Thu Nov 19 10:04:37 UTC 2015
 #
 # Category        : spam
-# Version         : 15
+# Version         : 16
 #
-# This File Date  : Wed Nov 18 11:09:32 UTC 2015
+# This File Date  : Thu Nov 19 11:09:45 UTC 2015
 # Update Frequency: 1 day 
 # Aggregation     : none
-# Entries         : 119 unique IPs
+# Entries         : 115 unique IPs
 #
 # Full list analysis, including geolocation map, history,
 # retention policy, overlaps with other lists, etc.
@@ -39,11 +39,10 @@
 27.100.31.129
 27.100.31.251
 37.235.56.209
-46.166.144.147
-46.166.144.149
-46.166.144.152
+46.166.144.158
 54.240.10.55
 54.240.10.103
+62.210.57.50
 64.12.143.145
 64.12.206.41
 64.12.206.42
@@ -108,6 +107,8 @@
 98.139.91.222
 98.139.91.234
 98.139.212.160
+98.139.213.150
+99.240.221.15
 103.29.73.81
 103.29.73.130
 108.59.244.154
@@ -122,9 +123,6 @@
 180.222.35.39
 180.222.51.65
 180.222.51.90
-185.116.47.94
-185.116.47.95
-185.116.47.97
 188.93.157.116
 195.245.231.130
 199.127.232.82
@@ -136,14 +134,12 @@
 205.201.135.72
 206.72.127.110
 206.72.127.114
-208.95.134.167
 208.109.80.23
 208.109.80.24
 208.109.80.80
 209.11.164.136
 209.85.128.51
 209.85.210.173
-209.85.223.173
 216.24.225.27
 216.54.194.200
 216.82.250.179
