@@ -8,15 +8,15 @@
 # Maintainer      : NoThink.org
 # Maintainer URL  : http://www.nothink.org/
 # List source URL : http://www.nothink.org/blacklist/blacklist_ssh_week.txt
-# Source File Date: Tue Nov 17 23:05:04 UTC 2015
+# Source File Date: Wed Nov 18 23:05:05 UTC 2015
 #
 # Category        : attacks
-# Version         : 16
+# Version         : 17
 #
-# This File Date  : Tue Nov 17 23:18:49 UTC 2015
+# This File Date  : Thu Nov 19 00:02:54 UTC 2015
 # Update Frequency: 1 hour 
 # Aggregation     : none
-# Entries         : 73 unique IPs
+# Entries         : 68 unique IPs
 #
 # Full list analysis, including geolocation map, history,
 # retention policy, overlaps with other lists, etc.
@@ -32,19 +32,17 @@
 27.75.167.208
 31.44.65.165
 36.233.175.23
-45.63.66.85
+46.148.16.98
 54.183.195.7
-54.210.100.205
 58.211.45.237
 61.240.144.64
 65.181.123.176
-66.11.129.73
 69.30.203.30
 70.106.237.52
 79.4.79.33
-80.82.79.42
 80.82.79.234
 85.17.30.151
+89.163.212.64
 89.248.160.155
 93.174.93.138
 94.102.60.191
@@ -56,16 +54,17 @@
 107.150.19.109
 109.235.254.181
 111.255.34.180
-112.217.202.210
 115.192.209.199
 116.31.103.100
 118.26.143.50
+119.164.254.57
 120.26.74.62
 123.151.42.61
 125.76.223.86
 125.118.107.32
 125.118.203.18
 128.199.149.28
+139.162.23.188
 148.163.73.23
 149.202.52.100
 154.73.140.247
@@ -84,11 +83,7 @@
 186.193.94.235
 186.227.161.165
 189.55.57.178
-192.95.56.127
-192.198.83.186
 193.104.41.54
-193.107.16.206
-197.157.244.243
 198.46.62.69
 201.62.51.132
 203.78.181.142
