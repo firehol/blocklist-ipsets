@@ -9,15 +9,15 @@
 # Maintainer      : ProxZ.com
 # Maintainer URL  : http://www.proxz.com/
 # List source URL : http://www.proxz.com/proxylists.xml
-# Source File Date: Thu Nov 19 19:31:56 UTC 2015
+# Source File Date: Thu Nov 19 21:32:00 UTC 2015
 #
 # Category        : anonymizers
-# Version         : 191
+# Version         : 192
 #
-# This File Date  : Thu Nov 19 19:45:18 UTC 2015
+# This File Date  : Thu Nov 19 21:45:32 UTC 2015
 # Update Frequency: 1 hour 
 # Aggregation     : none
-# Entries         : 26 unique IPs
+# Entries         : 23 unique IPs
 #
 # Full list analysis, including geolocation map, history,
 # retention policy, overlaps with other lists, etc.
@@ -29,28 +29,25 @@
 # Processed with FireHOL's iprange
 #
 5.2.18.13
-5.9.120.244
-5.196.0.42
-46.162.195.42
-58.243.0.162
-91.121.175.185
-118.238.25.61
-121.8.170.53
+37.187.152.193
+49.140.67.83
+50.30.35.62
+69.63.136.63
+72.47.104.156
+80.241.244.46
+82.196.1.157
+91.121.121.199
+92.90.81.58
 128.199.211.87
-144.191.192.106
-153.126.208.185
-163.44.149.113
-167.160.163.105
-178.33.132.31
-184.69.67.122
+158.199.193.166
 188.39.148.166
 192.99.71.135
 192.99.246.195
-203.113.135.131
-208.109.249.220
-217.65.0.206
-217.65.0.250
-218.56.132.154
-218.205.17.67
-218.247.184.162
-220.166.254.61
+198.169.246.30
+218.21.230.156
+218.56.132.156
+218.200.66.197
+220.211.228.199
+220.213.228.173
+221.8.11.110
+221.212.74.204
