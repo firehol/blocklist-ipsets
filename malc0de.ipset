@@ -9,15 +9,15 @@
 # Maintainer      : malc0de.com
 # Maintainer URL  : http://malc0de.com/
 # List source URL : http://malc0de.com/bl/IP_Blacklist.txt
-# Source File Date: Wed Nov 18 14:17:04 UTC 2015
+# Source File Date: Thu Nov 19 14:17:05 UTC 2015
 #
 # Category        : malware
-# Version         : 16
+# Version         : 17
 #
-# This File Date  : Wed Nov 18 14:31:30 UTC 2015
+# This File Date  : Thu Nov 19 14:27:23 UTC 2015
 # Update Frequency: 1 day 
 # Aggregation     : none
-# Entries         : 375 unique IPs
+# Entries         : 382 unique IPs
 #
 # Full list analysis, including geolocation map, history,
 # retention policy, overlaps with other lists, etc.
@@ -34,6 +34,7 @@
 5.35.253.150
 5.39.58.66
 5.56.133.79
+5.58.67.110
 5.101.152.98
 5.135.134.178
 5.149.254.183
@@ -189,6 +190,8 @@
 88.86.117.154
 88.86.117.156
 88.198.35.38
+89.35.178.109
+91.191.172.101
 93.184.215.200
 93.188.160.105
 94.23.144.238
@@ -258,6 +261,7 @@
 118.193.255.109
 118.238.19.169
 119.84.15.34
+119.84.75.34
 119.206.199.154
 120.55.105.77
 120.55.106.128
@@ -290,6 +294,7 @@
 158.69.23.186
 159.253.37.243
 160.153.16.14
+160.153.16.53
 160.153.19.195
 162.159.211.59
 165.244.62.83
@@ -322,6 +327,7 @@
 185.6.178.14
 185.47.13.82
 185.70.187.241
+185.82.203.128
 185.93.0.16
 185.93.0.27
 188.165.16.132
@@ -385,6 +391,7 @@
 217.160.22.233
 217.174.151.2
 218.22.21.228
+218.75.155.253
 218.92.227.201
 218.146.254.33
 219.146.246.29
