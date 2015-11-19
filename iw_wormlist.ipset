@@ -9,15 +9,15 @@
 # Maintainer      : ImproWare Antispam
 # Maintainer URL  : http://antispam.imp.ch/
 # List source URL : http://antispam.imp.ch/wormlist
-# Source File Date: Wed Nov 18 13:21:54 UTC 2015
+# Source File Date: Thu Nov 19 12:21:55 UTC 2015
 #
 # Category        : spam
-# Version         : 43
+# Version         : 44
 #
-# This File Date  : Wed Nov 18 13:27:33 UTC 2015
+# This File Date  : Thu Nov 19 12:27:22 UTC 2015
 # Update Frequency: 1 hour 
 # Aggregation     : none
-# Entries         : 4 unique IPs
+# Entries         : 3 unique IPs
 #
 # Full list analysis, including geolocation map, history,
 # retention policy, overlaps with other lists, etc.
@@ -30,5 +30,4 @@
 #
 77.27.216.10
 81.152.0.0
-204.151.183.186
 218.79.46.203
