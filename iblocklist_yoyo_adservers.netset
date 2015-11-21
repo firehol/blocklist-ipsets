@@ -8,15 +8,15 @@
 # Maintainer      : iBlocklist.com
 # Maintainer URL  : https://www.iblocklist.com/
 # List source URL : http://list.iblocklist.com/?list=zhogegszwduurnvsyhdf&fileformat=p2p&archiveformat=gz
-# Source File Date: Sat Nov 14 12:30:06 UTC 2015
+# Source File Date: Sat Nov 21 13:40:56 UTC 2015
 #
 # Category        : organizations
-# Version         : 3
+# Version         : 4
 #
-# This File Date  : Sat Nov 14 12:55:43 UTC 2015
+# This File Date  : Sat Nov 21 14:05:09 UTC 2015
 # Update Frequency: 12 hours 
 # Aggregation     : none
-# Entries         : 11453 subnets, 12966 unique IPs
+# Entries         : 11447 subnets, 12959 unique IPs
 #
 # Full list analysis, including geolocation map, history,
 # retention policy, overlaps with other lists, etc.
@@ -3734,7 +3734,6 @@
 72.21.215.165
 72.21.215.197
 72.22.202.136
-72.22.205.14
 72.26.125.200
 72.26.224.162
 72.29.78.114
@@ -10085,9 +10084,6 @@
 212.110.12.189
 212.111.40.5
 212.111.40.6
-212.111.239.195
-212.111.239.199
-212.111.239.206
 212.112.51.22
 212.112.53.9
 212.112.128.54
@@ -10425,11 +10421,9 @@
 213.253.9.72/31
 213.254.229.3
 213.254.248.3
-216.7.84.22
-216.7.87.14
 216.7.89.11
 216.7.89.12/31
-216.7.89.16/31
+216.7.89.16
 216.7.89.220
 216.8.179.23
 216.8.179.24/31
