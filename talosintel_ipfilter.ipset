@@ -10,15 +10,15 @@
 # Maintainer      : TalosIntel.com
 # Maintainer URL  : http://talosintel.com/
 # List source URL : http://talosintel.com/feeds/ip-filter.blf
-# Source File Date: Sat Nov 21 13:00:00 UTC 2015
+# Source File Date: Sat Nov 21 13:15:00 UTC 2015
 #
 # Category        : attacks
-# Version         : 1154
+# Version         : 1155
 #
-# This File Date  : Sat Nov 21 13:00:22 UTC 2015
+# This File Date  : Sat Nov 21 13:19:02 UTC 2015
 # Update Frequency: 15 mins 
 # Aggregation     : none
-# Entries         : 31511 unique IPs
+# Entries         : 31505 unique IPs
 #
 # Full list analysis, including geolocation map, history,
 # retention policy, overlaps with other lists, etc.
@@ -7921,7 +7921,6 @@
 81.176.228.54
 81.177.126.17
 81.177.126.59
-81.177.135.231
 81.177.141.119
 81.177.141.131
 81.177.141.143
@@ -21465,8 +21464,6 @@
 177.10.65.159
 177.10.65.174
 177.10.88.72
-177.11.51.68
-177.11.51.69
 177.11.51.71
 177.12.97.55
 177.12.106.252
@@ -23597,7 +23594,6 @@
 185.22.217.12
 185.22.217.206
 185.23.16.105
-185.23.21.10
 185.23.48.240
 185.24.234.16
 185.24.234.108
@@ -26791,7 +26787,6 @@
 192.185.171.144
 192.185.176.12
 192.185.176.182
-192.185.176.241
 192.185.179.120
 192.185.179.153
 192.185.181.83
@@ -26861,7 +26856,6 @@
 192.254.233.187
 192.254.236.39
 192.254.250.17
-192.254.250.168
 192.254.250.171
 192.254.250.180
 192.254.250.183
