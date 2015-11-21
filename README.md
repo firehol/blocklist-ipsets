@@ -20,8 +20,8 @@
 # About this repo
 
 This repository includes a list of ipsets dynamically updated with
-firehol's (https://github.com/ktsaou/firehol) `update-ipsets.sh`
-script found [here](https://github.com/ktsaou/firehol/blob/master/contrib/update-ipsets.sh).
+firehol's (https://github.com/ktsaou/firehol) `update-ipsets.in`
+script found [here](https://github.com/firehol/firehol/blob/master/sbin/update-ipsets.in).
 
 This repo is self maintained. It it updated automatically from the script via a cron job.
 
