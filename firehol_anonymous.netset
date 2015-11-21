@@ -10,15 +10,15 @@
 # Maintainer      : FireHOL
 # Maintainer URL  : http://iplists.firehol.org/
 # List source URL : 
-# Source File Date: Sat Nov 21 14:12:02 UTC 2015
+# Source File Date: Sat Nov 21 14:32:02 UTC 2015
 #
 # Category        : anonymizers
-# Version         : 1323
+# Version         : 1324
 #
-# This File Date  : Sat Nov 21 14:11:40 UTC 2015
+# This File Date  : Sat Nov 21 14:28:29 UTC 2015
 # Update Frequency: 1 min 
 # Aggregation     : none
-# Entries         : 25702 subnets, 81223 unique IPs
+# Entries         : 25706 subnets, 81227 unique IPs
 #
 # Full list analysis, including geolocation map, history,
 # retention policy, overlaps with other lists, etc.
@@ -10055,6 +10055,7 @@
 108.174.112.129
 108.174.121.1
 108.174.123.193
+108.174.123.225
 108.174.156.71
 108.174.156.200
 108.180.159.252
@@ -16449,6 +16450,7 @@
 170.130.1.77
 170.130.1.106
 171.4.132.14
+171.5.59.249
 171.7.19.245
 171.8.37.142
 171.8.38.117
@@ -16846,6 +16848,7 @@
 176.31.239.33
 176.31.254.105
 176.31.255.6
+176.35.69.252
 176.35.78.23
 176.36.10.245
 176.36.35.126
@@ -23922,6 +23925,7 @@
 209.6.68.29
 209.6.141.94
 209.6.145.116
+209.6.179.166
 209.9.106.175
 209.29.141.133
 209.40.193.62
