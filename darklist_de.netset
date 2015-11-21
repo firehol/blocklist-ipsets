@@ -9,15 +9,15 @@
 # Maintainer      : darklist.de
 # Maintainer URL  : http://www.darklist.de/
 # List source URL : http://www.darklist.de/raw.php
-# Source File Date: Thu Nov 19 05:18:06 UTC 2015
+# Source File Date: Sat Nov 21 05:54:07 UTC 2015
 #
 # Category        : attacks
-# Version         : 3
+# Version         : 4
 #
-# This File Date  : Thu Nov 19 05:18:06 UTC 2015
+# This File Date  : Sat Nov 21 05:54:07 UTC 2015
 # Update Frequency: 1 day 
 # Aggregation     : none
-# Entries         : 14 subnets, 14 unique IPs
+# Entries         : 16 subnets, 16 unique IPs
 #
 # Full list analysis, including geolocation map, history,
 # retention policy, overlaps with other lists, etc.
@@ -33,11 +33,13 @@
 62.155.197.230
 89.19.177.43
 118.131.247.237
+119.195.205.212
 123.214.28.187
 125.129.246.253
 137.116.87.13
 178.137.94.14
 178.137.161.6
+193.238.152.14
 195.206.253.146
 218.65.30.92
 218.150.251.186
