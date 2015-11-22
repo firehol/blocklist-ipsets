@@ -11,15 +11,15 @@
 # Maintainer      : FireHOL
 # Maintainer URL  : http://iplists.firehol.org/
 # List source URL : 
-# Source File Date: Sun Nov 22 02:54:30 UTC 2015
+# Source File Date: Sun Nov 22 03:02:58 UTC 2015
 #
 # Category        : abuse
-# Version         : 1585
+# Version         : 1586
 #
-# This File Date  : Sun Nov 22 02:54:42 UTC 2015
+# This File Date  : Sun Nov 22 03:03:24 UTC 2015
 # Update Frequency: 1 min 
 # Aggregation     : none
-# Entries         : 229012 subnets, 257505 unique IPs
+# Entries         : 229015 subnets, 257510 unique IPs
 #
 # Full list analysis, including geolocation map, history,
 # retention policy, overlaps with other lists, etc.
@@ -50171,7 +50171,7 @@
 50.63.196.112
 50.63.196.116
 50.63.196.125
-50.63.196.129
+50.63.196.128/31
 50.63.196.130
 50.63.196.133
 50.63.196.134
@@ -66898,6 +66898,7 @@
 78.129.131.248
 78.129.133.196
 78.129.136.142
+78.129.136.151
 78.129.136.157
 78.129.136.162
 78.129.136.167
@@ -86178,6 +86179,7 @@
 93.179.89.135
 93.179.89.140
 93.179.89.145
+93.179.89.146
 93.179.89.149
 93.179.89.150/31
 93.179.89.153
@@ -121451,6 +121453,7 @@
 114.111.166.41
 114.111.166.42/31
 114.111.166.44/31
+114.111.166.84
 114.111.166.128
 114.111.166.130/31
 114.111.166.135
@@ -149165,7 +149168,7 @@
 155.94.132.46
 155.94.132.49
 155.94.132.50
-155.94.132.55
+155.94.132.54/31
 155.94.132.56/31
 155.94.132.60/31
 155.94.132.64/31
