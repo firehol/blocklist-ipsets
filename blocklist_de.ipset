@@ -9,15 +9,15 @@
 # Maintainer      : Blocklist.de
 # Maintainer URL  : https://www.blocklist.de/
 # List source URL : http://lists.blocklist.de/lists/all.txt
-# Source File Date: Sun Nov 22 01:10:05 UTC 2015
+# Source File Date: Sun Nov 22 01:14:03 UTC 2015
 #
 # Category        : attacks
-# Version         : 1427
+# Version         : 1428
 #
-# This File Date  : Sun Nov 22 01:18:08 UTC 2015
+# This File Date  : Sun Nov 22 01:27:06 UTC 2015
 # Update Frequency: 15 mins 
 # Aggregation     : none
-# Entries         : 20968 unique IPs
+# Entries         : 20974 unique IPs
 #
 # Full list analysis, including geolocation map, history,
 # retention policy, overlaps with other lists, etc.
@@ -193,6 +193,7 @@
 5.150.201.157
 5.152.216.182
 5.153.9.55
+5.154.174.147
 5.157.86.6
 5.160.185.220
 5.164.97.169
@@ -6094,6 +6095,7 @@
 59.36.241.68
 59.37.23.175
 59.37.184.28
+59.37.184.82
 59.37.184.86
 59.37.184.208
 59.38.97.1
@@ -15440,6 +15442,7 @@
 180.115.1.127
 180.117.108.86
 180.121.252.188
+180.123.176.54
 180.123.251.194
 180.124.38.213
 180.141.7.206
@@ -18513,6 +18516,7 @@
 201.63.231.124
 201.67.183.53
 201.76.172.86
+201.87.129.54
 201.110.83.181
 201.116.36.202
 201.116.40.29
@@ -18872,6 +18876,7 @@
 210.245.27.251
 210.245.80.192
 210.245.81.155
+210.245.82.161
 210.245.210.247
 210.252.145.151
 211.1.231.194
@@ -20588,6 +20593,7 @@
 220.179.9.169
 220.179.9.191
 220.179.10.20
+220.179.10.37
 220.179.10.122
 220.179.11.36
 220.179.11.116
