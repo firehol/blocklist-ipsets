@@ -9,15 +9,15 @@
 # Maintainer      : Free Proxy List
 # Maintainer URL  : http://free-proxy-list.net/
 # List source URL : http://www.sslproxies.org/
-# Source File Date: Sun Nov 13 21:32:02 UTC 2016
+# Source File Date: Sun Nov 13 22:42:01 UTC 2016
 #
 # Category        : anonymizers
-# Version         : 22301
+# Version         : 22302
 #
-# This File Date  : Sun Nov 13 21:32:15 UTC 2016
+# This File Date  : Sun Nov 13 22:44:06 UTC 2016
 # Update Frequency: 10 mins 
 # Aggregation     : 1 day 
-# Entries         : 156 unique IPs
+# Entries         : 157 unique IPs
 #
 # Full list analysis, including geolocation map, history,
 # retention policy, overlaps with other lists, etc.
@@ -148,6 +148,8 @@
 185.97.104.109
 185.98.87.147
 185.99.176.228
+186.90.162.99
+186.209.29.236
 186.220.205.201
 188.0.112.147
 188.213.175.227
@@ -167,7 +169,6 @@
 200.90.75.160
 201.54.5.115
 201.55.21.183
-202.73.51.102
 202.73.51.146
 202.181.103.172
 203.223.143.51
