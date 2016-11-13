@@ -10,15 +10,15 @@
 # Maintainer      : Blocklist.de
 # Maintainer URL  : https://www.blocklist.de/
 # List source URL : http://lists.blocklist.de/lists/ssh.txt
-# Source File Date: Sun Nov 13 15:05:05 UTC 2016
+# Source File Date: Sun Nov 13 15:20:05 UTC 2016
 #
 # Category        : attacks
-# Version         : 28831
+# Version         : 28832
 #
-# This File Date  : Sun Nov 13 15:16:04 UTC 2016
+# This File Date  : Sun Nov 13 15:24:03 UTC 2016
 # Update Frequency: 15 mins 
 # Aggregation     : none
-# Entries         : 4370 unique IPs
+# Entries         : 4375 unique IPs
 #
 # Full list analysis, including geolocation map, history,
 # retention policy, overlaps with other lists, etc.
@@ -99,6 +99,7 @@
 5.137.51.243
 5.137.72.15
 5.137.91.178
+5.137.219.142
 5.140.30.62
 5.142.240.183
 5.153.234.90
@@ -230,6 +231,7 @@
 23.91.19.50
 23.91.158.141
 23.119.224.204
+24.3.117.121
 24.9.144.173
 24.34.113.174
 24.35.225.48
@@ -872,6 +874,7 @@
 73.245.75.35
 74.83.4.148
 74.93.43.245
+74.113.44.92
 74.132.8.34
 74.142.130.218
 74.208.43.151
@@ -3240,6 +3243,7 @@
 183.82.8.166
 183.82.58.68
 183.82.112.206
+183.91.14.188
 183.100.75.142
 183.104.6.175
 183.106.112.170
@@ -4337,6 +4341,7 @@
 221.229.172.110
 221.229.172.119
 221.236.255.66
+221.238.207.44
 222.44.63.11
 222.45.75.127
 222.75.107.11
