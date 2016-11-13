@@ -9,12 +9,12 @@
 # Maintainer      : DShield.org
 # Maintainer URL  : https://dshield.org/
 # List source URL : http://feeds.dshield.org/block.txt
-# Source File Date: Sun Nov 13 00:38:25 UTC 2016
+# Source File Date: Sun Nov 13 14:23:48 UTC 2016
 #
 # Category        : attacks
-# Version         : 16137
+# Version         : 16138
 #
-# This File Date  : Sun Nov 13 00:40:02 UTC 2016
+# This File Date  : Sun Nov 13 14:24:03 UTC 2016
 # Update Frequency: 10 mins 
 # Aggregation     : none
 # Entries         : 19 subnets, 5120 unique IPs
@@ -29,21 +29,21 @@
 # Processed with FireHOL's iprange
 #
 46.172.91.0/24
-61.240.144.0/24
-62.210.189.0/24
+64.125.239.0/24
 71.6.146.0/24
 74.82.47.0/24
 91.224.160.0/23
-93.158.200.0/24
-123.31.41.0/24
-151.80.28.0/24
+106.75.81.0/24
+123.31.35.0/24
 159.203.223.0/24
+159.203.229.0/24
 159.203.237.0/24
 168.1.128.0/24
-180.97.220.0/24
+180.97.215.0/24
 185.35.62.0/24
 193.201.225.0/24
-204.42.253.0/24
 207.244.91.0/24
+209.126.122.0/24
 217.23.8.0/24
-222.186.34.0/24
+221.229.172.0/24
+222.239.87.0/24
