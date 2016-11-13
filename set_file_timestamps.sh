@@ -1148,7 +1148,7 @@
 [ -f 'vxvault.ipset' ] && /bin/touch --date=@1478905465 'vxvault.ipset'
 [ -f 'xroxy.ipset' ] && /bin/touch --date=@1479025981 'xroxy.ipset'
 [ -f 'xroxy_1d.ipset' ] && /bin/touch --date=@1479025981 'xroxy_1d.ipset'
-[ -f 'xroxy_30d.ipset' ] && /bin/touch --date=@1479022381 'xroxy_30d.ipset'
+[ -f 'xroxy_30d.ipset' ] && /bin/touch --date=@1479029581 'xroxy_30d.ipset'
 [ -f 'xroxy_7d.ipset' ] && /bin/touch --date=@1479025981 'xroxy_7d.ipset'
 [ -f 'yoyo_adservers.ipset' ] && /bin/touch --date=@1478866323 'yoyo_adservers.ipset'
 [ -f 'zeus.ipset' ] && /bin/touch --date=@1478959626 'zeus.ipset'
