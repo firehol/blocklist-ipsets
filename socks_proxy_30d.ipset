@@ -9,12 +9,12 @@
 # Maintainer      : Free Proxy List
 # Maintainer URL  : http://free-proxy-list.net/
 # List source URL : http://www.socks-proxy.net/
-# Source File Date: Sun Nov 13 22:12:02 UTC 2016
+# Source File Date: Sun Nov 13 22:22:01 UTC 2016
 #
 # Category        : anonymizers
-# Version         : 31735
+# Version         : 31736
 #
-# This File Date  : Sun Nov 13 22:12:23 UTC 2016
+# This File Date  : Sun Nov 13 22:24:20 UTC 2016
 # Update Frequency: 10 mins 
 # Aggregation     : 30 days 
 # Entries         : 21406 unique IPs
@@ -6256,6 +6256,7 @@
 69.73.80.244
 69.73.81.67
 69.73.81.159
+69.73.81.175
 69.73.92.62
 69.73.100.43
 69.73.100.97
@@ -14290,7 +14291,6 @@
 185.31.142.89
 185.46.209.51
 185.49.87.67
-185.53.130.129
 185.57.84.238
 185.57.86.220
 185.58.205.202
