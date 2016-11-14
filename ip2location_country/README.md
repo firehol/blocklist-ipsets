@@ -1,5 +1,5 @@
 
-The following list was automatically generated on Fri Oct 28 05:50:14 UTC 2016.
+The following list was automatically generated on Mon Nov 14 03:03:23 UTC 2016.
 
 The update frequency is the maximum allowed by internal configuration. A list will never be downloaded sooner than the update frequency stated. A list may also not be downloaded, after this frequency expired, if it has not been modified on the server (as reported by HTTP `IF_MODIFIED_SINCE` method).
 
@@ -60,7 +60,6 @@ name|info|type|entries|update|
 [ip2location_country_co](http://iplists.firehol.org/?ipset=ip2location_country_co)|Colombia (CO) -- [IP2Location.com](http://lite.ip2location.com/database-ip-country)|ipv4 hash:net|609 subnets, 17283328 unique IPs|updated every 1 day  from [this link](http://download.ip2location.com/lite/IP2LOCATION-LITE-DB1.CSV.ZIP)
 [ip2location_country_countryless](http://iplists.firehol.org/?ipset=ip2location_country_countryless)|IPs that do not belong to any country (COUNTRYLESS) -- [IP2Location.com](http://lite.ip2location.com/database-ip-country)|ipv4 hash:net|5606 subnets, 674199296 unique IPs|updated every 1 day  from [this link](http://download.ip2location.com/lite/IP2LOCATION-LITE-DB1.CSV.ZIP)
 [ip2location_country_cr](http://iplists.firehol.org/?ipset=ip2location_country_cr)|Costa Rica (CR) -- [IP2Location.com](http://lite.ip2location.com/database-ip-country)|ipv4 hash:net|200 subnets, 2529536 unique IPs|updated every 1 day  from [this link](http://download.ip2location.com/lite/IP2LOCATION-LITE-DB1.CSV.ZIP)
-[ip2location_country_cu](http://iplists.firehol.org/?ipset=ip2location_country_cu)|Cuba (CU) -- [IP2Location.com](http://lite.ip2location.com/database-ip-country)|ipv4 hash:net|19 subnets, 261376 unique IPs|updated every 1 day  from [this link](http://download.ip2location.com/lite/IP2LOCATION-LITE-DB1.CSV.ZIP)
 [ip2location_country_cu](http://iplists.firehol.org/?ipset=ip2location_country_cu)|Cuba (CU) -- [IP2Location.com](http://lite.ip2location.com/database-ip-country)|ipv4 hash:net|26 subnets, 261120 unique IPs|updated every 1 day  from [this link](http://download.ip2location.com/lite/IP2LOCATION-LITE-DB1.CSV.ZIP)
 [ip2location_country_cv](http://iplists.firehol.org/?ipset=ip2location_country_cv)|Cabo Verde (CV) -- [IP2Location.com](http://lite.ip2location.com/database-ip-country)|ipv4 hash:net|15 subnets, 34304 unique IPs|updated every 1 day  from [this link](http://download.ip2location.com/lite/IP2LOCATION-LITE-DB1.CSV.ZIP)
 [ip2location_country_cw](http://iplists.firehol.org/?ipset=ip2location_country_cw)|Curacao (CW) -- [IP2Location.com](http://lite.ip2location.com/database-ip-country)|ipv4 hash:net|59 subnets, 192000 unique IPs|updated every 1 day  from [this link](http://download.ip2location.com/lite/IP2LOCATION-LITE-DB1.CSV.ZIP)
