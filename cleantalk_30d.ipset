@@ -9,15 +9,15 @@
 # Maintainer      : CleanTalk
 # Maintainer URL  : https://cleantalk.org/
 # List source URL : 
-# Source File Date: Mon Nov 14 05:16:39 UTC 2016
+# Source File Date: Mon Nov 14 05:24:27 UTC 2016
 #
 # Category        : abuse
-# Version         : 34270
+# Version         : 34271
 #
-# This File Date  : Mon Nov 14 05:16:41 UTC 2016
+# This File Date  : Mon Nov 14 05:24:30 UTC 2016
 # Update Frequency: 1 min 
 # Aggregation     : none
-# Entries         : 69716 unique IPs
+# Entries         : 69715 unique IPs
 #
 # Full list analysis, including geolocation map, history,
 # retention policy, overlaps with other lists, etc.
@@ -12808,6 +12808,7 @@
 46.164.242.101
 46.164.247.102
 46.164.252.133
+46.164.255.7
 46.164.255.79
 46.164.255.96
 46.165.61.39
@@ -33851,7 +33852,6 @@
 113.177.98.227
 113.177.98.246
 113.177.100.186
-113.177.110.40
 113.177.110.157
 113.177.130.28
 113.177.131.241
@@ -37401,7 +37401,6 @@
 120.43.6.35
 120.43.6.62
 120.43.6.64
-120.43.6.79
 120.43.6.219
 120.43.7.48
 120.43.7.74
@@ -44663,6 +44662,7 @@
 171.96.240.21
 171.96.240.61
 171.96.240.62
+171.96.240.110
 171.96.240.207
 171.96.246.152
 171.96.246.181
@@ -46808,7 +46808,6 @@
 175.44.6.78
 175.44.6.87
 175.44.6.126
-175.44.6.194
 175.44.6.240
 175.44.6.245
 175.44.7.2
