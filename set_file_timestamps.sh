@@ -1149,7 +1149,7 @@
 [ -f 'xroxy.ipset' ] && /bin/touch --date=@1479090782 'xroxy.ipset'
 [ -f 'xroxy_1d.ipset' ] && /bin/touch --date=@1479090782 'xroxy_1d.ipset'
 [ -f 'xroxy_30d.ipset' ] && /bin/touch --date=@1479090782 'xroxy_30d.ipset'
-[ -f 'xroxy_7d.ipset' ] && /bin/touch --date=@1479090782 'xroxy_7d.ipset'
+[ -f 'xroxy_7d.ipset' ] && /bin/touch --date=@1479094381 'xroxy_7d.ipset'
 [ -f 'yoyo_adservers.ipset' ] && /bin/touch --date=@1478866323 'yoyo_adservers.ipset'
 [ -f 'zeus.ipset' ] && /bin/touch --date=@1479048875 'zeus.ipset'
 [ -f 'zeus_badips.ipset' ] && /bin/touch --date=@1479031928 'zeus_badips.ipset'
