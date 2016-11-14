@@ -220,7 +220,7 @@ This script will update each ipset and call firehol to update the ipset while th
 
 # List of ipsets included
 
-The following list was automatically generated on Mon Nov 14 03:35:49 UTC 2016.
+The following list was automatically generated on Mon Nov 14 03:36:49 UTC 2016.
 
 The update frequency is the maximum allowed by internal configuration. A list will never be downloaded sooner than the update frequency stated. A list may also not be downloaded, after this frequency expired, if it has not been modified on the server (as reported by HTTP `IF_MODIFIED_SINCE` method).
 
@@ -1357,7 +1357,7 @@ sorbs_block|[Sorbs.net](https://www.sorbs.net/) List of hosts demanding that the
 [xroxy](http://iplists.firehol.org/?ipset=xroxy)|[xroxy.com](http://www.xroxy.com) open proxies (this list is composed using an RSS feed)|ipv4 hash:ip|61 unique IPs|updated every 1 hour  from [this link](http://www.xroxy.com/proxyrss.xml)
 [xroxy_1d](http://iplists.firehol.org/?ipset=xroxy_1d)|[xroxy.com](http://www.xroxy.com) open proxies (this list is composed using an RSS feed)|ipv4 hash:ip|175 unique IPs|updated every 1 hour  from [this link](http://www.xroxy.com/proxyrss.xml)
 [xroxy_30d](http://iplists.firehol.org/?ipset=xroxy_30d)|[xroxy.com](http://www.xroxy.com) open proxies (this list is composed using an RSS feed)|ipv4 hash:ip|826 unique IPs|updated every 1 hour  from [this link](http://www.xroxy.com/proxyrss.xml)
-[xroxy_7d](http://iplists.firehol.org/?ipset=xroxy_7d)|[xroxy.com](http://www.xroxy.com) open proxies (this list is composed using an RSS feed)|ipv4 hash:ip|379 unique IPs|updated every 1 hour  from [this link](http://www.xroxy.com/proxyrss.xml)
+[xroxy_7d](http://iplists.firehol.org/?ipset=xroxy_7d)|[xroxy.com](http://www.xroxy.com) open proxies (this list is composed using an RSS feed)|ipv4 hash:ip|377 unique IPs|updated every 1 hour  from [this link](http://www.xroxy.com/proxyrss.xml)
 [yoyo_adservers](http://iplists.firehol.org/?ipset=yoyo_adservers)|[Yoyo.org](http://pgl.yoyo.org/adservers/) IPs of ad servers|ipv4 hash:ip|12873 unique IPs|updated every 12 hours  from [this link](http://pgl.yoyo.org/adservers/iplist.php?ipformat=plain&showintro=0&mimetype=plaintext)
 [zeus](http://iplists.firehol.org/?ipset=zeus)|[Abuse.ch Zeus tracker](https://zeustracker.abuse.ch) standard, contains the same data as the ZeuS IP blocklist (zeus_badips) but with the slight difference that it doesn't exclude hijacked websites (level 2) and free web hosting providers (level 3). This means that this blocklist contains all IPv4 addresses associated with ZeuS C&Cs which are currently being tracked by ZeuS Tracker. Hence this blocklist will likely cause some false positives.|ipv4 hash:ip|154 unique IPs|updated every 30 mins  from [this link](https://zeustracker.abuse.ch/blocklist.php?download=ipblocklist)
 [zeus_badips](http://iplists.firehol.org/?ipset=zeus_badips)|[Abuse.ch Zeus tracker](https://zeustracker.abuse.ch) badips includes IPv4 addresses that are used by the ZeuS trojan. It is the recommened blocklist if you want to block only ZeuS IPs. It excludes IP addresses that ZeuS Tracker believes to be hijacked (level 2) or belong to a free web hosting provider (level 3). Hence the false postive rate should be much lower compared to the standard ZeuS IP blocklist.|ipv4 hash:ip|137 unique IPs|updated every 30 mins  from [this link](https://zeustracker.abuse.ch/blocklist.php?download=badips)
