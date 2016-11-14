@@ -9,15 +9,15 @@
 # Maintainer      : ProxZ.com
 # Maintainer URL  : http://www.proxz.com/
 # List source URL : http://www.proxz.com/proxylists.xml
-# Source File Date: Mon Nov 14 11:41:09 UTC 2016
+# Source File Date: Mon Nov 14 14:01:10 UTC 2016
 #
 # Category        : anonymizers
-# Version         : 4663
+# Version         : 4664
 #
-# This File Date  : Mon Nov 14 11:56:27 UTC 2016
+# This File Date  : Mon Nov 14 14:52:13 UTC 2016
 # Update Frequency: 1 hour 
 # Aggregation     : 30 days 
-# Entries         : 2545 unique IPs
+# Entries         : 2549 unique IPs
 #
 # Full list analysis, including geolocation map, history,
 # retention policy, overlaps with other lists, etc.
@@ -1886,7 +1886,6 @@
 185.15.43.52/31
 185.15.43.54
 185.21.76.35
-185.23.80.2
 185.23.142.89
 185.26.169.61
 185.28.193.95
@@ -2306,6 +2305,7 @@
 211.153.17.151
 211.179.21.253
 212.2.230.107
+212.2.230.108
 212.2.230.110
 212.3.152.143
 212.34.54.84
@@ -2324,6 +2324,7 @@
 212.185.87.53
 212.194.24.106
 212.227.159.39
+212.233.230.196
 212.248.42.205
 212.248.78.171
 213.13.32.92
@@ -2384,6 +2385,7 @@
 217.128.252.175
 217.130.118.210
 217.146.214.222
+217.150.38.177
 217.150.40.189
 217.150.52.221
 217.173.43.229
@@ -2450,10 +2452,12 @@
 220.248.229.45
 220.248.230.217
 220.249.101.159
+220.249.185.178
 221.1.201.142
 221.120.218.82
 221.130.13.238
 221.131.81.96
+221.141.2.52
 221.176.153.94
 221.176.181.110
 221.178.251.168
