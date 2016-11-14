@@ -19,12 +19,12 @@
 # Maintainer      : Arbor Networks
 # Maintainer URL  : https://atlas.arbor.net/
 # List source URL : https://atlas.arbor.net/summary/fastflux.csv
-# Source File Date: Sat Nov 12 00:56:09 UTC 2016
+# Source File Date: Mon Nov 14 00:53:40 UTC 2016
 #
 # Category        : attacks
-# Version         : 200
+# Version         : 201
 #
-# This File Date  : Sun Nov 13 01:20:03 UTC 2016
+# This File Date  : Mon Nov 14 01:36:02 UTC 2016
 # Update Frequency: 1 day 
 # Aggregation     : none
 # Entries         : 10 unique IPs
@@ -39,12 +39,12 @@
 # Processed with FireHOL's iprange
 #
 52.216.0.202
-52.216.1.42
-52.216.1.130
-52.216.64.186
-52.216.66.50
+52.216.225.2
+52.216.225.186
+54.231.11.114
 54.231.49.106
-54.231.88.1
+54.231.73.57
 54.231.114.26
-104.95.61.235
-184.86.71.66
+54.231.114.233
+54.231.120.17
+104.96.218.15
