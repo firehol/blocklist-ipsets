@@ -9,12 +9,12 @@
 # Maintainer      : Free Proxy List
 # Maintainer URL  : http://free-proxy-list.net/
 # List source URL : http://www.sslproxies.org/
-# Source File Date: Tue Nov 15 15:52:02 UTC 2016
+# Source File Date: Tue Nov 15 16:02:01 UTC 2016
 #
 # Category        : anonymizers
-# Version         : 28485
+# Version         : 28486
 #
-# This File Date  : Tue Nov 15 15:52:25 UTC 2016
+# This File Date  : Tue Nov 15 16:04:06 UTC 2016
 # Update Frequency: 10 mins 
 # Aggregation     : none
 # Entries         : 100 unique IPs
@@ -29,6 +29,7 @@
 # Processed with FireHOL's iprange
 #
 5.135.65.82
+5.135.164.181
 5.189.171.14
 5.189.182.40
 12.33.254.195
@@ -51,7 +52,6 @@
 60.53.76.89
 61.90.29.183
 61.90.60.75
-64.137.188.184
 64.137.188.195
 66.85.131.86
 70.248.28.23
@@ -79,7 +79,6 @@
 105.28.105.74
 112.78.178.2
 112.172.185.226
-114.25.212.57
 114.27.142.113
 114.43.238.91
 114.47.191.227
@@ -116,6 +115,7 @@
 194.58.111.58
 195.5.222.210
 195.46.163.139
+197.97.146.62
 200.68.27.100
 201.17.131.227
 202.73.51.102
