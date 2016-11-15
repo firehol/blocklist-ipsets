@@ -19,15 +19,15 @@
 # Maintainer      : Abuse.ch
 # Maintainer URL  : https://ransomwaretracker.abuse.ch
 # List source URL : https://ransomwaretracker.abuse.ch/downloads/LY_C2_IPBL.txt
-# Source File Date: Tue Nov 15 08:50:02 UTC 2016
+# Source File Date: Tue Nov 15 14:55:02 UTC 2016
 #
 # Category        : malware
-# Version         : 174
+# Version         : 175
 #
-# This File Date  : Tue Nov 15 08:52:26 UTC 2016
+# This File Date  : Tue Nov 15 14:56:06 UTC 2016
 # Update Frequency: 5 mins 
 # Aggregation     : none
-# Entries         : 210 unique IPs
+# Entries         : 211 unique IPs
 #
 # Full list analysis, including geolocation map, history,
 # retention policy, overlaps with other lists, etc.
@@ -208,6 +208,7 @@
 185.82.202.170
 185.82.216.45
 185.82.216.213
+185.82.217.29
 185.86.78.3
 185.92.220.35
 185.102.136.77
