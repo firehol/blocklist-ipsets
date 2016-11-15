@@ -9,15 +9,15 @@
 # Maintainer      : Charles Haley
 # Maintainer URL  : http://charles.the-haleys.org
 # List source URL : http://charles.the-haleys.org/ssh_dico_attack_hdeny_format.php/hostsdeny.txt
-# Source File Date: Tue Nov 15 14:36:20 UTC 2016
+# Source File Date: Tue Nov 15 22:44:31 UTC 2016
 #
 # Category        : attacks
-# Version         : 1503
+# Version         : 1504
 #
-# This File Date  : Tue Nov 15 14:36:21 UTC 2016
+# This File Date  : Tue Nov 15 22:44:31 UTC 2016
 # Update Frequency: 4 hours 
 # Aggregation     : none
-# Entries         : 22497 unique IPs
+# Entries         : 22503 unique IPs
 #
 # Full list analysis, including geolocation map, history,
 # retention policy, overlaps with other lists, etc.
@@ -39,6 +39,7 @@
 1.34.83.14
 1.34.85.196
 1.52.119.170
+1.53.91.123
 1.53.222.83
 1.54.3.1
 1.82.184.23
@@ -792,6 +793,7 @@
 41.83.120.230
 41.86.152.246
 41.138.0.8
+41.139.25.114
 41.160.122.66
 41.177.57.221
 41.178.246.70
@@ -1622,6 +1624,7 @@
 58.64.171.190
 58.65.129.96
 58.65.160.186
+58.65.163.117
 58.65.172.230
 58.65.177.244
 58.65.241.173
@@ -10400,6 +10403,7 @@
 114.207.245.219
 114.207.246.210
 114.215.127.140
+114.215.168.38
 114.215.181.248
 114.215.192.45
 114.215.196.51
@@ -11562,6 +11566,7 @@
 121.130.252.87
 121.131.210.91
 121.132.178.242
+121.134.178.234
 121.134.202.150
 121.136.199.105
 121.138.67.56
@@ -12386,6 +12391,7 @@
 125.88.146.106
 125.88.146.123
 125.88.146.140
+125.88.158.218
 125.88.158.220
 125.88.177.95
 125.88.177.248
