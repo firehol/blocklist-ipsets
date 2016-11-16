@@ -387,7 +387,7 @@
 [ -f 'dronebl_dns_mx_on_irc.netset' ] && /bin/touch --date=@1479273007 'dronebl_dns_mx_on_irc.netset'
 [ -f 'dronebl_irc_drones.netset' ] && /bin/touch --date=@1479260708 'dronebl_irc_drones.netset'
 [ -f 'dronebl_unknown.netset' ] && /bin/touch --date=@1468065909 'dronebl_unknown.netset'
-[ -f 'dronebl_worms_bots.netset' ] && /bin/touch --date=@1479254107 'dronebl_worms_bots.netset'
+[ -f 'dronebl_worms_bots.netset' ] && /bin/touch --date=@1479277510 'dronebl_worms_bots.netset'
 [ -f 'dshield.netset' ] && /bin/touch --date=@1479249830 'dshield.netset'
 [ -f 'dshield_1d.netset' ] && /bin/touch --date=@1479239092 'dshield_1d.netset'
 [ -f 'dshield_30d.netset' ] && /bin/touch --date=@1479252959 'dshield_30d.netset'
