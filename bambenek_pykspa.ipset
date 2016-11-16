@@ -10,15 +10,15 @@
 # Maintainer      : Bambenek Consulting
 # Maintainer URL  : http://osint.bambenekconsulting.com/feeds/
 # List source URL : http://osint.bambenekconsulting.com/feeds/pykspa-iplist.txt
-# Source File Date: Wed Nov 16 07:08:27 UTC 2016
+# Source File Date: Wed Nov 16 12:09:36 UTC 2016
 #
 # Category        : malware
-# Version         : 2003
+# Version         : 2004
 #
-# This File Date  : Wed Nov 16 07:12:37 UTC 2016
+# This File Date  : Wed Nov 16 12:20:49 UTC 2016
 # Update Frequency: 30 mins 
 # Aggregation     : none
-# Entries         : 10 unique IPs
+# Entries         : 11 unique IPs
 #
 # Full list analysis, including geolocation map, history,
 # retention policy, overlaps with other lists, etc.
@@ -39,3 +39,4 @@
 98.124.243.42
 98.124.243.47
 162.255.119.249
+191.5.59.19
