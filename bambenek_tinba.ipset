@@ -10,15 +10,15 @@
 # Maintainer      : Bambenek Consulting
 # Maintainer URL  : http://osint.bambenekconsulting.com/feeds/
 # List source URL : http://osint.bambenekconsulting.com/feeds/tinba-iplist.txt
-# Source File Date: Wed Nov 16 11:01:28 UTC 2016
+# Source File Date: Wed Nov 16 12:01:15 UTC 2016
 #
 # Category        : malware
-# Version         : 8287
+# Version         : 8288
 #
-# This File Date  : Wed Nov 16 11:04:25 UTC 2016
+# This File Date  : Wed Nov 16 12:04:15 UTC 2016
 # Update Frequency: 30 mins 
 # Aggregation     : none
-# Entries         : 16 unique IPs
+# Entries         : 14 unique IPs
 #
 # Full list analysis, including geolocation map, history,
 # retention policy, overlaps with other lists, etc.
@@ -41,7 +41,5 @@
 98.124.243.32
 98.124.243.42
 158.58.170.148
-176.103.62.109
-194.58.56.169
 205.164.14.72
-209.99.40.220
+209.99.40.224
