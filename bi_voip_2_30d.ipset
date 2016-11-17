@@ -9,15 +9,15 @@
 # Maintainer      : BadIPs.com
 # Maintainer URL  : https://www.badips.com/
 # List source URL : https://www.badips.com/get/list/voip/2?age=30d
-# Source File Date: Wed Nov 16 21:20:39 UTC 2016
+# Source File Date: Thu Nov 17 21:32:32 UTC 2016
 #
 # Category        : attacks
-# Version         : 367
+# Version         : 368
 #
-# This File Date  : Wed Nov 16 21:20:39 UTC 2016
+# This File Date  : Thu Nov 17 21:32:32 UTC 2016
 # Update Frequency: 1 day 
 # Aggregation     : none
-# Entries         : 94 unique IPs
+# Entries         : 88 unique IPs
 #
 # Full list analysis, including geolocation map, history,
 # retention policy, overlaps with other lists, etc.
@@ -41,7 +41,6 @@
 69.195.152.170
 74.208.153.130
 85.93.93.88
-85.195.97.118
 89.163.144.88
 89.163.144.193
 89.163.146.32
@@ -50,8 +49,6 @@
 89.163.148.231
 89.163.204.20
 89.163.242.185
-89.163.242.222
-89.163.255.226
 91.236.74.186
 91.236.75.97
 91.236.75.120
@@ -64,7 +61,6 @@
 146.0.43.19
 172.93.99.250
 173.208.239.82
-185.20.99.2
 185.40.4.63
 185.40.4.70
 185.40.4.78
@@ -95,7 +91,6 @@
 207.166.135.73
 209.126.97.238
 209.126.116.176
-209.126.117.125
 209.126.117.216
 209.126.120.50
 209.126.122.15
@@ -108,7 +103,6 @@
 212.83.146.50
 212.83.148.20
 212.83.150.73
-212.84.163.140
 212.129.2.188
 212.129.11.74
 212.129.31.98
