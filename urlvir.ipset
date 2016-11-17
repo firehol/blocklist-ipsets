@@ -12,12 +12,12 @@
 # Maintainer      : URLVir.com
 # Maintainer URL  : http://www.urlvir.com/
 # List source URL : http://www.urlvir.com/export-ip-addresses/
-# Source File Date: Mon Nov 14 11:32:34 UTC 2016
+# Source File Date: Thu Nov 17 12:08:37 UTC 2016
 #
 # Category        : malware
-# Version         : 33
+# Version         : 34
 #
-# This File Date  : Mon Nov 14 11:32:34 UTC 2016
+# This File Date  : Thu Nov 17 12:08:37 UTC 2016
 # Update Frequency: 1 day 
 # Aggregation     : none
 # Entries         : 76 unique IPs
@@ -32,7 +32,6 @@
 # Processed with FireHOL's iprange
 #
 5.101.152.9
-23.95.37.72
 27.124.120.41
 31.210.54.210
 46.17.1.250
@@ -95,6 +94,7 @@
 199.116.250.80
 205.185.216.42
 209.17.116.2
+210.16.101.109
 212.93.222.10
 212.227.31.71
 212.227.247.208
