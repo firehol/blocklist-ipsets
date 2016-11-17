@@ -19,15 +19,15 @@
 # Maintainer      : Arbor Networks
 # Maintainer URL  : https://atlas.arbor.net/
 # List source URL : https://atlas.arbor.net/summary/fastflux.csv
-# Source File Date: Tue Nov 15 00:53:27 UTC 2016
+# Source File Date: Thu Nov 17 00:54:31 UTC 2016
 #
 # Category        : attacks
-# Version         : 141
+# Version         : 142
 #
-# This File Date  : Wed Nov 16 01:16:02 UTC 2016
+# This File Date  : Thu Nov 17 01:32:02 UTC 2016
 # Update Frequency: 1 day 
 # Aggregation     : 30 days 
-# Entries         : 49 unique IPs
+# Entries         : 48 unique IPs
 #
 # Full list analysis, including geolocation map, history,
 # retention policy, overlaps with other lists, etc.
@@ -81,7 +81,6 @@
 104.96.218.15
 104.102.61.194
 104.106.249.50
-104.113.27.14
 104.117.41.133
 104.118.204.134
 172.230.100.98
