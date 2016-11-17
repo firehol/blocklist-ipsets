@@ -23,15 +23,15 @@
 # Maintainer      : Arbor Networks
 # Maintainer URL  : https://atlas.arbor.net/
 # List source URL : https://atlas.arbor.net/summary/phishing.csv
-# Source File Date: Tue Nov 15 00:37:33 UTC 2016
+# Source File Date: Wed Nov 16 00:38:09 UTC 2016
 #
 # Category        : attacks
-# Version         : 140
+# Version         : 141
 #
-# This File Date  : Wed Nov 16 01:00:02 UTC 2016
+# This File Date  : Thu Nov 17 01:16:03 UTC 2016
 # Update Frequency: 1 day 
 # Aggregation     : 30 days 
-# Entries         : 22 unique IPs
+# Entries         : 19 unique IPs
 #
 # Full list analysis, including geolocation map, history,
 # retention policy, overlaps with other lists, etc.
@@ -43,7 +43,6 @@
 # Processed with FireHOL's iprange
 #
 24.148.96.13
-27.121.64.188
 31.170.160.61
 45.64.135.238
 54.72.9.51
@@ -61,6 +60,4 @@
 166.62.10.137
 184.168.188.1
 190.210.197.89
-199.79.62.103
-216.55.149.9
 218.28.30.35
