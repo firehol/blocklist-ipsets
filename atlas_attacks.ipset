@@ -19,12 +19,12 @@
 # Maintainer      : Arbor Networks
 # Maintainer URL  : https://atlas.arbor.net/
 # List source URL : https://atlas.arbor.net/summary/attacks.csv
-# Source File Date: Wed Nov 16 00:09:26 UTC 2016
+# Source File Date: Thu Nov 17 00:08:51 UTC 2016
 #
 # Category        : attacks
-# Version         : 166
+# Version         : 167
 #
-# This File Date  : Thu Nov 17 00:48:03 UTC 2016
+# This File Date  : Fri Nov 18 01:04:02 UTC 2016
 # Update Frequency: 1 day 
 # Aggregation     : none
 # Entries         : 10 unique IPs
@@ -39,12 +39,12 @@
 # Processed with FireHOL's iprange
 #
 40.74.124.185
+60.10.253.62
 77.59.214.138
 77.69.2.70
-91.187.98.242
-128.232.110.29
+137.226.113.7
+139.162.13.205
 139.162.32.13
-187.158.97.242
-189.11.158.42
-189.45.199.194
-204.42.253.130
+166.78.18.210
+185.128.40.162
+189.170.187.49
