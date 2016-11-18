@@ -13,12 +13,12 @@
 # Maintainer      : FireHOL
 # Maintainer URL  : http://iplists.firehol.org/
 # List source URL : 
-# Source File Date: Fri Nov 18 07:15:55 UTC 2016
+# Source File Date: Fri Nov 18 08:16:21 UTC 2016
 #
 # Category        : attacks
-# Version         : 31017
+# Version         : 31018
 #
-# This File Date  : Fri Nov 18 07:20:44 UTC 2016
+# This File Date  : Fri Nov 18 08:20:24 UTC 2016
 # Update Frequency: 1 min 
 # Aggregation     : none
 # Entries         : 17209 subnets, 662599305 unique IPs
@@ -1968,6 +1968,7 @@
 46.30.184.0/21
 46.30.211.32
 46.30.213.205
+46.30.215.7
 46.30.215.57
 46.31.43.57
 46.32.233.226
@@ -3372,7 +3373,6 @@
 51.15.43.0/24
 51.254.19.207
 51.254.19.227
-51.254.28.160
 51.254.55.171
 51.254.114.130
 51.254.181.120
