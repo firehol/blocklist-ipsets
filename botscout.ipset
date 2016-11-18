@@ -16,15 +16,15 @@
 # Maintainer      : BotScout.com
 # Maintainer URL  : http://botscout.com/
 # List source URL : http://botscout.com/last_caught_cache.htm
-# Source File Date: Fri Nov 18 09:04:38 UTC 2016
+# Source File Date: Fri Nov 18 09:36:29 UTC 2016
 #
 # Category        : abuse
-# Version         : 16464
+# Version         : 16465
 #
-# This File Date  : Fri Nov 18 09:04:38 UTC 2016
+# This File Date  : Fri Nov 18 09:36:29 UTC 2016
 # Update Frequency: 30 mins 
 # Aggregation     : none
-# Entries         : 31 unique IPs
+# Entries         : 26 unique IPs
 #
 # Full list analysis, including geolocation map, history,
 # retention policy, overlaps with other lists, etc.
@@ -36,33 +36,28 @@
 # Processed with FireHOL's iprange
 #
 5.39.93.96
-36.33.194.223
-37.187.129.166
+37.21.230.0
 46.119.115.27
-51.15.39.2
-61.90.16.125
-77.50.239.222
-91.200.12.7
+46.165.230.5
+81.152.82.74
 91.200.12.103
 91.200.12.106
-91.200.12.141
 91.200.12.143
-93.115.95.204
-94.142.242.84
-94.232.184.27
-94.242.246.24
-107.174.239.165
-109.155.19.94
+93.74.111.222
+107.172.184.245
+107.175.67.119
 113.85.154.166
 113.95.133.73
 120.40.130.70
-142.54.183.123
-145.255.9.173
-145.255.9.185
-146.185.223.7
-153.149.160.217
-176.99.223.44
+125.212.217.132
+163.172.64.178
+163.172.66.15
+163.172.66.86
+163.172.129.17
 178.137.83.93
-188.68.204.63
+178.168.52.171
 188.138.159.69
-217.96.191.224
+192.195.80.10
+194.79.63.238
+199.15.233.150
+199.15.233.154
