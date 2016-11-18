@@ -16,15 +16,15 @@
 # Maintainer      : BotScout.com
 # Maintainer URL  : http://botscout.com/
 # List source URL : http://botscout.com/last_caught_cache.htm
-# Source File Date: Fri Nov 18 10:08:44 UTC 2016
+# Source File Date: Fri Nov 18 10:40:33 UTC 2016
 #
 # Category        : abuse
-# Version         : 16466
+# Version         : 16467
 #
-# This File Date  : Fri Nov 18 10:08:44 UTC 2016
+# This File Date  : Fri Nov 18 10:40:34 UTC 2016
 # Update Frequency: 30 mins 
 # Aggregation     : 7 days 
-# Entries         : 4548 unique IPs
+# Entries         : 4554 unique IPs
 #
 # Full list analysis, including geolocation map, history,
 # retention policy, overlaps with other lists, etc.
@@ -290,6 +290,7 @@
 23.95.32.59
 23.95.40.142
 23.95.40.211
+23.95.50.6
 23.95.86.45
 23.95.95.188
 23.95.107.46
@@ -477,6 +478,7 @@
 37.46.39.250
 37.48.80.101
 37.48.104.216
+37.48.120.196
 37.57.0.174
 37.57.78.181
 37.59.37.41
@@ -1084,6 +1086,7 @@
 79.134.31.200
 79.134.234.247
 79.150.119.164
+79.164.105.124
 79.172.193.32
 79.173.89.52
 79.177.99.151
@@ -1666,6 +1669,7 @@
 104.143.28.252
 104.144.1.199
 104.144.24.72
+104.144.28.151
 104.144.53.58
 104.144.98.160
 104.144.103.7
@@ -3259,6 +3263,7 @@
 176.10.104.243
 176.10.107.180
 176.31.7.241
+176.31.99.80
 176.31.180.157
 176.31.194.248
 176.37.40.213
@@ -3707,6 +3712,7 @@
 185.158.133.134
 185.158.133.152
 185.158.133.195
+185.158.133.213
 185.158.134.206
 185.158.134.238
 185.158.135.197
