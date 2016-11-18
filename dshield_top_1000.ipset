@@ -9,15 +9,15 @@
 # Maintainer      : DShield.org
 # Maintainer URL  : https://dshield.org/
 # List source URL : https://isc.sans.edu/api/sources/attacks/1000/
-# Source File Date: Fri Nov 18 10:24:04 UTC 2016
+# Source File Date: Fri Nov 18 11:28:04 UTC 2016
 #
 # Category        : attacks
-# Version         : 5213
+# Version         : 5214
 #
-# This File Date  : Fri Nov 18 10:24:05 UTC 2016
+# This File Date  : Fri Nov 18 11:28:04 UTC 2016
 # Update Frequency: 1 hour 
 # Aggregation     : none
-# Entries         : 878 unique IPs
+# Entries         : 879 unique IPs
 #
 # Full list analysis, including geolocation map, history,
 # retention policy, overlaps with other lists, etc.
@@ -152,12 +152,13 @@
 71.6.165.200
 71.6.167.142
 71.6.216.38
+71.6.216.39
 71.6.216.44
 71.6.216.47
+71.6.216.49
 71.6.216.53
 71.6.216.54
 71.6.216.58
-71.6.216.62
 71.13.138.245
 71.165.173.201
 72.13.249.135
@@ -221,7 +222,6 @@
 88.84.193.77
 88.249.106.23
 89.108.107.200
-89.163.144.88
 89.163.146.88
 89.163.220.12
 89.163.220.26
@@ -566,7 +566,6 @@
 180.97.106.162
 180.97.215.67
 180.97.215.160
-180.97.215.171
 180.97.220.17
 180.97.220.19
 180.97.220.22
@@ -608,6 +607,7 @@
 184.105.139.100
 184.105.139.101
 184.105.139.102
+184.105.139.104
 184.105.139.105
 184.105.139.106
 184.105.139.108
@@ -615,6 +615,7 @@
 184.105.139.110
 184.105.139.113
 184.105.139.114
+184.105.139.116
 184.105.139.117
 184.105.139.118
 184.105.139.121
