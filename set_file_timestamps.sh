@@ -384,7 +384,7 @@
 [ -f 'dronebl_autorooting_worms.netset' ] && /bin/touch --date=@1479371707 'dronebl_autorooting_worms.netset'
 [ -f 'dronebl_compromised.netset' ] && /bin/touch --date=@1472572208 'dronebl_compromised.netset'
 [ -f 'dronebl_ddos_drones.netset' ] && /bin/touch --date=@1479231307 'dronebl_ddos_drones.netset'
-[ -f 'dronebl_dns_mx_on_irc.netset' ] && /bin/touch --date=@1479458708 'dronebl_dns_mx_on_irc.netset'
+[ -f 'dronebl_dns_mx_on_irc.netset' ] && /bin/touch --date=@1479462008 'dronebl_dns_mx_on_irc.netset'
 [ -f 'dronebl_irc_drones.netset' ] && /bin/touch --date=@1479393909 'dronebl_irc_drones.netset'
 [ -f 'dronebl_unknown.netset' ] && /bin/touch --date=@1468065909 'dronebl_unknown.netset'
 [ -f 'dronebl_worms_bots.netset' ] && /bin/touch --date=@1479444307 'dronebl_worms_bots.netset'
