@@ -1,6 +1,6 @@
 #!/bin/bash
 [ ! "$1" = "YES_I_AM_SURE_DO_IT_PLEASE" ] && echo "READ ME NOW" && exit 1
-[ -f 'alienvault_reputation.ipset' ] && /bin/touch --date=@1479425618 'alienvault_reputation.ipset'
+[ -f 'alienvault_reputation.ipset' ] && /bin/touch --date=@1479447005 'alienvault_reputation.ipset'
 [ -f 'geolite2_country/anonymous.netset' ] && /bin/touch --date=@1475589293 'geolite2_country/anonymous.netset'
 [ -f 'asprox_c2.ipset' ] && /bin/touch --date=@1462185851 'asprox_c2.ipset'
 [ -f 'atlas_attacks.ipset' ] && /bin/touch --date=@1479341331 'atlas_attacks.ipset'
@@ -77,7 +77,7 @@
 [ -f 'blocklist_de_sip.ipset' ] && /bin/touch --date=@1479446889 'blocklist_de_sip.ipset'
 [ -f 'blocklist_de_ssh.ipset' ] && /bin/touch --date=@1479446884 'blocklist_de_ssh.ipset'
 [ -f 'blocklist_de_strongips.ipset' ] && /bin/touch --date=@1479441860 'blocklist_de_strongips.ipset'
-[ -f 'blocklist_net_ua.ipset' ] && /bin/touch --date=@1479447005 'blocklist_net_ua.ipset'
+[ -f 'blocklist_net_ua.ipset' ] && /bin/touch --date=@1479447604 'blocklist_net_ua.ipset'
 [ -f 'blueliv_crimeserver_last.ipset' ] && /bin/touch --date=@1479433959 'blueliv_crimeserver_last.ipset'
 [ -f 'blueliv_crimeserver_last_1d.ipset' ] && /bin/touch --date=@1479433959 'blueliv_crimeserver_last_1d.ipset'
 [ -f 'blueliv_crimeserver_last_2d.ipset' ] && /bin/touch --date=@1479433959 'blueliv_crimeserver_last_2d.ipset'
@@ -436,7 +436,7 @@
 [ -f 'firehol_level1.netset' ] && /bin/touch --date=@1479446247 'firehol_level1.netset'
 [ -f 'firehol_level2.netset' ] && /bin/touch --date=@1479446883 'firehol_level2.netset'
 [ -f 'firehol_level3.netset' ] && /bin/touch --date=@1479446127 'firehol_level3.netset'
-[ -f 'firehol_level4.netset' ] && /bin/touch --date=@1479447005 'firehol_level4.netset'
+[ -f 'firehol_level4.netset' ] && /bin/touch --date=@1479447604 'firehol_level4.netset'
 [ -f 'firehol_proxies.netset' ] && /bin/touch --date=@1479447122 'firehol_proxies.netset'
 [ -f 'firehol_webclient.netset' ] && /bin/touch --date=@1479446891 'firehol_webclient.netset'
 [ -f 'firehol_webserver.netset' ] && /bin/touch --date=@1479417629 'firehol_webserver.netset'
