@@ -3,7 +3,8 @@
 #
 # ipv4 hash:net ipset
 #
-# Continent af, with countries: Burkina Faso (BF), São Tomé 
+# Continent af, with countries: Burkina Faso (BF), African 
+# Regional Industrial Property Organization (AP), São Tomé 
 # and Príncipe (ST), Kenya (KE), Zambia (ZM), Mauritius 
 # (MU), Mayotte (YT), Guinea-Bissau (GW), Rwanda (RW), Malawi 
 # (MW), Republic of the Congo (CG), Ethiopia (ET), Réunion 
@@ -24,15 +25,15 @@
 # Maintainer      : IPDeny.com
 # Maintainer URL  : http://www.ipdeny.com/
 # List source URL : http://www.ipdeny.com/ipblocks/data/countries/all-zones.tar.gz
-# Source File Date: Thu Nov 17 12:07:24 UTC 2016
+# Source File Date: Fri Nov 18 12:07:19 UTC 2016
 #
 # Category        : geolocation
-# Version         : 153
+# Version         : 154
 #
-# This File Date  : Thu Nov 17 12:20:18 UTC 2016
+# This File Date  : Fri Nov 18 12:20:05 UTC 2016
 # Update Frequency: 1 day 
 # Aggregation     : none
-# Entries         : 992 subnets, 98125056 unique IPs
+# Entries         : 995 subnets, 98126080 unique IPs
 #
 # Full list analysis, including geolocation map, history,
 # retention policy, overlaps with other lists, etc.
@@ -314,7 +315,9 @@
 95.212.144.0/20
 95.212.160.0/20
 95.212.192.0/18
+103.71.56.0/24
 103.211.216.0/22
+103.248.249.0/24
 105.0.0.0/8
 129.0.0.0/16
 129.18.0.0/16
@@ -979,6 +982,7 @@
 198.54.252.0/23
 198.54.254.0/24
 200.16.8.0/21
+202.56.62.0/23
 202.60.0.0/21
 202.123.0.0/19
 204.12.128.0/20
