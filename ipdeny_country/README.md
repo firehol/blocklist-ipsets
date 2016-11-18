@@ -1,5 +1,5 @@
 
-The following list was automatically generated on Thu Nov 17 12:23:55 UTC 2016.
+The following list was automatically generated on Fri Nov 18 12:22:08 UTC 2016.
 
 The update frequency is the maximum allowed by internal configuration. A list will never be downloaded sooner than the update frequency stated. A list may also not be downloaded, after this frequency expired, if it has not been modified on the server (as reported by HTTP `IF_MODIFIED_SINCE` method).
 
@@ -22,7 +22,6 @@ name|info|type|entries|update|
 [id_country_al](http://iplists.firehol.org/?ipset=id_country_al)|Albania (AL) -- [IPDeny.com](http://www.ipdeny.com/)|ipv4 hash:net|75 subnets, 339456 unique IPs|updated every 1 day  from [this link](http://www.ipdeny.com/ipblocks/data/countries/all-zones.tar.gz)
 [id_country_am](http://iplists.firehol.org/?ipset=id_country_am)|Armenia (AM) -- [IPDeny.com](http://www.ipdeny.com/)|ipv4 hash:net|100 subnets, 614944 unique IPs|updated every 1 day  from [this link](http://www.ipdeny.com/ipblocks/data/countries/all-zones.tar.gz)
 [id_country_ao](http://iplists.firehol.org/?ipset=id_country_ao)|Angola (AO) -- [IPDeny.com](http://www.ipdeny.com/)|ipv4 hash:net|63 subnets, 1185024 unique IPs|updated every 1 day  from [this link](http://www.ipdeny.com/ipblocks/data/countries/all-zones.tar.gz)
-[id_country_ap](http://iplists.firehol.org/?ipset=id_country_ap)|African Regional Industrial Property Organization (AP) -- [IPDeny.com](http://www.ipdeny.com/)|ipv4 hash:net|5 subnets, 4096 unique IPs|updated every 1 day  from [this link](http://www.ipdeny.com/ipblocks/data/countries/all-zones.tar.gz)
 [id_country_ap](http://iplists.firehol.org/?ipset=id_country_ap)| (AP) -- [IPDeny.com](http://www.ipdeny.com/)|ipv4 hash:net|5 subnets, 4096 unique IPs|updated every 1 day  from [this link](http://www.ipdeny.com/ipblocks/data/countries/all-zones.tar.gz)
 [id_country_ar](http://iplists.firehol.org/?ipset=id_country_ar)|Argentina (AR) -- [IPDeny.com](http://www.ipdeny.com/)|ipv4 hash:net|829 subnets, 18922496 unique IPs|updated every 1 day  from [this link](http://www.ipdeny.com/ipblocks/data/countries/all-zones.tar.gz)
 [id_country_as](http://iplists.firehol.org/?ipset=id_country_as)|American Samoa (AS) -- [IPDeny.com](http://www.ipdeny.com/)|ipv4 hash:net|2 subnets, 4608 unique IPs|updated every 1 day  from [this link](http://www.ipdeny.com/ipblocks/data/countries/all-zones.tar.gz)
