@@ -10,15 +10,15 @@
 # Maintainer      : Blockchain.info
 # Maintainer URL  : https://blockchain.info/en/connected-nodes
 # List source URL : https://blockchain.info/en/connected-nodes
-# Source File Date: Fri Nov 18 13:56:12 UTC 2016
+# Source File Date: Fri Nov 18 14:08:19 UTC 2016
 #
 # Category        : organizations
-# Version         : 14960
+# Version         : 14961
 #
-# This File Date  : Fri Nov 18 13:56:13 UTC 2016
+# This File Date  : Fri Nov 18 14:08:20 UTC 2016
 # Update Frequency: 10 mins 
 # Aggregation     : 7 days 
-# Entries         : 1968 unique IPs
+# Entries         : 1966 unique IPs
 #
 # Full list analysis, including geolocation map, history,
 # retention policy, overlaps with other lists, etc.
@@ -410,7 +410,6 @@
 54.71.103.252
 54.79.89.2
 54.86.148.8
-54.94.163.92
 54.164.226.142
 54.165.213.225
 54.165.214.59
@@ -507,7 +506,6 @@
 67.209.82.155
 67.221.193.55
 67.231.16.54
-68.0.113.95
 68.2.174.11
 68.4.116.81
 68.4.137.246
