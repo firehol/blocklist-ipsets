@@ -9,15 +9,15 @@
 # Maintainer      : Xroxy.com
 # Maintainer URL  : http://www.xroxy.com/
 # List source URL : http://www.xroxy.com/proxyrss.xml
-# Source File Date: Sun Nov 20 19:33:02 UTC 2016
+# Source File Date: Sun Nov 20 21:33:01 UTC 2016
 #
 # Category        : anonymizers
-# Version         : 5368
+# Version         : 5369
 #
-# This File Date  : Sun Nov 20 19:36:11 UTC 2016
+# This File Date  : Sun Nov 20 21:36:18 UTC 2016
 # Update Frequency: 1 hour 
 # Aggregation     : 7 days 
-# Entries         : 356 unique IPs
+# Entries         : 357 unique IPs
 #
 # Full list analysis, including geolocation map, history,
 # retention policy, overlaps with other lists, etc.
@@ -363,6 +363,7 @@
 203.145.230.111
 209.87.244.145
 209.172.46.113
+212.47.248.235
 212.144.222.27
 212.185.87.53
 212.227.159.39
