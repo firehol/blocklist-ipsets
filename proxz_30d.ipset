@@ -9,15 +9,15 @@
 # Maintainer      : ProxZ.com
 # Maintainer URL  : http://www.proxz.com/
 # List source URL : http://www.proxz.com/proxylists.xml
-# Source File Date: Sun Nov 20 13:11:10 UTC 2016
+# Source File Date: Sun Nov 20 14:41:09 UTC 2016
 #
 # Category        : anonymizers
-# Version         : 4739
+# Version         : 4740
 #
-# This File Date  : Sun Nov 20 13:40:17 UTC 2016
+# This File Date  : Sun Nov 20 15:16:18 UTC 2016
 # Update Frequency: 1 hour 
 # Aggregation     : 30 days 
-# Entries         : 2562 unique IPs
+# Entries         : 2557 unique IPs
 #
 # Full list analysis, including geolocation map, history,
 # retention policy, overlaps with other lists, etc.
@@ -615,7 +615,6 @@
 84.241.19.232
 85.9.129.74
 85.90.208.4
-85.109.75.244
 85.113.48.148
 85.114.105.114
 85.114.206.63
@@ -771,7 +770,6 @@
 92.222.154.18
 92.222.237.13
 92.222.237.19
-92.222.237.20
 92.222.237.22
 92.222.237.24
 92.222.237.29
@@ -849,7 +847,6 @@
 95.174.3.8
 95.213.194.94
 95.215.52.150
-96.9.69.200
 96.9.90.54
 96.126.110.96
 97.77.104.22
@@ -873,17 +870,16 @@
 103.10.228.248
 103.14.27.134
 103.15.60.21
+103.15.62.69
 103.18.4.13
+103.18.180.1
 103.24.127.198
 103.28.149.118
 103.29.150.14
 103.29.151.250
 103.31.250.121
 103.36.35.106
-103.42.1.1
 103.42.1.6
-103.42.1.15
-103.42.1.16
 103.42.1.105
 103.42.1.106
 103.42.1.170
@@ -949,7 +945,6 @@
 107.150.27.7
 107.170.210.4
 107.178.4.214
-107.182.111.27
 107.189.36.34
 107.191.61.167
 107.191.118.225
