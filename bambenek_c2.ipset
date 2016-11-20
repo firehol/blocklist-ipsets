@@ -10,15 +10,15 @@
 # Maintainer      : Bambenek Consulting
 # Maintainer URL  : http://osint.bambenekconsulting.com/feeds/
 # List source URL : http://osint.bambenekconsulting.com/feeds/c2-ipmasterlist.txt
-# Source File Date: Sun Nov 20 16:17:12 UTC 2016
+# Source File Date: Sun Nov 20 17:16:40 UTC 2016
 #
 # Category        : malware
-# Version         : 9142
+# Version         : 9143
 #
-# This File Date  : Sun Nov 20 16:20:38 UTC 2016
+# This File Date  : Sun Nov 20 17:24:21 UTC 2016
 # Update Frequency: 30 mins 
 # Aggregation     : none
-# Entries         : 251 unique IPs
+# Entries         : 244 unique IPs
 #
 # Full list analysis, including geolocation map, history,
 # retention policy, overlaps with other lists, etc.
@@ -30,7 +30,6 @@
 # Processed with FireHOL's iprange
 #
 5.22.149.135
-8.5.1.33
 8.5.1.37
 8.5.1.38
 8.5.1.39
@@ -45,13 +44,11 @@
 46.28.105.107
 46.30.211.32
 46.30.213.205
-46.30.215.7
 46.30.215.57
 46.105.239.199
 46.249.43.105
 47.89.58.141
 50.31.225.93
-51.254.28.160
 52.4.209.250
 52.9.172.230
 52.28.249.128
@@ -102,8 +99,8 @@
 81.2.194.128
 81.2.194.176
 81.95.96.29
-81.169.145.66
 81.169.145.68
+81.169.145.84
 81.169.145.86
 81.169.145.88
 81.169.145.92
@@ -203,6 +200,7 @@
 183.90.242.4
 183.110.225.165
 184.168.221.1
+184.168.221.18
 184.168.221.28
 184.168.221.30
 184.168.221.31
@@ -221,9 +219,6 @@
 192.169.57.154
 192.184.12.62
 192.238.177.69
-194.9.94.85
-194.9.94.86
-194.9.94.235
 194.58.56.166
 194.58.56.169
 194.150.113.18
@@ -232,7 +227,6 @@
 195.110.124.188
 195.154.8.242
 198.54.114.164
-199.116.248.204
 200.205.194.222
 201.29.121.121
 203.151.233.116
@@ -240,7 +234,6 @@
 204.11.56.48
 205.109.16.159
 205.133.37.124
-205.164.14.72
 206.188.192.70
 207.10.232.16
 207.10.232.21
