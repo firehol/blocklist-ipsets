@@ -380,7 +380,7 @@
 [ -f 'dragon_sshpauth.netset' ] && /bin/touch --date=@1463583841 'dragon_sshpauth.netset'
 [ -f 'dragon_vncprobe.netset' ] && /bin/touch --date=@1463583841 'dragon_vncprobe.netset'
 [ -f 'dronebl_anonymizers.netset' ] && /bin/touch --date=@1479649807 'dronebl_anonymizers.netset'
-[ -f 'dronebl_auto_botnets.netset' ] && /bin/touch --date=@1479648908 'dronebl_auto_botnets.netset'
+[ -f 'dronebl_auto_botnets.netset' ] && /bin/touch --date=@1479650711 'dronebl_auto_botnets.netset'
 [ -f 'dronebl_autorooting_worms.netset' ] && /bin/touch --date=@1479371707 'dronebl_autorooting_worms.netset'
 [ -f 'dronebl_compromised.netset' ] && /bin/touch --date=@1472572208 'dronebl_compromised.netset'
 [ -f 'dronebl_ddos_drones.netset' ] && /bin/touch --date=@1479231307 'dronebl_ddos_drones.netset'
