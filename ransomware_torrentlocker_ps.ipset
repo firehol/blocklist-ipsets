@@ -20,15 +20,15 @@
 # Maintainer      : Abuse.ch
 # Maintainer URL  : https://ransomwaretracker.abuse.ch
 # List source URL : https://ransomwaretracker.abuse.ch/downloads/TL_PS_IPBL.txt
-# Source File Date: Sun Nov 20 00:00:01 UTC 2016
+# Source File Date: Mon Nov 21 05:25:01 UTC 2016
 #
 # Category        : malware
-# Version         : 342
+# Version         : 343
 #
-# This File Date  : Sun Nov 20 00:00:50 UTC 2016
+# This File Date  : Mon Nov 21 05:28:19 UTC 2016
 # Update Frequency: 5 mins 
 # Aggregation     : none
-# Entries         : 131 unique IPs
+# Entries         : 130 unique IPs
 #
 # Full list analysis, including geolocation map, history,
 # retention policy, overlaps with other lists, etc.
@@ -133,7 +133,6 @@
 185.40.152.234
 185.43.223.13
 185.75.46.149
-185.75.47.40
 185.80.53.66
 185.117.75.64
 185.117.88.89
