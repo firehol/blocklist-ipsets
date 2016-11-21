@@ -19,12 +19,12 @@
 # Maintainer      : Arbor Networks
 # Maintainer URL  : https://atlas.arbor.net/
 # List source URL : https://atlas.arbor.net/summary/attacks.csv
-# Source File Date: Sun Nov 20 06:08:05 UTC 2016
+# Source File Date: Mon Nov 21 00:08:31 UTC 2016
 #
 # Category        : attacks
-# Version         : 170
+# Version         : 171
 #
-# This File Date  : Sun Nov 20 08:20:02 UTC 2016
+# This File Date  : Mon Nov 21 06:24:02 UTC 2016
 # Update Frequency: 1 day 
 # Aggregation     : none
 # Entries         : 10 unique IPs
@@ -43,8 +43,8 @@
 71.248.167.22
 74.208.174.238
 77.69.2.70
+104.130.159.30
 104.247.194.58
 139.162.32.13
-163.172.77.10
+162.209.125.33
 185.94.111.1
-222.186.56.248
