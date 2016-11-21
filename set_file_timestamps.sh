@@ -1040,7 +1040,7 @@
 [ -f 'openbl_60d.ipset' ] && /bin/touch --date=@1479711422 'openbl_60d.ipset'
 [ -f 'openbl_7d.ipset' ] && /bin/touch --date=@1479711422 'openbl_7d.ipset'
 [ -f 'openbl_90d.ipset' ] && /bin/touch --date=@1479711422 'openbl_90d.ipset'
-[ -f 'openbl_all.ipset' ] && /bin/touch --date=@1479702135 'openbl_all.ipset'
+[ -f 'openbl_all.ipset' ] && /bin/touch --date=@1479716835 'openbl_all.ipset'
 [ -f 'packetmail.ipset' ] && /bin/touch --date=@1479715203 'packetmail.ipset'
 [ -f 'packetmail_carisirt.ipset' ] && /bin/touch --date=@1466629520 'packetmail_carisirt.ipset'
 [ -f 'packetmail_emerging_ips.ipset' ] && /bin/touch --date=@1479711906 'packetmail_emerging_ips.ipset'
