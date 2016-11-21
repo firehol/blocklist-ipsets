@@ -29,18 +29,18 @@ This repo has a site: [http://iplists.firehol.org](http://iplists.firehol.org).
 
 ## Why do we need blocklists?
 
-As time passes and the internet matures in our life, cyber crime is becoming increasingly sophisticated.
-Although there are many tools (detection of malware, viruses, intrusion detection and prevension systems,
-etc) to help us isolate the budguys, there are now a lot more than just such attacks.
+As time passes and the internet matures in our life, cybercrime is becoming increasingly sophisticated.
+Although there are many tools (detection of malware, viruses, intrusion detection and prevention systems,
+etc) to help us isolate the bad guys, there are now a lot more than just such attacks.
 
 What is more interesting is that the fraudsters or attackers in many cases are not going to do a direct
 damage to you or your systems. They will use you and your systems to gain something else, possibly not
-related or indirectly related to your business. Nowdays the attacks cannot be identified easily. They are
+related or indirectly related to your business. Nowadays the attacks cannot be identified easily. They are
 distributed and come to our systems from a vast amount of IPs around the world.
 
 To get an idea, check for example the [XRumer](http://en.wikipedia.org/wiki/XRumer) software. This thing
-mimics human behaviour to post ads, it creates email accounts, responds to emails it receives, bypasses
-captchas, it goes gently to stay unoticed, etc.
+mimics human behavior to post ads, it creates email accounts, responds to emails it receives, bypasses
+captchas, it goes gently to stay unnoticed, etc.
 
 To increase our effectiveness we need to complement our security solutions with our shared knowledge, our
 shared experience in this fight.
@@ -89,7 +89,7 @@ lists you may end up blocking your users, your customers, even yourself (!) from
 
 3. I have included the TOR network in these lists (`bm_tor`, `dm_tor`, `et_tor`). The TOR network is not necessarily bad and you should not block it if you want to allow your users be anonymous. I have included it because for certain cases, allowing an anonymity network might be a risky thing (such as eCommerce).
 
-4. Apply any blacklist at the internet side of your firewall. Be very carefull. The `bogons` and `fullbogons` lists contain private, unroutable IPs that should not be routed on the internet. If you apply such a blocklist on your DMZ or LAN side, you will be blocked out of your firewall.
+4. Apply any blacklist at the internet side of your firewall. Be very careful. The `bogons` and `fullbogons` lists contain private, unrouteable IPs that should not be routed on the internet. If you apply such a blocklist on your DMZ or LAN side, you will be blocked out of your firewall.
 
 5. Always have a whitelist too, containing the IP addresses or subnets you trust. Try to build the rules in such a way that if an IP is in the whitelist, it should not be blocked by these blocklists.
 
@@ -99,11 +99,11 @@ lists you may end up blocking your users, your customers, even yourself (!) from
 
 ### Level 1 - Basic
 
-These are the ones I trust. **Level 1** provides basic security against the most well known attackers, with the minimum of false positives.
+These are the ones I trust. **Level 1** provides basic security against the most well-known attackers, with the minimum of false positives.
 
 1. **Abuse.ch** lists `feodo`, `palevo`, `sslbl`, `zeus`, `zeus_badips`
    
-   These folks are doing a great job tracking crimeware. Their blocklists are very focused.
+   These folks are doing a great job tracking crime ware. Their blocklists are very focused.
    Keep in mind `zeus` may include some false positives. You can use `zeus_badips` instead.
 
 2. **DShield.org** list `dshield`
@@ -144,7 +144,7 @@ These are the ones I trust. **Level 1** provides basic security against the most
    Like `openbl`, their goal is to report abuse back, so that the infection is disabled.
    They also provide their blocklist per type of attack (mail, web, etc).
 
-Of course there are more lists included. You can check them and decide if they fit for your needs.
+Of course, there are more lists included. You can check them and decide if they fit for your needs.
 
 ## Why are open proxy lists included
 
@@ -157,7 +157,7 @@ you will find that they overlap to a great degree with other blocklists, like `b
 
 So, if you are under attack, blocking the open proxies may help isolate a large part of the attack.
 
-I don't suggest to permanenly block IPs using the proxy lists. Their purpose of existance is questionable.
+I don't suggest to permanently block IPs using the proxy lists. Their purpose of existence is questionable.
 Their quality though may be acceptable, since lot of these sites advertise that they test open proxies before including them in their lists, so that there are no false positives, at least at the time they tested them.
 
 ---
