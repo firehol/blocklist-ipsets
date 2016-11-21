@@ -9,12 +9,12 @@
 # Maintainer      : Charles Haley
 # Maintainer URL  : http://charles.the-haleys.org
 # List source URL : http://charles.the-haleys.org/ssh_dico_attack_hdeny_format.php/hostsdeny.txt
-# Source File Date: Mon Nov 21 05:04:25 UTC 2016
+# Source File Date: Mon Nov 21 09:08:09 UTC 2016
 #
 # Category        : attacks
-# Version         : 1530
+# Version         : 1531
 #
-# This File Date  : Mon Nov 21 05:04:25 UTC 2016
+# This File Date  : Mon Nov 21 09:08:09 UTC 2016
 # Update Frequency: 4 hours 
 # Aggregation     : none
 # Entries         : 22549 unique IPs
@@ -11377,6 +11377,7 @@
 119.226.139.254
 119.235.6.27
 119.235.30.156
+119.235.51.66
 119.249.54.66
 119.249.54.68
 119.249.54.75
@@ -12651,7 +12652,6 @@
 133.31.109.145
 133.42.149.193
 133.43.170.7
-133.50.218.29
 133.58.120.4
 133.98.13.52
 133.130.103.66
