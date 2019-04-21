@@ -94,12 +94,13 @@ lists you may end up blocking your users, your customers, even yourself (!) from
 
 2. Most sites have either a donation system or commercial lists of higher quality. Try to support them. 
 
-3. I have included the TOR network in these lists (`bm_tor`, `dm_tor`, `et_tor`). The TOR network is not necessarily bad and you should not block it if you want to allow your users be anonymous. I have included it because for certain cases, allowing an anonymity network might be a risky thing (such as eCommerce).
+3. I have included the TOR network in these lists (`bm_tor`, `dm_tor`, `et_tor`). The TOR network is not necessarily bad and you should not block it if you want to allow your users be anonymous. I have included it because for certain cases, allowing an anonymity network might be a risky thing (such as eCommerce). Also, you may consider blocking **only TOR exit nodes**, not all TOR nodes. Discouraging people to run non-exit TOR nodes by blocking all nodes is not a good thing. Running a non-exit Tor node should bring the benefit of plausible deniability that a packet originated from your device.
 
 4. Apply any blacklist at the internet side of your firewall. Be very careful. The `bogons` and `fullbogons` lists contain private, unrouteable IPs that should not be routed on the internet. If you apply such a blocklist on your DMZ or LAN side, you will be blocked out of your firewall.
 
 5. Always have a whitelist too, containing the IP addresses or subnets you trust. Try to build the rules in such a way that if an IP is in the whitelist, it should not be blocked by these blocklists.
 
+6. This list contains IPs of Bitcoin nodes. You should not block Bitcoin nodes unless you have a good reason for this. Many nodes are hosted on home PCs and if you block those IP addresses you may block your users, your customers, even yourself (if you forgot to add a whitelist with your IP addresses). Obviously, if you host Bitcoin node yourself, you should be careful not to add bitcoin*.ipset lists to your blocklist.
 
 ## Which ones to use
 
