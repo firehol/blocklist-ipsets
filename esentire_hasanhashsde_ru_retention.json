@@ -1,0 +1,18 @@
+{
+	"ipset": "esentire_hasanhashsde_ru",
+	"started": 1462233106000,
+	"updated": 1528285935000,
+	"incomplete": 1,
+	"past": {
+		"hours": [  ],
+		"ips": [  ],
+		"total": 0
+	},
+	"current": {
+		"hours": [ 
+			18348 ],
+		"ips": [ 
+			1184 ],
+		"total": 1184
+	}
+}

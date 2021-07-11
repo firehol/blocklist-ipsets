@@ -1,0 +1,1778 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	
+	<title>FireHOL IP Lists | IP Blacklists | IP Blocklists | IP Reputation</title>
+
+	<meta name="author" content="Costa Tsaousis">
+	<meta name="description" content="Cybercrime, Fraud, Botnets, Command & Control, Μalware, Virus, Abuse, Attacks, Open Proxies, Anonymizing, IP lists, IP blacklists, IP blocklists, IP reputation.">
+	<meta name="keywords" content="IP blocklists, IP blacklists, IP Reputation Feeds, iptables ipsets, firewall blacklist, firewall blocklist, malware, abuse, attacks, proxies, anonymizers, SIEM">
+
+	<!-- <meta property="og:image" content="https://firehol.github.io/blocklist-ipsets/web-shield-512.png"/> -->
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:image" content="https://firehol.github.io/blocklist-ipsets/iplist-map.png?v5"/>
+	<meta property="og:url" content="http://iplists.firehol.org/"/>
+	<meta property="og:type" content="website"/>
+	<meta property="og:site_name" content="FireHOL IP Lists"/>
+	<meta property="og:title" content="FireHOL IP Lists | IP Blacklists | IP Reputation Feeds"/>
+	<meta property="og:description" content="300+ IP blacklists, IP blocklists and IP Reputation feeds, about Cybercrime, Fraud, Botnets, Μalware, Virus, Abuse, Attacks, Open Proxies, Anonymizers. See their changes and updates, size over time, retention policy, geographic coverage, comparisons and overlaps." />
+
+	<meta name="google-site-verification" content="nkdzz1kNjFr94M9WrgTUApW6OUCS-uOIzXCCLbdlnts" />
+	<meta name="msvalidate.01" content="896DCA31C9A664CE359FCF1A645DD476" />
+	
+	<link rel="shortcut icon" href="//iplists.firehol.org/web-shield-multi-size.ico">
+	
+	<link rel="apple-touch-icon" href="//iplists.firehol.org/web-shield-72.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="//iplists.firehol.org/web-shield-72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="//iplists.firehol.org/web-shield-114.png">
+
+	<link rel="icon" type="image/png" sizes="512x512" href="//iplists.firehol.org/web-shield-512.png">
+	<link rel="icon" type="image/png" sizes="256x256" href="//iplists.firehol.org/web-shield-256.png">
+	<link rel="icon" type="image/png" sizes="128x128" href="//iplists.firehol.org/web-shield-128.png">
+	<link rel="icon" type="image/png" sizes="64x64" href="//iplists.firehol.org/web-shield-64.png">
+	<link rel="icon" type="image/png" sizes="48x48" href="//iplists.firehol.org/web-shield-48.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="//iplists.firehol.org/web-shield-32.png">
+	<link rel="icon" type="image/png" sizes="24x24" href="//iplists.firehol.org/web-shield-24.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="//iplists.firehol.org/web-shield-16.png">
+
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<!--	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"> -->
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.8.1/bootstrap-table.min.css">
+	<link rel="stylesheet" href="typeahead.css">
+
+	<style type='text/css'>
+		#container {
+			height: 500px; 
+			width: 800px; 
+			margin: 0 auto; 
+		}
+		.highcharts-tooltip>span {
+			padding: 10px;
+			white-space: normal !important;
+			width: 200px;
+		}
+		.loading {
+			margin-top: 10em;
+			text-align: center;
+			color: gray;
+		}
+		.f32 .flag {
+			vertical-align: middle !important;
+		}
+		body {
+			padding-top: 70px;
+			position: relative;
+		}
+		@media screen and (max-width: 768px) {
+			body { padding-top: 60px; }
+		}
+		.scrollable-menu {
+			height: auto;
+			max-height: 500px;
+			overflow-x: hidden;
+		}
+		.borderless tbody tr td, .borderless tbody tr th, .borderless thead tr th, table {
+			border: none !important;
+			padding: 0px !important;
+		}
+		.popover {
+			min-width: 250px;
+			max-width: 500px;
+			width: auto;
+		}
+
+		@media print {    
+			.no-print, .no-print * {
+				display: none !important;
+			}
+		}
+
+	</style>
+
+</head>
+<body data-spy="scroll" data-target=".scrollspy" data-offset="250">
+
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container">
+		<div class="navbar-header">
+			 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#scrollspy_navbar"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <a class="navbar-brand" href="http://iplists.firehol.org">FireHOL IP Lists</a>
+		</div>
+		
+		<div class="collapse navbar-collapse scrollspy" id="scrollspy_navbar">
+			<ul class="nav navbar-nav">
+				<li>
+					<a href="#" class="active" id="header_ipset">current_ipset</a>
+				</li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" id="current_view">About <strong class="caret"></strong></a>
+					<ul class="dropdown-menu scrollable-menu inpagemenu" role="menu">
+						<li><a href="#about">About</a></li>
+						<li><a href="#history">Evolution</a></li>
+						<li><a href="#country_map">Map</a></li>
+						<li><a href="#age">Age</a></li>
+						<li><a href="#retention">Retention</a></li>
+						<li><a href="#comparison">Overlaps</a></li>
+						<li><a href="#disqus">Comments</a></li>
+					</ul>
+				</li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li>
+					<a href="https://github.com/firehol/blocklist-ipsets/wiki">Wiki <span class="badge progress-bar-danger">new!</span></a>
+				</li>
+				<li class="hidden-xs">
+					<form id="search_form" class="navbar-form navbar-left navbar-input-group " role="search">
+						<div class="form-group">
+							<div class="input-group">
+								<span class="input-group-addon"><span class="glyphicon glyphicon-search"></span></span>
+								<input id="search_input" class="form-control typeahead" type="text" placeholder="search list name or maintainer" style="width: 290px;">
+							</div>
+						</div>
+					</form>
+				</li>
+				<li class="dropdown hidden-sm hidden-md hidden-lg">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" id="all_label">All Lists <strong class="caret"></strong></a>
+					<ul class="dropdown-menu scrollable-menu" role="menu" id="all_lists">
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Links <strong class="caret"></strong></a>
+					<ul class="dropdown-menu scrollable-menu" role="menu" id="links">
+						<li class="dropdown-header">FireHOL Sites</li>
+						<li><a href="http://firehol.org/" target="_blank">FireHOL Home</a></li>
+						<li><a href="https://github.com/firehol/blocklist-ipsets/" target="_blank">IPSet Files in GitHub</a></li>
+
+						<li role="separator" class="divider"></li>
+						<li class="dropdown-header">Interesting Articles</li>
+						<li><a href="http://www.securityweek.com/threat-intelligence-not-intellectual-property" target="_blank">Threat Intelligence is Not Intellectual Property</a></li>
+
+						<li role="separator" class="divider"></li>
+						<li class="dropdown-header">Other IP Blacklist Aggregators</li>
+						<li><a href="http://multirbl.valli.org/lookup/" target="_blank">Valli MultiRBL DNSBL Checker</a></li>
+						<li><a href="https://intel.criticalstack.com/" target="_blank">CriticalStack Intel Marketplace</a></li>
+
+						<li role="separator" class="divider"></li>
+						<li class="dropdown-header">Global Real Time Threat Monitors</li>
+						<li><a href="https://map.virustracker.net/" target="_blank">LookingGlass, Global Botnet Infections</a></li>
+						<li><a href="https://www.google.com/transparencyreport/safebrowsing/malware/" target="_blank">Google, Malware Distribution</a></li>
+						<li><a href="http://www.digitalattackmap.com/" target="_blank">Google, Digital Attack Map</a></li>
+						<li><a href="https://www.fireeye.com/cyber-map/threat-map.html" target="_blank">FireEye, Threat Map</a></li>
+						<li><a href="https://cybermap.kaspersky.com/" target="_blank">Kaspersky, Cyber Warfare Real Time Map</a></li>
+						<li><a href="http://sicherheitstacho.eu/" target="_blank">Deutche Telekom, Security Tachometer</a></li>
+						<li><a href="https://www.akamai.com/us/en/solutions/intelligent-platform/visualizing-akamai/real-time-web-monitor.jsp" target="_blank">Akamai, Real Time Web Attacks Monitor</a></li>
+						<li><a href="http://map.norsecorp.com/" target="_blank">Norse, IpViking Live Map</a></li>
+						<li><a href="http://www.trendmicro.com/us/security-intelligence/current-threat-activity/global-botnet-map/index.html" target="_blank">Trend Micro, Global Botnet Threat Activity Map</a></li>
+						<li><a href="http://globe.f-secure.com/" target="_blank">F-Secure, Globe</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+<div class="container">
+	<div class="row clearfix">
+		<div class="col-md-12 column" id="jumbotron">
+			<div class="jumbotron" id="top">
+				<h1 id="ipset_name">
+					loading...
+				</h1>
+				<p id="ipset_info">
+					Please wait while ipset data are being loaded...
+				</p>
+			</div>
+			<div id="netdata" class="hidden-xs hidden-sm" style="display: none; position: absolute; width: 250px; height: 205px; flex-wrap: wrap; overflow: hidden; bottom: -40px; right: 50px; background-color: #FFF; border-radius: 10px; border: 1px solid #DDD; padding: 5px; padding-left: 10px; padding-right: 10px; z-Index: 10;">
+			<small>Have you seen <b><a href="http://netdata.firehol.org/" target="_blank">netdata</a></b>?</small>
+				<div style="text-align: center; margin-top: 10px;">
+					<div data-netdata="netdata.apps_cpu"
+							data-dimensions="user"
+							data-chart-library="gauge"
+							data-width="170px"
+							data-after="-60"
+							data-points="60"
+							data-title="Realtime!"
+							data-units="Hover below"
+							data-colors="#FF5555"
+							></div>
+					<br/>
+					<div data-netdata="netdata.apps_cpu"
+							data-dimensions="user"
+							data-chart-library="dygraph"
+							data-dygraph-theme="sparkline"
+							data-width="200px"
+							data-height="30px"
+							data-after="-60"
+							data-points="60"
+							data-colors="#FF0000"
+							></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row clearfix">
+		<div class="col-md-12 column">
+			<div class="hidden-xs pull-left" style="height: 50px;">
+				<table>
+				<tr>
+					<td rowspan="2" style="width: 50px; align: center;">
+						&nbsp;<span class="glyphicon glyphicon-hand-right" style="font-size:30px;" aria-hidden="true"></span>&nbsp;
+					</td>
+					<td><b>Do you like this site?</b></td>
+				</tr>
+				<tr><td><a href="#" data-toggle="modal" data-target="#helpUsModal">Help us make it better</a>.</td></tr>
+				</table>
+			</div>
+
+			<div class="pull-right">
+				<!-- <div class='shareaholic-canvas' data-app='share_buttons' data-app-id=''></div> -->
+				<!-- <div class="addthis_sharing_toolbox"></div> -->
+			</div>
+			
+			<!--
+			<div class="pull-right" style="height: 40px;">
+				<span class='st_sharethis_large' displayText='ShareThis'></span>
+				<span class='st_facebook_large' displayText='Facebook'></span>
+				<span class='st_twitter_large' displayText='Tweet'></span>
+				<span class='st_googleplus_large' displayText='Google +'></span>
+				<span class='st_linkedin_large' displayText='LinkedIn'></span>
+				<span class='st_pinterest_large' displayText='Pinterest'></span>
+				<span class='st_email_large' displayText='Email'></span>
+			</div>
+			-->
+			
+		</div>
+	</div>
+	<div class="row clearfix">
+		<div class="col-md-4 column">
+			<div id="facts">
+				<h2>Overview <small>of <span id="facts_ipset"></span></small></h2>
+				<table class="table">
+				<tr><th>name</th><td id="facts_name"></td></tr>
+				<tr><th>category</th><td id="facts_category"></td></tr>
+				<tr><th>maintainer</th><td id="facts_maintainer"></td></tr>
+				<tr><th>IP&nbsp;family</th><td id="facts_family"></td></tr>
+				<tr><th>ipset&nbsp;hash</th><td id="facts_hash"></td></tr>
+				<tr><th>ipset&nbsp;entries</th><td id="facts_entries"></td></tr>
+				<tr><th>unique&nbsp;IPs</th><td id="facts_ips"></td></tr>
+				<tr><th>source</th><td id="facts_url" data-toggle="popover" rel="popover" data-placement="right" data-original-title="source URL" data-trigger="hover" data-content="The URL we use to download the IP list from the maintainers' servers. This is not available when we use private or non-URL methods (like rsync)." data-html="true"></td></tr>
+				<tr><th>local&nbsp;copy</th><td id="file_local" data-toggle="popover" rel="popover" data-placement="right" data-original-title="local copy" data-trigger="hover" data-content="The processed, normalized file for this IP list. This is not available when the maintainers do not allow us to re-distribute their content." data-html="true"></td></tr>
+				<tr><th>changesets</th><td id="commit_history" data-toggle="popover" rel="popover" data-placement="right" data-original-title="changesets" data-trigger="hover" data-content="Every time the IP lists are modified, we commit them to a github repository, so we keep all their past revisions. This is not available when the maintainers do not allow us to re-distribute their content." data-html="true"></td></tr>
+				<tr><th>check<br/>frequency</th><td id="facts_frequency" data-toggle="popover" rel="popover" data-placement="right" data-original-title="check frequency" data-trigger="hover" data-content="This is the <strong>frequency we check for possible updates of the IP list</strong>. If a file was not modified when we checked (or we couldn't download it for any reason), the next check is executed in half the time given here." data-html="true"></td></tr>
+				<tr><th>average&nbsp;update<br/>frequency</th><td id="facts_average_update" data-toggle="popover" rel="popover" data-placement="right" data-original-title="average update" data-trigger="hover" data-content="The <strong>average frequency</strong> the list is updated by its maintainers. If this is number is very close to the <strong>check frequency</strong>, the list may be updated more frequently than we check." data-html="true"></td></tr>
+				<tr><th>aggregation</th><td id="facts_aggregation" data-toggle="popover" rel="popover" data-placement="right" data-original-title="aggregation" data-trigger="hover" data-content="When this is set, we aggregate several updates of the IP list to one bigger IP list. We use this feature only when the retention policy of the list is too low and we need to know the IPs that pass-through the IP list in larger timeframes." data-html="true"></td></tr>
+				<tr><th>fetch errors</th><td id="facts_errors" data-toggle="popover" rel="popover" data-placement="right" data-original-title="download errors" data-trigger="hover" data-content="This is the number of consecutive downloads we failed to download the IP list from the maintainer's site. <b>If this is non-zero, we still cannot download the IP list</b> (every successful download zeros this number, every failed increments it)." data-html="true"></td></tr>
+				<tr><th>monitoring since</th><td id="facts_started" data-toggle="popover" rel="popover" data-placement="right" data-original-title="monitoring since" data-trigger="hover" data-content="This is the <strong>time we started monitoring this IP list</strong>. Everything we know about this IP list begins at this date and time." data-html="true"></td></tr>
+				<tr><th>last time<br/>updated<br/>by its maintainers</th><td id="facts_updated" data-toggle="popover" rel="popover" data-placement="right" data-original-title="source last modified" data-trigger="hover" data-content="This is the <strong>date and time of the IP list file, on the maintainer's server, as we found it the last time we processed the IP list</strong>. The list maintainers may re-create the IP list file frequently, but we re-process it only when the actual contents of the IP list changed. So this is the date and time of the IP list file, on the server, the last time it was <b>changed</b>." data-html="true"></td></tr>
+				<tr><th>last time<br/>processed<br/>by us</th><td id="facts_processed" data-toggle="popover" rel="popover" data-placement="right" data-original-title="source last processed" data-trigger="hover" data-content="This is the <strong>date and time we processed the IP list</strong>." data-html="true"></td></tr>
+				<tr><th>last time<br/>we checked</th><td id="facts_checked" data-toggle="popover" rel="popover" data-placement="right" data-original-title="source last checked" data-trigger="hover" data-content="This is the <strong>date and time we last checked for an updated IP list</strong>." data-html="true"></td></tr>
+				</table>
+			</div>
+			<div id="open_bug">
+			</div>
+			<hr/>
+			<div id="all_menu1" class="hidden-xs hidden-sm">
+				<h3>All IP lists <small>monitored</small></h3>
+				<ul class="nav nav-tabs" role="tablist">
+					<li role="presentation" class="active"><a href="#all_by_category" aria-controls="all_by_category" role="tab" data-toggle="tab">By Category</a></li>
+					<li role="presentation"><a href="#all_by_maintainer" aria-controls="all_by_maintainer" role="tab" data-toggle="tab">By Maintainer</a></li>
+					<li role="presentation"><a href="#all_alphabetically" aria-controls="all_alphabetically" role="tab" data-toggle="tab">Alphabetically</a></li>
+				</ul>
+				&nbsp;<br/>
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane fade" id="all_alphabetically"></div>
+					<div role="tabpanel" class="tab-pane fade in active" id="all_by_category"></div>
+					<div role="tabpanel" class="tab-pane fade" id="all_by_maintainer"></div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-8 column">
+			<div class="alert alert-warning" role="alert" id="warning" hidden="true"></div>
+			<div class="alert alert-danger" role="alert" id="clock-warning" hidden="true">
+				<h4>your clock is wrong!</h4>
+				<p>Your computer clock seems wrong! Some calculations may be wrong.</p>
+				<p>Please sync your clock.</p>
+			</div>
+			<div class="alert alert-warning" role="alert" id="aggregation-warning" hidden="true">
+				<h4>aggregated data...</h4>
+				<p>The IPs in this list are aggregated by us. The source list either has no retention at all (i.e. it lists IPs just once and they are lost at the next refresh), or its retention is too low, or it would be interesting to know the IPs that pass through the original list in longer durations. So we decided to aggregate several updates together.</p>
+				<p>If you use this IP list in production systems, keep in mind this aggregation introduces a significant drawback: To unlist an IP, once it is in the aggregation log, you will either have to whitelist it using your own means, or wait for the aggregation period to expire so that it will be unlisted automatically.</p>
+			</div>
+			<div id="about">
+				<h2>About <small><span id="about_ipset"></span></small></h2>
+				<div id="about_html"></div>
+			</div>
+			<hr/>
+			<div id="history">
+				<h2>Evolution <small>of <span id="evolution_ipset"></span></small></h2>
+				<p>Each time the IP list is changed, modified, or updated we keep track of its size (both number of entries and number of unique IPs matched).
+				Using this information we can detect what the list maintainers do, get an idea of the list trend
+				and its maintainers habbits.
+				</p>
+				<p>
+				Using the chart below we attempt to answer these questions:
+				<ul>
+					<li><h5><a role="button" data-toggle="collapse" href="#evolutionCollapseOne" aria-expanded="false" aria-controls="evolutionCollapseOne">How many entries does it have? <strong class="caret"></strong></a></h5>
+						<div id="evolutionCollapseOne" class="panel-collapse collapse" role="tabpanel">
+							If you are going to use this IP list as a blocklist / blacklist at a firewall, its size can be important for the <b>performance</b> of the firewall.
+							<br/>
+							Keep in mind that the performance of Linux netfilter / iptables firewalls that use <strong>ipsets</strong> (like <a href="http://firehol.org/">FireHOL</a> does), is not affected by the size of an ipset. Any number of entries can be added and the firewall will just do one lookup for every packet checked against the ipset. Linux ipsets are affected only by the number of different subnets in an ipset. <a href="http://firehol.org/">FireHOL</a> solves this by <b>automatically reducing</b> the number of unique subnets on all <code>hash:net</code> ipsets (check <a href="https://github.com/firehol/firehol/wiki/iprange:-optimizing-ipsets-for-iptables#reducing-ipsets">this article</a> for more information on how this is done).
+						</div>
+					</li>
+					<li><h5><a role="button" data-toggle="collapse" href="#evolutionCollapseTwo" aria-expanded="false" aria-controls="evolutionCollapseTwo">How many unique IPs does it match? <strong class="caret"></strong></a></h5>
+						<div id="evolutionCollapseTwo" class="panel-collapse collapse" role="tabpanel">
+							The number of unique IPs matched by an IP list, determines the <strong>effectiveness</strong> of the blacklist / blocklist.
+							<br/>
+							Generally, smaller IP lists are more focused and safer to use as firewall blacklists / blocklists. Fewer unique IPs means fewer possible <strong>false positives</strong>.
+							<br/>
+							On the other hand a very small list will not provide a significant level of protection.
+						</div>
+					</li>
+					<li><h5><a role="button" data-toggle="collapse" href="#evolutionCollapseThree" aria-expanded="false" aria-controls="evolutionCollapseThree">Is it updated frequently and regularly? <strong class="caret"></strong></a></h5>
+						<div id="evolutionCollapseThree" class="panel-collapse collapse" role="tabpanel">
+							We need IP lists that are well maintained, frequently and regularly.
+							<br/>
+							In the chart below, every point is updated only when the list maintainers add IPs to, or remove IPs from the IP list, so even if the number of unique IPs remains the same, a point in the chart indicates that something changed in it. The exact number of unique IPs added and removed with each update can be seen on the chart next to the one below.
+							<br/>
+							The frequency of updates is irrelevant to the <strong>retention policy</strong> of the IP list. We will examine its retention below in the sections below.
+						</div>
+					</li>
+					<li><h5><a role="button" data-toggle="collapse" href="#evolutionCollapseFour" aria-expanded="false" aria-controls="evolutionCollapseFour">Does it have a consistent size through time? <strong class="caret"></strong></a></h5>
+						<div id="evolutionCollapseFour" class="panel-collapse collapse" role="tabpanel">
+							We don't want surprises. Sudden increases or decreases is generally an indication of poor maintainance.
+							<br/>
+							Of course, there are cases where an IP list will by definition have sudden changes in its size.
+						</div>
+					</li>
+				</ul>
+				</p>
+				The chart below shows the last 500 updates, of the IP list.
+				<p>
+				<ul>
+					<li><code>Entries</code> is the number of entries the ipset has.</li>
+					<li><code>UniqueIPs</code> is the number of unique IPs the ipset matches.</li>
+				</ul>
+				</p>
+				<div id="history_chart" style="height: 450px;">
+						<table width="100%" height="350px">
+						<tr><td height="50">&nbsp;</td>
+						</tr><tr><td align="center" valign="bottom" height="100"><span style="font-size:50px; color:#AA5555;" class="glyphicon glyphicon-refresh" aria-hidden="true"></span></td></tr>
+						<tr><td height="100" align="center" valign="top"><b>Loading evolution chart...</b><br/>&nbsp;<br/>&nbsp;</td></tr>
+						<tr><td height="100">&nbsp;</td></tr></table>
+				</div>
+				<p>
+				The chart below shows the change history of the IP list, i.e. the number of unique IPs <strong>added</strong> and <strong>removed</strong> with each update.
+				</p>
+				<p>
+				Using the chart below we attempt to answer these questions:
+				<ul>
+					<li><h5><a role="button" data-toggle="collapse" href="#changesetCollapseOne" aria-expanded="false" aria-controls="changesetCollapseOne">How much of this IP list is changed on every update? <strong class="caret"></strong></a></h5>
+						<div id="changesetCollapseOne" class="panel-collapse collapse" role="tabpanel">
+							There are IP lists that, although they have an almost constant size, they change their contents almost entirely on every update.
+							<br/>
+							In other cases, similar IP lists have minimal incremental updates.
+							<br/>
+							The following chart attempts to visualize this.
+						</div>
+					</li>
+				</ul>
+				</p>
+				<div id="changesets_chart" style="height: 450px;">
+						<table width="100%" height="350px">
+						<tr><td height="50">&nbsp;</td>
+						</tr><tr><td align="center" valign="bottom" height="100"><span style="font-size:50px; color:#AA5555;" class="glyphicon glyphicon-refresh" aria-hidden="true"></span></td></tr>
+						<tr><td height="100" align="center" valign="top"><b>Loading changesets chart...</b><br/>&nbsp;<br/>&nbsp;</td></tr>
+						<tr><td height="100">&nbsp;</td></tr></table>
+				</div>
+			</div>
+			<hr/>
+			<div role="tabpanel" id="country_map">
+				<h2>Country Map <small>of <span id="map_ipset"></span></small></h2>
+				<p>
+				Each time an ipset is updated we check it against
+				the <a href="http://dev.maxmind.com/geoip/geoip2/geolite2/">MaxMind GeoLite2 country</a>,
+				the <a href="http://www.ipdeny.com/">IPDeny.com country</a>
+				and the <a href="http://www.ip2location.com/">IP2Location.com Lite country</a>
+				databases, to find the list's unique IPs per country.
+				</p>
+				<p>
+				Using the maps below we attempt to answer these questions:
+				<ul>
+					<li><h5><a role="button" data-toggle="collapse" href="#mapCollapseOne" aria-expanded="false" aria-controls="mapCollapseOne">Which countries does it currently match? <strong class="caret"></strong></a></h5>
+						<div id="mapCollapseOne" class="panel-collapse collapse" role="tabpanel">
+							If you are going to install this IP list as a blocklist / blacklist at a firewall, it is important to know which countries will be mainly affected, since you are going to block access from/to these IPs.
+							<p>
+							All lists suffer from <strong>false positives</strong> to some degree, so using this IP list at your firewall might block some of your users or customers.
+						</div>
+					</li>
+					<li><h5><a role="button" data-toggle="collapse" href="#mapCollapseTwo" aria-expanded="false" aria-controls="mapCollapseTwo">Where do the attackers or the abusers come from? <strong class="caret"></strong></a></h5>
+						<div id="mapCollapseTwo" class="panel-collapse collapse" role="tabpanel">
+						Some lists focus only on specific regions of the world. The following map illustrates this. It is a <strong>heat map</strong> of the list's focus.
+						</div>
+					</li>
+				</ul>
+				</p>
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+					<li role="presentation" class="active"><a href="#geolite2" aria-controls="geolite2" role="tab" data-toggle="tab">MaxMind.com GeoLite2</a></li>
+					<li role="presentation"><a href="#ipdeny" aria-controls="ipdeny" role="tab" data-toggle="tab">IPDeny.com</a></li>
+					<li role="presentation"><a href="#ip2location" aria-controls="ip2location" role="tab" data-toggle="tab">IP2Location.com Lite</a></li>
+				</ul>
+				</p>
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="geolite2" style="height: 450px;">
+						<table width="100%" height="350px">
+						<tr><td height="50">&nbsp;</td>
+						</tr><tr><td align="center" valign="bottom" height="100"><span style="font-size:50px; color:#AA5555;" class="glyphicon glyphicon-refresh" aria-hidden="true"></span></td></tr>
+						<tr><td height="100" align="center" valign="top"><b>Loading geolite2 map...</b><br/>&nbsp;<br/>&nbsp;</td></tr>
+						<tr><td height="100">&nbsp;</td></tr></table>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="ipdeny" style="height: 450px;">
+						<table width="100%" height="350px">
+						<tr><td height="50">&nbsp;</td>
+						</tr><tr><td align="center" valign="bottom" height="100"><span style="font-size:50px; color:#AA5555;" class="glyphicon glyphicon-refresh" aria-hidden="true"></span></td></tr>
+						<tr><td height="100" align="center" valign="top"><b>Loading ipdeny map...</b><br/>&nbsp;<br/>&nbsp;</td></tr>
+						<tr><td height="100">&nbsp;</td></tr></table>						
+					</div>
+					<div role="tabpanel" class="tab-pane" id="ip2location" style="height: 450px;">
+						<table width="100%" height="350px">
+						<tr><td height="50">&nbsp;</td>
+						</tr><tr><td align="center" valign="bottom" height="100"><span style="font-size:50px; color:#AA5555;" class="glyphicon glyphicon-refresh" aria-hidden="true"></span></td></tr>
+						<tr><td height="100" align="center" valign="top"><b>Loading ip2location map...</b><br/>&nbsp;<br/>&nbsp;</td></tr>
+						<tr><td height="100">&nbsp;</td></tr></table>						
+					</div>
+				</div>
+			</div>
+			<hr/>
+			<div id="age">
+				<h2>Age of IPs listed <small>in <span id="age_ipset"></span></small></h2>
+				<p>The age of each IP in the list is shown below. The time shown is calculated in realtime; it will be refreshed as time passes, even if the list is not updated.
+				</p>
+				<p>
+				Using the chart below we attempt to answer these questions:
+				<ul>
+					<li><h5><a role="button" data-toggle="collapse" href="#ageCollapseOne" aria-expanded="false" aria-controls="ageCollapseOne">What is the current age of the IPs listed? <strong class="caret"></strong></a></h5>
+						<div id="ageCollapseOne" class="panel-collapse collapse" role="tabpanel">
+						<p>Most lists include IPs that match some criteria (e.g. an attack or abuse is detected originated from the IP in question). Once an IP is listed, it remains listed for a pre-defined amount of time, unless it matches the criteria again, in which case its expiration time is refreshed.
+						</p>
+						<p>Many lists announce the duration they list IPs. Many don't and almost all lists have exceptions that do not follow the announced rules.
+						</p>
+						<p>
+						A <strong>false positive</strong> is in place when an IP that was properly detected and added to the list, was released and re-used by another person, before being unlisted from the list. Since the world is full of dynamic IP users, <strong>false positives</strong> is the biggest problem of blocklist / blacklists.
+						</p>
+						<p>
+						In the chart below we show the exact age of the IPs currently listed. Small ages are good. Long ages are not necessarily bad. Normally, longer ages should only be a small part of the list's size.
+						</p>
+						<p>
+						<strong>Pay attention to the 50% mark</strong>. This is the <strong>average age</strong> of the IPs in the list. Pay also attention to the 75% (<strong>most probable</strong>) and the 90% (<strong>expected max</strong>) marks.
+						</p>
+						</div>
+					</li>
+					<li><h5><a role="button" data-toggle="collapse" href="#ageCollapseTwo" aria-expanded="false" aria-controls="ageCollapseTwo">Does the list include any static data? <strong class="caret"></strong></a></h5>
+						<div id="ageCollapseTwo" class="panel-collapse collapse" role="tabpanel">
+						<p>The ideal age chart of a well maintained IP list should a straight line from the bottom left corner, to the upper right corner of the chart.
+						</p>
+						<p>
+						Of course, this is affected by the pressure of different attacks and possibly the different listing policies for different types of attacks.
+						</p>
+						<p>
+						In general though, this chart should be as <strong>granural</strong> as possible.
+						</p>
+						<p>
+						Long horizontal lines indicate either sustaining attacks, or unreasonably high listing policies.
+						</p>
+						</div>
+					</li>
+				</ul>
+				</p>
+				<div class="alert alert-info" role="alert" id="age-incomplete-warning" hidden="true"></div>
+				<div id="age_chart" style="height: 450px;">
+					<table width="100%" height="350px">
+					<tr><td height="50">&nbsp;</td>
+					</tr><tr><td align="center" valign="bottom" height="100"><span style="font-size:50px; color:#AA5555;" class="glyphicon glyphicon-refresh" aria-hidden="true"></span></td></tr>
+					<tr><td height="100" align="center" valign="top"><b>Loading age chart...</b><br/>&nbsp;<br/>&nbsp;</td></tr>
+					<tr><td height="100">&nbsp;</td></tr></table>					
+				</div>
+			</div>
+			<hr/>
+			<div id="retention">
+				<h2>Retention Policy <small>of <span id="retention_ipset"></span></small></h2>
+				<p>The retention policy of the list shows the duration IPs were listed, when they were listed. This is calculated every time the list maintainers remove an IP from the list.
+				The chart below shows the retention policy detected, since we started monitoring the list (it is not limited to a certain timeframe).
+				</p>
+				<p>
+				Using the chart below we attempt to answer these questions:
+				<ul>
+					<li><h5><a role="button" data-toggle="collapse" href="#retentionCollapseOne" aria-expanded="false" aria-controls="retentionCollapseOne">When are IPs being removed from the list? <strong class="caret"></strong></a></h5>
+						<div id="retentionCollapseOne" class="panel-collapse collapse" role="tabpanel">
+						This chart shows data for the past IPs, currently unlisted.
+						<br/>
+						The vertical parts of the "stair steps" in this chart, indicate periods of intensive IPs cleanup. This is their <b>retention policy</b>.
+						<br/>
+						If the chart contains more than one "stair steps", the list has many different retention policies.
+						</div>
+					</li>
+				</ul>
+				</p>
+				<div class="alert alert-info" role="alert" id="retention-incomplete-warning" hidden="true"></div>
+				<div id="retention_chart" style="height: 450px;">
+					<table width="100%" height="350px">
+					<tr><td height="50">&nbsp;</td>
+					</tr><tr><td align="center" valign="bottom" height="100"><span style="font-size:50px; color:#AA5555;" class="glyphicon glyphicon-refresh" aria-hidden="true"></span></td></tr>
+					<tr><td height="100" align="center" valign="top"><b>Loading retention chart...</b><br/>&nbsp;<br/>&nbsp;</td></tr>
+					<tr><td height="100">&nbsp;</td></tr></table>					
+				</div>
+			</div>
+			<hr/>
+			<div id="comparison">
+				<h2>Overlaps <small>of <span id="overlaps_ipset"></span> with other IP lists</small></h2>
+				<div>
+					<p>
+					Using the chart below we attempt to answer these questions:
+					<ul>
+						<li><h5><a role="button" data-toggle="collapse" href="#comparisonCollapseOne" aria-expanded="false" aria-controls="comparisonCollapseOne">Is the list a derivative of other lists? <strong class="caret"></strong></a></h5>
+							<div id="comparisonCollapseOne" class="panel-collapse collapse" role="tabpanel">
+								<p>Check the column <code>Their %</code>. A high percentage in this column, indicates that the IP list of that row is included in <span id="comparison_collapse1_ipset"></span>.</p>
+							</div>
+						</li>
+						<li><h5><a role="button" data-toggle="collapse" href="#comparisonCollapseTwo" aria-expanded="false" aria-controls="comparisonCollapseTwo">Is the list included in any other list? <strong class="caret"></strong></a></h5>
+							<div id="comparisonCollapseTwo" class="panel-collapse collapse" role="tabpanel">
+								<p>Check the column <code>This %</code>. A high percentage in this column, indicates that <span id="comparison_collapse2_ipset"></span> is included in the IP list of that row.</p>
+							</div>
+						</li>
+						<li><h5><a role="button" data-toggle="collapse" href="#comparisonCollapseThree" aria-expanded="false" aria-controls="comparisonCollapseThree">Does the list share IPs with other lists? <strong class="caret"></strong></a></h5>
+							<div id="comparisonCollapseThree" class="panel-collapse collapse" role="tabpanel">
+								<p>Focus on the last two columns: <code>Their %</code> and <code>This %</code>. These two percentages show the percentage of overlap this list has with other IP lists.</p>
+								<p>Using the comparison table, we can easily find out that, for example, abuse is often initiated from anonymizing IPs (like open proxies) and malwares.</p>
+							</div>
+						</li>
+					</ul>
+					</p>
+					<div id="comparison_info"></div>
+				</div>
+				<div id="comparison_table_div">
+					<table id="comparison_table"
+						data-classes="table table-hover table-no-bordered table-condensed"
+						data-striped="true"
+						data-sort-name="common"
+						data-sort-order="desc"
+						data-show-export="true"
+						data-search="true"
+						data-show-columns="true"
+						data-show-pagination-switch="true"
+						data-pagination="true"
+						data-page-size="150"
+						data-page-list="[150, 300, 500, 1000, 2000, 5000]">
+						<thead>
+						<tr>
+							<th class="col-xs-2 hidden-xs hidden-md" data-field="category" data-halign="left"  data-align="left"  data-sortable="true">Category</th>
+							<th class="col-xs-4" data-field="name"     data-halign="left"  data-align="left"  data-sortable="true" data-formatter="ipsetLinkFormatter">List</th>
+							<th class="col-xs-2 hidden-xs" data-field="ips"      data-halign="right" data-align="right" data-sortable="true" data-formatter="numberFormatter">Unique IPs</th>
+							<th class="col-xs-2 hidden-xs" data-field="common"   data-halign="right" data-align="right" data-sortable="true" data-formatter="numberFormatter">Common IPs</th>
+							<th class="col-xs-2" data-field="their_pc" data-halign="right" data-align="right" data-sortable="true" data-formatter="percentFormatter" data-cell-style="comparisonCellStyleTheirPC">Their %</th>
+							<th class="col-xs-2" data-field="this_pc"  data-halign="right" data-align="right" data-sortable="true" data-formatter="percentFormatter" data-cell-style="comparisonCellStyleThisPC">This %</th>
+						</tr>
+						</thead>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="row clearfix no-print">
+		<div class="col-md-12 column" id="disqus">
+			<hr/>
+			<div><h3>Comments <small>on <span id="disqus_ipset"></span></small></h3></div>
+			<div id="disqus_thread"></div>
+			<hr/>
+		</div>
+	</div>
+
+	<div class="row clearfix">
+		<div class="col-md-12 column">
+			<div id="site_last_updated" class="pull-right" align="right"></div><br/>&nbsp;<br/>
+			<span class="glyphicon glyphicon-copyright-mark" aria-hidden="true"></span> 2015-2016 <a href="mailto:costa@tsaousis.gr">Costa Tsaousis</a>, for <a href="http://firehol.org">FireHOL</a> <i>a firewall for humans!</i>.
+			<br/>
+			The data on this page are automatically generated using FireHOL's <a href="https://github.com/firehol/firehol/blob/master/sbin/update-ipsets.in">update-ipsets.sh</a> (for downloading the lists from their sources and generating the data for this site), which utilizes <a href="https://github.com/firehol/firehol/wiki/iprange:-optimizing-ipsets-for-iptables">iprange</a> (for comparing and manipulating IP lists). Both are part of <a href="http://firehol.org">FireHOL</a>, which is provided under GPL v2, so you are free to get, use, adapt and re-distribute.
+			<br/>
+			This site is provided as-is, without any warranty. IP Lists are a property of their maintainers.
+			<br/>
+			<small>This site is a single <b>static</b> page, with all its data uploaded as static JSON and CSV files every time an IP List is updated. For the final result, it utilizes IP data and web services provided by third parties. It uses IP lists and related data provided and maintained by their respective owners (mentioned together with each IP list), IP-to-country geolocation data provided by <a href="http://www.maxmind.com" target="_blank">maxmind.com</a> (GeoLite2), <a href="http://www.ipdeny.com" target="_blank">ipdeny.com</a> and <a href="http://www.ip2location.com" target="_blank">ip2location.com</a> (Lite), javascript chart libraries provided by <a href="http://www.highcharts.com" target="_blank">highcharts.com</a>, comments engine provided by <a href="https://disqus.com" target="_blank">disqus.com</a>, social media sharing buttons provided by <a href="https://shareaholic.com" target="_blank">shareaholic.com</a>, the HTML, CSS and JS framework <a href="http://getbootstrap.com/" target="_blank">bootstrap</a>, the <a href="http://bootstrap-table.wenzhixin.net.cn/" target="_blank">bootstrap-table</a> component, icons provided by <a href="http://www.iconsdb.com/" target="_blank">iconsdb.com</a> and it uses several services provided by <a href="https://github.com">github</a>.</small>
+			<br/>&nbsp;
+		</div>
+	</div>
+</div>
+<!-- Help Us Modal -->
+<div class="modal fade" id="helpUsModal" tabindex="-1" role="dialog" aria-labelledby="helpUsModalLabel">
+	<div class="modal-dialog modal-lg" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="helpUsModalLabel">About this site</h4>
+			</div>
+			<div class="modal-body">
+				<p>
+				This site <b>aggregates</b>, <b>analyzes</b>, <b>compares</b> and <b>documents</b> publicly available IP Feeds, with a focus on <b>attacks</b> and <b>abuse</b>. It is automatically generated and maintained using <b>open source</b> software (check the wiki), that can be installed and run on your systems too, to download all IP lists directly from their maintainers, process them and re-generate the site and its data.
+				</p>
+				<p>
+				Special care has been given to make this analysis as scientific and objective as possible, respecting the <b>hard work of the security teams, security companies and security professionals</b> who offer these IP lists to the rest of us.
+				</p>
+				<p>
+				Of course, security is achieved with a lot more than IP lists. And not all IP lists included here should be used for blocking traffic at a firewall or border router. Many of them, should be used, for example, to influence the way applications handle clients, or help in the development of further threat analysis.
+				</p>
+				<p>
+				Unfortunatelly, the InfoSec industry still considers as a <b>standard industry practice the trade of Threat Intelligence for money</b>.<br/>
+				</p>
+				<p>
+				This is disappointing.<br/>
+				Why?
+				</p>
+				<p>
+				Threat Intelligence requires <b>knowledge</b>, <b>skills</b> and <b>sophisticated tools</b> to be effective. Instead of selling these skills and tools, security firms selling threat intel state clearly they have valid information that identifies criminals. But they want money to reveal it.
+				</p>
+				<p>
+				This is contradictory to what we consider acceptable, if it was about criminal activity other than cyber.
+				</p>
+				<p>
+				So, I have concluded that either the InfoSec industry has a severe <b>cultural fault</b>, or they have nothing. The super duper feeds they advertise are just a marketing tool to attract customers. They sell an illusion...
+				</p>
+				<p>
+				Many will argue that collecting threat intel is expensive.
+				</p>
+				<p>
+				Of course it is!<br/>
+				Then, you will also accept it if someone opens an online shop to sell information about a gang that breaks houses in your neighbor, as long as it cost them enough to acquire this information. Yes?
+				</p>
+				<p>
+				To my understanding <b>Threat Intelligence</b> cannot be effective when it is treated as <b>Intellectual Property</b>.<br/>
+				Hopefully, many security companies and professionals agree and openly distribute the result of their hard work.
+				</p>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
+
+	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+	<script type="text/javascript" src="//code.highcharts.com/highcharts.js"></script>
+	<script type="text/javascript" src="//code.highcharts.com/modules/data.js"></script>
+	<script type="text/javascript" src="//code.highcharts.com/modules/exporting.js"></script>
+	<script type="text/javascript" src="//code.highcharts.com/maps/modules/map.js"></script>
+	<script type="text/javascript" src="//code.highcharts.com/maps/modules/data.js"></script>
+	<script type="text/javascript" src="//code.highcharts.com/maps/modules/exporting.js"></script>
+	<script type="text/javascript" src="//code.highcharts.com/mapdata/custom/world.js"></script>
+	
+	<!-- Flag sprites service provided by Martijn Lafeber, https://github.com/lafeber/world-flags-sprite/blob/master/LICENSE -->
+	<link rel="stylesheet" type="text/css" href="//cloud.github.com/downloads/lafeber/world-flags-sprite/flags32.css" />
+
+	<!-- bootstrap table -->
+	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.8.1/bootstrap-table.min.js"></script>
+	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.8.1/extensions/export/bootstrap-table-export.min.js"></script>
+	<script type="text/javascript" src="//rawgit.com/kayalshri/tableExport.jquery.plugin/master/tableExport.js"></script>
+	<script type="text/javascript" src="//rawgit.com/kayalshri/tableExport.jquery.plugin/master/jquery.base64.js"></script>
+	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/typeahead.js/0.11.1/typeahead.jquery.min.js"></script>
+	
+<!--	<script type="text/javascript">var switchTo5x=true; var __st_loadLate=true;</script>
+	<script type="text/javascript" src="https://ws.sharethis.com/button/buttons.js"></script>
+	<script type="text/javascript">stLight.options({publisher: "5abdd483-f03c-4fd5-a791-429193a220a1", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
+-->
+
+	<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<!--	<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-55ce14b05924ca2f" async="async"></script> -->
+<!--	<script type='text/javascript' src='//dsms0mj1bbhn4.cloudfront.net/assets/pub/shareaholic.js' data-shr-siteid='ea1177a09f94c4fa463b43002ebed053' data-cfasync='false' async='async'></script> -->
+
+<script type="text/javascript">//<![CDATA[ 
+
+//if(window.location.hostname === 'iplists.firehol.org') {
+//	netdataServer = "https://netdata.firehol.org/"
+//	var script = document.createElement('script');
+//	script.type = 'text/javascript';
+//	script.async = true;
+//	script.src = netdataServer + "dashboard.js";
+//	document.head.appendChild(script);
+//	var netdata = document.getElementById('netdata');
+//	if(netdata !== null) netdata.style.display = 'inline-block';
+//}
+
+// global variables for disqus
+// without them disqus will not work properly
+var disqus_shortname = 'blocklistipsets';
+var disqus_identifier = 'none';
+var disqus_url = 'none';
+var disqus_title = 'none';
+var ipset_data = null;
+var last_updated = new Date().getTime() - (86400000 * 365); // a year old, by default
+
+// http://stackoverflow.com/questions/8211744/convert-time-interval-given-in-seconds-into-more-human-readable-form
+function millisecondsToStr (milliseconds) {
+	// TIP: to find current time in milliseconds, use:
+	// var  current_time_milliseconds = new Date().getTime();
+	
+	if(milliseconds < 0) milliseconds = 0;
+
+	function numberEnding (number) {
+		return (number > 1) ? 's' : '';
+	}
+
+	var str = "";
+	var temp = Math.floor(milliseconds / 1000);
+
+	var days = Math.floor(temp / 86400);
+	temp -= days * 86400;
+	var hours = Math.floor(temp / 3600);
+	temp -= hours * 3600;
+	var minutes = Math.floor(temp / 60);
+
+	if (days) {
+		str += days + ' day' + numberEnding(days);
+	}
+	if (hours) {
+		str += ((days)?((minutes)?', ':' and '):'') + hours + ' hour' + numberEnding(hours);
+	}
+	if (minutes) {
+		str += ((days || hours)?' and ':'') + minutes + ' minute' + numberEnding(minutes);
+	}
+
+	if(!days && !hours && !minutes) return 'less than a minute';
+	else return str;
+}
+
+var substringMatcher = function(ipsets) {
+	return function findMatches(q, cb) {
+		//console.log('searching for ' + q);
+
+		var matches, substringRegex;
+
+		// an array that will be populated with substring matches
+		matches = [];
+
+		if(q === '') {
+			$.each(ipsets, function(i, ipset) {
+				matches.push(ipset.ipset);
+			});
+		}
+		else {
+			// regex used to determine if a string contains the substring `q`
+			substrRegex = new RegExp(q, 'i');
+
+			// iterate through the pool of strings and for any string that
+			// contains the substring `q`, add it to the `matches` array
+			$.each(ipsets, function(i, ipset) {
+				if (substrRegex.test(ipset.ipset) || substrRegex.test(ipset.maintainer)) {
+					matches.push(ipset.ipset);
+				}
+			});
+		}
+
+		cb(matches);
+	};
+};
+
+// http://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript
+// parse query string parameters
+(function($) {
+	$.QueryString = (function(a) {
+		if (a == "") return {};
+		var b = {};
+		for (var i = 0; i < a.length; ++i)
+		{
+			var p=a[i].split('=');
+			if (p.length != 2) continue;
+			b[p[0]] = decodeURIComponent(p[1].replace(/\+/g, " "));
+		}
+		return b;
+	})(window.location.search.substr(1).split('&'))
+})(jQuery);
+
+function charterror(msg) {
+	return "<div class=\"jumbotron\"><table width=\"100%\" height=\"350px\"><tr><td height=\"50\">&nbsp;</td></tr><tr><td align=\"center\" valign=\"bottom\" height=\"100\"><span style=\"font-size:80px; color:#AA5555;\" class=\"glyphicon glyphicon-alert\" aria-hidden=\"true\"></span></td></tr><tr><td height=\"100\" align=\"center\" valign=\"top\"><b>Sorry!</b><br/>&nbsp;<br/>" + msg + "</td></tr><tr><td height=\"100\">&nbsp;</td></tr></table></div>";
+};
+
+// render a map using a json input
+function drawmap(ipset, geo, container) {
+	$.getJSON(ipset + '_' + geo + '_country.json', function (data) {
+		if(ipset_data) {
+			if(!ipset_data.geocountry)
+				ipset_data.geocountry = new Array();
+
+			var len = 0;
+			if(ipset_data.geocountry) len = ipset_data.geocountry.length;
+			ipset_data.geocountry[len] = new Object();
+			ipset_data.geocountry[len].provider = geo;
+			ipset_data.geocountry[len].data = data;
+		}
+
+		var max = 1;
+
+		// Add lower case codes to the data set for inclusion in the tooltip.pointFormat
+		$.each(data, function () {
+			if(this.code === 'MK' && this.name === 'Macedonia')
+				this.name = 'F.Y.R.O.M.';
+
+			this.flag = this.code.replace('UK', 'GB').toLowerCase();
+			if(this.value > max) max = this.value;
+		});
+
+		try {
+			$.each(Highcharts.maps["custom/world"].features, function() {
+				if(this.id === 'MK' && this.properties.name === 'Macedonia')
+					this.properties.name = 'F.Y.R.O.M.';
+			});
+		}
+		catch(err) {
+			;
+		}
+
+
+		// Initiate the chart
+		$(container).highcharts('Map', {
+			exporting: {
+				allowHTML: true,
+				filename: ipset + ' ' + geo + ' country-map',
+				width: 2000
+			},
+			chart: {
+				height: 450
+			},
+			title: {
+				text: ipset + ' Country Map'
+			},
+			subtitle: {
+				floating: true,
+				text: 'mapped with ' + geo + ' geo-country DB'
+			},
+			legend: {
+				borderWidth: 0,
+				layout: 'horizontal',
+				align: 'center',
+				floating: true,
+				title: {
+					text: 'Unique IPs',
+					style: {
+						color: (Highcharts.theme && Highcharts.theme.textColor) || 'black'
+					}
+				}
+			},
+			mapNavigation: {
+				enabled: true,
+				enableMouseWheelZoom: false,
+				enableTouchZoom: false,
+				buttonOptions: {
+					align: 'right',
+					verticalAlign: 'bottom'
+				}
+			},
+			tooltip: {
+				backgroundColor: 'none',
+				borderWidth: 0,
+				shadow: false,
+				useHTML: true,
+				padding: 0,
+				pointFormat: '<span class="f32"><span class="flag {point.flag}"></span></span>'
+					+ ' {point.name} <p><b>{point.value}</b> IPs</p>',
+				positioner: function () {
+					return { x: 0, y: 300 };
+				}
+			},
+			colorAxis: {
+				min: 1,
+				max: max,
+				maxColor: '#FF0000',
+				minColor: '#FFDDDD',
+				type: 'logarithmic'
+			},
+			series : [{
+				animation: false,
+				data : data,
+				mapData: Highcharts.maps['custom/world'],
+				joinBy: ['iso-a2', 'code'],
+				name: 'Unique IPs at',
+				states: {
+					hover: {
+						color: '#BADA55'
+					}
+				}
+			}]
+		});
+	})
+	.fail(function () {
+		$(container).html(charterror('failed to load <code>' + ipset + '</code> geolocation data'));
+	});
+};
+
+// draw the history chart
+function drawhistory(ipset, hide_entries, container) {
+	$.get(ipset + '_history.csv', function (data) {
+		if(ipset_data) {
+			ipset_data.history = data;
+		}
+
+		$(container).highcharts({
+			exporting: {
+				allowHTML: true,
+				filename: ipset + ' evolution',
+				width: 2000
+			},
+			chart: {
+				height: 450
+			},
+			title: {
+				text: ipset + ' History'
+			},
+			subtitle: {
+				text: 'evolution of unique IPs and entries'
+			},
+			data: {
+				csv: data,
+				parsed: function (columns) {
+					// We want to keep the values since 1950 only
+					$.each(columns, function () {
+						if(this[0] == "DateTime") {
+							var i;
+							for(i = 1; i < this.length ;i++)
+								this[i] = this[i] * 1000;
+						}
+					});
+				}
+			},
+			yAxis: [
+			{
+				labels: {
+					format: '{value} IPs',
+					style: {
+						color: Highcharts.getOptions().colors[1]
+					}
+				},
+				title: {
+					text: 'Number of Unique IPs',
+					style: {
+						color: Highcharts.getOptions().colors[1]
+					}
+				}
+			},
+			{
+				labels: {
+					format: '{value} Entries',
+					style: {
+						color: Highcharts.getOptions().colors[0]
+					}					},
+				title: {
+					text: 'Number of IPset Entries',
+					style: {
+						color: Highcharts.getOptions().colors[0]
+					}
+				},
+				opposite: true
+			}],
+			tooltip: {
+				shared: true,
+			},
+			xAxis:[{
+			  //labels:{
+				//formatter:function(){
+				//	 return Highcharts.dateFormat('%b %e, %H:%M', this.value * 1000);
+				//}
+			  //},
+			  type: 'datetime'
+			}],
+			plotOptions: {
+				areaspline: {
+					states: {
+						hover: {
+							enabled: true,
+							lineWidth: 0,
+							lineWidthPlus: 0,
+						}
+					}
+				},
+				series: {
+					marker: {
+						enabled: false
+					}
+				}
+			},
+			series: [{
+				animation: false,
+				visible: (hide_entries)?false:true,
+				type: 'areaspline',
+				lineWidth: 1,
+				yAxis: 1,
+				legendIndex: 1,
+				// tooltip: {valueSuffix: ' entries'}
+			},
+			{
+				animation: false,
+				type: 'areaspline',
+				lineWidth: 1,
+				yAxis: 0,
+				legendIndex: 0,
+				color: '#FF0000'
+				// tooltip: {valueSuffix: ' IPs'}
+			}]
+		});
+	})
+	.fail(function () {
+		$(container).html(charterror('failed to load <code>' + ipset + '</code> evolution data'));
+	});
+};
+
+// draw the history chart
+function drawchangesets(ipset, container) {
+	$.get(ipset + '_changesets.csv', function (data) {
+		if(ipset_data) {
+			ipset_data.changesets = data;
+		}
+
+		$(container).highcharts({
+			exporting: {
+				allowHTML: true,
+				filename: ipset + ' changesets',
+				width: 2000
+			},
+			chart: {
+				height: 450
+			},
+			title: {
+				text: ipset + ' Changes History'
+			},
+			subtitle: {
+				text: 'changes history of unique IPs'
+			},
+			data: {
+				csv: data,
+				parsed: function (columns) {
+					// We want to keep the values since 1950 only
+					$.each(columns, function () {
+						if(this[0] == "DateTime") {
+							var i;
+							for(i = 1; i < this.length ;i++)
+								this[i] = this[i] * 1000;
+						}
+						else if(this[0] == "RemovedIPs") {
+							var i;
+							for(i = 1; i < this.length ;i++)
+								this[i] = -this[i];
+						}
+					});
+				}
+			},
+			yAxis: [
+			{
+				labels: {
+					format: '{value} IPs',
+					style: {
+						color: Highcharts.getOptions().colors[1]
+					}
+				},
+				title: {
+					text: 'Number of Unique IPs',
+					style: {
+						color: Highcharts.getOptions().colors[1]
+					}
+				}
+			}],
+			tooltip: {
+				shared: true,
+			},
+			xAxis:[{
+			  //labels:{
+				//formatter:function(){
+				//	 return Highcharts.dateFormat('%b %e, %H:%M', this.value * 1000);
+				//}
+			  //},
+			  type: 'datetime'
+			}],
+			plotOptions: {
+				areaspline: {
+					states: {
+						hover: {
+							enabled: true,
+							lineWidth: 0,
+							lineWidthPlus: 0,
+						}
+					}
+				},
+				series: {
+					marker: {
+						enabled: false
+					}
+				},
+			},
+			series: [{
+				animation: false,
+				type: 'areaspline',
+				lineWidth: 1,
+				yAxis: 0,
+				legendIndex: 0
+				// tooltip: {valueSuffix: ' entries'}
+			},
+			{
+				animation: false,
+				type: 'areaspline',
+				lineWidth: 1,
+				yAxis: 0,
+				legendIndex: 1,
+				color: '#FF0000'
+				// tooltip: {valueSuffix: ' IPs'}
+			}]
+		});
+	})
+	.fail(function () {
+		$(container).html(charterror('failed to load <code>' + ipset + '</code> change set data'));
+	});
+};
+
+function drawretention(ipset, container_age, container_retention) {
+	$.getJSON(ipset + '_retention.json', function (data) {
+		if(ipset_data) {
+			ipset_data.histogram_data = data;
+		}
+
+		if(!data.current.total || !data.current.ips.length) {
+			$(container_age).html(charterror('There are no IPs in <code>' + data.ipset + '</code>.<br/>We will report their age, once the list maintainers add a few IPs to the list.'));
+		}
+		else {
+			// calculare percentages
+			data.current["pc"] = [];
+			$.each(data.current.ips, function(index, value) {
+				data.current.pc[index] = value * 100 / data.current.total;
+			});
+
+			// increase the hours since the last update to now
+			var dt = Math.floor((new Date().getTime() - data.updated) / 3600000);
+			if(dt > 0) {
+				$.each(data.current.hours, function(index, value) {
+					data.current.hours[index] = value + dt;
+				});
+			}
+			else if(dt < -2) {
+				$('#clock-warning').prop('hidden', false);
+			}
+
+			if(data.incomplete) {
+				$('#age-incomplete-warning').html('<h4>incomplete data...</h4><p>The age of ' + data.current.ips[data.current.ips.length - 1].toLocaleString() + ' IPs (' + data.current.pc[data.current.pc.length - 1].toFixed(2) + '% of listed IPs) is not yet known. We know it is more than ' + data.current.hours[data.current.hours.length - 1].toLocaleString() + ' hours.</p>');
+				$('#age-incomplete-warning').prop('hidden', false);
+				data.current.hours[data.current.hours.length - 1] = '> ' + data.current.hours[data.current.hours.length - 1];
+			}
+
+			if(data.current.hours.length > 1 && data.current.hours[0] == 0) data.current.hours[0] = '&lt; 1';
+
+			// calculate cumulative percentage
+			data.current["pcc"] = [];
+			var sum = 0;
+			$.each(data.current.pc, function(index, value) {
+				sum += value;
+				data.current.pcc[index] = sum;
+			});
+
+			$(container_age).highcharts({
+				exporting: {
+					allowHTML: true,
+					filename: ipset + ' age',
+					width: 2000
+				},
+				title: {
+					text: data.ipset + ' Age of IPs'
+				},
+				subtitle: {
+					text: 'Age of <b>' + data.current.total.toLocaleString() + '</b> currently listed IPs<br/>monitoring its age since ' + new Date(data.started).toString()
+				},
+				yAxis: [{
+					max: 100,
+					title: {
+						text: '% of IPs currently listed'
+					},
+					labels: {
+						format: '{value} %',
+					}
+				}],
+				xAxis: [{
+					title: {
+						text: 'IPs age in hours'
+					},
+					categories: data.current.hours,
+					crosshair: false,
+					// labels: {format: '{value} hours'},
+					allowDecimals: false
+				}],
+				tooltip: {
+					shared: false
+				},
+				legend: {
+					enabled: true
+				},
+				series: [{
+					animation: false,
+					type: 'areaspline',
+					name: 'IPs with age up to this hour (cumulative)',
+					data: data.current.pcc,
+					borderWidth: 0,
+					color: '#AAAACC',
+					tooltip: {
+						headerFormat: '<span style="font-size: 11px">% of IPs added up to<br/><b>{point.key} hours</b><br/>ago:</span><br/>',
+						valueSuffix: ' %',
+						valueDecimals: 2,
+						pointFormat: '<b>{point.y}</b><br/>'
+					}
+				},
+				{
+					animation: false,
+					type: 'column',
+					name: 'IPs with age in this hour',
+					data: data.current.pc,
+					borderWidth: 0,
+					color: '#FF6666',
+					tooltip: {
+						headerFormat: '<span style="font-size: 11px">% of IPs added about<br/><b>{point.key} hours</b><br/>ago:</span><br/>',
+						valueSuffix: ' %',
+						valueDecimals: 2,
+						pointFormat: '<b>{point.y}</b><br/>'
+					}
+				}]
+			});
+		}
+
+		if(!data.past.total || !data.past.ips.length) {
+			$(container_retention).html(charterror('No IPs have been added and removed from <code>' + data.ipset + '</code> since we started monitoring it<br/>(we started at ' + new Date(data.started).toString() + ').<br/>We will report retention, once the list maintainers remove a few IPs that have been added after we started monitoring it.'));
+		}
+		else {
+			var overheads = 0;
+			if(data.incomplete && data.current.ips.length) overheads = data.current.ips[data.current.ips.length - 1];
+
+			// calculare percentages
+			data.past["pc"] = [];
+			$.each(data.past.ips, function(index, value) {
+				data.past.pc[index] = value * 100 / (data.past.total + overheads);
+			});
+			if(data.past.hours[0] == 0) data.past.hours[0] = '&lt; 1';
+
+			// cumulative
+			data.past["pcc"] = [];
+			var sum = 0;
+			$.each(data.past.pc, function(index, value) {
+				sum += value;
+				data.past.pcc[index] = sum;
+			});
+
+			if(data.incomplete && data.current.ips.length) {
+				$('#retention-incomplete-warning').html('<h4>incomplete data...</h4><p>There are ' + overheads.toLocaleString() + ' IPs (' + (overheads * 100 / (data.past.total + overheads)).toFixed(2) + '% of all past IPs monitored so far) with unknown age. The retention chart below is incomplete.</p>');
+				$('#retention-incomplete-warning').prop('hidden', false);
+			}
+
+			$(container_retention).highcharts({
+				exporting: {
+					allowHTML: true,
+					filename: ipset + ' retention',
+					width: 2000
+				},
+				title: {
+					text: data.ipset + ' Retention Policy'
+				},
+				subtitle: {
+					text: 'Retention of <b>not</b> currently listed IPs<br/>for ' + data.past.total.toLocaleString() + ' IPs removed, <b>' + (data.past.total * 100 / (data.past.total + overheads)).toFixed(2) + ' %</b> of ' + (data.past.total + overheads).toLocaleString() + ' IPs added since we started<br/>monitoring it (' + new Date(data.started).toString() + ')'
+				},
+				yAxis: [{
+					max: sum,
+					title: {
+						text: '% of past IPs'
+					},
+					labels: {
+						format: '{value} %',
+					}
+				}],
+				xAxis: [{
+					title: {
+						text: 'IPs retention in hours'
+					},
+					categories: data.past.hours,
+					crosshair: false,
+					// labels: {format: '{value} hours'},
+					allowDecimals: false
+				}],
+				tooltip: {
+					shared: false
+				},
+				legend: {
+					enabled: true
+				},
+				series: [{
+					animation: false,
+					type: 'areaspline',
+					name: 'Retention of past IPs up to this hour (cumulative)',
+					data: data.past.pcc,
+					borderWidth: 0,
+					color: '#66CC66',
+					tooltip: {
+						headerFormat: '<span style="font-size: 11px">% of IPs removed up to<br/><b>{point.key} hours</b><br/>after being listed:</span><br/>',
+						valueSuffix: ' %',
+						valueDecimals: 2,
+						pointFormat: '<b>{point.y}</b><br/>'
+					}
+				},
+				{
+					animation: false,
+					type: 'column',
+					name: 'Retention of past IPs for this hour',
+					data: data.past.pc,
+					borderWidth: 0,
+					color: '#FF6666',
+					tooltip: {
+						headerFormat: '<span style="font-size: 11px">% of IPs removed about<br/><b>{point.key} hours</b><br/>after being listed:</span><br/>',
+						valueSuffix: ' %',
+						valueDecimals: 2,
+						pointFormat: '<b>{point.y}</b><br/>'
+					}
+				}]
+			});
+		}
+	})
+	.fail(function () {
+		$(container_age).html(charterror('cannot load age data for <code>' + ipset + '</code>'));
+		$(container_retention).html(charterror('cannot load retention data for <code>' + ipset + '</code>'));
+	});
+};
+
+function drawaboutipset(ipset, container) {
+	if(ipset_data) $(container).html(ipset_data.info);
+
+	$.get(ipset + '.html', function (data) {
+		if(ipset_data) ipset_data.about = data;
+		
+		$(container).html(data);
+	});
+};
+
+function percentFormatter(value, row, index) {
+    return value.toFixed(2) + '%';
+}
+function numberFormatter(value, row, index) {
+    return value.toLocaleString();
+}
+function ipsetLinkFormatter(value, row, index) {
+    return '<a href="' + $(location).attr('pathname') + '?ipset=' + value + '">' + value + '</a>';
+}
+function comparisonCellStyle(value) {
+    // var classes = ['active', 'success', 'info', 'warning', 'danger'];
+
+    if(value >= 98.0) return { classes: 'danger' };
+    if(value >= 80.0) return { classes: 'warning' };
+    if(value >= 50.0) return { classes: 'success' };
+    if(value >= 30.0) return { classes: 'info' };
+    return {};
+}
+function comparisonCellStyleTheirPC(value, row, index) {
+    return comparisonCellStyle(ipset_data.comparison_data[index].their_pc);
+}
+function comparisonCellStyleThisPC(value, row, index) {
+    return comparisonCellStyle(ipset_data.comparison_data[index].this_pc);
+}
+
+$(function () {
+	Highcharts.setOptions({
+		global: {
+			timezoneOffset: new Date().getTimezoneOffset()
+		}
+	});
+
+	// get the ipset from the query string
+	var ipset = $.QueryString["ipset"];
+	var home = 0;
+
+	if(window.location.hostname != 'iplists.firehol.org' || window.location.protocol != 'http:') {
+		var canonical = document.createElement('link');
+		canonical.rel = 'canonical';
+		canonical.href = 'http://iplists.firehol.org/' + ((ipset)?('?ipset=' + ipset):(''));
+		document.head.appendChild(canonical);
+	}
+
+	if(!ipset) {
+		ipset = "firehol_level1";
+		home  = 1;
+	}
+
+	// load the ipset and update the page
+	$.getJSON(ipset + '.json', function(data) {
+		ipset_data = data;
+
+		if(!home) {
+			var title = ipset + ((data.maintainer)?(' by ' + data.maintainer):'') + ', ' + data.category + ' IPs list, at FireHOL IP Lists';
+			var description = ipset + ((data.category)?(' ' + data.category + ' list'):('')) + ((data.maintainer)?(' by ' + data.maintainer):' IP list') + ': updates, changes history, retention policy, geographic coverage, comparison with other IP lists.';
+
+			document.title = title;
+			$('meta[name=description]').attr('content', description);
+			$('meta[name=keywords]').attr('content', ((data.maintainer)?(data.maintainer + ', '):'') + ipset + ', IP blocklist, IP blacklist, IP reputation, IP feed, iptables ipset');
+			$("meta[property='og:url']").attr('content', 'http://iplists.firehol.org/?ipset=' + ipset);
+			$("meta[property='og:type']").attr('content', 'article');
+			$("meta[property='og:title']").attr('content', title);
+			$("meta[property='og:description']").attr('content', description);
+		}
+
+		// console.log(data);
+		// set the content on the page
+		$('#header_ipset').html('<strong>' + ipset + '</strong>');
+		$('#ipset_name').html(ipset + ' <small><small>by <a href="' + data.maintainer_url + '">' + data.maintainer + '</a></small></small>');
+		$('#ipset_info').html(data.info + '<br/>&nbsp;<p><a class="btn btn-primary btn-lg" href="#disqus"><span class="glyphicon glyphicon-comment" aria-hidden="true"></span> Discuss ' + ipset + '</a>');
+
+		$('#open_bug').html('<div class="btn-group" role="group" aria-label="support_buttons" style="width: 100%;"><a class="btn btn-info" href="https://github.com/firehol/blocklist-ipsets/issues/new?title=[' + ipset + ']:%20give%20a%20title%20please&labels=feedback" target="_blank" style="display: block; width: 50%;"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Found a bug?</a><a class="btn btn-info" href="https://github.com/firehol/blocklist-ipsets/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+' + ipset + '" target="_blank" style="display: block; width: 50%;"><span class="glyphicon glyphicon-search" aria-hidden="true"></span> Search issues</a></div>');
+
+		$('#facts_name').html(data.name);
+		$('#facts_family').html(data.ipv);
+		if(data.category) $('#facts_category').html(data.category);
+		else $('#facts_category').html('will be updated on next update');
+		if(data.maintainer) $('#facts_maintainer').html('<a href="' + data.maintainer_url + '" target="_blank">' + data.maintainer + '</a>');
+		else $('#facts_maintainer').html('will be updated on next update');
+		$('#facts_hash').html('hash:' + data.hash);
+		$('#facts_entries').html(data.entries.toLocaleString() + ' <span class="pull-right text-muted"><small>min:&nbsp;' + data.entries_min.toLocaleString() + ' max:&nbsp;' + data.entries_max.toLocaleString() + '</small></span>');
+		$('#facts_ips').html(data.ips.toLocaleString() + ' <span class="pull-right text-muted"><small>min:&nbsp;' + data.ips_min.toLocaleString() + ' max:&nbsp;' + data.ips_max.toLocaleString() + '</small></span>');
+		
+		if(data.source)
+			$('#facts_url').html('<a href="' + data.source + '" target="_blank">download source file</a>');
+		else
+			$('#facts_url').html('(not a url)');
+		
+		$('#facts_frequency').html(millisecondsToStr(data.frequency * 60 * 1000));
+		$('#facts_average_update').html(millisecondsToStr(data.average_update * 60 * 1000));
+
+		if(data.file_local)
+			$('#file_local').html('<a href="' + data.file_local + '" target="_blank">download from github</a>');
+		else
+			$('#file_local').html('(not available)');
+
+		if(data.commit_history)
+			$('#commit_history').html('<a href="' + data.commit_history + '" target="_blank">github commit log</a>');
+		else
+			$('#commit_history').html('(not available)');
+
+		if(data.aggregation > 0) {
+			$('#facts_aggregation').html(millisecondsToStr(60 * 1000 * data.aggregation));
+			$('#aggregation-warning').prop('hidden', false);
+		}
+		else
+			$('#facts_aggregation').html('none');
+
+		if(!data.clock_skew) data.clock_skew = 0;
+
+		$('#facts_started').html(new Date(data.started - data.clock_skew).toString() + '<br>(' + millisecondsToStr(new Date().getTime() - data.started) + ' ago)</br>');
+		$('#facts_updated').html(new Date(data.updated - data.clock_skew).toString() + '<br>(' + millisecondsToStr(new Date().getTime() - data.updated + data.clock_skew) + ' ago)</br>');
+		$('#facts_processed').html(new Date(data.processed).toString() + '<br>(' + millisecondsToStr(new Date().getTime() - data.processed) + ' ago)</br>');
+		//console.log(new Date().getTime() - data.processed);
+
+		$('#facts_ipset').html(ipset);
+		$('#about_ipset').html(ipset);
+		$('#evolution_ipset').html(ipset);
+		$('#map_ipset').html(ipset);
+		$('#age_ipset').html(ipset);
+		$('#retention_ipset').html(ipset);
+		$('#overlaps_ipset').html(ipset);
+		$('#disqus_ipset').html(ipset);
+		$('#comparison_collapse1_ipset').html(ipset);
+		$('#comparison_collapse2_ipset').html(ipset);
+
+		// draw the default charts/maps
+		drawaboutipset(ipset, '#about_html');
+		drawhistory(ipset, true, '#history_chart');
+		drawchangesets(ipset, '#changesets_chart');
+		
+		if(!ipset_data.geolite2) {
+			$('#geolite2').html(charterror('<code>' + ipset + '</code> has not been compared, or does not overlap, with country data'));
+		}
+		else drawmap(ipset, 'geolite2', '#geolite2');
+
+		if(!ipset_data.ipdeny)
+			$('#ipdeny').html(charterror('<code>' + ipset + '</code> has not been compared, or does not overlap, with country data'));
+		
+		if(!ipset_data.ip2location)
+			$('#ip2location').html(charterror('<code>' + ipset + '</code> has not been compared, or does not overlap, with country data'));
+
+		drawretention(ipset, '#age_chart', '#retention_chart');
+
+		if(data.comparison) {
+			$.getJSON(data.comparison, function(c) {
+				//c.sort(function(a, b) {
+				//	return(b.common - a.common);
+				//});
+
+				$.each(c, function () {
+					//this.ips      = this.ips.toLocaleString();
+					//this.common   = this.common.toLocaleString();
+					//this.this_pc  = (this.common * 100.0 / ipset_data.ips).toFixed(2);
+					//this.their_pc = (this.common * 100.0 / this.ips).toFixed(2);
+					this.this_pc  = this.common * 100.0 / ipset_data.ips;
+					this.their_pc = this.common * 100.0 / this.ips;
+				});
+				data.comparison_data = c;
+				// console.log(ipset_data);
+
+				$('#comparison_table').bootstrapTable({
+					data: data.comparison_data
+				});
+
+				$('#comparison_info').html('In the table below we compare <b>' + ipset + '</b> with all other lists. If a list is not shown in the following table, it does not have any common IPs with <b>' + ipset + '</b>.<ul><li><code>Unique IPs</code> is the unique IPs each ipset has.</li><li><code>Common IPs</code> is the number of unique IPs common to <b>' + ipset + '</b> and each ipset.</li><li><code>Their %</code> the percentage: common IPs vs. the unique IPs of each row ipset.</li><li><code>This %</code> is the percentage: common IPs vs. the unique IPs of <b>' + ipset + '</b> (having <b>' + ipset_data.ips.toLocaleString() + '</b> unique IPs).</li></ul>');
+			})
+			.fail(function() {
+				$('#comparison_table_div').html(charterror("failed to load the comparison data for <code>" + ipset + '</code>'));
+			});
+		}
+		else if (!data.ips) {
+			$('#comparison_table_div').html(charterror("there are no IPs in <code>" + ipset + '</code>'));
+		}
+		else {
+			$('#comparison_table_div').html(charterror("there are no comparison data for <code>" + ipset + '</code>'));
+		}
+	})
+	.fail(function() {
+		$('#ipset_name').html("Oooops!");
+		$('#ipset_info').html("Sorry... this should not happen... is the ipset you requested valid? hhhm... for sure, this ipset data cannot be loaded right now...");
+	})
+
+	$.getJSON('all-ipsets.json', function(all) {
+		var now = new Date().getTime();
+		var updated_current_ipset = 0;
+
+		function add_ipset_to_menu(ips) {
+			if(!ips.clock_skew) ips.clock_skew = 0;
+			if(!ips.errors) ips.errors = 0;
+			var badge = "";
+			var ebadge = "";
+
+			// dt in minutes
+			dt = ((now - ips.updated + ips.clock_skew) / 1000) / 60;
+			if(dt <= 15) badge = '<span class="label label-danger" style="padding: 3px; float: left; width: 60px; text-align: center;">now</span>';
+			else if(dt <= 60) badge = '<span class="label label-primary" style="padding: 3px; float: left; width: 60px; text-align: center;">this hour</span>';
+			else if(dt <= 240) badge = '<span class="label label-info" style="padding: 3px; float: left; width: 60px; text-align: center;">4 hours</span>';
+			else if(dt <= 1440) badge = '<span class="label label-success" style="padding: 3px; float: left; width: 60px; text-align: center;">today</span>';
+			else if(dt <= 1440*7) badge = '<span class="label label-warning" style="padding: 3px; float: left; width: 60px; text-align: center;">this week</span>';
+			else badge = '<span class="label label-default" style="padding: 3px; float: left; width: 60px; text-align: center;">older</span>';
+
+			if(ips.errors) {
+				ebadge = '<span class="label alert-danger" data-toggle="popover" rel="popover" data-placement="right" data-original-title="' + ips.ipset + ' errors" data-trigger="hover" data-content="<p><b>The IP list is not currently downloadable from the maintainer\'s site</b>.</p><p>We have tried to download it <b><big>' + ips.errors.toLocaleString() + '</big></b> time(s) so far, without success.</p><p>Probably, the maintainer\' site is facing difficulties, or the download takes a long time for some reason (we timeout all IP list downloads at 3 minutes).</p>" data-html="true">errors</span>';
+			}
+			else if((((now - ips.started) / 1000) / 60) < 1440*30) {
+				ebadge = '<span class="label alert-success" data-toggle="popover" rel="popover" data-placement="right" data-original-title="' + ips.ipset + ' is new" data-trigger="hover" data-content="This IP lists has been added to <b>FireHOL IP Lists</b> this month.</p>" data-html="true">new</span>';
+			}
+
+			var html;
+
+			if(ips.ipset == ipset) {
+				html = '' + badge + '&nbsp;&nbsp;<b>' + ips.ipset + '</b><br/>';
+				if(!updated_current_ipset) {
+					$('#facts_checked').html(new Date(ips.checked).toString() + '<br>(' + millisecondsToStr(new Date().getTime() - ips.checked) + ' ago)</br>');
+
+					if(ips.errors == 1) $('#facts_errors').html('could not download it the last time');
+					else if(ips.errors > 1) $('#facts_errors').html('repeatedly fails to download, we tried ' + ips.errors + ' times so far without success');
+					else $('#facts_errors').html('none');
+
+					updated_current_ipset = 1;
+				}
+			}
+			else
+				html = '' + badge + '&nbsp;' + ebadge + '&nbsp;<a href="' + path + ips.ipset + '" data-toggle="popover" rel="popover" data-placement="right" data-original-title="' + ips.ipset + '" data-trigger="hover" data-content="<big><strong>' + ips.ips.toLocaleString() + '</strong></big> unique IPs<br/>in category <strong>' + ips.category + '</strong><br/>by&nbsp;<strong>'+ ips.maintainer + '</strong><br/>source last updated <b>' + millisecondsToStr(now - ips.updated + ips.clock_skew ) + '</b> ago." data-html="true">' + ips.ipset + '</a><br/>';
+
+			return(html);
+		};
+
+		//$('#all_label').html('All ' + all.length + ' lists<strong class="caret"></strong>');
+		$('#search_input').attr("placeholder", 'search ' + all.length + ' IP lists, by name or maintainer')
+
+		all.sort(function(a, b) {
+			if(a.ipset < b.ipset) return -1;
+			else return 1;
+		});
+		
+		var path = $(location).attr('pathname') + '?ipset=';
+		var menu_html = "";
+		var alpha_html = "";
+		var dt = 0;
+		$.each(all, function() {
+			menu_html += '<li><a href="' + path + this.ipset + '">' + this.ipset + '</a></li>';
+			alpha_html += add_ipset_to_menu(this);
+			if(last_updated < this.updated) last_updated = this.updated;
+		});
+		alpha_html += "";
+		$('#all_lists').html(menu_html);
+		$('#all_alphabetically').html(alpha_html);
+		$('#site_last_updated').html('<small>The data on this site were last updated <b>' + millisecondsToStr(new Date().getTime() - last_updated) + ' ago</b><br/>on ' + new Date(last_updated).toString() + '</small>');
+
+		// --------------------------------------------------------------------
+		// by category
+
+		all.sort(function(a, b) {
+			if(a.category.toUpperCase() == b.category.toUpperCase()) {
+				if(a.ipset < b.ipset) return -1;
+				else return 1;
+			}
+			else if(a.category.toUpperCase() < b.category.toUpperCase()) return -1;
+			else return 1;
+		});
+
+		var last = '';
+		var cat_html = "";
+		$.each(all, function() {
+			if(this.category.toUpperCase() != last) {
+				if(last) cat_html += '<hr/>';
+				cat_html += '<h4>' + this.category + '</h4>';
+				last = this.category.toUpperCase();
+			}
+
+			cat_html += add_ipset_to_menu(this);
+		});
+		cat_html += '';
+
+		$('#all_by_category').html(cat_html);
+
+		// --------------------------------------------------------------------
+		// by maintainer
+
+		all.sort(function(a, b) {
+			if(a.maintainer.toUpperCase() == b.maintainer.toUpperCase()) {
+				if(a.ipset < b.ipset) return -1;
+				else return 1;
+			}
+			else if(a.maintainer.toUpperCase() < b.maintainer.toUpperCase()) return -1;
+			else return 1;
+		});
+
+		var last = '';
+		var maint_html = "";
+		$.each(all, function() {
+			if(this.maintainer.toUpperCase() != last) {
+				if(last) maint_html += '<hr/>';
+				maint_html += '<h4>' + this.maintainer + '</h4>';
+				last = this.maintainer.toUpperCase();
+			}
+
+			maint_html += add_ipset_to_menu(this);
+		});
+		maint_html += '';
+
+		$('#all_by_maintainer').html(maint_html);
+
+
+		// --------------------------------------------------------------------
+		// search typeahead
+
+		all.sort(function(a, b) {
+			if(a.ipset < b.ipset) return -1;
+			else return 1;
+		});
+		
+		$('.typeahead').typeahead({
+			hint: true,
+			highlight: true,
+			minLength: 0
+		},
+		{
+			name: 'search_ipsets',
+			limit: 10000,
+			source: substringMatcher(all)
+		});
+		$('.typeahead').bind('typeahead:select', function(ev, suggestion) {
+			//console.log('Selection: ' + suggestion);
+			$(location).attr({
+				hash: '#',
+				search: '?ipset=' + suggestion
+			});
+		});
+	})
+	.fail(function() {
+		alert('cannot load all-ipsets.json');
+	})
+	.always(function() {
+		// enable all bootstrap popovers
+		$('[data-toggle="popover"]').popover();
+	});
+
+	// handle the map tab change
+	var ipdeny_rendered = 0;
+	var ip2location_rendered = 0;
+	$('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+		if(ipset && ipset_data && ipset_data.ipdeny && !ipdeny_rendered && $(e.target).attr('aria-controls') == "ipdeny") {
+			drawmap(ipset, $(e.target).attr('aria-controls'), '#' + $(e.target).attr('aria-controls'));
+			ipdeny_rendered = 1;
+		}
+		else if(ipset && ipset_data && ipset_data.ip2location && !ip2location_rendered && $(e.target).attr('aria-controls') == "ip2location") {
+			drawmap(ipset, $(e.target).attr('aria-controls'), '#' + $(e.target).attr('aria-controls'));
+			ip2location_rendered = 1;
+		}
+		return(false);
+	});
+
+	// BEGIN disqus comments
+	disqus_shortname = 'blocklistipsets';
+	disqus_identifier = 'http://iplists.firehol.org/?ipset=' + ipset;
+	disqus_url = 'http://iplists.firehol.org/?ipset=' + ipset;
+	disqus_title = 'FireHOL IP Lists Analytics: ' + ipset;
+
+	setTimeout(function() {
+		(function() {
+			var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+			dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+			(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+		})();
+		(function () {
+		    var s = document.createElement('script'); s.async = true;
+		    s.type = 'text/javascript';
+		    s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+		    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+		}());
+	}, 3000);
+	// END disqus comments
+
+	setTimeout(function() {
+		var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+		dsq.src = '//dsms0mj1bbhn4.cloudfront.net/assets/pub/shareaholic.js';
+		dsq.setAttribute('data-shr-siteid', 'ea1177a09f94c4fa463b43002ebed053');
+		dsq.setAttribute('data-cfasync', 'false');
+		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	}, 4000);
+
+	// BEGIN google analytics
+	setTimeout(function() {
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	
+		ga('create', 'UA-64295674-2', 'auto');
+		ga('send', 'pageview');
+	}, 2000);
+	// END google analytics
+
+	// fix hash anchor jumping
+	var shiftWindow = function() { scrollBy(0, -55) };
+	if (location.hash) shiftWindow();
+	window.addEventListener("hashchange", shiftWindow);
+
+	// fix for jumping to proper anchor after ajax
+	$(window).load(function(){
+		// Remove the # from the hash, as different browsers may or may not include it
+		var hash = location.hash.replace('#','');
+
+		if(hash != '') {
+			// Clear the hash in the URL
+			// location.hash = '';   // delete front "//" if you want to change the address bar
+			$('html, body').animate({ scrollTop: $(location.hash).offset().top - 55}, 0);
+		}
+	});
+
+	// update the navbar visible dropdown with the current anchor
+	$('#scrollspy_navbar').on('activate.bs.scrollspy', function () {
+		var currentItem = $(".inpagemenu li.active > a")[0];
+		console.log(currentItem);
+		$('#current_view').html(currentItem.text + ' <strong class="caret"></strong>');
+		//if(history.pushState)
+		//	history.pushState(null, null, currentItem.hash);
+		// console.log('viewing: ' + currentItem.text + ', href: ' + currentItem.hash);
+	});
+});
+
+//]]></script>

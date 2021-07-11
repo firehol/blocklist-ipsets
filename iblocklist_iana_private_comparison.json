@@ -1,0 +1,278 @@
+[
+	{
+		"name": "bbcan177_ms3",
+		"category": "malware",
+		"ips": 30151694,
+		"common": 1
+	},
+	{
+		"name": "bitcoin_nodes",
+		"category": "organizations",
+		"ips": 6096,
+		"common": 10
+	},
+	{
+		"name": "bitcoin_nodes_1d",
+		"category": "organizations",
+		"ips": 6741,
+		"common": 11
+	},
+	{
+		"name": "bitcoin_nodes_30d",
+		"category": "organizations",
+		"ips": 15554,
+		"common": 13
+	},
+	{
+		"name": "bitcoin_nodes_7d",
+		"category": "organizations",
+		"ips": 8562,
+		"common": 12
+	},
+	{
+		"name": "blocklist_net_ua",
+		"category": "abuse",
+		"ips": 44798,
+		"common": 1
+	},
+	{
+		"name": "bogons",
+		"category": "unroutable",
+		"ips": 592708608,
+		"common": 51643390
+	},
+	{
+		"name": "botscout_1d",
+		"category": "abuse",
+		"ips": 1666,
+		"common": 1
+	},
+	{
+		"name": "botscout_30d",
+		"category": "abuse",
+		"ips": 20345,
+		"common": 3
+	},
+	{
+		"name": "botscout_7d",
+		"category": "abuse",
+		"ips": 7037,
+		"common": 3
+	},
+	{
+		"name": "cidr_report_bogons",
+		"category": "unroutable",
+		"ips": 605490648,
+		"common": 51643638
+	},
+	{
+		"name": "coinbl_hosts",
+		"category": "organizations",
+		"ips": 9927,
+		"common": 41
+	},
+	{
+		"name": "coinbl_hosts_browser",
+		"category": "organizations",
+		"ips": 676,
+		"common": 2
+	},
+	{
+		"name": "dronebl_worms_bots",
+		"category": "malware",
+		"ips": 232996,
+		"common": 1
+	},
+	{
+		"name": "esentire_14072015_com",
+		"category": "malware",
+		"ips": 579,
+		"common": 3
+	},
+	{
+		"name": "esentire_14072015q_com",
+		"category": "malware",
+		"ips": 575,
+		"common": 3
+	},
+	{
+		"name": "esentire_22072014a_com",
+		"category": "malware",
+		"ips": 1290,
+		"common": 3
+	},
+	{
+		"name": "esentire_22072014b_com",
+		"category": "malware",
+		"ips": 1288,
+		"common": 3
+	},
+	{
+		"name": "esentire_22072014c_com",
+		"category": "malware",
+		"ips": 1289,
+		"common": 3
+	},
+	{
+		"name": "esentire_crazyerror_su",
+		"category": "malware",
+		"ips": 18613,
+		"common": 2
+	},
+	{
+		"name": "esentire_dorttlokolrt_com",
+		"category": "malware",
+		"ips": 23664,
+		"common": 3
+	},
+	{
+		"name": "esentire_downs1_ru",
+		"category": "malware",
+		"ips": 7231,
+		"common": 3
+	},
+	{
+		"name": "esentire_fioartd_com",
+		"category": "malware",
+		"ips": 601,
+		"common": 2
+	},
+	{
+		"name": "esentire_getarohirodrons_com",
+		"category": "malware",
+		"ips": 2156,
+		"common": 3
+	},
+	{
+		"name": "esentire_inleet_ru",
+		"category": "malware",
+		"ips": 4219,
+		"common": 2
+	},
+	{
+		"name": "esentire_maddox1_ru",
+		"category": "malware",
+		"ips": 11345,
+		"common": 3
+	},
+	{
+		"name": "esentire_manning1_ru",
+		"category": "malware",
+		"ips": 6824,
+		"common": 3
+	},
+	{
+		"name": "esentire_smartfoodsglutenfree_kz",
+		"category": "malware",
+		"ips": 2674,
+		"common": 3
+	},
+	{
+		"name": "firehol_abusers_1d",
+		"category": "abuse",
+		"ips": 8243,
+		"common": 1
+	},
+	{
+		"name": "firehol_level1",
+		"category": "attacks",
+		"ips": 619136730,
+		"common": 51643390
+	},
+	{
+		"name": "firehol_level4",
+		"category": "attacks",
+		"ips": 9286505,
+		"common": 4
+	},
+	{
+		"name": "firehol_webserver",
+		"category": "attacks",
+		"ips": 153244798,
+		"common": 16777215
+	},
+	{
+		"name": "fullbogons",
+		"category": "unroutable",
+		"ips": 598398720,
+		"common": 51643390
+	},
+	{
+		"name": "hphosts_ats",
+		"category": "organizations",
+		"ips": 13037,
+		"common": 18
+	},
+	{
+		"name": "hphosts_emd",
+		"category": "malware",
+		"ips": 59204,
+		"common": 11
+	},
+	{
+		"name": "hphosts_fsa",
+		"category": "reputation",
+		"ips": 24764,
+		"common": 9
+	},
+	{
+		"name": "hphosts_psh",
+		"category": "reputation",
+		"ips": 44781,
+		"common": 9
+	},
+	{
+		"name": "iblocklist_bogons",
+		"category": "unroutable",
+		"ips": 643576487,
+		"common": 18023679
+	},
+	{
+		"name": "iblocklist_cidr_report_bogons",
+		"category": "unroutable",
+		"ips": 605594088,
+		"common": 51643638
+	},
+	{
+		"name": "iblocklist_fornonlancomputers",
+		"category": "reputation",
+		"ips": 302055424,
+		"common": 33619967
+	},
+	{
+		"name": "lashback_ubl",
+		"category": "spam",
+		"ips": 37994,
+		"common": 1
+	},
+	{
+		"name": "nullsecure",
+		"category": "reputation",
+		"ips": 29439,
+		"common": 4
+	},
+	{
+		"name": "packetmail_ramnode",
+		"category": "reputation",
+		"ips": 2502,
+		"common": 6
+	},
+	{
+		"name": "stopforumspam_toxic",
+		"category": "abuse",
+		"ips": 96339771,
+		"common": 16777215
+	},
+	{
+		"name": "taichung",
+		"category": "attacks",
+		"ips": 2658,
+		"common": 9
+	},
+	{
+		"name": "xforce_bccs",
+		"category": "malware",
+		"ips": 411,
+		"common": 1
+	}
+]

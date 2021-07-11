@@ -1,0 +1,18 @@
+{
+	"ipset": "multiproxy",
+	"started": 1234392226000,
+	"updated": 1234392226000,
+	"incomplete": 1,
+	"past": {
+		"hours": [  ],
+		"ips": [  ],
+		"total": 0
+	},
+	"current": {
+		"hours": [ 
+			0 ],
+		"ips": [ 
+			1504 ],
+		"total": 1504
+	}
+}

@@ -1,0 +1,18 @@
+[
+	{
+		"code": "CL",
+		"value": 256
+	},
+	{
+		"code": "CN",
+		"value": 512
+	},
+	{
+		"code": "MY",
+		"value": 512
+	},
+	{
+		"code": "US",
+		"value": 1024
+	}
+]

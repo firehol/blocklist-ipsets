@@ -1,0 +1,66 @@
+[
+	{
+		"code": "ANYCAST",
+		"value": 288
+	},
+	{
+		"code": "APNIC",
+		"value": 32
+	},
+	{
+		"code": "BE",
+		"value": 256
+	},
+	{
+		"code": "DE",
+		"value": 769
+	},
+	{
+		"code": "ES",
+		"value": 256
+	},
+	{
+		"code": "FR",
+		"value": 256
+	},
+	{
+		"code": "GB",
+		"value": 1024
+	},
+	{
+		"code": "HK",
+		"value": 256
+	},
+	{
+		"code": "KE",
+		"value": 256
+	},
+	{
+		"code": "MY",
+		"value": 255
+	},
+	{
+		"code": "NA",
+		"value": 512
+	},
+	{
+		"code": "NL",
+		"value": 256
+	},
+	{
+		"code": "PL",
+		"value": 256
+	},
+	{
+		"code": "SE",
+		"value": 56
+	},
+	{
+		"code": "US",
+		"value": 1280
+	},
+	{
+		"code": "ZA",
+		"value": 3840
+	}
+]

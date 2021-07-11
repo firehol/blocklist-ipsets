@@ -1,0 +1,94 @@
+[
+	{
+		"code": "AFRINIC",
+		"value": 256
+	},
+	{
+		"code": "BACKBONE",
+		"value": 512
+	},
+	{
+		"code": "BE",
+		"value": 1536
+	},
+	{
+		"code": "BR",
+		"value": 256
+	},
+	{
+		"code": "CN",
+		"value": 795648
+	},
+	{
+		"code": "DE",
+		"value": 1536
+	},
+	{
+		"code": "EE",
+		"value": 256
+	},
+	{
+		"code": "ES",
+		"value": 512
+	},
+	{
+		"code": "FR",
+		"value": 512
+	},
+	{
+		"code": "GB",
+		"value": 256
+	},
+	{
+		"code": "HK",
+		"value": 1280
+	},
+	{
+		"code": "IN",
+		"value": 42240
+	},
+	{
+		"code": "JP",
+		"value": 18688
+	},
+	{
+		"code": "LU",
+		"value": 256
+	},
+	{
+		"code": "NG",
+		"value": 7168
+	},
+	{
+		"code": "NL",
+		"value": 768
+	},
+	{
+		"code": "NO",
+		"value": 256
+	},
+	{
+		"code": "PL",
+		"value": 256
+	},
+	{
+		"code": "RU",
+		"value": 5632
+	},
+	{
+		"code": "UA",
+		"value": 2304
+	},
+	{
+		"code": "UG",
+		"value": 1024
+	},
+	{
+		"code": "US",
+		"value": 76032
+	},
+	{
+		"code": "ZA",
+		"value": 8192
+	}
+]

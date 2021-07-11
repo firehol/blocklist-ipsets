@@ -1,0 +1,18 @@
+{
+	"ipset": "esentire_manning1_ru",
+	"started": 1462233102000,
+	"updated": 1528285933000,
+	"incomplete": 1,
+	"past": {
+		"hours": [  ],
+		"ips": [  ],
+		"total": 0
+	},
+	"current": {
+		"hours": [ 
+			18348 ],
+		"ips": [ 
+			6824 ],
+		"total": 6824
+	}
+}

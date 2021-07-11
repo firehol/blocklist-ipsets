@@ -1,0 +1,18 @@
+{
+	"ipset": "iblocklist_org_apple",
+	"started": 1440291609000,
+	"updated": 1528251411000,
+	"incomplete": 1,
+	"past": {
+		"hours": [  ],
+		"ips": [  ],
+		"total": 0
+	},
+	"current": {
+		"hours": [ 
+			26072 ],
+		"ips": [ 
+			16777216 ],
+		"total": 16777216
+	}
+}

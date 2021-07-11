@@ -1,0 +1,24 @@
+{
+	"ipset": "iblocklist_org_nintendo",
+	"started": 1440339511000,
+	"updated": 1528282500000,
+	"incomplete": 1,
+	"past": {
+		"hours": [ 
+			1 ],
+		"ips": [ 
+			139022783 ],
+		"total": 139022783
+	},
+	"current": {
+		"hours": [ 
+			2773,
+			11213,
+			26044 ],
+		"ips": [ 
+			20,
+			3683,
+			224 ],
+		"total": 3927
+	}
+}

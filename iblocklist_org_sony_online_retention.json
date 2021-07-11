@@ -1,0 +1,18 @@
+{
+	"ipset": "iblocklist_org_sony_online",
+	"started": 1440327633000,
+	"updated": 1528251413000,
+	"incomplete": 1,
+	"past": {
+		"hours": [  ],
+		"ips": [  ],
+		"total": 0
+	},
+	"current": {
+		"hours": [ 
+			26038 ],
+		"ips": [ 
+			24616 ],
+		"total": 24616
+	}
+}

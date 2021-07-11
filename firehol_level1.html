@@ -1,0 +1,60 @@
+
+This IP list is a composition of other IP lists.
+<p/>
+<strong>The objective is to create a blacklist that can be safe enough to be used on all systems, with a firewall, to block access entirely, from and to its listed IPs.</strong>
+<p/>
+The key prerequisite for this cause, is to have no false positives. All IPs listed should be bad and should be blocked, without exceptions.
+<p/>
+To accomplish this, we include the following IP lists:
+<ul>
+	<li><h5><a role="button" data-toggle="collapse" href="#aboutCollapseOne" aria-expanded="false" aria-controls="aboutCollapseOne">fullbogons - the unroutable IPs <strong class="caret"></strong></a></h5>
+		<div id="aboutCollapseOne" class="panel-collapse collapse" role="tabpanel">
+			<a href="?ipset=fullbogons">fullbogons</a> includes IPs that should not be routable in the Internet. It includes <a href="?ipset=bogons">bogons</a> which lists <b>private and reserved IPs</b>, but it also includes IPs that are allocated to a local registry, but they are not currently assinged to any one, ISP, corporation, or end user.
+			<p/>
+			<a href="?ipset=fullbogons">fullbogons</a> should be 100% safe, it should never include a false positive and should never give you a complaint from an end user or customer. Of course it needs to be up to date.
+		</div>
+	</li>
+	<li><h5><a role="button" data-toggle="collapse" href="#aboutCollapseTwo" aria-expanded="false" aria-controls="aboutCollapseTwo">spamhaus drop and edrop - <b>D</b>on't <b>R</b>oute <b>O</b>r <b>P</b>eer IPs <strong class="caret"></strong></a></h5>
+		<div id="aboutCollapseTwo" class="panel-collapse collapse" role="tabpanel">
+			According to <a href="http://www.spamhaus.org/drop/" target="_blank">Spamhaus</a>, DROP and EDROP are advisory "drop all traffic" lists, consisting of netblocks that are "hijacked" or leased by professional spam or cyber-crime operations (used for dissemination of malware, trojan downloaders, botnet controllers). The <a href="?ipset=spamhaus_drop">spamhaus_drop</a> and <a href="?ipset=spamhaus_edrop">spamhaus_edrop</a> lists are designed for use by firewalls and routing equipment to filter out the malicious traffic from these netblocks. 
+			<p/>
+			The <a href="?ipset=spamhaus_drop">spamhaus_drop</a> list will not include any IP address space under the control of any legitimate network - even if being used by "the spammers from hell".
+			<p/>
+			<a href="?ipset=spamhaus_edrop">spamhaus_edrop</a> is an extension of the <a href="?ipset=spamhaus_drop">spamhaus_drop</a> list that includes suballocated netblocks controlled by spammers or cyber criminals. <a href="?ipset=spamhaus_edrop">spamhaus_edrop</a> is meant to be used in addition to the direct allocations on the <a href="?ipset=spamhaus_drop">spamhaus_drop</a> list.
+			<p/>
+			When implemented at a network or ISP's 'core routers', <a href="?ipset=spamhaus_drop">spamhaus_drop</a> and <a href="?ipset=spamhaus_edrop">spamhaus_edrop</a> will help protect the network from spamming, scanning, harvesting, DNS-hijacking and DDoS attacks originating on rogue netblocks.
+			<p/>
+			<a href="http://www.spamhaus.org/drop/" target="_blank">Spamhaus</a> strongly encourages the use of <a href="?ipset=spamhaus_drop">spamhaus_drop</a> and <a href="?ipset=spamhaus_edrop">spamhaus_edrop</a> by tier-1s and backbones.
+			<p/>
+			In my personal experience, <a href="http://www.spamhaus.org/drop/" target="_blank">Spamhaus</a> is very responsive cleaning up these lists when it receives complaints.
+		</div>
+	</li>
+	<li><h5><a role="button" data-toggle="collapse" href="#aboutCollapseThree" aria-expanded="false" aria-controls="aboutCollapseThree">dshield - the top 20 attacking class-C <strong class="caret"></strong></a></h5>
+		<div id="aboutCollapseThree" class="panel-collapse collapse" role="tabpanel">
+			<a href="?ipset=dshield">dshield</a> summarizes the top 20 attacking class C (/24) subnets over the last three days. This sounds like many false positives are included. They are not, and this is why:
+			<p/>
+			<a href="https://dshield.org" target="_blank">dshield.org</a>, or better <a href="https://isc.sans.edu/about.html" target="_blank">The Internet Storm Center of SANS Institute</a>, collects firewall and IDS logs from hundreds of thousands of computers around the globe. You can submit yours too! The <a href="?ipset=dshield">dshield</a> IP list includes only the <b>top 20 class-C</b>, i.e. it always lists 5120 IPs only. The rate of change of these top 20 class-C is so high, that most of them are listed for just 15 mins. Check it. Goto to the <a href="?ipset=dshield">dshield</a> page and take a look on the second chart (the "changes history" chart). Out of the 5120 IPs listed, about 3000 of them expire on every update.
+			<p/>
+			To visualize it even better, check the <a href="?ipset=dshield_1d">dshield_1d</a> list. This one aggregates all IPs listed by <a href="?ipset=dshield">dshield</a>, for 24 hours. Check its unique IPs count. 60k to 120k unique IPs pass through <a href="?ipset=dshield">dshield</a> every day. 
+			<p/>
+			So, if it has a so aggressive change rate, is it usefull at all? The whole idea of <a href="?ipset=dshield">dshield</a> is to follow the storm as close as possible. And they are doing a great job accoplishing it.
+		</div>
+	</li>
+	<li><h5><a role="button" data-toggle="collapse" href="#aboutCollapseFour" aria-expanded="false" aria-controls="aboutCollapseFour">malware lists - the Command and Control IPs <strong class="caret"></strong></a></h5>
+		<div id="aboutCollapseFour" class="panel-collapse collapse" role="tabpanel">
+			There are several malware lists that are very focused. They only track IPs that are actively used by specific malwares or trojans. These lists are usualy very small and they even reach zero IP count if the malware is vanished.
+			<p/>
+			We include most the <a href="http://abuse.ch" target="_blank">Abuse.ch</a> and <a href="http://osint.bambenekconsulting.com/feeds/" target="_blank">Bambenek Consulting</a> lists. Namely:
+			<ul>
+				<li><a href="?ipset=feodo">feodo</a></li>
+				<li><a href="?ipset=sslbl">sslbl</a></li>
+				<li><a href="?ipset=zeus_badips">zeus_badips</a></li>
+				<li><a href="?ipset=bambenek_c2">bambenek_c2</a> which includes all <a href="http://osint.bambenekconsulting.com/feeds/" target="_blank">Bambenek Consulting</a> lists</li>
+			</ul>
+			These lists do suffer from some false positives, but not for dynamic IP users. The only false positives I ever found on these malware lists was on hosting providers that share the same IP among many sites. If a site is hosting a malware or trojan monitored by these lists, then the IP of that site and therefore all the other sites that share the same IP will be blocked.
+		</div>
+	</li>
+</ul>
+<b>firehol_level1</b> is updated automatically every time any of its IP lists is updated. If you use FireHOL's <a href="https://github.com/firehol/firehol/blob/master/sbin/update-ipsets" target="_blank">update-ipsets.sh</a>, you can just enable it and it will be composed directly from the individual lists, on your computer. Otherwise, you can download it from <a href="https://raw.githubusercontent.com/ktsaou/blocklist-ipsets/master/firehol_level1.netset" target="_blank">github</a>.
+<p/>
+I would love to hear any comments for this list. So please, <a href="#disqus">let me know if you have any</a>.

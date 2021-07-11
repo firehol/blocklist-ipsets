@@ -1,0 +1,18 @@
+{
+	"ipset": "uscert_hidden_cobra",
+	"started": 1497402489000,
+	"updated": 1497402489000,
+	"incomplete": 1,
+	"past": {
+		"hours": [  ],
+		"ips": [  ],
+		"total": 0
+	},
+	"current": {
+		"hours": [ 
+			0 ],
+		"ips": [ 
+			627 ],
+		"total": 627
+	}
+}

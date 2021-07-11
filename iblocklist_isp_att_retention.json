@@ -1,0 +1,20 @@
+{
+	"ipset": "iblocklist_isp_att",
+	"started": 1440293244000,
+	"updated": 1528322508000,
+	"incomplete": 0,
+	"past": {
+		"hours": [ 
+			24 ],
+		"ips": [ 
+			16777216 ],
+		"total": 16777216
+	},
+	"current": {
+		"hours": [ 
+			13900 ],
+		"ips": [ 
+			55845128 ],
+		"total": 55845128
+	}
+}

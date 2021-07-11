@@ -1,0 +1,34 @@
+[
+	{
+		"code": "CN",
+		"value": 769
+	},
+	{
+		"code": "DE",
+		"value": 256
+	},
+	{
+		"code": "KR",
+		"value": 256
+	},
+	{
+		"code": "NL",
+		"value": 1
+	},
+	{
+		"code": "RO",
+		"value": 1
+	},
+	{
+		"code": "SC",
+		"value": 257
+	},
+	{
+		"code": "TW",
+		"value": 258
+	},
+	{
+		"code": "US",
+		"value": 769
+	}
+]

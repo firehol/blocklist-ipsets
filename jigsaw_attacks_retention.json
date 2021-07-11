@@ -1,0 +1,22 @@
+{
+	"ipset": "jigsaw_attacks",
+	"started": 1448484904000,
+	"updated": 1459665960000,
+	"incomplete": 1,
+	"past": {
+		"hours": [  ],
+		"ips": [  ],
+		"total": 0
+	},
+	"current": {
+		"hours": [ 
+			0,
+			2061,
+			3106 ],
+		"ips": [ 
+			19149,
+			255,
+			7705 ],
+		"total": 27109
+	}
+}

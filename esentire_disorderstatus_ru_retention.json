@@ -1,0 +1,18 @@
+{
+	"ipset": "esentire_disorderstatus_ru",
+	"started": 1462233103000,
+	"updated": 1528285933000,
+	"incomplete": 1,
+	"past": {
+		"hours": [  ],
+		"ips": [  ],
+		"total": 0
+	},
+	"current": {
+		"hours": [ 
+			18348 ],
+		"ips": [ 
+			7 ],
+		"total": 7
+	}
+}

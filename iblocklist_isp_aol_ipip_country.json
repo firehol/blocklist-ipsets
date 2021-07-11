@@ -1,0 +1,22 @@
+[
+	{
+		"code": "AS",
+		"value": 256
+	},
+	{
+		"code": "AU",
+		"value": 524288
+	},
+	{
+		"code": "DE",
+		"value": 16384
+	},
+	{
+		"code": "NL",
+		"value": 32768
+	},
+	{
+		"code": "US",
+		"value": 6053888
+	}
+]

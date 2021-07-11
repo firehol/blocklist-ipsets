@@ -1,0 +1,16 @@
+{
+	"ipset": "feodo_badips",
+	"started": 1459111886000,
+	"updated": 1528330062000,
+	"incomplete": 0,
+	"past": {
+		"hours": [  ],
+		"ips": [  ],
+		"total": 0
+	},
+	"current": {
+		"hours": [  ],
+		"ips": [  ],
+		"total": 0
+	}
+}

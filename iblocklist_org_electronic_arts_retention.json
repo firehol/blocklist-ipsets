@@ -1,0 +1,18 @@
+{
+	"ipset": "iblocklist_org_electronic_arts",
+	"started": 1440376467000,
+	"updated": 1528277382000,
+	"incomplete": 1,
+	"past": {
+		"hours": [  ],
+		"ips": [  ],
+		"total": 0
+	},
+	"current": {
+		"hours": [ 
+			26031 ],
+		"ips": [ 
+			69720 ],
+		"total": 69720
+	}
+}

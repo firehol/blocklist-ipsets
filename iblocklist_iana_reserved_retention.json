@@ -1,0 +1,18 @@
+{
+	"ipset": "iblocklist_iana_reserved",
+	"started": 1440189609000,
+	"updated": 1528262845000,
+	"incomplete": 1,
+	"past": {
+		"hours": [  ],
+		"ips": [  ],
+		"total": 0
+	},
+	"current": {
+		"hours": [ 
+			26099 ],
+		"ips": [ 
+			536870912 ],
+		"total": 536870912
+	}
+}

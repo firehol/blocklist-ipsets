@@ -1,0 +1,122 @@
+[
+	{
+		"name": "bambenek_c2",
+		"category": "malware",
+		"ips": 193,
+		"common": 1
+	},
+	{
+		"name": "bambenek_matsnu",
+		"category": "malware",
+		"ips": 4,
+		"common": 1
+	},
+	{
+		"name": "cleanmx_viruses",
+		"category": "spam",
+		"ips": 3094,
+		"common": 1
+	},
+	{
+		"name": "cta_cryptowall",
+		"category": "malware",
+		"ips": 1229,
+		"common": 1
+	},
+	{
+		"name": "firehol_level1",
+		"category": "attacks",
+		"ips": 679995594,
+		"common": 1
+	},
+	{
+		"name": "firehol_level3",
+		"category": "attacks",
+		"ips": 1469901,
+		"common": 1
+	},
+	{
+		"name": "firehol_level4",
+		"category": "attacks",
+		"ips": 9583543,
+		"common": 1
+	},
+	{
+		"name": "firehol_webserver",
+		"category": "attacks",
+		"ips": 44732322,
+		"common": 13
+	},
+	{
+		"name": "hphosts_ats",
+		"category": "organizations",
+		"ips": 15485,
+		"common": 5
+	},
+	{
+		"name": "hphosts_emd",
+		"category": "malware",
+		"ips": 16896,
+		"common": 13
+	},
+	{
+		"name": "hphosts_exp",
+		"category": "malware",
+		"ips": 352,
+		"common": 2
+	},
+	{
+		"name": "hphosts_fsa",
+		"category": "reputation",
+		"ips": 7510,
+		"common": 5
+	},
+	{
+		"name": "hphosts_hjk",
+		"category": "malware",
+		"ips": 57,
+		"common": 2
+	},
+	{
+		"name": "hphosts_mmt",
+		"category": "reputation",
+		"ips": 1159,
+		"common": 2
+	},
+	{
+		"name": "hphosts_pha",
+		"category": "reputation",
+		"ips": 900,
+		"common": 3
+	},
+	{
+		"name": "hphosts_psh",
+		"category": "reputation",
+		"ips": 5023,
+		"common": 4
+	},
+	{
+		"name": "hphosts_wrz",
+		"category": "reputation",
+		"ips": 863,
+		"common": 4
+	},
+	{
+		"name": "iblocklist_ads",
+		"category": "organizations",
+		"ips": 888645,
+		"common": 1
+	},
+	{
+		"name": "snort_ipfilter",
+		"category": "attacks",
+		"ips": 34498,
+		"common": 1
+	},
+	{
+		"name": "talosintel_ipfilter",
+		"category": "attacks",
+		"ips": 34582,
+		"common": 1
+	}
+]

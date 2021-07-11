@@ -1,0 +1,20 @@
+{
+	"ipset": "iblocklist_isp_verizon",
+	"started": 1440306046000,
+	"updated": 1528294304000,
+	"incomplete": 1,
+	"past": {
+		"hours": [  ],
+		"ips": [  ],
+		"total": 0
+	},
+	"current": {
+		"hours": [ 
+			24918,
+			26057 ],
+		"ips": [ 
+			2752512,
+			15335424 ],
+		"total": 18087936
+	}
+}

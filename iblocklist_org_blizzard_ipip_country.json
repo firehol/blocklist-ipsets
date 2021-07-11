@@ -1,0 +1,38 @@
+[
+	{
+		"code": "AU",
+		"value": 512
+	},
+	{
+		"code": "BACKBONE",
+		"value": 1757
+	},
+	{
+		"code": "FR",
+		"value": 4608
+	},
+	{
+		"code": "GD",
+		"value": 256
+	},
+	{
+		"code": "IQ",
+		"value": 1
+	},
+	{
+		"code": "NL",
+		"value": 4608
+	},
+	{
+		"code": "PR",
+		"value": 16640
+	},
+	{
+		"code": "SI",
+		"value": 1
+	},
+	{
+		"code": "US",
+		"value": 16766756
+	}
+]

@@ -1,0 +1,20 @@
+{
+	"ipset": "iblocklist_org_blizzard",
+	"started": 1440370832000,
+	"updated": 1528330365000,
+	"incomplete": 1,
+	"past": {
+		"hours": [  ],
+		"ips": [  ],
+		"total": 0
+	},
+	"current": {
+		"hours": [ 
+			24430,
+			26048 ],
+		"ips": [ 
+			512,
+			16794627 ],
+		"total": 16795139
+	}
+}

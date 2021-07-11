@@ -1,0 +1,18 @@
+{
+	"ipset": "botvrij_src",
+	"started": 1460580469000,
+	"updated": 1527713166000,
+	"incomplete": 0,
+	"past": {
+		"hours": [ 
+			6350 ],
+		"ips": [ 
+			5 ],
+		"total": 5
+	},
+	"current": {
+		"hours": [  ],
+		"ips": [  ],
+		"total": 0
+	}
+}

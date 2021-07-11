@@ -1,0 +1,32 @@
+{
+	"ipset": "ransomware_teslacrypt_ps",
+	"started": 1528329903000,
+	"updated": 1575803768000,
+	"incomplete": 0,
+	"past": {
+		"hours": [ 
+			0,
+			1,
+			2,
+			3,
+			5,
+			6,
+			7,
+			5971 ],
+		"ips": [ 
+			3,
+			6,
+			9,
+			2,
+			4,
+			4,
+			2,
+			2 ],
+		"total": 32
+	},
+	"current": {
+		"hours": [  ],
+		"ips": [  ],
+		"total": 0
+	}
+}

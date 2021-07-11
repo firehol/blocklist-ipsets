@@ -1,0 +1,16 @@
+{
+	"ipset": "bi_sql_2_30d",
+	"started": 1434660747000,
+	"updated": 1440603392000,
+	"incomplete": 0,
+	"past": {
+		"hours": [  ],
+		"ips": [  ],
+		"total": 0
+	},
+	"current": {
+		"hours": [  ],
+		"ips": [  ],
+		"total": 0
+	}
+}

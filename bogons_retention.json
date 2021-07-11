@@ -1,0 +1,18 @@
+{
+	"ipset": "bogons",
+	"started": 1424305106000,
+	"updated": 1424305106000,
+	"incomplete": 1,
+	"past": {
+		"hours": [  ],
+		"ips": [  ],
+		"total": 0
+	},
+	"current": {
+		"hours": [ 
+			0 ],
+		"ips": [ 
+			592708608 ],
+		"total": 592708608
+	}
+}

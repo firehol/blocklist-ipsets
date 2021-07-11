@@ -1,0 +1,20 @@
+{
+	"ipset": "graphiclineweb",
+	"started": 1446242545000,
+	"updated": 1528280888000,
+	"incomplete": 1,
+	"past": {
+		"hours": [  ],
+		"ips": [  ],
+		"total": 0
+	},
+	"current": {
+		"hours": [ 
+			24387,
+			24411 ],
+		"ips": [ 
+			2561,
+			327966 ],
+		"total": 330527
+	}
+}
