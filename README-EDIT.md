@@ -30,7 +30,7 @@ This repository includes a list of ipsets dynamically updated with
 [FireHOL](https://github.com/firehol/firehol)'s `update-ipsets.sh`
 [documented in this wiki](https://github.com/firehol/blocklist-ipsets/wiki).
 
-This repo is self maintained. It it updated automatically from the script via a cron job.
+This repo is self maintained. It is updated automatically from the script via a cron job.
 
 This repo has a site: [http://iplists.firehol.org](http://iplists.firehol.org).
 
