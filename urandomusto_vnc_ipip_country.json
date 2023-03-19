@@ -1,0 +1,34 @@
+[
+	{
+		"code": "BG",
+		"value": 1
+	},
+	{
+		"code": "CN",
+		"value": 6
+	},
+	{
+		"code": "FR",
+		"value": 2
+	},
+	{
+		"code": "GB",
+		"value": 1
+	},
+	{
+		"code": "IT",
+		"value": 1
+	},
+	{
+		"code": "NL",
+		"value": 5
+	},
+	{
+		"code": "US",
+		"value": 10
+	},
+	{
+		"code": "ZA",
+		"value": 1
+	}
+]

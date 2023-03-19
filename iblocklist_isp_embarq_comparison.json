@@ -1,0 +1,326 @@
+[
+	{
+		"name": "bitcoin_nodes_30d",
+		"category": "organizations",
+		"ips": 13350,
+		"common": 2
+	},
+	{
+		"name": "bitcoin_nodes_7d",
+		"category": "organizations",
+		"ips": 8401,
+		"common": 1
+	},
+	{
+		"name": "blocklist_net_ua",
+		"category": "abuse",
+		"ips": 109651,
+		"common": 2
+	},
+	{
+		"name": "botscout_30d",
+		"category": "abuse",
+		"ips": 18075,
+		"common": 2
+	},
+	{
+		"name": "botscout_7d",
+		"category": "abuse",
+		"ips": 6073,
+		"common": 1
+	},
+	{
+		"name": "cleantalk_30d",
+		"category": "abuse",
+		"ips": 23706,
+		"common": 1
+	},
+	{
+		"name": "cleantalk_new_30d",
+		"category": "abuse",
+		"ips": 14356,
+		"common": 1
+	},
+	{
+		"name": "cruzit_web_attacks",
+		"category": "attacks",
+		"ips": 13358,
+		"common": 68
+	},
+	{
+		"name": "dataplane_sshclient",
+		"category": "attacks",
+		"ips": 23463,
+		"common": 1
+	},
+	{
+		"name": "dataplane_sshpwauth",
+		"category": "attacks",
+		"ips": 20155,
+		"common": 1
+	},
+	{
+		"name": "dronebl_anonymizers",
+		"category": "anonymizers",
+		"ips": 1143590,
+		"common": 1085
+	},
+	{
+		"name": "dronebl_auto_botnets",
+		"category": "reputation",
+		"ips": 10829,
+		"common": 152
+	},
+	{
+		"name": "dronebl_compromised",
+		"category": "attacks",
+		"ips": 64837,
+		"common": 4
+	},
+	{
+		"name": "dronebl_irc_drones",
+		"category": "abuse",
+		"ips": 978676,
+		"common": 495
+	},
+	{
+		"name": "dronebl_worms_bots",
+		"category": "malware",
+		"ips": 215271,
+		"common": 17
+	},
+	{
+		"name": "esentire_14072015_com",
+		"category": "malware",
+		"ips": 579,
+		"common": 1
+	},
+	{
+		"name": "esentire_14072015q_com",
+		"category": "malware",
+		"ips": 575,
+		"common": 1
+	},
+	{
+		"name": "esentire_22072014a_com",
+		"category": "malware",
+		"ips": 1290,
+		"common": 1
+	},
+	{
+		"name": "esentire_22072014b_com",
+		"category": "malware",
+		"ips": 1288,
+		"common": 1
+	},
+	{
+		"name": "esentire_22072014c_com",
+		"category": "malware",
+		"ips": 1289,
+		"common": 1
+	},
+	{
+		"name": "esentire_crazyerror_su",
+		"category": "malware",
+		"ips": 18613,
+		"common": 3
+	},
+	{
+		"name": "esentire_dorttlokolrt_com",
+		"category": "malware",
+		"ips": 23664,
+		"common": 4
+	},
+	{
+		"name": "esentire_emptyarray_ru",
+		"category": "malware",
+		"ips": 20139,
+		"common": 3
+	},
+	{
+		"name": "esentire_maddox1_ru",
+		"category": "malware",
+		"ips": 11345,
+		"common": 4
+	},
+	{
+		"name": "firehol_abusers_30d",
+		"category": "abuse",
+		"ips": 201668,
+		"common": 19
+	},
+	{
+		"name": "firehol_anonymous",
+		"category": "anonymizers",
+		"ips": 2583671,
+		"common": 8660
+	},
+	{
+		"name": "firehol_level4",
+		"category": "attacks",
+		"ips": 9343741,
+		"common": 130
+	},
+	{
+		"name": "firehol_proxies",
+		"category": "anonymizers",
+		"ips": 2571841,
+		"common": 8660
+	},
+	{
+		"name": "haley_ssh",
+		"category": "attacks",
+		"ips": 52315,
+		"common": 57
+	},
+	{
+		"name": "hphosts_emd",
+		"category": "malware",
+		"ips": 59204,
+		"common": 3
+	},
+	{
+		"name": "iblocklist_badpeers",
+		"category": "reputation",
+		"ips": 1569289,
+		"common": 37
+	},
+	{
+		"name": "iblocklist_cruzit_web_attacks",
+		"category": "attacks",
+		"ips": 13877,
+		"common": 69
+	},
+	{
+		"name": "iblocklist_edu",
+		"category": "organizations",
+		"ips": 227863927,
+		"common": 5744
+	},
+	{
+		"name": "iblocklist_level1",
+		"category": "reputation",
+		"ips": 725144359,
+		"common": 8759
+	},
+	{
+		"name": "iblocklist_level2",
+		"category": "reputation",
+		"ips": 338048751,
+		"common": 6248
+	},
+	{
+		"name": "iblocklist_level3",
+		"category": "reputation",
+		"ips": 137004603,
+		"common": 63344
+	},
+	{
+		"name": "iblocklist_pedophiles",
+		"category": "reputation",
+		"ips": 847889,
+		"common": 16
+	},
+	{
+		"name": "iblocklist_webexploit",
+		"category": "reputation",
+		"ips": 15382,
+		"common": 1
+	},
+	{
+		"name": "iblocklist_yoyo_adservers",
+		"category": "organizations",
+		"ips": 9516,
+		"common": 1
+	},
+	{
+		"name": "ip2proxy_px1lite",
+		"category": "anonymizers",
+		"ips": 2566635,
+		"common": 8660
+	},
+	{
+		"name": "nullsecure",
+		"category": "reputation",
+		"ips": 29439,
+		"common": 10
+	},
+	{
+		"name": "sorbs_anonymizers",
+		"category": "spam",
+		"ips": 610263,
+		"common": 50
+	},
+	{
+		"name": "sorbs_dul",
+		"category": "spam",
+		"ips": 375474210,
+		"common": 1446706
+	},
+	{
+		"name": "sorbs_new_spam",
+		"category": "spam",
+		"ips": 35967,
+		"common": 6
+	},
+	{
+		"name": "sorbs_recent_spam",
+		"category": "spam",
+		"ips": 555438,
+		"common": 63
+	},
+	{
+		"name": "sorbs_smtp",
+		"category": "spam",
+		"ips": 1976,
+		"common": 1
+	},
+	{
+		"name": "sorbs_web",
+		"category": "spam",
+		"ips": 6375029,
+		"common": 2212
+	},
+	{
+		"name": "stopforumspam",
+		"category": "abuse",
+		"ips": 173650,
+		"common": 18
+	},
+	{
+		"name": "stopforumspam_180d",
+		"category": "abuse",
+		"ips": 309427,
+		"common": 26
+	},
+	{
+		"name": "stopforumspam_30d",
+		"category": "abuse",
+		"ips": 71563,
+		"common": 3
+	},
+	{
+		"name": "stopforumspam_365d",
+		"category": "abuse",
+		"ips": 565150,
+		"common": 54
+	},
+	{
+		"name": "stopforumspam_90d",
+		"category": "abuse",
+		"ips": 174947,
+		"common": 18
+	},
+	{
+		"name": "voipbl",
+		"category": "attacks",
+		"ips": 76250,
+		"common": 15
+	},
+	{
+		"name": "yoyo_adservers",
+		"category": "organizations",
+		"ips": 9942,
+		"common": 1
+	}
+]

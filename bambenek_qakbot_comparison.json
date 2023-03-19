@@ -1,0 +1,14 @@
+[
+	{
+		"name": "bambenek_suppobox",
+		"category": "malware",
+		"ips": 108,
+		"common": 1
+	},
+	{
+		"name": "datacenters",
+		"category": "organizations",
+		"ips": 95959476,
+		"common": 1
+	}
+]

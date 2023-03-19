@@ -1,0 +1,18 @@
+{
+	"ipset": "iblocklist_abuse_spyeye",
+	"started": 1440268802000,
+	"updated": 1528299604000,
+	"incomplete": 0,
+	"past": {
+		"hours": [  ],
+		"ips": [  ],
+		"total": 0
+	},
+	"current": {
+		"hours": [ 
+			1611 ],
+		"ips": [ 
+			84 ],
+		"total": 84
+	}
+}

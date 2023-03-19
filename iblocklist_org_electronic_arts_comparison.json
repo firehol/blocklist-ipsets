@@ -1,0 +1,110 @@
+[
+	{
+		"name": "blueliv_crimeserver_last_1d",
+		"category": "attacks",
+		"ips": 58312,
+		"common": 1
+	},
+	{
+		"name": "blueliv_crimeserver_last_2d",
+		"category": "attacks",
+		"ips": 71293,
+		"common": 1
+	},
+	{
+		"name": "blueliv_crimeserver_last_30d",
+		"category": "attacks",
+		"ips": 87551,
+		"common": 1
+	},
+	{
+		"name": "blueliv_crimeserver_last_7d",
+		"category": "attacks",
+		"ips": 77098,
+		"common": 1
+	},
+	{
+		"name": "blueliv_crimeserver_recent",
+		"category": "attacks",
+		"ips": 64076,
+		"common": 1
+	},
+	{
+		"name": "datacenters",
+		"category": "organizations",
+		"ips": 95959476,
+		"common": 2240
+	},
+	{
+		"name": "firehol_anonymous",
+		"category": "anonymizers",
+		"ips": 2583671,
+		"common": 17
+	},
+	{
+		"name": "firehol_proxies",
+		"category": "anonymizers",
+		"ips": 2571841,
+		"common": 17
+	},
+	{
+		"name": "firehol_webserver",
+		"category": "attacks",
+		"ips": 60487780,
+		"common": 64
+	},
+	{
+		"name": "iblocklist_isp_att",
+		"category": "organizations",
+		"ips": 55845128,
+		"common": 1112
+	},
+	{
+		"name": "iblocklist_level1",
+		"category": "reputation",
+		"ips": 725144359,
+		"common": 69528
+	},
+	{
+		"name": "iblocklist_org_blizzard",
+		"category": "organizations",
+		"ips": 16795139,
+		"common": 1104
+	},
+	{
+		"name": "iblocklist_org_nintendo",
+		"category": "organizations",
+		"ips": 3927,
+		"common": 2048
+	},
+	{
+		"name": "iblocklist_yoyo_adservers",
+		"category": "organizations",
+		"ips": 9516,
+		"common": 2
+	},
+	{
+		"name": "ip2proxy_px1lite",
+		"category": "anonymizers",
+		"ips": 2566635,
+		"common": 17
+	},
+	{
+		"name": "pushing_inertia_blocklist",
+		"category": "reputation",
+		"ips": 60462830,
+		"common": 64
+	},
+	{
+		"name": "sorbs_web",
+		"category": "spam",
+		"ips": 6375029,
+		"common": 7
+	},
+	{
+		"name": "yoyo_adservers",
+		"category": "organizations",
+		"ips": 9942,
+		"common": 2
+	}
+]

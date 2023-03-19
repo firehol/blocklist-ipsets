@@ -1,0 +1,158 @@
+[
+	{
+		"name": "bbcan177_ms1",
+		"category": "malware",
+		"ips": 5269973,
+		"common": 1
+	},
+	{
+		"name": "datacenters",
+		"category": "organizations",
+		"ips": 95959476,
+		"common": 3
+	},
+	{
+		"name": "et_block",
+		"category": "attacks",
+		"ips": 16423616,
+		"common": 38
+	},
+	{
+		"name": "et_spamhaus",
+		"category": "attacks",
+		"ips": 16417792,
+		"common": 38
+	},
+	{
+		"name": "firehol_abusers_1d",
+		"category": "abuse",
+		"ips": 9087,
+		"common": 97
+	},
+	{
+		"name": "firehol_abusers_30d",
+		"category": "abuse",
+		"ips": 201668,
+		"common": 97
+	},
+	{
+		"name": "firehol_level1",
+		"category": "attacks",
+		"ips": 614049280,
+		"common": 39
+	},
+	{
+		"name": "firehol_level4",
+		"category": "attacks",
+		"ips": 9343741,
+		"common": 4
+	},
+	{
+		"name": "iblocklist_bogons",
+		"category": "unroutable",
+		"ips": 645673639,
+		"common": 43
+	},
+	{
+		"name": "iblocklist_hijacked",
+		"category": "attacks",
+		"ips": 8802048,
+		"common": 4
+	},
+	{
+		"name": "iblocklist_level3",
+		"category": "reputation",
+		"ips": 137004603,
+		"common": 2
+	},
+	{
+		"name": "iblocklist_spider",
+		"category": "reputation",
+		"ips": 846788,
+		"common": 1
+	},
+	{
+		"name": "php_commenters_30d",
+		"category": "spam",
+		"ips": 1029,
+		"common": 28
+	},
+	{
+		"name": "php_commenters_7d",
+		"category": "spam",
+		"ips": 300,
+		"common": 13
+	},
+	{
+		"name": "php_dictionary",
+		"category": "spam",
+		"ips": 50,
+		"common": 3
+	},
+	{
+		"name": "php_dictionary_1d",
+		"category": "spam",
+		"ips": 97,
+		"common": 9
+	},
+	{
+		"name": "php_dictionary_30d",
+		"category": "spam",
+		"ips": 1128,
+		"common": 34
+	},
+	{
+		"name": "php_dictionary_7d",
+		"category": "spam",
+		"ips": 336,
+		"common": 17
+	},
+	{
+		"name": "php_spammers",
+		"category": "spam",
+		"ips": 50,
+		"common": 50
+	},
+	{
+		"name": "php_spammers_30d",
+		"category": "spam",
+		"ips": 1198,
+		"common": 97
+	},
+	{
+		"name": "php_spammers_7d",
+		"category": "spam",
+		"ips": 361,
+		"common": 97
+	},
+	{
+		"name": "sorbs_dul",
+		"category": "spam",
+		"ips": 375474210,
+		"common": 3
+	},
+	{
+		"name": "sorbs_recent_spam",
+		"category": "spam",
+		"ips": 555438,
+		"common": 2
+	},
+	{
+		"name": "sorbs_web",
+		"category": "spam",
+		"ips": 6375029,
+		"common": 1
+	},
+	{
+		"name": "spamhaus_drop",
+		"category": "reputation",
+		"ips": 16416768,
+		"common": 38
+	},
+	{
+		"name": "spamhaus_edrop",
+		"category": "reputation",
+		"ips": 540928,
+		"common": 1
+	}
+]

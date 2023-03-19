@@ -1,0 +1,20 @@
+{
+	"ipset": "asprox_c2",
+	"started": 1438797455000,
+	"updated": 1509937451000,
+	"incomplete": 0,
+	"past": {
+		"hours": [ 
+			8605,
+			9634 ],
+		"ips": [ 
+			931,
+			5 ],
+		"total": 936
+	},
+	"current": {
+		"hours": [  ],
+		"ips": [  ],
+		"total": 0
+	}
+}

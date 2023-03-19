@@ -1,0 +1,44 @@
+[
+	{
+		"name": "bambenek_banjori",
+		"category": "malware",
+		"ips": 136,
+		"common": 1
+	},
+	{
+		"name": "bambenek_dircrypt",
+		"category": "malware",
+		"ips": 2,
+		"common": 1
+	},
+	{
+		"name": "bambenek_pykspa",
+		"category": "malware",
+		"ips": 5,
+		"common": 1
+	},
+	{
+		"name": "bambenek_ramnit",
+		"category": "malware",
+		"ips": 98,
+		"common": 1
+	},
+	{
+		"name": "bambenek_simda",
+		"category": "malware",
+		"ips": 131,
+		"common": 1
+	},
+	{
+		"name": "datacenters",
+		"category": "organizations",
+		"ips": 95959476,
+		"common": 1
+	},
+	{
+		"name": "iblocklist_level3",
+		"category": "reputation",
+		"ips": 137004603,
+		"common": 1
+	}
+]

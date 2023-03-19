@@ -1,0 +1,110 @@
+[
+	{
+		"name": "datacenters",
+		"category": "organizations",
+		"ips": 95959476,
+		"common": 53
+	},
+	{
+		"name": "firehol_anonymous",
+		"category": "anonymizers",
+		"ips": 2583671,
+		"common": 1
+	},
+	{
+		"name": "firehol_level4",
+		"category": "attacks",
+		"ips": 9343741,
+		"common": 5
+	},
+	{
+		"name": "firehol_proxies",
+		"category": "anonymizers",
+		"ips": 2571841,
+		"common": 1
+	},
+	{
+		"name": "firehol_webserver",
+		"category": "attacks",
+		"ips": 60487780,
+		"common": 11
+	},
+	{
+		"name": "iblocklist_bogons",
+		"category": "unroutable",
+		"ips": 645673639,
+		"common": 7
+	},
+	{
+		"name": "iblocklist_edu",
+		"category": "organizations",
+		"ips": 227863927,
+		"common": 1
+	},
+	{
+		"name": "iblocklist_hijacked",
+		"category": "attacks",
+		"ips": 8802048,
+		"common": 4
+	},
+	{
+		"name": "iblocklist_level1",
+		"category": "reputation",
+		"ips": 725144359,
+		"common": 18
+	},
+	{
+		"name": "iblocklist_level2",
+		"category": "reputation",
+		"ips": 338048751,
+		"common": 1
+	},
+	{
+		"name": "iblocklist_level3",
+		"category": "reputation",
+		"ips": 137004603,
+		"common": 4
+	},
+	{
+		"name": "iblocklist_rangetest",
+		"category": "reputation",
+		"ips": 4280758,
+		"common": 8
+	},
+	{
+		"name": "iblocklist_spamhaus_drop",
+		"category": "attacks",
+		"ips": 17338368,
+		"common": 1
+	},
+	{
+		"name": "iblocklist_spider",
+		"category": "reputation",
+		"ips": 846788,
+		"common": 6
+	},
+	{
+		"name": "ip2proxy_px1lite",
+		"category": "anonymizers",
+		"ips": 2566635,
+		"common": 1
+	},
+	{
+		"name": "malwaredomainlist",
+		"category": "malware",
+		"ips": 996,
+		"common": 1
+	},
+	{
+		"name": "pushing_inertia_blocklist",
+		"category": "reputation",
+		"ips": 60462830,
+		"common": 11
+	},
+	{
+		"name": "taichung",
+		"category": "attacks",
+		"ips": 2658,
+		"common": 10
+	}
+]

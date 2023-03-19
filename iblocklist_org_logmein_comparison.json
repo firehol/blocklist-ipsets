@@ -1,0 +1,62 @@
+[
+	{
+		"name": "dataplane_dnsrd",
+		"category": "attacks",
+		"ips": 1638,
+		"common": 1
+	},
+	{
+		"name": "dataplane_dnsrdany",
+		"category": "attacks",
+		"ips": 432,
+		"common": 1
+	},
+	{
+		"name": "firehol_anonymous",
+		"category": "anonymizers",
+		"ips": 2583671,
+		"common": 199
+	},
+	{
+		"name": "firehol_proxies",
+		"category": "anonymizers",
+		"ips": 2571841,
+		"common": 199
+	},
+	{
+		"name": "firehol_webserver",
+		"category": "attacks",
+		"ips": 60487780,
+		"common": 1792
+	},
+	{
+		"name": "iblocklist_level1",
+		"category": "reputation",
+		"ips": 725144359,
+		"common": 16777472
+	},
+	{
+		"name": "iblocklist_level2",
+		"category": "reputation",
+		"ips": 338048751,
+		"common": 1536
+	},
+	{
+		"name": "iblocklist_level3",
+		"category": "reputation",
+		"ips": 137004603,
+		"common": 1024
+	},
+	{
+		"name": "ip2proxy_px1lite",
+		"category": "anonymizers",
+		"ips": 2566635,
+		"common": 199
+	},
+	{
+		"name": "pushing_inertia_blocklist",
+		"category": "reputation",
+		"ips": 60462830,
+		"common": 1792
+	}
+]

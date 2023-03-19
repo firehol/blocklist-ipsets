@@ -1,0 +1,42 @@
+[
+	{
+		"code": "AD",
+		"value": 1
+	},
+	{
+		"code": "AR",
+		"value": 2
+	},
+	{
+		"code": "BG",
+		"value": 1
+	},
+	{
+		"code": "MD",
+		"value": 1
+	},
+	{
+		"code": "RO",
+		"value": 8
+	},
+	{
+		"code": "RU",
+		"value": 21
+	},
+	{
+		"code": "SI",
+		"value": 1
+	},
+	{
+		"code": "TN",
+		"value": 1
+	},
+	{
+		"code": "UA",
+		"value": 136
+	},
+	{
+		"code": "US",
+		"value": 4
+	}
+]

@@ -1,0 +1,18 @@
+{
+	"ipset": "esentire_auth_update_ru",
+	"started": 1462233097000,
+	"updated": 1528285929000,
+	"incomplete": 1,
+	"past": {
+		"hours": [  ],
+		"ips": [  ],
+		"total": 0
+	},
+	"current": {
+		"hours": [ 
+			18348 ],
+		"ips": [ 
+			1306 ],
+		"total": 1306
+	}
+}

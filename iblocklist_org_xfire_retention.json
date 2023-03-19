@@ -1,0 +1,20 @@
+{
+	"ipset": "iblocklist_org_xfire",
+	"started": 1440291630000,
+	"updated": 1549853088000,
+	"incomplete": 0,
+	"past": {
+		"hours": [ 
+			20 ],
+		"ips": [ 
+			3109120 ],
+		"total": 3109120
+	},
+	"current": {
+		"hours": [ 
+			0 ],
+		"ips": [ 
+			3328 ],
+		"total": 3328
+	}
+}

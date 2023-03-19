@@ -1,0 +1,42 @@
+[
+	{
+		"code": "CN",
+		"value": 3
+	},
+	{
+		"code": "FR",
+		"value": 3
+	},
+	{
+		"code": "IN",
+		"value": 2
+	},
+	{
+		"code": "JP",
+		"value": 31
+	},
+	{
+		"code": "KG",
+		"value": 1
+	},
+	{
+		"code": "KR",
+		"value": 1
+	},
+	{
+		"code": "RU",
+		"value": 1
+	},
+	{
+		"code": "UA",
+		"value": 2
+	},
+	{
+		"code": "US",
+		"value": 3
+	},
+	{
+		"code": "VN",
+		"value": 1
+	}
+]

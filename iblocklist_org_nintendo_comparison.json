@@ -1,0 +1,44 @@
+[
+	{
+		"name": "datacenters",
+		"category": "organizations",
+		"ips": 95959476,
+		"common": 2050
+	},
+	{
+		"name": "iblocklist_level1",
+		"category": "reputation",
+		"ips": 725144359,
+		"common": 3911
+	},
+	{
+		"name": "iblocklist_level2",
+		"category": "reputation",
+		"ips": 338048751,
+		"common": 280
+	},
+	{
+		"name": "iblocklist_level3",
+		"category": "reputation",
+		"ips": 137004603,
+		"common": 240
+	},
+	{
+		"name": "iblocklist_org_electronic_arts",
+		"category": "organizations",
+		"ips": 69720,
+		"common": 2048
+	},
+	{
+		"name": "iblocklist_yoyo_adservers",
+		"category": "organizations",
+		"ips": 9516,
+		"common": 2
+	},
+	{
+		"name": "yoyo_adservers",
+		"category": "organizations",
+		"ips": 9942,
+		"common": 2
+	}
+]

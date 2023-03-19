@@ -1,0 +1,50 @@
+[
+	{
+		"code": "ANYCAST",
+		"value": 1024
+	},
+	{
+		"code": "DE",
+		"value": 1568
+	},
+	{
+		"code": "FR",
+		"value": 15735
+	},
+	{
+		"code": "GB",
+		"value": 18176
+	},
+	{
+		"code": "GR",
+		"value": 256
+	},
+	{
+		"code": "IN",
+		"value": 256
+	},
+	{
+		"code": "NL",
+		"value": 649
+	},
+	{
+		"code": "PL",
+		"value": 256
+	},
+	{
+		"code": "RU",
+		"value": 3328
+	},
+	{
+		"code": "SG",
+		"value": 4352
+	},
+	{
+		"code": "UA",
+		"value": 1792
+	},
+	{
+		"code": "US",
+		"value": 73531
+	}
+]

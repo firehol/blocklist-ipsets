@@ -1,0 +1,18 @@
+{
+	"ipset": "esentire_crazyerror_su",
+	"started": 1462233098000,
+	"updated": 1528285930000,
+	"incomplete": 1,
+	"past": {
+		"hours": [  ],
+		"ips": [  ],
+		"total": 0
+	},
+	"current": {
+		"hours": [ 
+			18348 ],
+		"ips": [ 
+			18613 ],
+		"total": 18613
+	}
+}

@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<title>FireHOL Blocklists</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+	<script type='text/javascript' src='//code.jquery.com/jquery-1.9.1.js'></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<script src="http://code.highcharts.com/highcharts.js"></script>
+	<script src="http://code.highcharts.com/modules/data.js"></script>
+	<script src="http://code.highcharts.com/modules/exporting.js"></script>
+	<!--<script src="http://code.highcharts.com/maps/highmaps.js"></script>-->
+	<script src="http://code.highcharts.com/maps/modules/map.js"></script>
+	<script src="http://code.highcharts.com/maps/modules/data.js"></script>
+	<script src="http://code.highcharts.com/maps/modules/exporting.js"></script>
+	<script src="http://code.highcharts.com/mapdata/custom/world.js"></script>
+	<style type='text/css'>
+		#container {
+			height: 500px; 
+			width: 800px; 
+			margin: 0 auto; 
+		}
+		.highcharts-tooltip>span {
+			padding: 10px;
+			white-space: normal !important;
+			width: 200px;
+		}
+		.loading {
+			margin-top: 10em;
+			text-align: center;
+			color: gray;
+		}
+		.f32 .flag {
+			vertical-align: middle !important;
+		}
+		body {
+			padding-top: 70px;
+			position: relative;
+		}
+		@media screen and (max-width: 768px) {
+			body { padding-top: 60px; }
+		}
+		.scrollable-menu {
+		    height: auto;
+		    max-height: 500px;
+		    overflow-x: hidden;
+		}
+	</style>
+
+	<script type='text/javascript'>//<![CDATA[ 
+
+	// http://stackoverflow.com/questions/8211744/convert-time-interval-given-in-seconds-into-more-human-readable-form
+	function millisecondsToStr (milliseconds) {
+		// TIP: to find current time in milliseconds, use:
+		// var  current_time_milliseconds = new Date().getTime();
+		
+		function numberEnding (number) {
+		    return (number > 1) ? 's' : '';
+		}
+
+		var str = "";
+		var temp = Math.floor(milliseconds / 1000);
+
+		var days = Math.floor(temp / 86400);
+	    temp -= days * 86400;
+		var hours = Math.floor(temp / 3600);
+	    temp -= hours * 3600;
+		var minutes = Math.floor(temp / 60);
+
+		if (days) {
+		    str += days + ' day' + numberEnding(days);
+		}
+		if (hours) {
+		    str += ((days)?((minutes)?', ':' and '):'') + hours + ' hour' + numberEnding(hours);
+		}
+		if (minutes) {
+		    str += ((days || hours)?' and ':'') + minutes + ' minute' + numberEnding(minutes);
+		}
+
+		if(!days && !hours && !minutes) return 'less than a minute';
+		else return str;
+	}
+	// http://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript
+	// parse query string parameters
+	(function($) {
+		$.QueryString = (function(a) {
+			if (a == "") return {};
+			var b = {};
+			for (var i = 0; i < a.length; ++i)
+			{
+				var p=a[i].split('=');
+				if (p.length != 2) continue;
+				b[p[0]] = decodeURIComponent(p[1].replace(/\+/g, " "));
+			}
+			return b;
+		})(window.location.search.substr(1).split('&'))
+	})(jQuery);
+
+	function charterror(msg) {
+		return "<div class=\"alert alert-warning\" role=\"alert\"><table width=\"100%\" height=\"400px\"><tr><td height=\"75\">&nbsp;</td></tr><tr><td align=\"center\" valign=\"bottom\" height=\"100\"><font size=\"100\" color=\"#FF0000\"><span class=\"glyphicon glyphicon-alert\" aria-hidden=\"true\"></span></font></td></tr><tr><td height=\"100\" align=\"center\" valign=\"top\"><b>Sorry!</b><br/>&nbsp;<br/>" + msg + "</td></tr><tr><td height=\"125\">&nbsp;</td></tr></table></div>";
+	};
+
+	// render a map using a json input
+	function drawmap(ipset, geo, container) {
+		$.getJSON(ipset + '_' + geo + '_country.json', function (data) {
+			var max = 1;
+
+			// Add lower case codes to the data set for inclusion in the tooltip.pointFormat
+			$.each(data, function () {
+				this.flag = this.code.replace('UK', 'GB').toLowerCase();
+				if(this.value > max) max = this.value;
+			});
+
+			// Initiate the chart
+			$(container).highcharts('Map', {
+				chart: {
+					height: 450
+				},
+				title: {
+					text: ipset
+				},
+				subtitle: {
+					floating: true,
+					text: 'mapped with ' + geo + ' geo-country DB'
+				},
+				legend: {
+					borderWidth: 0,
+					layout: 'horizontal',
+					align: 'center',
+					floating: true,
+					title: {
+						text: 'Unique IPs',
+						style: {
+							color: (Highcharts.theme && Highcharts.theme.textColor) || 'black'
+						}
+					}
+				},
+				mapNavigation: {
+					enabled: true,
+					enableMouseWheelZoom: false,
+					enableTouchZoom: false,
+					buttonOptions: {
+						align: 'right',
+						verticalAlign: 'bottom'
+					}
+				},
+				tooltip: {
+					backgroundColor: 'none',
+					borderWidth: 0,
+					shadow: false,
+					useHTML: true,
+					padding: 0,
+					pointFormat: '<span class="f32"><span class="flag {point.flag}"></span></span>'
+						+ ' {point.name} <p><b>{point.value}</b> IPs',
+					positioner: function () {
+						return { x: 0, y: 300 };
+					}
+				},
+				colorAxis: {
+					min: 1,
+					max: max,
+					maxColor: '#FF0000',
+					minColor: '#FFDDDD',
+					type: 'logarithmic'
+				},
+				series : [{
+					data : data,
+					mapData: Highcharts.maps['custom/world'],
+					joinBy: ['iso-a2', 'code'],
+					name: 'Unique IPs at',
+					states: {
+						hover: {
+							color: '#BADA55'
+						}
+					}
+				}]
+			})
+			.fail(function () {
+				$(container).html(charterror('failed to render <code>' + ipset + '</code> map'));
+			});
+		})
+		.fail(function () {
+			$(container).html(charterror('failed to load <code>' + ipset + '</code> geolocation data'));
+		});
+	};
+
+	// draw the history chart
+	function drawhistory(ipset, container) {
+		$.get(ipset + '_history.csv', function (data) {
+			$(container).highcharts({
+				chart: {
+					height: 450
+				},
+				title: {
+					text: ipset
+				},
+				subtitle: {
+					text: 'evolution of unique IPs and entries'
+				},
+				data: {
+					csv: data,
+					parsed: function (columns) {
+						// We want to keep the values since 1950 only
+						$.each(columns, function () {
+							if(this[0] == "DateTime") {
+								var i;
+								for(i = 1; i < this.length ;i++)
+									this[i] = this[i] * 1000;
+							}
+						});
+					}
+				},
+				yAxis: [
+				{
+					title: {
+						text: 'Number of Unique IPs',
+						style: {
+							color: Highcharts.getOptions().colors[1]
+						}
+					},
+					labels: {
+						format: '{value} IPs',
+						style: {
+							color: Highcharts.getOptions().colors[1]
+						}
+					},
+					opposite: true
+				},
+				{
+					title: {
+						text: 'Number of IPset Entries',
+						style: {
+							color: Highcharts.getOptions().colors[0]
+						}
+					},
+					labels: {
+						format: '{value} Entries',
+						style: {
+							color: Highcharts.getOptions().colors[0]
+						}
+					}
+				}],
+				tooltip: {
+					shared: true,
+				},
+				xAxis:[{
+				  //labels:{
+					//formatter:function(){
+					//	 return Highcharts.dateFormat('%b %e, %H:%M', this.value * 1000);
+					//}
+				  //},
+				  type: 'datetime'
+				}],
+				plotOptions: {
+					series: {
+						marker: {
+							enabled: false
+						}
+					}
+				},
+				series: [{
+					lineWidth: 3,
+					yAxis: 1,
+					// tooltip: {valueSuffix: ' entries'}
+				},
+				{
+					//type: 'areaspline',
+					lineWidth: 3,
+					yAxis: 0,
+					// tooltip: {valueSuffix: ' IPs'}
+				}]
+			})
+			.fail(function () {
+				$(container).html(charterror('failed to render <code>' + ipset + '</code> evolution chart'));
+			});
+		})
+		.fail(function () {
+			$(container).html(charterror('failed to load <code>' + ipset + '</code> evolution data'));
+		});
+	};
+
+	function drawretention(ipset, container) {
+		$.getJSON(ipset + '_retention.json', function (data) {
+			if(!data.tracked) {
+				$(container).html(charterror('No IPs have been tracked yet for <code>' + ipset + '</code>.<br/>We will start tracking IPs, once the blocklist maintainers add a few to the list.'));
+				return 1;
+			}
+			
+			if(data.hours[0] == 0 && data.ips[0] == 0) {
+				data.ips.splice(0, 1);
+				data.hours.splice(0, 1);
+			}
+
+			if(!data.detected || data.hours.length == 0) {
+				$(container).html(charterror('We already track <b>' + data.tracked.toLocaleString() + '</b> IPs for <code>' + ipset + '</code>,<br/>but no IPs have been removed since we started tracking them,<br/>so there is nothing to report now.'));
+				return 1;
+			}
+
+			var pc = data.detected * 100 / data.tracked;
+			data["pc"] = [];
+
+			$.each(data.ips, function (index, value) {
+				data.pc[index] = value * 100 / data.tracked;
+			});
+
+		    $(container).highcharts({
+		    	chart: {
+		    		type: 'column'
+		    	},
+		        title: {
+		            text: ipset
+		        },
+		        subtitle: {
+		            text: 'IPs retention policy, reported per hour<br/>for <b>' + pc.toFixed(2) + ' %</b> of ' + data.tracked.toLocaleString() + ' IPs tracked so far'
+		        },
+		        yAxis: [{
+		        	title: {
+		        		text: '% of IPs removed per hour'
+		        	},
+					labels: {
+						format: '{value} %',
+						style: {
+							color: '#FF0000'
+						}
+					}
+		        }],
+		        xAxis: [{
+		        	title: {
+		        		text: 'hours the IPs are removed, after being added'
+		        	},
+		            categories: data.hours,
+		            crosshair: false,
+					// labels: {format: '{value} hours'},
+					allowDecimals: false
+		        }],
+		        tooltip: {
+		            shared: true
+		        },
+		        series: [{
+		            name: 'Removed IPs % per hour',
+		            data: data.pc,
+		            borderWidth: 0,
+		            color: '#FF0000',
+					tooltip: {
+						headerFormat: '<span style="font-size: 11px">Percentage of IPs removed<br/>at about <b>{point.key} hours</b><br/>after being listed:</span><br/>',
+						valueSuffix: ' %',
+						valueDecimals: 2,
+						pointFormat: '<b>{point.y}</b><br/>'
+					}
+		        }]
+		    });
+		})
+		.fail(function () {
+			$(container).html(charterror('we don\'t keep retention data for <code>' + ipset + '</code>'));
+		});
+	};
+
+	$(function () {
+		// get the ipset from the query string
+		var ipset = $.QueryString["ipset"];
+		var ipset_data = null;
+
+		if(!ipset) ipset="firehol_level1";
+
+		// load the ipset and update the page
+		$.getJSON(ipset + '.json', function(data) {
+			ipset_data = data;
+
+			document.title = 'FireHOL Blocklist: ' + ipset;
+
+			// console.log(data);
+			// set the content on the page
+			$('#header_ipset').html('<b>' + ipset + '</b>');
+			$('#ipset_name').html(ipset);
+			$('#ipset_info').html(data.info);
+
+			$('#facts_name').html(data.name);
+			$('#facts_family').html(data.ipv);
+			$('#facts_hash').html('hash:' + data.hash);
+			$('#facts_entries').html(data.entries.toLocaleString());
+			$('#facts_ips').html(data.ips.toLocaleString());
+			
+			if(data.source)
+				$('#facts_url').html('<a href="' + data.source + '">here</a>');
+			else
+				$('#facts_url').html('(not a url)');
+			$('#facts_frequency').html(millisecondsToStr(data.frequency * 60 * 1000));
+			
+			if(data.aggregation > 0)
+				$('#facts_aggregation').html(millisecondsToStr(60 * 1000 * data.aggregation));
+			else
+				$('#facts_aggregation').html('none');
+
+			$('#facts_updated').html(new Date(data.updated).toString() + '<br>(' + millisecondsToStr(new Date().getTime() - data.updated) + ' ago)</br>');
+			$('#facts_processed').html(new Date(data.processed).toString() + '<br>(' + millisecondsToStr(new Date().getTime() - data.processed) + ' ago)</br>');
+			console.log(new Date().getTime() - data.processed);
+
+			// draw the default charts/maps
+			drawhistory(ipset, '#history_chart');
+			if(!ipset_data.geolite2 || !ipset_data.ipdeny) {
+				$('#geolite2').html(charterror('<code>' + ipset + '</code> has not been compared, or does not overlap, with country data'));
+				$('#ipdeny').html(charterror('<code>' + ipset + '</code> has not been compared, or does not overlap, with country data'));
+			}
+			else {
+				drawmap(ipset, 'geolite2', '#geolite2');
+				//drawmap(ipset, 'ipdeny',   '#ipdeny');
+			}
+
+			drawretention(ipset, '#retention_chart');
+
+			if(data.comparison) {
+				$.getJSON(data.comparison, function(c) {
+					c.sort(function(a, b) {
+						return(b.common - a.common);
+					});
+
+					var html = '<table class="table table-striped table-hover table-condensed"><thead><tr>\
+			            <td data-field="set"><b>Blocklist</b></td>\
+			            <td data-field="ips" align="right"><b>IPs</b></td>\
+			            <td data-field="common_ips" align="right"><b>Common IPs</b></td>\
+			            <td data-field="their_pc" align="right"><b>Their %</b></td>\
+			            <td data-field="this_pc" align="right"><b>This %</b></td>\
+			        </tr></thead>';
+
+					$.each(c, function () {
+						this.pc  = this.common * 100.0 / ipset_data.ips;
+						this.pc2 = this.common * 100.0 / this.ips;
+
+						html += '<tr><td><a href="' + $(location).attr('pathname') + '?ipset=' + this.name + '">' + this.name + '</a></td><td align="right">' + this.ips.toLocaleString() + '</td><td align="right">' + this.common.toLocaleString() + '</td><td align="right">' + this.pc2.toFixed(2) + '%</td><td align="right">' + this.pc.toFixed(2) + '%</td></tr>';
+					});
+					html += '</table>';
+					$('#comparison_info').html('In the table below we compare ' + ipset + ' with all other blocklists. If a blocklist is not shown in the following table, it does not have any common IPs with ' + ipset + '.<ul><li><code>IPs</code> is the unique IPs each blocklist has.</li><li><code>Common IPs</code> is the number of unique IPs common to ' + ipset + ' and each blocklist.</li><li><code>Their %</code> the percentage: common IPs vs. the unique IP of each row blocklist.</li><li><code>This %</code> is the percentage: common IPs vs. the unique IPs of ' + ipset + ' (' + ipset_data.ips.toLocaleString() + ').</li></ul>');
+					$('#comparison_table').html(html);
+				})
+				.fail(function() {
+					$('#comparison_table').html(charterror("failed to load the comparison data for <code>" + ipset + '</code>'));
+				});
+			}
+		})
+		.fail(function() {
+			$('#ipset_name').html("Oooops!");
+			$('#ipset_info').html("Sorry... this should not happen... is the ipset you requested valid? hhhm... for sure, this ipset data cannot be loaded right now...");
+		})
+
+		$.getJSON('all-ipsets.json', function(all) {
+			$('#all_label').html('All ' + all.length + ' Blocklists<strong class="caret"></strong>');
+
+			all.sort(function(a, b) {
+				if(a < b) return -1;
+				else return 1;
+			});
+			
+			var path = $(location).attr('pathname') + '?ipset=';
+			var html1 = "";
+			var html2 = "<h1>All sets <small>alphabetically</small></h1><ul>";
+			$.each(all, function() {
+				html1 += '<li><a href="' + path + this + '">' + this + '</a></li>';
+				if(this == ipset)
+					html2 += '<li><b>' + this + '</b></li>';
+				else
+					html2 += '<li><a href="' + path + this + '">' + this + '</a></li>';
+			});
+			html2 += "</ul>";
+			$('#all_lists').html(html1);
+			$('#all_on_page').html(html2);
+		})
+		.fail(function() {
+			alert('cannot load all-ipsets.json');
+		});
+
+		// handle the map tab change
+		var ipdeny_rendered = 0;
+		$('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+			if(ipset && ipset_data && ipset_data.ipdeny && !ipdeny_rendered && $(e.target).attr('aria-controls') == "ipdeny") {
+				drawmap(ipset, $(e.target).attr('aria-controls'), '#' + $(e.target).attr('aria-controls'));
+				ipdeny_rendered = 1;
+			}
+			return(false);
+		});
+	});
+	//]]></script>
+</head>
+<body data-spy="scroll" data-target="#mynavbar" data-offset="250">
+
+<div class="container">
+	<div class="row clearfix">
+		<div class="col-md-12 column" id="mynavbar">
+			<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+				<div class="navbar-header">
+					 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <a class="navbar-brand" href="http://ktsaou.github.io/blocklist-ipsets/">FireHOL Blocklists</a>
+				</div>
+				
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li class="active">
+							<a href="#top" id="header_ipset">current ipset</a>
+						</li>
+						<li><a href="#history">Evolution</a></li>
+						<li><a href="#country_map">Country Map</a></li>
+						<li><a href="#retention">Retention</a></li>
+						<li><a href="#comparison">Overlaps</a></li>
+						</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="http://firehol.org/">FireHOL</a></li>
+						<li><a href="https://github.com/ktsaou/blocklist-ipsets/">IPSet Files</a></li>
+						<li class="dropdown">
+							 <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="all_label">All Available Blocklists<strong class="caret"></strong></a>
+							<ul class="dropdown-menu scrollable-menu" role="menu" id="all_lists">
+							</ul>
+						</li>
+					</ul>
+				</div>
+				
+			</nav>
+			<div class="jumbotron" id="top">
+				<h1 id="ipset_name">
+					loading...
+				</h1>
+				<p id="ipset_info">
+					Please wait while ipset data are being loaded...
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="row clearfix">
+		<div class="col-md-8 column">
+			<div id="history">
+				<h1 id="overview-type-links">Evolution <small>of unique IPs and ipset size</small></h1>
+				Each time an ipset is updated we keep track of its size. This is a graph of these data.
+				<code>Entries</code> is the number of entries the ipset has.
+				<code>UniqueIPs</code> is the number of unique IPs the ipset matches.
+				<p>&nbsp;</p>
+				<div id="history_chart" style="height: 450px;"></div>
+			</div>
+			<div role="tabpanel" id="country_map">
+			<h1 id="overview-type-links">Country Map <small>of unique IPs</small></h1>
+			Each time an ipset is updated we check it against the <a href="http://dev.maxmind.com/geoip/geoip2/geolite2/">MaxMind GeoLite2 Country</a>
+			and the <a href="http://www.ipdeny.com/">IPDeny.com</a> country databases, to find the number of unique IPs per country.
+			<p>&nbsp;</p>
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+				<li role="presentation" class="active"><a href="#geolite2" aria-controls="geolite2" role="tab" data-toggle="tab">MaxMind GeoLite2</a></li>
+				<li role="presentation"><a href="#ipdeny" aria-controls="ipdeny" role="tab" data-toggle="tab">IPDeny.com</a></li>
+				</ul>
+					<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="geolite2" style="height: 450px;"></div>
+					<div role="tabpanel" class="tab-pane" id="ipdeny" style="height: 450px;"></div>
+				</div>
+			</div>
+			<div id="retention">
+				<h1 id="overview-type-links">Retention <small>of unique IPs</small></h1>
+				One also important factor of a blocklist, is its retention policy. Retention refers to the time an IP is expected to stay in the blocklist, once added. This is very important, because the world is full of dynamic IPs, i.e. IPs that are being re-used by different users.
+				<p/>
+				For several blocklists, to detect their retention policy at a satisfactory level we may need some time. As time passes, our detection gathers more data and the chart is updated.
+				<p/>
+				The percentage of the IPs for which we detected the time was removed from the blocklist, is shown at the title of the chart.
+				<div id="retention_chart" style="height: 450px;"></div>
+			</div>
+			<div id="comparison">
+				<h1>Overlaps <small>with other sets</small></h1>
+				<div id="comparison_info"></div>
+				<div id="comparison_table"></div>
+			</div>
+		</div>
+		<div class="col-md-4 column">
+		<div id="facts">
+			<h1>Facts</h1>
+			<table class="table">
+				<tr><th>name</th><td id="facts_name"></td></tr>
+				<tr><th>IP&nbsp;family</th><td id="facts_family"></td></tr>
+				<tr><th>ipset&nbsp;hash</th><td id="facts_hash"></td></tr>
+				<tr><th>ipset&nbsp;entries</th><td id="facts_entries"></td></tr>
+				<tr><th>unique&nbsp;IPs</th><td id="facts_ips"></td></tr>
+				<tr><th>source</th><td id="facts_url"></td></tr>
+				<tr><th>check&nbsp;frequency</th><td id="facts_frequency"></td></tr>
+				<tr><th>aggregation</th><td id="facts_aggregation"></td></tr>
+				<tr><th>source last updated</th><td id="facts_updated"></td></tr>
+				<tr><th>source last processed</th><td id="facts_processed"></td></tr>
+			</table>
+		</div>
+		<div id="all_on_page">
+		</div>
+	</div>
+</div>
+<div class="row clearfix">
+<span class="glyphicon glyphicon-copyright-mark" aria-hidden="true"></span> 2015 <a href="mailto:costa@tsaousis.gr">Costa Tsaousis</a>, for <a href="http://firehol.org">FireHOL</a> <i>a firewall for humans!</i>.
+<br/>
+The data on this page are automatically generated using FireHOL's <a href="https://github.com/ktsaou/firehol/blob/master/contrib/update-ipsets.sh">update-ipsets.sh</a> (for downloading the blocklists from their sources and generating the data for this site), which utilizes <a href="https://github.com/ktsaou/firehol/wiki/iprange:-optimizing-ipsets-for-iptables">iprange</a> (for comparing and manipulating IP lists). Both are part of <a href="http://firehol.org">FireHOL</a>, which is provided under GPL v2, so you are free to get, use, adapt and re-distribute.
+<br/>
+<small>This page uses GeoLite2 geolocation data created by MaxMind, available from <a href="http://www.maxmind.com">www.maxmind.com</a>, geolocation data from <a href="http://www.ipdeny.com">www.ipdeny.com</a>, blocklists and related data provided and maintained by their respective owners (mentioned together with each blocklist), the charts libraries created by <a href="http://www.highcharts.com">www.highcharts.com</a> (for all charts and the maps shown), the HTML, CSS and JS framework <a href="http://getbootstrap.com/">bootstrap</a> and is hosted on <a href="https://github.com">github pages</a>.</small>
+<br/>
+&nbsp;
+</div>
+
+<!-- Flag sprites service provided by Martijn Lafeber, https://github.com/lafeber/world-flags-sprite/blob/master/LICENSE -->
+<link rel="stylesheet" type="text/css" href="http://cloud.github.com/downloads/lafeber/world-flags-sprite/flags32.css" />
+</body>
+</html>

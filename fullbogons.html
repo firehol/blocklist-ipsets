@@ -1,0 +1,19 @@
+<p>From the maintainer <a href="http://www.team-cymru.org/bogon-reference.html" target="_blank">site</a>:</p>
+
+<p>A bogon prefix is a route that should never appear in the Internet routing table. A packet routed over the public Internet (not including over VPNs or other tunnels) should never have a source address in a bogon range. These are commonly found as the source addresses of DDoS attacks.</p>
+<p>
+Fullbogons include <a href="?ipset=bogons">bogons</a> and also IP space that has been allocated to an RIR, but not assigned by that RIR to an actual ISP or other end-user. IANA maintains a convenient IPv4 summary page listing allocated and reserved netblocks, and each RIR maintains a list of all prefixes that they have assigned to end-users. Our bogon reference pages include additional links and resources to assist those who wish to properly filter bogon prefixes within their networks.
+</p>
+<p>
+<strong>It is important to realize that the fullbogons list is NOT a static list.</strong>
+</p>
+<p>
+IP ranges are regularly added to, and more importantly, removed from the bogon lists. If you filter bogons, please try to make sure that you have a plan for keeping your filters up-to-date, or within a short space of time you will be filtering legitimate traffic and creating work for network administrators everywhere. This is especially true for the fullbogons list, which has significant changes every day.</p>
+<p>
+How much does it help to filter the bogons? In one study conducted by Rob Thomas of a frequently attacked site, fully 60% of the naughty packets were obvious bogons (e.g. 127.1.2.3, 0.5.4.3, etc.).
+</p>
+<p>
+While not all DDoS uses bogons, every little bit helps. Please note that bogon filtering is a component of anti-spoofing filtering, which is also very important. Internet security is all about "the other guy." If one sizeable network is insecure, it WILL be used to abuse other networks. Please help us to secure the edge.</p>
+<p>
+For more information please refer to the maintainer <a href="http://www.team-cymru.org/bogon-reference.html" target="_blank">site</a>.
+</p>

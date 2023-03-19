@@ -1,0 +1,20 @@
+{
+	"ipset": "iblocklist_org_steam",
+	"started": 1440356421000,
+	"updated": 1528278706000,
+	"incomplete": 1,
+	"past": {
+		"hours": [  ],
+		"ips": [  ],
+		"total": 0
+	},
+	"current": {
+		"hours": [ 
+			2767,
+			26036 ],
+		"ips": [ 
+			8,
+			596440 ],
+		"total": 596448
+	}
+}

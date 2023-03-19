@@ -1,0 +1,38 @@
+[
+	{
+		"name": "bogons",
+		"category": "unroutable",
+		"ips": 592708608,
+		"common": 1
+	},
+	{
+		"name": "cidr_report_bogons",
+		"category": "unroutable",
+		"ips": 605125864,
+		"common": 1
+	},
+	{
+		"name": "firehol_level1",
+		"category": "attacks",
+		"ips": 614049280,
+		"common": 1
+	},
+	{
+		"name": "fullbogons",
+		"category": "unroutable",
+		"ips": 597121536,
+		"common": 1
+	},
+	{
+		"name": "iblocklist_cidr_report_bogons",
+		"category": "unroutable",
+		"ips": 603471216,
+		"common": 1
+	},
+	{
+		"name": "iblocklist_iana_private",
+		"category": "unroutable",
+		"ips": 51643646,
+		"common": 1
+	}
+]

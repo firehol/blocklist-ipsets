@@ -1,0 +1,20 @@
+{
+	"ipset": "iblocklist_org_ubisoft",
+	"started": 1440370835000,
+	"updated": 1528290704000,
+	"incomplete": 1,
+	"past": {
+		"hours": [  ],
+		"ips": [  ],
+		"total": 0
+	},
+	"current": {
+		"hours": [ 
+			2773,
+			26038 ],
+		"ips": [ 
+			4,
+			5304 ],
+		"total": 5308
+	}
+}

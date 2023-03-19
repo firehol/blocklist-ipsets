@@ -1,0 +1,46 @@
+[
+	{
+		"code": "AE",
+		"value": 1
+	},
+	{
+		"code": "DE",
+		"value": 2
+	},
+	{
+		"code": "FR",
+		"value": 3
+	},
+	{
+		"code": "GR",
+		"value": 1
+	},
+	{
+		"code": "HU",
+		"value": 1
+	},
+	{
+		"code": "IT",
+		"value": 3
+	},
+	{
+		"code": "OM",
+		"value": 1
+	},
+	{
+		"code": "RS",
+		"value": 1
+	},
+	{
+		"code": "RU",
+		"value": 10
+	},
+	{
+		"code": "TR",
+		"value": 5
+	},
+	{
+		"code": "US",
+		"value": 4
+	}
+]

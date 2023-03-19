@@ -1,0 +1,38 @@
+[
+	{
+		"code": "CA",
+		"value": 1792
+	},
+	{
+		"code": "CN",
+		"value": 131072
+	},
+	{
+		"code": "FR",
+		"value": 512
+	},
+	{
+		"code": "IL",
+		"value": 256
+	},
+	{
+		"code": "IN",
+		"value": 256
+	},
+	{
+		"code": "IT",
+		"value": 256
+	},
+	{
+		"code": "PR",
+		"value": 6400
+	},
+	{
+		"code": "US",
+		"value": 55703048
+	},
+	{
+		"code": "VI",
+		"value": 1536
+	}
+]

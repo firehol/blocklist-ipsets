@@ -1,0 +1,122 @@
+[
+	{
+		"name": "bambenek_banjori",
+		"category": "malware",
+		"ips": 76,
+		"common": 1
+	},
+	{
+		"name": "bambenek_bebloh",
+		"category": "malware",
+		"ips": 2,
+		"common": 1
+	},
+	{
+		"name": "bambenek_c2",
+		"category": "malware",
+		"ips": 333,
+		"common": 1
+	},
+	{
+		"name": "bambenek_dircrypt",
+		"category": "malware",
+		"ips": 1,
+		"common": 1
+	},
+	{
+		"name": "bambenek_hesperbot",
+		"category": "malware",
+		"ips": 1,
+		"common": 1
+	},
+	{
+		"name": "bambenek_pykspa",
+		"category": "malware",
+		"ips": 8,
+		"common": 1
+	},
+	{
+		"name": "bambenek_qakbot",
+		"category": "malware",
+		"ips": 1,
+		"common": 1
+	},
+	{
+		"name": "bambenek_ramnit",
+		"category": "malware",
+		"ips": 12,
+		"common": 1
+	},
+	{
+		"name": "bambenek_simda",
+		"category": "malware",
+		"ips": 120,
+		"common": 1
+	},
+	{
+		"name": "bambenek_suppobox",
+		"category": "malware",
+		"ips": 53,
+		"common": 1
+	},
+	{
+		"name": "bambenek_volatile",
+		"category": "malware",
+		"ips": 1,
+		"common": 1
+	},
+	{
+		"name": "dragon_http",
+		"category": "attacks",
+		"ips": 59136,
+		"common": 1
+	},
+	{
+		"name": "dshield_30d",
+		"category": "attacks",
+		"ips": 51200,
+		"common": 1
+	},
+	{
+		"name": "firehol_level1",
+		"category": "attacks",
+		"ips": 656088263,
+		"common": 1
+	},
+	{
+		"name": "firehol_level3",
+		"category": "attacks",
+		"ips": 162431,
+		"common": 1
+	},
+	{
+		"name": "firehol_webserver",
+		"category": "attacks",
+		"ips": 34488777,
+		"common": 1
+	},
+	{
+		"name": "hphosts_emd",
+		"category": "malware",
+		"ips": 24214,
+		"common": 1
+	},
+	{
+		"name": "hphosts_fsa",
+		"category": "reputation",
+		"ips": 32789,
+		"common": 1
+	},
+	{
+		"name": "hphosts_psh",
+		"category": "reputation",
+		"ips": 23536,
+		"common": 1
+	},
+	{
+		"name": "iblocklist_level3",
+		"category": "reputation",
+		"ips": 139023007,
+		"common": 1
+	}
+]

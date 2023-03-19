@@ -1,0 +1,20 @@
+{
+	"ipset": "iblocklist_isp_comcast",
+	"started": 1440333219000,
+	"updated": 1528264138000,
+	"incomplete": 0,
+	"past": {
+		"hours": [ 
+			24 ],
+		"ips": [ 
+			70006272 ],
+		"total": 70006272
+	},
+	"current": {
+		"hours": [ 
+			14730 ],
+		"ips": [ 
+			45121536 ],
+		"total": 45121536
+	}
+}

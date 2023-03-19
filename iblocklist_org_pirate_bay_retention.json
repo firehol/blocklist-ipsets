@@ -1,0 +1,18 @@
+{
+	"ipset": "iblocklist_org_pirate_bay",
+	"started": 1440355227000,
+	"updated": 1528263485000,
+	"incomplete": 1,
+	"past": {
+		"hours": [  ],
+		"ips": [  ],
+		"total": 0
+	},
+	"current": {
+		"hours": [ 
+			26052 ],
+		"ips": [ 
+			323 ],
+		"total": 323
+	}
+}

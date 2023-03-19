@@ -1,0 +1,20 @@
+{
+	"ipset": "bbcan177_ms3",
+	"started": 1462233096000,
+	"updated": 1528325354000,
+	"incomplete": 1,
+	"past": {
+		"hours": [  ],
+		"ips": [  ],
+		"total": 0
+	},
+	"current": {
+		"hours": [ 
+			18117,
+			18359 ],
+		"ips": [ 
+			1023,
+			30150671 ],
+		"total": 30151694
+	}
+}

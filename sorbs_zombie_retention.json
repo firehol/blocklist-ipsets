@@ -1,0 +1,22 @@
+{
+	"ipset": "sorbs_zombie",
+	"started": 1440031453000,
+	"updated": 1487265246000,
+	"incomplete": 1,
+	"past": {
+		"hours": [ 
+			2275 ],
+		"ips": [ 
+			2048 ],
+		"total": 2048
+	},
+	"current": {
+		"hours": [ 
+			8680,
+			13120 ],
+		"ips": [ 
+			61440,
+			1842436 ],
+		"total": 1903876
+	}
+}

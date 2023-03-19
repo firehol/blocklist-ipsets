@@ -1,0 +1,38 @@
+[
+	{
+		"code": "CA",
+		"value": 2816
+	},
+	{
+		"code": "DE",
+		"value": 256
+	},
+	{
+		"code": "FR",
+		"value": 768
+	},
+	{
+		"code": "GB",
+		"value": 98880
+	},
+	{
+		"code": "HK",
+		"value": 256
+	},
+	{
+		"code": "JP",
+		"value": 256
+	},
+	{
+		"code": "MX",
+		"value": 512
+	},
+	{
+		"code": "NL",
+		"value": 128
+	},
+	{
+		"code": "US",
+		"value": 16675584
+	}
+]

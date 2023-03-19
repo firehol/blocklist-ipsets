@@ -1,0 +1,26 @@
+{
+	"ipset": "ransomware_locky_ps",
+	"started": 1458596101000,
+	"updated": 1575803768000,
+	"incomplete": 0,
+	"past": {
+		"hours": [ 
+			645,
+			6830,
+			8190,
+			10908,
+			13302 ],
+		"ips": [ 
+			1,
+			1,
+			1,
+			2,
+			2 ],
+		"total": 7
+	},
+	"current": {
+		"hours": [  ],
+		"ips": [  ],
+		"total": 0
+	}
+}

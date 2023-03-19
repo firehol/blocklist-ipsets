@@ -1,0 +1,18 @@
+{
+	"ipset": "iblocklist_org_punkbuster",
+	"started": 1440295224000,
+	"updated": 1528315918000,
+	"incomplete": 1,
+	"past": {
+		"hours": [  ],
+		"ips": [  ],
+		"total": 0
+	},
+	"current": {
+		"hours": [ 
+			26066 ],
+		"ips": [ 
+			1 ],
+		"total": 1
+	}
+}

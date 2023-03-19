@@ -1,0 +1,22 @@
+{
+	"ipset": "esentire_inleet_ru",
+	"started": 1462233107000,
+	"updated": 1528285937000,
+	"incomplete": 1,
+	"past": {
+		"hours": [  ],
+		"ips": [  ],
+		"total": 0
+	},
+	"current": {
+		"hours": [ 
+			17428,
+			18324,
+			18348 ],
+		"ips": [ 
+			2,
+			4,
+			4213 ],
+		"total": 4219
+	}
+}

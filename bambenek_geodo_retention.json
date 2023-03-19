@@ -1,0 +1,20 @@
+{
+	"ipset": "bambenek_geodo",
+	"started": 1438282917000,
+	"updated": 1528329753000,
+	"incomplete": 0,
+	"past": {
+		"hours": [ 
+			27,
+			37 ],
+		"ips": [ 
+			1,
+			1 ],
+		"total": 2
+	},
+	"current": {
+		"hours": [  ],
+		"ips": [  ],
+		"total": 0
+	}
+}

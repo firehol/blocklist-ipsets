@@ -1,0 +1,314 @@
+[
+	{
+		"name": "bbcan177_ms1",
+		"category": "malware",
+		"ips": 5269976,
+		"common": 1
+	},
+	{
+		"name": "blocklist_net_ua",
+		"category": "abuse",
+		"ips": 20239,
+		"common": 1
+	},
+	{
+		"name": "blueliv_crimeserver_last",
+		"category": "attacks",
+		"ips": 24381,
+		"common": 4
+	},
+	{
+		"name": "blueliv_crimeserver_last_1d",
+		"category": "attacks",
+		"ips": 58312,
+		"common": 5
+	},
+	{
+		"name": "blueliv_crimeserver_last_2d",
+		"category": "attacks",
+		"ips": 71293,
+		"common": 5
+	},
+	{
+		"name": "blueliv_crimeserver_last_30d",
+		"category": "attacks",
+		"ips": 87551,
+		"common": 5
+	},
+	{
+		"name": "blueliv_crimeserver_last_7d",
+		"category": "attacks",
+		"ips": 77098,
+		"common": 5
+	},
+	{
+		"name": "blueliv_crimeserver_online",
+		"category": "attacks",
+		"ips": 15628,
+		"common": 2
+	},
+	{
+		"name": "blueliv_crimeserver_recent",
+		"category": "attacks",
+		"ips": 64076,
+		"common": 5
+	},
+	{
+		"name": "bogons",
+		"category": "unroutable",
+		"ips": 592708608,
+		"common": 1
+	},
+	{
+		"name": "cidr_report_bogons",
+		"category": "unroutable",
+		"ips": 611360064,
+		"common": 1
+	},
+	{
+		"name": "coinbl_hosts",
+		"category": "organizations",
+		"ips": 6678,
+		"common": 2
+	},
+	{
+		"name": "coinbl_hosts_browser",
+		"category": "organizations",
+		"ips": 750,
+		"common": 2
+	},
+	{
+		"name": "cta_cryptowall",
+		"category": "malware",
+		"ips": 1360,
+		"common": 6
+	},
+	{
+		"name": "datacenters",
+		"category": "organizations",
+		"ips": 95959476,
+		"common": 14
+	},
+	{
+		"name": "firehol_anonymous",
+		"category": "anonymizers",
+		"ips": 1149837,
+		"common": 1
+	},
+	{
+		"name": "firehol_level1",
+		"category": "attacks",
+		"ips": 619997517,
+		"common": 13
+	},
+	{
+		"name": "firehol_level4",
+		"category": "attacks",
+		"ips": 9398027,
+		"common": 1
+	},
+	{
+		"name": "firehol_proxies",
+		"category": "anonymizers",
+		"ips": 1136633,
+		"common": 1
+	},
+	{
+		"name": "firehol_webclient",
+		"category": "malware",
+		"ips": 2794,
+		"common": 24
+	},
+	{
+		"name": "firehol_webserver",
+		"category": "attacks",
+		"ips": 34671987,
+		"common": 5
+	},
+	{
+		"name": "fullbogons",
+		"category": "unroutable",
+		"ips": 598503424,
+		"common": 1
+	},
+	{
+		"name": "hphosts_ats",
+		"category": "organizations",
+		"ips": 13037,
+		"common": 4
+	},
+	{
+		"name": "hphosts_emd",
+		"category": "malware",
+		"ips": 59389,
+		"common": 9
+	},
+	{
+		"name": "hphosts_exp",
+		"category": "malware",
+		"ips": 196,
+		"common": 2
+	},
+	{
+		"name": "hphosts_fsa",
+		"category": "reputation",
+		"ips": 24764,
+		"common": 4
+	},
+	{
+		"name": "hphosts_grm",
+		"category": "spam",
+		"ips": 293,
+		"common": 1
+	},
+	{
+		"name": "hphosts_hfs",
+		"category": "abuse",
+		"ips": 245,
+		"common": 1
+	},
+	{
+		"name": "hphosts_hjk",
+		"category": "malware",
+		"ips": 152,
+		"common": 2
+	},
+	{
+		"name": "hphosts_mmt",
+		"category": "reputation",
+		"ips": 1058,
+		"common": 1
+	},
+	{
+		"name": "hphosts_pha",
+		"category": "reputation",
+		"ips": 2474,
+		"common": 1
+	},
+	{
+		"name": "hphosts_psh",
+		"category": "reputation",
+		"ips": 47303,
+		"common": 6
+	},
+	{
+		"name": "hphosts_wrz",
+		"category": "reputation",
+		"ips": 926,
+		"common": 2
+	},
+	{
+		"name": "iblocklist_bogons",
+		"category": "unroutable",
+		"ips": 643576487,
+		"common": 4
+	},
+	{
+		"name": "iblocklist_cidr_report_bogons",
+		"category": "unroutable",
+		"ips": 611360064,
+		"common": 1
+	},
+	{
+		"name": "iblocklist_edu",
+		"category": "organizations",
+		"ips": 227930176,
+		"common": 2
+	},
+	{
+		"name": "iblocklist_exclusions",
+		"category": "reputation",
+		"ips": 7488,
+		"common": 1
+	},
+	{
+		"name": "iblocklist_level2",
+		"category": "reputation",
+		"ips": 338112934,
+		"common": 1
+	},
+	{
+		"name": "iblocklist_level3",
+		"category": "reputation",
+		"ips": 137261010,
+		"common": 2
+	},
+	{
+		"name": "ip2proxy_px1lite",
+		"category": "anonymizers",
+		"ips": 1135174,
+		"common": 1
+	},
+	{
+		"name": "nullsecure",
+		"category": "reputation",
+		"ips": 29439,
+		"common": 1
+	},
+	{
+		"name": "pushing_inertia_blocklist",
+		"category": "reputation",
+		"ips": 34648204,
+		"common": 5
+	},
+	{
+		"name": "ransomware_feed",
+		"category": "malware",
+		"ips": 4595,
+		"common": 24
+	},
+	{
+		"name": "ransomware_locky_c2",
+		"category": "malware",
+		"ips": 331,
+		"common": 7
+	},
+	{
+		"name": "ransomware_locky_ps",
+		"category": "malware",
+		"ips": 2,
+		"common": 1
+	},
+	{
+		"name": "ransomware_rw",
+		"category": "malware",
+		"ips": 333,
+		"common": 12
+	},
+	{
+		"name": "ransomware_teslacrypt_ps",
+		"category": "malware",
+		"ips": 2,
+		"common": 2
+	},
+	{
+		"name": "ransomware_torrentlocker_ps",
+		"category": "malware",
+		"ips": 2,
+		"common": 2
+	},
+	{
+		"name": "sorbs_new_spam",
+		"category": "spam",
+		"ips": 35967,
+		"common": 1
+	},
+	{
+		"name": "sorbs_recent_spam",
+		"category": "spam",
+		"ips": 555438,
+		"common": 1
+	},
+	{
+		"name": "threatcrowd",
+		"category": "malware",
+		"ips": 977,
+		"common": 3
+	},
+	{
+		"name": "xforce_bccs",
+		"category": "malware",
+		"ips": 409,
+		"common": 2
+	}
+]

@@ -1,0 +1,18 @@
+{
+	"ipset": "iblocklist_isp_suddenlink",
+	"started": 1440342613000,
+	"updated": 1528330370000,
+	"incomplete": 1,
+	"past": {
+		"hours": [  ],
+		"ips": [  ],
+		"total": 0
+	},
+	"current": {
+		"hours": [ 
+			26056 ],
+		"ips": [ 
+			458752 ],
+		"total": 458752
+	}
+}

@@ -1,0 +1,42 @@
+[
+	{
+		"code": "AU",
+		"value": 67584
+	},
+	{
+		"code": "CA",
+		"value": 198912
+	},
+	{
+		"code": "CN",
+		"value": 200704
+	},
+	{
+		"code": "GB",
+		"value": 61440
+	},
+	{
+		"code": "IT",
+		"value": 65536
+	},
+	{
+		"code": "JP",
+		"value": 65536
+	},
+	{
+		"code": "MX",
+		"value": 4096
+	},
+	{
+		"code": "RO",
+		"value": 1024
+	},
+	{
+		"code": "US",
+		"value": 1040900
+	},
+	{
+		"code": "ZA",
+		"value": 196864
+	}
+]

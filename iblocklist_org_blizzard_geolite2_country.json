@@ -1,0 +1,42 @@
+[
+	{
+		"code": "CA",
+		"value": 1024
+	},
+	{
+		"code": "FR",
+		"value": 9216
+	},
+	{
+		"code": "GB",
+		"value": 256
+	},
+	{
+		"code": "IN",
+		"value": 1
+	},
+	{
+		"code": "IQ",
+		"value": 1
+	},
+	{
+		"code": "PR",
+		"value": 6808
+	},
+	{
+		"code": "SG",
+		"value": 512
+	},
+	{
+		"code": "SI",
+		"value": 1
+	},
+	{
+		"code": "US",
+		"value": 16781145
+	},
+	{
+		"code": "VI",
+		"value": 2600
+	}
+]

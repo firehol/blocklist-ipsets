@@ -1,0 +1,86 @@
+[
+	{
+		"name": "datacenters",
+		"category": "organizations",
+		"ips": 95959476,
+		"common": 5
+	},
+	{
+		"name": "esentire_14072015_com",
+		"category": "malware",
+		"ips": 579,
+		"common": 2
+	},
+	{
+		"name": "esentire_14072015q_com",
+		"category": "malware",
+		"ips": 575,
+		"common": 2
+	},
+	{
+		"name": "esentire_22072014a_com",
+		"category": "malware",
+		"ips": 1290,
+		"common": 2
+	},
+	{
+		"name": "esentire_22072014b_com",
+		"category": "malware",
+		"ips": 1288,
+		"common": 2
+	},
+	{
+		"name": "esentire_22072014c_com",
+		"category": "malware",
+		"ips": 1289,
+		"common": 2
+	},
+	{
+		"name": "esentire_atomictrivia_ru",
+		"category": "malware",
+		"ips": 7,
+		"common": 6
+	},
+	{
+		"name": "esentire_differentia_ru",
+		"category": "malware",
+		"ips": 12,
+		"common": 7
+	},
+	{
+		"name": "esentire_dorttlokolrt_com",
+		"category": "malware",
+		"ips": 23664,
+		"common": 1
+	},
+	{
+		"name": "esentire_inleet_ru",
+		"category": "malware",
+		"ips": 4219,
+		"common": 1
+	},
+	{
+		"name": "firehol_webserver",
+		"category": "attacks",
+		"ips": 60487780,
+		"common": 5
+	},
+	{
+		"name": "iblocklist_level1",
+		"category": "reputation",
+		"ips": 725144359,
+		"common": 1
+	},
+	{
+		"name": "iblocklist_level3",
+		"category": "reputation",
+		"ips": 137004603,
+		"common": 1
+	},
+	{
+		"name": "pushing_inertia_blocklist",
+		"category": "reputation",
+		"ips": 60462830,
+		"common": 5
+	}
+]

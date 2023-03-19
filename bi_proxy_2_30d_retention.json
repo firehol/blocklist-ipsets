@@ -1,0 +1,26 @@
+{
+	"ipset": "bi_proxy_2_30d",
+	"started": 1434667362000,
+	"updated": 1444361278000,
+	"incomplete": 0,
+	"past": {
+		"hours": [ 
+			704,
+			721,
+			746,
+			915,
+			939 ],
+		"ips": [ 
+			1,
+			73,
+			1,
+			3,
+			2 ],
+		"total": 80
+	},
+	"current": {
+		"hours": [  ],
+		"ips": [  ],
+		"total": 0
+	}
+}

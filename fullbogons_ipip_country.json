@@ -1,0 +1,162 @@
+[
+	{
+		"code": "AF",
+		"value": 2304
+	},
+	{
+		"code": "AFRINIC",
+		"value": 1356288
+	},
+	{
+		"code": "AO",
+		"value": 1280
+	},
+	{
+		"code": "APNIC",
+		"value": 1299200
+	},
+	{
+		"code": "ARIN",
+		"value": 131328
+	},
+	{
+		"code": "AU",
+		"value": 129792
+	},
+	{
+		"code": "BD",
+		"value": 11520
+	},
+	{
+		"code": "BR",
+		"value": 1024
+	},
+	{
+		"code": "BS",
+		"value": 1024
+	},
+	{
+		"code": "CA",
+		"value": 1024
+	},
+	{
+		"code": "CH",
+		"value": 1024
+	},
+	{
+		"code": "CN",
+		"value": 34560
+	},
+	{
+		"code": "DE",
+		"value": 256
+	},
+	{
+		"code": "EU",
+		"value": 65536
+	},
+	{
+		"code": "FJ",
+		"value": 1536
+	},
+	{
+		"code": "FR",
+		"value": 2048
+	},
+	{
+		"code": "GB",
+		"value": 1024
+	},
+	{
+		"code": "HK",
+		"value": 68096
+	},
+	{
+		"code": "ID",
+		"value": 3840
+	},
+	{
+		"code": "IN",
+		"value": 181247
+	},
+	{
+		"code": "IR",
+		"value": 1024
+	},
+	{
+		"code": "JP",
+		"value": 860928
+	},
+	{
+		"code": "KH",
+		"value": 3584
+	},
+	{
+		"code": "KR",
+		"value": 8192
+	},
+	{
+		"code": "LACNIC",
+		"value": 512
+	},
+	{
+		"code": "MM",
+		"value": 3072
+	},
+	{
+		"code": "MN",
+		"value": 1280
+	},
+	{
+		"code": "MU",
+		"value": 256
+	},
+	{
+		"code": "MY",
+		"value": 15104
+	},
+	{
+		"code": "NL",
+		"value": 1792
+	},
+	{
+		"code": "NP",
+		"value": 4096
+	},
+	{
+		"code": "NZ",
+		"value": 16640
+	},
+	{
+		"code": "PH",
+		"value": 18176
+	},
+	{
+		"code": "PK",
+		"value": 5376
+	},
+	{
+		"code": "SG",
+		"value": 17153
+	},
+	{
+		"code": "TH",
+		"value": 9216
+	},
+	{
+		"code": "TL",
+		"value": 1024
+	},
+	{
+		"code": "TW",
+		"value": 46848
+	},
+	{
+		"code": "US",
+		"value": 104192
+	},
+	{
+		"code": "VU",
+		"value": 512
+	}
+]
